@@ -1,0 +1,1999 @@
+{
+  "nodes": [
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "type": "file",
+      "name": "build_findings.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "summary": "build_findings.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:_read_cross_links",
+      "type": "function",
+      "name": "_read_cross_links",
+      "filePath": "optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "lineRange": [
+        40,
+        42
+      ],
+      "summary": "_read_cross_links 是 build_findings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:build_findings",
+      "type": "function",
+      "name": "build_findings",
+      "filePath": "optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "lineRange": [
+        45,
+        194
+      ],
+      "summary": "build_findings 是 build_findings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "lineRange": [
+        197,
+        217
+      ],
+      "summary": "main 是 build_findings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "type": "file",
+      "name": "entity_resolution.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "summary": "entity_resolution.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_read_csv",
+      "type": "function",
+      "name": "_read_csv",
+      "filePath": "optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "lineRange": [
+        41,
+        53
+      ],
+      "summary": "_read_csv 是 entity_resolution.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_build_index",
+      "type": "function",
+      "name": "_build_index",
+      "filePath": "optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "lineRange": [
+        56,
+        68
+      ],
+      "summary": "_build_index 是 entity_resolution.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_emit",
+      "type": "function",
+      "name": "_emit",
+      "filePath": "optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "lineRange": [
+        71,
+        105
+      ],
+      "summary": "_emit 是 entity_resolution.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:resolve",
+      "type": "function",
+      "name": "resolve",
+      "filePath": "optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "lineRange": [
+        108,
+        178
+      ],
+      "summary": "resolve 是 entity_resolution.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "lineRange": [
+        181,
+        224
+      ],
+      "summary": "main 是 entity_resolution.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "type": "file",
+      "name": "fetch_courtlistener.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "summary": "fetch_courtlistener.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "lineRange": [
+        46,
+        115
+      ],
+      "summary": "fetch 是 fetch_courtlistener.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "lineRange": [
+        118,
+        145
+      ],
+      "summary": "main 是 fetch_courtlistener.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "type": "file",
+      "name": "fetch_gdelt.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "summary": "fetch_gdelt.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "lineRange": [
+        36,
+        122
+      ],
+      "summary": "fetch 是 fetch_gdelt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "lineRange": [
+        125,
+        157
+      ],
+      "summary": "main 是 fetch_gdelt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "type": "file",
+      "name": "fetch_icij_offshore.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "summary": "fetch_icij_offshore.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_cache_dir",
+      "type": "function",
+      "name": "_cache_dir",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        47,
+        51
+      ],
+      "summary": "_cache_dir 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_download",
+      "type": "function",
+      "name": "_download",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        54,
+        77
+      ],
+      "summary": "_download 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_open_csv",
+      "type": "function",
+      "name": "_open_csv",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        80,
+        85
+      ],
+      "summary": "_open_csv 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_match",
+      "type": "function",
+      "name": "_match",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        88,
+        89
+      ],
+      "summary": "_match 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_normalize_query",
+      "type": "function",
+      "name": "_normalize_query",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        92,
+        96
+      ],
+      "summary": "_normalize_query 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        99,
+        196
+      ],
+      "summary": "fetch 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "lineRange": [
+        199,
+        230
+      ],
+      "summary": "main 是 fetch_icij_offshore.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "type": "file",
+      "name": "fetch_nyc_acris.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "summary": "fetch_nyc_acris.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:_filing_url",
+      "type": "function",
+      "name": "_filing_url",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "lineRange": [
+        63,
+        68
+      ],
+      "summary": "_filing_url 是 fetch_nyc_acris.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "lineRange": [
+        71,
+        170
+      ],
+      "summary": "fetch 是 fetch_nyc_acris.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "lineRange": [
+        173,
+        199
+      ],
+      "summary": "main 是 fetch_nyc_acris.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "type": "file",
+      "name": "fetch_ofac_sdn.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "summary": "fetch_ofac_sdn.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:_read_csv",
+      "type": "function",
+      "name": "_read_csv",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "lineRange": [
+        63,
+        73
+      ],
+      "summary": "_read_csv 是 fetch_ofac_sdn.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:_strip_quotes",
+      "type": "function",
+      "name": "_strip_quotes",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "lineRange": [
+        76,
+        82
+      ],
+      "summary": "_strip_quotes 是 fetch_ofac_sdn.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "lineRange": [
+        85,
+        156
+      ],
+      "summary": "fetch 是 fetch_ofac_sdn.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "lineRange": [
+        159,
+        171
+      ],
+      "summary": "main 是 fetch_ofac_sdn.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "type": "file",
+      "name": "fetch_opencorporates.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "summary": "fetch_opencorporates.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:_via_api",
+      "type": "function",
+      "name": "_via_api",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "lineRange": [
+        43,
+        56
+      ],
+      "summary": "_via_api 是 fetch_opencorporates.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:_via_html",
+      "type": "function",
+      "name": "_via_html",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "lineRange": [
+        59,
+        86
+      ],
+      "summary": "_via_html 是 fetch_opencorporates.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "lineRange": [
+        89,
+        165
+      ],
+      "summary": "fetch 是 fetch_opencorporates.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "lineRange": [
+        168,
+        187
+      ],
+      "summary": "main 是 fetch_opencorporates.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "type": "file",
+      "name": "fetch_sec_edgar.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "summary": "fetch_sec_edgar.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:_ua",
+      "type": "function",
+      "name": "_ua",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "lineRange": [
+        38,
+        45
+      ],
+      "summary": "_ua 是 fetch_sec_edgar.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:_resolve_cik",
+      "type": "function",
+      "name": "_resolve_cik",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "lineRange": [
+        48,
+        64
+      ],
+      "summary": "_resolve_cik 是 fetch_sec_edgar.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "lineRange": [
+        67,
+        166
+      ],
+      "summary": "fetch 是 fetch_sec_edgar.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "lineRange": [
+        169,
+        180
+      ],
+      "summary": "main 是 fetch_sec_edgar.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "type": "file",
+      "name": "fetch_senate_ld.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "summary": "fetch_senate_ld.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "lineRange": [
+        38,
+        119
+      ],
+      "summary": "fetch 是 fetch_senate_ld.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "lineRange": [
+        122,
+        142
+      ],
+      "summary": "main 是 fetch_senate_ld.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "type": "file",
+      "name": "fetch_usaspending.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "summary": "fetch_usaspending.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:_post",
+      "type": "function",
+      "name": "_post",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "lineRange": [
+        58,
+        66
+      ],
+      "summary": "_post 是 fetch_usaspending.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "lineRange": [
+        69,
+        143
+      ],
+      "summary": "fetch 是 fetch_usaspending.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "lineRange": [
+        146,
+        166
+      ],
+      "summary": "main 是 fetch_usaspending.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "type": "file",
+      "name": "fetch_wayback.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "summary": "fetch_wayback.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wayback.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "lineRange": [
+        32,
+        98
+      ],
+      "summary": "fetch 是 fetch_wayback.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wayback.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "lineRange": [
+        101,
+        138
+      ],
+      "summary": "main 是 fetch_wayback.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "type": "file",
+      "name": "fetch_wikipedia.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "summary": "fetch_wikipedia.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wp_search",
+      "type": "function",
+      "name": "_wp_search",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "lineRange": [
+        45,
+        66
+      ],
+      "summary": "_wp_search 是 fetch_wikipedia.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wp_summary",
+      "type": "function",
+      "name": "_wp_summary",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "lineRange": [
+        69,
+        76
+      ],
+      "summary": "_wp_summary 是 fetch_wikipedia.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wd_lookup_by_qid",
+      "type": "function",
+      "name": "_wd_lookup_by_qid",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "lineRange": [
+        79,
+        175
+      ],
+      "summary": "_wd_lookup_by_qid 是 fetch_wikipedia.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wd_qid_for_title",
+      "type": "function",
+      "name": "_wd_qid_for_title",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "lineRange": [
+        178,
+        200
+      ],
+      "summary": "_wd_qid_for_title 是 fetch_wikipedia.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "lineRange": [
+        203,
+        246
+      ],
+      "summary": "fetch 是 fetch_wikipedia.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "lineRange": [
+        249,
+        262
+      ],
+      "summary": "main 是 fetch_wikipedia.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "type": "file",
+      "name": "timing_analysis.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "summary": "timing_analysis.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:parse_date",
+      "type": "function",
+      "name": "parse_date",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "lineRange": [
+        30,
+        39
+      ],
+      "summary": "parse_date 是 timing_analysis.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_read",
+      "type": "function",
+      "name": "_read",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "lineRange": [
+        42,
+        44
+      ],
+      "summary": "_read 是 timing_analysis.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_nearest_distance",
+      "type": "function",
+      "name": "_nearest_distance",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "_nearest_distance 是 timing_analysis.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_permute",
+      "type": "function",
+      "name": "_permute",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "lineRange": [
+        52,
+        66
+      ],
+      "summary": "_permute 是 timing_analysis.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:analyze",
+      "type": "function",
+      "name": "analyze",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "lineRange": [
+        69,
+        202
+      ],
+      "summary": "analyze 是 timing_analysis.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "lineRange": [
+        205,
+        248
+      ],
+      "summary": "main 是 timing_analysis.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/research/osint-investigation/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/osint-investigation/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/research/osint-investigation/templates/source-template.md",
+      "type": "document",
+      "name": "source-template.md",
+      "filePath": "optional-skills/research/osint-investigation/templates/source-template.md",
+      "summary": "source-template.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/research/parallel-cli/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/parallel-cli/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/research/qmd/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/qmd/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/research/scrapling/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/scrapling/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/searxng-search/scripts/searxng.sh",
+      "type": "file",
+      "name": "searxng.sh",
+      "filePath": "optional-skills/research/searxng-search/scripts/searxng.sh",
+      "summary": "searxng.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "document:optional-skills/research/searxng-search/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/searxng-search/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/1password/references/cli-examples.md",
+      "type": "document",
+      "name": "cli-examples.md",
+      "filePath": "optional-skills/security/1password/references/cli-examples.md",
+      "summary": "cli-examples.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/1password/references/get-started.md",
+      "type": "document",
+      "name": "get-started.md",
+      "filePath": "optional-skills/security/1password/references/get-started.md",
+      "summary": "get-started.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/1password/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/security/1password/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/security/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:_read_cross_links",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:_read_cross_links",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:build_findings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:build_findings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/build_findings.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/build_findings.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_read_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_read_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_build_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_build_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_emit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:_emit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/entity_resolution.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/entity_resolution.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_courtlistener.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_gdelt.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_download",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_open_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_open_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_normalize_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:_normalize_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_icij_offshore.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:_filing_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:_filing_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_nyc_acris.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:_read_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:_read_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:_strip_quotes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:_strip_quotes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_ofac_sdn.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:_via_api",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:_via_api",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:_via_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:_via_html",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_opencorporates.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:_ua",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:_ua",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:_resolve_cik",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:_resolve_cik",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_sec_edgar.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_senate_ld.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:_post",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:_post",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_usaspending.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wayback.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wayback.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wayback.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wayback.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wayback.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wp_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wp_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wp_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wp_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wd_lookup_by_qid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wd_lookup_by_qid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wd_qid_for_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:_wd_qid_for_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/fetch_wikipedia.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:parse_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:parse_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_read",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_read",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_nearest_distance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_nearest_distance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_permute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:_permute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:analyze",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:analyze",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/timing_analysis.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/timing_analysis.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

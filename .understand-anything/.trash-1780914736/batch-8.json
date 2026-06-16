@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "document:docker/SOUL.md",
+      "type": "document",
+      "name": "SOUL.md",
+      "filePath": "docker/SOUL.md",
+      "summary": "SOUL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "containerization"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:docker/entrypoint.sh",
+      "type": "file",
+      "name": "entrypoint.sh",
+      "filePath": "docker/entrypoint.sh",
+      "summary": "entrypoint.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "containerization",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:docker/hermes-exec-shim.sh",
+      "type": "file",
+      "name": "hermes-exec-shim.sh",
+      "filePath": "docker/hermes-exec-shim.sh",
+      "summary": "hermes-exec-shim.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "containerization",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:docker/main-wrapper.sh",
+      "type": "file",
+      "name": "main-wrapper.sh",
+      "filePath": "docker/main-wrapper.sh",
+      "summary": "main-wrapper.sh 是 shell 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "containerization",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:docker/stage2-hook.sh",
+      "type": "file",
+      "name": "stage2-hook.sh",
+      "filePath": "docker/stage2-hook.sh",
+      "summary": "stage2-hook.sh 是 shell 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "containerization",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    }
+  ],
+  "edges": []
+}

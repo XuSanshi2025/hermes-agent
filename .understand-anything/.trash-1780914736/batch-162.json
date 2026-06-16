@@ -1,0 +1,3675 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/lib/chat-messages.ts",
+      "type": "file",
+      "name": "chat-messages.ts",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "summary": "chat-messages.ts 是 typescript 源文件，包含 39 个函数、13 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:textPart",
+      "type": "function",
+      "name": "textPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "textPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:reasoningPart",
+      "type": "function",
+      "name": "reasoningPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        70,
+        72
+      ],
+      "summary": "reasoningPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:renderMediaTags",
+      "type": "function",
+      "name": "renderMediaTags",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        91,
+        100
+      ],
+      "summary": "renderMediaTags 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:assistantTextPart",
+      "type": "function",
+      "name": "assistantTextPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        102,
+        104
+      ],
+      "summary": "assistantTextPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:chatMessageText",
+      "type": "function",
+      "name": "chatMessageText",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        106,
+        111
+      ],
+      "summary": "chatMessageText 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:textFromUnknown",
+      "type": "function",
+      "name": "textFromUnknown",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        117,
+        151
+      ],
+      "summary": "textFromUnknown 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:displayContentForMessage",
+      "type": "function",
+      "name": "displayContentForMessage",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        153,
+        171
+      ],
+      "summary": "displayContentForMessage 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:appendTextPart",
+      "type": "function",
+      "name": "appendTextPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        173,
+        186
+      ],
+      "summary": "appendTextPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:appendAssistantTextPart",
+      "type": "function",
+      "name": "appendAssistantTextPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        188,
+        204
+      ],
+      "summary": "appendAssistantTextPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:appendReasoningPart",
+      "type": "function",
+      "name": "appendReasoningPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        206,
+        219
+      ],
+      "summary": "appendReasoningPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:hasToolPart",
+      "type": "function",
+      "name": "hasToolPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        221,
+        223
+      ],
+      "summary": "hasToolPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:firstStringField",
+      "type": "function",
+      "name": "firstStringField",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        237,
+        247
+      ],
+      "summary": "firstStringField 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:toolPartMatchValues",
+      "type": "function",
+      "name": "toolPartMatchValues",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        266,
+        277
+      ],
+      "summary": "toolPartMatchValues 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:findToolPartIndex",
+      "type": "function",
+      "name": "findToolPartIndex",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        289,
+        355
+      ],
+      "summary": "findToolPartIndex 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:carryTodos",
+      "type": "function",
+      "name": "carryTodos",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        359,
+        379
+      ],
+      "summary": "carryTodos 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:toolArgs",
+      "type": "function",
+      "name": "toolArgs",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        381,
+        392
+      ],
+      "summary": "toolArgs 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:toolResult",
+      "type": "function",
+      "name": "toolResult",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        394,
+        411
+      ],
+      "summary": "toolResult 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:upsertToolPart",
+      "type": "function",
+      "name": "upsertToolPart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        413,
+        450
+      ],
+      "summary": "upsertToolPart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:parseMaybeJsonObject",
+      "type": "function",
+      "name": "parseMaybeJsonObject",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        456,
+        472
+      ],
+      "summary": "parseMaybeJsonObject 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:firstNonEmptyObject",
+      "type": "function",
+      "name": "firstNonEmptyObject",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        474,
+        484
+      ],
+      "summary": "firstNonEmptyObject 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:liveToolArgs",
+      "type": "function",
+      "name": "liveToolArgs",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        486,
+        506
+      ],
+      "summary": "liveToolArgs 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:parseStoredToolResult",
+      "type": "function",
+      "name": "parseStoredToolResult",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        508,
+        524
+      ],
+      "summary": "parseStoredToolResult 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:toolPartFromStoredCall",
+      "type": "function",
+      "name": "toolPartFromStoredCall",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        526,
+        544
+      ],
+      "summary": "toolPartFromStoredCall 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:applyStoredToolResult",
+      "type": "function",
+      "name": "applyStoredToolResult",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        546,
+        581
+      ],
+      "summary": "applyStoredToolResult 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:applyStoredToolResultToParts",
+      "type": "function",
+      "name": "applyStoredToolResultToParts",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        583,
+        607
+      ],
+      "summary": "applyStoredToolResultToParts 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:storedToolMessagePart",
+      "type": "function",
+      "name": "storedToolMessagePart",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        609,
+        623
+      ],
+      "summary": "storedToolMessagePart 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:withUniqueToolCallIds",
+      "type": "function",
+      "name": "withUniqueToolCallIds",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        625,
+        659
+      ],
+      "summary": "withUniqueToolCallIds 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:toChatMessages",
+      "type": "function",
+      "name": "toChatMessages",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        661,
+        810
+      ],
+      "summary": "toChatMessages 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:preserveLocalAssistantErrors",
+      "type": "function",
+      "name": "preserveLocalAssistantErrors",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        812,
+        881
+      ],
+      "summary": "preserveLocalAssistantErrors 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-messages.ts:branchGroupForUser",
+      "type": "function",
+      "name": "branchGroupForUser",
+      "filePath": "apps/desktop/src/lib/chat-messages.ts",
+      "lineRange": [
+        883,
+        885
+      ],
+      "summary": "branchGroupForUser 是 chat-messages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/chat-runtime.test.ts",
+      "type": "file",
+      "name": "chat-runtime.test.ts",
+      "filePath": "apps/desktop/src/lib/chat-runtime.test.ts",
+      "summary": "chat-runtime.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "type": "file",
+      "name": "chat-runtime.ts",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "summary": "chat-runtime.ts 是 typescript 源文件，包含 15 个函数、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:createClientSessionState",
+      "type": "function",
+      "name": "createClientSessionState",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        34,
+        52
+      ],
+      "summary": "createClientSessionState 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:sessionTitle",
+      "type": "function",
+      "name": "sessionTitle",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        54,
+        56
+      ],
+      "summary": "sessionTitle 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:coerceGatewayText",
+      "type": "function",
+      "name": "coerceGatewayText",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        58,
+        110
+      ],
+      "summary": "coerceGatewayText 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:coerceThinkingText",
+      "type": "function",
+      "name": "coerceThinkingText",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        122,
+        126
+      ],
+      "summary": "coerceThinkingText 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:isImageGenerationTool",
+      "type": "function",
+      "name": "isImageGenerationTool",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        128,
+        130
+      ],
+      "summary": "isImageGenerationTool 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:contextPath",
+      "type": "function",
+      "name": "contextPath",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        132,
+        140
+      ],
+      "summary": "contextPath 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:attachmentId",
+      "type": "function",
+      "name": "attachmentId",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        142,
+        144
+      ],
+      "summary": "attachmentId 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:pathLabel",
+      "type": "function",
+      "name": "pathLabel",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        146,
+        148
+      ],
+      "summary": "pathLabel 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:attachmentDisplayText",
+      "type": "function",
+      "name": "attachmentDisplayText",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        150,
+        166
+      ],
+      "summary": "attachmentDisplayText 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:personalityNamesFromConfig",
+      "type": "function",
+      "name": "personalityNamesFromConfig",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        168,
+        176
+      ],
+      "summary": "personalityNamesFromConfig 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:normalizePersonalityValue",
+      "type": "function",
+      "name": "normalizePersonalityValue",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        178,
+        182
+      ],
+      "summary": "normalizePersonalityValue 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:parseSlashCommand",
+      "type": "function",
+      "name": "parseSlashCommand",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        184,
+        188
+      ],
+      "summary": "parseSlashCommand 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:parseCommandDispatch",
+      "type": "function",
+      "name": "parseCommandDispatch",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        190,
+        216
+      ],
+      "summary": "parseCommandDispatch 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:quickModelOptions",
+      "type": "function",
+      "name": "quickModelOptions",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        218,
+        284
+      ],
+      "summary": "quickModelOptions 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/chat-runtime.ts:toRuntimeMessage",
+      "type": "function",
+      "name": "toRuntimeMessage",
+      "filePath": "apps/desktop/src/lib/chat-runtime.ts",
+      "lineRange": [
+        286,
+        335
+      ],
+      "summary": "toRuntimeMessage 是 chat-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/clipboard.ts",
+      "type": "file",
+      "name": "clipboard.ts",
+      "filePath": "apps/desktop/src/lib/clipboard.ts",
+      "summary": "clipboard.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/clipboard.ts:installClipboardShim",
+      "type": "function",
+      "name": "installClipboardShim",
+      "filePath": "apps/desktop/src/lib/clipboard.ts",
+      "lineRange": [
+        6,
+        28
+      ],
+      "summary": "installClipboardShim 是 clipboard.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/commit-changelog.test.ts",
+      "type": "file",
+      "name": "commit-changelog.test.ts",
+      "filePath": "apps/desktop/src/lib/commit-changelog.test.ts",
+      "summary": "commit-changelog.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/commit-changelog.ts",
+      "type": "file",
+      "name": "commit-changelog.ts",
+      "filePath": "apps/desktop/src/lib/commit-changelog.ts",
+      "summary": "commit-changelog.ts 是 typescript 源文件，包含 3 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/commit-changelog.ts:parseCommitHeader",
+      "type": "function",
+      "name": "parseCommitHeader",
+      "filePath": "apps/desktop/src/lib/commit-changelog.ts",
+      "lineRange": [
+        82,
+        101
+      ],
+      "summary": "parseCommitHeader 是 commit-changelog.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/commit-changelog.ts:tidySubject",
+      "type": "function",
+      "name": "tidySubject",
+      "filePath": "apps/desktop/src/lib/commit-changelog.ts",
+      "lineRange": [
+        103,
+        114
+      ],
+      "summary": "tidySubject 是 commit-changelog.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/commit-changelog.ts:buildCommitChangelog",
+      "type": "function",
+      "name": "buildCommitChangelog",
+      "filePath": "apps/desktop/src/lib/commit-changelog.ts",
+      "lineRange": [
+        121,
+        177
+      ],
+      "summary": "buildCommitChangelog 是 commit-changelog.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/desktop-slash-commands.test.ts",
+      "type": "file",
+      "name": "desktop-slash-commands.test.ts",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.test.ts",
+      "summary": "desktop-slash-commands.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "type": "file",
+      "name": "desktop-slash-commands.ts",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "summary": "desktop-slash-commands.ts 是 typescript 源文件，包含 11 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:canonicalDesktopSlashCommand",
+      "type": "function",
+      "name": "canonicalDesktopSlashCommand",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        137,
+        141
+      ],
+      "summary": "canonicalDesktopSlashCommand 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashCommand",
+      "type": "function",
+      "name": "isDesktopSlashCommand",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        143,
+        152
+      ],
+      "summary": "isDesktopSlashCommand 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashExtensionCommand",
+      "type": "function",
+      "name": "isDesktopSlashExtensionCommand",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        162,
+        170
+      ],
+      "summary": "isDesktopSlashExtensionCommand 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashSuggestion",
+      "type": "function",
+      "name": "isDesktopSlashSuggestion",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        172,
+        184
+      ],
+      "summary": "isDesktopSlashSuggestion 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isModelPickerCommand",
+      "type": "function",
+      "name": "isModelPickerCommand",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        191,
+        196
+      ],
+      "summary": "isModelPickerCommand 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSlashUnavailableMessage",
+      "type": "function",
+      "name": "desktopSlashUnavailableMessage",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        198,
+        223
+      ],
+      "summary": "desktopSlashUnavailableMessage 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSlashDescription",
+      "type": "function",
+      "name": "desktopSlashDescription",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        225,
+        229
+      ],
+      "summary": "desktopSlashDescription 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSkinSlashCompletions",
+      "type": "function",
+      "name": "desktopSkinSlashCompletions",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        231,
+        261
+      ],
+      "summary": "desktopSkinSlashCompletions 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/desktop-slash-commands.ts:filterDesktopCommandsCatalog",
+      "type": "function",
+      "name": "filterDesktopCommandsCatalog",
+      "filePath": "apps/desktop/src/lib/desktop-slash-commands.ts",
+      "lineRange": [
+        263,
+        282
+      ],
+      "summary": "filterDesktopCommandsCatalog 是 desktop-slash-commands.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/embedded-images.test.ts",
+      "type": "file",
+      "name": "embedded-images.test.ts",
+      "filePath": "apps/desktop/src/lib/embedded-images.test.ts",
+      "summary": "embedded-images.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/embedded-images.ts",
+      "type": "file",
+      "name": "embedded-images.ts",
+      "filePath": "apps/desktop/src/lib/embedded-images.ts",
+      "summary": "embedded-images.ts 是 typescript 源文件，包含 4 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/embedded-images.ts:dataUrlToBlob",
+      "type": "function",
+      "name": "dataUrlToBlob",
+      "filePath": "apps/desktop/src/lib/embedded-images.ts",
+      "lineRange": [
+        13,
+        32
+      ],
+      "summary": "dataUrlToBlob 是 embedded-images.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/embedded-images.ts:extractEmbeddedImages",
+      "type": "function",
+      "name": "extractEmbeddedImages",
+      "filePath": "apps/desktop/src/lib/embedded-images.ts",
+      "lineRange": [
+        34,
+        52
+      ],
+      "summary": "extractEmbeddedImages 是 embedded-images.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/embedded-images.ts:embeddedImageUrls",
+      "type": "function",
+      "name": "embeddedImageUrls",
+      "filePath": "apps/desktop/src/lib/embedded-images.ts",
+      "lineRange": [
+        54,
+        56
+      ],
+      "summary": "embeddedImageUrls 是 embedded-images.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/embedded-images.ts:textWithoutEmbeddedImages",
+      "type": "function",
+      "name": "textWithoutEmbeddedImages",
+      "filePath": "apps/desktop/src/lib/embedded-images.ts",
+      "lineRange": [
+        58,
+        60
+      ],
+      "summary": "textWithoutEmbeddedImages 是 embedded-images.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/external-link.test.tsx",
+      "type": "file",
+      "name": "external-link.test.tsx",
+      "filePath": "apps/desktop/src/lib/external-link.test.tsx",
+      "summary": "external-link.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/external-link.tsx",
+      "type": "file",
+      "name": "external-link.tsx",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "summary": "external-link.tsx 是 typescript 源文件，包含 16 个函数、13 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:normalizeExternalUrl",
+      "type": "function",
+      "name": "normalizeExternalUrl",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        22,
+        30
+      ],
+      "summary": "normalizeExternalUrl 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:titleCacheKey",
+      "type": "function",
+      "name": "titleCacheKey",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        40,
+        51
+      ],
+      "summary": "titleCacheKey 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:shortHostLabel",
+      "type": "function",
+      "name": "shortHostLabel",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "shortHostLabel 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:hostPathLabel",
+      "type": "function",
+      "name": "hostPathLabel",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        57,
+        68
+      ],
+      "summary": "hostPathLabel 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:cleanSlug",
+      "type": "function",
+      "name": "cleanSlug",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        70,
+        82
+      ],
+      "summary": "cleanSlug 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:urlSlugTitleLabel",
+      "type": "function",
+      "name": "urlSlugTitleLabel",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        84,
+        106
+      ],
+      "summary": "urlSlugTitleLabel 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:isTitleFetchable",
+      "type": "function",
+      "name": "isTitleFetchable",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        108,
+        116
+      ],
+      "summary": "isTitleFetchable 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:fetchLinkTitle",
+      "type": "function",
+      "name": "fetchLinkTitle",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        118,
+        159
+      ],
+      "summary": "fetchLinkTitle 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:useLinkTitle",
+      "type": "function",
+      "name": "useLinkTitle",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        161,
+        189
+      ],
+      "summary": "useLinkTitle 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:openExternalLink",
+      "type": "function",
+      "name": "openExternalLink",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        191,
+        195
+      ],
+      "summary": "openExternalLink 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:ExternalLinkIcon",
+      "type": "function",
+      "name": "ExternalLinkIcon",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        203,
+        205
+      ],
+      "summary": "ExternalLinkIcon 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:ExternalLink",
+      "type": "function",
+      "name": "ExternalLink",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        207,
+        240
+      ],
+      "summary": "ExternalLink 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:PrettyLink",
+      "type": "function",
+      "name": "PrettyLink",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        248,
+        258
+      ],
+      "summary": "PrettyLink 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:LinkifiedText",
+      "type": "function",
+      "name": "LinkifiedText",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        266,
+        297
+      ],
+      "summary": "LinkifiedText 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/external-link.tsx:__resetLinkTitleCache",
+      "type": "function",
+      "name": "__resetLinkTitleCache",
+      "filePath": "apps/desktop/src/lib/external-link.tsx",
+      "lineRange": [
+        299,
+        303
+      ],
+      "summary": "__resetLinkTitleCache 是 external-link.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/gateway-events.ts",
+      "type": "file",
+      "name": "gateway-events.ts",
+      "filePath": "apps/desktop/src/lib/gateway-events.ts",
+      "summary": "gateway-events.ts 是 typescript 源文件，包含 3 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/gateway-events.ts:gatewayEventCompletedFileDiff",
+      "type": "function",
+      "name": "gatewayEventCompletedFileDiff",
+      "filePath": "apps/desktop/src/lib/gateway-events.ts",
+      "lineRange": [
+        14,
+        22
+      ],
+      "summary": "gatewayEventCompletedFileDiff 是 gateway-events.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/gateway-events.ts:buildGatewayLogItems",
+      "type": "function",
+      "name": "buildGatewayLogItems",
+      "filePath": "apps/desktop/src/lib/gateway-events.ts",
+      "lineRange": [
+        24,
+        42
+      ],
+      "summary": "buildGatewayLogItems 是 gateway-events.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/gateway-ws-url.test.ts",
+      "type": "file",
+      "name": "gateway-ws-url.test.ts",
+      "filePath": "apps/desktop/src/lib/gateway-ws-url.test.ts",
+      "summary": "gateway-ws-url.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "type": "file",
+      "name": "gateway-ws-url.ts",
+      "filePath": "apps/desktop/src/lib/gateway-ws-url.ts",
+      "summary": "gateway-ws-url.ts 是 typescript 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/gateway-ws-url.ts:isGatewayReauthRequired",
+      "type": "function",
+      "name": "isGatewayReauthRequired",
+      "filePath": "apps/desktop/src/lib/gateway-ws-url.ts",
+      "lineRange": [
+        43,
+        48
+      ],
+      "summary": "isGatewayReauthRequired 是 gateway-ws-url.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/gateway-ws-url.ts:resolveGatewayWsUrl",
+      "type": "function",
+      "name": "resolveGatewayWsUrl",
+      "filePath": "apps/desktop/src/lib/gateway-ws-url.ts",
+      "lineRange": [
+        50,
+        91
+      ],
+      "summary": "resolveGatewayWsUrl 是 gateway-ws-url.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/lib/gateway-ws-url.ts:GatewayReauthRequiredError",
+      "type": "class",
+      "name": "GatewayReauthRequiredError",
+      "filePath": "apps/desktop/src/lib/gateway-ws-url.ts",
+      "lineRange": [
+        34,
+        41
+      ],
+      "summary": "GatewayReauthRequiredError 是 gateway-ws-url.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/haptics.ts",
+      "type": "file",
+      "name": "haptics.ts",
+      "filePath": "apps/desktop/src/lib/haptics.ts",
+      "summary": "haptics.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/haptics.ts:registerHapticTrigger",
+      "type": "function",
+      "name": "registerHapticTrigger",
+      "filePath": "apps/desktop/src/lib/haptics.ts",
+      "lineRange": [
+        99,
+        101
+      ],
+      "summary": "registerHapticTrigger 是 haptics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/haptics.ts:triggerHaptic",
+      "type": "function",
+      "name": "triggerHaptic",
+      "filePath": "apps/desktop/src/lib/haptics.ts",
+      "lineRange": [
+        103,
+        129
+      ],
+      "summary": "triggerHaptic 是 haptics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/icons.ts",
+      "type": "file",
+      "name": "icons.ts",
+      "filePath": "apps/desktop/src/lib/icons.ts",
+      "summary": "icons.ts 是 typescript 源文件，包含 99 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "type": "file",
+      "name": "incremental-external-store-runtime.ts",
+      "filePath": "apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "summary": "incremental-external-store-runtime.ts 是 typescript 源文件，包含 4 个函数、2 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:shallowEqual",
+      "type": "function",
+      "name": "shallowEqual",
+      "filePath": "apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "lineRange": [
+        18,
+        32
+      ],
+      "summary": "shallowEqual 是 incremental-external-store-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:syncRepositoryIncrementally",
+      "type": "function",
+      "name": "syncRepositoryIncrementally",
+      "filePath": "apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "lineRange": [
+        36,
+        58
+      ],
+      "summary": "syncRepositoryIncrementally 是 incremental-external-store-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:useIncrementalExternalStoreRuntime",
+      "type": "function",
+      "name": "useIncrementalExternalStoreRuntime",
+      "filePath": "apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "lineRange": [
+        168,
+        188
+      ],
+      "summary": "useIncrementalExternalStoreRuntime 是 incremental-external-store-runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/lib/incremental-external-store-runtime.ts:IncrementalExternalStoreThreadRuntimeCore",
+      "type": "class",
+      "name": "IncrementalExternalStoreThreadRuntimeCore",
+      "filePath": "apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "lineRange": [
+        60,
+        148
+      ],
+      "summary": "IncrementalExternalStoreThreadRuntimeCore 是 incremental-external-store-runtime.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:apps/desktop/src/lib/incremental-external-store-runtime.ts:IncrementalExternalStoreRuntimeCore",
+      "type": "class",
+      "name": "IncrementalExternalStoreRuntimeCore",
+      "filePath": "apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "lineRange": [
+        150,
+        166
+      ],
+      "summary": "IncrementalExternalStoreRuntimeCore 是 incremental-external-store-runtime.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/katex-memo.ts",
+      "type": "file",
+      "name": "katex-memo.ts",
+      "filePath": "apps/desktop/src/lib/katex-memo.ts",
+      "summary": "katex-memo.ts 是 typescript 源文件，包含 4 个函数、1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/katex-memo.ts:renderMath",
+      "type": "function",
+      "name": "renderMath",
+      "filePath": "apps/desktop/src/lib/katex-memo.ts",
+      "lineRange": [
+        120,
+        170
+      ],
+      "summary": "renderMath 是 katex-memo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/katex-memo.ts:createMemoizedRehypeKatex",
+      "type": "function",
+      "name": "createMemoizedRehypeKatex",
+      "filePath": "apps/desktop/src/lib/katex-memo.ts",
+      "lineRange": [
+        177,
+        242
+      ],
+      "summary": "createMemoizedRehypeKatex 是 katex-memo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/katex-memo.ts:createMemoizedMathPlugin",
+      "type": "function",
+      "name": "createMemoizedMathPlugin",
+      "filePath": "apps/desktop/src/lib/katex-memo.ts",
+      "lineRange": [
+        248,
+        260
+      ],
+      "summary": "createMemoizedMathPlugin 是 katex-memo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/lib/katex-memo.ts:LruCache",
+      "type": "class",
+      "name": "LruCache",
+      "filePath": "apps/desktop/src/lib/katex-memo.ts",
+      "lineRange": [
+        72,
+        103
+      ],
+      "summary": "LruCache 是 katex-memo.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/keybinds/actions.ts",
+      "type": "file",
+      "name": "actions.ts",
+      "filePath": "apps/desktop/src/lib/keybinds/actions.ts",
+      "summary": "actions.ts 是 typescript 源文件，包含 3 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/actions.ts:keybindAction",
+      "type": "function",
+      "name": "keybindAction",
+      "filePath": "apps/desktop/src/lib/keybinds/actions.ts",
+      "lineRange": [
+        92,
+        94
+      ],
+      "summary": "keybindAction 是 actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/actions.ts:defaultBindings",
+      "type": "function",
+      "name": "defaultBindings",
+      "filePath": "apps/desktop/src/lib/keybinds/actions.ts",
+      "lineRange": [
+        98,
+        100
+      ],
+      "summary": "defaultBindings 是 actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "type": "file",
+      "name": "combo.ts",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "summary": "combo.ts 是 typescript 源文件，包含 6 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/combo.ts:baseKeyFromCode",
+      "type": "function",
+      "name": "baseKeyFromCode",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "lineRange": [
+        47,
+        67
+      ],
+      "summary": "baseKeyFromCode 是 combo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/combo.ts:comboFromEvent",
+      "type": "function",
+      "name": "comboFromEvent",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "lineRange": [
+        71,
+        99
+      ],
+      "summary": "comboFromEvent 是 combo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/combo.ts:labelForBase",
+      "type": "function",
+      "name": "labelForBase",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "lineRange": [
+        113,
+        123
+      ],
+      "summary": "labelForBase 是 combo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/combo.ts:formatCombo",
+      "type": "function",
+      "name": "formatCombo",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "lineRange": [
+        126,
+        150
+      ],
+      "summary": "formatCombo 是 combo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/combo.ts:isEditableTarget",
+      "type": "function",
+      "name": "isEditableTarget",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "lineRange": [
+        154,
+        163
+      ],
+      "summary": "isEditableTarget 是 combo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/keybinds/combo.ts:comboAllowedInInput",
+      "type": "function",
+      "name": "comboAllowedInInput",
+      "filePath": "apps/desktop/src/lib/keybinds/combo.ts",
+      "lineRange": [
+        167,
+        169
+      ],
+      "summary": "comboAllowedInInput 是 combo.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/local-preview.ts",
+      "type": "file",
+      "name": "local-preview.ts",
+      "filePath": "apps/desktop/src/lib/local-preview.ts",
+      "summary": "local-preview.ts 是 typescript 源文件，包含 6 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/local-preview.ts:localPreviewTarget",
+      "type": "function",
+      "name": "localPreviewTarget",
+      "filePath": "apps/desktop/src/lib/local-preview.ts",
+      "lineRange": [
+        69,
+        108
+      ],
+      "summary": "localPreviewTarget 是 local-preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/local-preview.ts:normalizeOrLocalPreviewTarget",
+      "type": "function",
+      "name": "normalizeOrLocalPreviewTarget",
+      "filePath": "apps/desktop/src/lib/local-preview.ts",
+      "lineRange": [
+        110,
+        126
+      ],
+      "summary": "normalizeOrLocalPreviewTarget 是 local-preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/markdown-code.test.ts",
+      "type": "file",
+      "name": "markdown-code.test.ts",
+      "filePath": "apps/desktop/src/lib/markdown-code.test.ts",
+      "summary": "markdown-code.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/markdown-code.ts",
+      "type": "file",
+      "name": "markdown-code.ts",
+      "filePath": "apps/desktop/src/lib/markdown-code.ts",
+      "summary": "markdown-code.ts 是 typescript 源文件，包含 7 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-code.ts:sanitizeLanguageTag",
+      "type": "function",
+      "name": "sanitizeLanguageTag",
+      "filePath": "apps/desktop/src/lib/markdown-code.ts",
+      "lineRange": [
+        45,
+        50
+      ],
+      "summary": "sanitizeLanguageTag 是 markdown-code.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-code.ts:codiconForLanguage",
+      "type": "function",
+      "name": "codiconForLanguage",
+      "filePath": "apps/desktop/src/lib/markdown-code.ts",
+      "lineRange": [
+        107,
+        109
+      ],
+      "summary": "codiconForLanguage 是 markdown-code.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-code.ts:codeSignals",
+      "type": "function",
+      "name": "codeSignals",
+      "filePath": "apps/desktop/src/lib/markdown-code.ts",
+      "lineRange": [
+        129,
+        141
+      ],
+      "summary": "codeSignals 是 markdown-code.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-code.ts:isLikelyProseFence",
+      "type": "function",
+      "name": "isLikelyProseFence",
+      "filePath": "apps/desktop/src/lib/markdown-code.ts",
+      "lineRange": [
+        143,
+        176
+      ],
+      "summary": "isLikelyProseFence 是 markdown-code.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-code.ts:isLikelyProseCodeBlock",
+      "type": "function",
+      "name": "isLikelyProseCodeBlock",
+      "filePath": "apps/desktop/src/lib/markdown-code.ts",
+      "lineRange": [
+        178,
+        195
+      ],
+      "summary": "isLikelyProseCodeBlock 是 markdown-code.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "type": "file",
+      "name": "markdown-preprocess.ts",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "summary": "markdown-preprocess.ts 是 typescript 源文件，包含 13 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:hasCloseFenceLine",
+      "type": "function",
+      "name": "hasCloseFenceLine",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        36,
+        61
+      ],
+      "summary": "hasCloseFenceLine 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:scrubBacktickNoise",
+      "type": "function",
+      "name": "scrubBacktickNoise",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        63,
+        116
+      ],
+      "summary": "scrubBacktickNoise 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:autoLinkRawUrls",
+      "type": "function",
+      "name": "autoLinkRawUrls",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        128,
+        139
+      ],
+      "summary": "autoLinkRawUrls 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:normalizeVisibleProse",
+      "type": "function",
+      "name": "normalizeVisibleProse",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        141,
+        152
+      ],
+      "summary": "normalizeVisibleProse 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:findClosingFence",
+      "type": "function",
+      "name": "findClosingFence",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        162,
+        179
+      ],
+      "summary": "findClosingFence 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:normalizeFenceBlocks",
+      "type": "function",
+      "name": "normalizeFenceBlocks",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        197,
+        305
+      ],
+      "summary": "normalizeFenceBlocks 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/markdown-preprocess.ts:preprocessMarkdown",
+      "type": "function",
+      "name": "preprocessMarkdown",
+      "filePath": "apps/desktop/src/lib/markdown-preprocess.ts",
+      "lineRange": [
+        342,
+        386
+      ],
+      "summary": "preprocessMarkdown 是 markdown-preprocess.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:textPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:textPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:reasoningPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:reasoningPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:renderMediaTags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:renderMediaTags",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:assistantTextPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:assistantTextPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:chatMessageText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:chatMessageText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:textFromUnknown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:displayContentForMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:appendTextPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:appendTextPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:appendAssistantTextPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:appendAssistantTextPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:appendReasoningPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:appendReasoningPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:hasToolPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:hasToolPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:firstStringField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:toolPartMatchValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:findToolPartIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:carryTodos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:toolArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:toolResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:upsertToolPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:upsertToolPart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:parseMaybeJsonObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:firstNonEmptyObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:liveToolArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:parseStoredToolResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:toolPartFromStoredCall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:applyStoredToolResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:applyStoredToolResultToParts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:storedToolMessagePart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:withUniqueToolCallIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:toChatMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:toChatMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:preserveLocalAssistantErrors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:preserveLocalAssistantErrors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:branchGroupForUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-messages.ts",
+      "target": "function:apps/desktop/src/lib/chat-messages.ts:branchGroupForUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:createClientSessionState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:createClientSessionState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:sessionTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:sessionTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:coerceGatewayText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:coerceGatewayText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:coerceThinkingText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:coerceThinkingText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:isImageGenerationTool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:isImageGenerationTool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:contextPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:contextPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:attachmentId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:attachmentId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:pathLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:pathLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:attachmentDisplayText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:attachmentDisplayText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:personalityNamesFromConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:personalityNamesFromConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:normalizePersonalityValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:normalizePersonalityValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:parseSlashCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:parseSlashCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:parseCommandDispatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:parseCommandDispatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:quickModelOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:quickModelOptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:toRuntimeMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/chat-runtime.ts",
+      "target": "function:apps/desktop/src/lib/chat-runtime.ts:toRuntimeMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/clipboard.ts",
+      "target": "function:apps/desktop/src/lib/clipboard.ts:installClipboardShim",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/clipboard.ts",
+      "target": "function:apps/desktop/src/lib/clipboard.ts:installClipboardShim",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/commit-changelog.ts",
+      "target": "function:apps/desktop/src/lib/commit-changelog.ts:parseCommitHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/commit-changelog.ts",
+      "target": "function:apps/desktop/src/lib/commit-changelog.ts:parseCommitHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/commit-changelog.ts",
+      "target": "function:apps/desktop/src/lib/commit-changelog.ts:tidySubject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/commit-changelog.ts",
+      "target": "function:apps/desktop/src/lib/commit-changelog.ts:buildCommitChangelog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/commit-changelog.ts",
+      "target": "function:apps/desktop/src/lib/commit-changelog.ts:buildCommitChangelog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:canonicalDesktopSlashCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:canonicalDesktopSlashCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashExtensionCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashExtensionCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashSuggestion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isDesktopSlashSuggestion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isModelPickerCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:isModelPickerCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSlashUnavailableMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSlashUnavailableMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSlashDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSlashDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSkinSlashCompletions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:desktopSkinSlashCompletions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:filterDesktopCommandsCatalog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/desktop-slash-commands.ts",
+      "target": "function:apps/desktop/src/lib/desktop-slash-commands.ts:filterDesktopCommandsCatalog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:dataUrlToBlob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:dataUrlToBlob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:extractEmbeddedImages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:extractEmbeddedImages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:embeddedImageUrls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:embeddedImageUrls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:textWithoutEmbeddedImages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/embedded-images.ts",
+      "target": "function:apps/desktop/src/lib/embedded-images.ts:textWithoutEmbeddedImages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:normalizeExternalUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:normalizeExternalUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:titleCacheKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:shortHostLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:shortHostLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:hostPathLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:hostPathLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:cleanSlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:urlSlugTitleLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:urlSlugTitleLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:isTitleFetchable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:isTitleFetchable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:fetchLinkTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:fetchLinkTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:useLinkTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:useLinkTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:openExternalLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:openExternalLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:ExternalLinkIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:ExternalLinkIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:ExternalLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:ExternalLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:PrettyLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:PrettyLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:LinkifiedText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:LinkifiedText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:__resetLinkTitleCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/external-link.tsx",
+      "target": "function:apps/desktop/src/lib/external-link.tsx:__resetLinkTitleCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-events.ts",
+      "target": "function:apps/desktop/src/lib/gateway-events.ts:gatewayEventCompletedFileDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-events.ts",
+      "target": "function:apps/desktop/src/lib/gateway-events.ts:gatewayEventCompletedFileDiff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-events.ts",
+      "target": "function:apps/desktop/src/lib/gateway-events.ts:buildGatewayLogItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-events.ts",
+      "target": "function:apps/desktop/src/lib/gateway-events.ts:buildGatewayLogItems",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "target": "function:apps/desktop/src/lib/gateway-ws-url.ts:isGatewayReauthRequired",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "target": "function:apps/desktop/src/lib/gateway-ws-url.ts:isGatewayReauthRequired",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "target": "function:apps/desktop/src/lib/gateway-ws-url.ts:resolveGatewayWsUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "target": "function:apps/desktop/src/lib/gateway-ws-url.ts:resolveGatewayWsUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "target": "class:apps/desktop/src/lib/gateway-ws-url.ts:GatewayReauthRequiredError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/gateway-ws-url.ts",
+      "target": "class:apps/desktop/src/lib/gateway-ws-url.ts:GatewayReauthRequiredError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/haptics.ts",
+      "target": "function:apps/desktop/src/lib/haptics.ts:registerHapticTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/haptics.ts",
+      "target": "function:apps/desktop/src/lib/haptics.ts:registerHapticTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/haptics.ts",
+      "target": "function:apps/desktop/src/lib/haptics.ts:triggerHaptic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/haptics.ts",
+      "target": "function:apps/desktop/src/lib/haptics.ts:triggerHaptic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "target": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:shallowEqual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "target": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:syncRepositoryIncrementally",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "target": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:useIncrementalExternalStoreRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "target": "function:apps/desktop/src/lib/incremental-external-store-runtime.ts:useIncrementalExternalStoreRuntime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "target": "class:apps/desktop/src/lib/incremental-external-store-runtime.ts:IncrementalExternalStoreThreadRuntimeCore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/incremental-external-store-runtime.ts",
+      "target": "class:apps/desktop/src/lib/incremental-external-store-runtime.ts:IncrementalExternalStoreRuntimeCore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/katex-memo.ts",
+      "target": "function:apps/desktop/src/lib/katex-memo.ts:renderMath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/katex-memo.ts",
+      "target": "function:apps/desktop/src/lib/katex-memo.ts:createMemoizedRehypeKatex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/katex-memo.ts",
+      "target": "function:apps/desktop/src/lib/katex-memo.ts:createMemoizedMathPlugin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/katex-memo.ts",
+      "target": "function:apps/desktop/src/lib/katex-memo.ts:createMemoizedMathPlugin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/katex-memo.ts",
+      "target": "class:apps/desktop/src/lib/katex-memo.ts:LruCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/actions.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/actions.ts:keybindAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/actions.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/actions.ts:keybindAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/actions.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/actions.ts:defaultBindings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/actions.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/actions.ts:defaultBindings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:baseKeyFromCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:comboFromEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:comboFromEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:labelForBase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:formatCombo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:formatCombo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:isEditableTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:isEditableTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:comboAllowedInInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/keybinds/combo.ts",
+      "target": "function:apps/desktop/src/lib/keybinds/combo.ts:comboAllowedInInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/local-preview.ts",
+      "target": "function:apps/desktop/src/lib/local-preview.ts:localPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/local-preview.ts",
+      "target": "function:apps/desktop/src/lib/local-preview.ts:localPreviewTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/local-preview.ts",
+      "target": "function:apps/desktop/src/lib/local-preview.ts:normalizeOrLocalPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/local-preview.ts",
+      "target": "function:apps/desktop/src/lib/local-preview.ts:normalizeOrLocalPreviewTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:sanitizeLanguageTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:sanitizeLanguageTag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:codiconForLanguage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:codiconForLanguage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:codeSignals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:isLikelyProseFence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:isLikelyProseFence",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:isLikelyProseCodeBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-code.ts",
+      "target": "function:apps/desktop/src/lib/markdown-code.ts:isLikelyProseCodeBlock",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:hasCloseFenceLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:scrubBacktickNoise",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:autoLinkRawUrls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:normalizeVisibleProse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:findClosingFence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:normalizeFenceBlocks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:preprocessMarkdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/markdown-preprocess.ts",
+      "target": "function:apps/desktop/src/lib/markdown-preprocess.ts:preprocessMarkdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,4044 @@
+{
+  "nodes": [
+    {
+      "id": "file:plugins/teams_pipeline/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/teams_pipeline/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/teams_pipeline/__init__.py",
+      "lineRange": [
+        12,
+        23
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "summary": "cli.py 是 python 源文件，包含 21 个函数、21 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:register_cli",
+      "type": "function",
+      "name": "register_cli",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        31,
+        88
+      ],
+      "summary": "register_cli 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:teams_pipeline_command",
+      "type": "function",
+      "name": "teams_pipeline_command",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        91,
+        129
+      ],
+      "summary": "teams_pipeline_command 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_run_async",
+      "type": "function",
+      "name": "_run_async",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        132,
+        133
+      ],
+      "summary": "_run_async 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_store_path",
+      "type": "function",
+      "name": "_store_path",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        136,
+        137
+      ],
+      "summary": "_store_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_graph_setup_hint",
+      "type": "function",
+      "name": "_graph_setup_hint",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        140,
+        149
+      ],
+      "summary": "_graph_setup_hint 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_iso_utc_timestamp",
+      "type": "function",
+      "name": "_iso_utc_timestamp",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        152,
+        155
+      ],
+      "summary": "_iso_utc_timestamp 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_default_change_type_for_resource",
+      "type": "function",
+      "name": "_default_change_type_for_resource",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        158,
+        166
+      ],
+      "summary": "_default_change_type_for_resource 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_compact_job",
+      "type": "function",
+      "name": "_compact_job",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        169,
+        176
+      ],
+      "summary": "_compact_job 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_sync_subscription_record",
+      "type": "function",
+      "name": "_sync_subscription_record",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        179,
+        190
+      ],
+      "summary": "_sync_subscription_record 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_validate_configuration_snapshot",
+      "type": "function",
+      "name": "_validate_configuration_snapshot",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        193,
+        250
+      ],
+      "summary": "_validate_configuration_snapshot 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_list",
+      "type": "function",
+      "name": "_cmd_list",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        253,
+        279
+      ],
+      "summary": "_cmd_list 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_show",
+      "type": "function",
+      "name": "_cmd_show",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        282,
+        292
+      ],
+      "summary": "_cmd_show 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_run",
+      "type": "function",
+      "name": "_cmd_run",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        295,
+        303
+      ],
+      "summary": "_cmd_run 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_fetch",
+      "type": "function",
+      "name": "_cmd_fetch",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        306,
+        343
+      ],
+      "summary": "_cmd_fetch 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_subscriptions",
+      "type": "function",
+      "name": "_cmd_subscriptions",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        346,
+        368
+      ],
+      "summary": "_cmd_subscriptions 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_subscribe",
+      "type": "function",
+      "name": "_cmd_subscribe",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        371,
+        395
+      ],
+      "summary": "_cmd_subscribe 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_renew_subscription",
+      "type": "function",
+      "name": "_cmd_renew_subscription",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        398,
+        414
+      ],
+      "summary": "_cmd_renew_subscription 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_delete_subscription",
+      "type": "function",
+      "name": "_cmd_delete_subscription",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        417,
+        425
+      ],
+      "summary": "_cmd_delete_subscription 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_maintain_subscriptions",
+      "type": "function",
+      "name": "_cmd_maintain_subscriptions",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        428,
+        440
+      ],
+      "summary": "_cmd_maintain_subscriptions 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_token_health",
+      "type": "function",
+      "name": "_cmd_token_health",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        443,
+        455
+      ],
+      "summary": "_cmd_token_health 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/cli.py:_cmd_validate",
+      "type": "function",
+      "name": "_cmd_validate",
+      "filePath": "plugins/teams_pipeline/cli.py",
+      "lineRange": [
+        458,
+        461
+      ],
+      "summary": "_cmd_validate 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/meetings.py",
+      "type": "file",
+      "name": "meetings.py",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "summary": "meetings.py 是 python 源文件，包含 18 个函数、4 个类、22 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_meeting_path",
+      "type": "function",
+      "name": "_meeting_path",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        30,
+        32
+      ],
+      "summary": "_meeting_path 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_wrap_graph_error",
+      "type": "function",
+      "name": "_wrap_graph_error",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        35,
+        40
+      ],
+      "summary": "_wrap_graph_error 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_parse_organizer_user_id",
+      "type": "function",
+      "name": "_parse_organizer_user_id",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        43,
+        53
+      ],
+      "summary": "_parse_organizer_user_id 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_parse_thread_id",
+      "type": "function",
+      "name": "_parse_thread_id",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        56,
+        62
+      ],
+      "summary": "_parse_thread_id 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_normalize_meeting_ref",
+      "type": "function",
+      "name": "_normalize_meeting_ref",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        65,
+        82
+      ],
+      "summary": "_normalize_meeting_ref 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_normalize_artifact",
+      "type": "function",
+      "name": "_normalize_artifact",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        85,
+        110
+      ],
+      "summary": "_normalize_artifact 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_transcript_sort_key",
+      "type": "function",
+      "name": "_transcript_sort_key",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        113,
+        122
+      ],
+      "summary": "_transcript_sort_key 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_recording_download_path",
+      "type": "function",
+      "name": "_recording_download_path",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        125,
+        128
+      ],
+      "summary": "_recording_download_path 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:_transcript_download_path",
+      "type": "function",
+      "name": "_transcript_download_path",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        131,
+        134
+      ],
+      "summary": "_transcript_download_path 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:resolve_meeting_reference",
+      "type": "function",
+      "name": "resolve_meeting_reference",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        137,
+        170
+      ],
+      "summary": "resolve_meeting_reference 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:list_transcript_artifacts",
+      "type": "function",
+      "name": "list_transcript_artifacts",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        173,
+        184
+      ],
+      "summary": "list_transcript_artifacts 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:select_preferred_transcript",
+      "type": "function",
+      "name": "select_preferred_transcript",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        187,
+        191
+      ],
+      "summary": "select_preferred_transcript 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:download_transcript_text",
+      "type": "function",
+      "name": "download_transcript_text",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        194,
+        224
+      ],
+      "summary": "download_transcript_text 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:fetch_preferred_transcript_text",
+      "type": "function",
+      "name": "fetch_preferred_transcript_text",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        227,
+        238
+      ],
+      "summary": "fetch_preferred_transcript_text 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:list_recording_artifacts",
+      "type": "function",
+      "name": "list_recording_artifacts",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        241,
+        252
+      ],
+      "summary": "list_recording_artifacts 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:download_recording_artifact",
+      "type": "function",
+      "name": "download_recording_artifact",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        255,
+        277
+      ],
+      "summary": "download_recording_artifact 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:fetch_call_record_artifact",
+      "type": "function",
+      "name": "fetch_call_record_artifact",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        280,
+        316
+      ],
+      "summary": "fetch_call_record_artifact 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/meetings.py:enrich_meeting_with_call_record",
+      "type": "function",
+      "name": "enrich_meeting_with_call_record",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        319,
+        333
+      ],
+      "summary": "enrich_meeting_with_call_record 是 meetings.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingError",
+      "type": "class",
+      "name": "TeamsMeetingError",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        14,
+        15
+      ],
+      "summary": "TeamsMeetingError 是 meetings.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingNotFoundError",
+      "type": "class",
+      "name": "TeamsMeetingNotFoundError",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        18,
+        19
+      ],
+      "summary": "TeamsMeetingNotFoundError 是 meetings.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingArtifactNotFoundError",
+      "type": "class",
+      "name": "TeamsMeetingArtifactNotFoundError",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        22,
+        23
+      ],
+      "summary": "TeamsMeetingArtifactNotFoundError 是 meetings.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingPermissionError",
+      "type": "class",
+      "name": "TeamsMeetingPermissionError",
+      "filePath": "plugins/teams_pipeline/meetings.py",
+      "lineRange": [
+        26,
+        27
+      ],
+      "summary": "TeamsMeetingPermissionError 是 meetings.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/models.py",
+      "type": "file",
+      "name": "models.py",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "summary": "models.py 是 python 源文件，包含 3 个函数、5 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/models.py:_parse_datetime",
+      "type": "function",
+      "name": "_parse_datetime",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        13,
+        24
+      ],
+      "summary": "_parse_datetime 是 models.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/models.py:_serialize_datetime",
+      "type": "function",
+      "name": "_serialize_datetime",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        27,
+        31
+      ],
+      "summary": "_serialize_datetime 是 models.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/models.py:_clean_dict",
+      "type": "function",
+      "name": "_clean_dict",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        34,
+        35
+      ],
+      "summary": "_clean_dict 是 models.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/models.py:GraphSubscription",
+      "type": "class",
+      "name": "GraphSubscription",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        39,
+        91
+      ],
+      "summary": "GraphSubscription 是 models.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/models.py:TeamsMeetingRef",
+      "type": "class",
+      "name": "TeamsMeetingRef",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        95,
+        131
+      ],
+      "summary": "TeamsMeetingRef 是 models.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/models.py:MeetingArtifact",
+      "type": "class",
+      "name": "MeetingArtifact",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        135,
+        194
+      ],
+      "summary": "MeetingArtifact 是 models.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/models.py:TeamsMeetingSummaryPayload",
+      "type": "class",
+      "name": "TeamsMeetingSummaryPayload",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        198,
+        267
+      ],
+      "summary": "TeamsMeetingSummaryPayload 是 models.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/models.py:TeamsMeetingPipelineJob",
+      "type": "class",
+      "name": "TeamsMeetingPipelineJob",
+      "filePath": "plugins/teams_pipeline/models.py",
+      "lineRange": [
+        271,
+        340
+      ],
+      "summary": "TeamsMeetingPipelineJob 是 models.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/pipeline.py",
+      "type": "file",
+      "name": "pipeline.py",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "summary": "pipeline.py 是 python 源文件，包含 7 个函数、8 个类、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_collect_call_metrics",
+      "type": "function",
+      "name": "_collect_call_metrics",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        583,
+        589
+      ],
+      "summary": "_collect_call_metrics 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_collect_participants",
+      "type": "function",
+      "name": "_collect_participants",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        592,
+        601
+      ],
+      "summary": "_collect_participants 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_extract_meeting_id_from_resource",
+      "type": "function",
+      "name": "_extract_meeting_id_from_resource",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        604,
+        614
+      ],
+      "summary": "_extract_meeting_id_from_resource 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_build_summary_prompt",
+      "type": "function",
+      "name": "_build_summary_prompt",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        617,
+        629
+      ],
+      "summary": "_build_summary_prompt 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_parse_summary_json",
+      "type": "function",
+      "name": "_parse_summary_json",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        632,
+        648
+      ],
+      "summary": "_parse_summary_json 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_heuristic_summary",
+      "type": "function",
+      "name": "_heuristic_summary",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        651,
+        667
+      ],
+      "summary": "_heuristic_summary 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/pipeline.py:_render_summary_markdown",
+      "type": "function",
+      "name": "_render_summary_markdown",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        670,
+        689
+      ],
+      "summary": "_render_summary_markdown 是 pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineError",
+      "type": "class",
+      "name": "TeamsPipelineError",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        52,
+        53
+      ],
+      "summary": "TeamsPipelineError 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineRetryableError",
+      "type": "class",
+      "name": "TeamsPipelineRetryableError",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        56,
+        57
+      ],
+      "summary": "TeamsPipelineRetryableError 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineSinkError",
+      "type": "class",
+      "name": "TeamsPipelineSinkError",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        60,
+        61
+      ],
+      "summary": "TeamsPipelineSinkError 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineArtifactNotFoundError",
+      "type": "class",
+      "name": "TeamsPipelineArtifactNotFoundError",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        64,
+        65
+      ],
+      "summary": "TeamsPipelineArtifactNotFoundError 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineConfig",
+      "type": "class",
+      "name": "TeamsPipelineConfig",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        77,
+        104
+      ],
+      "summary": "TeamsPipelineConfig 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:NotionWriter",
+      "type": "class",
+      "name": "NotionWriter",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        107,
+        201
+      ],
+      "summary": "NotionWriter 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:LinearWriter",
+      "type": "class",
+      "name": "LinearWriter",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        204,
+        266
+      ],
+      "summary": "LinearWriter 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/pipeline.py:TeamsMeetingPipeline",
+      "type": "class",
+      "name": "TeamsMeetingPipeline",
+      "filePath": "plugins/teams_pipeline/pipeline.py",
+      "lineRange": [
+        269,
+        580
+      ],
+      "summary": "TeamsMeetingPipeline 是 pipeline.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/teams_pipeline/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/teams_pipeline/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/runtime.py",
+      "type": "file",
+      "name": "runtime.py",
+      "filePath": "plugins/teams_pipeline/runtime.py",
+      "summary": "runtime.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/runtime.py:_teams_delivery_is_configured",
+      "type": "function",
+      "name": "_teams_delivery_is_configured",
+      "filePath": "plugins/teams_pipeline/runtime.py",
+      "lineRange": [
+        16,
+        35
+      ],
+      "summary": "_teams_delivery_is_configured 是 runtime.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/runtime.py:build_pipeline_runtime_config",
+      "type": "function",
+      "name": "build_pipeline_runtime_config",
+      "filePath": "plugins/teams_pipeline/runtime.py",
+      "lineRange": [
+        38,
+        72
+      ],
+      "summary": "build_pipeline_runtime_config 是 runtime.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/runtime.py:build_pipeline_runtime",
+      "type": "function",
+      "name": "build_pipeline_runtime",
+      "filePath": "plugins/teams_pipeline/runtime.py",
+      "lineRange": [
+        75,
+        95
+      ],
+      "summary": "build_pipeline_runtime 是 runtime.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/runtime.py:bind_gateway_runtime",
+      "type": "function",
+      "name": "bind_gateway_runtime",
+      "filePath": "plugins/teams_pipeline/runtime.py",
+      "lineRange": [
+        98,
+        135
+      ],
+      "summary": "bind_gateway_runtime 是 runtime.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/store.py",
+      "type": "file",
+      "name": "store.py",
+      "filePath": "plugins/teams_pipeline/store.py",
+      "summary": "store.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/store.py:_utc_now_iso",
+      "type": "function",
+      "name": "_utc_now_iso",
+      "filePath": "plugins/teams_pipeline/store.py",
+      "lineRange": [
+        21,
+        22
+      ],
+      "summary": "_utc_now_iso 是 store.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/store.py:resolve_teams_pipeline_store_path",
+      "type": "function",
+      "name": "resolve_teams_pipeline_store_path",
+      "filePath": "plugins/teams_pipeline/store.py",
+      "lineRange": [
+        25,
+        35
+      ],
+      "summary": "resolve_teams_pipeline_store_path 是 store.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/teams_pipeline/store.py:TeamsPipelineStore",
+      "type": "class",
+      "name": "TeamsPipelineStore",
+      "filePath": "plugins/teams_pipeline/store.py",
+      "lineRange": [
+        38,
+        193
+      ],
+      "summary": "TeamsPipelineStore 是 store.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/teams_pipeline/subscriptions.py",
+      "type": "file",
+      "name": "subscriptions.py",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "summary": "subscriptions.py 是 python 源文件，包含 12 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:build_graph_client",
+      "type": "function",
+      "name": "build_graph_client",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "build_graph_client 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:_parse_bool",
+      "type": "function",
+      "name": "_parse_bool",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        19,
+        28
+      ],
+      "summary": "_parse_bool 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:_parse_int",
+      "type": "function",
+      "name": "_parse_int",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        31,
+        35
+      ],
+      "summary": "_parse_int 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:_utc_now",
+      "type": "function",
+      "name": "_utc_now",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        38,
+        39
+      ],
+      "summary": "_utc_now 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:_utc_now_iso",
+      "type": "function",
+      "name": "_utc_now_iso",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        42,
+        43
+      ],
+      "summary": "_utc_now_iso 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:_parse_datetime",
+      "type": "function",
+      "name": "_parse_datetime",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        46,
+        57
+      ],
+      "summary": "_parse_datetime 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:resolve_store_path",
+      "type": "function",
+      "name": "resolve_store_path",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        60,
+        61
+      ],
+      "summary": "resolve_store_path 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:build_store",
+      "type": "function",
+      "name": "build_store",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        64,
+        65
+      ],
+      "summary": "build_store 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:sync_graph_subscription_record",
+      "type": "function",
+      "name": "sync_graph_subscription_record",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        68,
+        83
+      ],
+      "summary": "sync_graph_subscription_record 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:expected_client_state",
+      "type": "function",
+      "name": "expected_client_state",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        86,
+        92
+      ],
+      "summary": "expected_client_state 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:is_managed_subscription",
+      "type": "function",
+      "name": "is_managed_subscription",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        95,
+        114
+      ],
+      "summary": "is_managed_subscription 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/teams_pipeline/subscriptions.py:maintain_graph_subscriptions",
+      "type": "function",
+      "name": "maintain_graph_subscriptions",
+      "filePath": "plugins/teams_pipeline/subscriptions.py",
+      "lineRange": [
+        117,
+        249
+      ],
+      "summary": "maintain_graph_subscriptions 是 subscriptions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/video_gen/fal/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 11 个函数、1 个类、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_is_duration_range",
+      "type": "function",
+      "name": "_is_duration_range",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        169,
+        175
+      ],
+      "summary": "_is_duration_range 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_clamp_duration",
+      "type": "function",
+      "name": "_clamp_duration",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        178,
+        190
+      ],
+      "summary": "_clamp_duration 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_load_video_gen_section",
+      "type": "function",
+      "name": "_load_video_gen_section",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        198,
+        207
+      ],
+      "summary": "_load_video_gen_section 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_resolve_family",
+      "type": "function",
+      "name": "_resolve_family",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        210,
+        229
+      ],
+      "summary": "_resolve_family 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_build_payload",
+      "type": "function",
+      "name": "_build_payload",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        237,
+        286
+      ],
+      "summary": "_build_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_load_fal_client",
+      "type": "function",
+      "name": "_load_fal_client",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        296,
+        307
+      ],
+      "summary": "_load_fal_client 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_resolve_managed_fal_video_gateway",
+      "type": "function",
+      "name": "_resolve_managed_fal_video_gateway",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        319,
+        328
+      ],
+      "summary": "_resolve_managed_fal_video_gateway 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_get_managed_fal_video_client",
+      "type": "function",
+      "name": "_get_managed_fal_video_client",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        331,
+        351
+      ],
+      "summary": "_get_managed_fal_video_client 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_submit_fal_video_request",
+      "type": "function",
+      "name": "_submit_fal_video_request",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        354,
+        384
+      ],
+      "summary": "_submit_fal_video_request 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:_check_fal_video_available",
+      "type": "function",
+      "name": "_check_fal_video_available",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        387,
+        393
+      ],
+      "summary": "_check_fal_video_available 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/fal/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        611,
+        613
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/video_gen/fal/__init__.py:FALVideoGenProvider",
+      "type": "class",
+      "name": "FALVideoGenProvider",
+      "filePath": "plugins/video_gen/fal/__init__.py",
+      "lineRange": [
+        401,
+        603
+      ],
+      "summary": "FALVideoGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/video_gen/fal/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/video_gen/fal/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/video_gen/xai/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 10 个函数、1 个类、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_resolve_xai_credentials",
+      "type": "function",
+      "name": "_resolve_xai_credentials",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        86,
+        107
+      ],
+      "summary": "_resolve_xai_credentials 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_xai_user_agent",
+      "type": "function",
+      "name": "_xai_user_agent",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        110,
+        116
+      ],
+      "summary": "_xai_user_agent 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_xai_headers",
+      "type": "function",
+      "name": "_xai_headers",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        119,
+        124
+      ],
+      "summary": "_xai_headers 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_image_ref_to_xai_url",
+      "type": "function",
+      "name": "_image_ref_to_xai_url",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        127,
+        145
+      ],
+      "summary": "_image_ref_to_xai_url 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_normalize_reference_images",
+      "type": "function",
+      "name": "_normalize_reference_images",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        148,
+        154
+      ],
+      "summary": "_normalize_reference_images 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_clamp_duration",
+      "type": "function",
+      "name": "_clamp_duration",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        157,
+        165
+      ],
+      "summary": "_clamp_duration 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_resolve_model_for_modality",
+      "type": "function",
+      "name": "_resolve_model_for_modality",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        168,
+        187
+      ],
+      "summary": "_resolve_model_for_modality 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_submit",
+      "type": "function",
+      "name": "_submit",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        190,
+        210
+      ],
+      "summary": "_submit 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:_poll",
+      "type": "function",
+      "name": "_poll",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        213,
+        242
+      ],
+      "summary": "_poll 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/video_gen/xai/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        502,
+        504
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/video_gen/xai/__init__.py:XAIVideoGenProvider",
+      "type": "class",
+      "name": "XAIVideoGenProvider",
+      "filePath": "plugins/video_gen/xai/__init__.py",
+      "lineRange": [
+        250,
+        494
+      ],
+      "summary": "XAIVideoGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/video_gen/xai/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/video_gen/xai/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/web/brave_free/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/brave_free/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/brave_free/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/brave_free/__init__.py",
+      "lineRange": [
+        12,
+        14
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/brave_free/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/brave_free/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/brave_free/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/brave_free/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/web/brave_free/provider.py:BraveFreeWebSearchProvider",
+      "type": "class",
+      "name": "BraveFreeWebSearchProvider",
+      "filePath": "plugins/web/brave_free/provider.py",
+      "lineRange": [
+        33,
+        137
+      ],
+      "summary": "BraveFreeWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/web/ddgs/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/ddgs/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/ddgs/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/ddgs/__init__.py",
+      "lineRange": [
+        13,
+        15
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/ddgs/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/ddgs/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/ddgs/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/ddgs/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/web/ddgs/provider.py:DDGSWebSearchProvider",
+      "type": "class",
+      "name": "DDGSWebSearchProvider",
+      "filePath": "plugins/web/ddgs/provider.py",
+      "lineRange": [
+        23,
+        104
+      ],
+      "summary": "DDGSWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/web/exa/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/exa/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/exa/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/exa/__init__.py",
+      "lineRange": [
+        13,
+        15
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/exa/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/exa/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/exa/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/exa/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/exa/provider.py:_get_exa_client",
+      "type": "function",
+      "name": "_get_exa_client",
+      "filePath": "plugins/web/exa/provider.py",
+      "lineRange": [
+        41,
+        75
+      ],
+      "summary": "_get_exa_client 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/exa/provider.py:_reset_client_for_tests",
+      "type": "function",
+      "name": "_reset_client_for_tests",
+      "filePath": "plugins/web/exa/provider.py",
+      "lineRange": [
+        78,
+        82
+      ],
+      "summary": "_reset_client_for_tests 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/exa/provider.py:ExaWebSearchProvider",
+      "type": "class",
+      "name": "ExaWebSearchProvider",
+      "filePath": "plugins/web/exa/provider.py",
+      "lineRange": [
+        85,
+        212
+      ],
+      "summary": "ExaWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/web/firecrawl/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/firecrawl/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/firecrawl/__init__.py",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/firecrawl/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/firecrawl/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/teams_pipeline/__init__.py",
+      "target": "function:plugins/teams_pipeline/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/__init__.py",
+      "target": "function:plugins/teams_pipeline/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:register_cli",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:register_cli",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:teams_pipeline_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:teams_pipeline_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_run_async",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_run_async",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_store_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_store_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_graph_setup_hint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_graph_setup_hint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_iso_utc_timestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_iso_utc_timestamp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_default_change_type_for_resource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_default_change_type_for_resource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_compact_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_compact_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_sync_subscription_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_sync_subscription_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_validate_configuration_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_validate_configuration_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_show",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_show",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_subscriptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_subscriptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_subscribe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_subscribe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_renew_subscription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_renew_subscription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_delete_subscription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_delete_subscription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_maintain_subscriptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_maintain_subscriptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_token_health",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_token_health",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_validate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/cli.py",
+      "target": "function:plugins/teams_pipeline/cli.py:_cmd_validate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_meeting_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_meeting_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_wrap_graph_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_wrap_graph_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_parse_organizer_user_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_parse_organizer_user_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_parse_thread_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_parse_thread_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_normalize_meeting_ref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_normalize_meeting_ref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_normalize_artifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_normalize_artifact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_transcript_sort_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_transcript_sort_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_recording_download_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_recording_download_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_transcript_download_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:_transcript_download_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:resolve_meeting_reference",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:resolve_meeting_reference",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:list_transcript_artifacts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:list_transcript_artifacts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:select_preferred_transcript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:select_preferred_transcript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:download_transcript_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:download_transcript_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:fetch_preferred_transcript_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:fetch_preferred_transcript_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:list_recording_artifacts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:list_recording_artifacts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:download_recording_artifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:download_recording_artifact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:fetch_call_record_artifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:fetch_call_record_artifact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:enrich_meeting_with_call_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "function:plugins/teams_pipeline/meetings.py:enrich_meeting_with_call_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingNotFoundError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingNotFoundError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingArtifactNotFoundError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingArtifactNotFoundError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingPermissionError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/meetings.py",
+      "target": "class:plugins/teams_pipeline/meetings.py:TeamsMeetingPermissionError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "function:plugins/teams_pipeline/models.py:_parse_datetime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "function:plugins/teams_pipeline/models.py:_parse_datetime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "function:plugins/teams_pipeline/models.py:_serialize_datetime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "function:plugins/teams_pipeline/models.py:_serialize_datetime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "function:plugins/teams_pipeline/models.py:_clean_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "function:plugins/teams_pipeline/models.py:_clean_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:GraphSubscription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:GraphSubscription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:TeamsMeetingRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:TeamsMeetingRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:MeetingArtifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:MeetingArtifact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:TeamsMeetingSummaryPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:TeamsMeetingSummaryPayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:TeamsMeetingPipelineJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/models.py",
+      "target": "class:plugins/teams_pipeline/models.py:TeamsMeetingPipelineJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_collect_call_metrics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_collect_call_metrics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_collect_participants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_collect_participants",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_extract_meeting_id_from_resource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_extract_meeting_id_from_resource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_build_summary_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_build_summary_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_parse_summary_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_parse_summary_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_heuristic_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_heuristic_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_render_summary_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "function:plugins/teams_pipeline/pipeline.py:_render_summary_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineRetryableError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineRetryableError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineSinkError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineSinkError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineArtifactNotFoundError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineArtifactNotFoundError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsPipelineConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:NotionWriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:NotionWriter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:LinearWriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:LinearWriter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsMeetingPipeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/pipeline.py",
+      "target": "class:plugins/teams_pipeline/pipeline.py:TeamsMeetingPipeline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:_teams_delivery_is_configured",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:_teams_delivery_is_configured",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:build_pipeline_runtime_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:build_pipeline_runtime_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:build_pipeline_runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:build_pipeline_runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:bind_gateway_runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/runtime.py",
+      "target": "function:plugins/teams_pipeline/runtime.py:bind_gateway_runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/store.py",
+      "target": "function:plugins/teams_pipeline/store.py:_utc_now_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/store.py",
+      "target": "function:plugins/teams_pipeline/store.py:_utc_now_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/store.py",
+      "target": "function:plugins/teams_pipeline/store.py:resolve_teams_pipeline_store_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/store.py",
+      "target": "function:plugins/teams_pipeline/store.py:resolve_teams_pipeline_store_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/store.py",
+      "target": "class:plugins/teams_pipeline/store.py:TeamsPipelineStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/store.py",
+      "target": "class:plugins/teams_pipeline/store.py:TeamsPipelineStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:build_graph_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:build_graph_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_parse_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_parse_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_parse_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_parse_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_utc_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_utc_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_utc_now_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_utc_now_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_parse_datetime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:_parse_datetime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:resolve_store_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:resolve_store_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:build_store",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:build_store",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:sync_graph_subscription_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:sync_graph_subscription_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:expected_client_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:expected_client_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:is_managed_subscription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:is_managed_subscription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:maintain_graph_subscriptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/teams_pipeline/subscriptions.py",
+      "target": "function:plugins/teams_pipeline/subscriptions.py:maintain_graph_subscriptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_is_duration_range",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_is_duration_range",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_clamp_duration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_clamp_duration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_load_video_gen_section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_load_video_gen_section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_resolve_family",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_resolve_family",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_build_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_build_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_load_fal_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_load_fal_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_resolve_managed_fal_video_gateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_resolve_managed_fal_video_gateway",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_get_managed_fal_video_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_get_managed_fal_video_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_submit_fal_video_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_submit_fal_video_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_check_fal_video_available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:_check_fal_video_available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "function:plugins/video_gen/fal/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "class:plugins/video_gen/fal/__init__.py:FALVideoGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/fal/__init__.py",
+      "target": "class:plugins/video_gen/fal/__init__.py:FALVideoGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_resolve_xai_credentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_resolve_xai_credentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_xai_user_agent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_xai_user_agent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_xai_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_xai_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_image_ref_to_xai_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_image_ref_to_xai_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_normalize_reference_images",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_normalize_reference_images",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_clamp_duration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_clamp_duration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_resolve_model_for_modality",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_resolve_model_for_modality",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_submit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_submit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_poll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:_poll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "function:plugins/video_gen/xai/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "class:plugins/video_gen/xai/__init__.py:XAIVideoGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/video_gen/xai/__init__.py",
+      "target": "class:plugins/video_gen/xai/__init__.py:XAIVideoGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/brave_free/__init__.py",
+      "target": "function:plugins/web/brave_free/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/brave_free/__init__.py",
+      "target": "function:plugins/web/brave_free/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/brave_free/provider.py",
+      "target": "class:plugins/web/brave_free/provider.py:BraveFreeWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/brave_free/provider.py",
+      "target": "class:plugins/web/brave_free/provider.py:BraveFreeWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/ddgs/__init__.py",
+      "target": "function:plugins/web/ddgs/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/ddgs/__init__.py",
+      "target": "function:plugins/web/ddgs/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/ddgs/provider.py",
+      "target": "class:plugins/web/ddgs/provider.py:DDGSWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/ddgs/provider.py",
+      "target": "class:plugins/web/ddgs/provider.py:DDGSWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/exa/__init__.py",
+      "target": "function:plugins/web/exa/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/exa/__init__.py",
+      "target": "function:plugins/web/exa/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/exa/provider.py",
+      "target": "function:plugins/web/exa/provider.py:_get_exa_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/exa/provider.py",
+      "target": "function:plugins/web/exa/provider.py:_get_exa_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/exa/provider.py",
+      "target": "function:plugins/web/exa/provider.py:_reset_client_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/exa/provider.py",
+      "target": "function:plugins/web/exa/provider.py:_reset_client_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/exa/provider.py",
+      "target": "class:plugins/web/exa/provider.py:ExaWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/exa/provider.py",
+      "target": "class:plugins/web/exa/provider.py:ExaWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/__init__.py",
+      "target": "function:plugins/web/firecrawl/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/__init__.py",
+      "target": "function:plugins/web/firecrawl/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

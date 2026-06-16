@@ -1,0 +1,4036 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "type": "file",
+      "name": "statusbar-controls.tsx",
+      "filePath": "apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "summary": "statusbar-controls.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/statusbar-controls.tsx:StatusbarControls",
+      "type": "function",
+      "name": "StatusbarControls",
+      "filePath": "apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "lineRange": [
+        56,
+        87
+      ],
+      "summary": "StatusbarControls 是 statusbar-controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/statusbar-controls.tsx:StatusbarItemView",
+      "type": "function",
+      "name": "StatusbarItemView",
+      "filePath": "apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "lineRange": [
+        89,
+        189
+      ],
+      "summary": "StatusbarItemView 是 statusbar-controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "type": "file",
+      "name": "titlebar-controls.tsx",
+      "filePath": "apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "summary": "titlebar-controls.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/titlebar-controls.tsx:TitlebarControls",
+      "type": "function",
+      "name": "TitlebarControls",
+      "filePath": "apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "lineRange": [
+        48,
+        197
+      ],
+      "summary": "TitlebarControls 是 titlebar-controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/titlebar-controls.tsx:TitlebarToolButton",
+      "type": "function",
+      "name": "TitlebarToolButton",
+      "filePath": "apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "lineRange": [
+        199,
+        244
+      ],
+      "summary": "TitlebarToolButton 是 titlebar-controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/titlebar.test.ts",
+      "type": "file",
+      "name": "titlebar.test.ts",
+      "filePath": "apps/desktop/src/app/shell/titlebar.test.ts",
+      "summary": "titlebar.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/titlebar.ts",
+      "type": "file",
+      "name": "titlebar.ts",
+      "filePath": "apps/desktop/src/app/shell/titlebar.ts",
+      "summary": "titlebar.ts 是 typescript 源文件，包含 1 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/titlebar.ts:titlebarControlsPosition",
+      "type": "function",
+      "name": "titlebarControlsPosition",
+      "filePath": "apps/desktop/src/app/shell/titlebar.ts",
+      "lineRange": [
+        27,
+        45
+      ],
+      "summary": "titlebarControlsPosition 是 titlebar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/use-group-registry.ts",
+      "type": "file",
+      "name": "use-group-registry.ts",
+      "filePath": "apps/desktop/src/app/shell/use-group-registry.ts",
+      "summary": "use-group-registry.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/use-group-registry.ts:useGroupRegistry",
+      "type": "function",
+      "name": "useGroupRegistry",
+      "filePath": "apps/desktop/src/app/shell/use-group-registry.ts",
+      "lineRange": [
+        13,
+        39
+      ],
+      "summary": "useGroupRegistry 是 use-group-registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/skills/index.test.tsx",
+      "type": "file",
+      "name": "index.test.tsx",
+      "filePath": "apps/desktop/src/app/skills/index.test.tsx",
+      "summary": "index.test.tsx 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/skills/index.test.tsx:toolset",
+      "type": "function",
+      "name": "toolset",
+      "filePath": "apps/desktop/src/app/skills/index.test.tsx",
+      "lineRange": [
+        30,
+        41
+      ],
+      "summary": "toolset 是 index.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/skills/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/skills/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 6 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/skills/index.tsx:filteredSkills",
+      "type": "function",
+      "name": "filteredSkills",
+      "filePath": "apps/desktop/src/app/skills/index.tsx",
+      "lineRange": [
+        31,
+        47
+      ],
+      "summary": "filteredSkills 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/skills/index.tsx:filteredToolsets",
+      "type": "function",
+      "name": "filteredToolsets",
+      "filePath": "apps/desktop/src/app/skills/index.tsx",
+      "lineRange": [
+        49,
+        69
+      ],
+      "summary": "filteredToolsets 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/skills/index.tsx:SkillsView",
+      "type": "function",
+      "name": "SkillsView",
+      "filePath": "apps/desktop/src/app/skills/index.tsx",
+      "lineRange": [
+        75,
+        348
+      ],
+      "summary": "SkillsView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/skills/index.tsx:StatusPill",
+      "type": "function",
+      "name": "StatusPill",
+      "filePath": "apps/desktop/src/app/skills/index.tsx",
+      "lineRange": [
+        350,
+        360
+      ],
+      "summary": "StatusPill 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/skills/index.tsx:EmptyState",
+      "type": "function",
+      "name": "EmptyState",
+      "filePath": "apps/desktop/src/app/skills/index.tsx",
+      "lineRange": [
+        362,
+        371
+      ],
+      "summary": "EmptyState 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "apps/desktop/src/app/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "type": "file",
+      "name": "updates-overlay.tsx",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "summary": "updates-overlay.tsx 是 typescript 源文件，包含 7 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/updates-overlay.tsx:UpdatesOverlay",
+      "type": "function",
+      "name": "UpdatesOverlay",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "lineRange": [
+        31,
+        100
+      ],
+      "summary": "UpdatesOverlay 是 updates-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/updates-overlay.tsx:IdleView",
+      "type": "function",
+      "name": "IdleView",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "lineRange": [
+        102,
+        224
+      ],
+      "summary": "IdleView 是 updates-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/updates-overlay.tsx:ManualView",
+      "type": "function",
+      "name": "ManualView",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "lineRange": [
+        226,
+        282
+      ],
+      "summary": "ManualView 是 updates-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/updates-overlay.tsx:ApplyingView",
+      "type": "function",
+      "name": "ApplyingView",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "lineRange": [
+        284,
+        318
+      ],
+      "summary": "ApplyingView 是 updates-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/updates-overlay.tsx:ErrorView",
+      "type": "function",
+      "name": "ErrorView",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "lineRange": [
+        320,
+        344
+      ],
+      "summary": "ErrorView 是 updates-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/updates-overlay.tsx:CenteredStatus",
+      "type": "function",
+      "name": "CenteredStatus",
+      "filePath": "apps/desktop/src/app/updates-overlay.tsx",
+      "lineRange": [
+        346,
+        369
+      ],
+      "summary": "CenteredStatus 是 updates-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/ansi-text.tsx",
+      "type": "file",
+      "name": "ansi-text.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/ansi-text.tsx",
+      "summary": "ansi-text.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/ansi-text.tsx:AnsiText",
+      "type": "function",
+      "name": "AnsiText",
+      "filePath": "apps/desktop/src/components/assistant-ui/ansi-text.tsx",
+      "lineRange": [
+        15,
+        34
+      ],
+      "summary": "AnsiText 是 ansi-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "type": "file",
+      "name": "clarify-tool.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "summary": "clarify-tool.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:readClarifyArgs",
+      "type": "function",
+      "name": "readClarifyArgs",
+      "filePath": "apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "lineRange": [
+        23,
+        35
+      ],
+      "summary": "readClarifyArgs 是 clarify-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:RadioDot",
+      "type": "function",
+      "name": "RadioDot",
+      "filePath": "apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "lineRange": [
+        40,
+        52
+      ],
+      "summary": "RadioDot 是 clarify-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:ClarifyTool",
+      "type": "function",
+      "name": "ClarifyTool",
+      "filePath": "apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "lineRange": [
+        54,
+        64
+      ],
+      "summary": "ClarifyTool 是 clarify-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:ClarifyToolPending",
+      "type": "function",
+      "name": "ClarifyToolPending",
+      "filePath": "apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "lineRange": [
+        66,
+        281
+      ],
+      "summary": "ClarifyToolPending 是 clarify-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/directive-text.test.ts",
+      "type": "file",
+      "name": "directive-text.test.ts",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.test.ts",
+      "summary": "directive-text.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "type": "file",
+      "name": "directive-text.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "summary": "directive-text.tsx 是 typescript 源文件，包含 13 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:directiveIconSvg",
+      "type": "function",
+      "name": "directiveIconSvg",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        58,
+        64
+      ],
+      "summary": "directiveIconSvg 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:directiveIconElement",
+      "type": "function",
+      "name": "directiveIconElement",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        66,
+        84
+      ],
+      "summary": "directiveIconElement 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveIcon",
+      "type": "function",
+      "name": "DirectiveIcon",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        86,
+        101
+      ],
+      "summary": "DirectiveIcon 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:unwrapRefValue",
+      "type": "function",
+      "name": "unwrapRefValue",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        128,
+        141
+      ],
+      "summary": "unwrapRefValue 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:formatRefValue",
+      "type": "function",
+      "name": "formatRefValue",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        147,
+        165
+      ],
+      "summary": "formatRefValue 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:parseDirectiveText",
+      "type": "function",
+      "name": "parseDirectiveText",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        205,
+        255
+      ],
+      "summary": "parseDirectiveText 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:shortLabel",
+      "type": "function",
+      "name": "shortLabel",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        257,
+        283
+      ],
+      "summary": "shortLabel 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveContent",
+      "type": "function",
+      "name": "DirectiveContent",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        289,
+        320
+      ],
+      "summary": "DirectiveContent 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveText",
+      "type": "function",
+      "name": "DirectiveText",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        323,
+        325
+      ],
+      "summary": "DirectiveText 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveImage",
+      "type": "function",
+      "name": "DirectiveImage",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        330,
+        380
+      ],
+      "summary": "DirectiveImage 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveChip",
+      "type": "function",
+      "name": "DirectiveChip",
+      "filePath": "apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "lineRange": [
+        382,
+        397
+      ],
+      "summary": "DirectiveChip 是 directive-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/markdown-text.test.ts",
+      "type": "file",
+      "name": "markdown-text.test.ts",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.test.ts",
+      "summary": "markdown-text.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "type": "file",
+      "name": "markdown-text.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "summary": "markdown-text.tsx 是 typescript 源文件，包含 12 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:mediaSrc",
+      "type": "function",
+      "name": "mediaSrc",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        45,
+        67
+      ],
+      "summary": "mediaSrc 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:OpenMediaButton",
+      "type": "function",
+      "name": "OpenMediaButton",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        69,
+        79
+      ],
+      "summary": "OpenMediaButton 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MediaAttachment",
+      "type": "function",
+      "name": "MediaAttachment",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        81,
+        165
+      ],
+      "summary": "MediaAttachment 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:childrenToText",
+      "type": "function",
+      "name": "childrenToText",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        167,
+        177
+      ],
+      "summary": "childrenToText 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownLink",
+      "type": "function",
+      "name": "MarkdownLink",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        179,
+        217
+      ],
+      "summary": "MarkdownLink 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownImage",
+      "type": "function",
+      "name": "MarkdownImage",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        219,
+        233
+      ],
+      "summary": "MarkdownImage 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:useSmoothReveal",
+      "type": "function",
+      "name": "useSmoothReveal",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        245,
+        299
+      ],
+      "summary": "useSmoothReveal 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:SmoothStreamingText",
+      "type": "function",
+      "name": "SmoothStreamingText",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        305,
+        315
+      ],
+      "summary": "SmoothStreamingText 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:DeferStreamingText",
+      "type": "function",
+      "name": "DeferStreamingText",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        340,
+        350
+      ],
+      "summary": "DeferStreamingText 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownTextSurface",
+      "type": "function",
+      "name": "MarkdownTextSurface",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        376,
+        476
+      ],
+      "summary": "MarkdownTextSurface 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownTextContent",
+      "type": "function",
+      "name": "MarkdownTextContent",
+      "filePath": "apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "lineRange": [
+        483,
+        493
+      ],
+      "summary": "MarkdownTextContent 是 markdown-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "type": "file",
+      "name": "streaming.test.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "summary": "streaming.test.tsx 是 typescript 源文件，包含 18 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:stubOffsetDimension",
+      "type": "function",
+      "name": "stubOffsetDimension",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        64,
+        77
+      ],
+      "summary": "stubOffsetDimension 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:userMessage",
+      "type": "function",
+      "name": "userMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        88,
+        97
+      ],
+      "summary": "userMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantMessage",
+      "type": "function",
+      "name": "assistantMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        99,
+        114
+      ],
+      "summary": "assistantMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantErrorMessage",
+      "type": "function",
+      "name": "assistantErrorMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        116,
+        131
+      ],
+      "summary": "assistantErrorMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantReasoningMessage",
+      "type": "function",
+      "name": "assistantReasoningMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        133,
+        148
+      ],
+      "summary": "assistantReasoningMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantMultiReasoningMessage",
+      "type": "function",
+      "name": "assistantMultiReasoningMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        150,
+        165
+      ],
+      "summary": "assistantMultiReasoningMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantTodoMessage",
+      "type": "function",
+      "name": "assistantTodoMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        167,
+        196
+      ],
+      "summary": "assistantTodoMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantReasoningTodoMessage",
+      "type": "function",
+      "name": "assistantReasoningTodoMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        198,
+        226
+      ],
+      "summary": "assistantReasoningTodoMessage 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:StreamingHarness",
+      "type": "function",
+      "name": "StreamingHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        228,
+        264
+      ],
+      "summary": "StreamingHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:StaticThreadHarness",
+      "type": "function",
+      "name": "StaticThreadHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        266,
+        278
+      ],
+      "summary": "StaticThreadHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:TodoHarness",
+      "type": "function",
+      "name": "TodoHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        280,
+        292
+      ],
+      "summary": "TodoHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:MessageHarness",
+      "type": "function",
+      "name": "MessageHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        294,
+        306
+      ],
+      "summary": "MessageHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:RunningMessageHarness",
+      "type": "function",
+      "name": "RunningMessageHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        308,
+        320
+      ],
+      "summary": "RunningMessageHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:ReasoningHarness",
+      "type": "function",
+      "name": "ReasoningHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        322,
+        334
+      ],
+      "summary": "ReasoningHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:RunningReasoningHarness",
+      "type": "function",
+      "name": "RunningReasoningHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        336,
+        348
+      ],
+      "summary": "RunningReasoningHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:GroupedReasoningHarness",
+      "type": "function",
+      "name": "GroupedReasoningHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        350,
+        362
+      ],
+      "summary": "GroupedReasoningHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:IntroHarness",
+      "type": "function",
+      "name": "IntroHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        364,
+        376
+      ],
+      "summary": "IntroHarness 是 streaming.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/components/assistant-ui/streaming.test.tsx:TestResizeObserver",
+      "type": "class",
+      "name": "TestResizeObserver",
+      "filePath": "apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "lineRange": [
+        12,
+        44
+      ],
+      "summary": "TestResizeObserver 是 streaming.test.tsx 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "type": "file",
+      "name": "thread-virtualizer.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "summary": "thread-virtualizer.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx:buildGroups",
+      "type": "function",
+      "name": "buildGroups",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "lineRange": [
+        35,
+        67
+      ],
+      "summary": "buildGroups 是 thread-virtualizer.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx:VirtualizedThreadInner",
+      "type": "function",
+      "name": "VirtualizedThreadInner",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "lineRange": [
+        69,
+        213
+      ],
+      "summary": "VirtualizedThreadInner 是 thread-virtualizer.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx:useThreadScrollAnchor",
+      "type": "function",
+      "name": "useThreadScrollAnchor",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "lineRange": [
+        231,
+        465
+      ],
+      "summary": "useThreadScrollAnchor 是 thread-virtualizer.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "type": "file",
+      "name": "thread.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "summary": "thread.tsx 是 typescript 源文件，包含 25 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:partText",
+      "type": "function",
+      "name": "partText",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        99,
+        111
+      ],
+      "summary": "partText 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:Thread",
+      "type": "function",
+      "name": "Thread",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        121,
+        172
+      ],
+      "summary": "Thread 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:CenteredThreadSpinner",
+      "type": "function",
+      "name": "CenteredThreadSpinner",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        184,
+        203
+      ],
+      "summary": "CenteredThreadSpinner 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:AssistantMessage",
+      "type": "function",
+      "name": "AssistantMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        205,
+        263
+      ],
+      "summary": "AssistantMessage 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:StatusRow",
+      "type": "function",
+      "name": "StatusRow",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        265,
+        280
+      ],
+      "summary": "StatusRow 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ResponseLoadingIndicator",
+      "type": "function",
+      "name": "ResponseLoadingIndicator",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        282,
+        292
+      ],
+      "summary": "ResponseLoadingIndicator 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:StreamStallIndicator",
+      "type": "function",
+      "name": "StreamStallIndicator",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        303,
+        325
+      ],
+      "summary": "StreamStallIndicator 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ImageGenerateTool",
+      "type": "function",
+      "name": "ImageGenerateTool",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        327,
+        344
+      ],
+      "summary": "ImageGenerateTool 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ChainToolFallback",
+      "type": "function",
+      "name": "ChainToolFallback",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        346,
+        361
+      ],
+      "summary": "ChainToolFallback 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ThinkingDisclosure",
+      "type": "function",
+      "name": "ThinkingDisclosure",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        363,
+        452
+      ],
+      "summary": "ThinkingDisclosure 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ReasoningAccordionGroup",
+      "type": "function",
+      "name": "ReasoningAccordionGroup",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        458,
+        494
+      ],
+      "summary": "ReasoningAccordionGroup 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ReasoningTextPart",
+      "type": "function",
+      "name": "ReasoningTextPart",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        496,
+        512
+      ],
+      "summary": "ReasoningTextPart 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:formatMessageTimestamp",
+      "type": "function",
+      "name": "formatMessageTimestamp",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        542,
+        567
+      ],
+      "summary": "formatMessageTimestamp 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:AssistantActionBar",
+      "type": "function",
+      "name": "AssistantActionBar",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        569,
+        614
+      ],
+      "summary": "AssistantActionBar 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ReadAloudItem",
+      "type": "function",
+      "name": "ReadAloudItem",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        616,
+        653
+      ],
+      "summary": "ReadAloudItem 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:MessageTimestamp",
+      "type": "function",
+      "name": "MessageTimestamp",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        655,
+        665
+      ],
+      "summary": "MessageTimestamp 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:AssistantFooter",
+      "type": "function",
+      "name": "AssistantFooter",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        667,
+        685
+      ],
+      "summary": "AssistantFooter 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:StickyHumanMessageContainer",
+      "type": "function",
+      "name": "StickyHumanMessageContainer",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        697,
+        707
+      ],
+      "summary": "StickyHumanMessageContainer 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:UserMessage",
+      "type": "function",
+      "name": "UserMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        722,
+        882
+      ],
+      "summary": "UserMessage 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:SystemMessage",
+      "type": "function",
+      "name": "SystemMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        887,
+        936
+      ],
+      "summary": "SystemMessage 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/thread.tsx:UserEditComposer",
+      "type": "function",
+      "name": "UserEditComposer",
+      "filePath": "apps/desktop/src/components/assistant-ui/thread.tsx",
+      "lineRange": [
+        944,
+        1469
+      ],
+      "summary": "UserEditComposer 是 thread.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "type": "file",
+      "name": "todo-tool.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "summary": "todo-tool.tsx 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:todosFromMessageContent",
+      "type": "function",
+      "name": "todosFromMessageContent",
+      "filePath": "apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "lineRange": [
+        8,
+        34
+      ],
+      "summary": "todosFromMessageContent 是 todo-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:Checkmark",
+      "type": "function",
+      "name": "Checkmark",
+      "filePath": "apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "lineRange": [
+        42,
+        69
+      ],
+      "summary": "Checkmark 是 todo-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:HoistedTodoPanel",
+      "type": "function",
+      "name": "HoistedTodoPanel",
+      "filePath": "apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "lineRange": [
+        71,
+        109
+      ],
+      "summary": "HoistedTodoPanel 是 todo-tool.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "type": "file",
+      "name": "tool-approval-group.test.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "summary": "tool-approval-group.test.tsx 是 typescript 源文件，包含 3 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:stubOffsetDimension",
+      "type": "function",
+      "name": "stubOffsetDimension",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "lineRange": [
+        54,
+        67
+      ],
+      "summary": "stubOffsetDimension 是 tool-approval-group.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:groupedPendingMessage",
+      "type": "function",
+      "name": "groupedPendingMessage",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "lineRange": [
+        74,
+        105
+      ],
+      "summary": "groupedPendingMessage 是 tool-approval-group.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:GroupHarness",
+      "type": "function",
+      "name": "GroupHarness",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "lineRange": [
+        107,
+        119
+      ],
+      "summary": "GroupHarness 是 tool-approval-group.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:TestResizeObserver",
+      "type": "class",
+      "name": "TestResizeObserver",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "lineRange": [
+        21,
+        37
+      ],
+      "summary": "TestResizeObserver 是 tool-approval-group.test.tsx 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tool-approval.test.tsx",
+      "type": "file",
+      "name": "tool-approval.test.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval.test.tsx",
+      "summary": "tool-approval.test.tsx 是 typescript 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "type": "file",
+      "name": "tool-approval.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "summary": "tool-approval.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-approval.tsx:PendingToolApproval",
+      "type": "function",
+      "name": "PendingToolApproval",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "lineRange": [
+        43,
+        51
+      ],
+      "summary": "PendingToolApproval 是 tool-approval.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-approval.tsx:ApprovalBar",
+      "type": "function",
+      "name": "ApprovalBar",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "lineRange": [
+        55,
+        209
+      ],
+      "summary": "ApprovalBar 是 tool-approval.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.test.ts",
+      "type": "file",
+      "name": "tool-fallback-model.test.ts",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.test.ts",
+      "summary": "tool-fallback-model.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "type": "file",
+      "name": "tool-fallback-model.ts",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "summary": "tool-fallback-model.ts 是 typescript 源文件，包含 58 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:selectMessageRunning",
+      "type": "function",
+      "name": "selectMessageRunning",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        119,
+        120
+      ],
+      "summary": "selectMessageRunning 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:titleForTool",
+      "type": "function",
+      "name": "titleForTool",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        122,
+        132
+      ],
+      "summary": "titleForTool 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolMeta",
+      "type": "function",
+      "name": "toolMeta",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        139,
+        155
+      ],
+      "summary": "toolMeta 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:compactPreview",
+      "type": "function",
+      "name": "compactPreview",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        161,
+        185
+      ],
+      "summary": "compactPreview 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:contextValue",
+      "type": "function",
+      "name": "contextValue",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        187,
+        199
+      ],
+      "summary": "contextValue 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:parseMaybeObject",
+      "type": "function",
+      "name": "parseMaybeObject",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        205,
+        221
+      ],
+      "summary": "parseMaybeObject 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:unwrapToolPayload",
+      "type": "function",
+      "name": "unwrapToolPayload",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        223,
+        235
+      ],
+      "summary": "unwrapToolPayload 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:formatDurationSeconds",
+      "type": "function",
+      "name": "formatDurationSeconds",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        243,
+        270
+      ],
+      "summary": "formatDurationSeconds 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:countFromUnknown",
+      "type": "function",
+      "name": "countFromUnknown",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        351,
+        363
+      ],
+      "summary": "countFromUnknown 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:singularizeNoun",
+      "type": "function",
+      "name": "singularizeNoun",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        365,
+        385
+      ],
+      "summary": "singularizeNoun 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:pluralizeNoun",
+      "type": "function",
+      "name": "pluralizeNoun",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        387,
+        405
+      ],
+      "summary": "pluralizeNoun 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:dynamicCountNounFromKey",
+      "type": "function",
+      "name": "dynamicCountNounFromKey",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        427,
+        437
+      ],
+      "summary": "dynamicCountNounFromKey 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:countFromRecord",
+      "type": "function",
+      "name": "countFromRecord",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        439,
+        475
+      ],
+      "summary": "countFromRecord 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:countFromText",
+      "type": "function",
+      "name": "countFromText",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        477,
+        496
+      ],
+      "summary": "countFromText 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolResultCount",
+      "type": "function",
+      "name": "toolResultCount",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        498,
+        539
+      ],
+      "summary": "toolResultCount 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:isPreviewableTarget",
+      "type": "function",
+      "name": "isPreviewableTarget",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        549,
+        556
+      ],
+      "summary": "isPreviewableTarget 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolPartDisclosureId",
+      "type": "function",
+      "name": "toolPartDisclosureId",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        568,
+        574
+      ],
+      "summary": "toolPartDisclosureId 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolGroupDisclosureId",
+      "type": "function",
+      "name": "toolGroupDisclosureId",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        576,
+        578
+      ],
+      "summary": "toolGroupDisclosureId 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:findFirstUrl",
+      "type": "function",
+      "name": "findFirstUrl",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        582,
+        602
+      ],
+      "summary": "findFirstUrl 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:looksRedundant",
+      "type": "function",
+      "name": "looksRedundant",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        614,
+        622
+      ],
+      "summary": "looksRedundant 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cleanVisibleText",
+      "type": "function",
+      "name": "cleanVisibleText",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        624,
+        640
+      ],
+      "summary": "cleanVisibleText 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:summarizeBrowserSnapshot",
+      "type": "function",
+      "name": "summarizeBrowserSnapshot",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        642,
+        657
+      ],
+      "summary": "summarizeBrowserSnapshot 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:firstStringField",
+      "type": "function",
+      "name": "firstStringField",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        659,
+        669
+      ],
+      "summary": "firstStringField 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:collectResultItems",
+      "type": "function",
+      "name": "collectResultItems",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        671,
+        708
+      ],
+      "summary": "collectResultItems 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:extractSearchResults",
+      "type": "function",
+      "name": "extractSearchResults",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        710,
+        725
+      ],
+      "summary": "extractSearchResults 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolErrorText",
+      "type": "function",
+      "name": "toolErrorText",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        727,
+        764
+      ],
+      "summary": "toolErrorText 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolPreviewTarget",
+      "type": "function",
+      "name": "toolPreviewTarget",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        784,
+        805
+      ],
+      "summary": "toolPreviewTarget 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolImageUrl",
+      "type": "function",
+      "name": "toolImageUrl",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        807,
+        824
+      ],
+      "summary": "toolImageUrl 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:stripInlineDiffChrome",
+      "type": "function",
+      "name": "stripInlineDiffChrome",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        830,
+        836
+      ],
+      "summary": "stripInlineDiffChrome 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:htmlPathFromInlineDiff",
+      "type": "function",
+      "name": "htmlPathFromInlineDiff",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        838,
+        850
+      ],
+      "summary": "htmlPathFromInlineDiff 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:inlineDiffFromResult",
+      "type": "function",
+      "name": "inlineDiffFromResult",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        860,
+        864
+      ],
+      "summary": "inlineDiffFromResult 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:minimalValueSummary",
+      "type": "function",
+      "name": "minimalValueSummary",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        868,
+        882
+      ],
+      "summary": "minimalValueSummary 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:fallbackDetailText",
+      "type": "function",
+      "name": "fallbackDetailText",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        884,
+        901
+      ],
+      "summary": "fallbackDetailText 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:formatCronTime",
+      "type": "function",
+      "name": "formatCronTime",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        910,
+        921
+      ],
+      "summary": "formatCronTime 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cronjobSubtitle",
+      "type": "function",
+      "name": "cronjobSubtitle",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        923,
+        942
+      ],
+      "summary": "cronjobSubtitle 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cronjobDetail",
+      "type": "function",
+      "name": "cronjobDetail",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        944,
+        975
+      ],
+      "summary": "cronjobDetail 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolSubtitle",
+      "type": "function",
+      "name": "toolSubtitle",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        977,
+        1080
+      ],
+      "summary": "toolSubtitle 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolDetailLabel",
+      "type": "function",
+      "name": "toolDetailLabel",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        1082,
+        1096
+      ],
+      "summary": "toolDetailLabel 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolDetailText",
+      "type": "function",
+      "name": "toolDetailText",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        1098,
+        1179
+      ],
+      "summary": "toolDetailText 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolCopyPayload",
+      "type": "function",
+      "name": "toolCopyPayload",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        1181,
+        1269
+      ],
+      "summary": "toolCopyPayload 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:dynamicTitle",
+      "type": "function",
+      "name": "dynamicTitle",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        1271,
+        1308
+      ],
+      "summary": "dynamicTitle 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:buildToolView",
+      "type": "function",
+      "name": "buildToolView",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "lineRange": [
+        1310,
+        1368
+      ],
+      "summary": "buildToolView 是 tool-fallback-model.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "type": "file",
+      "name": "tool-fallback.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "summary": "tool-fallback.tsx 是 typescript 源文件，包含 10 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:rawTechnicalTrace",
+      "type": "function",
+      "name": "rawTechnicalTrace",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "lineRange": [
+        81,
+        98
+      ],
+      "summary": "rawTechnicalTrace 是 tool-fallback.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:statusGlyph",
+      "type": "function",
+      "name": "statusGlyph",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "lineRange": [
+        100,
+        130
+      ],
+      "summary": "statusGlyph 是 tool-fallback.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:SearchResultsList",
+      "type": "function",
+      "name": "SearchResultsList",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "lineRange": [
+        155,
+        180
+      ],
+      "summary": "SearchResultsList 是 tool-fallback.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolEntry",
+      "type": "function",
+      "name": "ToolEntry",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "lineRange": [
+        196,
+        418
+      ],
+      "summary": "ToolEntry 是 tool-fallback.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolGroupSlot",
+      "type": "function",
+      "name": "ToolGroupSlot",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "lineRange": [
+        435,
+        454
+      ],
+      "summary": "ToolGroupSlot 是 tool-fallback.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolFallback",
+      "type": "function",
+      "name": "ToolFallback",
+      "filePath": "apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "lineRange": [
+        462,
+        466
+      ],
+      "summary": "ToolFallback 是 tool-fallback.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "target": "function:apps/desktop/src/app/shell/statusbar-controls.tsx:StatusbarControls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "target": "function:apps/desktop/src/app/shell/statusbar-controls.tsx:StatusbarControls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/statusbar-controls.tsx",
+      "target": "function:apps/desktop/src/app/shell/statusbar-controls.tsx:StatusbarItemView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "target": "function:apps/desktop/src/app/shell/titlebar-controls.tsx:TitlebarControls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "target": "function:apps/desktop/src/app/shell/titlebar-controls.tsx:TitlebarControls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/titlebar-controls.tsx",
+      "target": "function:apps/desktop/src/app/shell/titlebar-controls.tsx:TitlebarToolButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/titlebar.ts",
+      "target": "function:apps/desktop/src/app/shell/titlebar.ts:titlebarControlsPosition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/titlebar.ts",
+      "target": "function:apps/desktop/src/app/shell/titlebar.ts:titlebarControlsPosition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/use-group-registry.ts",
+      "target": "function:apps/desktop/src/app/shell/use-group-registry.ts:useGroupRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/use-group-registry.ts",
+      "target": "function:apps/desktop/src/app/shell/use-group-registry.ts:useGroupRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.test.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.test.tsx:toolset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.tsx:filteredSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.tsx:filteredToolsets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.tsx:SkillsView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.tsx:SkillsView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.tsx:StatusPill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/skills/index.tsx",
+      "target": "function:apps/desktop/src/app/skills/index.tsx:EmptyState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:UpdatesOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:UpdatesOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:IdleView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:ManualView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:ApplyingView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:ErrorView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/updates-overlay.tsx",
+      "target": "function:apps/desktop/src/app/updates-overlay.tsx:CenteredStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/ansi-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/ansi-text.tsx:AnsiText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/ansi-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/ansi-text.tsx:AnsiText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:readClarifyArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:RadioDot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:ClarifyTool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:ClarifyTool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/clarify-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/clarify-tool.tsx:ClarifyToolPending",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:directiveIconSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:directiveIconSvg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:directiveIconElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:directiveIconElement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:unwrapRefValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:formatRefValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:formatRefValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:parseDirectiveText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:shortLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/directive-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/directive-text.tsx:DirectiveChip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:mediaSrc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:OpenMediaButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MediaAttachment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:childrenToText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:useSmoothReveal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:SmoothStreamingText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:DeferStreamingText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownTextSurface",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownTextContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/markdown-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/markdown-text.tsx:MarkdownTextContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:stubOffsetDimension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:userMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantReasoningMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantMultiReasoningMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantTodoMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:assistantReasoningTodoMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:StreamingHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:StaticThreadHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:TodoHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:MessageHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:RunningMessageHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:ReasoningHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:RunningReasoningHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:GroupedReasoningHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/streaming.test.tsx:IntroHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/streaming.test.tsx",
+      "target": "class:apps/desktop/src/components/assistant-ui/streaming.test.tsx:TestResizeObserver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx:buildGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx:VirtualizedThreadInner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread-virtualizer.tsx:useThreadScrollAnchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:partText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:Thread",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:Thread",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:CenteredThreadSpinner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:AssistantMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:StatusRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ResponseLoadingIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:StreamStallIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ImageGenerateTool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ChainToolFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ThinkingDisclosure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ReasoningAccordionGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ReasoningTextPart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:formatMessageTimestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:AssistantActionBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:ReadAloudItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:MessageTimestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:AssistantFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:StickyHumanMessageContainer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:UserMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:SystemMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/thread.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/thread.tsx:UserEditComposer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:todosFromMessageContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:todosFromMessageContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:Checkmark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:HoistedTodoPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/todo-tool.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/todo-tool.tsx:HoistedTodoPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:stubOffsetDimension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:groupedPendingMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:GroupHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx",
+      "target": "class:apps/desktop/src/components/assistant-ui/tool-approval-group.test.tsx:TestResizeObserver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-approval.tsx:PendingToolApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-approval.tsx:PendingToolApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-approval.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-approval.tsx:ApprovalBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:selectMessageRunning",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:selectMessageRunning",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:titleForTool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:compactPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:compactPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:contextValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:parseMaybeObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:unwrapToolPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:formatDurationSeconds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:countFromUnknown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:singularizeNoun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:pluralizeNoun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:dynamicCountNounFromKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:countFromRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:countFromText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolResultCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:isPreviewableTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:isPreviewableTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolPartDisclosureId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolPartDisclosureId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolGroupDisclosureId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolGroupDisclosureId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:findFirstUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:looksRedundant",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:looksRedundant",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cleanVisibleText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cleanVisibleText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:summarizeBrowserSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:firstStringField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:collectResultItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:extractSearchResults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolErrorText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolImageUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:stripInlineDiffChrome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:stripInlineDiffChrome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:htmlPathFromInlineDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:inlineDiffFromResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:inlineDiffFromResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:minimalValueSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:fallbackDetailText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:formatCronTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cronjobSubtitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:cronjobDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolSubtitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolDetailLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolDetailText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolCopyPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:toolCopyPayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:dynamicTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:buildToolView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback-model.ts:buildToolView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:rawTechnicalTrace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:statusGlyph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:SearchResultsList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolGroupSlot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolGroupSlot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/tool-fallback.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/tool-fallback.tsx:ToolFallback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

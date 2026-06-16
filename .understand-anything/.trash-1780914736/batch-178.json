@@ -1,0 +1,2278 @@
+{
+  "nodes": [
+    {
+      "id": "file:optional-skills/creative/concept-diagrams/templates/template.html",
+      "type": "file",
+      "name": "template.html",
+      "filePath": "optional-skills/creative/concept-diagrams/templates/template.html",
+      "summary": "template.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "document:optional-skills/creative/creative-ideation/references/full-prompt-library.md",
+      "type": "document",
+      "name": "full-prompt-library.md",
+      "filePath": "optional-skills/creative/creative-ideation/references/full-prompt-library.md",
+      "summary": "full-prompt-library.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/creative-ideation/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/creative/creative-ideation/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/creative/hyperframes/scripts/setup.sh",
+      "type": "file",
+      "name": "setup.sh",
+      "filePath": "optional-skills/creative/hyperframes/scripts/setup.sh",
+      "summary": "setup.sh 是 shell 源文件，包含 5 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "document:optional-skills/creative/hyperframes/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/creative/hyperframes/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/creative/kanban-video-orchestrator/assets/brief.md.tmpl",
+      "type": "file",
+      "name": "brief.md.tmpl",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/assets/brief.md.tmpl",
+      "summary": "brief.md.tmpl 是 tmpl 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tmpl",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 tmpl。"
+    },
+    {
+      "id": "file:optional-skills/creative/kanban-video-orchestrator/assets/setup.sh.tmpl",
+      "type": "file",
+      "name": "setup.sh.tmpl",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/assets/setup.sh.tmpl",
+      "summary": "setup.sh.tmpl 是 tmpl 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tmpl",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 tmpl。"
+    },
+    {
+      "id": "file:optional-skills/creative/kanban-video-orchestrator/assets/soul.md.tmpl",
+      "type": "file",
+      "name": "soul.md.tmpl",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/assets/soul.md.tmpl",
+      "summary": "soul.md.tmpl 是 tmpl 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tmpl",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 tmpl。"
+    },
+    {
+      "id": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "type": "file",
+      "name": "bootstrap_pipeline.py",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "summary": "bootstrap_pipeline.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:load_template",
+      "type": "function",
+      "name": "load_template",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        70,
+        71
+      ],
+      "summary": "load_template 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:validate_plan",
+      "type": "function",
+      "name": "validate_plan",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        78,
+        129
+      ],
+      "summary": "validate_plan 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_brief",
+      "type": "function",
+      "name": "render_brief",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        132,
+        201
+      ],
+      "summary": "render_brief 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_team_md",
+      "type": "function",
+      "name": "render_team_md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        204,
+        321
+      ],
+      "summary": "render_team_md 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_setup_sh",
+      "type": "function",
+      "name": "render_setup_sh",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        324,
+        400
+      ],
+      "summary": "render_setup_sh 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_soul_md",
+      "type": "function",
+      "name": "render_soul_md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        403,
+        461
+      ],
+      "summary": "render_soul_md 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "lineRange": [
+        464,
+        497
+      ],
+      "summary": "main 是 bootstrap_pipeline.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "type": "file",
+      "name": "monitor.py",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "summary": "monitor.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:hermes_available",
+      "type": "function",
+      "name": "hermes_available",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        29,
+        30
+      ],
+      "summary": "hermes_available 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:kanban_list",
+      "type": "function",
+      "name": "kanban_list",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        33,
+        66
+      ],
+      "summary": "kanban_list 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:kanban_show",
+      "type": "function",
+      "name": "kanban_show",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        69,
+        79
+      ],
+      "summary": "kanban_show 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:detect_issues",
+      "type": "function",
+      "name": "detect_issues",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        82,
+        131
+      ],
+      "summary": "detect_issues 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:snapshot",
+      "type": "function",
+      "name": "snapshot",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        134,
+        137
+      ],
+      "summary": "snapshot 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:print_snapshot",
+      "type": "function",
+      "name": "print_snapshot",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        140,
+        160
+      ],
+      "summary": "print_snapshot 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "lineRange": [
+        163,
+        191
+      ],
+      "summary": "main 是 monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/meme-generation/EXAMPLES.md",
+      "type": "document",
+      "name": "EXAMPLES.md",
+      "filePath": "optional-skills/creative/meme-generation/EXAMPLES.md",
+      "summary": "EXAMPLES.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "type": "file",
+      "name": "generate_meme.py",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "summary": "generate_meme.py 是 python 源文件，包含 16 个函数、16 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_fetch_url",
+      "type": "function",
+      "name": "_fetch_url",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        39,
+        46
+      ],
+      "summary": "_fetch_url 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:load_curated_templates",
+      "type": "function",
+      "name": "load_curated_templates",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        49,
+        52
+      ],
+      "summary": "load_curated_templates 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_default_fields",
+      "type": "function",
+      "name": "_default_fields",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        55,
+        77
+      ],
+      "summary": "_default_fields 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:fetch_imgflip_templates",
+      "type": "function",
+      "name": "fetch_imgflip_templates",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        80,
+        104
+      ],
+      "summary": "fetch_imgflip_templates 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_slugify",
+      "type": "function",
+      "name": "_slugify",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        107,
+        109
+      ],
+      "summary": "_slugify 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:resolve_template",
+      "type": "function",
+      "name": "resolve_template",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        112,
+        151
+      ],
+      "summary": "resolve_template 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:get_template_image",
+      "type": "function",
+      "name": "get_template_image",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        154,
+        170
+      ],
+      "summary": "get_template_image 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:find_font",
+      "type": "function",
+      "name": "find_font",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        173,
+        194
+      ],
+      "summary": "find_font 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_wrap_text",
+      "type": "function",
+      "name": "_wrap_text",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        197,
+        212
+      ],
+      "summary": "_wrap_text 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:draw_outlined_text",
+      "type": "function",
+      "name": "draw_outlined_text",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        215,
+        260
+      ],
+      "summary": "draw_outlined_text 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_overlay_on_image",
+      "type": "function",
+      "name": "_overlay_on_image",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        263,
+        279
+      ],
+      "summary": "_overlay_on_image 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_add_bars",
+      "type": "function",
+      "name": "_add_bars",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        282,
+        341
+      ],
+      "summary": "_add_bars 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:generate_meme",
+      "type": "function",
+      "name": "generate_meme",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        344,
+        363
+      ],
+      "summary": "generate_meme 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:generate_from_image",
+      "type": "function",
+      "name": "generate_from_image",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        366,
+        383
+      ],
+      "summary": "generate_from_image 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:list_templates",
+      "type": "function",
+      "name": "list_templates",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        386,
+        395
+      ],
+      "summary": "list_templates 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:search_templates",
+      "type": "function",
+      "name": "search_templates",
+      "filePath": "optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "lineRange": [
+        398,
+        420
+      ],
+      "summary": "search_templates 是 generate_meme.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:optional-skills/creative/meme-generation/scripts/templates.json",
+      "type": "config",
+      "name": "templates.json",
+      "filePath": "optional-skills/creative/meme-generation/scripts/templates.json",
+      "summary": "templates.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "document:optional-skills/creative/meme-generation/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/creative/meme-generation/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/pixel-art/ATTRIBUTION.md",
+      "type": "document",
+      "name": "ATTRIBUTION.md",
+      "filePath": "optional-skills/creative/pixel-art/ATTRIBUTION.md",
+      "summary": "ATTRIBUTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/pixel-art/references/palettes.md",
+      "type": "document",
+      "name": "palettes.md",
+      "filePath": "optional-skills/creative/pixel-art/references/palettes.md",
+      "summary": "palettes.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/creative/pixel-art/scripts/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "optional-skills/creative/pixel-art/scripts/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:optional-skills/creative/pixel-art/scripts/palettes.py",
+      "type": "file",
+      "name": "palettes.py",
+      "filePath": "optional-skills/creative/pixel-art/scripts/palettes.py",
+      "summary": "palettes.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/palettes.py:build_palette_image",
+      "type": "function",
+      "name": "build_palette_image",
+      "filePath": "optional-skills/creative/pixel-art/scripts/palettes.py",
+      "lineRange": [
+        150,
+        167
+      ],
+      "summary": "build_palette_image 是 palettes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "type": "file",
+      "name": "pixel_art_video.py",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "summary": "pixel_art_video.py 是 python 源文件，包含 29 个函数、29 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_px",
+      "type": "function",
+      "name": "_px",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        31,
+        35
+      ],
+      "summary": "_px 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_pixel_cross",
+      "type": "function",
+      "name": "_pixel_cross",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        38,
+        42
+      ],
+      "summary": "_pixel_cross 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_stars",
+      "type": "function",
+      "name": "init_stars",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        47,
+        48
+      ],
+      "summary": "init_stars 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_stars",
+      "type": "function",
+      "name": "draw_stars",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        50,
+        53
+      ],
+      "summary": "draw_stars 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_fireflies",
+      "type": "function",
+      "name": "init_fireflies",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        56,
+        59
+      ],
+      "summary": "init_fireflies 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_fireflies",
+      "type": "function",
+      "name": "draw_fireflies",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        61,
+        68
+      ],
+      "summary": "draw_fireflies 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_leaves",
+      "type": "function",
+      "name": "init_leaves",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        71,
+        76
+      ],
+      "summary": "init_leaves 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_leaves",
+      "type": "function",
+      "name": "draw_leaves",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        78,
+        83
+      ],
+      "summary": "draw_leaves 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_dust_motes",
+      "type": "function",
+      "name": "init_dust_motes",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        86,
+        89
+      ],
+      "summary": "init_dust_motes 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_dust_motes",
+      "type": "function",
+      "name": "draw_dust_motes",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        91,
+        97
+      ],
+      "summary": "draw_dust_motes 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_sparkles",
+      "type": "function",
+      "name": "init_sparkles",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        100,
+        104
+      ],
+      "summary": "init_sparkles 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_sparkles",
+      "type": "function",
+      "name": "draw_sparkles",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        106,
+        109
+      ],
+      "summary": "draw_sparkles 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_rain",
+      "type": "function",
+      "name": "init_rain",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        112,
+        114
+      ],
+      "summary": "init_rain 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_rain",
+      "type": "function",
+      "name": "draw_rain",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        116,
+        120
+      ],
+      "summary": "draw_rain 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_lightning",
+      "type": "function",
+      "name": "init_lightning",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        123,
+        124
+      ],
+      "summary": "init_lightning 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_lightning",
+      "type": "function",
+      "name": "draw_lightning",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        126,
+        136
+      ],
+      "summary": "draw_lightning 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_bubbles",
+      "type": "function",
+      "name": "init_bubbles",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        139,
+        142
+      ],
+      "summary": "init_bubbles 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_bubbles",
+      "type": "function",
+      "name": "draw_bubbles",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        144,
+        149
+      ],
+      "summary": "draw_bubbles 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_embers",
+      "type": "function",
+      "name": "init_embers",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        152,
+        156
+      ],
+      "summary": "init_embers 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_embers",
+      "type": "function",
+      "name": "draw_embers",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        158,
+        163
+      ],
+      "summary": "draw_embers 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_snowflakes",
+      "type": "function",
+      "name": "init_snowflakes",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        166,
+        170
+      ],
+      "summary": "init_snowflakes 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_snowflakes",
+      "type": "function",
+      "name": "draw_snowflakes",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        172,
+        179
+      ],
+      "summary": "draw_snowflakes 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_neon_pulse",
+      "type": "function",
+      "name": "init_neon_pulse",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        182,
+        185
+      ],
+      "summary": "init_neon_pulse 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_neon_pulse",
+      "type": "function",
+      "name": "draw_neon_pulse",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        187,
+        190
+      ],
+      "summary": "draw_neon_pulse 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_heat_shimmer",
+      "type": "function",
+      "name": "init_heat_shimmer",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        193,
+        195
+      ],
+      "summary": "init_heat_shimmer 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_heat_shimmer",
+      "type": "function",
+      "name": "draw_heat_shimmer",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        197,
+        202
+      ],
+      "summary": "draw_heat_shimmer 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_ensure_ffmpeg",
+      "type": "function",
+      "name": "_ensure_ffmpeg",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        239,
+        244
+      ],
+      "summary": "_ensure_ffmpeg 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:pixel_art_video",
+      "type": "function",
+      "name": "pixel_art_video",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        247,
+        320
+      ],
+      "summary": "pixel_art_video 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "lineRange": [
+        323,
+        341
+      ],
+      "summary": "main 是 pixel_art_video.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "type": "file",
+      "name": "pixel_art.py",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "summary": "pixel_art.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art.py:pixel_art",
+      "type": "function",
+      "name": "pixel_art",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "lineRange": [
+        87,
+        134
+      ],
+      "summary": "pixel_art 是 pixel_art.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/creative/pixel-art/scripts/pixel_art.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "lineRange": [
+        137,
+        158
+      ],
+      "summary": "main 是 pixel_art.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/creative/pixel-art/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/creative/pixel-art/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/devops/cli/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/devops/cli/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/devops/docker-management/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/devops/docker-management/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "containerization"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:load_template",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:load_template",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:validate_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:validate_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_brief",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_brief",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_team_md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_team_md",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_setup_sh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_setup_sh",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_soul_md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:render_soul_md",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:hermes_available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:hermes_available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:kanban_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:kanban_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:kanban_show",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:kanban_show",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:detect_issues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:detect_issues",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:print_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:print_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+      "target": "function:optional-skills/creative/kanban-video-orchestrator/scripts/monitor.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_fetch_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_fetch_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:load_curated_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:load_curated_templates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_default_fields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_default_fields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:fetch_imgflip_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:fetch_imgflip_templates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_slugify",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_slugify",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:resolve_template",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:resolve_template",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:get_template_image",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:get_template_image",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:find_font",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:find_font",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_wrap_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_wrap_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:draw_outlined_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:draw_outlined_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_overlay_on_image",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_overlay_on_image",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_add_bars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:_add_bars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:generate_meme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:generate_meme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:generate_from_image",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:generate_from_image",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:list_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:list_templates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:search_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/meme-generation/scripts/generate_meme.py",
+      "target": "function:optional-skills/creative/meme-generation/scripts/generate_meme.py:search_templates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/palettes.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/palettes.py:build_palette_image",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/palettes.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/palettes.py:build_palette_image",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_px",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_px",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_pixel_cross",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_pixel_cross",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_stars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_stars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_stars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_stars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_fireflies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_fireflies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_fireflies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_fireflies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_leaves",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_leaves",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_leaves",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_leaves",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_dust_motes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_dust_motes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_dust_motes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_dust_motes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_sparkles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_sparkles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_sparkles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_sparkles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_rain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_rain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_rain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_rain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_lightning",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_lightning",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_lightning",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_lightning",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_bubbles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_bubbles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_bubbles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_bubbles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_embers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_embers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_embers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_embers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_snowflakes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_snowflakes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_snowflakes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_snowflakes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_neon_pulse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_neon_pulse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_neon_pulse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_neon_pulse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_heat_shimmer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:init_heat_shimmer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_heat_shimmer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:draw_heat_shimmer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_ensure_ffmpeg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:_ensure_ffmpeg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:pixel_art_video",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:pixel_art_video",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art_video.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art_video.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art.py:pixel_art",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art.py:pixel_art",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/creative/pixel-art/scripts/pixel_art.py",
+      "target": "function:optional-skills/creative/pixel-art/scripts/pixel_art.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

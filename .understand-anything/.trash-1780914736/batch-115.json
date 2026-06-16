@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/automate-with-cron.md",
+      "type": "document",
+      "name": "automate-with-cron.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/automate-with-cron.md",
+      "summary": "automate-with-cron.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/automation-templates.md",
+      "type": "document",
+      "name": "automation-templates.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/automation-templates.md",
+      "summary": "automation-templates.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/aws-bedrock.md",
+      "type": "document",
+      "name": "aws-bedrock.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/aws-bedrock.md",
+      "summary": "aws-bedrock.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/azure-foundry.md",
+      "type": "document",
+      "name": "azure-foundry.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/azure-foundry.md",
+      "summary": "azure-foundry.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/build-a-hermes-plugin.md",
+      "type": "document",
+      "name": "build-a-hermes-plugin.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/build-a-hermes-plugin.md",
+      "summary": "build-a-hermes-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/cron-script-only.md",
+      "type": "document",
+      "name": "cron-script-only.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/cron-script-only.md",
+      "summary": "cron-script-only.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/cron-troubleshooting.md",
+      "type": "document",
+      "name": "cron-troubleshooting.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/cron-troubleshooting.md",
+      "summary": "cron-troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/daily-briefing-bot.md",
+      "type": "document",
+      "name": "daily-briefing-bot.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/daily-briefing-bot.md",
+      "summary": "daily-briefing-bot.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/delegation-patterns.md",
+      "type": "document",
+      "name": "delegation-patterns.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/delegation-patterns.md",
+      "summary": "delegation-patterns.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/github-pr-review-agent.md",
+      "type": "document",
+      "name": "github-pr-review-agent.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/github-pr-review-agent.md",
+      "summary": "github-pr-review-agent.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/google-gemini.md",
+      "type": "document",
+      "name": "google-gemini.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/google-gemini.md",
+      "summary": "google-gemini.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/local-llm-on-mac.md",
+      "type": "document",
+      "name": "local-llm-on-mac.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/local-llm-on-mac.md",
+      "summary": "local-llm-on-mac.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/local-ollama-setup.md",
+      "type": "document",
+      "name": "local-ollama-setup.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/local-ollama-setup.md",
+      "summary": "local-ollama-setup.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/microsoft-graph-app-registration.md",
+      "type": "document",
+      "name": "microsoft-graph-app-registration.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/microsoft-graph-app-registration.md",
+      "summary": "microsoft-graph-app-registration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/migrate-from-openclaw.md",
+      "type": "document",
+      "name": "migrate-from-openclaw.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/migrate-from-openclaw.md",
+      "summary": "migrate-from-openclaw.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/minimax-oauth.md",
+      "type": "document",
+      "name": "minimax-oauth.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/minimax-oauth.md",
+      "summary": "minimax-oauth.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/oauth-over-ssh.md",
+      "type": "document",
+      "name": "oauth-over-ssh.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/oauth-over-ssh.md",
+      "summary": "oauth-over-ssh.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/operate-teams-meeting-pipeline.md",
+      "type": "document",
+      "name": "operate-teams-meeting-pipeline.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/operate-teams-meeting-pipeline.md",
+      "summary": "operate-teams-meeting-pipeline.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/pipe-script-output.md",
+      "type": "document",
+      "name": "pipe-script-output.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/pipe-script-output.md",
+      "summary": "pipe-script-output.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/python-library.md",
+      "type": "document",
+      "name": "python-library.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/python-library.md",
+      "summary": "python-library.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

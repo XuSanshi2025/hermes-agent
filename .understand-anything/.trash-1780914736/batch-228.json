@@ -1,0 +1,1533 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/migration/migration-openclaw-migration.md",
+      "type": "document",
+      "name": "migration-openclaw-migration.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/migration/migration-openclaw-migration.md",
+      "summary": "migration-openclaw-migration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/software-development/software-development-rest-graphql-debug.md",
+      "type": "document",
+      "name": "software-development-rest-graphql-debug.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/software-development/software-development-rest-graphql-debug.md",
+      "summary": "software-development-rest-graphql-debug.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/web-development/web-development-page-agent.md",
+      "type": "document",
+      "name": "web-development-page-agent.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/optional/web-development/web-development-page-agent.md",
+      "summary": "web-development-page-agent.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-stories.mdx",
+      "type": "document",
+      "name": "user-stories.mdx",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-stories.mdx",
+      "summary": "user-stories.mdx 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:website/scripts/extract-skills.py",
+      "type": "file",
+      "name": "extract-skills.py",
+      "filePath": "website/scripts/extract-skills.py",
+      "summary": "extract-skills.py 是 python 源文件，包含 11 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_extract_overview",
+      "type": "function",
+      "name": "_extract_overview",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        114,
+        138
+      ],
+      "summary": "_extract_overview 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_docs_page_path",
+      "type": "function",
+      "name": "_docs_page_path",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        141,
+        162
+      ],
+      "summary": "_docs_page_path 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_install_command",
+      "type": "function",
+      "name": "_install_command",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        165,
+        193
+      ],
+      "summary": "_install_command 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_source_url",
+      "type": "function",
+      "name": "_source_url",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        196,
+        247
+      ],
+      "summary": "_source_url 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:extract_local_skills",
+      "type": "function",
+      "name": "extract_local_skills",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        250,
+        330
+      ],
+      "summary": "extract_local_skills 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_label_for_github_identifier",
+      "type": "function",
+      "name": "_label_for_github_identifier",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        333,
+        340
+      ],
+      "summary": "_label_for_github_identifier 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:extract_unified_index_skills",
+      "type": "function",
+      "name": "extract_unified_index_skills",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        343,
+        441
+      ],
+      "summary": "extract_unified_index_skills 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:extract_legacy_cache_skills",
+      "type": "function",
+      "name": "extract_legacy_cache_skills",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        444,
+        511
+      ],
+      "summary": "extract_legacy_cache_skills 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_guess_category",
+      "type": "function",
+      "name": "_guess_category",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        562,
+        586
+      ],
+      "summary": "_guess_category 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:_consolidate_small_categories",
+      "type": "function",
+      "name": "_consolidate_small_categories",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        592,
+        618
+      ],
+      "summary": "_consolidate_small_categories 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/extract-skills.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "website/scripts/extract-skills.py",
+      "lineRange": [
+        621,
+        679
+      ],
+      "summary": "main 是 extract-skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:website/scripts/generate-llms-txt.py",
+      "type": "file",
+      "name": "generate-llms-txt.py",
+      "filePath": "website/scripts/generate-llms-txt.py",
+      "summary": "generate-llms-txt.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:website/scripts/generate-llms-txt.py:read_frontmatter",
+      "type": "function",
+      "name": "read_frontmatter",
+      "filePath": "website/scripts/generate-llms-txt.py",
+      "lineRange": [
+        166,
+        181
+      ],
+      "summary": "read_frontmatter 是 generate-llms-txt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-llms-txt.py:resolve_desc",
+      "type": "function",
+      "name": "resolve_desc",
+      "filePath": "website/scripts/generate-llms-txt.py",
+      "lineRange": [
+        184,
+        194
+      ],
+      "summary": "resolve_desc 是 generate-llms-txt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-llms-txt.py:emit_llms_index",
+      "type": "function",
+      "name": "emit_llms_index",
+      "filePath": "website/scripts/generate-llms-txt.py",
+      "lineRange": [
+        197,
+        232
+      ],
+      "summary": "emit_llms_index 是 generate-llms-txt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-llms-txt.py:emit_llms_full",
+      "type": "function",
+      "name": "emit_llms_full",
+      "filePath": "website/scripts/generate-llms-txt.py",
+      "lineRange": [
+        235,
+        292
+      ],
+      "summary": "emit_llms_full 是 generate-llms-txt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/generate-llms-txt.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "website/scripts/generate-llms-txt.py",
+      "lineRange": [
+        295,
+        302
+      ],
+      "summary": "main 是 generate-llms-txt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:website/scripts/generate-skill-docs.py",
+      "type": "file",
+      "name": "generate-skill-docs.py",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "summary": "generate-skill-docs.py 是 python 源文件，包含 17 个函数、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:_wrap_ascii_art_code_blocks",
+      "type": "function",
+      "name": "_wrap_ascii_art_code_blocks",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        47,
+        62
+      ],
+      "summary": "_wrap_ascii_art_code_blocks 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:mdx_escape_body",
+      "type": "function",
+      "name": "mdx_escape_body",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        65,
+        223
+      ],
+      "summary": "mdx_escape_body 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:rewrite_relative_links",
+      "type": "function",
+      "name": "rewrite_relative_links",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        226,
+        251
+      ],
+      "summary": "rewrite_relative_links 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:parse_skill_md",
+      "type": "function",
+      "name": "parse_skill_md",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        254,
+        266
+      ],
+      "summary": "parse_skill_md 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:sanitize_yaml_string",
+      "type": "function",
+      "name": "sanitize_yaml_string",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        269,
+        274
+      ],
+      "summary": "sanitize_yaml_string 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:derive_skill_meta",
+      "type": "function",
+      "name": "derive_skill_meta",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        277,
+        304
+      ],
+      "summary": "derive_skill_meta 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:page_id",
+      "type": "function",
+      "name": "page_id",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        307,
+        311
+      ],
+      "summary": "page_id 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:page_output_path",
+      "type": "function",
+      "name": "page_output_path",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        314,
+        320
+      ],
+      "summary": "page_output_path 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:sidebar_doc_id",
+      "type": "function",
+      "name": "sidebar_doc_id",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        323,
+        325
+      ],
+      "summary": "sidebar_doc_id 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:render_skill_page",
+      "type": "function",
+      "name": "render_skill_page",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        328,
+        449
+      ],
+      "summary": "render_skill_page 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:discover_skills",
+      "type": "function",
+      "name": "discover_skills",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        452,
+        459
+      ],
+      "summary": "discover_skills 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:build_catalog_md_bundled",
+      "type": "function",
+      "name": "build_catalog_md_bundled",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        462,
+        505
+      ],
+      "summary": "build_catalog_md_bundled 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:build_catalog_md_optional",
+      "type": "function",
+      "name": "build_catalog_md_optional",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        508,
+        578
+      ],
+      "summary": "build_catalog_md_optional 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:build_sidebar_items",
+      "type": "function",
+      "name": "build_sidebar_items",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        581,
+        627
+      ],
+      "summary": "build_sidebar_items 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:_render_sidebar_item",
+      "type": "function",
+      "name": "_render_sidebar_item",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        630,
+        650
+      ],
+      "summary": "_render_sidebar_item 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:write_sidebar",
+      "type": "function",
+      "name": "write_sidebar",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        653,
+        732
+      ],
+      "summary": "write_sidebar 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/scripts/generate-skill-docs.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "website/scripts/generate-skill-docs.py",
+      "lineRange": [
+        735,
+        769
+      ],
+      "summary": "main 是 generate-skill-docs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:website/scripts/prebuild.mjs",
+      "type": "file",
+      "name": "prebuild.mjs",
+      "filePath": "website/scripts/prebuild.mjs",
+      "summary": "prebuild.mjs 是 javascript 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:website/scripts/prebuild.mjs:runPython",
+      "type": "function",
+      "name": "runPython",
+      "filePath": "website/scripts/prebuild.mjs",
+      "lineRange": [
+        49,
+        64
+      ],
+      "summary": "runPython 是 prebuild.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/scripts/prebuild.mjs:ensureUnifiedIndex",
+      "type": "function",
+      "name": "ensureUnifiedIndex",
+      "filePath": "website/scripts/prebuild.mjs",
+      "lineRange": [
+        66,
+        119
+      ],
+      "summary": "ensureUnifiedIndex 是 prebuild.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:website/sidebars.ts",
+      "type": "file",
+      "name": "sidebars.ts",
+      "filePath": "website/sidebars.ts",
+      "summary": "sidebars.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:website/src/components/UserStoriesCollage/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "website/src/components/UserStoriesCollage/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:website/src/components/UserStoriesCollage/index.tsx:sourceColor",
+      "type": "function",
+      "name": "sourceColor",
+      "filePath": "website/src/components/UserStoriesCollage/index.tsx",
+      "lineRange": [
+        131,
+        146
+      ],
+      "summary": "sourceColor 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/src/components/UserStoriesCollage/index.tsx:UserStoriesCollage",
+      "type": "function",
+      "name": "UserStoriesCollage",
+      "filePath": "website/src/components/UserStoriesCollage/index.tsx",
+      "lineRange": [
+        148,
+        312
+      ],
+      "summary": "UserStoriesCollage 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:website/src/components/UserStoriesCollage/styles.module.css",
+      "type": "file",
+      "name": "styles.module.css",
+      "filePath": "website/src/components/UserStoriesCollage/styles.module.css",
+      "summary": "styles.module.css 是 css 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "css",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 css。"
+    },
+    {
+      "id": "file:website/src/css/custom.css",
+      "type": "file",
+      "name": "custom.css",
+      "filePath": "website/src/css/custom.css",
+      "summary": "custom.css 是 css 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "css",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 css。"
+    },
+    {
+      "id": "file:website/src/pages/skills/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 7 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:formatRelativeTime",
+      "type": "function",
+      "name": "formatRelativeTime",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        44,
+        60
+      ],
+      "summary": "formatRelativeTime 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:highlightMatch",
+      "type": "function",
+      "name": "highlightMatch",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        234,
+        245
+      ],
+      "summary": "highlightMatch 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:CopyButton",
+      "type": "function",
+      "name": "CopyButton",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        247,
+        286
+      ],
+      "summary": "CopyButton 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:SkillCard",
+      "type": "function",
+      "name": "SkillCard",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        288,
+        457
+      ],
+      "summary": "SkillCard 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        459,
+        468
+      ],
+      "summary": "StatCard 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:buildSearchHaystack",
+      "type": "function",
+      "name": "buildSearchHaystack",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        479,
+        494
+      ],
+      "summary": "buildSearchHaystack 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:website/src/pages/skills/index.tsx:SkillsDashboard",
+      "type": "function",
+      "name": "SkillsDashboard",
+      "filePath": "website/src/pages/skills/index.tsx",
+      "lineRange": [
+        496,
+        916
+      ],
+      "summary": "SkillsDashboard 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:website/src/pages/skills/styles.module.css",
+      "type": "file",
+      "name": "styles.module.css",
+      "filePath": "website/src/pages/skills/styles.module.css",
+      "summary": "styles.module.css 是 css 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "css",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 css。"
+    },
+    {
+      "id": "file:website/static/.nojekyll",
+      "type": "file",
+      "name": ".nojekyll",
+      "filePath": "website/static/.nojekyll",
+      "summary": ".nojekyll 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "code",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:website/static/api/model-catalog.json",
+      "type": "config",
+      "name": "model-catalog.json",
+      "filePath": "website/static/api/model-catalog.json",
+      "summary": "model-catalog.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_extract_overview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_extract_overview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_docs_page_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_docs_page_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_install_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_install_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_source_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_source_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:extract_local_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:extract_local_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_label_for_github_identifier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_label_for_github_identifier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:extract_unified_index_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:extract_unified_index_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:extract_legacy_cache_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:extract_legacy_cache_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_guess_category",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_guess_category",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_consolidate_small_categories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:_consolidate_small_categories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/extract-skills.py",
+      "target": "function:website/scripts/extract-skills.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:read_frontmatter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:read_frontmatter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:resolve_desc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:resolve_desc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:emit_llms_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:emit_llms_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:emit_llms_full",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:emit_llms_full",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-llms-txt.py",
+      "target": "function:website/scripts/generate-llms-txt.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:_wrap_ascii_art_code_blocks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:_wrap_ascii_art_code_blocks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:mdx_escape_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:mdx_escape_body",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:rewrite_relative_links",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:rewrite_relative_links",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:parse_skill_md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:parse_skill_md",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:sanitize_yaml_string",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:sanitize_yaml_string",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:derive_skill_meta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:derive_skill_meta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:page_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:page_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:page_output_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:page_output_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:sidebar_doc_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:sidebar_doc_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:render_skill_page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:render_skill_page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:discover_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:discover_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:build_catalog_md_bundled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:build_catalog_md_bundled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:build_catalog_md_optional",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:build_catalog_md_optional",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:build_sidebar_items",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:build_sidebar_items",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:_render_sidebar_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:_render_sidebar_item",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:write_sidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:write_sidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/generate-skill-docs.py",
+      "target": "function:website/scripts/generate-skill-docs.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/scripts/prebuild.mjs",
+      "target": "function:website/scripts/prebuild.mjs:runPython",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/scripts/prebuild.mjs",
+      "target": "function:website/scripts/prebuild.mjs:ensureUnifiedIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/components/UserStoriesCollage/index.tsx",
+      "target": "function:website/src/components/UserStoriesCollage/index.tsx:sourceColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/components/UserStoriesCollage/index.tsx",
+      "target": "function:website/src/components/UserStoriesCollage/index.tsx:UserStoriesCollage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/components/UserStoriesCollage/index.tsx",
+      "target": "function:website/src/components/UserStoriesCollage/index.tsx:UserStoriesCollage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:formatRelativeTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:highlightMatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:CopyButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:SkillCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:StatCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:buildSearchHaystack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:SkillsDashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:website/src/pages/skills/index.tsx",
+      "target": "function:website/src/pages/skills/index.tsx:SkillsDashboard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

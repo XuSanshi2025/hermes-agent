@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-evaluation-lm-evaluation-harness.md",
+      "type": "document",
+      "name": "mlops-evaluation-lm-evaluation-harness.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-evaluation-lm-evaluation-harness.md",
+      "summary": "mlops-evaluation-lm-evaluation-harness.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-evaluation-weights-and-biases.md",
+      "type": "document",
+      "name": "mlops-evaluation-weights-and-biases.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-evaluation-weights-and-biases.md",
+      "summary": "mlops-evaluation-weights-and-biases.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-huggingface-hub.md",
+      "type": "document",
+      "name": "mlops-huggingface-hub.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-huggingface-hub.md",
+      "summary": "mlops-huggingface-hub.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-inference-llama-cpp.md",
+      "type": "document",
+      "name": "mlops-inference-llama-cpp.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-inference-llama-cpp.md",
+      "summary": "mlops-inference-llama-cpp.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-inference-obliteratus.md",
+      "type": "document",
+      "name": "mlops-inference-obliteratus.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-inference-obliteratus.md",
+      "summary": "mlops-inference-obliteratus.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-inference-vllm.md",
+      "type": "document",
+      "name": "mlops-inference-vllm.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-inference-vllm.md",
+      "summary": "mlops-inference-vllm.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-models-audiocraft.md",
+      "type": "document",
+      "name": "mlops-models-audiocraft.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-models-audiocraft.md",
+      "summary": "mlops-models-audiocraft.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/mlops/mlops-models-segment-anything.md",
+      "type": "document",
+      "name": "mlops-models-segment-anything.md",
+      "filePath": "website/docs/user-guide/skills/bundled/mlops/mlops-models-segment-anything.md",
+      "summary": "mlops-models-segment-anything.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

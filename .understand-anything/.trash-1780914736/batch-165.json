@@ -1,0 +1,4059 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/store/preview.test.ts",
+      "type": "file",
+      "name": "preview.test.ts",
+      "filePath": "apps/desktop/src/store/preview.test.ts",
+      "summary": "preview.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.test.ts:previewTarget",
+      "type": "function",
+      "name": "previewTarget",
+      "filePath": "apps/desktop/src/store/preview.test.ts",
+      "lineRange": [
+        22,
+        31
+      ],
+      "summary": "previewTarget 是 preview.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/preview.ts",
+      "type": "file",
+      "name": "preview.ts",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "summary": "preview.ts 是 typescript 源文件，包含 30 个函数、24 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:isSamePreviewTarget",
+      "type": "function",
+      "name": "isSamePreviewTarget",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        68,
+        84
+      ],
+      "summary": "isSamePreviewTarget 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:setPreviewTarget",
+      "type": "function",
+      "name": "setPreviewTarget",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        86,
+        100
+      ],
+      "summary": "setPreviewTarget 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:filePreviewTabId",
+      "type": "function",
+      "name": "filePreviewTabId",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        102,
+        104
+      ],
+      "summary": "filePreviewTabId 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:isPreviewTarget",
+      "type": "function",
+      "name": "isPreviewTarget",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        140,
+        153
+      ],
+      "summary": "isPreviewTarget 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:isPreviewRecord",
+      "type": "function",
+      "name": "isPreviewRecord",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        155,
+        171
+      ],
+      "summary": "isPreviewRecord 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:loadSessionPreviewRegistry",
+      "type": "function",
+      "name": "loadSessionPreviewRegistry",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        173,
+        209
+      ],
+      "summary": "loadSessionPreviewRegistry 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:persistSessionPreviewRegistry",
+      "type": "function",
+      "name": "persistSessionPreviewRegistry",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        211,
+        221
+      ],
+      "summary": "persistSessionPreviewRegistry 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:pruneRegistry",
+      "type": "function",
+      "name": "pruneRegistry",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        223,
+        234
+      ],
+      "summary": "pruneRegistry 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:registerSessionPreview",
+      "type": "function",
+      "name": "registerSessionPreview",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        244,
+        280
+      ],
+      "summary": "registerSessionPreview 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:setSessionPreviewTarget",
+      "type": "function",
+      "name": "setSessionPreviewTarget",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        282,
+        297
+      ],
+      "summary": "setSessionPreviewTarget 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:setCurrentSessionPreviewTarget",
+      "type": "function",
+      "name": "setCurrentSessionPreviewTarget",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        299,
+        305
+      ],
+      "summary": "setCurrentSessionPreviewTarget 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:getSessionPreviewRecord",
+      "type": "function",
+      "name": "getSessionPreviewRecord",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        307,
+        315
+      ],
+      "summary": "getSessionPreviewRecord 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:dismissSessionPreview",
+      "type": "function",
+      "name": "dismissSessionPreview",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        317,
+        351
+      ],
+      "summary": "dismissSessionPreview 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:dismissPreviewTarget",
+      "type": "function",
+      "name": "dismissPreviewTarget",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        354,
+        366
+      ],
+      "summary": "dismissPreviewTarget 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:closeFilePreviewTab",
+      "type": "function",
+      "name": "closeFilePreviewTab",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        368,
+        387
+      ],
+      "summary": "closeFilePreviewTab 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:closeRightRailTab",
+      "type": "function",
+      "name": "closeRightRailTab",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        389,
+        399
+      ],
+      "summary": "closeRightRailTab 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:closeActiveRightRailTab",
+      "type": "function",
+      "name": "closeActiveRightRailTab",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        401,
+        401
+      ],
+      "summary": "closeActiveRightRailTab 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:closeRightRail",
+      "type": "function",
+      "name": "closeRightRail",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        404,
+        410
+      ],
+      "summary": "closeRightRail 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:clearSessionPreviewRegistry",
+      "type": "function",
+      "name": "clearSessionPreviewRegistry",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        412,
+        417
+      ],
+      "summary": "clearSessionPreviewRegistry 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:requestPreviewReload",
+      "type": "function",
+      "name": "requestPreviewReload",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        419,
+        421
+      ],
+      "summary": "requestPreviewReload 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:beginPreviewServerRestart",
+      "type": "function",
+      "name": "beginPreviewServerRestart",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        423,
+        425
+      ],
+      "summary": "beginPreviewServerRestart 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:completePreviewServerRestart",
+      "type": "function",
+      "name": "completePreviewServerRestart",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        427,
+        439
+      ],
+      "summary": "completePreviewServerRestart 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:progressPreviewServerRestart",
+      "type": "function",
+      "name": "progressPreviewServerRestart",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        441,
+        452
+      ],
+      "summary": "progressPreviewServerRestart 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/preview.ts:failPreviewServerRestart",
+      "type": "function",
+      "name": "failPreviewServerRestart",
+      "filePath": "apps/desktop/src/store/preview.ts",
+      "lineRange": [
+        454,
+        466
+      ],
+      "summary": "failPreviewServerRestart 是 preview.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/profile.ts",
+      "type": "file",
+      "name": "profile.ts",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "summary": "profile.ts 是 typescript 源文件，包含 19 个函数、29 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:normalizeProfileKey",
+      "type": "function",
+      "name": "normalizeProfileKey",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        19,
+        23
+      ],
+      "summary": "normalizeProfileKey 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:setActiveProfile",
+      "type": "function",
+      "name": "setActiveProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        35,
+        37
+      ],
+      "summary": "setActiveProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:setProfileOrder",
+      "type": "function",
+      "name": "setProfileOrder",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        49,
+        53
+      ],
+      "summary": "setProfileOrder 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:sortByProfileOrder",
+      "type": "function",
+      "name": "sortByProfileOrder",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        56,
+        69
+      ],
+      "summary": "sortByProfileOrder 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:setProfileColor",
+      "type": "function",
+      "name": "setProfileColor",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        82,
+        93
+      ],
+      "summary": "setProfileColor 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:refreshActiveProfile",
+      "type": "function",
+      "name": "refreshActiveProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        102,
+        117
+      ],
+      "summary": "refreshActiveProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:switchProfile",
+      "type": "function",
+      "name": "switchProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        123,
+        130
+      ],
+      "summary": "switchProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:ensureGatewayProfile",
+      "type": "function",
+      "name": "ensureGatewayProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        186,
+        229
+      ],
+      "summary": "ensureGatewayProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:selectProfile",
+      "type": "function",
+      "name": "selectProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        259,
+        272
+      ],
+      "summary": "selectProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:newSessionInProfile",
+      "type": "function",
+      "name": "newSessionInProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        280,
+        285
+      ],
+      "summary": "newSessionInProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:setShowAllProfiles",
+      "type": "function",
+      "name": "setShowAllProfiles",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        287,
+        289
+      ],
+      "summary": "setShowAllProfiles 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:toggleShowAllProfiles",
+      "type": "function",
+      "name": "toggleShowAllProfiles",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        291,
+        293
+      ],
+      "summary": "toggleShowAllProfiles 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:orderedProfileKeys",
+      "type": "function",
+      "name": "orderedProfileKeys",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        300,
+        311
+      ],
+      "summary": "orderedProfileKeys 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:switchToDefaultProfile",
+      "type": "function",
+      "name": "switchToDefaultProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        314,
+        318
+      ],
+      "summary": "switchToDefaultProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:switchProfileToSlot",
+      "type": "function",
+      "name": "switchProfileToSlot",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        321,
+        332
+      ],
+      "summary": "switchProfileToSlot 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:cycleProfile",
+      "type": "function",
+      "name": "cycleProfile",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        335,
+        347
+      ],
+      "summary": "cycleProfile 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:requestProfileCreate",
+      "type": "function",
+      "name": "requestProfileCreate",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        353,
+        355
+      ],
+      "summary": "requestProfileCreate 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/profile.ts:touchActiveGatewayBackend",
+      "type": "function",
+      "name": "touchActiveGatewayBackend",
+      "filePath": "apps/desktop/src/store/profile.ts",
+      "lineRange": [
+        360,
+        365
+      ],
+      "summary": "touchActiveGatewayBackend 是 profile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/prompts.test.ts",
+      "type": "file",
+      "name": "prompts.test.ts",
+      "filePath": "apps/desktop/src/store/prompts.test.ts",
+      "summary": "prompts.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/store/prompts.ts",
+      "type": "file",
+      "name": "prompts.ts",
+      "filePath": "apps/desktop/src/store/prompts.ts",
+      "summary": "prompts.ts 是 typescript 源文件，包含 3 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/prompts.ts:keyedPromptStore",
+      "type": "function",
+      "name": "keyedPromptStore",
+      "filePath": "apps/desktop/src/store/prompts.ts",
+      "lineRange": [
+        34,
+        65
+      ],
+      "summary": "keyedPromptStore 是 prompts.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/prompts.ts:clearAllPrompts",
+      "type": "function",
+      "name": "clearAllPrompts",
+      "filePath": "apps/desktop/src/store/prompts.ts",
+      "lineRange": [
+        103,
+        115
+      ],
+      "summary": "clearAllPrompts 是 prompts.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/session.test.ts",
+      "type": "file",
+      "name": "session.test.ts",
+      "filePath": "apps/desktop/src/store/session.test.ts",
+      "summary": "session.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.test.ts:session",
+      "type": "function",
+      "name": "session",
+      "filePath": "apps/desktop/src/store/session.test.ts",
+      "lineRange": [
+        7,
+        24
+      ],
+      "summary": "session 是 session.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/session.ts",
+      "type": "file",
+      "name": "session.ts",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "summary": "session.ts 是 typescript 源文件，包含 42 个函数、71 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:getRememberedWorkspaceCwd",
+      "type": "function",
+      "name": "getRememberedWorkspaceCwd",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        13,
+        13
+      ],
+      "summary": "getRememberedWorkspaceCwd 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:sessionPinId",
+      "type": "function",
+      "name": "sessionPinId",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        27,
+        28
+      ],
+      "summary": "sessionPinId 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:mergeSessionPage",
+      "type": "function",
+      "name": "mergeSessionPage",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        53,
+        73
+      ],
+      "summary": "mergeSessionPage 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setConnection",
+      "type": "function",
+      "name": "setConnection",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        127,
+        127
+      ],
+      "summary": "setConnection 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setGatewayState",
+      "type": "function",
+      "name": "setGatewayState",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        128,
+        128
+      ],
+      "summary": "setGatewayState 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessions",
+      "type": "function",
+      "name": "setSessions",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        129,
+        129
+      ],
+      "summary": "setSessions 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessionsTotal",
+      "type": "function",
+      "name": "setSessionsTotal",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        130,
+        130
+      ],
+      "summary": "setSessionsTotal 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCronSessions",
+      "type": "function",
+      "name": "setCronSessions",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        131,
+        131
+      ],
+      "summary": "setCronSessions 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessionProfileTotals",
+      "type": "function",
+      "name": "setSessionProfileTotals",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        132,
+        133
+      ],
+      "summary": "setSessionProfileTotals 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessionsLoading",
+      "type": "function",
+      "name": "setSessionsLoading",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        134,
+        134
+      ],
+      "summary": "setSessionsLoading 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setWorkingSessionIds",
+      "type": "function",
+      "name": "setWorkingSessionIds",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        135,
+        135
+      ],
+      "summary": "setWorkingSessionIds 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setActiveSessionId",
+      "type": "function",
+      "name": "setActiveSessionId",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        136,
+        136
+      ],
+      "summary": "setActiveSessionId 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSelectedStoredSessionId",
+      "type": "function",
+      "name": "setSelectedStoredSessionId",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        137,
+        137
+      ],
+      "summary": "setSelectedStoredSessionId 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setMessages",
+      "type": "function",
+      "name": "setMessages",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        138,
+        138
+      ],
+      "summary": "setMessages 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setFreshDraftReady",
+      "type": "function",
+      "name": "setFreshDraftReady",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        139,
+        139
+      ],
+      "summary": "setFreshDraftReady 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setBusy",
+      "type": "function",
+      "name": "setBusy",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        140,
+        140
+      ],
+      "summary": "setBusy 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setAwaitingResponse",
+      "type": "function",
+      "name": "setAwaitingResponse",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        141,
+        141
+      ],
+      "summary": "setAwaitingResponse 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentModel",
+      "type": "function",
+      "name": "setCurrentModel",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        142,
+        142
+      ],
+      "summary": "setCurrentModel 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentProvider",
+      "type": "function",
+      "name": "setCurrentProvider",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        143,
+        143
+      ],
+      "summary": "setCurrentProvider 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentReasoningEffort",
+      "type": "function",
+      "name": "setCurrentReasoningEffort",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        144,
+        144
+      ],
+      "summary": "setCurrentReasoningEffort 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentServiceTier",
+      "type": "function",
+      "name": "setCurrentServiceTier",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        145,
+        145
+      ],
+      "summary": "setCurrentServiceTier 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentFastMode",
+      "type": "function",
+      "name": "setCurrentFastMode",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        146,
+        146
+      ],
+      "summary": "setCurrentFastMode 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setYoloActive",
+      "type": "function",
+      "name": "setYoloActive",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        147,
+        147
+      ],
+      "summary": "setYoloActive 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentCwd",
+      "type": "function",
+      "name": "setCurrentCwd",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        149,
+        154
+      ],
+      "summary": "setCurrentCwd 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentBranch",
+      "type": "function",
+      "name": "setCurrentBranch",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        156,
+        156
+      ],
+      "summary": "setCurrentBranch 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentUsage",
+      "type": "function",
+      "name": "setCurrentUsage",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        157,
+        157
+      ],
+      "summary": "setCurrentUsage 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessionStartedAt",
+      "type": "function",
+      "name": "setSessionStartedAt",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        158,
+        158
+      ],
+      "summary": "setSessionStartedAt 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setTurnStartedAt",
+      "type": "function",
+      "name": "setTurnStartedAt",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        159,
+        159
+      ],
+      "summary": "setTurnStartedAt 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setIntroPersonality",
+      "type": "function",
+      "name": "setIntroPersonality",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        160,
+        160
+      ],
+      "summary": "setIntroPersonality 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setCurrentPersonality",
+      "type": "function",
+      "name": "setCurrentPersonality",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        161,
+        161
+      ],
+      "summary": "setCurrentPersonality 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setAvailablePersonalities",
+      "type": "function",
+      "name": "setAvailablePersonalities",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        162,
+        162
+      ],
+      "summary": "setAvailablePersonalities 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setIntroSeed",
+      "type": "function",
+      "name": "setIntroSeed",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        163,
+        163
+      ],
+      "summary": "setIntroSeed 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setContextSuggestions",
+      "type": "function",
+      "name": "setContextSuggestions",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        164,
+        164
+      ],
+      "summary": "setContextSuggestions 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setModelPickerOpen",
+      "type": "function",
+      "name": "setModelPickerOpen",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        165,
+        165
+      ],
+      "summary": "setModelPickerOpen 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:armSessionWatchdog",
+      "type": "function",
+      "name": "armSessionWatchdog",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        176,
+        194
+      ],
+      "summary": "armSessionWatchdog 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:noteSessionActivity",
+      "type": "function",
+      "name": "noteSessionActivity",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        207,
+        213
+      ],
+      "summary": "noteSessionActivity 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:toggleMembership",
+      "type": "function",
+      "name": "toggleMembership",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        217,
+        226
+      ],
+      "summary": "toggleMembership 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setAttentionSessionIds",
+      "type": "function",
+      "name": "setAttentionSessionIds",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        233,
+        233
+      ],
+      "summary": "setAttentionSessionIds 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessionAttention",
+      "type": "function",
+      "name": "setSessionAttention",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        235,
+        239
+      ],
+      "summary": "setSessionAttention 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/session.ts:setSessionWorking",
+      "type": "function",
+      "name": "setSessionWorking",
+      "filePath": "apps/desktop/src/store/session.ts",
+      "lineRange": [
+        241,
+        255
+      ],
+      "summary": "setSessionWorking 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/subagents.test.ts",
+      "type": "file",
+      "name": "subagents.test.ts",
+      "filePath": "apps/desktop/src/store/subagents.test.ts",
+      "summary": "subagents.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "agent",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/store/subagents.ts",
+      "type": "file",
+      "name": "subagents.ts",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "summary": "subagents.ts 是 typescript 源文件，包含 18 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:asTail",
+      "type": "function",
+      "name": "asTail",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        86,
+        95
+      ],
+      "summary": "asTail 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:streamFromPayload",
+      "type": "function",
+      "name": "streamFromPayload",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        110,
+        148
+      ],
+      "summary": "streamFromPayload 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:toProgress",
+      "type": "function",
+      "name": "toProgress",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        150,
+        179
+      ],
+      "summary": "toProgress 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:clearSessionSubagents",
+      "type": "function",
+      "name": "clearSessionSubagents",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        181,
+        190
+      ],
+      "summary": "clearSessionSubagents 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:pruneDelegateFallbackSubagents",
+      "type": "function",
+      "name": "pruneDelegateFallbackSubagents",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        192,
+        207
+      ],
+      "summary": "pruneDelegateFallbackSubagents 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:upsertSubagent",
+      "type": "function",
+      "name": "upsertSubagent",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        209,
+        229
+      ],
+      "summary": "upsertSubagent 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:buildSubagentTree",
+      "type": "function",
+      "name": "buildSubagentTree",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        231,
+        257
+      ],
+      "summary": "buildSubagentTree 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/subagents.ts:activeSubagentCount",
+      "type": "function",
+      "name": "activeSubagentCount",
+      "filePath": "apps/desktop/src/store/subagents.ts",
+      "lineRange": [
+        259,
+        260
+      ],
+      "summary": "activeSubagentCount 是 subagents.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/thread-scroll.ts",
+      "type": "file",
+      "name": "thread-scroll.ts",
+      "filePath": "apps/desktop/src/store/thread-scroll.ts",
+      "summary": "thread-scroll.ts 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/thread-scroll.ts:setThreadScrolledUp",
+      "type": "function",
+      "name": "setThreadScrolledUp",
+      "filePath": "apps/desktop/src/store/thread-scroll.ts",
+      "lineRange": [
+        5,
+        11
+      ],
+      "summary": "setThreadScrolledUp 是 thread-scroll.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/tool-diffs.ts",
+      "type": "file",
+      "name": "tool-diffs.ts",
+      "filePath": "apps/desktop/src/store/tool-diffs.ts",
+      "summary": "tool-diffs.ts 是 typescript 源文件，包含 2 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-diffs.ts:recordToolDiff",
+      "type": "function",
+      "name": "recordToolDiff",
+      "filePath": "apps/desktop/src/store/tool-diffs.ts",
+      "lineRange": [
+        5,
+        17
+      ],
+      "summary": "recordToolDiff 是 tool-diffs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-diffs.ts:getToolDiff",
+      "type": "function",
+      "name": "getToolDiff",
+      "filePath": "apps/desktop/src/store/tool-diffs.ts",
+      "lineRange": [
+        19,
+        21
+      ],
+      "summary": "getToolDiff 是 tool-diffs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/tool-view.ts",
+      "type": "file",
+      "name": "tool-view.ts",
+      "filePath": "apps/desktop/src/store/tool-view.ts",
+      "summary": "tool-view.ts 是 typescript 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-view.ts:setToolViewMode",
+      "type": "function",
+      "name": "setToolViewMode",
+      "filePath": "apps/desktop/src/store/tool-view.ts",
+      "lineRange": [
+        22,
+        24
+      ],
+      "summary": "setToolViewMode 是 tool-view.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-view.ts:$toolDisclosureOpen",
+      "type": "function",
+      "name": "$toolDisclosureOpen",
+      "filePath": "apps/desktop/src/store/tool-view.ts",
+      "lineRange": [
+        26,
+        35
+      ],
+      "summary": "$toolDisclosureOpen 是 tool-view.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-view.ts:loadToolDisclosureStates",
+      "type": "function",
+      "name": "loadToolDisclosureStates",
+      "filePath": "apps/desktop/src/store/tool-view.ts",
+      "lineRange": [
+        37,
+        63
+      ],
+      "summary": "loadToolDisclosureStates 是 tool-view.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-view.ts:persistToolDisclosureStates",
+      "type": "function",
+      "name": "persistToolDisclosureStates",
+      "filePath": "apps/desktop/src/store/tool-view.ts",
+      "lineRange": [
+        65,
+        77
+      ],
+      "summary": "persistToolDisclosureStates 是 tool-view.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/tool-view.ts:setToolDisclosureOpen",
+      "type": "function",
+      "name": "setToolDisclosureOpen",
+      "filePath": "apps/desktop/src/store/tool-view.ts",
+      "lineRange": [
+        79,
+        91
+      ],
+      "summary": "setToolDisclosureOpen 是 tool-view.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/updates.test.ts",
+      "type": "file",
+      "name": "updates.test.ts",
+      "filePath": "apps/desktop/src/store/updates.test.ts",
+      "summary": "updates.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/store/updates.ts",
+      "type": "file",
+      "name": "updates.ts",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "summary": "updates.ts 是 typescript 源文件，包含 14 个函数、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:setUpdateOverlayOpen",
+      "type": "function",
+      "name": "setUpdateOverlayOpen",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        48,
+        48
+      ],
+      "summary": "setUpdateOverlayOpen 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:resetUpdateApplyState",
+      "type": "function",
+      "name": "resetUpdateApplyState",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        49,
+        49
+      ],
+      "summary": "resetUpdateApplyState 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:reportBackendContract",
+      "type": "function",
+      "name": "reportBackendContract",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        81,
+        96
+      ],
+      "summary": "reportBackendContract 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:maybeNotifyUpdateAvailable",
+      "type": "function",
+      "name": "maybeNotifyUpdateAvailable",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        104,
+        138
+      ],
+      "summary": "maybeNotifyUpdateAvailable 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:openUpdatesWindow",
+      "type": "function",
+      "name": "openUpdatesWindow",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        144,
+        147
+      ],
+      "summary": "openUpdatesWindow 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:refreshDesktopVersion",
+      "type": "function",
+      "name": "refreshDesktopVersion",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        154,
+        175
+      ],
+      "summary": "refreshDesktopVersion 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:checkUpdates",
+      "type": "function",
+      "name": "checkUpdates",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        177,
+        213
+      ],
+      "summary": "checkUpdates 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:applyUpdates",
+      "type": "function",
+      "name": "applyUpdates",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        215,
+        248
+      ],
+      "summary": "applyUpdates 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:ingestProgress",
+      "type": "function",
+      "name": "ingestProgress",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        250,
+        265
+      ],
+      "summary": "ingestProgress 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:startUpdatePoller",
+      "type": "function",
+      "name": "startUpdatePoller",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        272,
+        290
+      ],
+      "summary": "startUpdatePoller 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:stopUpdatePoller",
+      "type": "function",
+      "name": "stopUpdatePoller",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        292,
+        300
+      ],
+      "summary": "stopUpdatePoller 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/store/updates.ts:onFocus",
+      "type": "function",
+      "name": "onFocus",
+      "filePath": "apps/desktop/src/store/updates.ts",
+      "lineRange": [
+        302,
+        315
+      ],
+      "summary": "onFocus 是 updates.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/store/voice-playback.ts",
+      "type": "file",
+      "name": "voice-playback.ts",
+      "filePath": "apps/desktop/src/store/voice-playback.ts",
+      "summary": "voice-playback.ts 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/store/voice-playback.ts:setVoicePlaybackState",
+      "type": "function",
+      "name": "setVoicePlaybackState",
+      "filePath": "apps/desktop/src/store/voice-playback.ts",
+      "lineRange": [
+        22,
+        24
+      ],
+      "summary": "setVoicePlaybackState 是 voice-playback.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/styles.css",
+      "type": "file",
+      "name": "styles.css",
+      "filePath": "apps/desktop/src/styles.css",
+      "summary": "styles.css 是 css 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "css",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 css。"
+    },
+    {
+      "id": "file:apps/desktop/src/themes/context.tsx",
+      "type": "file",
+      "name": "context.tsx",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "summary": "context.tsx 是 typescript 源文件，包含 15 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:readableOn",
+      "type": "function",
+      "name": "readableOn",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        57,
+        71
+      ],
+      "summary": "readableOn 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:synthLightColors",
+      "type": "function",
+      "name": "synthLightColors",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        73,
+        107
+      ],
+      "summary": "synthLightColors 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:getBaseColors",
+      "type": "function",
+      "name": "getBaseColors",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        110,
+        118
+      ],
+      "summary": "getBaseColors 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:deriveTheme",
+      "type": "function",
+      "name": "deriveTheme",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        120,
+        130
+      ],
+      "summary": "deriveTheme 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:renderedModeFor",
+      "type": "function",
+      "name": "renderedModeFor",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        137,
+        147
+      ],
+      "summary": "renderedModeFor 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:applyTheme",
+      "type": "function",
+      "name": "applyTheme",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        162,
+        232
+      ],
+      "summary": "applyTheme 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:ThemeProvider",
+      "type": "function",
+      "name": "ThemeProvider",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        266,
+        301
+      ],
+      "summary": "ThemeProvider 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:useTheme",
+      "type": "function",
+      "name": "useTheme",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        303,
+        303
+      ],
+      "summary": "useTheme 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/context.tsx:useSyncThemeFromBackend",
+      "type": "function",
+      "name": "useSyncThemeFromBackend",
+      "filePath": "apps/desktop/src/themes/context.tsx",
+      "lineRange": [
+        306,
+        312
+      ],
+      "summary": "useSyncThemeFromBackend 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/themes/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "apps/desktop/src/themes/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/themes/presets.test.ts",
+      "type": "file",
+      "name": "presets.test.ts",
+      "filePath": "apps/desktop/src/themes/presets.test.ts",
+      "summary": "presets.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/themes/presets.ts",
+      "type": "file",
+      "name": "presets.ts",
+      "filePath": "apps/desktop/src/themes/presets.ts",
+      "summary": "presets.ts 是 typescript 源文件，包含 2 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/themes/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "apps/desktop/src/themes/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/themes/use-skin-command.ts",
+      "type": "file",
+      "name": "use-skin-command.ts",
+      "filePath": "apps/desktop/src/themes/use-skin-command.ts",
+      "summary": "use-skin-command.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/themes/use-skin-command.ts:useSkinCommand",
+      "type": "function",
+      "name": "useSkinCommand",
+      "filePath": "apps/desktop/src/themes/use-skin-command.ts",
+      "lineRange": [
+        14,
+        60
+      ],
+      "summary": "useSkinCommand 是 use-skin-command.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/types/hermes.ts",
+      "type": "file",
+      "name": "hermes.ts",
+      "filePath": "apps/desktop/src/types/hermes.ts",
+      "summary": "hermes.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "apps/desktop/src/vite-env.d.ts",
+      "summary": "vite-env.d.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "apps/desktop/vite.config.ts",
+      "summary": "vite.config.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/store/preview.test.ts",
+      "target": "function:apps/desktop/src/store/preview.test.ts:previewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:isSamePreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:setPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:setPreviewTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:filePreviewTabId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:filePreviewTabId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:isPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:isPreviewRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:loadSessionPreviewRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:persistSessionPreviewRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:pruneRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:registerSessionPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:registerSessionPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:setSessionPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:setSessionPreviewTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:setCurrentSessionPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:setCurrentSessionPreviewTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:getSessionPreviewRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:getSessionPreviewRecord",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:dismissSessionPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:dismissSessionPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:dismissPreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:dismissPreviewTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeFilePreviewTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeRightRailTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeRightRailTab",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeActiveRightRailTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeActiveRightRailTab",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeRightRail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:closeRightRail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:clearSessionPreviewRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:clearSessionPreviewRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:requestPreviewReload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:requestPreviewReload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:beginPreviewServerRestart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:beginPreviewServerRestart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:completePreviewServerRestart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:completePreviewServerRestart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:progressPreviewServerRestart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:progressPreviewServerRestart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:failPreviewServerRestart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/preview.ts",
+      "target": "function:apps/desktop/src/store/preview.ts:failPreviewServerRestart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:normalizeProfileKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:normalizeProfileKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setActiveProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setActiveProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setProfileOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setProfileOrder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:sortByProfileOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:sortByProfileOrder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setProfileColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setProfileColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:refreshActiveProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:refreshActiveProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:switchProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:switchProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:ensureGatewayProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:ensureGatewayProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:selectProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:selectProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:newSessionInProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:newSessionInProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setShowAllProfiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:setShowAllProfiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:toggleShowAllProfiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:toggleShowAllProfiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:orderedProfileKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:switchToDefaultProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:switchToDefaultProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:switchProfileToSlot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:switchProfileToSlot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:cycleProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:cycleProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:requestProfileCreate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:requestProfileCreate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:touchActiveGatewayBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/profile.ts",
+      "target": "function:apps/desktop/src/store/profile.ts:touchActiveGatewayBackend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/prompts.ts",
+      "target": "function:apps/desktop/src/store/prompts.ts:keyedPromptStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/prompts.ts",
+      "target": "function:apps/desktop/src/store/prompts.ts:clearAllPrompts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/prompts.ts",
+      "target": "function:apps/desktop/src/store/prompts.ts:clearAllPrompts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.test.ts",
+      "target": "function:apps/desktop/src/store/session.test.ts:session",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:getRememberedWorkspaceCwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:getRememberedWorkspaceCwd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:sessionPinId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:sessionPinId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:mergeSessionPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:mergeSessionPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setConnection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setGatewayState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setGatewayState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionsTotal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionsTotal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCronSessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCronSessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionProfileTotals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionProfileTotals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionsLoading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionsLoading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setWorkingSessionIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setWorkingSessionIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setActiveSessionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setActiveSessionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSelectedStoredSessionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSelectedStoredSessionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setFreshDraftReady",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setFreshDraftReady",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setBusy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setBusy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setAwaitingResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setAwaitingResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentReasoningEffort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentReasoningEffort",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentServiceTier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentServiceTier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentFastMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentFastMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setYoloActive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setYoloActive",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentCwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentCwd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentBranch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentUsage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentUsage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionStartedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionStartedAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setTurnStartedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setTurnStartedAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setIntroPersonality",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setIntroPersonality",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentPersonality",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setCurrentPersonality",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setAvailablePersonalities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setAvailablePersonalities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setIntroSeed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setIntroSeed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setContextSuggestions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setContextSuggestions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setModelPickerOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setModelPickerOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:armSessionWatchdog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:noteSessionActivity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:noteSessionActivity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:toggleMembership",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setAttentionSessionIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setAttentionSessionIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionAttention",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionAttention",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionWorking",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/session.ts",
+      "target": "function:apps/desktop/src/store/session.ts:setSessionWorking",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:asTail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:streamFromPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:toProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:clearSessionSubagents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:clearSessionSubagents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:pruneDelegateFallbackSubagents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:pruneDelegateFallbackSubagents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:upsertSubagent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:upsertSubagent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:buildSubagentTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:buildSubagentTree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:activeSubagentCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/subagents.ts",
+      "target": "function:apps/desktop/src/store/subagents.ts:activeSubagentCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/thread-scroll.ts",
+      "target": "function:apps/desktop/src/store/thread-scroll.ts:setThreadScrolledUp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/thread-scroll.ts",
+      "target": "function:apps/desktop/src/store/thread-scroll.ts:setThreadScrolledUp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-diffs.ts",
+      "target": "function:apps/desktop/src/store/tool-diffs.ts:recordToolDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-diffs.ts",
+      "target": "function:apps/desktop/src/store/tool-diffs.ts:recordToolDiff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-diffs.ts",
+      "target": "function:apps/desktop/src/store/tool-diffs.ts:getToolDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-diffs.ts",
+      "target": "function:apps/desktop/src/store/tool-diffs.ts:getToolDiff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:setToolViewMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:setToolViewMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:$toolDisclosureOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:$toolDisclosureOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:loadToolDisclosureStates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:persistToolDisclosureStates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:setToolDisclosureOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/tool-view.ts",
+      "target": "function:apps/desktop/src/store/tool-view.ts:setToolDisclosureOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:setUpdateOverlayOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:setUpdateOverlayOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:resetUpdateApplyState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:resetUpdateApplyState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:reportBackendContract",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:reportBackendContract",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:maybeNotifyUpdateAvailable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:maybeNotifyUpdateAvailable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:openUpdatesWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:openUpdatesWindow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:refreshDesktopVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:refreshDesktopVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:checkUpdates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:checkUpdates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:applyUpdates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:applyUpdates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:ingestProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:startUpdatePoller",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:startUpdatePoller",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:stopUpdatePoller",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:stopUpdatePoller",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/store/updates.ts",
+      "target": "function:apps/desktop/src/store/updates.ts:onFocus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/voice-playback.ts",
+      "target": "function:apps/desktop/src/store/voice-playback.ts:setVoicePlaybackState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/store/voice-playback.ts",
+      "target": "function:apps/desktop/src/store/voice-playback.ts:setVoicePlaybackState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:readableOn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:synthLightColors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:getBaseColors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:getBaseColors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:deriveTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:renderedModeFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:applyTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:ThemeProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:ThemeProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:useTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:useTheme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:useSyncThemeFromBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/context.tsx",
+      "target": "function:apps/desktop/src/themes/context.tsx:useSyncThemeFromBackend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/themes/use-skin-command.ts",
+      "target": "function:apps/desktop/src/themes/use-skin-command.ts:useSkinCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/themes/use-skin-command.ts",
+      "target": "function:apps/desktop/src/themes/use-skin-command.ts:useSkinCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

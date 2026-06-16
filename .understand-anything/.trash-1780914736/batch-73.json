@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "type": "config",
+      "name": "wml-2010.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "summary": "wml-2010.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "type": "config",
+      "name": "wml-2012.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "summary": "wml-2012.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "type": "config",
+      "name": "wml-2018.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "summary": "wml-2018.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "type": "config",
+      "name": "wml-cex-2018.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "summary": "wml-cex-2018.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "type": "config",
+      "name": "wml-cid-2016.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "summary": "wml-cid-2016.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "type": "config",
+      "name": "wml-sdtdatahash-2020.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "summary": "wml-sdtdatahash-2020.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "type": "config",
+      "name": "wml-symex-2015.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "summary": "wml-symex-2015.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    }
+  ],
+  "edges": []
+}

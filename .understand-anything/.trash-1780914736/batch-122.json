@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/voice-mode.md",
+      "type": "document",
+      "name": "voice-mode.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/voice-mode.md",
+      "summary": "voice-mode.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/web-dashboard.md",
+      "type": "document",
+      "name": "web-dashboard.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/web-dashboard.md",
+      "summary": "web-dashboard.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/web-search.md",
+      "type": "document",
+      "name": "web-search.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/web-search.md",
+      "summary": "web-search.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/x-search.md",
+      "type": "document",
+      "name": "x-search.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/x-search.md",
+      "summary": "x-search.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

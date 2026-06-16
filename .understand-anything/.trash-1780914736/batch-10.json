@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/palettes/macaron.md",
+      "type": "document",
+      "name": "macaron.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/palettes/macaron.md",
+      "summary": "macaron.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/palettes/mono-ink.md",
+      "type": "document",
+      "name": "mono-ink.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/palettes/mono-ink.md",
+      "summary": "mono-ink.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/palettes/neon.md",
+      "type": "document",
+      "name": "neon.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/palettes/neon.md",
+      "summary": "neon.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/palettes/warm.md",
+      "type": "document",
+      "name": "warm.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/palettes/warm.md",
+      "summary": "warm.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

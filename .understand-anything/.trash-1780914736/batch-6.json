@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "document:apps/desktop/DESIGN.md",
+      "type": "document",
+      "name": "DESIGN.md",
+      "filePath": "apps/desktop/DESIGN.md",
+      "summary": "DESIGN.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:apps/desktop/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "apps/desktop/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "config:apps/desktop/components.json",
+      "type": "config",
+      "name": "components.json",
+      "filePath": "apps/desktop/components.json",
+      "summary": "components.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:apps/desktop/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "apps/desktop/index.html",
+      "summary": "index.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "config:apps/desktop/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "apps/desktop/package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:apps/desktop/preview-demo.html",
+      "type": "file",
+      "name": "preview-demo.html",
+      "filePath": "apps/desktop/preview-demo.html",
+      "summary": "preview-demo.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "config:apps/desktop/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "apps/desktop/tsconfig.json",
+      "summary": "tsconfig.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": []
+}

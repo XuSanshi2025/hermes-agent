@@ -1,0 +1,4114 @@
+{
+  "nodes": [
+    {
+      "id": "file:agent/skill_utils.py",
+      "type": "file",
+      "name": "skill_utils.py",
+      "filePath": "agent/skill_utils.py",
+      "summary": "skill_utils.py 是 python 源文件，包含 20 个函数、20 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/skill_utils.py:is_excluded_skill_path",
+      "type": "function",
+      "name": "is_excluded_skill_path",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        47,
+        62
+      ],
+      "summary": "is_excluded_skill_path 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:yaml_load",
+      "type": "function",
+      "name": "yaml_load",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        70,
+        82
+      ],
+      "summary": "yaml_load 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:parse_frontmatter",
+      "type": "function",
+      "name": "parse_frontmatter",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        88,
+        122
+      ],
+      "summary": "parse_frontmatter 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:skill_matches_platform",
+      "type": "function",
+      "name": "skill_matches_platform",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        128,
+        169
+      ],
+      "summary": "skill_matches_platform 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:_detect_environment",
+      "type": "function",
+      "name": "_detect_environment",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        187,
+        230
+      ],
+      "summary": "_detect_environment 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:skill_matches_environment",
+      "type": "function",
+      "name": "skill_matches_environment",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        233,
+        269
+      ],
+      "summary": "skill_matches_environment 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:get_disabled_skill_names",
+      "type": "function",
+      "name": "get_disabled_skill_names",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        275,
+        314
+      ],
+      "summary": "get_disabled_skill_names 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:_normalize_string_set",
+      "type": "function",
+      "name": "_normalize_string_set",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        317,
+        322
+      ],
+      "summary": "_normalize_string_set 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:_external_dirs_cache_clear",
+      "type": "function",
+      "name": "_external_dirs_cache_clear",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        336,
+        338
+      ],
+      "summary": "_external_dirs_cache_clear 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:get_external_skills_dirs",
+      "type": "function",
+      "name": "get_external_skills_dirs",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        341,
+        424
+      ],
+      "summary": "get_external_skills_dirs 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/skill_utils.py:get_all_skills_dirs",
+      "type": "function",
+      "name": "get_all_skills_dirs",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        427,
+        435
+      ],
+      "summary": "get_all_skills_dirs 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:extract_skill_conditions",
+      "type": "function",
+      "name": "extract_skill_conditions",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        441,
+        455
+      ],
+      "summary": "extract_skill_conditions 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:extract_skill_config_vars",
+      "type": "function",
+      "name": "extract_skill_config_vars",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        461,
+        517
+      ],
+      "summary": "extract_skill_config_vars 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/skill_utils.py:discover_all_skill_config_vars",
+      "type": "function",
+      "name": "discover_all_skill_config_vars",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        520,
+        556
+      ],
+      "summary": "discover_all_skill_config_vars 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:_resolve_dotpath",
+      "type": "function",
+      "name": "_resolve_dotpath",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        565,
+        574
+      ],
+      "summary": "_resolve_dotpath 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:resolve_skill_config_values",
+      "type": "function",
+      "name": "resolve_skill_config_values",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        577,
+        612
+      ],
+      "summary": "resolve_skill_config_values 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:extract_skill_description",
+      "type": "function",
+      "name": "extract_skill_description",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        618,
+        626
+      ],
+      "summary": "extract_skill_description 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:iter_skill_index_files",
+      "type": "function",
+      "name": "iter_skill_index_files",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        632,
+        644
+      ],
+      "summary": "iter_skill_index_files 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:parse_qualified_name",
+      "type": "function",
+      "name": "parse_qualified_name",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        652,
+        659
+      ],
+      "summary": "parse_qualified_name 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/skill_utils.py:is_valid_namespace",
+      "type": "function",
+      "name": "is_valid_namespace",
+      "filePath": "agent/skill_utils.py",
+      "lineRange": [
+        662,
+        666
+      ],
+      "summary": "is_valid_namespace 是 skill_utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/stream_diag.py",
+      "type": "file",
+      "name": "stream_diag.py",
+      "filePath": "agent/stream_diag.py",
+      "summary": "stream_diag.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/stream_diag.py:stream_diag_init",
+      "type": "function",
+      "name": "stream_diag_init",
+      "filePath": "agent/stream_diag.py",
+      "lineRange": [
+        41,
+        55
+      ],
+      "summary": "stream_diag_init 是 stream_diag.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/stream_diag.py:stream_diag_capture_response",
+      "type": "function",
+      "name": "stream_diag_capture_response",
+      "filePath": "agent/stream_diag.py",
+      "lineRange": [
+        58,
+        86
+      ],
+      "summary": "stream_diag_capture_response 是 stream_diag.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/stream_diag.py:flatten_exception_chain",
+      "type": "function",
+      "name": "flatten_exception_chain",
+      "filePath": "agent/stream_diag.py",
+      "lineRange": [
+        89,
+        117
+      ],
+      "summary": "flatten_exception_chain 是 stream_diag.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/stream_diag.py:log_stream_retry",
+      "type": "function",
+      "name": "log_stream_retry",
+      "filePath": "agent/stream_diag.py",
+      "lineRange": [
+        120,
+        211
+      ],
+      "summary": "log_stream_retry 是 stream_diag.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/stream_diag.py:emit_stream_drop",
+      "type": "function",
+      "name": "emit_stream_drop",
+      "filePath": "agent/stream_diag.py",
+      "lineRange": [
+        214,
+        270
+      ],
+      "summary": "emit_stream_drop 是 stream_diag.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/subdirectory_hints.py",
+      "type": "file",
+      "name": "subdirectory_hints.py",
+      "filePath": "agent/subdirectory_hints.py",
+      "summary": "subdirectory_hints.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/subdirectory_hints.py:_is_ancestor_or_same",
+      "type": "function",
+      "name": "_is_ancestor_or_same",
+      "filePath": "agent/subdirectory_hints.py",
+      "lineRange": [
+        49,
+        55
+      ],
+      "summary": "_is_ancestor_or_same 是 subdirectory_hints.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/subdirectory_hints.py:SubdirectoryHintTracker",
+      "type": "class",
+      "name": "SubdirectoryHintTracker",
+      "filePath": "agent/subdirectory_hints.py",
+      "lineRange": [
+        57,
+        270
+      ],
+      "summary": "SubdirectoryHintTracker 是 subdirectory_hints.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/system_prompt.py",
+      "type": "file",
+      "name": "system_prompt.py",
+      "filePath": "agent/system_prompt.py",
+      "summary": "system_prompt.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/system_prompt.py:_ra",
+      "type": "function",
+      "name": "_ra",
+      "filePath": "agent/system_prompt.py",
+      "lineRange": [
+        47,
+        59
+      ],
+      "summary": "_ra 是 system_prompt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/system_prompt.py:build_system_prompt_parts",
+      "type": "function",
+      "name": "build_system_prompt_parts",
+      "filePath": "agent/system_prompt.py",
+      "lineRange": [
+        62,
+        350
+      ],
+      "summary": "build_system_prompt_parts 是 system_prompt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:agent/system_prompt.py:build_system_prompt",
+      "type": "function",
+      "name": "build_system_prompt",
+      "filePath": "agent/system_prompt.py",
+      "lineRange": [
+        353,
+        369
+      ],
+      "summary": "build_system_prompt 是 system_prompt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/system_prompt.py:invalidate_system_prompt",
+      "type": "function",
+      "name": "invalidate_system_prompt",
+      "filePath": "agent/system_prompt.py",
+      "lineRange": [
+        372,
+        380
+      ],
+      "summary": "invalidate_system_prompt 是 system_prompt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/system_prompt.py:format_tools_for_system_message",
+      "type": "function",
+      "name": "format_tools_for_system_message",
+      "filePath": "agent/system_prompt.py",
+      "lineRange": [
+        383,
+        404
+      ],
+      "summary": "format_tools_for_system_message 是 system_prompt.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/think_scrubber.py",
+      "type": "file",
+      "name": "think_scrubber.py",
+      "filePath": "agent/think_scrubber.py",
+      "summary": "think_scrubber.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/think_scrubber.py:StreamingThinkScrubber",
+      "type": "class",
+      "name": "StreamingThinkScrubber",
+      "filePath": "agent/think_scrubber.py",
+      "lineRange": [
+        64,
+        386
+      ],
+      "summary": "StreamingThinkScrubber 是 think_scrubber.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/title_generator.py",
+      "type": "file",
+      "name": "title_generator.py",
+      "filePath": "agent/title_generator.py",
+      "summary": "title_generator.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/title_generator.py:generate_title",
+      "type": "function",
+      "name": "generate_title",
+      "filePath": "agent/title_generator.py",
+      "lineRange": [
+        29,
+        84
+      ],
+      "summary": "generate_title 是 title_generator.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/title_generator.py:auto_title_session",
+      "type": "function",
+      "name": "auto_title_session",
+      "filePath": "agent/title_generator.py",
+      "lineRange": [
+        87,
+        130
+      ],
+      "summary": "auto_title_session 是 title_generator.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/title_generator.py:maybe_auto_title",
+      "type": "function",
+      "name": "maybe_auto_title",
+      "filePath": "agent/title_generator.py",
+      "lineRange": [
+        133,
+        171
+      ],
+      "summary": "maybe_auto_title 是 title_generator.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/tool_dispatch_helpers.py",
+      "type": "file",
+      "name": "tool_dispatch_helpers.py",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "summary": "tool_dispatch_helpers.py 是 python 源文件，包含 14 个函数、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_is_destructive_command",
+      "type": "function",
+      "name": "_is_destructive_command",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        79,
+        87
+      ],
+      "summary": "_is_destructive_command 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_is_mcp_tool_parallel_safe",
+      "type": "function",
+      "name": "_is_mcp_tool_parallel_safe",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        90,
+        100
+      ],
+      "summary": "_is_mcp_tool_parallel_safe 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_should_parallelize_tool_batch",
+      "type": "function",
+      "name": "_should_parallelize_tool_batch",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        103,
+        146
+      ],
+      "summary": "_should_parallelize_tool_batch 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_extract_parallel_scope_path",
+      "type": "function",
+      "name": "_extract_parallel_scope_path",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        149,
+        163
+      ],
+      "summary": "_extract_parallel_scope_path 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_paths_overlap",
+      "type": "function",
+      "name": "_paths_overlap",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        166,
+        174
+      ],
+      "summary": "_paths_overlap 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_is_multimodal_tool_result",
+      "type": "function",
+      "name": "_is_multimodal_tool_result",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        177,
+        188
+      ],
+      "summary": "_is_multimodal_tool_result 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_multimodal_text_summary",
+      "type": "function",
+      "name": "_multimodal_text_summary",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        191,
+        213
+      ],
+      "summary": "_multimodal_text_summary 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_append_subdir_hint_to_multimodal",
+      "type": "function",
+      "name": "_append_subdir_hint_to_multimodal",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        216,
+        234
+      ],
+      "summary": "_append_subdir_hint_to_multimodal 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_extract_file_mutation_targets",
+      "type": "function",
+      "name": "_extract_file_mutation_targets",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        237,
+        269
+      ],
+      "summary": "_extract_file_mutation_targets 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_extract_error_preview",
+      "type": "function",
+      "name": "_extract_error_preview",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        272,
+        294
+      ],
+      "summary": "_extract_error_preview 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_trajectory_normalize_msg",
+      "type": "function",
+      "name": "_trajectory_normalize_msg",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        297,
+        317
+      ],
+      "summary": "_trajectory_normalize_msg 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:make_tool_result_message",
+      "type": "function",
+      "name": "make_tool_result_message",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        320,
+        343
+      ],
+      "summary": "make_tool_result_message 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_is_untrusted_tool",
+      "type": "function",
+      "name": "_is_untrusted_tool",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        364,
+        369
+      ],
+      "summary": "_is_untrusted_tool 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_dispatch_helpers.py:_maybe_wrap_untrusted",
+      "type": "function",
+      "name": "_maybe_wrap_untrusted",
+      "filePath": "agent/tool_dispatch_helpers.py",
+      "lineRange": [
+        372,
+        397
+      ],
+      "summary": "_maybe_wrap_untrusted 是 tool_dispatch_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/tool_executor.py",
+      "type": "file",
+      "name": "tool_executor.py",
+      "filePath": "agent/tool_executor.py",
+      "summary": "tool_executor.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_ra",
+      "type": "function",
+      "name": "_ra",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        55,
+        58
+      ],
+      "summary": "_ra 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_emit_terminal_post_tool_call",
+      "type": "function",
+      "name": "_emit_terminal_post_tool_call",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        61,
+        93
+      ],
+      "summary": "_emit_terminal_post_tool_call 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_cancelled_tool_result",
+      "type": "function",
+      "name": "_cancelled_tool_result",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        96,
+        103
+      ],
+      "summary": "_cancelled_tool_result 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_emit_cancelled_terminal_post_tool_call",
+      "type": "function",
+      "name": "_emit_cancelled_terminal_post_tool_call",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        106,
+        132
+      ],
+      "summary": "_emit_cancelled_terminal_post_tool_call 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_tool_search_scoped_names",
+      "type": "function",
+      "name": "_tool_search_scoped_names",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        135,
+        181
+      ],
+      "summary": "_tool_search_scoped_names 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_apply_tool_request_middleware_for_agent",
+      "type": "function",
+      "name": "_apply_tool_request_middleware_for_agent",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        184,
+        208
+      ],
+      "summary": "_apply_tool_request_middleware_for_agent 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_executor.py:_run_agent_tool_execution_middleware",
+      "type": "function",
+      "name": "_run_agent_tool_execution_middleware",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        211,
+        240
+      ],
+      "summary": "_run_agent_tool_execution_middleware 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_executor.py:execute_tool_calls_concurrent",
+      "type": "function",
+      "name": "execute_tool_calls_concurrent",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        243,
+        766
+      ],
+      "summary": "execute_tool_calls_concurrent 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:agent/tool_executor.py:execute_tool_calls_sequential",
+      "type": "function",
+      "name": "execute_tool_calls_sequential",
+      "filePath": "agent/tool_executor.py",
+      "lineRange": [
+        770,
+        1401
+      ],
+      "summary": "execute_tool_calls_sequential 是 tool_executor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/tool_guardrails.py",
+      "type": "file",
+      "name": "tool_guardrails.py",
+      "filePath": "agent/tool_guardrails.py",
+      "summary": "tool_guardrails.py 是 python 源文件，包含 10 个函数、4 个类、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:canonical_tool_args",
+      "type": "function",
+      "name": "canonical_tool_args",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        176,
+        186
+      ],
+      "summary": "canonical_tool_args 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:classify_tool_failure",
+      "type": "function",
+      "name": "classify_tool_failure",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        189,
+        221
+      ],
+      "summary": "classify_tool_failure 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:toolguard_synthetic_result",
+      "type": "function",
+      "name": "toolguard_synthetic_result",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        383,
+        391
+      ],
+      "summary": "toolguard_synthetic_result 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:append_toolguard_guidance",
+      "type": "function",
+      "name": "append_toolguard_guidance",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        394,
+        403
+      ],
+      "summary": "append_toolguard_guidance 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:_tool_failure_recovery_hint",
+      "type": "function",
+      "name": "_tool_failure_recovery_hint",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        406,
+        423
+      ],
+      "summary": "_tool_failure_recovery_hint 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:_coerce_args",
+      "type": "function",
+      "name": "_coerce_args",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        426,
+        427
+      ],
+      "summary": "_coerce_args 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:_result_hash",
+      "type": "function",
+      "name": "_result_hash",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        430,
+        445
+      ],
+      "summary": "_result_hash 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:_as_bool",
+      "type": "function",
+      "name": "_as_bool",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        448,
+        461
+      ],
+      "summary": "_as_bool 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:_positive_int",
+      "type": "function",
+      "name": "_positive_int",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        464,
+        471
+      ],
+      "summary": "_positive_int 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tool_guardrails.py:_sha256",
+      "type": "function",
+      "name": "_sha256",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        474,
+        475
+      ],
+      "summary": "_sha256 是 tool_guardrails.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/tool_guardrails.py:ToolCallGuardrailConfig",
+      "type": "class",
+      "name": "ToolCallGuardrailConfig",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        64,
+        124
+      ],
+      "summary": "ToolCallGuardrailConfig 是 tool_guardrails.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:agent/tool_guardrails.py:ToolCallSignature",
+      "type": "class",
+      "name": "ToolCallSignature",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        128,
+        141
+      ],
+      "summary": "ToolCallSignature 是 tool_guardrails.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/tool_guardrails.py:ToolGuardrailDecision",
+      "type": "class",
+      "name": "ToolGuardrailDecision",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        145,
+        173
+      ],
+      "summary": "ToolGuardrailDecision 是 tool_guardrails.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/tool_guardrails.py:ToolCallGuardrailController",
+      "type": "class",
+      "name": "ToolCallGuardrailController",
+      "filePath": "agent/tool_guardrails.py",
+      "lineRange": [
+        224,
+        380
+      ],
+      "summary": "ToolCallGuardrailController 是 tool_guardrails.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/tool_result_classification.py",
+      "type": "file",
+      "name": "tool_result_classification.py",
+      "filePath": "agent/tool_result_classification.py",
+      "summary": "tool_result_classification.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/tool_result_classification.py:file_mutation_result_landed",
+      "type": "function",
+      "name": "file_mutation_result_landed",
+      "filePath": "agent/tool_result_classification.py",
+      "lineRange": [
+        12,
+        26
+      ],
+      "summary": "file_mutation_result_landed 是 tool_result_classification.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/trajectory.py",
+      "type": "file",
+      "name": "trajectory.py",
+      "filePath": "agent/trajectory.py",
+      "summary": "trajectory.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/trajectory.py:convert_scratchpad_to_think",
+      "type": "function",
+      "name": "convert_scratchpad_to_think",
+      "filePath": "agent/trajectory.py",
+      "lineRange": [
+        16,
+        20
+      ],
+      "summary": "convert_scratchpad_to_think 是 trajectory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/trajectory.py:has_incomplete_scratchpad",
+      "type": "function",
+      "name": "has_incomplete_scratchpad",
+      "filePath": "agent/trajectory.py",
+      "lineRange": [
+        23,
+        27
+      ],
+      "summary": "has_incomplete_scratchpad 是 trajectory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/trajectory.py:save_trajectory",
+      "type": "function",
+      "name": "save_trajectory",
+      "filePath": "agent/trajectory.py",
+      "lineRange": [
+        30,
+        56
+      ],
+      "summary": "save_trajectory 是 trajectory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/transcription_provider.py",
+      "type": "file",
+      "name": "transcription_provider.py",
+      "filePath": "agent/transcription_provider.py",
+      "summary": "transcription_provider.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/transcription_provider.py:TranscriptionProvider",
+      "type": "class",
+      "name": "TranscriptionProvider",
+      "filePath": "agent/transcription_provider.py",
+      "lineRange": [
+        61,
+        193
+      ],
+      "summary": "TranscriptionProvider 是 transcription_provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/transcription_registry.py",
+      "type": "file",
+      "name": "transcription_registry.py",
+      "filePath": "agent/transcription_registry.py",
+      "summary": "transcription_registry.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transcription_registry.py:register_provider",
+      "type": "function",
+      "name": "register_provider",
+      "filePath": "agent/transcription_registry.py",
+      "lineRange": [
+        54,
+        97
+      ],
+      "summary": "register_provider 是 transcription_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transcription_registry.py:list_providers",
+      "type": "function",
+      "name": "list_providers",
+      "filePath": "agent/transcription_registry.py",
+      "lineRange": [
+        100,
+        104
+      ],
+      "summary": "list_providers 是 transcription_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transcription_registry.py:get_provider",
+      "type": "function",
+      "name": "get_provider",
+      "filePath": "agent/transcription_registry.py",
+      "lineRange": [
+        107,
+        116
+      ],
+      "summary": "get_provider 是 transcription_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transcription_registry.py:_reset_for_tests",
+      "type": "function",
+      "name": "_reset_for_tests",
+      "filePath": "agent/transcription_registry.py",
+      "lineRange": [
+        119,
+        122
+      ],
+      "summary": "_reset_for_tests 是 transcription_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/transports/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "agent/transports/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/__init__.py:register_transport",
+      "type": "function",
+      "name": "register_transport",
+      "filePath": "agent/transports/__init__.py",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "register_transport 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/__init__.py:get_transport",
+      "type": "function",
+      "name": "get_transport",
+      "filePath": "agent/transports/__init__.py",
+      "lineRange": [
+        26,
+        46
+      ],
+      "summary": "get_transport 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/__init__.py:_discover_transports",
+      "type": "function",
+      "name": "_discover_transports",
+      "filePath": "agent/transports/__init__.py",
+      "lineRange": [
+        49,
+        68
+      ],
+      "summary": "_discover_transports 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/transports/anthropic.py",
+      "type": "file",
+      "name": "anthropic.py",
+      "filePath": "agent/transports/anthropic.py",
+      "summary": "anthropic.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/transports/anthropic.py:AnthropicTransport",
+      "type": "class",
+      "name": "AnthropicTransport",
+      "filePath": "agent/transports/anthropic.py",
+      "lineRange": [
+        13,
+        183
+      ],
+      "summary": "AnthropicTransport 是 anthropic.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/transports/base.py",
+      "type": "file",
+      "name": "base.py",
+      "filePath": "agent/transports/base.py",
+      "summary": "base.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/transports/base.py:ProviderTransport",
+      "type": "class",
+      "name": "ProviderTransport",
+      "filePath": "agent/transports/base.py",
+      "lineRange": [
+        16,
+        89
+      ],
+      "summary": "ProviderTransport 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/transports/bedrock.py",
+      "type": "file",
+      "name": "bedrock.py",
+      "filePath": "agent/transports/bedrock.py",
+      "summary": "bedrock.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/transports/bedrock.py:BedrockTransport",
+      "type": "class",
+      "name": "BedrockTransport",
+      "filePath": "agent/transports/bedrock.py",
+      "lineRange": [
+        15,
+        148
+      ],
+      "summary": "BedrockTransport 是 bedrock.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/transports/chat_completions.py",
+      "type": "file",
+      "name": "chat_completions.py",
+      "filePath": "agent/transports/chat_completions.py",
+      "summary": "chat_completions.py 是 python 源文件，包含 4 个函数、1 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/chat_completions.py:_build_gemini_thinking_config",
+      "type": "function",
+      "name": "_build_gemini_thinking_config",
+      "filePath": "agent/transports/chat_completions.py",
+      "lineRange": [
+        22,
+        75
+      ],
+      "summary": "_build_gemini_thinking_config 是 chat_completions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/transports/chat_completions.py:_snake_case_gemini_thinking_config",
+      "type": "function",
+      "name": "_snake_case_gemini_thinking_config",
+      "filePath": "agent/transports/chat_completions.py",
+      "lineRange": [
+        78,
+        90
+      ],
+      "summary": "_snake_case_gemini_thinking_config 是 chat_completions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/chat_completions.py:_is_gemini_openai_compat_base_url",
+      "type": "function",
+      "name": "_is_gemini_openai_compat_base_url",
+      "filePath": "agent/transports/chat_completions.py",
+      "lineRange": [
+        93,
+        99
+      ],
+      "summary": "_is_gemini_openai_compat_base_url 是 chat_completions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/chat_completions.py:_model_consumes_thought_signature",
+      "type": "function",
+      "name": "_model_consumes_thought_signature",
+      "filePath": "agent/transports/chat_completions.py",
+      "lineRange": [
+        102,
+        115
+      ],
+      "summary": "_model_consumes_thought_signature 是 chat_completions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/chat_completions.py:ChatCompletionsTransport",
+      "type": "class",
+      "name": "ChatCompletionsTransport",
+      "filePath": "agent/transports/chat_completions.py",
+      "lineRange": [
+        118,
+        698
+      ],
+      "summary": "ChatCompletionsTransport 是 chat_completions.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/transports/codex_app_server_session.py",
+      "type": "file",
+      "name": "codex_app_server_session.py",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "summary": "codex_app_server_session.py 是 python 源文件，包含 5 个函数、3 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server_session.py:_coerce_turn_input_text",
+      "type": "function",
+      "name": "_coerce_turn_input_text",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        91,
+        121
+      ],
+      "summary": "_coerce_turn_input_text 是 codex_app_server_session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server_session.py:_classify_oauth_failure",
+      "type": "function",
+      "name": "_classify_oauth_failure",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        154,
+        174
+      ],
+      "summary": "_classify_oauth_failure 是 codex_app_server_session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server_session.py:_approval_choice_to_codex_decision",
+      "type": "function",
+      "name": "_approval_choice_to_codex_decision",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        805,
+        818
+      ],
+      "summary": "_approval_choice_to_codex_decision 是 codex_app_server_session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server_session.py:_has_turn_aborted_marker",
+      "type": "function",
+      "name": "_has_turn_aborted_marker",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        821,
+        836
+      ],
+      "summary": "_has_turn_aborted_marker 是 codex_app_server_session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server_session.py:_get_hermes_version",
+      "type": "function",
+      "name": "_get_hermes_version",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        839,
+        846
+      ],
+      "summary": "_get_hermes_version 是 codex_app_server_session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_app_server_session.py:TurnResult",
+      "type": "class",
+      "name": "TurnResult",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        65,
+        81
+      ],
+      "summary": "TurnResult 是 codex_app_server_session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_app_server_session.py:_ServerRequestRouting",
+      "type": "class",
+      "name": "_ServerRequestRouting",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        178,
+        185
+      ],
+      "summary": "_ServerRequestRouting 是 codex_app_server_session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_app_server_session.py:CodexAppServerSession",
+      "type": "class",
+      "name": "CodexAppServerSession",
+      "filePath": "agent/transports/codex_app_server_session.py",
+      "lineRange": [
+        188,
+        802
+      ],
+      "summary": "CodexAppServerSession 是 codex_app_server_session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/transports/codex_app_server.py",
+      "type": "file",
+      "name": "codex_app_server.py",
+      "filePath": "agent/transports/codex_app_server.py",
+      "summary": "codex_app_server.py 是 python 源文件，包含 2 个函数、3 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server.py:parse_codex_version",
+      "type": "function",
+      "name": "parse_codex_version",
+      "filePath": "agent/transports/codex_app_server.py",
+      "lineRange": [
+        358,
+        366
+      ],
+      "summary": "parse_codex_version 是 codex_app_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/codex_app_server.py:check_codex_binary",
+      "type": "function",
+      "name": "check_codex_binary",
+      "filePath": "agent/transports/codex_app_server.py",
+      "lineRange": [
+        369,
+        399
+      ],
+      "summary": "check_codex_binary 是 codex_app_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_app_server.py:CodexAppServerError",
+      "type": "class",
+      "name": "CodexAppServerError",
+      "filePath": "agent/transports/codex_app_server.py",
+      "lineRange": [
+        34,
+        42
+      ],
+      "summary": "CodexAppServerError 是 codex_app_server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_app_server.py:_Pending",
+      "type": "class",
+      "name": "_Pending",
+      "filePath": "agent/transports/codex_app_server.py",
+      "lineRange": [
+        46,
+        49
+      ],
+      "summary": "_Pending 是 codex_app_server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_app_server.py:CodexAppServerClient",
+      "type": "class",
+      "name": "CodexAppServerClient",
+      "filePath": "agent/transports/codex_app_server.py",
+      "lineRange": [
+        52,
+        355
+      ],
+      "summary": "CodexAppServerClient 是 codex_app_server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/transports/codex_event_projector.py",
+      "type": "file",
+      "name": "codex_event_projector.py",
+      "filePath": "agent/transports/codex_event_projector.py",
+      "summary": "codex_event_projector.py 是 python 源文件，包含 2 个函数、2 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/codex_event_projector.py:_deterministic_call_id",
+      "type": "function",
+      "name": "_deterministic_call_id",
+      "filePath": "agent/transports/codex_event_projector.py",
+      "lineRange": [
+        37,
+        47
+      ],
+      "summary": "_deterministic_call_id 是 codex_event_projector.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/codex_event_projector.py:_format_tool_args",
+      "type": "function",
+      "name": "_format_tool_args",
+      "filePath": "agent/transports/codex_event_projector.py",
+      "lineRange": [
+        50,
+        52
+      ],
+      "summary": "_format_tool_args 是 codex_event_projector.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_event_projector.py:ProjectionResult",
+      "type": "class",
+      "name": "ProjectionResult",
+      "filePath": "agent/transports/codex_event_projector.py",
+      "lineRange": [
+        56,
+        66
+      ],
+      "summary": "ProjectionResult 是 codex_event_projector.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/codex_event_projector.py:CodexEventProjector",
+      "type": "class",
+      "name": "CodexEventProjector",
+      "filePath": "agent/transports/codex_event_projector.py",
+      "lineRange": [
+        69,
+        312
+      ],
+      "summary": "CodexEventProjector 是 codex_event_projector.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/transports/codex.py",
+      "type": "file",
+      "name": "codex.py",
+      "filePath": "agent/transports/codex.py",
+      "summary": "codex.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/transports/codex.py:ResponsesApiTransport",
+      "type": "class",
+      "name": "ResponsesApiTransport",
+      "filePath": "agent/transports/codex.py",
+      "lineRange": [
+        14,
+        353
+      ],
+      "summary": "ResponsesApiTransport 是 codex.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/transports/hermes_tools_mcp_server.py",
+      "type": "file",
+      "name": "hermes_tools_mcp_server.py",
+      "filePath": "agent/transports/hermes_tools_mcp_server.py",
+      "summary": "hermes_tools_mcp_server.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/hermes_tools_mcp_server.py:_build_server",
+      "type": "function",
+      "name": "_build_server",
+      "filePath": "agent/transports/hermes_tools_mcp_server.py",
+      "lineRange": [
+        108,
+        194
+      ],
+      "summary": "_build_server 是 hermes_tools_mcp_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/transports/hermes_tools_mcp_server.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "agent/transports/hermes_tools_mcp_server.py",
+      "lineRange": [
+        197,
+        229
+      ],
+      "summary": "main 是 hermes_tools_mcp_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/transports/types.py",
+      "type": "file",
+      "name": "types.py",
+      "filePath": "agent/transports/types.py",
+      "summary": "types.py 是 python 源文件，包含 2 个函数、3 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/transports/types.py:build_tool_call",
+      "type": "function",
+      "name": "build_tool_call",
+      "filePath": "agent/transports/types.py",
+      "lineRange": [
+        140,
+        152
+      ],
+      "summary": "build_tool_call 是 types.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/transports/types.py:map_finish_reason",
+      "type": "function",
+      "name": "map_finish_reason",
+      "filePath": "agent/transports/types.py",
+      "lineRange": [
+        155,
+        162
+      ],
+      "summary": "map_finish_reason 是 types.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/types.py:ToolCall",
+      "type": "class",
+      "name": "ToolCall",
+      "filePath": "agent/transports/types.py",
+      "lineRange": [
+        19,
+        76
+      ],
+      "summary": "ToolCall 是 types.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:agent/transports/types.py:Usage",
+      "type": "class",
+      "name": "Usage",
+      "filePath": "agent/transports/types.py",
+      "lineRange": [
+        80,
+        86
+      ],
+      "summary": "Usage 是 types.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/transports/types.py:NormalizedResponse",
+      "type": "class",
+      "name": "NormalizedResponse",
+      "filePath": "agent/transports/types.py",
+      "lineRange": [
+        90,
+        132
+      ],
+      "summary": "NormalizedResponse 是 types.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/tts_provider.py",
+      "type": "file",
+      "name": "tts_provider.py",
+      "filePath": "agent/tts_provider.py",
+      "summary": "tts_provider.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/tts_provider.py:resolve_output_format",
+      "type": "function",
+      "name": "resolve_output_format",
+      "filePath": "agent/tts_provider.py",
+      "lineRange": [
+        263,
+        274
+      ],
+      "summary": "resolve_output_format 是 tts_provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/tts_provider.py:TTSProvider",
+      "type": "class",
+      "name": "TTSProvider",
+      "filePath": "agent/tts_provider.py",
+      "lineRange": [
+        64,
+        255
+      ],
+      "summary": "TTSProvider 是 tts_provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:is_excluded_skill_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:is_excluded_skill_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:yaml_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:yaml_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:parse_frontmatter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:parse_frontmatter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:skill_matches_platform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:skill_matches_platform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_detect_environment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_detect_environment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:skill_matches_environment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:skill_matches_environment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:get_disabled_skill_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:get_disabled_skill_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_normalize_string_set",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_normalize_string_set",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_external_dirs_cache_clear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_external_dirs_cache_clear",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:get_external_skills_dirs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:get_external_skills_dirs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:get_all_skills_dirs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:get_all_skills_dirs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:extract_skill_conditions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:extract_skill_conditions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:extract_skill_config_vars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:extract_skill_config_vars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:discover_all_skill_config_vars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:discover_all_skill_config_vars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_resolve_dotpath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:_resolve_dotpath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:resolve_skill_config_values",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:resolve_skill_config_values",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:extract_skill_description",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:extract_skill_description",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:iter_skill_index_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:iter_skill_index_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:parse_qualified_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:parse_qualified_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:is_valid_namespace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/skill_utils.py",
+      "target": "function:agent/skill_utils.py:is_valid_namespace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:stream_diag_init",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:stream_diag_init",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:stream_diag_capture_response",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:stream_diag_capture_response",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:flatten_exception_chain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:flatten_exception_chain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:log_stream_retry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:log_stream_retry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:emit_stream_drop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/stream_diag.py",
+      "target": "function:agent/stream_diag.py:emit_stream_drop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/subdirectory_hints.py",
+      "target": "function:agent/subdirectory_hints.py:_is_ancestor_or_same",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/subdirectory_hints.py",
+      "target": "function:agent/subdirectory_hints.py:_is_ancestor_or_same",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/subdirectory_hints.py",
+      "target": "class:agent/subdirectory_hints.py:SubdirectoryHintTracker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/subdirectory_hints.py",
+      "target": "class:agent/subdirectory_hints.py:SubdirectoryHintTracker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:_ra",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:_ra",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:build_system_prompt_parts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:build_system_prompt_parts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:build_system_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:build_system_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:invalidate_system_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:invalidate_system_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:format_tools_for_system_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/system_prompt.py",
+      "target": "function:agent/system_prompt.py:format_tools_for_system_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/think_scrubber.py",
+      "target": "class:agent/think_scrubber.py:StreamingThinkScrubber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/think_scrubber.py",
+      "target": "class:agent/think_scrubber.py:StreamingThinkScrubber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/title_generator.py",
+      "target": "function:agent/title_generator.py:generate_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/title_generator.py",
+      "target": "function:agent/title_generator.py:generate_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/title_generator.py",
+      "target": "function:agent/title_generator.py:auto_title_session",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/title_generator.py",
+      "target": "function:agent/title_generator.py:auto_title_session",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/title_generator.py",
+      "target": "function:agent/title_generator.py:maybe_auto_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/title_generator.py",
+      "target": "function:agent/title_generator.py:maybe_auto_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_destructive_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_destructive_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_mcp_tool_parallel_safe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_mcp_tool_parallel_safe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_should_parallelize_tool_batch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_should_parallelize_tool_batch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_extract_parallel_scope_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_extract_parallel_scope_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_paths_overlap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_paths_overlap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_multimodal_tool_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_multimodal_tool_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_multimodal_text_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_multimodal_text_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_append_subdir_hint_to_multimodal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_append_subdir_hint_to_multimodal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_extract_file_mutation_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_extract_file_mutation_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_extract_error_preview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_extract_error_preview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_trajectory_normalize_msg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_trajectory_normalize_msg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:make_tool_result_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:make_tool_result_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_untrusted_tool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_is_untrusted_tool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_maybe_wrap_untrusted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_dispatch_helpers.py",
+      "target": "function:agent/tool_dispatch_helpers.py:_maybe_wrap_untrusted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_ra",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_ra",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_emit_terminal_post_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_emit_terminal_post_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_cancelled_tool_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_cancelled_tool_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_emit_cancelled_terminal_post_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_emit_cancelled_terminal_post_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_tool_search_scoped_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_tool_search_scoped_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_apply_tool_request_middleware_for_agent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_apply_tool_request_middleware_for_agent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_run_agent_tool_execution_middleware",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:_run_agent_tool_execution_middleware",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:execute_tool_calls_concurrent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:execute_tool_calls_concurrent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:execute_tool_calls_sequential",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_executor.py",
+      "target": "function:agent/tool_executor.py:execute_tool_calls_sequential",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:canonical_tool_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:canonical_tool_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:classify_tool_failure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:classify_tool_failure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:toolguard_synthetic_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:toolguard_synthetic_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:append_toolguard_guidance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:append_toolguard_guidance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_tool_failure_recovery_hint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_tool_failure_recovery_hint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_coerce_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_coerce_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_result_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_result_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_as_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_as_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_positive_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_positive_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_sha256",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "function:agent/tool_guardrails.py:_sha256",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolCallGuardrailConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolCallGuardrailConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolCallSignature",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolCallSignature",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolGuardrailDecision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolGuardrailDecision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolCallGuardrailController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_guardrails.py",
+      "target": "class:agent/tool_guardrails.py:ToolCallGuardrailController",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tool_result_classification.py",
+      "target": "function:agent/tool_result_classification.py:file_mutation_result_landed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tool_result_classification.py",
+      "target": "function:agent/tool_result_classification.py:file_mutation_result_landed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/trajectory.py",
+      "target": "function:agent/trajectory.py:convert_scratchpad_to_think",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/trajectory.py",
+      "target": "function:agent/trajectory.py:convert_scratchpad_to_think",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/trajectory.py",
+      "target": "function:agent/trajectory.py:has_incomplete_scratchpad",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/trajectory.py",
+      "target": "function:agent/trajectory.py:has_incomplete_scratchpad",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/trajectory.py",
+      "target": "function:agent/trajectory.py:save_trajectory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/trajectory.py",
+      "target": "function:agent/trajectory.py:save_trajectory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transcription_provider.py",
+      "target": "class:agent/transcription_provider.py:TranscriptionProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transcription_provider.py",
+      "target": "class:agent/transcription_provider.py:TranscriptionProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:register_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:register_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:list_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:list_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:get_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:get_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:_reset_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transcription_registry.py",
+      "target": "function:agent/transcription_registry.py:_reset_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/__init__.py",
+      "target": "function:agent/transports/__init__.py:register_transport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/__init__.py",
+      "target": "function:agent/transports/__init__.py:register_transport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/__init__.py",
+      "target": "function:agent/transports/__init__.py:get_transport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/__init__.py",
+      "target": "function:agent/transports/__init__.py:get_transport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/__init__.py",
+      "target": "function:agent/transports/__init__.py:_discover_transports",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/__init__.py",
+      "target": "function:agent/transports/__init__.py:_discover_transports",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/anthropic.py",
+      "target": "class:agent/transports/anthropic.py:AnthropicTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/anthropic.py",
+      "target": "class:agent/transports/anthropic.py:AnthropicTransport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/base.py",
+      "target": "class:agent/transports/base.py:ProviderTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/base.py",
+      "target": "class:agent/transports/base.py:ProviderTransport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/bedrock.py",
+      "target": "class:agent/transports/bedrock.py:BedrockTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/bedrock.py",
+      "target": "class:agent/transports/bedrock.py:BedrockTransport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_build_gemini_thinking_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_build_gemini_thinking_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_snake_case_gemini_thinking_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_snake_case_gemini_thinking_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_is_gemini_openai_compat_base_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_is_gemini_openai_compat_base_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_model_consumes_thought_signature",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "function:agent/transports/chat_completions.py:_model_consumes_thought_signature",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "class:agent/transports/chat_completions.py:ChatCompletionsTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/chat_completions.py",
+      "target": "class:agent/transports/chat_completions.py:ChatCompletionsTransport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_coerce_turn_input_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_coerce_turn_input_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_classify_oauth_failure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_classify_oauth_failure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_approval_choice_to_codex_decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_approval_choice_to_codex_decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_has_turn_aborted_marker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_has_turn_aborted_marker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_get_hermes_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "function:agent/transports/codex_app_server_session.py:_get_hermes_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "class:agent/transports/codex_app_server_session.py:TurnResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "class:agent/transports/codex_app_server_session.py:TurnResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "class:agent/transports/codex_app_server_session.py:_ServerRequestRouting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "class:agent/transports/codex_app_server_session.py:_ServerRequestRouting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "class:agent/transports/codex_app_server_session.py:CodexAppServerSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server_session.py",
+      "target": "class:agent/transports/codex_app_server_session.py:CodexAppServerSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "function:agent/transports/codex_app_server.py:parse_codex_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "function:agent/transports/codex_app_server.py:parse_codex_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "function:agent/transports/codex_app_server.py:check_codex_binary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "function:agent/transports/codex_app_server.py:check_codex_binary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "class:agent/transports/codex_app_server.py:CodexAppServerError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "class:agent/transports/codex_app_server.py:CodexAppServerError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "class:agent/transports/codex_app_server.py:_Pending",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "class:agent/transports/codex_app_server.py:_Pending",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "class:agent/transports/codex_app_server.py:CodexAppServerClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_app_server.py",
+      "target": "class:agent/transports/codex_app_server.py:CodexAppServerClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "function:agent/transports/codex_event_projector.py:_deterministic_call_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "function:agent/transports/codex_event_projector.py:_deterministic_call_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "function:agent/transports/codex_event_projector.py:_format_tool_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "function:agent/transports/codex_event_projector.py:_format_tool_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "class:agent/transports/codex_event_projector.py:ProjectionResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "class:agent/transports/codex_event_projector.py:ProjectionResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "class:agent/transports/codex_event_projector.py:CodexEventProjector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex_event_projector.py",
+      "target": "class:agent/transports/codex_event_projector.py:CodexEventProjector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/codex.py",
+      "target": "class:agent/transports/codex.py:ResponsesApiTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/codex.py",
+      "target": "class:agent/transports/codex.py:ResponsesApiTransport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/hermes_tools_mcp_server.py",
+      "target": "function:agent/transports/hermes_tools_mcp_server.py:_build_server",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/hermes_tools_mcp_server.py",
+      "target": "function:agent/transports/hermes_tools_mcp_server.py:_build_server",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/hermes_tools_mcp_server.py",
+      "target": "function:agent/transports/hermes_tools_mcp_server.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/hermes_tools_mcp_server.py",
+      "target": "function:agent/transports/hermes_tools_mcp_server.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "function:agent/transports/types.py:build_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "function:agent/transports/types.py:build_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "function:agent/transports/types.py:map_finish_reason",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "function:agent/transports/types.py:map_finish_reason",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "class:agent/transports/types.py:ToolCall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "class:agent/transports/types.py:ToolCall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "class:agent/transports/types.py:Usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "class:agent/transports/types.py:Usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "class:agent/transports/types.py:NormalizedResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/transports/types.py",
+      "target": "class:agent/transports/types.py:NormalizedResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tts_provider.py",
+      "target": "function:agent/tts_provider.py:resolve_output_format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tts_provider.py",
+      "target": "function:agent/tts_provider.py:resolve_output_format",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tts_provider.py",
+      "target": "class:agent/tts_provider.py:TTSProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tts_provider.py",
+      "target": "class:agent/tts_provider.py:TTSProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

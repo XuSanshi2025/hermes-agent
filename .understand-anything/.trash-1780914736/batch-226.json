@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/secrets/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "website/docs/user-guide/secrets/index.md",
+      "summary": "index.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel.md",
+      "type": "document",
+      "name": "data-science-jupyter-live-kernel.md",
+      "filePath": "website/docs/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel.md",
+      "summary": "data-science-jupyter-live-kernel.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/devops/devops-kanban-orchestrator.md",
+      "type": "document",
+      "name": "devops-kanban-orchestrator.md",
+      "filePath": "website/docs/user-guide/skills/bundled/devops/devops-kanban-orchestrator.md",
+      "summary": "devops-kanban-orchestrator.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/devops/devops-kanban-worker.md",
+      "type": "document",
+      "name": "devops-kanban-worker.md",
+      "filePath": "website/docs/user-guide/skills/bundled/devops/devops-kanban-worker.md",
+      "summary": "devops-kanban-worker.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/dogfood/dogfood-dogfood.md",
+      "type": "document",
+      "name": "dogfood-dogfood.md",
+      "filePath": "website/docs/user-guide/skills/bundled/dogfood/dogfood-dogfood.md",
+      "summary": "dogfood-dogfood.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/email/email-himalaya.md",
+      "type": "document",
+      "name": "email-himalaya.md",
+      "filePath": "website/docs/user-guide/skills/bundled/email/email-himalaya.md",
+      "summary": "email-himalaya.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian.md",
+      "type": "document",
+      "name": "note-taking-obsidian.md",
+      "filePath": "website/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian.md",
+      "summary": "note-taking-obsidian.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/red-teaming/red-teaming-godmode.md",
+      "type": "document",
+      "name": "red-teaming-godmode.md",
+      "filePath": "website/docs/user-guide/skills/bundled/red-teaming/red-teaming-godmode.md",
+      "summary": "red-teaming-godmode.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/smart-home/smart-home-openhue.md",
+      "type": "document",
+      "name": "smart-home-openhue.md",
+      "filePath": "website/docs/user-guide/skills/bundled/smart-home/smart-home-openhue.md",
+      "summary": "smart-home-openhue.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/social-media/social-media-xurl.md",
+      "type": "document",
+      "name": "social-media-xurl.md",
+      "filePath": "website/docs/user-guide/skills/bundled/social-media/social-media-xurl.md",
+      "summary": "social-media-xurl.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao.md",
+      "type": "document",
+      "name": "yuanbao-yuanbao.md",
+      "filePath": "website/docs/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao.md",
+      "summary": "yuanbao-yuanbao.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/godmode.md",
+      "type": "document",
+      "name": "godmode.md",
+      "filePath": "website/docs/user-guide/skills/godmode.md",
+      "summary": "godmode.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/google-workspace.md",
+      "type": "document",
+      "name": "google-workspace.md",
+      "filePath": "website/docs/user-guide/skills/google-workspace.md",
+      "summary": "google-workspace.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/communication/communication-one-three-one-rule.md",
+      "type": "document",
+      "name": "communication-one-three-one-rule.md",
+      "filePath": "website/docs/user-guide/skills/optional/communication/communication-one-three-one-rule.md",
+      "summary": "communication-one-three-one-rule.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/dogfood/dogfood-adversarial-ux-test.md",
+      "type": "document",
+      "name": "dogfood-adversarial-ux-test.md",
+      "filePath": "website/docs/user-guide/skills/optional/dogfood/dogfood-adversarial-ux-test.md",
+      "summary": "dogfood-adversarial-ux-test.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/email/email-agentmail.md",
+      "type": "document",
+      "name": "email-agentmail.md",
+      "filePath": "website/docs/user-guide/skills/optional/email/email-agentmail.md",
+      "summary": "email-agentmail.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/gaming/gaming-minecraft-modpack-server.md",
+      "type": "document",
+      "name": "gaming-minecraft-modpack-server.md",
+      "filePath": "website/docs/user-guide/skills/optional/gaming/gaming-minecraft-modpack-server.md",
+      "summary": "gaming-minecraft-modpack-server.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/gaming/gaming-pokemon-player.md",
+      "type": "document",
+      "name": "gaming-pokemon-player.md",
+      "filePath": "website/docs/user-guide/skills/optional/gaming/gaming-pokemon-player.md",
+      "summary": "gaming-pokemon-player.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/health/health-fitness-nutrition.md",
+      "type": "document",
+      "name": "health-fitness-nutrition.md",
+      "filePath": "website/docs/user-guide/skills/optional/health/health-fitness-nutrition.md",
+      "summary": "health-fitness-nutrition.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/health/health-neuroskill-bci.md",
+      "type": "document",
+      "name": "health-neuroskill-bci.md",
+      "filePath": "website/docs/user-guide/skills/optional/health/health-neuroskill-bci.md",
+      "summary": "health-neuroskill-bci.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/mcp/mcp-fastmcp.md",
+      "type": "document",
+      "name": "mcp-fastmcp.md",
+      "filePath": "website/docs/user-guide/skills/optional/mcp/mcp-fastmcp.md",
+      "summary": "mcp-fastmcp.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/mcp/mcp-mcporter.md",
+      "type": "document",
+      "name": "mcp-mcporter.md",
+      "filePath": "website/docs/user-guide/skills/optional/mcp/mcp-mcporter.md",
+      "summary": "mcp-mcporter.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/migration/migration-openclaw-migration.md",
+      "type": "document",
+      "name": "migration-openclaw-migration.md",
+      "filePath": "website/docs/user-guide/skills/optional/migration/migration-openclaw-migration.md",
+      "summary": "migration-openclaw-migration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/web-development/web-development-page-agent.md",
+      "type": "document",
+      "name": "web-development-page-agent.md",
+      "filePath": "website/docs/user-guide/skills/optional/web-development/web-development-page-agent.md",
+      "summary": "web-development-page-agent.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-stories.mdx",
+      "type": "document",
+      "name": "user-stories.mdx",
+      "filePath": "website/docs/user-stories.mdx",
+      "summary": "user-stories.mdx 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

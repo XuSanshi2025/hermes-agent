@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "config:skills/mlops/inference/obliteratus/templates/abliteration-config.yaml",
+      "type": "config",
+      "name": "abliteration-config.yaml",
+      "filePath": "skills/mlops/inference/obliteratus/templates/abliteration-config.yaml",
+      "summary": "abliteration-config.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:skills/mlops/inference/obliteratus/templates/analysis-study.yaml",
+      "type": "config",
+      "name": "analysis-study.yaml",
+      "filePath": "skills/mlops/inference/obliteratus/templates/analysis-study.yaml",
+      "summary": "analysis-study.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:skills/mlops/inference/obliteratus/templates/batch-abliteration.yaml",
+      "type": "config",
+      "name": "batch-abliteration.yaml",
+      "filePath": "skills/mlops/inference/obliteratus/templates/batch-abliteration.yaml",
+      "summary": "batch-abliteration.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "config:website/docs/user-guide/features/_category_.json",
+      "type": "config",
+      "name": "_category_.json",
+      "filePath": "website/docs/user-guide/features/_category_.json",
+      "summary": "_category_.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/acp.md",
+      "type": "document",
+      "name": "acp.md",
+      "filePath": "website/docs/user-guide/features/acp.md",
+      "summary": "acp.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/api-server.md",
+      "type": "document",
+      "name": "api-server.md",
+      "filePath": "website/docs/user-guide/features/api-server.md",
+      "summary": "api-server.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/batch-processing.md",
+      "type": "document",
+      "name": "batch-processing.md",
+      "filePath": "website/docs/user-guide/features/batch-processing.md",
+      "summary": "batch-processing.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/browser.md",
+      "type": "document",
+      "name": "browser.md",
+      "filePath": "website/docs/user-guide/features/browser.md",
+      "summary": "browser.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/built-in-plugins.md",
+      "type": "document",
+      "name": "built-in-plugins.md",
+      "filePath": "website/docs/user-guide/features/built-in-plugins.md",
+      "summary": "built-in-plugins.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/code-execution.md",
+      "type": "document",
+      "name": "code-execution.md",
+      "filePath": "website/docs/user-guide/features/code-execution.md",
+      "summary": "code-execution.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/codex-app-server-runtime.md",
+      "type": "document",
+      "name": "codex-app-server-runtime.md",
+      "filePath": "website/docs/user-guide/features/codex-app-server-runtime.md",
+      "summary": "codex-app-server-runtime.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/computer-use.md",
+      "type": "document",
+      "name": "computer-use.md",
+      "filePath": "website/docs/user-guide/features/computer-use.md",
+      "summary": "computer-use.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/context-files.md",
+      "type": "document",
+      "name": "context-files.md",
+      "filePath": "website/docs/user-guide/features/context-files.md",
+      "summary": "context-files.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/context-references.md",
+      "type": "document",
+      "name": "context-references.md",
+      "filePath": "website/docs/user-guide/features/context-references.md",
+      "summary": "context-references.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/credential-pools.md",
+      "type": "document",
+      "name": "credential-pools.md",
+      "filePath": "website/docs/user-guide/features/credential-pools.md",
+      "summary": "credential-pools.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/cron.md",
+      "type": "document",
+      "name": "cron.md",
+      "filePath": "website/docs/user-guide/features/cron.md",
+      "summary": "cron.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/curator.md",
+      "type": "document",
+      "name": "curator.md",
+      "filePath": "website/docs/user-guide/features/curator.md",
+      "summary": "curator.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/delegation.md",
+      "type": "document",
+      "name": "delegation.md",
+      "filePath": "website/docs/user-guide/features/delegation.md",
+      "summary": "delegation.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/deliverable-mode.md",
+      "type": "document",
+      "name": "deliverable-mode.md",
+      "filePath": "website/docs/user-guide/features/deliverable-mode.md",
+      "summary": "deliverable-mode.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/extending-the-dashboard.md",
+      "type": "document",
+      "name": "extending-the-dashboard.md",
+      "filePath": "website/docs/user-guide/features/extending-the-dashboard.md",
+      "summary": "extending-the-dashboard.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/fallback-providers.md",
+      "type": "document",
+      "name": "fallback-providers.md",
+      "filePath": "website/docs/user-guide/features/fallback-providers.md",
+      "summary": "fallback-providers.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/goals.md",
+      "type": "document",
+      "name": "goals.md",
+      "filePath": "website/docs/user-guide/features/goals.md",
+      "summary": "goals.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/honcho.md",
+      "type": "document",
+      "name": "honcho.md",
+      "filePath": "website/docs/user-guide/features/honcho.md",
+      "summary": "honcho.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

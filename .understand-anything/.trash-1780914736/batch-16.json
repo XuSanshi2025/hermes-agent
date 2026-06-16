@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/cinematic.md",
+      "type": "document",
+      "name": "cinematic.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/cinematic.md",
+      "summary": "cinematic.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/dense.md",
+      "type": "document",
+      "name": "dense.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/dense.md",
+      "summary": "dense.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/four-panel.md",
+      "type": "document",
+      "name": "four-panel.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/four-panel.md",
+      "summary": "four-panel.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/mixed.md",
+      "type": "document",
+      "name": "mixed.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/mixed.md",
+      "summary": "mixed.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/splash.md",
+      "type": "document",
+      "name": "splash.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/splash.md",
+      "summary": "splash.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/standard.md",
+      "type": "document",
+      "name": "standard.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/standard.md",
+      "summary": "standard.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/layouts/webtoon.md",
+      "type": "document",
+      "name": "webtoon.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/layouts/webtoon.md",
+      "summary": "webtoon.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

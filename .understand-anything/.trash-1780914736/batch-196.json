@@ -1,0 +1,2993 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+      "type": "document",
+      "name": "webhooks.md",
+      "filePath": "skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+      "summary": "webhooks.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/autonomous-ai-agents/opencode/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/autonomous-ai-agents/opencode/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/architecture-diagram/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/architecture-diagram/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/architecture-diagram/templates/template.html",
+      "type": "file",
+      "name": "template.html",
+      "filePath": "skills/creative/architecture-diagram/templates/template.html",
+      "summary": "template.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "document:skills/creative/ascii-art/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/ascii-art/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/ascii-video/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/creative/ascii-video/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/ascii-video/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/ascii-video/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/baoyu-infographic/PORT_NOTES.md",
+      "type": "document",
+      "name": "PORT_NOTES.md",
+      "filePath": "skills/creative/baoyu-infographic/PORT_NOTES.md",
+      "summary": "PORT_NOTES.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/baoyu-infographic/references/layouts/winding-roadmap.md",
+      "type": "document",
+      "name": "winding-roadmap.md",
+      "filePath": "skills/creative/baoyu-infographic/references/layouts/winding-roadmap.md",
+      "summary": "winding-roadmap.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/baoyu-infographic/references/styles/ui-wireframe.md",
+      "type": "document",
+      "name": "ui-wireframe.md",
+      "filePath": "skills/creative/baoyu-infographic/references/styles/ui-wireframe.md",
+      "summary": "ui-wireframe.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/baoyu-infographic/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/baoyu-infographic/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/claude-design/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/claude-design/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/_common.py",
+      "type": "file",
+      "name": "_common.py",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "summary": "_common.py 是 python 源文件，包含 26 个函数、1 个类、27 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:folder_aliases_for",
+      "type": "function",
+      "name": "folder_aliases_for",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        102,
+        104
+      ],
+      "summary": "folder_aliases_for 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:is_cloud_host",
+      "type": "function",
+      "name": "is_cloud_host",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        335,
+        341
+      ],
+      "summary": "is_cloud_host 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:build_cloud_aware_url",
+      "type": "function",
+      "name": "build_cloud_aware_url",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        344,
+        359
+      ],
+      "summary": "build_cloud_aware_url 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:cloud_endpoint",
+      "type": "function",
+      "name": "cloud_endpoint",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        362,
+        376
+      ],
+      "summary": "cloud_endpoint 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:resolve_url",
+      "type": "function",
+      "name": "resolve_url",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        379,
+        384
+      ],
+      "summary": "resolve_url 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:resolve_api_key",
+      "type": "function",
+      "name": "resolve_api_key",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        391,
+        397
+      ],
+      "summary": "resolve_api_key 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:_sleep_backoff",
+      "type": "function",
+      "name": "_sleep_backoff",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        418,
+        422
+      ],
+      "summary": "_sleep_backoff 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:http_request",
+      "type": "function",
+      "name": "http_request",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        425,
+        489
+      ],
+      "summary": "http_request 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:_http_once",
+      "type": "function",
+      "name": "_http_once",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        523,
+        628
+      ],
+      "summary": "_http_once 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:http_get",
+      "type": "function",
+      "name": "http_get",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        631,
+        632
+      ],
+      "summary": "http_get 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:http_post",
+      "type": "function",
+      "name": "http_post",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        635,
+        636
+      ],
+      "summary": "http_post 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:is_api_format",
+      "type": "function",
+      "name": "is_api_format",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        643,
+        652
+      ],
+      "summary": "is_api_format 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:unwrap_workflow",
+      "type": "function",
+      "name": "unwrap_workflow",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        655,
+        671
+      ],
+      "summary": "unwrap_workflow 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:is_link",
+      "type": "function",
+      "name": "is_link",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        674,
+        681
+      ],
+      "summary": "is_link 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:iter_nodes",
+      "type": "function",
+      "name": "iter_nodes",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        684,
+        688
+      ],
+      "summary": "iter_nodes 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:iter_model_deps",
+      "type": "function",
+      "name": "iter_model_deps",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        691,
+        707
+      ],
+      "summary": "iter_model_deps 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:iter_embedding_refs",
+      "type": "function",
+      "name": "iter_embedding_refs",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        710,
+        720
+      ],
+      "summary": "iter_embedding_refs 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:safe_path_join",
+      "type": "function",
+      "name": "safe_path_join",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        727,
+        741
+      ],
+      "summary": "safe_path_join 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:media_type_from_filename",
+      "type": "function",
+      "name": "media_type_from_filename",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        744,
+        754
+      ],
+      "summary": "media_type_from_filename 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:looks_like_video_workflow",
+      "type": "function",
+      "name": "looks_like_video_workflow",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        757,
+        764
+      ],
+      "summary": "looks_like_video_workflow 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:coerce_seed",
+      "type": "function",
+      "name": "coerce_seed",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        776,
+        789
+      ],
+      "summary": "coerce_seed 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:parse_model_list",
+      "type": "function",
+      "name": "parse_model_list",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        796,
+        812
+      ],
+      "summary": "parse_model_list 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:new_client_id",
+      "type": "function",
+      "name": "new_client_id",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        819,
+        820
+      ],
+      "summary": "new_client_id 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:fmt_kv",
+      "type": "function",
+      "name": "fmt_kv",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        823,
+        825
+      ],
+      "summary": "fmt_kv 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:emit_json",
+      "type": "function",
+      "name": "emit_json",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        828,
+        830
+      ],
+      "summary": "emit_json 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/_common.py:log",
+      "type": "function",
+      "name": "log",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        833,
+        835
+      ],
+      "summary": "log 是 _common.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:skills/creative/comfyui/scripts/_common.py:HTTPResponse",
+      "type": "class",
+      "name": "HTTPResponse",
+      "filePath": "skills/creative/comfyui/scripts/_common.py",
+      "lineRange": [
+        405,
+        415
+      ],
+      "summary": "HTTPResponse 是 _common.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "type": "file",
+      "name": "auto_fix_deps.py",
+      "filePath": "skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "summary": "auto_fix_deps.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:comfy_cli_available",
+      "type": "function",
+      "name": "comfy_cli_available",
+      "filePath": "skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "lineRange": [
+        41,
+        47
+      ],
+      "summary": "comfy_cli_available 是 auto_fix_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:run_cmd",
+      "type": "function",
+      "name": "run_cmd",
+      "filePath": "skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "lineRange": [
+        50,
+        56
+      ],
+      "summary": "run_cmd 是 auto_fix_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:install_node",
+      "type": "function",
+      "name": "install_node",
+      "filePath": "skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "lineRange": [
+        59,
+        62
+      ],
+      "summary": "install_node 是 auto_fix_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:install_model",
+      "type": "function",
+      "name": "install_model",
+      "filePath": "skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "lineRange": [
+        65,
+        80
+      ],
+      "summary": "install_model 是 auto_fix_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "lineRange": [
+        83,
+        221
+      ],
+      "summary": "main 是 auto_fix_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "type": "file",
+      "name": "check_deps.py",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "summary": "check_deps.py 是 python 源文件，包含 10 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_object_info",
+      "type": "function",
+      "name": "fetch_object_info",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        123,
+        144
+      ],
+      "summary": "fetch_object_info 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:_fetch_one_folder",
+      "type": "function",
+      "name": "_fetch_one_folder",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        147,
+        176
+      ],
+      "summary": "_fetch_one_folder 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_models_for_folder",
+      "type": "function",
+      "name": "fetch_models_for_folder",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        179,
+        204
+      ],
+      "summary": "fetch_models_for_folder 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_embeddings",
+      "type": "function",
+      "name": "fetch_embeddings",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        207,
+        228
+      ],
+      "summary": "fetch_embeddings 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:normalize_for_match",
+      "type": "function",
+      "name": "normalize_for_match",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        231,
+        241
+      ],
+      "summary": "normalize_for_match 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:model_present",
+      "type": "function",
+      "name": "model_present",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        244,
+        251
+      ],
+      "summary": "model_present 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:suggest_install_command",
+      "type": "function",
+      "name": "suggest_install_command",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        254,
+        258
+      ],
+      "summary": "suggest_install_command 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:suggest_git_url",
+      "type": "function",
+      "name": "suggest_git_url",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        261,
+        264
+      ],
+      "summary": "suggest_git_url 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:check_deps",
+      "type": "function",
+      "name": "check_deps",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        267,
+        383
+      ],
+      "summary": "check_deps 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/check_deps.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/check_deps.py",
+      "lineRange": [
+        386,
+        433
+      ],
+      "summary": "main 是 check_deps.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/comfyui_setup.sh",
+      "type": "file",
+      "name": "comfyui_setup.sh",
+      "filePath": "skills/creative/comfyui/scripts/comfyui_setup.sh",
+      "summary": "comfyui_setup.sh 是 shell 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "type": "file",
+      "name": "extract_schema.py",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "summary": "extract_schema.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/extract_schema.py:infer_type",
+      "type": "function",
+      "name": "infer_type",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "lineRange": [
+        48,
+        61
+      ],
+      "summary": "infer_type 是 extract_schema.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/extract_schema.py:trace_to_node",
+      "type": "function",
+      "name": "trace_to_node",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "lineRange": [
+        64,
+        93
+      ],
+      "summary": "trace_to_node 是 extract_schema.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/extract_schema.py:find_negative_prompt_node",
+      "type": "function",
+      "name": "find_negative_prompt_node",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "lineRange": [
+        96,
+        110
+      ],
+      "summary": "find_negative_prompt_node 是 extract_schema.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/extract_schema.py:find_positive_prompt_node",
+      "type": "function",
+      "name": "find_positive_prompt_node",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "lineRange": [
+        113,
+        126
+      ],
+      "summary": "find_positive_prompt_node 是 extract_schema.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/extract_schema.py:extract_schema",
+      "type": "function",
+      "name": "extract_schema",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "lineRange": [
+        129,
+        271
+      ],
+      "summary": "extract_schema 是 extract_schema.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/extract_schema.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/extract_schema.py",
+      "lineRange": [
+        274,
+        311
+      ],
+      "summary": "main 是 extract_schema.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "type": "file",
+      "name": "fetch_logs.py",
+      "filePath": "skills/creative/comfyui/scripts/fetch_logs.py",
+      "summary": "fetch_logs.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/fetch_logs.py:fetch_history_entry",
+      "type": "function",
+      "name": "fetch_history_entry",
+      "filePath": "skills/creative/comfyui/scripts/fetch_logs.py",
+      "lineRange": [
+        28,
+        60
+      ],
+      "summary": "fetch_history_entry 是 fetch_logs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/fetch_logs.py:fetch_queue",
+      "type": "function",
+      "name": "fetch_queue",
+      "filePath": "skills/creative/comfyui/scripts/fetch_logs.py",
+      "lineRange": [
+        63,
+        70
+      ],
+      "summary": "fetch_queue 是 fetch_logs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/fetch_logs.py:extract_diagnostics",
+      "type": "function",
+      "name": "extract_diagnostics",
+      "filePath": "skills/creative/comfyui/scripts/fetch_logs.py",
+      "lineRange": [
+        73,
+        114
+      ],
+      "summary": "extract_diagnostics 是 fetch_logs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/fetch_logs.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/fetch_logs.py",
+      "lineRange": [
+        117,
+        153
+      ],
+      "summary": "main 是 fetch_logs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "type": "file",
+      "name": "hardware_check.py",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "summary": "hardware_check.py 是 python 源文件，包含 14 个函数、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:_run",
+      "type": "function",
+      "name": "_run",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        54,
+        61
+      ],
+      "summary": "_run 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:is_wsl",
+      "type": "function",
+      "name": "is_wsl",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        64,
+        74
+      ],
+      "summary": "is_wsl 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:is_rosetta",
+      "type": "function",
+      "name": "is_rosetta",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        77,
+        85
+      ],
+      "summary": "is_rosetta 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_nvidia",
+      "type": "function",
+      "name": "detect_nvidia",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        88,
+        124
+      ],
+      "summary": "detect_nvidia 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_rocm",
+      "type": "function",
+      "name": "detect_rocm",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        127,
+        171
+      ],
+      "summary": "detect_rocm 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_apple_silicon",
+      "type": "function",
+      "name": "detect_apple_silicon",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        174,
+        202
+      ],
+      "summary": "detect_apple_silicon 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_intel_arc",
+      "type": "function",
+      "name": "detect_intel_arc",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        205,
+        218
+      ],
+      "summary": "detect_intel_arc 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:total_system_ram_gb",
+      "type": "function",
+      "name": "total_system_ram_gb",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        221,
+        251
+      ],
+      "summary": "total_system_ram_gb 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:total_free_disk_gb",
+      "type": "function",
+      "name": "total_free_disk_gb",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        254,
+        259
+      ],
+      "summary": "total_free_disk_gb 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:check_pytorch_cuda",
+      "type": "function",
+      "name": "check_pytorch_cuda",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        262,
+        283
+      ],
+      "summary": "check_pytorch_cuda 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:classify",
+      "type": "function",
+      "name": "classify",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        286,
+        367
+      ],
+      "summary": "classify 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:build_report",
+      "type": "function",
+      "name": "build_report",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        370,
+        430
+      ],
+      "summary": "build_report 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:_install_urls",
+      "type": "function",
+      "name": "_install_urls",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        433,
+        439
+      ],
+      "summary": "_install_urls 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/hardware_check.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/hardware_check.py",
+      "lineRange": [
+        442,
+        493
+      ],
+      "summary": "main 是 hardware_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/health_check.py",
+      "type": "file",
+      "name": "health_check.py",
+      "filePath": "skills/creative/comfyui/scripts/health_check.py",
+      "summary": "health_check.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/health_check.py:comfy_cli_status",
+      "type": "function",
+      "name": "comfy_cli_status",
+      "filePath": "skills/creative/comfyui/scripts/health_check.py",
+      "lineRange": [
+        34,
+        43
+      ],
+      "summary": "comfy_cli_status 是 health_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/health_check.py:server_status",
+      "type": "function",
+      "name": "server_status",
+      "filePath": "skills/creative/comfyui/scripts/health_check.py",
+      "lineRange": [
+        46,
+        58
+      ],
+      "summary": "server_status 是 health_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/health_check.py:checkpoint_status",
+      "type": "function",
+      "name": "checkpoint_status",
+      "filePath": "skills/creative/comfyui/scripts/health_check.py",
+      "lineRange": [
+        61,
+        74
+      ],
+      "summary": "checkpoint_status 是 health_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/health_check.py:smoke_test",
+      "type": "function",
+      "name": "smoke_test",
+      "filePath": "skills/creative/comfyui/scripts/health_check.py",
+      "lineRange": [
+        103,
+        137
+      ],
+      "summary": "smoke_test 是 health_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/health_check.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/health_check.py",
+      "lineRange": [
+        140,
+        219
+      ],
+      "summary": "main 是 health_check.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "type": "file",
+      "name": "run_batch.py",
+      "filePath": "skills/creative/comfyui/scripts/run_batch.py",
+      "summary": "run_batch.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_batch.py:expand_sweep",
+      "type": "function",
+      "name": "expand_sweep",
+      "filePath": "skills/creative/comfyui/scripts/run_batch.py",
+      "lineRange": [
+        46,
+        66
+      ],
+      "summary": "expand_sweep 是 run_batch.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_batch.py:execute_one",
+      "type": "function",
+      "name": "execute_one",
+      "filePath": "skills/creative/comfyui/scripts/run_batch.py",
+      "lineRange": [
+        69,
+        106
+      ],
+      "summary": "execute_one 是 run_batch.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_batch.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/run_batch.py",
+      "lineRange": [
+        109,
+        239
+      ],
+      "summary": "main 是 run_batch.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "type": "file",
+      "name": "run_workflow.py",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "summary": "run_workflow.py 是 python 源文件，包含 6 个函数、2 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_workflow.py:_inline_schema",
+      "type": "function",
+      "name": "_inline_schema",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        445,
+        448
+      ],
+      "summary": "_inline_schema 是 run_workflow.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_workflow.py:load_schema",
+      "type": "function",
+      "name": "load_schema",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        451,
+        455
+      ],
+      "summary": "load_schema 是 run_workflow.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_workflow.py:inject_params",
+      "type": "function",
+      "name": "inject_params",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        458,
+        499
+      ],
+      "summary": "inject_params 是 run_workflow.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_workflow.py:download_outputs",
+      "type": "function",
+      "name": "download_outputs",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        506,
+        550
+      ],
+      "summary": "download_outputs 是 run_workflow.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_workflow.py:parse_input_image_arg",
+      "type": "function",
+      "name": "parse_input_image_arg",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        557,
+        562
+      ],
+      "summary": "parse_input_image_arg 是 run_workflow.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/run_workflow.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        565,
+        792
+      ],
+      "summary": "main 是 run_workflow.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:skills/creative/comfyui/scripts/run_workflow.py:WorkflowRunError",
+      "type": "class",
+      "name": "WorkflowRunError",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        75,
+        87
+      ],
+      "summary": "WorkflowRunError 是 run_workflow.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:skills/creative/comfyui/scripts/run_workflow.py:ComfyRunner",
+      "type": "class",
+      "name": "ComfyRunner",
+      "filePath": "skills/creative/comfyui/scripts/run_workflow.py",
+      "lineRange": [
+        90,
+        438
+      ],
+      "summary": "ComfyRunner 是 run_workflow.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "type": "file",
+      "name": "ws_monitor.py",
+      "filePath": "skills/creative/comfyui/scripts/ws_monitor.py",
+      "summary": "ws_monitor.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/ws_monitor.py:fmt_color",
+      "type": "function",
+      "name": "fmt_color",
+      "filePath": "skills/creative/comfyui/scripts/ws_monitor.py",
+      "lineRange": [
+        62,
+        63
+      ],
+      "summary": "fmt_color 是 ws_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/ws_monitor.py:parse_binary_frame",
+      "type": "function",
+      "name": "parse_binary_frame",
+      "filePath": "skills/creative/comfyui/scripts/ws_monitor.py",
+      "lineRange": [
+        66,
+        108
+      ],
+      "summary": "parse_binary_frame 是 ws_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/comfyui/scripts/ws_monitor.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/comfyui/scripts/ws_monitor.py",
+      "lineRange": [
+        111,
+        263
+      ],
+      "summary": "main 是 ws_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:skills/creative/comfyui/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/comfyui/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:folder_aliases_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:folder_aliases_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:is_cloud_host",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:is_cloud_host",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:build_cloud_aware_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:build_cloud_aware_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:cloud_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:cloud_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:resolve_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:resolve_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:resolve_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:resolve_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:_sleep_backoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:_sleep_backoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:http_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:http_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:_http_once",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:_http_once",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:http_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:http_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:http_post",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:http_post",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:is_api_format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:is_api_format",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:unwrap_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:unwrap_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:is_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:is_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:iter_nodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:iter_nodes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:iter_model_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:iter_model_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:iter_embedding_refs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:iter_embedding_refs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:safe_path_join",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:safe_path_join",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:media_type_from_filename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:media_type_from_filename",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:looks_like_video_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:looks_like_video_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:coerce_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:coerce_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:parse_model_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:parse_model_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:new_client_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:new_client_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:fmt_kv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:fmt_kv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:emit_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:emit_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:log",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "function:skills/creative/comfyui/scripts/_common.py:log",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "class:skills/creative/comfyui/scripts/_common.py:HTTPResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/_common.py",
+      "target": "class:skills/creative/comfyui/scripts/_common.py:HTTPResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:comfy_cli_available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:comfy_cli_available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:run_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:run_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:install_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:install_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:install_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:install_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/auto_fix_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/auto_fix_deps.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_object_info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_object_info",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:_fetch_one_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:_fetch_one_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_models_for_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_models_for_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_embeddings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:fetch_embeddings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:normalize_for_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:normalize_for_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:model_present",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:model_present",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:suggest_install_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:suggest_install_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:suggest_git_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:suggest_git_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:check_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:check_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/check_deps.py",
+      "target": "function:skills/creative/comfyui/scripts/check_deps.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:infer_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:infer_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:trace_to_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:trace_to_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:find_negative_prompt_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:find_negative_prompt_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:find_positive_prompt_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:find_positive_prompt_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:extract_schema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:extract_schema",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/extract_schema.py",
+      "target": "function:skills/creative/comfyui/scripts/extract_schema.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:fetch_history_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:fetch_history_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:fetch_queue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:fetch_queue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:extract_diagnostics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:extract_diagnostics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/fetch_logs.py",
+      "target": "function:skills/creative/comfyui/scripts/fetch_logs.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:is_wsl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:is_wsl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:is_rosetta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:is_rosetta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_nvidia",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_nvidia",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_rocm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_rocm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_apple_silicon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_apple_silicon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_intel_arc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:detect_intel_arc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:total_system_ram_gb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:total_system_ram_gb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:total_free_disk_gb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:total_free_disk_gb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:check_pytorch_cuda",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:check_pytorch_cuda",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:classify",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:classify",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:build_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:build_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:_install_urls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:_install_urls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/hardware_check.py",
+      "target": "function:skills/creative/comfyui/scripts/hardware_check.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:comfy_cli_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:comfy_cli_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:server_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:server_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:checkpoint_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:checkpoint_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:smoke_test",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:smoke_test",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/health_check.py",
+      "target": "function:skills/creative/comfyui/scripts/health_check.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "target": "function:skills/creative/comfyui/scripts/run_batch.py:expand_sweep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "target": "function:skills/creative/comfyui/scripts/run_batch.py:expand_sweep",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "target": "function:skills/creative/comfyui/scripts/run_batch.py:execute_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "target": "function:skills/creative/comfyui/scripts/run_batch.py:execute_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "target": "function:skills/creative/comfyui/scripts/run_batch.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_batch.py",
+      "target": "function:skills/creative/comfyui/scripts/run_batch.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:_inline_schema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:_inline_schema",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:load_schema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:load_schema",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:inject_params",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:inject_params",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:download_outputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:download_outputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:parse_input_image_arg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:parse_input_image_arg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "function:skills/creative/comfyui/scripts/run_workflow.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "class:skills/creative/comfyui/scripts/run_workflow.py:WorkflowRunError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "class:skills/creative/comfyui/scripts/run_workflow.py:WorkflowRunError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "class:skills/creative/comfyui/scripts/run_workflow.py:ComfyRunner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/run_workflow.py",
+      "target": "class:skills/creative/comfyui/scripts/run_workflow.py:ComfyRunner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "target": "function:skills/creative/comfyui/scripts/ws_monitor.py:fmt_color",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "target": "function:skills/creative/comfyui/scripts/ws_monitor.py:fmt_color",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "target": "function:skills/creative/comfyui/scripts/ws_monitor.py:parse_binary_frame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "target": "function:skills/creative/comfyui/scripts/ws_monitor.py:parse_binary_frame",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "target": "function:skills/creative/comfyui/scripts/ws_monitor.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/comfyui/scripts/ws_monitor.py",
+      "target": "function:skills/creative/comfyui/scripts/ws_monitor.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

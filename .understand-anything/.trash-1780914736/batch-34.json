@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/mlops/saelens/references/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "optional-skills/mlops/saelens/references/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/saelens/references/api.md",
+      "type": "document",
+      "name": "api.md",
+      "filePath": "optional-skills/mlops/saelens/references/api.md",
+      "summary": "api.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/saelens/references/tutorials.md",
+      "type": "document",
+      "name": "tutorials.md",
+      "filePath": "optional-skills/mlops/saelens/references/tutorials.md",
+      "summary": "tutorials.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

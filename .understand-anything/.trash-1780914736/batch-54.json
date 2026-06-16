@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/creative/comfyui/workflows/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/creative/comfyui/workflows/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/animatediff_video.json",
+      "type": "config",
+      "name": "animatediff_video.json",
+      "filePath": "skills/creative/comfyui/workflows/animatediff_video.json",
+      "summary": "animatediff_video.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/flux_dev_txt2img.json",
+      "type": "config",
+      "name": "flux_dev_txt2img.json",
+      "filePath": "skills/creative/comfyui/workflows/flux_dev_txt2img.json",
+      "summary": "flux_dev_txt2img.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/sd15_txt2img.json",
+      "type": "config",
+      "name": "sd15_txt2img.json",
+      "filePath": "skills/creative/comfyui/workflows/sd15_txt2img.json",
+      "summary": "sd15_txt2img.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/sdxl_img2img.json",
+      "type": "config",
+      "name": "sdxl_img2img.json",
+      "filePath": "skills/creative/comfyui/workflows/sdxl_img2img.json",
+      "summary": "sdxl_img2img.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/sdxl_inpaint.json",
+      "type": "config",
+      "name": "sdxl_inpaint.json",
+      "filePath": "skills/creative/comfyui/workflows/sdxl_inpaint.json",
+      "summary": "sdxl_inpaint.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/sdxl_txt2img.json",
+      "type": "config",
+      "name": "sdxl_txt2img.json",
+      "filePath": "skills/creative/comfyui/workflows/sdxl_txt2img.json",
+      "summary": "sdxl_txt2img.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/upscale_4x.json",
+      "type": "config",
+      "name": "upscale_4x.json",
+      "filePath": "skills/creative/comfyui/workflows/upscale_4x.json",
+      "summary": "upscale_4x.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/creative/comfyui/workflows/wan_video_t2v.json",
+      "type": "config",
+      "name": "wan_video_t2v.json",
+      "filePath": "skills/creative/comfyui/workflows/wan_video_t2v.json",
+      "summary": "wan_video_t2v.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": []
+}

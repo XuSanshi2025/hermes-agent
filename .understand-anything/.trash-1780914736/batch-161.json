@@ -1,0 +1,3189 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/components/ui/textarea.tsx",
+      "type": "file",
+      "name": "textarea.tsx",
+      "filePath": "apps/desktop/src/components/ui/textarea.tsx",
+      "summary": "textarea.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/textarea.tsx:Textarea",
+      "type": "function",
+      "name": "Textarea",
+      "filePath": "apps/desktop/src/components/ui/textarea.tsx",
+      "lineRange": [
+        7,
+        9
+      ],
+      "summary": "Textarea 是 textarea.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "type": "file",
+      "name": "tooltip.tsx",
+      "filePath": "apps/desktop/src/components/ui/tooltip.tsx",
+      "summary": "tooltip.tsx 是 typescript 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipProvider",
+      "type": "function",
+      "name": "TooltipProvider",
+      "filePath": "apps/desktop/src/components/ui/tooltip.tsx",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "TooltipProvider 是 tooltip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tooltip.tsx:Tooltip",
+      "type": "function",
+      "name": "Tooltip",
+      "filePath": "apps/desktop/src/components/ui/tooltip.tsx",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "Tooltip 是 tooltip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipTrigger",
+      "type": "function",
+      "name": "TooltipTrigger",
+      "filePath": "apps/desktop/src/components/ui/tooltip.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "TooltipTrigger 是 tooltip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipContent",
+      "type": "function",
+      "name": "TooltipContent",
+      "filePath": "apps/desktop/src/components/ui/tooltip.tsx",
+      "lineRange": [
+        18,
+        42
+      ],
+      "summary": "TooltipContent 是 tooltip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tooltip.tsx:Tip",
+      "type": "function",
+      "name": "Tip",
+      "filePath": "apps/desktop/src/components/ui/tooltip.tsx",
+      "lineRange": [
+        54,
+        67
+      ],
+      "summary": "Tip 是 tooltip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/global.d.ts",
+      "type": "file",
+      "name": "global.d.ts",
+      "filePath": "apps/desktop/src/global.d.ts",
+      "summary": "global.d.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/hermes.test.ts",
+      "type": "file",
+      "name": "hermes.test.ts",
+      "filePath": "apps/desktop/src/hermes.test.ts",
+      "summary": "hermes.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/hermes.ts",
+      "type": "file",
+      "name": "hermes.ts",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "summary": "hermes.ts 是 typescript 源文件，包含 65 个函数、1 个类、120 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:setApiRequestProfile",
+      "type": "function",
+      "name": "setApiRequestProfile",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        125,
+        127
+      ],
+      "summary": "setApiRequestProfile 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:listSessions",
+      "type": "function",
+      "name": "listSessions",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        133,
+        149
+      ],
+      "summary": "listSessions 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:listAllProfileSessions",
+      "type": "function",
+      "name": "listAllProfileSessions",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        164,
+        190
+      ],
+      "summary": "listAllProfileSessions 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:setSessionArchived",
+      "type": "function",
+      "name": "setSessionArchived",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        196,
+        203
+      ],
+      "summary": "setSessionArchived 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:searchSessions",
+      "type": "function",
+      "name": "searchSessions",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        205,
+        209
+      ],
+      "summary": "searchSessions 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getSessionMessages",
+      "type": "function",
+      "name": "getSessionMessages",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        215,
+        221
+      ],
+      "summary": "getSessionMessages 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:deleteSession",
+      "type": "function",
+      "name": "deleteSession",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        223,
+        229
+      ],
+      "summary": "deleteSession 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:renameSession",
+      "type": "function",
+      "name": "renameSession",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        231,
+        242
+      ],
+      "summary": "renameSession 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getGlobalModelInfo",
+      "type": "function",
+      "name": "getGlobalModelInfo",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        244,
+        249
+      ],
+      "summary": "getGlobalModelInfo 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getStatus",
+      "type": "function",
+      "name": "getStatus",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        251,
+        255
+      ],
+      "summary": "getStatus 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getLogs",
+      "type": "function",
+      "name": "getLogs",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        257,
+        287
+      ],
+      "summary": "getLogs 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getHermesConfig",
+      "type": "function",
+      "name": "getHermesConfig",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        289,
+        294
+      ],
+      "summary": "getHermesConfig 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getHermesConfigRecord",
+      "type": "function",
+      "name": "getHermesConfigRecord",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        296,
+        301
+      ],
+      "summary": "getHermesConfigRecord 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getHermesConfigDefaults",
+      "type": "function",
+      "name": "getHermesConfigDefaults",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        303,
+        308
+      ],
+      "summary": "getHermesConfigDefaults 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getHermesConfigSchema",
+      "type": "function",
+      "name": "getHermesConfigSchema",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        310,
+        315
+      ],
+      "summary": "getHermesConfigSchema 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:saveHermesConfig",
+      "type": "function",
+      "name": "saveHermesConfig",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        317,
+        324
+      ],
+      "summary": "saveHermesConfig 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getEnvVars",
+      "type": "function",
+      "name": "getEnvVars",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        326,
+        331
+      ],
+      "summary": "getEnvVars 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:setEnvVar",
+      "type": "function",
+      "name": "setEnvVar",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        333,
+        340
+      ],
+      "summary": "setEnvVar 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:validateProviderCredential",
+      "type": "function",
+      "name": "validateProviderCredential",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        342,
+        352
+      ],
+      "summary": "validateProviderCredential 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:deleteEnvVar",
+      "type": "function",
+      "name": "deleteEnvVar",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        354,
+        361
+      ],
+      "summary": "deleteEnvVar 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:revealEnvVar",
+      "type": "function",
+      "name": "revealEnvVar",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        363,
+        370
+      ],
+      "summary": "revealEnvVar 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:listOAuthProviders",
+      "type": "function",
+      "name": "listOAuthProviders",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        372,
+        377
+      ],
+      "summary": "listOAuthProviders 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:startOAuthLogin",
+      "type": "function",
+      "name": "startOAuthLogin",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        379,
+        386
+      ],
+      "summary": "startOAuthLogin 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:submitOAuthCode",
+      "type": "function",
+      "name": "submitOAuthCode",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        388,
+        395
+      ],
+      "summary": "submitOAuthCode 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:pollOAuthSession",
+      "type": "function",
+      "name": "pollOAuthSession",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        397,
+        402
+      ],
+      "summary": "pollOAuthSession 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:cancelOAuthSession",
+      "type": "function",
+      "name": "cancelOAuthSession",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        404,
+        410
+      ],
+      "summary": "cancelOAuthSession 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getSkills",
+      "type": "function",
+      "name": "getSkills",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        412,
+        417
+      ],
+      "summary": "getSkills 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:toggleSkill",
+      "type": "function",
+      "name": "toggleSkill",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        419,
+        426
+      ],
+      "summary": "toggleSkill 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getToolsets",
+      "type": "function",
+      "name": "getToolsets",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        428,
+        433
+      ],
+      "summary": "getToolsets 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:toggleToolset",
+      "type": "function",
+      "name": "toggleToolset",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        435,
+        445
+      ],
+      "summary": "toggleToolset 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getToolsetConfig",
+      "type": "function",
+      "name": "getToolsetConfig",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        447,
+        452
+      ],
+      "summary": "getToolsetConfig 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:selectToolsetProvider",
+      "type": "function",
+      "name": "selectToolsetProvider",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        454,
+        464
+      ],
+      "summary": "selectToolsetProvider 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:runToolsetPostSetup",
+      "type": "function",
+      "name": "runToolsetPostSetup",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        466,
+        473
+      ],
+      "summary": "runToolsetPostSetup 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getMessagingPlatforms",
+      "type": "function",
+      "name": "getMessagingPlatforms",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        475,
+        479
+      ],
+      "summary": "getMessagingPlatforms 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:updateMessagingPlatform",
+      "type": "function",
+      "name": "updateMessagingPlatform",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        481,
+        490
+      ],
+      "summary": "updateMessagingPlatform 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:testMessagingPlatform",
+      "type": "function",
+      "name": "testMessagingPlatform",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        492,
+        497
+      ],
+      "summary": "testMessagingPlatform 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getCronJobs",
+      "type": "function",
+      "name": "getCronJobs",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        499,
+        503
+      ],
+      "summary": "getCronJobs 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getCronJob",
+      "type": "function",
+      "name": "getCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        505,
+        509
+      ],
+      "summary": "getCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getCronJobRuns",
+      "type": "function",
+      "name": "getCronJobRuns",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        511,
+        517
+      ],
+      "summary": "getCronJobRuns 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:createCronJob",
+      "type": "function",
+      "name": "createCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        519,
+        525
+      ],
+      "summary": "createCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:updateCronJob",
+      "type": "function",
+      "name": "updateCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        527,
+        533
+      ],
+      "summary": "updateCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:pauseCronJob",
+      "type": "function",
+      "name": "pauseCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        535,
+        540
+      ],
+      "summary": "pauseCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:resumeCronJob",
+      "type": "function",
+      "name": "resumeCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        542,
+        547
+      ],
+      "summary": "resumeCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:triggerCronJob",
+      "type": "function",
+      "name": "triggerCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        549,
+        554
+      ],
+      "summary": "triggerCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:deleteCronJob",
+      "type": "function",
+      "name": "deleteCronJob",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        556,
+        561
+      ],
+      "summary": "deleteCronJob 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getProfiles",
+      "type": "function",
+      "name": "getProfiles",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        563,
+        567
+      ],
+      "summary": "getProfiles 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:createProfile",
+      "type": "function",
+      "name": "createProfile",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        569,
+        575
+      ],
+      "summary": "createProfile 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:renameProfile",
+      "type": "function",
+      "name": "renameProfile",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        577,
+        583
+      ],
+      "summary": "renameProfile 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:deleteProfile",
+      "type": "function",
+      "name": "deleteProfile",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        585,
+        590
+      ],
+      "summary": "deleteProfile 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getProfileSoul",
+      "type": "function",
+      "name": "getProfileSoul",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        592,
+        596
+      ],
+      "summary": "getProfileSoul 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:updateProfileSoul",
+      "type": "function",
+      "name": "updateProfileSoul",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        598,
+        604
+      ],
+      "summary": "updateProfileSoul 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getProfileSetupCommand",
+      "type": "function",
+      "name": "getProfileSetupCommand",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        606,
+        610
+      ],
+      "summary": "getProfileSetupCommand 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getUsageAnalytics",
+      "type": "function",
+      "name": "getUsageAnalytics",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        612,
+        617
+      ],
+      "summary": "getUsageAnalytics 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getGlobalModelOptions",
+      "type": "function",
+      "name": "getGlobalModelOptions",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        619,
+        624
+      ],
+      "summary": "getGlobalModelOptions 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getRecommendedDefaultModel",
+      "type": "function",
+      "name": "getRecommendedDefaultModel",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        636,
+        641
+      ],
+      "summary": "getRecommendedDefaultModel 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:setGlobalModel",
+      "type": "function",
+      "name": "setGlobalModel",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        643,
+        657
+      ],
+      "summary": "setGlobalModel 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getAuxiliaryModels",
+      "type": "function",
+      "name": "getAuxiliaryModels",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        659,
+        664
+      ],
+      "summary": "getAuxiliaryModels 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:setModelAssignment",
+      "type": "function",
+      "name": "setModelAssignment",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        666,
+        673
+      ],
+      "summary": "setModelAssignment 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:restartGateway",
+      "type": "function",
+      "name": "restartGateway",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        675,
+        680
+      ],
+      "summary": "restartGateway 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:updateHermes",
+      "type": "function",
+      "name": "updateHermes",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        682,
+        687
+      ],
+      "summary": "updateHermes 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getActionStatus",
+      "type": "function",
+      "name": "getActionStatus",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        689,
+        693
+      ],
+      "summary": "getActionStatus 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:transcribeAudio",
+      "type": "function",
+      "name": "transcribeAudio",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        695,
+        704
+      ],
+      "summary": "transcribeAudio 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:speakText",
+      "type": "function",
+      "name": "speakText",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        706,
+        712
+      ],
+      "summary": "speakText 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hermes.ts:getElevenLabsVoices",
+      "type": "function",
+      "name": "getElevenLabsVoices",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        714,
+        718
+      ],
+      "summary": "getElevenLabsVoices 是 hermes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/hermes.ts:HermesGateway",
+      "type": "class",
+      "name": "HermesGateway",
+      "filePath": "apps/desktop/src/hermes.ts",
+      "lineRange": [
+        105,
+        115
+      ],
+      "summary": "HermesGateway 是 hermes.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/hooks/use-media-query.ts",
+      "type": "file",
+      "name": "use-media-query.ts",
+      "filePath": "apps/desktop/src/hooks/use-media-query.ts",
+      "summary": "use-media-query.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/hooks/use-media-query.ts:matchesQuery",
+      "type": "function",
+      "name": "matchesQuery",
+      "filePath": "apps/desktop/src/hooks/use-media-query.ts",
+      "lineRange": [
+        3,
+        4
+      ],
+      "summary": "matchesQuery 是 use-media-query.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/hooks/use-media-query.ts:useMediaQuery",
+      "type": "function",
+      "name": "useMediaQuery",
+      "filePath": "apps/desktop/src/hooks/use-media-query.ts",
+      "lineRange": [
+        6,
+        24
+      ],
+      "summary": "useMediaQuery 是 use-media-query.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/hooks/use-mobile.ts",
+      "type": "file",
+      "name": "use-mobile.ts",
+      "filePath": "apps/desktop/src/hooks/use-mobile.ts",
+      "summary": "use-mobile.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/hooks/use-mobile.ts:useIsMobile",
+      "type": "function",
+      "name": "useIsMobile",
+      "filePath": "apps/desktop/src/hooks/use-mobile.ts",
+      "lineRange": [
+        3,
+        3
+      ],
+      "summary": "useIsMobile 是 use-mobile.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/hooks/use-resize-observer.ts",
+      "type": "file",
+      "name": "use-resize-observer.ts",
+      "filePath": "apps/desktop/src/hooks/use-resize-observer.ts",
+      "summary": "use-resize-observer.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/hooks/use-resize-observer.ts:useResizeObserver",
+      "type": "function",
+      "name": "useResizeObserver",
+      "filePath": "apps/desktop/src/hooks/use-resize-observer.ts",
+      "lineRange": [
+        3,
+        38
+      ],
+      "summary": "useResizeObserver 是 use-resize-observer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/catalog.ts",
+      "type": "file",
+      "name": "catalog.ts",
+      "filePath": "apps/desktop/src/i18n/catalog.ts",
+      "summary": "catalog.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/context.test.tsx",
+      "type": "file",
+      "name": "context.test.tsx",
+      "filePath": "apps/desktop/src/i18n/context.test.tsx",
+      "summary": "context.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/context.test.tsx:LanguageProbe",
+      "type": "function",
+      "name": "LanguageProbe",
+      "filePath": "apps/desktop/src/i18n/context.test.tsx",
+      "lineRange": [
+        9,
+        25
+      ],
+      "summary": "LanguageProbe 是 context.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/context.tsx",
+      "type": "file",
+      "name": "context.tsx",
+      "filePath": "apps/desktop/src/i18n/context.tsx",
+      "summary": "context.tsx 是 typescript 源文件，包含 6 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/context.tsx:getConfigDisplayLanguage",
+      "type": "function",
+      "name": "getConfigDisplayLanguage",
+      "filePath": "apps/desktop/src/i18n/context.tsx",
+      "lineRange": [
+        38,
+        40
+      ],
+      "summary": "getConfigDisplayLanguage 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/context.tsx:withConfigDisplayLanguage",
+      "type": "function",
+      "name": "withConfigDisplayLanguage",
+      "filePath": "apps/desktop/src/i18n/context.tsx",
+      "lineRange": [
+        42,
+        52
+      ],
+      "summary": "withConfigDisplayLanguage 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/context.tsx:I18nProvider",
+      "type": "function",
+      "name": "I18nProvider",
+      "filePath": "apps/desktop/src/i18n/context.tsx",
+      "lineRange": [
+        84,
+        179
+      ],
+      "summary": "I18nProvider 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/context.tsx:useI18n",
+      "type": "function",
+      "name": "useI18n",
+      "filePath": "apps/desktop/src/i18n/context.tsx",
+      "lineRange": [
+        181,
+        183
+      ],
+      "summary": "useI18n 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/define-locale.ts",
+      "type": "file",
+      "name": "define-locale.ts",
+      "filePath": "apps/desktop/src/i18n/define-locale.ts",
+      "summary": "define-locale.ts 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/define-locale.ts:mergeTranslations",
+      "type": "function",
+      "name": "mergeTranslations",
+      "filePath": "apps/desktop/src/i18n/define-locale.ts",
+      "lineRange": [
+        20,
+        37
+      ],
+      "summary": "mergeTranslations 是 define-locale.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/define-locale.ts:defineLocale",
+      "type": "function",
+      "name": "defineLocale",
+      "filePath": "apps/desktop/src/i18n/define-locale.ts",
+      "lineRange": [
+        39,
+        41
+      ],
+      "summary": "defineLocale 是 define-locale.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/en.ts",
+      "type": "file",
+      "name": "en.ts",
+      "filePath": "apps/desktop/src/i18n/en.ts",
+      "summary": "en.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "apps/desktop/src/i18n/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 18 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/ja.ts",
+      "type": "file",
+      "name": "ja.ts",
+      "filePath": "apps/desktop/src/i18n/ja.ts",
+      "summary": "ja.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/languages.test.ts",
+      "type": "file",
+      "name": "languages.test.ts",
+      "filePath": "apps/desktop/src/i18n/languages.test.ts",
+      "summary": "languages.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/languages.ts",
+      "type": "file",
+      "name": "languages.ts",
+      "filePath": "apps/desktop/src/i18n/languages.ts",
+      "summary": "languages.ts 是 typescript 源文件，包含 4 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/languages.ts:isLocale",
+      "type": "function",
+      "name": "isLocale",
+      "filePath": "apps/desktop/src/i18n/languages.ts",
+      "lineRange": [
+        68,
+        70
+      ],
+      "summary": "isLocale 是 languages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/languages.ts:normalizeLocale",
+      "type": "function",
+      "name": "normalizeLocale",
+      "filePath": "apps/desktop/src/i18n/languages.ts",
+      "lineRange": [
+        72,
+        78
+      ],
+      "summary": "normalizeLocale 是 languages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/languages.ts:isSupportedLocaleValue",
+      "type": "function",
+      "name": "isSupportedLocaleValue",
+      "filePath": "apps/desktop/src/i18n/languages.ts",
+      "lineRange": [
+        80,
+        82
+      ],
+      "summary": "isSupportedLocaleValue 是 languages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/languages.ts:localeConfigValue",
+      "type": "function",
+      "name": "localeConfigValue",
+      "filePath": "apps/desktop/src/i18n/languages.ts",
+      "lineRange": [
+        84,
+        86
+      ],
+      "summary": "localeConfigValue 是 languages.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/runtime.test.ts",
+      "type": "file",
+      "name": "runtime.test.ts",
+      "filePath": "apps/desktop/src/i18n/runtime.test.ts",
+      "summary": "runtime.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/runtime.ts",
+      "type": "file",
+      "name": "runtime.ts",
+      "filePath": "apps/desktop/src/i18n/runtime.ts",
+      "summary": "runtime.ts 是 typescript 源文件，包含 5 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/runtime.ts:renderTranslation",
+      "type": "function",
+      "name": "renderTranslation",
+      "filePath": "apps/desktop/src/i18n/runtime.ts",
+      "lineRange": [
+        21,
+        31
+      ],
+      "summary": "renderTranslation 是 runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/runtime.ts:setRuntimeI18nLocale",
+      "type": "function",
+      "name": "setRuntimeI18nLocale",
+      "filePath": "apps/desktop/src/i18n/runtime.ts",
+      "lineRange": [
+        33,
+        35
+      ],
+      "summary": "setRuntimeI18nLocale 是 runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/i18n/runtime.ts:translateNow",
+      "type": "function",
+      "name": "translateNow",
+      "filePath": "apps/desktop/src/i18n/runtime.ts",
+      "lineRange": [
+        37,
+        53
+      ],
+      "summary": "translateNow 是 runtime.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "apps/desktop/src/i18n/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/zh-hant.ts",
+      "type": "file",
+      "name": "zh-hant.ts",
+      "filePath": "apps/desktop/src/i18n/zh-hant.ts",
+      "summary": "zh-hant.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/i18n/zh.ts",
+      "type": "file",
+      "name": "zh.ts",
+      "filePath": "apps/desktop/src/i18n/zh.ts",
+      "summary": "zh.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/ansi.test.ts",
+      "type": "file",
+      "name": "ansi.test.ts",
+      "filePath": "apps/desktop/src/lib/ansi.test.ts",
+      "summary": "ansi.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/ansi.ts",
+      "type": "file",
+      "name": "ansi.ts",
+      "filePath": "apps/desktop/src/lib/ansi.ts",
+      "summary": "ansi.ts 是 typescript 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/ansi.ts:parseAnsi",
+      "type": "function",
+      "name": "parseAnsi",
+      "filePath": "apps/desktop/src/lib/ansi.ts",
+      "lineRange": [
+        61,
+        142
+      ],
+      "summary": "parseAnsi 是 ansi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/ansi.ts:ansiColorClass",
+      "type": "function",
+      "name": "ansiColorClass",
+      "filePath": "apps/desktop/src/lib/ansi.ts",
+      "lineRange": [
+        166,
+        168
+      ],
+      "summary": "ansiColorClass 是 ansi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/ansi.ts:hasAnsiCodes",
+      "type": "function",
+      "name": "hasAnsiCodes",
+      "filePath": "apps/desktop/src/lib/ansi.ts",
+      "lineRange": [
+        172,
+        175
+      ],
+      "summary": "hasAnsiCodes 是 ansi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/chat-messages.test.ts",
+      "type": "file",
+      "name": "chat-messages.test.ts",
+      "filePath": "apps/desktop/src/lib/chat-messages.test.ts",
+      "summary": "chat-messages.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/components/ui/textarea.tsx",
+      "target": "function:apps/desktop/src/components/ui/textarea.tsx:Textarea",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/textarea.tsx",
+      "target": "function:apps/desktop/src/components/ui/textarea.tsx:Textarea",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:Tooltip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:Tooltip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:TooltipContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:Tip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tooltip.tsx",
+      "target": "function:apps/desktop/src/components/ui/tooltip.tsx:Tip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setApiRequestProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setApiRequestProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:listSessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:listSessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:listAllProfileSessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:listAllProfileSessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setSessionArchived",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setSessionArchived",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:searchSessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:searchSessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getSessionMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getSessionMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:renameSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:renameSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getGlobalModelInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getGlobalModelInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getLogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getLogs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfigRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfigRecord",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfigDefaults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfigDefaults",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfigSchema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getHermesConfigSchema",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:saveHermesConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:saveHermesConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getEnvVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getEnvVars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setEnvVar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setEnvVar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:validateProviderCredential",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:validateProviderCredential",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteEnvVar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteEnvVar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:revealEnvVar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:revealEnvVar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:listOAuthProviders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:listOAuthProviders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:startOAuthLogin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:startOAuthLogin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:submitOAuthCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:submitOAuthCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:pollOAuthSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:pollOAuthSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:cancelOAuthSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:cancelOAuthSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getSkills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:toggleSkill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:toggleSkill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getToolsets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getToolsets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:toggleToolset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:toggleToolset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getToolsetConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getToolsetConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:selectToolsetProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:selectToolsetProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:runToolsetPostSetup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:runToolsetPostSetup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getMessagingPlatforms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getMessagingPlatforms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateMessagingPlatform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateMessagingPlatform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:testMessagingPlatform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:testMessagingPlatform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getCronJobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getCronJobs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getCronJobRuns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getCronJobRuns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:createCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:createCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:pauseCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:pauseCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:resumeCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:resumeCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:triggerCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:triggerCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteCronJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteCronJob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getProfiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getProfiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:createProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:createProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:renameProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:renameProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:deleteProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getProfileSoul",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getProfileSoul",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateProfileSoul",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateProfileSoul",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getProfileSetupCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getProfileSetupCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getUsageAnalytics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getUsageAnalytics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getGlobalModelOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getGlobalModelOptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getRecommendedDefaultModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getRecommendedDefaultModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setGlobalModel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setGlobalModel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getAuxiliaryModels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getAuxiliaryModels",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setModelAssignment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:setModelAssignment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:restartGateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:restartGateway",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateHermes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:updateHermes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getActionStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getActionStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:transcribeAudio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:transcribeAudio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:speakText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:speakText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getElevenLabsVoices",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "function:apps/desktop/src/hermes.ts:getElevenLabsVoices",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "class:apps/desktop/src/hermes.ts:HermesGateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hermes.ts",
+      "target": "class:apps/desktop/src/hermes.ts:HermesGateway",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-media-query.ts",
+      "target": "function:apps/desktop/src/hooks/use-media-query.ts:matchesQuery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-media-query.ts",
+      "target": "function:apps/desktop/src/hooks/use-media-query.ts:matchesQuery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-media-query.ts",
+      "target": "function:apps/desktop/src/hooks/use-media-query.ts:useMediaQuery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-media-query.ts",
+      "target": "function:apps/desktop/src/hooks/use-media-query.ts:useMediaQuery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-mobile.ts",
+      "target": "function:apps/desktop/src/hooks/use-mobile.ts:useIsMobile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-mobile.ts",
+      "target": "function:apps/desktop/src/hooks/use-mobile.ts:useIsMobile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-resize-observer.ts",
+      "target": "function:apps/desktop/src/hooks/use-resize-observer.ts:useResizeObserver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/hooks/use-resize-observer.ts",
+      "target": "function:apps/desktop/src/hooks/use-resize-observer.ts:useResizeObserver",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.test.tsx",
+      "target": "function:apps/desktop/src/i18n/context.test.tsx:LanguageProbe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:getConfigDisplayLanguage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:getConfigDisplayLanguage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:withConfigDisplayLanguage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:withConfigDisplayLanguage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:I18nProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:I18nProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:useI18n",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/context.tsx",
+      "target": "function:apps/desktop/src/i18n/context.tsx:useI18n",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/define-locale.ts",
+      "target": "function:apps/desktop/src/i18n/define-locale.ts:mergeTranslations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/define-locale.ts",
+      "target": "function:apps/desktop/src/i18n/define-locale.ts:defineLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/define-locale.ts",
+      "target": "function:apps/desktop/src/i18n/define-locale.ts:defineLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:isLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:isLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:normalizeLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:normalizeLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:isSupportedLocaleValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:isSupportedLocaleValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:localeConfigValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/languages.ts",
+      "target": "function:apps/desktop/src/i18n/languages.ts:localeConfigValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/runtime.ts",
+      "target": "function:apps/desktop/src/i18n/runtime.ts:renderTranslation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/runtime.ts",
+      "target": "function:apps/desktop/src/i18n/runtime.ts:setRuntimeI18nLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/runtime.ts",
+      "target": "function:apps/desktop/src/i18n/runtime.ts:setRuntimeI18nLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/runtime.ts",
+      "target": "function:apps/desktop/src/i18n/runtime.ts:translateNow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/i18n/runtime.ts",
+      "target": "function:apps/desktop/src/i18n/runtime.ts:translateNow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/ansi.ts",
+      "target": "function:apps/desktop/src/lib/ansi.ts:parseAnsi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/ansi.ts",
+      "target": "function:apps/desktop/src/lib/ansi.ts:parseAnsi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/ansi.ts",
+      "target": "function:apps/desktop/src/lib/ansi.ts:ansiColorClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/ansi.ts",
+      "target": "function:apps/desktop/src/lib/ansi.ts:ansiColorClass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/ansi.ts",
+      "target": "function:apps/desktop/src/lib/ansi.ts:hasAnsiCodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/ansi.ts",
+      "target": "function:apps/desktop/src/lib/ansi.ts:hasAnsiCodes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "config:website/docs/guides/_category_.json",
+      "type": "config",
+      "name": "_category_.json",
+      "filePath": "website/docs/guides/_category_.json",
+      "summary": "_category_.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "document:website/docs/guides/automate-with-cron.md",
+      "type": "document",
+      "name": "automate-with-cron.md",
+      "filePath": "website/docs/guides/automate-with-cron.md",
+      "summary": "automate-with-cron.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/automation-templates.md",
+      "type": "document",
+      "name": "automation-templates.md",
+      "filePath": "website/docs/guides/automation-templates.md",
+      "summary": "automation-templates.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/aws-bedrock.md",
+      "type": "document",
+      "name": "aws-bedrock.md",
+      "filePath": "website/docs/guides/aws-bedrock.md",
+      "summary": "aws-bedrock.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/azure-foundry.md",
+      "type": "document",
+      "name": "azure-foundry.md",
+      "filePath": "website/docs/guides/azure-foundry.md",
+      "summary": "azure-foundry.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/build-a-hermes-plugin.md",
+      "type": "document",
+      "name": "build-a-hermes-plugin.md",
+      "filePath": "website/docs/guides/build-a-hermes-plugin.md",
+      "summary": "build-a-hermes-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/cron-script-only.md",
+      "type": "document",
+      "name": "cron-script-only.md",
+      "filePath": "website/docs/guides/cron-script-only.md",
+      "summary": "cron-script-only.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/cron-troubleshooting.md",
+      "type": "document",
+      "name": "cron-troubleshooting.md",
+      "filePath": "website/docs/guides/cron-troubleshooting.md",
+      "summary": "cron-troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/daily-briefing-bot.md",
+      "type": "document",
+      "name": "daily-briefing-bot.md",
+      "filePath": "website/docs/guides/daily-briefing-bot.md",
+      "summary": "daily-briefing-bot.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/delegation-patterns.md",
+      "type": "document",
+      "name": "delegation-patterns.md",
+      "filePath": "website/docs/guides/delegation-patterns.md",
+      "summary": "delegation-patterns.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/github-pr-review-agent.md",
+      "type": "document",
+      "name": "github-pr-review-agent.md",
+      "filePath": "website/docs/guides/github-pr-review-agent.md",
+      "summary": "github-pr-review-agent.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/google-gemini.md",
+      "type": "document",
+      "name": "google-gemini.md",
+      "filePath": "website/docs/guides/google-gemini.md",
+      "summary": "google-gemini.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/local-llm-on-mac.md",
+      "type": "document",
+      "name": "local-llm-on-mac.md",
+      "filePath": "website/docs/guides/local-llm-on-mac.md",
+      "summary": "local-llm-on-mac.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/local-ollama-setup.md",
+      "type": "document",
+      "name": "local-ollama-setup.md",
+      "filePath": "website/docs/guides/local-ollama-setup.md",
+      "summary": "local-ollama-setup.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/microsoft-graph-app-registration.md",
+      "type": "document",
+      "name": "microsoft-graph-app-registration.md",
+      "filePath": "website/docs/guides/microsoft-graph-app-registration.md",
+      "summary": "microsoft-graph-app-registration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/migrate-from-openclaw.md",
+      "type": "document",
+      "name": "migrate-from-openclaw.md",
+      "filePath": "website/docs/guides/migrate-from-openclaw.md",
+      "summary": "migrate-from-openclaw.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/minimax-oauth.md",
+      "type": "document",
+      "name": "minimax-oauth.md",
+      "filePath": "website/docs/guides/minimax-oauth.md",
+      "summary": "minimax-oauth.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/oauth-over-ssh.md",
+      "type": "document",
+      "name": "oauth-over-ssh.md",
+      "filePath": "website/docs/guides/oauth-over-ssh.md",
+      "summary": "oauth-over-ssh.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/operate-teams-meeting-pipeline.md",
+      "type": "document",
+      "name": "operate-teams-meeting-pipeline.md",
+      "filePath": "website/docs/guides/operate-teams-meeting-pipeline.md",
+      "summary": "operate-teams-meeting-pipeline.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/guides/pipe-script-output.md",
+      "type": "document",
+      "name": "pipe-script-output.md",
+      "filePath": "website/docs/guides/pipe-script-output.md",
+      "summary": "pipe-script-output.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

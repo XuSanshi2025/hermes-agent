@@ -1,0 +1,5455 @@
+{
+  "nodes": [
+    {
+      "id": "file:plugins/model-providers/xai/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/xai/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/xai/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/xai/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/xiaomi/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/xiaomi/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/xiaomi/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/xiaomi/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/zai/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/zai/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/zai/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/zai/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/observability/langfuse/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 35 个函数、1 个类、36 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_env",
+      "type": "function",
+      "name": "_env",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        74,
+        75
+      ],
+      "summary": "_env 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_env_bool",
+      "type": "function",
+      "name": "_env_bool",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        78,
+        83
+      ],
+      "summary": "_env_bool 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_debug_enabled",
+      "type": "function",
+      "name": "_debug_enabled",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        86,
+        87
+      ],
+      "summary": "_debug_enabled 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_debug",
+      "type": "function",
+      "name": "_debug",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        90,
+        92
+      ],
+      "summary": "_debug 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_redact_key_preview",
+      "type": "function",
+      "name": "_redact_key_preview",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        104,
+        117
+      ],
+      "summary": "_redact_key_preview 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_validate_langfuse_key",
+      "type": "function",
+      "name": "_validate_langfuse_key",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        120,
+        137
+      ],
+      "summary": "_validate_langfuse_key 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_get_langfuse",
+      "type": "function",
+      "name": "_get_langfuse",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        140,
+        219
+      ],
+      "summary": "_get_langfuse 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_trace_key",
+      "type": "function",
+      "name": "_trace_key",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        222,
+        227
+      ],
+      "summary": "_trace_key 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_truncate_text",
+      "type": "function",
+      "name": "_truncate_text",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        230,
+        233
+      ],
+      "summary": "_truncate_text 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_maybe_parse_json_string",
+      "type": "function",
+      "name": "_maybe_parse_json_string",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        236,
+        259
+      ],
+      "summary": "_maybe_parse_json_string 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_looks_like_read_file_payload",
+      "type": "function",
+      "name": "_looks_like_read_file_payload",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        262,
+        273
+      ],
+      "summary": "_looks_like_read_file_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_parse_read_file_lines",
+      "type": "function",
+      "name": "_parse_read_file_lines",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        276,
+        289
+      ],
+      "summary": "_parse_read_file_lines 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_build_read_file_preview",
+      "type": "function",
+      "name": "_build_read_file_preview",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        292,
+        300
+      ],
+      "summary": "_build_read_file_preview 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_normalize_read_file_payload",
+      "type": "function",
+      "name": "_normalize_read_file_payload",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        303,
+        352
+      ],
+      "summary": "_normalize_read_file_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_normalize_payload",
+      "type": "function",
+      "name": "_normalize_payload",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        355,
+        361
+      ],
+      "summary": "_normalize_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_safe_value",
+      "type": "function",
+      "name": "_safe_value",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        364,
+        394
+      ],
+      "summary": "_safe_value 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_extract_last_user_message",
+      "type": "function",
+      "name": "_extract_last_user_message",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        397,
+        406
+      ],
+      "summary": "_extract_last_user_message 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_coerce_request_messages",
+      "type": "function",
+      "name": "_coerce_request_messages",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        409,
+        421
+      ],
+      "summary": "_coerce_request_messages 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_serialize_messages",
+      "type": "function",
+      "name": "_serialize_messages",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        424,
+        447
+      ],
+      "summary": "_serialize_messages 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_serialize_tool_calls",
+      "type": "function",
+      "name": "_serialize_tool_calls",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        450,
+        469
+      ],
+      "summary": "_serialize_tool_calls 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_serialize_assistant_message",
+      "type": "function",
+      "name": "_serialize_assistant_message",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        472,
+        477
+      ],
+      "summary": "_serialize_assistant_message 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_usage_and_cost",
+      "type": "function",
+      "name": "_usage_and_cost",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        480,
+        539
+      ],
+      "summary": "_usage_and_cost 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_start_root_trace",
+      "type": "function",
+      "name": "_start_root_trace",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        542,
+        603
+      ],
+      "summary": "_start_root_trace 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_start_child_observation",
+      "type": "function",
+      "name": "_start_child_observation",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        606,
+        616
+      ],
+      "summary": "_start_child_observation 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_end_observation",
+      "type": "function",
+      "name": "_end_observation",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        619,
+        637
+      ],
+      "summary": "_end_observation 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_merge_trace_output",
+      "type": "function",
+      "name": "_merge_trace_output",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        640,
+        646
+      ],
+      "summary": "_merge_trace_output 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_finish_trace",
+      "type": "function",
+      "name": "_finish_trace",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        649,
+        678
+      ],
+      "summary": "_finish_trace 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_assistant_has_tool_calls",
+      "type": "function",
+      "name": "_assistant_has_tool_calls",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        681,
+        682
+      ],
+      "summary": "_assistant_has_tool_calls 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:_request_key",
+      "type": "function",
+      "name": "_request_key",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        685,
+        686
+      ],
+      "summary": "_request_key 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:on_pre_llm_call",
+      "type": "function",
+      "name": "on_pre_llm_call",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        689,
+        726
+      ],
+      "summary": "on_pre_llm_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:on_pre_llm_request",
+      "type": "function",
+      "name": "on_pre_llm_request",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        729,
+        798
+      ],
+      "summary": "on_pre_llm_request 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:on_post_llm_call",
+      "type": "function",
+      "name": "on_post_llm_call",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        801,
+        918
+      ],
+      "summary": "on_post_llm_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:on_pre_tool_call",
+      "type": "function",
+      "name": "on_pre_tool_call",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        921,
+        944
+      ],
+      "summary": "on_pre_tool_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:on_post_tool_call",
+      "type": "function",
+      "name": "on_post_tool_call",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        947,
+        992
+      ],
+      "summary": "on_post_tool_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/langfuse/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        995,
+        1004
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/observability/langfuse/__init__.py:TraceState",
+      "type": "class",
+      "name": "TraceState",
+      "filePath": "plugins/observability/langfuse/__init__.py",
+      "lineRange": [
+        44,
+        52
+      ],
+      "summary": "TraceState 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/observability/langfuse/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/observability/langfuse/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/observability/langfuse/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/observability/langfuse/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/observability/nemo_relay/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 39 个函数、4 个类、43 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        320,
+        337
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_session_start",
+      "type": "function",
+      "name": "on_session_start",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        340,
+        343
+      ],
+      "summary": "on_session_start 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_session_end",
+      "type": "function",
+      "name": "on_session_end",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        346,
+        349
+      ],
+      "summary": "on_session_end 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_session_finalize",
+      "type": "function",
+      "name": "on_session_finalize",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        352,
+        355
+      ],
+      "summary": "on_session_finalize 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_session_reset",
+      "type": "function",
+      "name": "on_session_reset",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        358,
+        361
+      ],
+      "summary": "on_session_reset 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_pre_llm_call",
+      "type": "function",
+      "name": "on_pre_llm_call",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        364,
+        367
+      ],
+      "summary": "on_pre_llm_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_post_llm_call",
+      "type": "function",
+      "name": "on_post_llm_call",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        370,
+        373
+      ],
+      "summary": "on_post_llm_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_pre_api_request",
+      "type": "function",
+      "name": "on_pre_api_request",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        376,
+        398
+      ],
+      "summary": "on_pre_api_request 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_post_api_request",
+      "type": "function",
+      "name": "on_post_api_request",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        401,
+        421
+      ],
+      "summary": "on_post_api_request 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_api_request_error",
+      "type": "function",
+      "name": "on_api_request_error",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        424,
+        444
+      ],
+      "summary": "on_api_request_error 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_pre_tool_call",
+      "type": "function",
+      "name": "on_pre_tool_call",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        447,
+        466
+      ],
+      "summary": "on_pre_tool_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_post_tool_call",
+      "type": "function",
+      "name": "on_post_tool_call",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        469,
+        489
+      ],
+      "summary": "on_post_tool_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_pre_approval_request",
+      "type": "function",
+      "name": "on_pre_approval_request",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        492,
+        495
+      ],
+      "summary": "on_pre_approval_request 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_post_approval_response",
+      "type": "function",
+      "name": "on_post_approval_response",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        498,
+        501
+      ],
+      "summary": "on_post_approval_response 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_subagent_start",
+      "type": "function",
+      "name": "on_subagent_start",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        504,
+        507
+      ],
+      "summary": "on_subagent_start 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_subagent_stop",
+      "type": "function",
+      "name": "on_subagent_stop",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        510,
+        513
+      ],
+      "summary": "on_subagent_stop 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_llm_execution_middleware",
+      "type": "function",
+      "name": "on_llm_execution_middleware",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        516,
+        524
+      ],
+      "summary": "on_llm_execution_middleware 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:on_tool_execution_middleware",
+      "type": "function",
+      "name": "on_tool_execution_middleware",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        527,
+        535
+      ],
+      "summary": "on_tool_execution_middleware 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_get_runtime",
+      "type": "function",
+      "name": "_get_runtime",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        538,
+        557
+      ],
+      "summary": "_get_runtime 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_load_settings",
+      "type": "function",
+      "name": "_load_settings",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        560,
+        580
+      ],
+      "summary": "_load_settings 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_load_plugins_config",
+      "type": "function",
+      "name": "_load_plugins_config",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        583,
+        590
+      ],
+      "summary": "_load_plugins_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_enabled_component_config",
+      "type": "function",
+      "name": "_enabled_component_config",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        593,
+        609
+      ],
+      "summary": "_enabled_component_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_adaptive_mode",
+      "type": "function",
+      "name": "_adaptive_mode",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        612,
+        618
+      ],
+      "summary": "_adaptive_mode 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_env",
+      "type": "function",
+      "name": "_env",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        621,
+        622
+      ],
+      "summary": "_env 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_atif_subagent_export_mode",
+      "type": "function",
+      "name": "_atif_subagent_export_mode",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        625,
+        627
+      ],
+      "summary": "_atif_subagent_export_mode 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_env_bool",
+      "type": "function",
+      "name": "_env_bool",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        630,
+        631
+      ],
+      "summary": "_env_bool 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_session_id",
+      "type": "function",
+      "name": "_session_id",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        634,
+        635
+      ],
+      "summary": "_session_id 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_child_session_id",
+      "type": "function",
+      "name": "_child_session_id",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        638,
+        639
+      ],
+      "summary": "_child_session_id 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_subagent_child_metadata",
+      "type": "function",
+      "name": "_subagent_child_metadata",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        642,
+        663
+      ],
+      "summary": "_subagent_child_metadata 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_api_key",
+      "type": "function",
+      "name": "_api_key",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        666,
+        667
+      ],
+      "summary": "_api_key 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_tool_key",
+      "type": "function",
+      "name": "_tool_key",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        670,
+        674
+      ],
+      "summary": "_tool_key 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_metadata",
+      "type": "function",
+      "name": "_metadata",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        677,
+        710
+      ],
+      "summary": "_metadata 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_jsonable",
+      "type": "function",
+      "name": "_jsonable",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        713,
+        733
+      ],
+      "summary": "_jsonable 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_value",
+      "type": "function",
+      "name": "_value",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        736,
+        739
+      ],
+      "summary": "_value 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_llm_response_payload",
+      "type": "function",
+      "name": "_llm_response_payload",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        742,
+        775
+      ],
+      "summary": "_llm_response_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_tool_calls_payload",
+      "type": "function",
+      "name": "_tool_calls_payload",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        778,
+        794
+      ],
+      "summary": "_tool_calls_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_safe",
+      "type": "function",
+      "name": "_safe",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        797,
+        801
+      ],
+      "summary": "_safe 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:_resolve_awaitable",
+      "type": "function",
+      "name": "_resolve_awaitable",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        804,
+        830
+      ],
+      "summary": "_resolve_awaitable 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/observability/nemo_relay/__init__.py:reset_for_tests",
+      "type": "function",
+      "name": "reset_for_tests",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        833,
+        836
+      ],
+      "summary": "reset_for_tests 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/observability/nemo_relay/__init__.py:_SessionState",
+      "type": "class",
+      "name": "_SessionState",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        24,
+        32
+      ],
+      "summary": "_SessionState 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/observability/nemo_relay/__init__.py:_SubagentParent",
+      "type": "class",
+      "name": "_SubagentParent",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        36,
+        39
+      ],
+      "summary": "_SubagentParent 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/observability/nemo_relay/__init__.py:_Settings",
+      "type": "class",
+      "name": "_Settings",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        43,
+        58
+      ],
+      "summary": "_Settings 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/observability/nemo_relay/__init__.py:_Runtime",
+      "type": "class",
+      "name": "_Runtime",
+      "filePath": "plugins/observability/nemo_relay/__init__.py",
+      "lineRange": [
+        61,
+        317
+      ],
+      "summary": "_Runtime 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/observability/nemo_relay/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/observability/nemo_relay/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/observability/nemo_relay/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/observability/nemo_relay/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/platforms/discord/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/discord/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/discord/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 18 个函数、2 个类、20 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_find_discord_windows_bundled_opus",
+      "type": "function",
+      "name": "_find_discord_windows_bundled_opus",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        71,
+        88
+      ],
+      "summary": "_find_discord_windows_bundled_opus 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_clean_discord_id",
+      "type": "function",
+      "name": "_clean_discord_id",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        91,
+        105
+      ],
+      "summary": "_clean_discord_id 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:check_discord_requirements",
+      "type": "function",
+      "name": "check_discord_requirements",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        108,
+        135
+      ],
+      "summary": "check_discord_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_build_allowed_mentions",
+      "type": "function",
+      "name": "_build_allowed_mentions",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        138,
+        170
+      ],
+      "summary": "_build_allowed_mentions 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_read_dm_role_auth_guild",
+      "type": "function",
+      "name": "_read_dm_role_auth_guild",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        531,
+        556
+      ],
+      "summary": "_read_dm_role_auth_guild 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_component_check_auth",
+      "type": "function",
+      "name": "_component_check_auth",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        5185,
+        5248
+      ],
+      "summary": "_component_check_auth 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_define_discord_view_classes",
+      "type": "function",
+      "name": "_define_discord_view_classes",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        5251,
+        6016
+      ],
+      "summary": "_define_discord_view_classes 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_remember_channel_is_forum",
+      "type": "function",
+      "name": "_remember_channel_is_forum",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6037,
+        6038
+      ],
+      "summary": "_remember_channel_is_forum 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_probe_is_forum_cached",
+      "type": "function",
+      "name": "_probe_is_forum_cached",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6041,
+        6042
+      ],
+      "summary": "_probe_is_forum_cached 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_derive_forum_thread_name",
+      "type": "function",
+      "name": "_derive_forum_thread_name",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6045,
+        6052
+      ],
+      "summary": "_derive_forum_thread_name 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_standalone_sanitize_error",
+      "type": "function",
+      "name": "_standalone_sanitize_error",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6055,
+        6068
+      ],
+      "summary": "_standalone_sanitize_error 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6071,
+        6274
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_clean_discord_user_ids",
+      "type": "function",
+      "name": "_clean_discord_user_ids",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6280,
+        6291
+      ],
+      "summary": "_clean_discord_user_ids 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6294,
+        6359
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_apply_yaml_config",
+      "type": "function",
+      "name": "_apply_yaml_config",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6362,
+        6466
+      ],
+      "summary": "_apply_yaml_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_is_connected",
+      "type": "function",
+      "name": "_is_connected",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6469,
+        6479
+      ],
+      "summary": "_is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:_build_adapter",
+      "type": "function",
+      "name": "_build_adapter",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6482,
+        6484
+      ],
+      "summary": "_build_adapter 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        6487,
+        6522
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/discord/adapter.py:VoiceReceiver",
+      "type": "class",
+      "name": "VoiceReceiver",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        173,
+        528
+      ],
+      "summary": "VoiceReceiver 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:plugins/platforms/discord/adapter.py:DiscordAdapter",
+      "type": "class",
+      "name": "DiscordAdapter",
+      "filePath": "plugins/platforms/discord/adapter.py",
+      "lineRange": [
+        559,
+        5177
+      ],
+      "summary": "DiscordAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/discord/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/discord/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/discord/voice_mixer.py",
+      "type": "file",
+      "name": "voice_mixer.py",
+      "filePath": "plugins/platforms/discord/voice_mixer.py",
+      "summary": "voice_mixer.py 是 python 源文件，包含 3 个函数、2 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/discord/voice_mixer.py:_require_numpy",
+      "type": "function",
+      "name": "_require_numpy",
+      "filePath": "plugins/platforms/discord/voice_mixer.py",
+      "lineRange": [
+        55,
+        65
+      ],
+      "summary": "_require_numpy 是 voice_mixer.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/voice_mixer.py:decode_to_pcm",
+      "type": "function",
+      "name": "decode_to_pcm",
+      "filePath": "plugins/platforms/discord/voice_mixer.py",
+      "lineRange": [
+        303,
+        333
+      ],
+      "summary": "decode_to_pcm 是 voice_mixer.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/discord/voice_mixer.py:synth_ambient_pcm",
+      "type": "function",
+      "name": "synth_ambient_pcm",
+      "filePath": "plugins/platforms/discord/voice_mixer.py",
+      "lineRange": [
+        336,
+        378
+      ],
+      "summary": "synth_ambient_pcm 是 voice_mixer.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/discord/voice_mixer.py:MixerChild",
+      "type": "class",
+      "name": "MixerChild",
+      "filePath": "plugins/platforms/discord/voice_mixer.py",
+      "lineRange": [
+        77,
+        145
+      ],
+      "summary": "MixerChild 是 voice_mixer.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/platforms/discord/voice_mixer.py:VoiceMixer",
+      "type": "class",
+      "name": "VoiceMixer",
+      "filePath": "plugins/platforms/discord/voice_mixer.py",
+      "lineRange": [
+        148,
+        296
+      ],
+      "summary": "VoiceMixer 是 voice_mixer.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/platforms/google_chat/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/google_chat/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/google_chat/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 13 个函数、2 个类、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_load_google_modules",
+      "type": "function",
+      "name": "_load_google_modules",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        76,
+        117
+      ],
+      "summary": "_load_google_modules 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_is_retryable_error",
+      "type": "function",
+      "name": "_is_retryable_error",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        191,
+        217
+      ],
+      "summary": "_is_retryable_error 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:check_google_chat_requirements",
+      "type": "function",
+      "name": "check_google_chat_requirements",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        231,
+        239
+      ],
+      "summary": "check_google_chat_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_is_google_owned_host",
+      "type": "function",
+      "name": "_is_google_owned_host",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        259,
+        272
+      ],
+      "summary": "_is_google_owned_host 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_redact_sensitive",
+      "type": "function",
+      "name": "_redact_sensitive",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        275,
+        299
+      ],
+      "summary": "_redact_sensitive 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_mime_for_message_type",
+      "type": "function",
+      "name": "_mime_for_message_type",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        302,
+        316
+      ],
+      "summary": "_mime_for_message_type 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_validate_config",
+      "type": "function",
+      "name": "_validate_config",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        2946,
+        2956
+      ],
+      "summary": "_validate_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_check_for_registry",
+      "type": "function",
+      "name": "_check_for_registry",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        2959,
+        2980
+      ],
+      "summary": "_check_for_registry 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_is_connected",
+      "type": "function",
+      "name": "_is_connected",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        2983,
+        2985
+      ],
+      "summary": "_is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_env_enablement",
+      "type": "function",
+      "name": "_env_enablement",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        2988,
+        3028
+      ],
+      "summary": "_env_enablement 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        3031,
+        3120
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        3130,
+        3279
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        3282,
+        3348
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/platforms/google_chat/adapter.py:_ThreadCountStore",
+      "type": "class",
+      "name": "_ThreadCountStore",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        319,
+        426
+      ],
+      "summary": "_ThreadCountStore 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/platforms/google_chat/adapter.py:GoogleChatAdapter",
+      "type": "class",
+      "name": "GoogleChatAdapter",
+      "filePath": "plugins/platforms/google_chat/adapter.py",
+      "lineRange": [
+        429,
+        2938
+      ],
+      "summary": "GoogleChatAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/platforms/google_chat/oauth.py",
+      "type": "file",
+      "name": "oauth.py",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "summary": "oauth.py 是 python 源文件，包含 27 个函数、27 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_hermes_home",
+      "type": "function",
+      "name": "_hermes_home",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        97,
+        104
+      ],
+      "summary": "_hermes_home 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_sanitize_email",
+      "type": "function",
+      "name": "_sanitize_email",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        114,
+        116
+      ],
+      "summary": "_sanitize_email 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_legacy_token_path",
+      "type": "function",
+      "name": "_legacy_token_path",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        119,
+        120
+      ],
+      "summary": "_legacy_token_path 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_user_tokens_dir",
+      "type": "function",
+      "name": "_user_tokens_dir",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        123,
+        124
+      ],
+      "summary": "_user_tokens_dir 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_legacy_pending_path",
+      "type": "function",
+      "name": "_legacy_pending_path",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        127,
+        128
+      ],
+      "summary": "_legacy_pending_path 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_user_pending_dir",
+      "type": "function",
+      "name": "_user_pending_dir",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        131,
+        132
+      ],
+      "summary": "_user_pending_dir 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_token_path",
+      "type": "function",
+      "name": "_token_path",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        135,
+        139
+      ],
+      "summary": "_token_path 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_client_secret_path",
+      "type": "function",
+      "name": "_client_secret_path",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        142,
+        143
+      ],
+      "summary": "_client_secret_path 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_pending_auth_path",
+      "type": "function",
+      "name": "_pending_auth_path",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        146,
+        149
+      ],
+      "summary": "_pending_auth_path 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:load_user_credentials",
+      "type": "function",
+      "name": "load_user_credentials",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        179,
+        236
+      ],
+      "summary": "load_user_credentials 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:refresh_or_none",
+      "type": "function",
+      "name": "refresh_or_none",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        239,
+        269
+      ],
+      "summary": "refresh_or_none 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:build_user_chat_service",
+      "type": "function",
+      "name": "build_user_chat_service",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        272,
+        280
+      ],
+      "summary": "build_user_chat_service 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:list_authorized_emails",
+      "type": "function",
+      "name": "list_authorized_emails",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        283,
+        299
+      ],
+      "summary": "list_authorized_emails 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_persist_credentials",
+      "type": "function",
+      "name": "_persist_credentials",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        302,
+        313
+      ],
+      "summary": "_persist_credentials 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_normalize_authorized_user_payload",
+      "type": "function",
+      "name": "_normalize_authorized_user_payload",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        321,
+        326
+      ],
+      "summary": "_normalize_authorized_user_payload 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_write_private_json",
+      "type": "function",
+      "name": "_write_private_json",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        329,
+        358
+      ],
+      "summary": "_write_private_json 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_ensure_deps",
+      "type": "function",
+      "name": "_ensure_deps",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        361,
+        368
+      ],
+      "summary": "_ensure_deps 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:install_deps",
+      "type": "function",
+      "name": "install_deps",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        371,
+        392
+      ],
+      "summary": "install_deps 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:check_auth",
+      "type": "function",
+      "name": "check_auth",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        395,
+        411
+      ],
+      "summary": "check_auth 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:store_client_secret",
+      "type": "function",
+      "name": "store_client_secret",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        414,
+        439
+      ],
+      "summary": "store_client_secret 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_save_pending_auth",
+      "type": "function",
+      "name": "_save_pending_auth",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        442,
+        453
+      ],
+      "summary": "_save_pending_auth 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_load_pending_auth",
+      "type": "function",
+      "name": "_load_pending_auth",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        456,
+        471
+      ],
+      "summary": "_load_pending_auth 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:_extract_code_and_state",
+      "type": "function",
+      "name": "_extract_code_and_state",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        474,
+        487
+      ],
+      "summary": "_extract_code_and_state 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:get_auth_url",
+      "type": "function",
+      "name": "get_auth_url",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        490,
+        514
+      ],
+      "summary": "get_auth_url 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:exchange_auth_code",
+      "type": "function",
+      "name": "exchange_auth_code",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        517,
+        589
+      ],
+      "summary": "exchange_auth_code 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:revoke",
+      "type": "function",
+      "name": "revoke",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        592,
+        626
+      ],
+      "summary": "revoke 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/google_chat/oauth.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "plugins/platforms/google_chat/oauth.py",
+      "lineRange": [
+        629,
+        663
+      ],
+      "summary": "main 是 oauth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/platforms/google_chat/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/google_chat/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/homeassistant/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/homeassistant/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/homeassistant/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 5 个函数、1 个类、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/homeassistant/adapter.py:check_ha_requirements",
+      "type": "function",
+      "name": "check_ha_requirements",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "lineRange": [
+        42,
+        48
+      ],
+      "summary": "check_ha_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/homeassistant/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "lineRange": [
+        457,
+        525
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/homeassistant/adapter.py:_is_connected",
+      "type": "function",
+      "name": "_is_connected",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "lineRange": [
+        533,
+        543
+      ],
+      "summary": "_is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/homeassistant/adapter.py:_build_adapter",
+      "type": "function",
+      "name": "_build_adapter",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "lineRange": [
+        551,
+        553
+      ],
+      "summary": "_build_adapter 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/homeassistant/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "lineRange": [
+        556,
+        577
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/homeassistant/adapter.py:HomeAssistantAdapter",
+      "type": "class",
+      "name": "HomeAssistantAdapter",
+      "filePath": "plugins/platforms/homeassistant/adapter.py",
+      "lineRange": [
+        51,
+        449
+      ],
+      "summary": "HomeAssistantAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/homeassistant/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/homeassistant/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/irc/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/irc/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/irc/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 11 个函数、1 个类、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:_parse_irc_message",
+      "type": "function",
+      "name": "_parse_irc_message",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        59,
+        83
+      ],
+      "summary": "_parse_irc_message 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:_extract_nick",
+      "type": "function",
+      "name": "_extract_nick",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        86,
+        88
+      ],
+      "summary": "_extract_nick 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:check_requirements",
+      "type": "function",
+      "name": "check_requirements",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        517,
+        527
+      ],
+      "summary": "check_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:validate_config",
+      "type": "function",
+      "name": "validate_config",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        530,
+        535
+      ],
+      "summary": "validate_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        538,
+        642
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:is_connected",
+      "type": "function",
+      "name": "is_connected",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        645,
+        650
+      ],
+      "summary": "is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:_env_enablement",
+      "type": "function",
+      "name": "_env_enablement",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        653,
+        701
+      ],
+      "summary": "_env_enablement 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:_strip_irc_control_chars",
+      "type": "function",
+      "name": "_strip_irc_control_chars",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        704,
+        712
+      ],
+      "summary": "_strip_irc_control_chars 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:_is_irc_channel",
+      "type": "function",
+      "name": "_is_irc_channel",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        715,
+        716
+      ],
+      "summary": "_is_irc_channel 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        719,
+        926
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:plugins/platforms/irc/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        929,
+        971
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/irc/adapter.py:IRCAdapter",
+      "type": "class",
+      "name": "IRCAdapter",
+      "filePath": "plugins/platforms/irc/adapter.py",
+      "lineRange": [
+        95,
+        510
+      ],
+      "summary": "IRCAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_env_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_env_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_debug_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_debug_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_debug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_debug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_redact_key_preview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_redact_key_preview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_validate_langfuse_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_validate_langfuse_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_get_langfuse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_get_langfuse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_trace_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_trace_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_truncate_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_truncate_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_maybe_parse_json_string",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_maybe_parse_json_string",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_looks_like_read_file_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_looks_like_read_file_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_parse_read_file_lines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_parse_read_file_lines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_build_read_file_preview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_build_read_file_preview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_normalize_read_file_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_normalize_read_file_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_normalize_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_normalize_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_safe_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_safe_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_extract_last_user_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_extract_last_user_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_coerce_request_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_coerce_request_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_serialize_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_serialize_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_serialize_tool_calls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_serialize_tool_calls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_serialize_assistant_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_serialize_assistant_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_usage_and_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_usage_and_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_start_root_trace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_start_root_trace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_start_child_observation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_start_child_observation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_end_observation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_end_observation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_merge_trace_output",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_merge_trace_output",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_finish_trace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_finish_trace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_assistant_has_tool_calls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_assistant_has_tool_calls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_request_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:_request_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_pre_llm_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_pre_llm_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_pre_llm_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_pre_llm_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_post_llm_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_post_llm_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_pre_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_pre_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_post_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:on_post_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "function:plugins/observability/langfuse/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "class:plugins/observability/langfuse/__init__.py:TraceState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/langfuse/__init__.py",
+      "target": "class:plugins/observability/langfuse/__init__.py:TraceState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_start",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_start",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_finalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_finalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_reset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_session_reset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_llm_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_llm_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_llm_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_llm_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_api_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_api_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_api_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_api_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_api_request_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_api_request_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_approval_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_pre_approval_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_approval_response",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_post_approval_response",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_subagent_start",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_subagent_start",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_subagent_stop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_subagent_stop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_llm_execution_middleware",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_llm_execution_middleware",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_tool_execution_middleware",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:on_tool_execution_middleware",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_get_runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_get_runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_load_settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_load_settings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_load_plugins_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_load_plugins_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_enabled_component_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_enabled_component_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_adaptive_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_adaptive_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_atif_subagent_export_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_atif_subagent_export_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_env_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_env_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_session_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_session_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_child_session_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_child_session_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_subagent_child_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_subagent_child_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_tool_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_tool_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_jsonable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_jsonable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_llm_response_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_llm_response_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_tool_calls_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_tool_calls_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_safe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_safe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_resolve_awaitable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:_resolve_awaitable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:reset_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "function:plugins/observability/nemo_relay/__init__.py:reset_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_SessionState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_SessionState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_SubagentParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_SubagentParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_Settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_Settings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_Runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/observability/nemo_relay/__init__.py",
+      "target": "class:plugins/observability/nemo_relay/__init__.py:_Runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_find_discord_windows_bundled_opus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_find_discord_windows_bundled_opus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_clean_discord_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_clean_discord_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:check_discord_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:check_discord_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_build_allowed_mentions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_build_allowed_mentions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_read_dm_role_auth_guild",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_read_dm_role_auth_guild",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_component_check_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_component_check_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_define_discord_view_classes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_define_discord_view_classes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_remember_channel_is_forum",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_remember_channel_is_forum",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_probe_is_forum_cached",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_probe_is_forum_cached",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_derive_forum_thread_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_derive_forum_thread_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_standalone_sanitize_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_standalone_sanitize_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_clean_discord_user_ids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_clean_discord_user_ids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_apply_yaml_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_apply_yaml_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_build_adapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:_build_adapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "function:plugins/platforms/discord/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "class:plugins/platforms/discord/adapter.py:VoiceReceiver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "class:plugins/platforms/discord/adapter.py:VoiceReceiver",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "class:plugins/platforms/discord/adapter.py:DiscordAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/adapter.py",
+      "target": "class:plugins/platforms/discord/adapter.py:DiscordAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "function:plugins/platforms/discord/voice_mixer.py:_require_numpy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "function:plugins/platforms/discord/voice_mixer.py:_require_numpy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "function:plugins/platforms/discord/voice_mixer.py:decode_to_pcm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "function:plugins/platforms/discord/voice_mixer.py:decode_to_pcm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "function:plugins/platforms/discord/voice_mixer.py:synth_ambient_pcm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "function:plugins/platforms/discord/voice_mixer.py:synth_ambient_pcm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "class:plugins/platforms/discord/voice_mixer.py:MixerChild",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "class:plugins/platforms/discord/voice_mixer.py:MixerChild",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "class:plugins/platforms/discord/voice_mixer.py:VoiceMixer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/discord/voice_mixer.py",
+      "target": "class:plugins/platforms/discord/voice_mixer.py:VoiceMixer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_load_google_modules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_load_google_modules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_is_retryable_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_is_retryable_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:check_google_chat_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:check_google_chat_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_is_google_owned_host",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_is_google_owned_host",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_redact_sensitive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_redact_sensitive",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_mime_for_message_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_mime_for_message_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_validate_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_validate_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_check_for_registry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_check_for_registry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_env_enablement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_env_enablement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "function:plugins/platforms/google_chat/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "class:plugins/platforms/google_chat/adapter.py:_ThreadCountStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "class:plugins/platforms/google_chat/adapter.py:_ThreadCountStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "class:plugins/platforms/google_chat/adapter.py:GoogleChatAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/adapter.py",
+      "target": "class:plugins/platforms/google_chat/adapter.py:GoogleChatAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_hermes_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_hermes_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_sanitize_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_sanitize_email",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_legacy_token_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_legacy_token_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_user_tokens_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_user_tokens_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_legacy_pending_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_legacy_pending_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_user_pending_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_user_pending_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_token_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_token_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_client_secret_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_client_secret_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_pending_auth_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_pending_auth_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:load_user_credentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:load_user_credentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:refresh_or_none",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:refresh_or_none",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:build_user_chat_service",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:build_user_chat_service",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:list_authorized_emails",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:list_authorized_emails",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_persist_credentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_persist_credentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_normalize_authorized_user_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_normalize_authorized_user_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_write_private_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_write_private_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_ensure_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_ensure_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:install_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:install_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:check_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:check_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:store_client_secret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:store_client_secret",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_save_pending_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_save_pending_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_load_pending_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_load_pending_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_extract_code_and_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:_extract_code_and_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:get_auth_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:get_auth_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:exchange_auth_code",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:exchange_auth_code",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:revoke",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:revoke",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/google_chat/oauth.py",
+      "target": "function:plugins/platforms/google_chat/oauth.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:check_ha_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:check_ha_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:_is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:_is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:_build_adapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:_build_adapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "function:plugins/platforms/homeassistant/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "class:plugins/platforms/homeassistant/adapter.py:HomeAssistantAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/homeassistant/adapter.py",
+      "target": "class:plugins/platforms/homeassistant/adapter.py:HomeAssistantAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_parse_irc_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_parse_irc_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_extract_nick",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_extract_nick",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:check_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:check_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:validate_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:validate_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_env_enablement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_env_enablement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_strip_irc_control_chars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_strip_irc_control_chars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_is_irc_channel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_is_irc_channel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "function:plugins/platforms/irc/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "class:plugins/platforms/irc/adapter.py:IRCAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/irc/adapter.py",
+      "target": "class:plugins/platforms/irc/adapter.py:IRCAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

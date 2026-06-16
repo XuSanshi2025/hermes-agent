@@ -1,0 +1,6269 @@
+{
+  "nodes": [
+    {
+      "id": "file:plugins/google_meet/realtime/openai_client.py",
+      "type": "file",
+      "name": "openai_client.py",
+      "filePath": "plugins/google_meet/realtime/openai_client.py",
+      "summary": "openai_client.py 是 python 源文件，包含 1 个函数、2 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/realtime/openai_client.py:_require_websockets",
+      "type": "function",
+      "name": "_require_websockets",
+      "filePath": "plugins/google_meet/realtime/openai_client.py",
+      "lineRange": [
+        27,
+        36
+      ],
+      "summary": "_require_websockets 是 openai_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/google_meet/realtime/openai_client.py:RealtimeSession",
+      "type": "class",
+      "name": "RealtimeSession",
+      "filePath": "plugins/google_meet/realtime/openai_client.py",
+      "lineRange": [
+        39,
+        236
+      ],
+      "summary": "RealtimeSession 是 openai_client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/google_meet/realtime/openai_client.py:RealtimeSpeaker",
+      "type": "class",
+      "name": "RealtimeSpeaker",
+      "filePath": "plugins/google_meet/realtime/openai_client.py",
+      "lineRange": [
+        239,
+        332
+      ],
+      "summary": "RealtimeSpeaker 是 openai_client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/google_meet/tools.py",
+      "type": "file",
+      "name": "tools.py",
+      "filePath": "plugins/google_meet/tools.py",
+      "summary": "tools.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:check_meet_requirements",
+      "type": "function",
+      "name": "check_meet_requirements",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        26,
+        45
+      ],
+      "summary": "check_meet_requirements 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:_resolve_node_client",
+      "type": "function",
+      "name": "_resolve_node_client",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        52,
+        71
+      ],
+      "summary": "_resolve_node_client 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:_json",
+      "type": "function",
+      "name": "_json",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        228,
+        229
+      ],
+      "summary": "_json 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:_err",
+      "type": "function",
+      "name": "_err",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        232,
+        233
+      ],
+      "summary": "_err 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:handle_meet_join",
+      "type": "function",
+      "name": "handle_meet_join",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        236,
+        278
+      ],
+      "summary": "handle_meet_join 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:handle_meet_status",
+      "type": "function",
+      "name": "handle_meet_status",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        281,
+        293
+      ],
+      "summary": "handle_meet_status 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:handle_meet_transcript",
+      "type": "function",
+      "name": "handle_meet_transcript",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        296,
+        315
+      ],
+      "summary": "handle_meet_transcript 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:handle_meet_leave",
+      "type": "function",
+      "name": "handle_meet_leave",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        318,
+        330
+      ],
+      "summary": "handle_meet_leave 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/tools.py:handle_meet_say",
+      "type": "function",
+      "name": "handle_meet_say",
+      "filePath": "plugins/google_meet/tools.py",
+      "lineRange": [
+        333,
+        348
+      ],
+      "summary": "handle_meet_say 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/hermes-achievements/dashboard/manifest.json",
+      "type": "config",
+      "name": "manifest.json",
+      "filePath": "plugins/hermes-achievements/dashboard/manifest.json",
+      "summary": "manifest.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "type": "file",
+      "name": "plugin_api.py",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "summary": "plugin_api.py 是 python 源文件，包含 44 个函数、44 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:tiers",
+      "type": "function",
+      "name": "tiers",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        56,
+        57
+      ],
+      "summary": "tiers 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:req",
+      "type": "function",
+      "name": "req",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        60,
+        61
+      ],
+      "summary": "req 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:state_path",
+      "type": "function",
+      "name": "state_path",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        145,
+        146
+      ],
+      "summary": "state_path 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:snapshot_path",
+      "type": "function",
+      "name": "snapshot_path",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        149,
+        150
+      ],
+      "summary": "snapshot_path 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:checkpoint_path",
+      "type": "function",
+      "name": "checkpoint_path",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        153,
+        154
+      ],
+      "summary": "checkpoint_path 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_state",
+      "type": "function",
+      "name": "load_state",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        157,
+        164
+      ],
+      "summary": "load_state 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_state",
+      "type": "function",
+      "name": "save_state",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        167,
+        170
+      ],
+      "summary": "save_state 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_json_safe",
+      "type": "function",
+      "name": "_json_safe",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        173,
+        180
+      ],
+      "summary": "_json_safe 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_snapshot",
+      "type": "function",
+      "name": "load_snapshot",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        183,
+        193
+      ],
+      "summary": "load_snapshot 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_snapshot",
+      "type": "function",
+      "name": "save_snapshot",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        196,
+        199
+      ],
+      "summary": "save_snapshot 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_checkpoint",
+      "type": "function",
+      "name": "load_checkpoint",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        202,
+        216
+      ],
+      "summary": "load_checkpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_checkpoint",
+      "type": "function",
+      "name": "save_checkpoint",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        219,
+        222
+      ],
+      "summary": "save_checkpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:session_fingerprint",
+      "type": "function",
+      "name": "session_fingerprint",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        225,
+        231
+      ],
+      "summary": "session_fingerprint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_cache_is_fresh",
+      "type": "function",
+      "name": "_cache_is_fresh",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        234,
+        235
+      ],
+      "summary": "_cache_is_fresh 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_is_snapshot_stale",
+      "type": "function",
+      "name": "_is_snapshot_stale",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        238,
+        245
+      ],
+      "summary": "_is_snapshot_stale 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_scan_status_payload",
+      "type": "function",
+      "name": "_scan_status_payload",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        248,
+        263
+      ],
+      "summary": "_scan_status_payload 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_tool_name_from_call",
+      "type": "function",
+      "name": "_tool_name_from_call",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        266,
+        270
+      ],
+      "summary": "_tool_name_from_call 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_content",
+      "type": "function",
+      "name": "_content",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        273,
+        282
+      ],
+      "summary": "_content 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_count_tool",
+      "type": "function",
+      "name": "_count_tool",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        285,
+        287
+      ],
+      "summary": "_count_tool 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:model_provider",
+      "type": "function",
+      "name": "model_provider",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        290,
+        299
+      ],
+      "summary": "model_provider 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:is_local_model_name",
+      "type": "function",
+      "name": "is_local_model_name",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        302,
+        307
+      ],
+      "summary": "is_local_model_name 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:analyze_messages",
+      "type": "function",
+      "name": "analyze_messages",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        310,
+        419
+      ],
+      "summary": "analyze_messages 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_tiered",
+      "type": "function",
+      "name": "evaluate_tiered",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        422,
+        437
+      ],
+      "summary": "evaluate_tiered 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_requirements",
+      "type": "function",
+      "name": "evaluate_requirements",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        440,
+        455
+      ],
+      "summary": "evaluate_requirements 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_boolean",
+      "type": "function",
+      "name": "evaluate_boolean",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        458,
+        461
+      ],
+      "summary": "evaluate_boolean 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:metric_label",
+      "type": "function",
+      "name": "metric_label",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        530,
+        531
+      ],
+      "summary": "metric_label 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:criteria_for",
+      "type": "function",
+      "name": "criteria_for",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        534,
+        549
+      ],
+      "summary": "criteria_for 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:display_achievement",
+      "type": "function",
+      "name": "display_achievement",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        552,
+        557
+      ],
+      "summary": "display_achievement 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:scan_sessions",
+      "type": "function",
+      "name": "scan_sessions",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        560,
+        671
+      ],
+      "summary": "scan_sessions 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:aggregate_stats",
+      "type": "function",
+      "name": "aggregate_stats",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        674,
+        755
+      ],
+      "summary": "aggregate_stats 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_definition",
+      "type": "function",
+      "name": "evaluate_definition",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        758,
+        763
+      ],
+      "summary": "evaluate_definition 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evidence_for",
+      "type": "function",
+      "name": "evidence_for",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        766,
+        784
+      ],
+      "summary": "evidence_for 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_compute_from_scan",
+      "type": "function",
+      "name": "_compute_from_scan",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        787,
+        826
+      ],
+      "summary": "_compute_from_scan 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:compute_all",
+      "type": "function",
+      "name": "compute_all",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        829,
+        831
+      ],
+      "summary": "compute_all 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_build_pending_snapshot",
+      "type": "function",
+      "name": "_build_pending_snapshot",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        838,
+        856
+      ],
+      "summary": "_build_pending_snapshot 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_run_scan_and_update_cache",
+      "type": "function",
+      "name": "_run_scan_and_update_cache",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        859,
+        917
+      ],
+      "summary": "_run_scan_and_update_cache 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_start_background_scan",
+      "type": "function",
+      "name": "_start_background_scan",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        920,
+        941
+      ],
+      "summary": "_start_background_scan 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_all",
+      "type": "function",
+      "name": "evaluate_all",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        944,
+        996
+      ],
+      "summary": "evaluate_all 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:achievements",
+      "type": "function",
+      "name": "achievements",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        1000,
+        1008
+      ],
+      "summary": "achievements 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:scan_status",
+      "type": "function",
+      "name": "scan_status",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        1012,
+        1013
+      ],
+      "summary": "scan_status 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:recent_unlocks",
+      "type": "function",
+      "name": "recent_unlocks",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        1017,
+        1019
+      ],
+      "summary": "recent_unlocks 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:session_badges",
+      "type": "function",
+      "name": "session_badges",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        1023,
+        1034
+      ],
+      "summary": "session_badges 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:rescan",
+      "type": "function",
+      "name": "rescan",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        1038,
+        1039
+      ],
+      "summary": "rescan 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/hermes-achievements/dashboard/plugin_api.py:reset_state",
+      "type": "function",
+      "name": "reset_state",
+      "filePath": "plugins/hermes-achievements/dashboard/plugin_api.py",
+      "lineRange": [
+        1043,
+        1061
+      ],
+      "summary": "reset_state 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:plugins/hermes-achievements/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/hermes-achievements/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/image_gen/fal/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/image_gen/fal/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/image_gen/fal/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/image_gen/fal/__init__.py",
+      "lineRange": [
+        180,
+        182
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/image_gen/fal/__init__.py:FalImageGenProvider",
+      "type": "class",
+      "name": "FalImageGenProvider",
+      "filePath": "plugins/image_gen/fal/__init__.py",
+      "lineRange": [
+        40,
+        172
+      ],
+      "summary": "FalImageGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/image_gen/fal/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/image_gen/fal/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/image_gen/krea/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/image_gen/krea/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 4 个函数、1 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/image_gen/krea/__init__.py:_load_krea_config",
+      "type": "function",
+      "name": "_load_krea_config",
+      "filePath": "plugins/image_gen/krea/__init__.py",
+      "lineRange": [
+        105,
+        115
+      ],
+      "summary": "_load_krea_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/krea/__init__.py:_resolve_model",
+      "type": "function",
+      "name": "_resolve_model",
+      "filePath": "plugins/image_gen/krea/__init__.py",
+      "lineRange": [
+        118,
+        139
+      ],
+      "summary": "_resolve_model 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/krea/__init__.py:_resolve_creativity",
+      "type": "function",
+      "name": "_resolve_creativity",
+      "filePath": "plugins/image_gen/krea/__init__.py",
+      "lineRange": [
+        142,
+        153
+      ],
+      "summary": "_resolve_creativity 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/krea/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/image_gen/krea/__init__.py",
+      "lineRange": [
+        546,
+        548
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/image_gen/krea/__init__.py:KreaImageGenProvider",
+      "type": "class",
+      "name": "KreaImageGenProvider",
+      "filePath": "plugins/image_gen/krea/__init__.py",
+      "lineRange": [
+        161,
+        538
+      ],
+      "summary": "KreaImageGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/image_gen/krea/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/image_gen/krea/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/image_gen/openai-codex/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 8 个函数、1 个类、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_load_image_gen_config",
+      "type": "function",
+      "name": "_load_image_gen_config",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        89,
+        99
+      ],
+      "summary": "_load_image_gen_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_resolve_model",
+      "type": "function",
+      "name": "_resolve_model",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        102,
+        125
+      ],
+      "summary": "_resolve_model 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_read_codex_access_token",
+      "type": "function",
+      "name": "_read_codex_access_token",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        128,
+        143
+      ],
+      "summary": "_read_codex_access_token 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_build_responses_payload",
+      "type": "function",
+      "name": "_build_responses_payload",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        146,
+        172
+      ],
+      "summary": "_build_responses_payload 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_extract_image_b64",
+      "type": "function",
+      "name": "_extract_image_b64",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        175,
+        195
+      ],
+      "summary": "_extract_image_b64 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_iter_sse_json",
+      "type": "function",
+      "name": "_iter_sse_json",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        198,
+        242
+      ],
+      "summary": "_iter_sse_json 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:_collect_image_b64",
+      "type": "function",
+      "name": "_collect_image_b64",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        245,
+        275
+      ],
+      "summary": "_collect_image_b64 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai-codex/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        440,
+        442
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/image_gen/openai-codex/__init__.py:OpenAICodexImageGenProvider",
+      "type": "class",
+      "name": "OpenAICodexImageGenProvider",
+      "filePath": "plugins/image_gen/openai-codex/__init__.py",
+      "lineRange": [
+        283,
+        432
+      ],
+      "summary": "OpenAICodexImageGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/image_gen/openai-codex/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/image_gen/openai-codex/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/image_gen/openai/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/image_gen/openai/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/image_gen/openai/__init__.py:_load_openai_config",
+      "type": "function",
+      "name": "_load_openai_config",
+      "filePath": "plugins/image_gen/openai/__init__.py",
+      "lineRange": [
+        83,
+        93
+      ],
+      "summary": "_load_openai_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai/__init__.py:_resolve_model",
+      "type": "function",
+      "name": "_resolve_model",
+      "filePath": "plugins/image_gen/openai/__init__.py",
+      "lineRange": [
+        96,
+        117
+      ],
+      "summary": "_resolve_model 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/openai/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/image_gen/openai/__init__.py",
+      "lineRange": [
+        314,
+        316
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/image_gen/openai/__init__.py:OpenAIImageGenProvider",
+      "type": "class",
+      "name": "OpenAIImageGenProvider",
+      "filePath": "plugins/image_gen/openai/__init__.py",
+      "lineRange": [
+        125,
+        306
+      ],
+      "summary": "OpenAIImageGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/image_gen/openai/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/image_gen/openai/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/image_gen/xai/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/image_gen/xai/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 4 个函数、1 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/image_gen/xai/__init__.py:_load_xai_config",
+      "type": "function",
+      "name": "_load_xai_config",
+      "filePath": "plugins/image_gen/xai/__init__.py",
+      "lineRange": [
+        80,
+        91
+      ],
+      "summary": "_load_xai_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/xai/__init__.py:_resolve_model",
+      "type": "function",
+      "name": "_resolve_model",
+      "filePath": "plugins/image_gen/xai/__init__.py",
+      "lineRange": [
+        94,
+        105
+      ],
+      "summary": "_resolve_model 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/xai/__init__.py:_resolve_resolution",
+      "type": "function",
+      "name": "_resolve_resolution",
+      "filePath": "plugins/image_gen/xai/__init__.py",
+      "lineRange": [
+        108,
+        114
+      ],
+      "summary": "_resolve_resolution 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/image_gen/xai/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/image_gen/xai/__init__.py",
+      "lineRange": [
+        332,
+        334
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/image_gen/xai/__init__.py:XAIImageGenProvider",
+      "type": "class",
+      "name": "XAIImageGenProvider",
+      "filePath": "plugins/image_gen/xai/__init__.py",
+      "lineRange": [
+        122,
+        324
+      ],
+      "summary": "XAIImageGenProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/image_gen/xai/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/image_gen/xai/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:plugins/kanban/dashboard/manifest.json",
+      "type": "config",
+      "name": "manifest.json",
+      "filePath": "plugins/kanban/dashboard/manifest.json",
+      "summary": "manifest.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:plugins/kanban/dashboard/plugin_api.py",
+      "type": "file",
+      "name": "plugin_api.py",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "summary": "plugin_api.py 是 python 源文件，包含 59 个函数、15 个类、74 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_ws_upgrade_authorized",
+      "type": "function",
+      "name": "_ws_upgrade_authorized",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        64,
+        94
+      ],
+      "summary": "_ws_upgrade_authorized 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_resolve_board",
+      "type": "function",
+      "name": "_resolve_board",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        97,
+        116
+      ],
+      "summary": "_resolve_board 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_conn",
+      "type": "function",
+      "name": "_conn",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        119,
+        135
+      ],
+      "summary": "_conn 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_task_dict",
+      "type": "function",
+      "name": "_task_dict",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        158,
+        176
+      ],
+      "summary": "_task_dict 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_event_dict",
+      "type": "function",
+      "name": "_event_dict",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        179,
+        187
+      ],
+      "summary": "_event_dict 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_comment_dict",
+      "type": "function",
+      "name": "_comment_dict",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        190,
+        197
+      ],
+      "summary": "_comment_dict 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_attachment_dict",
+      "type": "function",
+      "name": "_attachment_dict",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        200,
+        212
+      ],
+      "summary": "_attachment_dict 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_run_dict",
+      "type": "function",
+      "name": "_run_dict",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        215,
+        234
+      ],
+      "summary": "_run_dict 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_compute_task_diagnostics",
+      "type": "function",
+      "name": "_compute_task_diagnostics",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        248,
+        313
+      ],
+      "summary": "_compute_task_diagnostics 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_warnings_summary_from_diagnostics",
+      "type": "function",
+      "name": "_warnings_summary_from_diagnostics",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        316,
+        352
+      ],
+      "summary": "_warnings_summary_from_diagnostics 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_links_for",
+      "type": "function",
+      "name": "_links_for",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        355,
+        371
+      ],
+      "summary": "_links_for 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_board",
+      "type": "function",
+      "name": "get_board",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        379,
+        510
+      ],
+      "summary": "get_board 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_task",
+      "type": "function",
+      "name": "get_task",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        518,
+        573
+      ],
+      "summary": "get_task 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:create_task",
+      "type": "function",
+      "name": "create_task",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        598,
+        640
+      ],
+      "summary": "create_task 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_safe_attachment_name",
+      "type": "function",
+      "name": "_safe_attachment_name",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        652,
+        668
+      ],
+      "summary": "_safe_attachment_name 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:list_task_attachments",
+      "type": "function",
+      "name": "list_task_attachments",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        672,
+        684
+      ],
+      "summary": "list_task_attachments 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:upload_task_attachment",
+      "type": "function",
+      "name": "upload_task_attachment",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        688,
+        759
+      ],
+      "summary": "upload_task_attachment 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:download_attachment",
+      "type": "function",
+      "name": "download_attachment",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        763,
+        786
+      ],
+      "summary": "download_attachment 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:remove_attachment",
+      "type": "function",
+      "name": "remove_attachment",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        790,
+        799
+      ],
+      "summary": "remove_attachment 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:update_task",
+      "type": "function",
+      "name": "update_task",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        822,
+        937
+      ],
+      "summary": "update_task 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:delete_task",
+      "type": "function",
+      "name": "delete_task",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        945,
+        954
+      ],
+      "summary": "delete_task 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_parents_blocking_ready",
+      "type": "function",
+      "name": "_parents_blocking_ready",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        957,
+        977
+      ],
+      "summary": "_parents_blocking_ready 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_set_status_direct",
+      "type": "function",
+      "name": "_set_status_direct",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        980,
+        1079
+      ],
+      "summary": "_set_status_direct 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:add_comment",
+      "type": "function",
+      "name": "add_comment",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1092,
+        1105
+      ],
+      "summary": "add_comment 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:add_link",
+      "type": "function",
+      "name": "add_link",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1118,
+        1127
+      ],
+      "summary": "add_link 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:delete_link",
+      "type": "function",
+      "name": "delete_link",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1131,
+        1142
+      ],
+      "summary": "delete_link 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:bulk_update",
+      "type": "function",
+      "name": "bulk_update",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1162,
+        1255
+      ],
+      "summary": "bulk_update 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:list_diagnostics",
+      "type": "function",
+      "name": "list_diagnostics",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1265,
+        1338
+      ],
+      "summary": "list_diagnostics 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:list_active_workers",
+      "type": "function",
+      "name": "list_active_workers",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1353,
+        1410
+      ],
+      "summary": "list_active_workers 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_run_endpoint",
+      "type": "function",
+      "name": "get_run_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1414,
+        1432
+      ],
+      "summary": "get_run_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:inspect_run_endpoint",
+      "type": "function",
+      "name": "inspect_run_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1436,
+        1500
+      ],
+      "summary": "inspect_run_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:terminate_run_endpoint",
+      "type": "function",
+      "name": "terminate_run_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1508,
+        1552
+      ],
+      "summary": "terminate_run_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:reclaim_task_endpoint",
+      "type": "function",
+      "name": "reclaim_task_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1564,
+        1590
+      ],
+      "summary": "reclaim_task_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:specify_task_endpoint",
+      "type": "function",
+      "name": "specify_task_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1602,
+        1642
+      ],
+      "summary": "specify_task_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:reassign_task_endpoint",
+      "type": "function",
+      "name": "reassign_task_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1652,
+        1683
+      ],
+      "summary": "reassign_task_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_config",
+      "type": "function",
+      "name": "get_config",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1691,
+        1711
+      ],
+      "summary": "get_config 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_configured_home_channels",
+      "type": "function",
+      "name": "_configured_home_channels",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1730,
+        1758
+      ],
+      "summary": "_configured_home_channels 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_active_profile_name",
+      "type": "function",
+      "name": "_active_profile_name",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1761,
+        1767
+      ],
+      "summary": "_active_profile_name 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_home_sub_matches",
+      "type": "function",
+      "name": "_home_sub_matches",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1770,
+        1776
+      ],
+      "summary": "_home_sub_matches 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_home_channels",
+      "type": "function",
+      "name": "get_home_channels",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1780,
+        1810
+      ],
+      "summary": "get_home_channels 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:subscribe_home",
+      "type": "function",
+      "name": "subscribe_home",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1814,
+        1845
+      ],
+      "summary": "subscribe_home 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:unsubscribe_home",
+      "type": "function",
+      "name": "unsubscribe_home",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1849,
+        1870
+      ],
+      "summary": "unsubscribe_home 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_stats",
+      "type": "function",
+      "name": "get_stats",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1878,
+        1890
+      ],
+      "summary": "get_stats 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_assignees",
+      "type": "function",
+      "name": "get_assignees",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1894,
+        1907
+      ],
+      "summary": "get_assignees 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_task_log",
+      "type": "function",
+      "name": "get_task_log",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1915,
+        1947
+      ],
+      "summary": "get_task_log 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:dispatch",
+      "type": "function",
+      "name": "dispatch",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1955,
+        1972
+      ],
+      "summary": "dispatch 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:_board_counts",
+      "type": "function",
+      "name": "_board_counts",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1995,
+        2010
+      ],
+      "summary": "_board_counts 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:list_boards",
+      "type": "function",
+      "name": "list_boards",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2014,
+        2022
+      ],
+      "summary": "list_boards 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:create_board_endpoint",
+      "type": "function",
+      "name": "create_board_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2026,
+        2043
+      ],
+      "summary": "create_board_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:rename_board",
+      "type": "function",
+      "name": "rename_board",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2047,
+        2062
+      ],
+      "summary": "rename_board 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:delete_board",
+      "type": "function",
+      "name": "delete_board",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2066,
+        2072
+      ],
+      "summary": "delete_board 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:switch_board",
+      "type": "function",
+      "name": "switch_board",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2076,
+        2090
+      ],
+      "summary": "switch_board 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:list_profile_roster",
+      "type": "function",
+      "name": "list_profile_roster",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2116,
+        2142
+      ],
+      "summary": "list_profile_roster 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:update_profile_description",
+      "type": "function",
+      "name": "update_profile_description",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2146,
+        2175
+      ],
+      "summary": "update_profile_description 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:auto_describe_profile",
+      "type": "function",
+      "name": "auto_describe_profile",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2179,
+        2203
+      ],
+      "summary": "auto_describe_profile 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:decompose_task_endpoint",
+      "type": "function",
+      "name": "decompose_task_endpoint",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2215,
+        2250
+      ],
+      "summary": "decompose_task_endpoint 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:get_orchestration_settings",
+      "type": "function",
+      "name": "get_orchestration_settings",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2266,
+        2305
+      ],
+      "summary": "get_orchestration_settings 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:set_orchestration_settings",
+      "type": "function",
+      "name": "set_orchestration_settings",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2309,
+        2376
+      ],
+      "summary": "set_orchestration_settings 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/kanban/dashboard/plugin_api.py:stream_events",
+      "type": "function",
+      "name": "stream_events",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2380,
+        2454
+      ],
+      "summary": "stream_events 是 plugin_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:CreateTaskBody",
+      "type": "class",
+      "name": "CreateTaskBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        580,
+        594
+      ],
+      "summary": "CreateTaskBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:UpdateTaskBody",
+      "type": "class",
+      "name": "UpdateTaskBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        806,
+        818
+      ],
+      "summary": "UpdateTaskBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:CommentBody",
+      "type": "class",
+      "name": "CommentBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1086,
+        1088
+      ],
+      "summary": "CommentBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:LinkBody",
+      "type": "class",
+      "name": "LinkBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1112,
+        1114
+      ],
+      "summary": "LinkBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:BulkTaskBody",
+      "type": "class",
+      "name": "BulkTaskBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1149,
+        1158
+      ],
+      "summary": "BulkTaskBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:TerminateRunBody",
+      "type": "class",
+      "name": "TerminateRunBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1503,
+        1504
+      ],
+      "summary": "TerminateRunBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:ReclaimBody",
+      "type": "class",
+      "name": "ReclaimBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1559,
+        1560
+      ],
+      "summary": "ReclaimBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:SpecifyBody",
+      "type": "class",
+      "name": "SpecifyBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1593,
+        1598
+      ],
+      "summary": "SpecifyBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:ReassignBody",
+      "type": "class",
+      "name": "ReassignBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1645,
+        1648
+      ],
+      "summary": "ReassignBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:CreateBoardBody",
+      "type": "class",
+      "name": "CreateBoardBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1979,
+        1985
+      ],
+      "summary": "CreateBoardBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:RenameBoardBody",
+      "type": "class",
+      "name": "RenameBoardBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        1988,
+        1992
+      ],
+      "summary": "RenameBoardBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:DescribeBody",
+      "type": "class",
+      "name": "DescribeBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2107,
+        2108
+      ],
+      "summary": "DescribeBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:DescribeAutoBody",
+      "type": "class",
+      "name": "DescribeAutoBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2111,
+        2112
+      ],
+      "summary": "DescribeAutoBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:DecomposeBody",
+      "type": "class",
+      "name": "DecomposeBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2210,
+        2211
+      ],
+      "summary": "DecomposeBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/kanban/dashboard/plugin_api.py:OrchestrationSettingsBody",
+      "type": "class",
+      "name": "OrchestrationSettingsBody",
+      "filePath": "plugins/kanban/dashboard/plugin_api.py",
+      "lineRange": [
+        2258,
+        2262
+      ],
+      "summary": "OrchestrationSettingsBody 是 plugin_api.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/kanban/systemd/hermes-kanban-dispatcher.service",
+      "type": "file",
+      "name": "hermes-kanban-dispatcher.service",
+      "filePath": "plugins/kanban/systemd/hermes-kanban-dispatcher.service",
+      "summary": "hermes-kanban-dispatcher.service 是 service 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "service",
+        "plugin",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 service。"
+    },
+    {
+      "id": "file:plugins/memory/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 10 个函数、1 个类、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:_register_synthetic_package",
+      "type": "function",
+      "name": "_register_synthetic_package",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        42,
+        57
+      ],
+      "summary": "_register_synthetic_package 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:_get_user_plugins_dir",
+      "type": "function",
+      "name": "_get_user_plugins_dir",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        64,
+        71
+      ],
+      "summary": "_get_user_plugins_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:_is_memory_provider_dir",
+      "type": "function",
+      "name": "_is_memory_provider_dir",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        74,
+        87
+      ],
+      "summary": "_is_memory_provider_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:_iter_provider_dirs",
+      "type": "function",
+      "name": "_iter_provider_dirs",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        90,
+        121
+      ],
+      "summary": "_iter_provider_dirs 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:find_provider_dir",
+      "type": "function",
+      "name": "find_provider_dir",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        124,
+        139
+      ],
+      "summary": "find_provider_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:discover_memory_providers",
+      "type": "function",
+      "name": "discover_memory_providers",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        146,
+        180
+      ],
+      "summary": "discover_memory_providers 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:load_memory_provider",
+      "type": "function",
+      "name": "load_memory_provider",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        183,
+        205
+      ],
+      "summary": "load_memory_provider 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:_load_provider_from_dir",
+      "type": "function",
+      "name": "_load_provider_from_dir",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        208,
+        316
+      ],
+      "summary": "_load_provider_from_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:_get_active_memory_provider",
+      "type": "function",
+      "name": "_get_active_memory_provider",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        339,
+        351
+      ],
+      "summary": "_get_active_memory_provider 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/__init__.py:discover_plugin_cli_commands",
+      "type": "function",
+      "name": "discover_plugin_cli_commands",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        354,
+        450
+      ],
+      "summary": "discover_plugin_cli_commands 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/memory/__init__.py:_ProviderCollector",
+      "type": "class",
+      "name": "_ProviderCollector",
+      "filePath": "plugins/memory/__init__.py",
+      "lineRange": [
+        319,
+        336
+      ],
+      "summary": "_ProviderCollector 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/memory/byterover/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/byterover/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 4 个函数、1 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/byterover/__init__.py:_resolve_brv_path",
+      "type": "function",
+      "name": "_resolve_brv_path",
+      "filePath": "plugins/memory/byterover/__init__.py",
+      "lineRange": [
+        51,
+        75
+      ],
+      "summary": "_resolve_brv_path 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/byterover/__init__.py:_run_brv",
+      "type": "function",
+      "name": "_run_brv",
+      "filePath": "plugins/memory/byterover/__init__.py",
+      "lineRange": [
+        78,
+        113
+      ],
+      "summary": "_run_brv 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/byterover/__init__.py:_get_brv_cwd",
+      "type": "function",
+      "name": "_get_brv_cwd",
+      "filePath": "plugins/memory/byterover/__init__.py",
+      "lineRange": [
+        116,
+        119
+      ],
+      "summary": "_get_brv_cwd 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/byterover/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/byterover/__init__.py",
+      "lineRange": [
+        381,
+        383
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/byterover/__init__.py:ByteRoverMemoryProvider",
+      "type": "class",
+      "name": "ByteRoverMemoryProvider",
+      "filePath": "plugins/memory/byterover/__init__.py",
+      "lineRange": [
+        171,
+        374
+      ],
+      "summary": "ByteRoverMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/byterover/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/byterover/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/byterover/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/byterover/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/memory/hindsight/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 18 个函数、1 个类、19 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_parse_int_setting",
+      "type": "function",
+      "name": "_parse_int_setting",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        75,
+        83
+      ],
+      "summary": "_parse_int_setting 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_check_local_runtime",
+      "type": "function",
+      "name": "_check_local_runtime",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        86,
+        99
+      ],
+      "summary": "_check_local_runtime 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_meets_minimum_version",
+      "type": "function",
+      "name": "_meets_minimum_version",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        113,
+        121
+      ],
+      "summary": "_meets_minimum_version 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_fetch_hindsight_api_version",
+      "type": "function",
+      "name": "_fetch_hindsight_api_version",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        124,
+        150
+      ],
+      "summary": "_fetch_hindsight_api_version 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_check_api_supports_update_mode_append",
+      "type": "function",
+      "name": "_check_api_supports_update_mode_append",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        153,
+        188
+      ],
+      "summary": "_check_api_supports_update_mode_append 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_get_loop",
+      "type": "function",
+      "name": "_get_loop",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        205,
+        219
+      ],
+      "summary": "_get_loop 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_run_sync",
+      "type": "function",
+      "name": "_run_sync",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        222,
+        229
+      ],
+      "summary": "_run_sync 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_load_config",
+      "type": "function",
+      "name": "_load_config",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        297,
+        339
+      ],
+      "summary": "_load_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_normalize_retain_tags",
+      "type": "function",
+      "name": "_normalize_retain_tags",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        342,
+        376
+      ],
+      "summary": "_normalize_retain_tags 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_utc_timestamp",
+      "type": "function",
+      "name": "_utc_timestamp",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        379,
+        381
+      ],
+      "summary": "_utc_timestamp 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_embedded_profile_name",
+      "type": "function",
+      "name": "_embedded_profile_name",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        384,
+        387
+      ],
+      "summary": "_embedded_profile_name 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_load_simple_env",
+      "type": "function",
+      "name": "_load_simple_env",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        390,
+        401
+      ],
+      "summary": "_load_simple_env 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_build_embedded_profile_env",
+      "type": "function",
+      "name": "_build_embedded_profile_env",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        404,
+        439
+      ],
+      "summary": "_build_embedded_profile_env 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_embedded_profile_env_path",
+      "type": "function",
+      "name": "_embedded_profile_env_path",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        442,
+        445
+      ],
+      "summary": "_embedded_profile_env_path 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_materialize_embedded_profile_env",
+      "type": "function",
+      "name": "_materialize_embedded_profile_env",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        448,
+        457
+      ],
+      "summary": "_materialize_embedded_profile_env 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_sanitize_bank_segment",
+      "type": "function",
+      "name": "_sanitize_bank_segment",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        459,
+        478
+      ],
+      "summary": "_sanitize_bank_segment 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:_resolve_bank_id_template",
+      "type": "function",
+      "name": "_resolve_bank_id_template",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        481,
+        511
+      ],
+      "summary": "_resolve_bank_id_template 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/hindsight/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        1799,
+        1801
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/hindsight/__init__.py:HindsightMemoryProvider",
+      "type": "class",
+      "name": "HindsightMemoryProvider",
+      "filePath": "plugins/memory/hindsight/__init__.py",
+      "lineRange": [
+        518,
+        1796
+      ],
+      "summary": "HindsightMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/hindsight/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/hindsight/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/hindsight/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/hindsight/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/google_meet/realtime/openai_client.py",
+      "target": "function:plugins/google_meet/realtime/openai_client.py:_require_websockets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/realtime/openai_client.py",
+      "target": "function:plugins/google_meet/realtime/openai_client.py:_require_websockets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/realtime/openai_client.py",
+      "target": "class:plugins/google_meet/realtime/openai_client.py:RealtimeSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/realtime/openai_client.py",
+      "target": "class:plugins/google_meet/realtime/openai_client.py:RealtimeSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/realtime/openai_client.py",
+      "target": "class:plugins/google_meet/realtime/openai_client.py:RealtimeSpeaker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/realtime/openai_client.py",
+      "target": "class:plugins/google_meet/realtime/openai_client.py:RealtimeSpeaker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:check_meet_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:check_meet_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:_resolve_node_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:_resolve_node_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:_err",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:_err",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_join",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_join",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_transcript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_transcript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_leave",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_leave",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_say",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/tools.py",
+      "target": "function:plugins/google_meet/tools.py:handle_meet_say",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:tiers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:tiers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:req",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:req",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:state_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:state_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:snapshot_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:snapshot_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:checkpoint_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:checkpoint_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_json_safe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_json_safe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_checkpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:load_checkpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_checkpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:save_checkpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:session_fingerprint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:session_fingerprint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_cache_is_fresh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_cache_is_fresh",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_is_snapshot_stale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_is_snapshot_stale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_scan_status_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_scan_status_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_tool_name_from_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_tool_name_from_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_count_tool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_count_tool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:model_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:model_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:is_local_model_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:is_local_model_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:analyze_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:analyze_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_tiered",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_tiered",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_boolean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_boolean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:metric_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:metric_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:criteria_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:criteria_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:display_achievement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:display_achievement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:scan_sessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:scan_sessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:aggregate_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:aggregate_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_definition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_definition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evidence_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evidence_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_compute_from_scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_compute_from_scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:compute_all",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:compute_all",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_build_pending_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_build_pending_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_run_scan_and_update_cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_run_scan_and_update_cache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_start_background_scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:_start_background_scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_all",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:evaluate_all",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:achievements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:achievements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:scan_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:scan_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:recent_unlocks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:recent_unlocks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:session_badges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:session_badges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:rescan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:rescan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:reset_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/hermes-achievements/dashboard/plugin_api.py",
+      "target": "function:plugins/hermes-achievements/dashboard/plugin_api.py:reset_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/fal/__init__.py",
+      "target": "function:plugins/image_gen/fal/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/fal/__init__.py",
+      "target": "function:plugins/image_gen/fal/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/fal/__init__.py",
+      "target": "class:plugins/image_gen/fal/__init__.py:FalImageGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/fal/__init__.py",
+      "target": "class:plugins/image_gen/fal/__init__.py:FalImageGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:_load_krea_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:_load_krea_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:_resolve_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:_resolve_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:_resolve_creativity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:_resolve_creativity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "function:plugins/image_gen/krea/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "class:plugins/image_gen/krea/__init__.py:KreaImageGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/krea/__init__.py",
+      "target": "class:plugins/image_gen/krea/__init__.py:KreaImageGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_load_image_gen_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_load_image_gen_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_resolve_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_resolve_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_read_codex_access_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_read_codex_access_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_build_responses_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_build_responses_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_extract_image_b64",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_extract_image_b64",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_iter_sse_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_iter_sse_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_collect_image_b64",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:_collect_image_b64",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "function:plugins/image_gen/openai-codex/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "class:plugins/image_gen/openai-codex/__init__.py:OpenAICodexImageGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai-codex/__init__.py",
+      "target": "class:plugins/image_gen/openai-codex/__init__.py:OpenAICodexImageGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "function:plugins/image_gen/openai/__init__.py:_load_openai_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "function:plugins/image_gen/openai/__init__.py:_load_openai_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "function:plugins/image_gen/openai/__init__.py:_resolve_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "function:plugins/image_gen/openai/__init__.py:_resolve_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "function:plugins/image_gen/openai/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "function:plugins/image_gen/openai/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "class:plugins/image_gen/openai/__init__.py:OpenAIImageGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/openai/__init__.py",
+      "target": "class:plugins/image_gen/openai/__init__.py:OpenAIImageGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:_load_xai_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:_load_xai_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:_resolve_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:_resolve_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:_resolve_resolution",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:_resolve_resolution",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "function:plugins/image_gen/xai/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "class:plugins/image_gen/xai/__init__.py:XAIImageGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/image_gen/xai/__init__.py",
+      "target": "class:plugins/image_gen/xai/__init__.py:XAIImageGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_ws_upgrade_authorized",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_ws_upgrade_authorized",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_resolve_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_resolve_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_conn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_conn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_task_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_task_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_event_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_event_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_comment_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_comment_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_attachment_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_attachment_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_run_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_run_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_compute_task_diagnostics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_compute_task_diagnostics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_warnings_summary_from_diagnostics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_warnings_summary_from_diagnostics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_links_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_links_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_task",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:create_task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:create_task",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_safe_attachment_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_safe_attachment_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_task_attachments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_task_attachments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:upload_task_attachment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:upload_task_attachment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:download_attachment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:download_attachment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:remove_attachment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:remove_attachment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:update_task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:update_task",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:delete_task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:delete_task",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_parents_blocking_ready",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_parents_blocking_ready",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_set_status_direct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_set_status_direct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:add_comment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:add_comment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:add_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:add_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:delete_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:delete_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:bulk_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:bulk_update",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_diagnostics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_diagnostics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_active_workers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_active_workers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_run_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_run_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:inspect_run_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:inspect_run_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:terminate_run_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:terminate_run_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:reclaim_task_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:reclaim_task_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:specify_task_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:specify_task_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:reassign_task_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:reassign_task_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_configured_home_channels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_configured_home_channels",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_active_profile_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_active_profile_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_home_sub_matches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_home_sub_matches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_home_channels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_home_channels",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:subscribe_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:subscribe_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:unsubscribe_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:unsubscribe_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_assignees",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_assignees",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_task_log",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_task_log",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:dispatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:dispatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_board_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:_board_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_boards",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_boards",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:create_board_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:create_board_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:rename_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:rename_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:delete_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:delete_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:switch_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:switch_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_profile_roster",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:list_profile_roster",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:update_profile_description",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:update_profile_description",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:auto_describe_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:auto_describe_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:decompose_task_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:decompose_task_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_orchestration_settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:get_orchestration_settings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:set_orchestration_settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:set_orchestration_settings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:stream_events",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "function:plugins/kanban/dashboard/plugin_api.py:stream_events",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:CreateTaskBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:CreateTaskBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:UpdateTaskBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:UpdateTaskBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:CommentBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:CommentBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:LinkBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:LinkBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:BulkTaskBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:BulkTaskBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:TerminateRunBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:TerminateRunBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:ReclaimBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:ReclaimBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:SpecifyBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:SpecifyBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:ReassignBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:ReassignBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:CreateBoardBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:CreateBoardBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:RenameBoardBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:RenameBoardBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:DescribeBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:DescribeBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:DescribeAutoBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:DescribeAutoBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:DecomposeBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:DecomposeBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:OrchestrationSettingsBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/kanban/dashboard/plugin_api.py",
+      "target": "class:plugins/kanban/dashboard/plugin_api.py:OrchestrationSettingsBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_register_synthetic_package",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_register_synthetic_package",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_get_user_plugins_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_get_user_plugins_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_is_memory_provider_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_is_memory_provider_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_iter_provider_dirs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_iter_provider_dirs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:find_provider_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:find_provider_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:discover_memory_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:discover_memory_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:load_memory_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:load_memory_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_load_provider_from_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_load_provider_from_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_get_active_memory_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:_get_active_memory_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:discover_plugin_cli_commands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "function:plugins/memory/__init__.py:discover_plugin_cli_commands",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "class:plugins/memory/__init__.py:_ProviderCollector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/__init__.py",
+      "target": "class:plugins/memory/__init__.py:_ProviderCollector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:_resolve_brv_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:_resolve_brv_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:_run_brv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:_run_brv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:_get_brv_cwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:_get_brv_cwd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "function:plugins/memory/byterover/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "class:plugins/memory/byterover/__init__.py:ByteRoverMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/byterover/__init__.py",
+      "target": "class:plugins/memory/byterover/__init__.py:ByteRoverMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_parse_int_setting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_parse_int_setting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_check_local_runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_check_local_runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_meets_minimum_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_meets_minimum_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_fetch_hindsight_api_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_fetch_hindsight_api_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_check_api_supports_update_mode_append",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_check_api_supports_update_mode_append",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_get_loop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_get_loop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_run_sync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_run_sync",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_load_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_load_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_normalize_retain_tags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_normalize_retain_tags",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_utc_timestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_utc_timestamp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_embedded_profile_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_embedded_profile_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_load_simple_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_load_simple_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_build_embedded_profile_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_build_embedded_profile_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_embedded_profile_env_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_embedded_profile_env_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_materialize_embedded_profile_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_materialize_embedded_profile_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_sanitize_bank_segment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_sanitize_bank_segment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_resolve_bank_id_template",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:_resolve_bank_id_template",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "function:plugins/memory/hindsight/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "class:plugins/memory/hindsight/__init__.py:HindsightMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/hindsight/__init__.py",
+      "target": "class:plugins/memory/hindsight/__init__.py:HindsightMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

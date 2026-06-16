@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "service:.dockerignore",
+      "type": "service",
+      "name": ".dockerignore",
+      "filePath": ".dockerignore",
+      "summary": ".dockerignore 描述服务、容器或部署环境，是运行时基础设施的一部分。",
+      "tags": [
+        "infrastructure",
+        "containerization",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:docker-compose.windows.yml",
+      "type": "service",
+      "name": "docker-compose.windows.yml",
+      "filePath": "docker-compose.windows.yml",
+      "summary": "docker-compose.windows.yml 描述服务、容器或部署环境，是运行时基础设施的一部分。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "containerization"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "service:docker-compose.yml",
+      "type": "service",
+      "name": "docker-compose.yml",
+      "filePath": "docker-compose.yml",
+      "summary": "docker-compose.yml 描述服务、容器或部署环境，是运行时基础设施的一部分。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "containerization"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "service:Dockerfile",
+      "type": "service",
+      "name": "Dockerfile",
+      "filePath": "Dockerfile",
+      "summary": "Dockerfile 描述服务、容器或部署环境，是运行时基础设施的一部分。",
+      "tags": [
+        "dockerfile",
+        "infrastructure",
+        "containerization"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 dockerfile。"
+    },
+    {
+      "id": "service:Dockerfile:uv_source",
+      "type": "service",
+      "name": "uv_source",
+      "filePath": "Dockerfile",
+      "summary": "uv_source 是 Dockerfile 中声明的服务或容器单元。",
+      "tags": [
+        "service",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "service:Dockerfile:node_source",
+      "type": "service",
+      "name": "node_source",
+      "filePath": "Dockerfile",
+      "summary": "node_source 是 Dockerfile 中声明的服务或容器单元。",
+      "tags": [
+        "service",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "service:Dockerfile:debian",
+      "type": "service",
+      "name": "debian",
+      "filePath": "Dockerfile",
+      "summary": "debian 是 Dockerfile 中声明的服务或容器单元。",
+      "tags": [
+        "service",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "service:Dockerfile",
+      "target": "service:Dockerfile:uv_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "service:Dockerfile",
+      "target": "service:Dockerfile:node_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "service:Dockerfile",
+      "target": "service:Dockerfile:debian",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

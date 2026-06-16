@@ -1,0 +1,2015 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/app/settings/gateway-settings.tsx",
+      "type": "file",
+      "name": "gateway-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/gateway-settings.tsx",
+      "summary": "gateway-settings.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/gateway-settings.tsx:ModeCard",
+      "type": "function",
+      "name": "ModeCard",
+      "filePath": "apps/desktop/src/app/settings/gateway-settings.tsx",
+      "lineRange": [
+        40,
+        78
+      ],
+      "summary": "ModeCard 是 gateway-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/gateway-settings.tsx:ScopeChip",
+      "type": "function",
+      "name": "ScopeChip",
+      "filePath": "apps/desktop/src/app/settings/gateway-settings.tsx",
+      "lineRange": [
+        80,
+        95
+      ],
+      "summary": "ScopeChip 是 gateway-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/gateway-settings.tsx:GatewaySettings",
+      "type": "function",
+      "name": "GatewaySettings",
+      "filePath": "apps/desktop/src/app/settings/gateway-settings.tsx",
+      "lineRange": [
+        97,
+        620
+      ],
+      "summary": "GatewaySettings 是 gateway-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/helpers.test.ts",
+      "type": "file",
+      "name": "helpers.test.ts",
+      "filePath": "apps/desktop/src/app/settings/helpers.test.ts",
+      "summary": "helpers.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/helpers.ts",
+      "type": "file",
+      "name": "helpers.ts",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "summary": "helpers.ts 是 typescript 源文件，包含 18 个函数、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:asText",
+      "type": "function",
+      "name": "asText",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        5,
+        5
+      ],
+      "summary": "asText 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:includesQuery",
+      "type": "function",
+      "name": "includesQuery",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        7,
+        7
+      ],
+      "summary": "includesQuery 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:prettyName",
+      "type": "function",
+      "name": "prettyName",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        9,
+        9
+      ],
+      "summary": "prettyName 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:stripToolsetLabel",
+      "type": "function",
+      "name": "stripToolsetLabel",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        12,
+        13
+      ],
+      "summary": "stripToolsetLabel 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:toolsetDisplayLabel",
+      "type": "function",
+      "name": "toolsetDisplayLabel",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        15,
+        16
+      ],
+      "summary": "toolsetDisplayLabel 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:toolNames",
+      "type": "function",
+      "name": "toolNames",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        18,
+        18
+      ],
+      "summary": "toolNames 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:withoutKey",
+      "type": "function",
+      "name": "withoutKey",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        20,
+        25
+      ],
+      "summary": "withoutKey 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:redactedValue",
+      "type": "function",
+      "name": "redactedValue",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        27,
+        27
+      ],
+      "summary": "redactedValue 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:providerGroup",
+      "type": "function",
+      "name": "providerGroup",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        32,
+        46
+      ],
+      "summary": "providerGroup 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:providerMeta",
+      "type": "function",
+      "name": "providerMeta",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        48,
+        50
+      ],
+      "summary": "providerMeta 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:providerPriority",
+      "type": "function",
+      "name": "providerPriority",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        52,
+        52
+      ],
+      "summary": "providerPriority 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:safeSet",
+      "type": "function",
+      "name": "safeSet",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        70,
+        81
+      ],
+      "summary": "safeSet 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:getNested",
+      "type": "function",
+      "name": "getNested",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        83,
+        99
+      ],
+      "summary": "getNested 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:setNested",
+      "type": "function",
+      "name": "setNested",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        101,
+        125
+      ],
+      "summary": "setNested 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/helpers.ts:enumOptionsFor",
+      "type": "function",
+      "name": "enumOptionsFor",
+      "filePath": "apps/desktop/src/app/settings/helpers.ts",
+      "lineRange": [
+        136,
+        151
+      ],
+      "summary": "enumOptionsFor 是 helpers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/settings/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/index.tsx:SettingsView",
+      "type": "function",
+      "name": "SettingsView",
+      "filePath": "apps/desktop/src/app/settings/index.tsx",
+      "lineRange": [
+        37,
+        235
+      ],
+      "summary": "SettingsView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/keys-settings.tsx",
+      "type": "file",
+      "name": "keys-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/keys-settings.tsx",
+      "summary": "keys-settings.tsx 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/keys-settings.tsx:KeysSettings",
+      "type": "function",
+      "name": "KeysSettings",
+      "filePath": "apps/desktop/src/app/settings/keys-settings.tsx",
+      "lineRange": [
+        30,
+        92
+      ],
+      "summary": "KeysSettings 是 keys-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/mcp-settings.tsx",
+      "type": "file",
+      "name": "mcp-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/mcp-settings.tsx",
+      "summary": "mcp-settings.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/mcp-settings.tsx:McpSettings",
+      "type": "function",
+      "name": "McpSettings",
+      "filePath": "apps/desktop/src/app/settings/mcp-settings.tsx",
+      "lineRange": [
+        46,
+        271
+      ],
+      "summary": "McpSettings 是 mcp-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/model-settings.test.tsx",
+      "type": "file",
+      "name": "model-settings.test.tsx",
+      "filePath": "apps/desktop/src/app/settings/model-settings.test.tsx",
+      "summary": "model-settings.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/model-settings.tsx",
+      "type": "file",
+      "name": "model-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/model-settings.tsx",
+      "summary": "model-settings.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/model-settings.tsx:StaleAuxWarning",
+      "type": "function",
+      "name": "StaleAuxWarning",
+      "filePath": "apps/desktop/src/app/settings/model-settings.tsx",
+      "lineRange": [
+        62,
+        83
+      ],
+      "summary": "StaleAuxWarning 是 model-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/model-settings.tsx:ModelSettings",
+      "type": "function",
+      "name": "ModelSettings",
+      "filePath": "apps/desktop/src/app/settings/model-settings.tsx",
+      "lineRange": [
+        90,
+        559
+      ],
+      "summary": "ModelSettings 是 model-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "type": "file",
+      "name": "primitives.tsx",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "summary": "primitives.tsx 是 typescript 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:SettingsContent",
+      "type": "function",
+      "name": "SettingsContent",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        11,
+        19
+      ],
+      "summary": "SettingsContent 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:Pill",
+      "type": "function",
+      "name": "Pill",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "Pill 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:SectionHeading",
+      "type": "function",
+      "name": "SectionHeading",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        25,
+        33
+      ],
+      "summary": "SectionHeading 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:NavLink",
+      "type": "function",
+      "name": "NavLink",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        35,
+        63
+      ],
+      "summary": "NavLink 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:ListRow",
+      "type": "function",
+      "name": "ListRow",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        65,
+        100
+      ],
+      "summary": "ListRow 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:LoadingState",
+      "type": "function",
+      "name": "LoadingState",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        102,
+        104
+      ],
+      "summary": "LoadingState 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/primitives.tsx:EmptyState",
+      "type": "function",
+      "name": "EmptyState",
+      "filePath": "apps/desktop/src/app/settings/primitives.tsx",
+      "lineRange": [
+        106,
+        115
+      ],
+      "summary": "EmptyState 是 primitives.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/providers-settings.tsx",
+      "type": "file",
+      "name": "providers-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/providers-settings.tsx",
+      "summary": "providers-settings.tsx 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/providers-settings.tsx:buildProviderKeyGroups",
+      "type": "function",
+      "name": "buildProviderKeyGroups",
+      "filePath": "apps/desktop/src/app/settings/providers-settings.tsx",
+      "lineRange": [
+        32,
+        78
+      ],
+      "summary": "buildProviderKeyGroups 是 providers-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/providers-settings.tsx:OAuthPicker",
+      "type": "function",
+      "name": "OAuthPicker",
+      "filePath": "apps/desktop/src/app/settings/providers-settings.tsx",
+      "lineRange": [
+        88,
+        159
+      ],
+      "summary": "OAuthPicker 是 providers-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/providers-settings.tsx:ProvidersSettings",
+      "type": "function",
+      "name": "ProvidersSettings",
+      "filePath": "apps/desktop/src/app/settings/providers-settings.tsx",
+      "lineRange": [
+        171,
+        243
+      ],
+      "summary": "ProvidersSettings 是 providers-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/sessions-settings.tsx",
+      "type": "file",
+      "name": "sessions-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/sessions-settings.tsx",
+      "summary": "sessions-settings.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/sessions-settings.tsx:workspaceLabel",
+      "type": "function",
+      "name": "workspaceLabel",
+      "filePath": "apps/desktop/src/app/settings/sessions-settings.tsx",
+      "lineRange": [
+        19,
+        33
+      ],
+      "summary": "workspaceLabel 是 sessions-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/sessions-settings.tsx:SessionsSettings",
+      "type": "function",
+      "name": "SessionsSettings",
+      "filePath": "apps/desktop/src/app/settings/sessions-settings.tsx",
+      "lineRange": [
+        35,
+        166
+      ],
+      "summary": "SessionsSettings 是 sessions-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/sessions-settings.tsx:DefaultProjectDirSetting",
+      "type": "function",
+      "name": "DefaultProjectDirSetting",
+      "filePath": "apps/desktop/src/app/settings/sessions-settings.tsx",
+      "lineRange": [
+        171,
+        276
+      ],
+      "summary": "DefaultProjectDirSetting 是 sessions-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/toolset-config-panel.test.tsx",
+      "type": "file",
+      "name": "toolset-config-panel.test.tsx",
+      "filePath": "apps/desktop/src/app/settings/toolset-config-panel.test.tsx",
+      "summary": "toolset-config-panel.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/toolset-config-panel.test.tsx:config",
+      "type": "function",
+      "name": "config",
+      "filePath": "apps/desktop/src/app/settings/toolset-config-panel.test.tsx",
+      "lineRange": [
+        33,
+        62
+      ],
+      "summary": "config 是 toolset-config-panel.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "type": "file",
+      "name": "toolset-config-panel.tsx",
+      "filePath": "apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "summary": "toolset-config-panel.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:EnvVarField",
+      "type": "function",
+      "name": "EnvVarField",
+      "filePath": "apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "lineRange": [
+        47,
+        167
+      ],
+      "summary": "EnvVarField 是 toolset-config-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:PostSetupRunner",
+      "type": "function",
+      "name": "PostSetupRunner",
+      "filePath": "apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "lineRange": [
+        184,
+        281
+      ],
+      "summary": "PostSetupRunner 是 toolset-config-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:ToolsetConfigPanel",
+      "type": "function",
+      "name": "ToolsetConfigPanel",
+      "filePath": "apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "lineRange": [
+        283,
+        449
+      ],
+      "summary": "ToolsetConfigPanel 是 toolset-config-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "apps/desktop/src/app/settings/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/uninstall-section.tsx",
+      "type": "file",
+      "name": "uninstall-section.tsx",
+      "filePath": "apps/desktop/src/app/settings/uninstall-section.tsx",
+      "summary": "uninstall-section.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/uninstall-section.tsx:UninstallSection",
+      "type": "function",
+      "name": "UninstallSection",
+      "filePath": "apps/desktop/src/app/settings/uninstall-section.tsx",
+      "lineRange": [
+        48,
+        185
+      ],
+      "summary": "UninstallSection 是 uninstall-section.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/use-deep-link-highlight.ts",
+      "type": "file",
+      "name": "use-deep-link-highlight.ts",
+      "filePath": "apps/desktop/src/app/settings/use-deep-link-highlight.ts",
+      "summary": "use-deep-link-highlight.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/use-deep-link-highlight.ts:useDeepLinkHighlight",
+      "type": "function",
+      "name": "useDeepLinkHighlight",
+      "filePath": "apps/desktop/src/app/settings/use-deep-link-highlight.ts",
+      "lineRange": [
+        16,
+        60
+      ],
+      "summary": "useDeepLinkHighlight 是 use-deep-link-highlight.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/app-shell.tsx",
+      "type": "file",
+      "name": "app-shell.tsx",
+      "filePath": "apps/desktop/src/app/shell/app-shell.tsx",
+      "summary": "app-shell.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/app-shell.tsx:AppShell",
+      "type": "function",
+      "name": "AppShell",
+      "filePath": "apps/desktop/src/app/shell/app-shell.tsx",
+      "lineRange": [
+        52,
+        173
+      ],
+      "summary": "AppShell 是 app-shell.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/gateway-menu-panel.tsx",
+      "type": "file",
+      "name": "gateway-menu-panel.tsx",
+      "filePath": "apps/desktop/src/app/shell/gateway-menu-panel.tsx",
+      "summary": "gateway-menu-panel.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/gateway-menu-panel.tsx:GatewayMenuPanel",
+      "type": "function",
+      "name": "GatewayMenuPanel",
+      "filePath": "apps/desktop/src/app/shell/gateway-menu-panel.tsx",
+      "lineRange": [
+        37,
+        144
+      ],
+      "summary": "GatewayMenuPanel 是 gateway-menu-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/hooks/use-overlay-routing.ts",
+      "type": "file",
+      "name": "use-overlay-routing.ts",
+      "filePath": "apps/desktop/src/app/shell/hooks/use-overlay-routing.ts",
+      "summary": "use-overlay-routing.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/hooks/use-overlay-routing.ts:useOverlayRouting",
+      "type": "function",
+      "name": "useOverlayRouting",
+      "filePath": "apps/desktop/src/app/shell/hooks/use-overlay-routing.ts",
+      "lineRange": [
+        9,
+        71
+      ],
+      "summary": "useOverlayRouting 是 use-overlay-routing.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/hooks/use-status-snapshot.ts",
+      "type": "file",
+      "name": "use-status-snapshot.ts",
+      "filePath": "apps/desktop/src/app/shell/hooks/use-status-snapshot.ts",
+      "summary": "use-status-snapshot.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/hooks/use-status-snapshot.ts:useStatusSnapshot",
+      "type": "function",
+      "name": "useStatusSnapshot",
+      "filePath": "apps/desktop/src/app/shell/hooks/use-status-snapshot.ts",
+      "lineRange": [
+        12,
+        57
+      ],
+      "summary": "useStatusSnapshot 是 use-status-snapshot.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx",
+      "type": "file",
+      "name": "use-statusbar-items.tsx",
+      "filePath": "apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx",
+      "summary": "use-statusbar-items.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx:useStatusbarItems",
+      "type": "function",
+      "name": "useStatusbarItems",
+      "filePath": "apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx",
+      "lineRange": [
+        66,
+        420
+      ],
+      "summary": "useStatusbarItems 是 use-statusbar-items.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/keybind-panel.tsx",
+      "type": "file",
+      "name": "keybind-panel.tsx",
+      "filePath": "apps/desktop/src/app/shell/keybind-panel.tsx",
+      "summary": "keybind-panel.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/keybind-panel.tsx:KeybindPanel",
+      "type": "function",
+      "name": "KeybindPanel",
+      "filePath": "apps/desktop/src/app/shell/keybind-panel.tsx",
+      "lineRange": [
+        32,
+        105
+      ],
+      "summary": "KeybindPanel 是 keybind-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/keybind-panel.tsx:CategoryHeader",
+      "type": "function",
+      "name": "CategoryHeader",
+      "filePath": "apps/desktop/src/app/shell/keybind-panel.tsx",
+      "lineRange": [
+        109,
+        124
+      ],
+      "summary": "CategoryHeader 是 keybind-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/keybind-panel.tsx:KeybindRow",
+      "type": "function",
+      "name": "KeybindRow",
+      "filePath": "apps/desktop/src/app/shell/keybind-panel.tsx",
+      "lineRange": [
+        135,
+        198
+      ],
+      "summary": "KeybindRow 是 keybind-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/keybind-panel.tsx:ReadonlyRow",
+      "type": "function",
+      "name": "ReadonlyRow",
+      "filePath": "apps/desktop/src/app/shell/keybind-panel.tsx",
+      "lineRange": [
+        202,
+        220
+      ],
+      "summary": "ReadonlyRow 是 keybind-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "type": "file",
+      "name": "model-edit-submenu.tsx",
+      "filePath": "apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "summary": "model-edit-submenu.tsx 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:resolveFastControl",
+      "type": "function",
+      "name": "resolveFastControl",
+      "filePath": "apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "lineRange": [
+        44,
+        76
+      ],
+      "summary": "resolveFastControl 是 model-edit-submenu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:ModelEditSubmenu",
+      "type": "function",
+      "name": "ModelEditSubmenu",
+      "filePath": "apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "lineRange": [
+        93,
+        229
+      ],
+      "summary": "ModelEditSubmenu 是 model-edit-submenu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:normalizeEffort",
+      "type": "function",
+      "name": "normalizeEffort",
+      "filePath": "apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "lineRange": [
+        236,
+        245
+      ],
+      "summary": "normalizeEffort 是 model-edit-submenu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "type": "file",
+      "name": "model-menu-panel.tsx",
+      "filePath": "apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "summary": "model-menu-panel.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/model-menu-panel.tsx:ModelMenuPanel",
+      "type": "function",
+      "name": "ModelMenuPanel",
+      "filePath": "apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "lineRange": [
+        53,
+        228
+      ],
+      "summary": "ModelMenuPanel 是 model-menu-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/model-menu-panel.tsx:groupModels",
+      "type": "function",
+      "name": "groupModels",
+      "filePath": "apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "lineRange": [
+        234,
+        295
+      ],
+      "summary": "groupModels 是 model-menu-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/shell/sidebar-label.tsx",
+      "type": "file",
+      "name": "sidebar-label.tsx",
+      "filePath": "apps/desktop/src/app/shell/sidebar-label.tsx",
+      "summary": "sidebar-label.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/shell/sidebar-label.tsx:SidebarPanelLabel",
+      "type": "function",
+      "name": "SidebarPanelLabel",
+      "filePath": "apps/desktop/src/app/shell/sidebar-label.tsx",
+      "lineRange": [
+        9,
+        22
+      ],
+      "summary": "SidebarPanelLabel 是 sidebar-label.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/app/settings/gateway-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/gateway-settings.tsx:ModeCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/gateway-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/gateway-settings.tsx:ScopeChip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/gateway-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/gateway-settings.tsx:GatewaySettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/gateway-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/gateway-settings.tsx:GatewaySettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:asText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:asText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:includesQuery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:includesQuery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:prettyName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:prettyName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:stripToolsetLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:stripToolsetLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:toolsetDisplayLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:toolsetDisplayLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:toolNames",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:toolNames",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:withoutKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:withoutKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:redactedValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:redactedValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:providerGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:providerGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:providerMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:providerMeta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:providerPriority",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:providerPriority",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:safeSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:getNested",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:getNested",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:setNested",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:setNested",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:enumOptionsFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/helpers.ts",
+      "target": "function:apps/desktop/src/app/settings/helpers.ts:enumOptionsFor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/index.tsx",
+      "target": "function:apps/desktop/src/app/settings/index.tsx:SettingsView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/index.tsx",
+      "target": "function:apps/desktop/src/app/settings/index.tsx:SettingsView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/keys-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/keys-settings.tsx:KeysSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/keys-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/keys-settings.tsx:KeysSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/mcp-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/mcp-settings.tsx:McpSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/mcp-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/mcp-settings.tsx:McpSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/model-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/model-settings.tsx:StaleAuxWarning",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/model-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/model-settings.tsx:ModelSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/model-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/model-settings.tsx:ModelSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:SettingsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:SettingsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:Pill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:Pill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:SectionHeading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:SectionHeading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:NavLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:NavLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:ListRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:ListRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:LoadingState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:LoadingState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:EmptyState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/primitives.tsx",
+      "target": "function:apps/desktop/src/app/settings/primitives.tsx:EmptyState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/providers-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/providers-settings.tsx:buildProviderKeyGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/providers-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/providers-settings.tsx:OAuthPicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/providers-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/providers-settings.tsx:ProvidersSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/providers-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/providers-settings.tsx:ProvidersSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/sessions-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/sessions-settings.tsx:workspaceLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/sessions-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/sessions-settings.tsx:SessionsSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/sessions-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/sessions-settings.tsx:SessionsSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/sessions-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/sessions-settings.tsx:DefaultProjectDirSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/toolset-config-panel.test.tsx",
+      "target": "function:apps/desktop/src/app/settings/toolset-config-panel.test.tsx:config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "target": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:EnvVarField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "target": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:PostSetupRunner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "target": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:ToolsetConfigPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/toolset-config-panel.tsx",
+      "target": "function:apps/desktop/src/app/settings/toolset-config-panel.tsx:ToolsetConfigPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/uninstall-section.tsx",
+      "target": "function:apps/desktop/src/app/settings/uninstall-section.tsx:UninstallSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/uninstall-section.tsx",
+      "target": "function:apps/desktop/src/app/settings/uninstall-section.tsx:UninstallSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/use-deep-link-highlight.ts",
+      "target": "function:apps/desktop/src/app/settings/use-deep-link-highlight.ts:useDeepLinkHighlight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/use-deep-link-highlight.ts",
+      "target": "function:apps/desktop/src/app/settings/use-deep-link-highlight.ts:useDeepLinkHighlight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/app-shell.tsx",
+      "target": "function:apps/desktop/src/app/shell/app-shell.tsx:AppShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/app-shell.tsx",
+      "target": "function:apps/desktop/src/app/shell/app-shell.tsx:AppShell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/gateway-menu-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/gateway-menu-panel.tsx:GatewayMenuPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/gateway-menu-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/gateway-menu-panel.tsx:GatewayMenuPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/hooks/use-overlay-routing.ts",
+      "target": "function:apps/desktop/src/app/shell/hooks/use-overlay-routing.ts:useOverlayRouting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/hooks/use-overlay-routing.ts",
+      "target": "function:apps/desktop/src/app/shell/hooks/use-overlay-routing.ts:useOverlayRouting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/hooks/use-status-snapshot.ts",
+      "target": "function:apps/desktop/src/app/shell/hooks/use-status-snapshot.ts:useStatusSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/hooks/use-status-snapshot.ts",
+      "target": "function:apps/desktop/src/app/shell/hooks/use-status-snapshot.ts:useStatusSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx",
+      "target": "function:apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx:useStatusbarItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx",
+      "target": "function:apps/desktop/src/app/shell/hooks/use-statusbar-items.tsx:useStatusbarItems",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/keybind-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/keybind-panel.tsx:KeybindPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/keybind-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/keybind-panel.tsx:KeybindPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/keybind-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/keybind-panel.tsx:CategoryHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/keybind-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/keybind-panel.tsx:KeybindRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/keybind-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/keybind-panel.tsx:ReadonlyRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:resolveFastControl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:resolveFastControl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:ModelEditSubmenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:ModelEditSubmenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-edit-submenu.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-edit-submenu.tsx:normalizeEffort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-menu-panel.tsx:ModelMenuPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-menu-panel.tsx:ModelMenuPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/model-menu-panel.tsx",
+      "target": "function:apps/desktop/src/app/shell/model-menu-panel.tsx:groupModels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/sidebar-label.tsx",
+      "target": "function:apps/desktop/src/app/shell/sidebar-label.tsx:SidebarPanelLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/shell/sidebar-label.tsx",
+      "target": "function:apps/desktop/src/app/shell/sidebar-label.tsx:SidebarPanelLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

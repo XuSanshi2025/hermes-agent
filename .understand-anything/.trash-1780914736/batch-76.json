@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:ui-tui/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "ui-tui/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "config:ui-tui/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "ui-tui/package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:ui-tui/tsconfig.build.json",
+      "type": "config",
+      "name": "tsconfig.build.json",
+      "filePath": "ui-tui/tsconfig.build.json",
+      "summary": "tsconfig.build.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:ui-tui/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "ui-tui/tsconfig.json",
+      "summary": "tsconfig.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": []
+}

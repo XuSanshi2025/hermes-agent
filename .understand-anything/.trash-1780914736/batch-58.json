@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "file:skills/creative/p5js/scripts/render.sh",
+      "type": "file",
+      "name": "render.sh",
+      "filePath": "skills/creative/p5js/scripts/render.sh",
+      "summary": "render.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:skills/creative/p5js/scripts/serve.sh",
+      "type": "file",
+      "name": "serve.sh",
+      "filePath": "skills/creative/p5js/scripts/serve.sh",
+      "summary": "serve.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:skills/creative/p5js/scripts/setup.sh",
+      "type": "file",
+      "name": "setup.sh",
+      "filePath": "skills/creative/p5js/scripts/setup.sh",
+      "summary": "setup.sh 是 shell 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    }
+  ],
+  "edges": []
+}

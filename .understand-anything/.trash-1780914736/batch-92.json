@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/apple/apple-apple-notes.md",
+      "type": "document",
+      "name": "apple-apple-notes.md",
+      "filePath": "website/docs/user-guide/skills/bundled/apple/apple-apple-notes.md",
+      "summary": "apple-apple-notes.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/apple/apple-apple-reminders.md",
+      "type": "document",
+      "name": "apple-apple-reminders.md",
+      "filePath": "website/docs/user-guide/skills/bundled/apple/apple-apple-reminders.md",
+      "summary": "apple-apple-reminders.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/apple/apple-findmy.md",
+      "type": "document",
+      "name": "apple-findmy.md",
+      "filePath": "website/docs/user-guide/skills/bundled/apple/apple-findmy.md",
+      "summary": "apple-findmy.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/apple/apple-imessage.md",
+      "type": "document",
+      "name": "apple-imessage.md",
+      "filePath": "website/docs/user-guide/skills/bundled/apple/apple-imessage.md",
+      "summary": "apple-imessage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/apple/apple-macos-computer-use.md",
+      "type": "document",
+      "name": "apple-macos-computer-use.md",
+      "filePath": "website/docs/user-guide/skills/bundled/apple/apple-macos-computer-use.md",
+      "summary": "apple-macos-computer-use.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

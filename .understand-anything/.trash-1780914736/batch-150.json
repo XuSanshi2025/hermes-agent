@@ -1,0 +1,3740 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/electron/hardening.test.cjs",
+      "type": "file",
+      "name": "hardening.test.cjs",
+      "filePath": "apps/desktop/electron/hardening.test.cjs",
+      "summary": "hardening.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/main.cjs",
+      "type": "file",
+      "name": "main.cjs",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "summary": "main.cjs 是 javascript 源文件，包含 185 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:loadInstallStamp",
+      "type": "function",
+      "name": "loadInstallStamp",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        138,
+        173
+      ],
+      "summary": "loadInstallStamp 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveHermesHome",
+      "type": "function",
+      "name": "resolveHermesHome",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        202,
+        214
+      ],
+      "summary": "resolveHermesHome 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:getTitleBarOverlayOptions",
+      "type": "function",
+      "name": "getTitleBarOverlayOptions",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        312,
+        332
+      ],
+      "summary": "getTitleBarOverlayOptions 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:looksBinary",
+      "type": "function",
+      "name": "looksBinary",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        394,
+        406
+      ],
+      "summary": "looksBinary 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:previewFileMetadata",
+      "type": "function",
+      "name": "previewFileMetadata",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        408,
+        436
+      ],
+      "summary": "previewFileMetadata 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:registerMediaProtocol",
+      "type": "function",
+      "name": "registerMediaProtocol",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        484,
+        507
+      ],
+      "summary": "registerMediaProtocol 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:planDesktopLogRotation",
+      "type": "function",
+      "name": "planDesktopLogRotation",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        568,
+        582
+      ],
+      "summary": "planDesktopLogRotation 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:rotateDesktopLogIfNeededSync",
+      "type": "function",
+      "name": "rotateDesktopLogIfNeededSync",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        584,
+        599
+      ],
+      "summary": "rotateDesktopLogIfNeededSync 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:rotateDesktopLogIfNeededAsync",
+      "type": "function",
+      "name": "rotateDesktopLogIfNeededAsync",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        601,
+        616
+      ],
+      "summary": "rotateDesktopLogIfNeededAsync 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:flushDesktopLogBufferSync",
+      "type": "function",
+      "name": "flushDesktopLogBufferSync",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        618,
+        630
+      ],
+      "summary": "flushDesktopLogBufferSync 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:flushDesktopLogBufferAsync",
+      "type": "function",
+      "name": "flushDesktopLogBufferAsync",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        632,
+        648
+      ],
+      "summary": "flushDesktopLogBufferAsync 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:rememberLog",
+      "type": "function",
+      "name": "rememberLog",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        658,
+        680
+      ],
+      "summary": "rememberLog 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:openExternalUrl",
+      "type": "function",
+      "name": "openExternalUrl",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        682,
+        751
+      ],
+      "summary": "openExternalUrl 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:ensureWslWindowsFonts",
+      "type": "function",
+      "name": "ensureWslWindowsFonts",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        753,
+        789
+      ],
+      "summary": "ensureWslWindowsFonts 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:broadcastBootstrapEvent",
+      "type": "function",
+      "name": "broadcastBootstrapEvent",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        839,
+        882
+      ],
+      "summary": "broadcastBootstrapEvent 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:updateBootProgress",
+      "type": "function",
+      "name": "updateBootProgress",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        888,
+        907
+      ],
+      "summary": "updateBootProgress 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:advanceBootProgress",
+      "type": "function",
+      "name": "advanceBootProgress",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        909,
+        921
+      ],
+      "summary": "advanceBootProgress 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:findOnPath",
+      "type": "function",
+      "name": "findOnPath",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        943,
+        967
+      ],
+      "summary": "findOnPath 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:normalizeExecutablePathForCompare",
+      "type": "function",
+      "name": "normalizeExecutablePathForCompare",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        973,
+        984
+      ],
+      "summary": "normalizeExecutablePathForCompare 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:looksLikeDesktopAppBinary",
+      "type": "function",
+      "name": "looksLikeDesktopAppBinary",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        986,
+        1006
+      ],
+      "summary": "looksLikeDesktopAppBinary 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:findPythonForRoot",
+      "type": "function",
+      "name": "findPythonForRoot",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1012,
+        1026
+      ],
+      "summary": "findPythonForRoot 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:findSystemPython",
+      "type": "function",
+      "name": "findSystemPython",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1028,
+        1143
+      ],
+      "summary": "findSystemPython 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:findGitBash",
+      "type": "function",
+      "name": "findGitBash",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1153,
+        1183
+      ],
+      "summary": "findGitBash 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveGitBinary",
+      "type": "function",
+      "name": "resolveGitBinary",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1195,
+        1216
+      ],
+      "summary": "resolveGitBinary 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:runGit",
+      "type": "function",
+      "name": "runGit",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1260,
+        1283
+      ],
+      "summary": "runGit 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveHealedBranch",
+      "type": "function",
+      "name": "resolveHealedBranch",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1301,
+        1317
+      ],
+      "summary": "resolveHealedBranch 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:checkUpdates",
+      "type": "function",
+      "name": "checkUpdates",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1319,
+        1370
+      ],
+      "summary": "checkUpdates 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:readCommitLog",
+      "type": "function",
+      "name": "readCommitLog",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1372,
+        1388
+      ],
+      "summary": "readCommitLog 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:repairMacUpdaterHelper",
+      "type": "function",
+      "name": "repairMacUpdaterHelper",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1405,
+        1428
+      ],
+      "summary": "repairMacUpdaterHelper 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:isShimLocked",
+      "type": "function",
+      "name": "isShimLocked",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1443,
+        1462
+      ],
+      "summary": "isShimLocked 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:forceKillProcessTree",
+      "type": "function",
+      "name": "forceKillProcessTree",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1472,
+        1481
+      ],
+      "summary": "forceKillProcessTree 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:releaseBackendLock",
+      "type": "function",
+      "name": "releaseBackendLock",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1513,
+        1545
+      ],
+      "summary": "releaseBackendLock 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:applyUpdates",
+      "type": "function",
+      "name": "applyUpdates",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1557,
+        1647
+      ],
+      "summary": "applyUpdates 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:runStreamedUpdate",
+      "type": "function",
+      "name": "runStreamedUpdate",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1658,
+        1682
+      ],
+      "summary": "runStreamedUpdate 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:applyUpdatesPosixInApp",
+      "type": "function",
+      "name": "applyUpdatesPosixInApp",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1701,
+        1842
+      ],
+      "summary": "applyUpdatesPosixInApp 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:isBootstrapComplete",
+      "type": "function",
+      "name": "isBootstrapComplete",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1870,
+        1883
+      ],
+      "summary": "isBootstrapComplete 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:writeBootstrapMarker",
+      "type": "function",
+      "name": "writeBootstrapMarker",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1885,
+        1896
+      ],
+      "summary": "writeBootstrapMarker 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveWebDist",
+      "type": "function",
+      "name": "resolveWebDist",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1898,
+        1920
+      ],
+      "summary": "resolveWebDist 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveRendererIndex",
+      "type": "function",
+      "name": "resolveRendererIndex",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1922,
+        1935
+      ],
+      "summary": "resolveRendererIndex 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveHermesCwd",
+      "type": "function",
+      "name": "resolveHermesCwd",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1937,
+        1961
+      ],
+      "summary": "resolveHermesCwd 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:readDefaultProjectDir",
+      "type": "function",
+      "name": "readDefaultProjectDir",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1973,
+        1991
+      ],
+      "summary": "readDefaultProjectDir 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:writeDefaultProjectDir",
+      "type": "function",
+      "name": "writeDefaultProjectDir",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        1993,
+        2003
+      ],
+      "summary": "writeDefaultProjectDir 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:createPythonBackend",
+      "type": "function",
+      "name": "createPythonBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2005,
+        2021
+      ],
+      "summary": "createPythonBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:createActiveBackend",
+      "type": "function",
+      "name": "createActiveBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2027,
+        2042
+      ],
+      "summary": "createActiveBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveHermesBackend",
+      "type": "function",
+      "name": "resolveHermesBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2044,
+        2178
+      ],
+      "summary": "resolveHermesBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:ensureRuntime",
+      "type": "function",
+      "name": "ensureRuntime",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2180,
+        2325
+      ],
+      "summary": "ensureRuntime 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:isPortAvailable",
+      "type": "function",
+      "name": "isPortAvailable",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2327,
+        2336
+      ],
+      "summary": "isPortAvailable 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:fetchJson",
+      "type": "function",
+      "name": "fetchJson",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2345,
+        2412
+      ],
+      "summary": "fetchJson 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:fetchPublicJson",
+      "type": "function",
+      "name": "fetchPublicJson",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2414,
+        2486
+      ],
+      "summary": "fetchPublicJson 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:extensionForMimeType",
+      "type": "function",
+      "name": "extensionForMimeType",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2494,
+        2506
+      ],
+      "summary": "extensionForMimeType 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:canonicalTitleCacheKey",
+      "type": "function",
+      "name": "canonicalTitleCacheKey",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2555,
+        2568
+      ],
+      "summary": "canonicalTitleCacheKey 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:fetchHtmlTitleWithCurl",
+      "type": "function",
+      "name": "fetchHtmlTitleWithCurl",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2587,
+        2632
+      ],
+      "summary": "fetchHtmlTitleWithCurl 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:dequeueRenderTitle",
+      "type": "function",
+      "name": "dequeueRenderTitle",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2643,
+        2653
+      ],
+      "summary": "dequeueRenderTitle 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:runRenderTitleJob",
+      "type": "function",
+      "name": "runRenderTitleJob",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2655,
+        2722
+      ],
+      "summary": "runRenderTitleJob 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:fetchLinkTitle",
+      "type": "function",
+      "name": "fetchLinkTitle",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2735,
+        2756
+      ],
+      "summary": "fetchLinkTitle 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resourceBufferFromUrl",
+      "type": "function",
+      "name": "resourceBufferFromUrl",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2758,
+        2795
+      ],
+      "summary": "resourceBufferFromUrl 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:saveImageFromUrl",
+      "type": "function",
+      "name": "saveImageFromUrl",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2804,
+        2814
+      ],
+      "summary": "saveImageFromUrl 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:writeComposerImage",
+      "type": "function",
+      "name": "writeComposerImage",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2816,
+        2829
+      ],
+      "summary": "writeComposerImage 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:expandUserPath",
+      "type": "function",
+      "name": "expandUserPath",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2835,
+        2847
+      ],
+      "summary": "expandUserPath 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:previewFileTarget",
+      "type": "function",
+      "name": "previewFileTarget",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2849,
+        2883
+      ],
+      "summary": "previewFileTarget 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:previewUrlTarget",
+      "type": "function",
+      "name": "previewUrlTarget",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2885,
+        2907
+      ],
+      "summary": "previewUrlTarget 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:normalizePreviewTarget",
+      "type": "function",
+      "name": "normalizePreviewTarget",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2909,
+        2925
+      ],
+      "summary": "normalizePreviewTarget 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:watchPreviewFile",
+      "type": "function",
+      "name": "watchPreviewFile",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2944,
+        2973
+      ],
+      "summary": "watchPreviewFile 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:stopPreviewFileWatch",
+      "type": "function",
+      "name": "stopPreviewFileWatch",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2975,
+        2986
+      ],
+      "summary": "stopPreviewFileWatch 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:waitForHermes",
+      "type": "function",
+      "name": "waitForHermes",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        2994,
+        3009
+      ],
+      "summary": "waitForHermes 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:registerPowerResumeListeners",
+      "type": "function",
+      "name": "registerPowerResumeListeners",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3058,
+        3070
+      ],
+      "summary": "registerPowerResumeListeners 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:sendWindowStateChanged",
+      "type": "function",
+      "name": "sendWindowStateChanged",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3085,
+        3096
+      ],
+      "summary": "sendWindowStateChanged 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:buildApplicationMenu",
+      "type": "function",
+      "name": "buildApplicationMenu",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3098,
+        3202
+      ],
+      "summary": "buildApplicationMenu 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:toggleDevTools",
+      "type": "function",
+      "name": "toggleDevTools",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3204,
+        3215
+      ],
+      "summary": "toggleDevTools 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:installDevToolsShortcut",
+      "type": "function",
+      "name": "installDevToolsShortcut",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3217,
+        3229
+      ],
+      "summary": "installDevToolsShortcut 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:installPreviewShortcut",
+      "type": "function",
+      "name": "installPreviewShortcut",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3231,
+        3241
+      ],
+      "summary": "installPreviewShortcut 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:restorePersistedZoomLevel",
+      "type": "function",
+      "name": "restorePersistedZoomLevel",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3263,
+        3273
+      ],
+      "summary": "restorePersistedZoomLevel 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:installZoomShortcuts",
+      "type": "function",
+      "name": "installZoomShortcuts",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3275,
+        3297
+      ],
+      "summary": "installZoomShortcuts 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:installContextMenu",
+      "type": "function",
+      "name": "installContextMenu",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3299,
+        3394
+      ],
+      "summary": "installContextMenu 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:isAudioCapturePermission",
+      "type": "function",
+      "name": "isAudioCapturePermission",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3406,
+        3420
+      ],
+      "summary": "isAudioCapturePermission 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:installMediaPermissions",
+      "type": "function",
+      "name": "installMediaPermissions",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3422,
+        3445
+      ],
+      "summary": "installMediaPermissions 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:hasOauthSessionCookie",
+      "type": "function",
+      "name": "hasOauthSessionCookie",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3488,
+        3505
+      ],
+      "summary": "hasOauthSessionCookie 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:hasLiveOauthSession",
+      "type": "function",
+      "name": "hasLiveOauthSession",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3514,
+        3529
+      ],
+      "summary": "hasLiveOauthSession 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:clearOauthSession",
+      "type": "function",
+      "name": "clearOauthSession",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3531,
+        3546
+      ],
+      "summary": "clearOauthSession 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:openOauthLoginWindow",
+      "type": "function",
+      "name": "openOauthLoginWindow",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3553,
+        3626
+      ],
+      "summary": "openOauthLoginWindow 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:fetchJsonViaOauthSession",
+      "type": "function",
+      "name": "fetchJsonViaOauthSession",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3631,
+        3711
+      ],
+      "summary": "fetchJsonViaOauthSession 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:mintGatewayWsTicket",
+      "type": "function",
+      "name": "mintGatewayWsTicket",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3716,
+        3726
+      ],
+      "summary": "mintGatewayWsTicket 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:freshGatewayWsUrl",
+      "type": "function",
+      "name": "freshGatewayWsUrl",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3734,
+        3748
+      ],
+      "summary": "freshGatewayWsUrl 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:decryptDesktopSecret",
+      "type": "function",
+      "name": "decryptDesktopSecret",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3754,
+        3774
+      ],
+      "summary": "decryptDesktopSecret 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:sanitizeConnectionProfiles",
+      "type": "function",
+      "name": "sanitizeConnectionProfiles",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3779,
+        3806
+      ],
+      "summary": "sanitizeConnectionProfiles 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:readDesktopConnectionConfig",
+      "type": "function",
+      "name": "readDesktopConnectionConfig",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3808,
+        3852
+      ],
+      "summary": "readDesktopConnectionConfig 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:readActiveDesktopProfile",
+      "type": "function",
+      "name": "readActiveDesktopProfile",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3864,
+        3878
+      ],
+      "summary": "readActiveDesktopProfile 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:writeActiveDesktopProfile",
+      "type": "function",
+      "name": "writeActiveDesktopProfile",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3880,
+        3891
+      ],
+      "summary": "writeActiveDesktopProfile 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:sanitizeDesktopConnectionConfig",
+      "type": "function",
+      "name": "sanitizeDesktopConnectionConfig",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3897,
+        3933
+      ],
+      "summary": "sanitizeDesktopConnectionConfig 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:coerceDesktopConnectionConfig",
+      "type": "function",
+      "name": "coerceDesktopConnectionConfig",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3945,
+        3981
+      ],
+      "summary": "coerceDesktopConnectionConfig 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:buildRemoteConnection",
+      "type": "function",
+      "name": "buildRemoteConnection",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        3988,
+        4047
+      ],
+      "summary": "buildRemoteConnection 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveRemoteBackend",
+      "type": "function",
+      "name": "resolveRemoteBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4056,
+        4088
+      ],
+      "summary": "resolveRemoteBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:probeRemoteAuthMode",
+      "type": "function",
+      "name": "probeRemoteAuthMode",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4128,
+        4191
+      ],
+      "summary": "probeRemoteAuthMode 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:testDesktopConnectionConfig",
+      "type": "function",
+      "name": "testDesktopConnectionConfig",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4193,
+        4247
+      ],
+      "summary": "testDesktopConnectionConfig 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resetBootProgressForReconnect",
+      "type": "function",
+      "name": "resetBootProgressForReconnect",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4249,
+        4260
+      ],
+      "summary": "resetBootProgressForReconnect 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resetHermesConnection",
+      "type": "function",
+      "name": "resetHermesConnection",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4262,
+        4271
+      ],
+      "summary": "resetHermesConnection 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:teardownPrimaryBackendAndWait",
+      "type": "function",
+      "name": "teardownPrimaryBackendAndWait",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4277,
+        4300
+      ],
+      "summary": "teardownPrimaryBackendAndWait 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:ensureBackend",
+      "type": "function",
+      "name": "ensureBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4313,
+        4336
+      ],
+      "summary": "ensureBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:evictLruPoolBackends",
+      "type": "function",
+      "name": "evictLruPoolBackends",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4352,
+        4365
+      ],
+      "summary": "evictLruPoolBackends 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:startPoolIdleReaper",
+      "type": "function",
+      "name": "startPoolIdleReaper",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4367,
+        4383
+      ],
+      "summary": "startPoolIdleReaper 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:spawnPoolBackend",
+      "type": "function",
+      "name": "spawnPoolBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4388,
+        4472
+      ],
+      "summary": "spawnPoolBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:stopPoolBackend",
+      "type": "function",
+      "name": "stopPoolBackend",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4474,
+        4485
+      ],
+      "summary": "stopPoolBackend 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:startHermes",
+      "type": "function",
+      "name": "startHermes",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4493,
+        4662
+      ],
+      "summary": "startHermes 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:createWindow",
+      "type": "function",
+      "name": "createWindow",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4664,
+        4790
+      ],
+      "summary": "createWindow 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:interceptSessionRequestForRemote",
+      "type": "function",
+      "name": "interceptSessionRequestForRemote",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        4972,
+        5031
+      ],
+      "summary": "interceptSessionRequestForRemote 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:remoteSessionList",
+      "type": "function",
+      "name": "remoteSessionList",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5037,
+        5046
+      ],
+      "summary": "remoteSessionList 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:mergeRemoteProfileSessions",
+      "type": "function",
+      "name": "mergeRemoteProfileSessions",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5052,
+        5090
+      ],
+      "summary": "mergeRemoteProfileSessions 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:findGitRoot",
+      "type": "function",
+      "name": "findGitRoot",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5317,
+        5339
+      ],
+      "summary": "findGitRoot 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:terminalShellCommand",
+      "type": "function",
+      "name": "terminalShellCommand",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5341,
+        5355
+      ],
+      "summary": "terminalShellCommand 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:safeTerminalCwd",
+      "type": "function",
+      "name": "safeTerminalCwd",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5357,
+        5367
+      ],
+      "summary": "safeTerminalCwd 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:terminalShellEnv",
+      "type": "function",
+      "name": "terminalShellEnv",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5369,
+        5395
+      ],
+      "summary": "terminalShellEnv 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:disposeTerminalSession",
+      "type": "function",
+      "name": "disposeTerminalSession",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5401,
+        5417
+      ],
+      "summary": "disposeTerminalSession 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:resolveHermesVersion",
+      "type": "function",
+      "name": "resolveHermesVersion",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5557,
+        5572
+      ],
+      "summary": "resolveHermesVersion 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:getUninstallSummary",
+      "type": "function",
+      "name": "getUninstallSummary",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5614,
+        5672
+      ],
+      "summary": "getUninstallSummary 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:runDesktopUninstall",
+      "type": "function",
+      "name": "runDesktopUninstall",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5674,
+        5779
+      ],
+      "summary": "runDesktopUninstall 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/main.cjs:configureSpellChecker",
+      "type": "function",
+      "name": "configureSpellChecker",
+      "filePath": "apps/desktop/electron/main.cjs",
+      "lineRange": [
+        5810,
+        5827
+      ],
+      "summary": "configureSpellChecker 是 main.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/electron/oauth-net-request.cjs",
+      "type": "file",
+      "name": "oauth-net-request.cjs",
+      "filePath": "apps/desktop/electron/oauth-net-request.cjs",
+      "summary": "oauth-net-request.cjs 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/oauth-net-request.test.cjs",
+      "type": "file",
+      "name": "oauth-net-request.test.cjs",
+      "filePath": "apps/desktop/electron/oauth-net-request.test.cjs",
+      "summary": "oauth-net-request.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/preload.cjs",
+      "type": "file",
+      "name": "preload.cjs",
+      "filePath": "apps/desktop/electron/preload.cjs",
+      "summary": "preload.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/eslint.config.mjs",
+      "type": "file",
+      "name": "eslint.config.mjs",
+      "filePath": "apps/desktop/eslint.config.mjs",
+      "summary": "eslint.config.mjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/after-pack.cjs",
+      "type": "file",
+      "name": "after-pack.cjs",
+      "filePath": "apps/desktop/scripts/after-pack.cjs",
+      "summary": "after-pack.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/assert-dist-built.cjs",
+      "type": "file",
+      "name": "assert-dist-built.cjs",
+      "filePath": "apps/desktop/scripts/assert-dist-built.cjs",
+      "summary": "assert-dist-built.cjs 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/assert-dist-built.cjs:checkDistBuilt",
+      "type": "function",
+      "name": "checkDistBuilt",
+      "filePath": "apps/desktop/scripts/assert-dist-built.cjs",
+      "lineRange": [
+        21,
+        46
+      ],
+      "summary": "checkDistBuilt 是 assert-dist-built.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/assert-dist-built.cjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/assert-dist-built.cjs",
+      "lineRange": [
+        48,
+        64
+      ],
+      "summary": "main 是 assert-dist-built.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/assert-dist-built.test.cjs",
+      "type": "file",
+      "name": "assert-dist-built.test.cjs",
+      "filePath": "apps/desktop/scripts/assert-dist-built.test.cjs",
+      "summary": "assert-dist-built.test.cjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/assert-root-install.cjs",
+      "type": "file",
+      "name": "assert-root-install.cjs",
+      "filePath": "apps/desktop/scripts/assert-root-install.cjs",
+      "summary": "assert-root-install.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/before-build.cjs",
+      "type": "file",
+      "name": "before-build.cjs",
+      "filePath": "apps/desktop/scripts/before-build.cjs",
+      "summary": "before-build.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/before-pack.cjs",
+      "type": "file",
+      "name": "before-pack.cjs",
+      "filePath": "apps/desktop/scripts/before-pack.cjs",
+      "summary": "before-pack.cjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/before-pack.cjs:cleanStaleAppOutDir",
+      "type": "function",
+      "name": "cleanStaleAppOutDir",
+      "filePath": "apps/desktop/scripts/before-pack.cjs",
+      "lineRange": [
+        51,
+        63
+      ],
+      "summary": "cleanStaleAppOutDir 是 before-pack.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/before-pack.test.cjs",
+      "type": "file",
+      "name": "before-pack.test.cjs",
+      "filePath": "apps/desktop/scripts/before-pack.test.cjs",
+      "summary": "before-pack.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/click-session.mjs",
+      "type": "file",
+      "name": "click-session.mjs",
+      "filePath": "apps/desktop/scripts/click-session.mjs",
+      "summary": "click-session.mjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "cli",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/dev-no-hmr.mjs",
+      "type": "file",
+      "name": "dev-no-hmr.mjs",
+      "filePath": "apps/desktop/scripts/dev-no-hmr.mjs",
+      "summary": "dev-no-hmr.mjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/diag-jump.mjs",
+      "type": "file",
+      "name": "diag-jump.mjs",
+      "filePath": "apps/desktop/scripts/diag-jump.mjs",
+      "summary": "diag-jump.mjs 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/diag-scroll-reset.mjs",
+      "type": "file",
+      "name": "diag-scroll-reset.mjs",
+      "filePath": "apps/desktop/scripts/diag-scroll-reset.mjs",
+      "summary": "diag-scroll-reset.mjs 是 javascript 源文件，包含 8 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/diag-scroll-reset.mjs:arm",
+      "type": "function",
+      "name": "arm",
+      "filePath": "apps/desktop/scripts/diag-scroll-reset.mjs",
+      "lineRange": [
+        69,
+        141
+      ],
+      "summary": "arm 是 diag-scroll-reset.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/scripts/diag-scroll-reset.mjs:wheelUpSweep",
+      "type": "function",
+      "name": "wheelUpSweep",
+      "filePath": "apps/desktop/scripts/diag-scroll-reset.mjs",
+      "lineRange": [
+        143,
+        155
+      ],
+      "summary": "wheelUpSweep 是 diag-scroll-reset.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/diag-scroll-reset.mjs:analyze",
+      "type": "function",
+      "name": "analyze",
+      "filePath": "apps/desktop/scripts/diag-scroll-reset.mjs",
+      "lineRange": [
+        162,
+        197
+      ],
+      "summary": "analyze 是 diag-scroll-reset.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/eval.mjs",
+      "type": "file",
+      "name": "eval.mjs",
+      "filePath": "apps/desktop/scripts/eval.mjs",
+      "summary": "eval.mjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/leak-typing.mjs",
+      "type": "file",
+      "name": "leak-typing.mjs",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "summary": "leak-typing.mjs 是 javascript 源文件，包含 11 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/leak-typing.mjs:connect",
+      "type": "function",
+      "name": "connect",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "lineRange": [
+        34,
+        67
+      ],
+      "summary": "connect 是 leak-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/leak-typing.mjs:focusComposer",
+      "type": "function",
+      "name": "focusComposer",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "lineRange": [
+        82,
+        98
+      ],
+      "summary": "focusComposer 是 leak-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/leak-typing.mjs:clearComposer",
+      "type": "function",
+      "name": "clearComposer",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "lineRange": [
+        100,
+        115
+      ],
+      "summary": "clearComposer 是 leak-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/leak-typing.mjs:snapshotCounts",
+      "type": "function",
+      "name": "snapshotCounts",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "lineRange": [
+        117,
+        138
+      ],
+      "summary": "snapshotCounts 是 leak-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/leak-typing.mjs:typeChars",
+      "type": "function",
+      "name": "typeChars",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "lineRange": [
+        140,
+        149
+      ],
+      "summary": "typeChars 是 leak-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/leak-typing.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/leak-typing.mjs",
+      "lineRange": [
+        159,
+        217
+      ],
+      "summary": "main 是 leak-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/scripts/measure-jump.mjs",
+      "type": "file",
+      "name": "measure-jump.mjs",
+      "filePath": "apps/desktop/scripts/measure-jump.mjs",
+      "summary": "measure-jump.mjs 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/measure-latency.mjs",
+      "type": "file",
+      "name": "measure-latency.mjs",
+      "filePath": "apps/desktop/scripts/measure-latency.mjs",
+      "summary": "measure-latency.mjs 是 javascript 源文件，包含 5 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-latency.mjs:connect",
+      "type": "function",
+      "name": "connect",
+      "filePath": "apps/desktop/scripts/measure-latency.mjs",
+      "lineRange": [
+        36,
+        69
+      ],
+      "summary": "connect 是 measure-latency.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-latency.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/measure-latency.mjs",
+      "lineRange": [
+        77,
+        179
+      ],
+      "summary": "main 是 measure-latency.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/scripts/measure-real-stream.mjs",
+      "type": "file",
+      "name": "measure-real-stream.mjs",
+      "filePath": "apps/desktop/scripts/measure-real-stream.mjs",
+      "summary": "measure-real-stream.mjs 是 javascript 源文件，包含 2 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-real-stream.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/measure-real-stream.mjs",
+      "lineRange": [
+        58,
+        250
+      ],
+      "summary": "main 是 measure-real-stream.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:apps/desktop/scripts/measure-real-stream.mjs:CDP",
+      "type": "class",
+      "name": "CDP",
+      "filePath": "apps/desktop/scripts/measure-real-stream.mjs",
+      "lineRange": [
+        23,
+        56
+      ],
+      "summary": "CDP 是 measure-real-stream.mjs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/measure-submit.mjs",
+      "type": "file",
+      "name": "measure-submit.mjs",
+      "filePath": "apps/desktop/scripts/measure-submit.mjs",
+      "summary": "measure-submit.mjs 是 javascript 源文件，包含 6 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-submit.mjs:connect",
+      "type": "function",
+      "name": "connect",
+      "filePath": "apps/desktop/scripts/measure-submit.mjs",
+      "lineRange": [
+        33,
+        59
+      ],
+      "summary": "connect 是 measure-submit.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-submit.mjs:focusAndType",
+      "type": "function",
+      "name": "focusAndType",
+      "filePath": "apps/desktop/scripts/measure-submit.mjs",
+      "lineRange": [
+        67,
+        85
+      ],
+      "summary": "focusAndType 是 measure-submit.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-submit.mjs:submitAndMeasure",
+      "type": "function",
+      "name": "submitAndMeasure",
+      "filePath": "apps/desktop/scripts/measure-submit.mjs",
+      "lineRange": [
+        87,
+        148
+      ],
+      "summary": "submitAndMeasure 是 measure-submit.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-submit.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/measure-submit.mjs",
+      "lineRange": [
+        150,
+        174
+      ],
+      "summary": "main 是 measure-submit.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/measure-synthetic-stream.mjs",
+      "type": "file",
+      "name": "measure-synthetic-stream.mjs",
+      "filePath": "apps/desktop/scripts/measure-synthetic-stream.mjs",
+      "summary": "measure-synthetic-stream.mjs 是 javascript 源文件，包含 3 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/measure-synthetic-stream.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/measure-synthetic-stream.mjs",
+      "lineRange": [
+        79,
+        320
+      ],
+      "summary": "main 是 measure-synthetic-stream.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:apps/desktop/scripts/measure-synthetic-stream.mjs:CDP",
+      "type": "class",
+      "name": "CDP",
+      "filePath": "apps/desktop/scripts/measure-synthetic-stream.mjs",
+      "lineRange": [
+        38,
+        71
+      ],
+      "summary": "CDP 是 measure-synthetic-stream.mjs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/notarize-artifact.cjs",
+      "type": "file",
+      "name": "notarize-artifact.cjs",
+      "filePath": "apps/desktop/scripts/notarize-artifact.cjs",
+      "summary": "notarize-artifact.cjs 是 javascript 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/notarize-artifact.cjs:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "apps/desktop/scripts/notarize-artifact.cjs",
+      "lineRange": [
+        6,
+        19
+      ],
+      "summary": "run 是 notarize-artifact.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/notarize-artifact.cjs:resolveApiKeyPath",
+      "type": "function",
+      "name": "resolveApiKeyPath",
+      "filePath": "apps/desktop/scripts/notarize-artifact.cjs",
+      "lineRange": [
+        25,
+        43
+      ],
+      "summary": "resolveApiKeyPath 是 notarize-artifact.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/notarize-artifact.cjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/notarize-artifact.cjs",
+      "lineRange": [
+        45,
+        72
+      ],
+      "summary": "main 是 notarize-artifact.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:loadInstallStamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveHermesHome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:getTitleBarOverlayOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:looksBinary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:previewFileMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:registerMediaProtocol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:planDesktopLogRotation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:rotateDesktopLogIfNeededSync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:rotateDesktopLogIfNeededAsync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:flushDesktopLogBufferSync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:flushDesktopLogBufferAsync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:rememberLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:openExternalUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:ensureWslWindowsFonts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:broadcastBootstrapEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:updateBootProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:advanceBootProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:findOnPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:normalizeExecutablePathForCompare",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:looksLikeDesktopAppBinary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:findPythonForRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:findSystemPython",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:findGitBash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveGitBinary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:runGit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveHealedBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:checkUpdates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:readCommitLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:repairMacUpdaterHelper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:isShimLocked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:forceKillProcessTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:releaseBackendLock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:applyUpdates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:runStreamedUpdate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:applyUpdatesPosixInApp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:isBootstrapComplete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:writeBootstrapMarker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveWebDist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveRendererIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveHermesCwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:readDefaultProjectDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:writeDefaultProjectDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:createPythonBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:createActiveBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveHermesBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:ensureRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:isPortAvailable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:fetchJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:fetchPublicJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:extensionForMimeType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:canonicalTitleCacheKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:fetchHtmlTitleWithCurl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:dequeueRenderTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:runRenderTitleJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:fetchLinkTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resourceBufferFromUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:saveImageFromUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:writeComposerImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:expandUserPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:previewFileTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:previewUrlTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:normalizePreviewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:watchPreviewFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:stopPreviewFileWatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:waitForHermes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:registerPowerResumeListeners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:sendWindowStateChanged",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:buildApplicationMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:toggleDevTools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:installDevToolsShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:installPreviewShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:restorePersistedZoomLevel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:installZoomShortcuts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:installContextMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:isAudioCapturePermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:installMediaPermissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:hasOauthSessionCookie",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:hasLiveOauthSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:clearOauthSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:openOauthLoginWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:fetchJsonViaOauthSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:mintGatewayWsTicket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:freshGatewayWsUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:decryptDesktopSecret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:sanitizeConnectionProfiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:readDesktopConnectionConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:readActiveDesktopProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:writeActiveDesktopProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:sanitizeDesktopConnectionConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:coerceDesktopConnectionConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:buildRemoteConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveRemoteBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:probeRemoteAuthMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:testDesktopConnectionConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resetBootProgressForReconnect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resetHermesConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:teardownPrimaryBackendAndWait",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:ensureBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:evictLruPoolBackends",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:startPoolIdleReaper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:spawnPoolBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:stopPoolBackend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:startHermes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:createWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:interceptSessionRequestForRemote",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:remoteSessionList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:mergeRemoteProfileSessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:findGitRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:terminalShellCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:safeTerminalCwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:terminalShellEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:disposeTerminalSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:resolveHermesVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:getUninstallSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:runDesktopUninstall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/main.cjs",
+      "target": "function:apps/desktop/electron/main.cjs:configureSpellChecker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/assert-dist-built.cjs",
+      "target": "function:apps/desktop/scripts/assert-dist-built.cjs:checkDistBuilt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/assert-dist-built.cjs",
+      "target": "function:apps/desktop/scripts/assert-dist-built.cjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/before-pack.cjs",
+      "target": "function:apps/desktop/scripts/before-pack.cjs:cleanStaleAppOutDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/diag-scroll-reset.mjs",
+      "target": "function:apps/desktop/scripts/diag-scroll-reset.mjs:arm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/diag-scroll-reset.mjs",
+      "target": "function:apps/desktop/scripts/diag-scroll-reset.mjs:wheelUpSweep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/diag-scroll-reset.mjs",
+      "target": "function:apps/desktop/scripts/diag-scroll-reset.mjs:analyze",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/leak-typing.mjs",
+      "target": "function:apps/desktop/scripts/leak-typing.mjs:connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/leak-typing.mjs",
+      "target": "function:apps/desktop/scripts/leak-typing.mjs:focusComposer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/leak-typing.mjs",
+      "target": "function:apps/desktop/scripts/leak-typing.mjs:clearComposer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/leak-typing.mjs",
+      "target": "function:apps/desktop/scripts/leak-typing.mjs:snapshotCounts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/leak-typing.mjs",
+      "target": "function:apps/desktop/scripts/leak-typing.mjs:typeChars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/leak-typing.mjs",
+      "target": "function:apps/desktop/scripts/leak-typing.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-latency.mjs",
+      "target": "function:apps/desktop/scripts/measure-latency.mjs:connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-latency.mjs",
+      "target": "function:apps/desktop/scripts/measure-latency.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-real-stream.mjs",
+      "target": "function:apps/desktop/scripts/measure-real-stream.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-real-stream.mjs",
+      "target": "class:apps/desktop/scripts/measure-real-stream.mjs:CDP",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-submit.mjs",
+      "target": "function:apps/desktop/scripts/measure-submit.mjs:connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-submit.mjs",
+      "target": "function:apps/desktop/scripts/measure-submit.mjs:focusAndType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-submit.mjs",
+      "target": "function:apps/desktop/scripts/measure-submit.mjs:submitAndMeasure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-submit.mjs",
+      "target": "function:apps/desktop/scripts/measure-submit.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-synthetic-stream.mjs",
+      "target": "function:apps/desktop/scripts/measure-synthetic-stream.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/measure-synthetic-stream.mjs",
+      "target": "class:apps/desktop/scripts/measure-synthetic-stream.mjs:CDP",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/notarize-artifact.cjs",
+      "target": "function:apps/desktop/scripts/notarize-artifact.cjs:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/notarize-artifact.cjs",
+      "target": "function:apps/desktop/scripts/notarize-artifact.cjs:resolveApiKeyPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/notarize-artifact.cjs",
+      "target": "function:apps/desktop/scripts/notarize-artifact.cjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

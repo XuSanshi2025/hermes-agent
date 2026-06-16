@@ -1,0 +1,5011 @@
+{
+  "nodes": [
+    {
+      "id": "file:.envrc",
+      "type": "file",
+      "name": ".envrc",
+      "filePath": ".envrc",
+      "summary": ".envrc 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "code",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.gitattributes",
+      "type": "file",
+      "name": ".gitattributes",
+      "filePath": ".gitattributes",
+      "summary": ".gitattributes 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "code",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.github/actions/hermes-smoke-test/action.yml",
+      "type": "config",
+      "name": "action.yml",
+      "filePath": ".github/actions/hermes-smoke-test/action.yml",
+      "summary": "action.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:.github/actions/nix-setup/action.yml",
+      "type": "config",
+      "name": "action.yml",
+      "filePath": ".github/actions/nix-setup/action.yml",
+      "summary": "action.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:.github/dependabot.yml",
+      "type": "config",
+      "name": "dependabot.yml",
+      "filePath": ".github/dependabot.yml",
+      "summary": "dependabot.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:.github/PULL_REQUEST_TEMPLATE.md",
+      "type": "document",
+      "name": "PULL_REQUEST_TEMPLATE.md",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE.md",
+      "summary": "PULL_REQUEST_TEMPLATE.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:.mailmap",
+      "type": "file",
+      "name": ".mailmap",
+      "filePath": ".mailmap",
+      "summary": ".mailmap 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "code",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understandignore 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "code",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "config.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:acp_adapter/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "acp_adapter/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:acp_adapter/__main__.py",
+      "type": "file",
+      "name": "__main__.py",
+      "filePath": "acp_adapter/__main__.py",
+      "summary": "__main__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:acp_adapter/auth.py",
+      "type": "file",
+      "name": "auth.py",
+      "filePath": "acp_adapter/auth.py",
+      "summary": "auth.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/auth.py:detect_provider",
+      "type": "function",
+      "name": "detect_provider",
+      "filePath": "acp_adapter/auth.py",
+      "lineRange": [
+        11,
+        33
+      ],
+      "summary": "detect_provider 是 auth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/auth.py:has_provider",
+      "type": "function",
+      "name": "has_provider",
+      "filePath": "acp_adapter/auth.py",
+      "lineRange": [
+        36,
+        38
+      ],
+      "summary": "has_provider 是 auth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/auth.py:build_auth_methods",
+      "type": "function",
+      "name": "build_auth_methods",
+      "filePath": "acp_adapter/auth.py",
+      "lineRange": [
+        41,
+        79
+      ],
+      "summary": "build_auth_methods 是 auth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:acp_adapter/edit_approval.py",
+      "type": "file",
+      "name": "edit_approval.py",
+      "filePath": "acp_adapter/edit_approval.py",
+      "summary": "edit_approval.py 是 python 源文件，包含 13 个函数、1 个类、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:set_edit_approval_requester",
+      "type": "function",
+      "name": "set_edit_approval_requester",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        50,
+        53
+      ],
+      "summary": "set_edit_approval_requester 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:reset_edit_approval_requester",
+      "type": "function",
+      "name": "reset_edit_approval_requester",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        56,
+        59
+      ],
+      "summary": "reset_edit_approval_requester 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:clear_edit_approval_requester",
+      "type": "function",
+      "name": "clear_edit_approval_requester",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        62,
+        65
+      ],
+      "summary": "clear_edit_approval_requester 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:get_edit_approval_requester",
+      "type": "function",
+      "name": "get_edit_approval_requester",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        68,
+        69
+      ],
+      "summary": "get_edit_approval_requester 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:_read_text_if_exists",
+      "type": "function",
+      "name": "_read_text_if_exists",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        72,
+        78
+      ],
+      "summary": "_read_text_if_exists 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:_proposal_for_write_file",
+      "type": "function",
+      "name": "_proposal_for_write_file",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        81,
+        94
+      ],
+      "summary": "_proposal_for_write_file 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:_proposal_for_patch_replace",
+      "type": "function",
+      "name": "_proposal_for_patch_replace",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        97,
+        127
+      ],
+      "summary": "_proposal_for_patch_replace 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:build_edit_proposal",
+      "type": "function",
+      "name": "build_edit_proposal",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        130,
+        137
+      ],
+      "summary": "build_edit_proposal 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:_is_sensitive_auto_approve_path",
+      "type": "function",
+      "name": "_is_sensitive_auto_approve_path",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        140,
+        145
+      ],
+      "summary": "_is_sensitive_auto_approve_path 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:should_auto_approve_edit",
+      "type": "function",
+      "name": "should_auto_approve_edit",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        148,
+        178
+      ],
+      "summary": "should_auto_approve_edit 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:maybe_require_edit_approval",
+      "type": "function",
+      "name": "maybe_require_edit_approval",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        181,
+        209
+      ],
+      "summary": "maybe_require_edit_approval 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:build_acp_edit_tool_call",
+      "type": "function",
+      "name": "build_acp_edit_tool_call",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        212,
+        231
+      ],
+      "summary": "build_acp_edit_tool_call 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/edit_approval.py:make_acp_edit_approval_requester",
+      "type": "function",
+      "name": "make_acp_edit_approval_requester",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        234,
+        286
+      ],
+      "summary": "make_acp_edit_approval_requester 是 edit_approval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:acp_adapter/edit_approval.py:EditProposal",
+      "type": "class",
+      "name": "EditProposal",
+      "filePath": "acp_adapter/edit_approval.py",
+      "lineRange": [
+        25,
+        32
+      ],
+      "summary": "EditProposal 是 edit_approval.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:acp_adapter/entry.py",
+      "type": "file",
+      "name": "entry.py",
+      "filePath": "acp_adapter/entry.py",
+      "summary": "entry.py 是 python 源文件，包含 8 个函数、1 个类、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_setup_logging",
+      "type": "function",
+      "name": "_setup_logging",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        75,
+        93
+      ],
+      "summary": "_setup_logging 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_load_env",
+      "type": "function",
+      "name": "_load_env",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        96,
+        108
+      ],
+      "summary": "_load_env 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_parse_args",
+      "type": "function",
+      "name": "_parse_args",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        111,
+        141
+      ],
+      "summary": "_parse_args 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_print_version",
+      "type": "function",
+      "name": "_print_version",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        144,
+        147
+      ],
+      "summary": "_print_version 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_run_check",
+      "type": "function",
+      "name": "_run_check",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        150,
+        154
+      ],
+      "summary": "_run_check 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_run_setup",
+      "type": "function",
+      "name": "_run_setup",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        157,
+        181
+      ],
+      "summary": "_run_setup 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:_run_setup_browser",
+      "type": "function",
+      "name": "_run_setup_browser",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        184,
+        209
+      ],
+      "summary": "_run_setup_browser 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/entry.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        212,
+        262
+      ],
+      "summary": "main 是 entry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:acp_adapter/entry.py:_BenignProbeMethodFilter",
+      "type": "class",
+      "name": "_BenignProbeMethodFilter",
+      "filePath": "acp_adapter/entry.py",
+      "lineRange": [
+        46,
+        72
+      ],
+      "summary": "_BenignProbeMethodFilter 是 entry.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:acp_adapter/events.py",
+      "type": "file",
+      "name": "events.py",
+      "filePath": "acp_adapter/events.py",
+      "summary": "events.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/events.py:_json_loads_maybe_prefix",
+      "type": "function",
+      "name": "_json_loads_maybe_prefix",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        28,
+        36
+      ],
+      "summary": "_json_loads_maybe_prefix 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/events.py:_build_plan_update_from_todo_result",
+      "type": "function",
+      "name": "_build_plan_update_from_todo_result",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        39,
+        84
+      ],
+      "summary": "_build_plan_update_from_todo_result 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/events.py:_send_update",
+      "type": "function",
+      "name": "_send_update",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        87,
+        107
+      ],
+      "summary": "_send_update 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/events.py:make_tool_progress_cb",
+      "type": "function",
+      "name": "make_tool_progress_cb",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        114,
+        182
+      ],
+      "summary": "make_tool_progress_cb 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/events.py:make_thinking_cb",
+      "type": "function",
+      "name": "make_thinking_cb",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        189,
+        202
+      ],
+      "summary": "make_thinking_cb 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/events.py:make_step_cb",
+      "type": "function",
+      "name": "make_step_cb",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        209,
+        259
+      ],
+      "summary": "make_step_cb 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/events.py:make_message_cb",
+      "type": "function",
+      "name": "make_message_cb",
+      "filePath": "acp_adapter/events.py",
+      "lineRange": [
+        266,
+        279
+      ],
+      "summary": "make_message_cb 是 events.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:acp_adapter/permissions.py",
+      "type": "file",
+      "name": "permissions.py",
+      "filePath": "acp_adapter/permissions.py",
+      "summary": "permissions.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/permissions.py:_permission_option_supports_kind",
+      "type": "function",
+      "name": "_permission_option_supports_kind",
+      "filePath": "acp_adapter/permissions.py",
+      "lineRange": [
+        32,
+        38
+      ],
+      "summary": "_permission_option_supports_kind 是 permissions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/permissions.py:_build_permission_options",
+      "type": "function",
+      "name": "_build_permission_options",
+      "filePath": "acp_adapter/permissions.py",
+      "lineRange": [
+        41,
+        70
+      ],
+      "summary": "_build_permission_options 是 permissions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/permissions.py:_build_permission_tool_call",
+      "type": "function",
+      "name": "_build_permission_tool_call",
+      "filePath": "acp_adapter/permissions.py",
+      "lineRange": [
+        73,
+        92
+      ],
+      "summary": "_build_permission_tool_call 是 permissions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/permissions.py:_map_outcome_to_hermes",
+      "type": "function",
+      "name": "_map_outcome_to_hermes",
+      "filePath": "acp_adapter/permissions.py",
+      "lineRange": [
+        95,
+        104
+      ],
+      "summary": "_map_outcome_to_hermes 是 permissions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/permissions.py:make_approval_callback",
+      "type": "function",
+      "name": "make_approval_callback",
+      "filePath": "acp_adapter/permissions.py",
+      "lineRange": [
+        107,
+        168
+      ],
+      "summary": "make_approval_callback 是 permissions.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:acp_adapter/provenance.py",
+      "type": "file",
+      "name": "provenance.py",
+      "filePath": "acp_adapter/provenance.py",
+      "summary": "provenance.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/provenance.py:build_session_provenance",
+      "type": "function",
+      "name": "build_session_provenance",
+      "filePath": "acp_adapter/provenance.py",
+      "lineRange": [
+        22,
+        108
+      ],
+      "summary": "build_session_provenance 是 provenance.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/provenance.py:session_provenance_meta",
+      "type": "function",
+      "name": "session_provenance_meta",
+      "filePath": "acp_adapter/provenance.py",
+      "lineRange": [
+        111,
+        127
+      ],
+      "summary": "session_provenance_meta 是 provenance.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:acp_adapter/server.py",
+      "type": "file",
+      "name": "server.py",
+      "filePath": "acp_adapter/server.py",
+      "summary": "server.py 是 python 源文件，包含 13 个函数、1 个类、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_resource_display_name",
+      "type": "function",
+      "name": "_resource_display_name",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        106,
+        118
+      ],
+      "summary": "_resource_display_name 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_is_text_resource",
+      "type": "function",
+      "name": "_is_text_resource",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        121,
+        125
+      ],
+      "summary": "_is_text_resource 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_is_image_resource",
+      "type": "function",
+      "name": "_is_image_resource",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        128,
+        130
+      ],
+      "summary": "_is_image_resource 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_guess_image_mime_from_path",
+      "type": "function",
+      "name": "_guess_image_mime_from_path",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        133,
+        143
+      ],
+      "summary": "_guess_image_mime_from_path 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_image_data_url",
+      "type": "function",
+      "name": "_image_data_url",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        146,
+        147
+      ],
+      "summary": "_image_data_url 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_path_from_file_uri",
+      "type": "function",
+      "name": "_path_from_file_uri",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        150,
+        182
+      ],
+      "summary": "_path_from_file_uri 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_decode_text_bytes",
+      "type": "function",
+      "name": "_decode_text_bytes",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        185,
+        194
+      ],
+      "summary": "_decode_text_bytes 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_format_resource_text",
+      "type": "function",
+      "name": "_format_resource_text",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        197,
+        209
+      ],
+      "summary": "_format_resource_text 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_resource_link_to_parts",
+      "type": "function",
+      "name": "_resource_link_to_parts",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        212,
+        308
+      ],
+      "summary": "_resource_link_to_parts 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_embedded_resource_to_parts",
+      "type": "function",
+      "name": "_embedded_resource_to_parts",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        311,
+        357
+      ],
+      "summary": "_embedded_resource_to_parts 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_extract_text",
+      "type": "function",
+      "name": "_extract_text",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        360,
+        376
+      ],
+      "summary": "_extract_text 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_image_block_to_openai_part",
+      "type": "function",
+      "name": "_image_block_to_openai_part",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        379,
+        392
+      ],
+      "summary": "_image_block_to_openai_part 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/server.py:_content_blocks_to_openai_user_content",
+      "type": "function",
+      "name": "_content_blocks_to_openai_user_content",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        395,
+        443
+      ],
+      "summary": "_content_blocks_to_openai_user_content 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:acp_adapter/server.py:HermesACPAgent",
+      "type": "class",
+      "name": "HermesACPAgent",
+      "filePath": "acp_adapter/server.py",
+      "lineRange": [
+        446,
+        2042
+      ],
+      "summary": "HermesACPAgent 是 server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:acp_adapter/session.py",
+      "type": "file",
+      "name": "session.py",
+      "filePath": "acp_adapter/session.py",
+      "summary": "session.py 是 python 源文件，包含 10 个函数、2 个类、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_win_path_to_wsl",
+      "type": "function",
+      "name": "_win_path_to_wsl",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        29,
+        36
+      ],
+      "summary": "_win_path_to_wsl 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_translate_acp_cwd",
+      "type": "function",
+      "name": "_translate_acp_cwd",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        39,
+        53
+      ],
+      "summary": "_translate_acp_cwd 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_normalize_cwd_for_compare",
+      "type": "function",
+      "name": "_normalize_cwd_for_compare",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        56,
+        70
+      ],
+      "summary": "_normalize_cwd_for_compare 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_build_session_title",
+      "type": "function",
+      "name": "_build_session_title",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        73,
+        81
+      ],
+      "summary": "_build_session_title 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_format_updated_at",
+      "type": "function",
+      "name": "_format_updated_at",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        84,
+        92
+      ],
+      "summary": "_format_updated_at 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_updated_at_sort_key",
+      "type": "function",
+      "name": "_updated_at_sort_key",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        95,
+        109
+      ],
+      "summary": "_updated_at_sort_key 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_acp_stderr_print",
+      "type": "function",
+      "name": "_acp_stderr_print",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        112,
+        120
+      ],
+      "summary": "_acp_stderr_print 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_register_task_cwd",
+      "type": "function",
+      "name": "_register_task_cwd",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        123,
+        137
+      ],
+      "summary": "_register_task_cwd 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_expand_acp_enabled_toolsets",
+      "type": "function",
+      "name": "_expand_acp_enabled_toolsets",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        140,
+        155
+      ],
+      "summary": "_expand_acp_enabled_toolsets 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/session.py:_clear_task_cwd",
+      "type": "function",
+      "name": "_clear_task_cwd",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        158,
+        166
+      ],
+      "summary": "_clear_task_cwd 是 session.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:acp_adapter/session.py:SessionState",
+      "type": "class",
+      "name": "SessionState",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        170,
+        183
+      ],
+      "summary": "SessionState 是 session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:acp_adapter/session.py:SessionManager",
+      "type": "class",
+      "name": "SessionManager",
+      "filePath": "acp_adapter/session.py",
+      "lineRange": [
+        186,
+        623
+      ],
+      "summary": "SessionManager 是 session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:acp_adapter/tools.py",
+      "type": "file",
+      "name": "tools.py",
+      "filePath": "acp_adapter/tools.py",
+      "summary": "tools.py 是 python 源文件，包含 34 个函数、34 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:get_tool_kind",
+      "type": "function",
+      "name": "get_tool_kind",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        81,
+        83
+      ],
+      "summary": "get_tool_kind 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:make_tool_call_id",
+      "type": "function",
+      "name": "make_tool_call_id",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        86,
+        88
+      ],
+      "summary": "make_tool_call_id 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:build_tool_title",
+      "type": "function",
+      "name": "build_tool_title",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        91,
+        180
+      ],
+      "summary": "build_tool_title 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_text",
+      "type": "function",
+      "name": "_text",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        183,
+        184
+      ],
+      "summary": "_text 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_json_loads_maybe",
+      "type": "function",
+      "name": "_json_loads_maybe",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        187,
+        202
+      ],
+      "summary": "_json_loads_maybe 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_tool_result_failed",
+      "type": "function",
+      "name": "_tool_result_failed",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        205,
+        240
+      ],
+      "summary": "_tool_result_failed 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_truncate_text",
+      "type": "function",
+      "name": "_truncate_text",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        243,
+        246
+      ],
+      "summary": "_truncate_text 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_fenced_text",
+      "type": "function",
+      "name": "_fenced_text",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        249,
+        253
+      ],
+      "summary": "_fenced_text 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_todo_result",
+      "type": "function",
+      "name": "_format_todo_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        256,
+        285
+      ],
+      "summary": "_format_todo_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_read_file_result",
+      "type": "function",
+      "name": "_format_read_file_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        288,
+        312
+      ],
+      "summary": "_format_read_file_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_search_files_result",
+      "type": "function",
+      "name": "_format_search_files_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        315,
+        371
+      ],
+      "summary": "_format_search_files_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_execute_code_result",
+      "type": "function",
+      "name": "_format_execute_code_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        374,
+        386
+      ],
+      "summary": "_format_execute_code_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_extract_markdown_headings",
+      "type": "function",
+      "name": "_extract_markdown_headings",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        389,
+        399
+      ],
+      "summary": "_extract_markdown_headings 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_skill_view_result",
+      "type": "function",
+      "name": "_format_skill_view_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        402,
+        432
+      ],
+      "summary": "_format_skill_view_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_skill_manage_result",
+      "type": "function",
+      "name": "_format_skill_manage_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        435,
+        462
+      ],
+      "summary": "_format_skill_manage_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_web_search_result",
+      "type": "function",
+      "name": "_format_web_search_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        465,
+        482
+      ],
+      "summary": "_format_web_search_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_web_extract_result",
+      "type": "function",
+      "name": "_format_web_extract_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        485,
+        513
+      ],
+      "summary": "_format_web_extract_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_process_result",
+      "type": "function",
+      "name": "_format_process_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        516,
+        560
+      ],
+      "summary": "_format_process_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_delegate_result",
+      "type": "function",
+      "name": "_format_delegate_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        563,
+        606
+      ],
+      "summary": "_format_delegate_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_session_search_result",
+      "type": "function",
+      "name": "_format_session_search_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        609,
+        637
+      ],
+      "summary": "_format_session_search_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_memory_result",
+      "type": "function",
+      "name": "_format_memory_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        640,
+        664
+      ],
+      "summary": "_format_memory_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_edit_result",
+      "type": "function",
+      "name": "_format_edit_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        667,
+        687
+      ],
+      "summary": "_format_edit_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_browser_result",
+      "type": "function",
+      "name": "_format_browser_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        690,
+        713
+      ],
+      "summary": "_format_browser_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_media_or_cron_result",
+      "type": "function",
+      "name": "_format_media_or_cron_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        716,
+        726
+      ],
+      "summary": "_format_media_or_cron_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_structured_value",
+      "type": "function",
+      "name": "_format_structured_value",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        729,
+        816
+      ],
+      "summary": "_format_structured_value 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_format_generic_structured_result",
+      "type": "function",
+      "name": "_format_generic_structured_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        819,
+        868
+      ],
+      "summary": "_format_generic_structured_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_build_polished_completion_content",
+      "type": "function",
+      "name": "_build_polished_completion_content",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        871,
+        907
+      ],
+      "summary": "_build_polished_completion_content 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_strip_diff_prefix",
+      "type": "function",
+      "name": "_strip_diff_prefix",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        910,
+        914
+      ],
+      "summary": "_strip_diff_prefix 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_parse_unified_diff_content",
+      "type": "function",
+      "name": "_parse_unified_diff_content",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        917,
+        973
+      ],
+      "summary": "_parse_unified_diff_content 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_build_tool_complete_content",
+      "type": "function",
+      "name": "_build_tool_complete_content",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        976,
+        1009
+      ],
+      "summary": "_build_tool_complete_content 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:build_tool_start",
+      "type": "function",
+      "name": "build_tool_start",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        1017,
+        1242
+      ],
+      "summary": "build_tool_start 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:_is_structured_json_result",
+      "type": "function",
+      "name": "_is_structured_json_result",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        1245,
+        1246
+      ],
+      "summary": "_is_structured_json_result 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:build_tool_complete",
+      "type": "function",
+      "name": "build_tool_complete",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        1249,
+        1274
+      ],
+      "summary": "build_tool_complete 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:acp_adapter/tools.py:extract_locations",
+      "type": "function",
+      "name": "extract_locations",
+      "filePath": "acp_adapter/tools.py",
+      "lineRange": [
+        1282,
+        1291
+      ],
+      "summary": "extract_locations 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:acp_registry/agent.json",
+      "type": "config",
+      "name": "agent.json",
+      "filePath": "acp_registry/agent.json",
+      "summary": "agent.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "agent"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:agent/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "agent/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:agent/account_usage.py",
+      "type": "file",
+      "name": "account_usage.py",
+      "filePath": "agent/account_usage.py",
+      "summary": "account_usage.py 是 python 源文件，包含 15 个函数、2 个类、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/account_usage.py:_utc_now",
+      "type": "function",
+      "name": "_utc_now",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        21,
+        22
+      ],
+      "summary": "_utc_now 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_title_case_slug",
+      "type": "function",
+      "name": "_title_case_slug",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        49,
+        53
+      ],
+      "summary": "_title_case_slug 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_parse_dt",
+      "type": "function",
+      "name": "_parse_dt",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        56,
+        72
+      ],
+      "summary": "_parse_dt 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_format_reset",
+      "type": "function",
+      "name": "_format_reset",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        75,
+        92
+      ],
+      "summary": "_format_reset 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:render_account_usage_lines",
+      "type": "function",
+      "name": "render_account_usage_lines",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        95,
+        120
+      ],
+      "summary": "render_account_usage_lines 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_fmt_usd",
+      "type": "function",
+      "name": "_fmt_usd",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        123,
+        124
+      ],
+      "summary": "_fmt_usd 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_is_finite_num",
+      "type": "function",
+      "name": "_is_finite_num",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        127,
+        134
+      ],
+      "summary": "_is_finite_num 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:build_nous_credits_snapshot",
+      "type": "function",
+      "name": "build_nous_credits_snapshot",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        137,
+        229
+      ],
+      "summary": "build_nous_credits_snapshot 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/account_usage.py:nous_credits_lines",
+      "type": "function",
+      "name": "nous_credits_lines",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        232,
+        279
+      ],
+      "summary": "nous_credits_lines 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_snapshot_from_credits_state",
+      "type": "function",
+      "name": "_snapshot_from_credits_state",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        282,
+        337
+      ],
+      "summary": "_snapshot_from_credits_state 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/account_usage.py:_resolve_codex_usage_url",
+      "type": "function",
+      "name": "_resolve_codex_usage_url",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        340,
+        348
+      ],
+      "summary": "_resolve_codex_usage_url 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_fetch_codex_account_usage",
+      "type": "function",
+      "name": "_fetch_codex_account_usage",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        351,
+        396
+      ],
+      "summary": "_fetch_codex_account_usage 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/account_usage.py:_fetch_anthropic_account_usage",
+      "type": "function",
+      "name": "_fetch_anthropic_account_usage",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        399,
+        457
+      ],
+      "summary": "_fetch_anthropic_account_usage 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/account_usage.py:_fetch_openrouter_account_usage",
+      "type": "function",
+      "name": "_fetch_openrouter_account_usage",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        460,
+        529
+      ],
+      "summary": "_fetch_openrouter_account_usage 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/account_usage.py:fetch_account_usage",
+      "type": "function",
+      "name": "fetch_account_usage",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        532,
+        550
+      ],
+      "summary": "fetch_account_usage 是 account_usage.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/account_usage.py:AccountUsageWindow",
+      "type": "class",
+      "name": "AccountUsageWindow",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        26,
+        30
+      ],
+      "summary": "AccountUsageWindow 是 account_usage.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/account_usage.py:AccountUsageSnapshot",
+      "type": "class",
+      "name": "AccountUsageSnapshot",
+      "filePath": "agent/account_usage.py",
+      "lineRange": [
+        34,
+        46
+      ],
+      "summary": "AccountUsageSnapshot 是 account_usage.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/agent_init.py",
+      "type": "file",
+      "name": "agent_init.py",
+      "filePath": "agent/agent_init.py",
+      "summary": "agent_init.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/agent_init.py:_ra",
+      "type": "function",
+      "name": "_ra",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        62,
+        68
+      ],
+      "summary": "_ra 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_init.py:_build_codex_gpt55_autoraise_notice",
+      "type": "function",
+      "name": "_build_codex_gpt55_autoraise_notice",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        71,
+        86
+      ],
+      "summary": "_build_codex_gpt55_autoraise_notice 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_init.py:_normalized_custom_base_url",
+      "type": "function",
+      "name": "_normalized_custom_base_url",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        89,
+        92
+      ],
+      "summary": "_normalized_custom_base_url 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_init.py:_custom_provider_model_matches",
+      "type": "function",
+      "name": "_custom_provider_model_matches",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        95,
+        99
+      ],
+      "summary": "_custom_provider_model_matches 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_init.py:_custom_provider_extra_body_for_agent",
+      "type": "function",
+      "name": "_custom_provider_extra_body_for_agent",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        102,
+        132
+      ],
+      "summary": "_custom_provider_extra_body_for_agent 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_init.py:_merge_custom_provider_extra_body",
+      "type": "function",
+      "name": "_merge_custom_provider_extra_body",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        135,
+        151
+      ],
+      "summary": "_merge_custom_provider_extra_body 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_init.py:init_agent",
+      "type": "function",
+      "name": "init_agent",
+      "filePath": "agent/agent_init.py",
+      "lineRange": [
+        154,
+        1735
+      ],
+      "summary": "init_agent 是 agent_init.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:agent/agent_runtime_helpers.py",
+      "type": "file",
+      "name": "agent_runtime_helpers.py",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "summary": "agent_runtime_helpers.py 是 python 源文件，包含 26 个函数、26 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:_ra",
+      "type": "function",
+      "name": "_ra",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        45,
+        48
+      ],
+      "summary": "_ra 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:agent_runtime_owns_post_tool_hook",
+      "type": "function",
+      "name": "agent_runtime_owns_post_tool_hook",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        56,
+        63
+      ],
+      "summary": "agent_runtime_owns_post_tool_hook 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:convert_to_trajectory_format",
+      "type": "function",
+      "name": "convert_to_trajectory_format",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        66,
+        233
+      ],
+      "summary": "convert_to_trajectory_format 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:sanitize_tool_call_arguments",
+      "type": "function",
+      "name": "sanitize_tool_call_arguments",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        237,
+        343
+      ],
+      "summary": "sanitize_tool_call_arguments 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:repair_message_sequence",
+      "type": "function",
+      "name": "repair_message_sequence",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        347,
+        445
+      ],
+      "summary": "repair_message_sequence 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:strip_think_blocks",
+      "type": "function",
+      "name": "strip_think_blocks",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        449,
+        541
+      ],
+      "summary": "strip_think_blocks 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:recover_with_credential_pool",
+      "type": "function",
+      "name": "recover_with_credential_pool",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        545,
+        721
+      ],
+      "summary": "recover_with_credential_pool 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:try_recover_primary_transport",
+      "type": "function",
+      "name": "try_recover_primary_transport",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        725,
+        803
+      ],
+      "summary": "try_recover_primary_transport 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:drop_thinking_only_and_merge_users",
+      "type": "function",
+      "name": "drop_thinking_only_and_merge_users",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        809,
+        891
+      ],
+      "summary": "drop_thinking_only_and_merge_users 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:restore_primary_runtime",
+      "type": "function",
+      "name": "restore_primary_runtime",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        895,
+        979
+      ],
+      "summary": "restore_primary_runtime 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:extract_reasoning",
+      "type": "function",
+      "name": "extract_reasoning",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        991,
+        1069
+      ],
+      "summary": "extract_reasoning 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:dump_api_request_debug",
+      "type": "function",
+      "name": "dump_api_request_debug",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1073,
+        1150
+      ],
+      "summary": "dump_api_request_debug 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:anthropic_prompt_cache_policy",
+      "type": "function",
+      "name": "anthropic_prompt_cache_policy",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1154,
+        1256
+      ],
+      "summary": "anthropic_prompt_cache_policy 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:create_openai_client",
+      "type": "function",
+      "name": "create_openai_client",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1260,
+        1351
+      ],
+      "summary": "create_openai_client 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:switch_model",
+      "type": "function",
+      "name": "switch_model",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1354,
+        1617
+      ],
+      "summary": "switch_model 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:invoke_tool",
+      "type": "function",
+      "name": "invoke_tool",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1621,
+        1818
+      ],
+      "summary": "invoke_tool 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:repair_tool_call",
+      "type": "function",
+      "name": "repair_tool_call",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1822,
+        1913
+      ],
+      "summary": "repair_tool_call 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:sanitize_api_messages",
+      "type": "function",
+      "name": "sanitize_api_messages",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1917,
+        1985
+      ],
+      "summary": "sanitize_api_messages 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:looks_like_codex_intermediate_ack",
+      "type": "function",
+      "name": "looks_like_codex_intermediate_ack",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        1989,
+        2058
+      ],
+      "summary": "looks_like_codex_intermediate_ack 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:copy_reasoning_content_for_api",
+      "type": "function",
+      "name": "copy_reasoning_content_for_api",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2063,
+        2131
+      ],
+      "summary": "copy_reasoning_content_for_api 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:reapply_reasoning_echo_for_provider",
+      "type": "function",
+      "name": "reapply_reasoning_echo_for_provider",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2134,
+        2162
+      ],
+      "summary": "reapply_reasoning_echo_for_provider 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:_iter_pool_sockets",
+      "type": "function",
+      "name": "_iter_pool_sockets",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2165,
+        2233
+      ],
+      "summary": "_iter_pool_sockets 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:cleanup_dead_connections",
+      "type": "function",
+      "name": "cleanup_dead_connections",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2236,
+        2276
+      ],
+      "summary": "cleanup_dead_connections 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:extract_api_error_context",
+      "type": "function",
+      "name": "extract_api_error_context",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2280,
+        2356
+      ],
+      "summary": "extract_api_error_context 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:apply_pending_steer_to_tool_results",
+      "type": "function",
+      "name": "apply_pending_steer_to_tool_results",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2360,
+        2421
+      ],
+      "summary": "apply_pending_steer_to_tool_results 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/agent_runtime_helpers.py:force_close_tcp_sockets",
+      "type": "function",
+      "name": "force_close_tcp_sockets",
+      "filePath": "agent/agent_runtime_helpers.py",
+      "lineRange": [
+        2425,
+        2475
+      ],
+      "summary": "force_close_tcp_sockets 是 agent_runtime_helpers.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:acp_adapter/auth.py",
+      "target": "function:acp_adapter/auth.py:detect_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/auth.py",
+      "target": "function:acp_adapter/auth.py:detect_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/auth.py",
+      "target": "function:acp_adapter/auth.py:has_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/auth.py",
+      "target": "function:acp_adapter/auth.py:has_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/auth.py",
+      "target": "function:acp_adapter/auth.py:build_auth_methods",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/auth.py",
+      "target": "function:acp_adapter/auth.py:build_auth_methods",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:set_edit_approval_requester",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:set_edit_approval_requester",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:reset_edit_approval_requester",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:reset_edit_approval_requester",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:clear_edit_approval_requester",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:clear_edit_approval_requester",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:get_edit_approval_requester",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:get_edit_approval_requester",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_read_text_if_exists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_read_text_if_exists",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_proposal_for_write_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_proposal_for_write_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_proposal_for_patch_replace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_proposal_for_patch_replace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:build_edit_proposal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:build_edit_proposal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_is_sensitive_auto_approve_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:_is_sensitive_auto_approve_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:should_auto_approve_edit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:should_auto_approve_edit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:maybe_require_edit_approval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:maybe_require_edit_approval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:build_acp_edit_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:build_acp_edit_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:make_acp_edit_approval_requester",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "function:acp_adapter/edit_approval.py:make_acp_edit_approval_requester",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "class:acp_adapter/edit_approval.py:EditProposal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/edit_approval.py",
+      "target": "class:acp_adapter/edit_approval.py:EditProposal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_setup_logging",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_setup_logging",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_load_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_load_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_parse_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_parse_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_print_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_print_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_run_check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_run_check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_run_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_run_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_run_setup_browser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:_run_setup_browser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "function:acp_adapter/entry.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "class:acp_adapter/entry.py:_BenignProbeMethodFilter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/entry.py",
+      "target": "class:acp_adapter/entry.py:_BenignProbeMethodFilter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:_json_loads_maybe_prefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:_json_loads_maybe_prefix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:_build_plan_update_from_todo_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:_build_plan_update_from_todo_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:_send_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:_send_update",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_tool_progress_cb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_tool_progress_cb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_thinking_cb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_thinking_cb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_step_cb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_step_cb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_message_cb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/events.py",
+      "target": "function:acp_adapter/events.py:make_message_cb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_permission_option_supports_kind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_permission_option_supports_kind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_build_permission_options",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_build_permission_options",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_build_permission_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_build_permission_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_map_outcome_to_hermes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:_map_outcome_to_hermes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:make_approval_callback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/permissions.py",
+      "target": "function:acp_adapter/permissions.py:make_approval_callback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/provenance.py",
+      "target": "function:acp_adapter/provenance.py:build_session_provenance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/provenance.py",
+      "target": "function:acp_adapter/provenance.py:build_session_provenance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/provenance.py",
+      "target": "function:acp_adapter/provenance.py:session_provenance_meta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/provenance.py",
+      "target": "function:acp_adapter/provenance.py:session_provenance_meta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_resource_display_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_resource_display_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_is_text_resource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_is_text_resource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_is_image_resource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_is_image_resource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_guess_image_mime_from_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_guess_image_mime_from_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_image_data_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_image_data_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_path_from_file_uri",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_path_from_file_uri",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_decode_text_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_decode_text_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_format_resource_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_format_resource_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_resource_link_to_parts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_resource_link_to_parts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_embedded_resource_to_parts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_embedded_resource_to_parts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_extract_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_extract_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_image_block_to_openai_part",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_image_block_to_openai_part",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_content_blocks_to_openai_user_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "function:acp_adapter/server.py:_content_blocks_to_openai_user_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "class:acp_adapter/server.py:HermesACPAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/server.py",
+      "target": "class:acp_adapter/server.py:HermesACPAgent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_win_path_to_wsl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_win_path_to_wsl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_translate_acp_cwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_translate_acp_cwd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_normalize_cwd_for_compare",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_normalize_cwd_for_compare",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_build_session_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_build_session_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_format_updated_at",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_format_updated_at",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_updated_at_sort_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_updated_at_sort_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_acp_stderr_print",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_acp_stderr_print",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_register_task_cwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_register_task_cwd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_expand_acp_enabled_toolsets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_expand_acp_enabled_toolsets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_clear_task_cwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "function:acp_adapter/session.py:_clear_task_cwd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "class:acp_adapter/session.py:SessionState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "class:acp_adapter/session.py:SessionState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "class:acp_adapter/session.py:SessionManager",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/session.py",
+      "target": "class:acp_adapter/session.py:SessionManager",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:get_tool_kind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:get_tool_kind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:make_tool_call_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:make_tool_call_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:build_tool_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:build_tool_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_json_loads_maybe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_json_loads_maybe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_tool_result_failed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_tool_result_failed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_truncate_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_truncate_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_fenced_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_fenced_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_todo_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_todo_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_read_file_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_read_file_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_search_files_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_search_files_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_execute_code_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_execute_code_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_extract_markdown_headings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_extract_markdown_headings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_skill_view_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_skill_view_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_skill_manage_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_skill_manage_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_web_search_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_web_search_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_web_extract_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_web_extract_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_process_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_process_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_delegate_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_delegate_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_session_search_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_session_search_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_memory_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_memory_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_edit_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_edit_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_browser_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_browser_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_media_or_cron_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_media_or_cron_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_structured_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_structured_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_generic_structured_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_format_generic_structured_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_build_polished_completion_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_build_polished_completion_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_strip_diff_prefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_strip_diff_prefix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_parse_unified_diff_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_parse_unified_diff_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_build_tool_complete_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_build_tool_complete_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:build_tool_start",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:build_tool_start",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_is_structured_json_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:_is_structured_json_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:build_tool_complete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:build_tool_complete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:extract_locations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:acp_adapter/tools.py",
+      "target": "function:acp_adapter/tools.py:extract_locations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_utc_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_utc_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_title_case_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_title_case_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_parse_dt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_parse_dt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_format_reset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_format_reset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:render_account_usage_lines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:render_account_usage_lines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fmt_usd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fmt_usd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_is_finite_num",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_is_finite_num",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:build_nous_credits_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:build_nous_credits_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:nous_credits_lines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:nous_credits_lines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_snapshot_from_credits_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_snapshot_from_credits_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_resolve_codex_usage_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_resolve_codex_usage_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fetch_codex_account_usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fetch_codex_account_usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fetch_anthropic_account_usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fetch_anthropic_account_usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fetch_openrouter_account_usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:_fetch_openrouter_account_usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:fetch_account_usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "function:agent/account_usage.py:fetch_account_usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "class:agent/account_usage.py:AccountUsageWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "class:agent/account_usage.py:AccountUsageWindow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "class:agent/account_usage.py:AccountUsageSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/account_usage.py",
+      "target": "class:agent/account_usage.py:AccountUsageSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_ra",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_ra",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_build_codex_gpt55_autoraise_notice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_build_codex_gpt55_autoraise_notice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_normalized_custom_base_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_normalized_custom_base_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_custom_provider_model_matches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_custom_provider_model_matches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_custom_provider_extra_body_for_agent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_custom_provider_extra_body_for_agent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_merge_custom_provider_extra_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:_merge_custom_provider_extra_body",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:init_agent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_init.py",
+      "target": "function:agent/agent_init.py:init_agent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:_ra",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:_ra",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:agent_runtime_owns_post_tool_hook",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:agent_runtime_owns_post_tool_hook",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:convert_to_trajectory_format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:convert_to_trajectory_format",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:sanitize_tool_call_arguments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:sanitize_tool_call_arguments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:repair_message_sequence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:repair_message_sequence",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:strip_think_blocks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:strip_think_blocks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:recover_with_credential_pool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:recover_with_credential_pool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:try_recover_primary_transport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:try_recover_primary_transport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:drop_thinking_only_and_merge_users",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:drop_thinking_only_and_merge_users",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:restore_primary_runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:restore_primary_runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:extract_reasoning",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:extract_reasoning",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:dump_api_request_debug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:dump_api_request_debug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:anthropic_prompt_cache_policy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:anthropic_prompt_cache_policy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:create_openai_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:create_openai_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:switch_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:switch_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:invoke_tool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:invoke_tool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:repair_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:repair_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:sanitize_api_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:sanitize_api_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:looks_like_codex_intermediate_ack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:looks_like_codex_intermediate_ack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:copy_reasoning_content_for_api",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:copy_reasoning_content_for_api",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:reapply_reasoning_echo_for_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:reapply_reasoning_echo_for_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:_iter_pool_sockets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:_iter_pool_sockets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:cleanup_dead_connections",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:cleanup_dead_connections",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:extract_api_error_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:extract_api_error_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:apply_pending_steer_to_tool_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:apply_pending_steer_to_tool_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:force_close_tcp_sockets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/agent_runtime_helpers.py",
+      "target": "function:agent/agent_runtime_helpers.py:force_close_tcp_sockets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

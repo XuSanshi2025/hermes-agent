@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md",
+      "type": "document",
+      "name": "cli-commands.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md",
+      "summary": "cli-commands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/environment-variables.md",
+      "type": "document",
+      "name": "environment-variables.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/environment-variables.md",
+      "summary": "environment-variables.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/faq.md",
+      "type": "document",
+      "name": "faq.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/faq.md",
+      "summary": "faq.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/mcp-config-reference.md",
+      "type": "document",
+      "name": "mcp-config-reference.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/mcp-config-reference.md",
+      "summary": "mcp-config-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/model-catalog.md",
+      "type": "document",
+      "name": "model-catalog.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/model-catalog.md",
+      "summary": "model-catalog.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/optional-skills-catalog.md",
+      "type": "document",
+      "name": "optional-skills-catalog.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/optional-skills-catalog.md",
+      "summary": "optional-skills-catalog.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/profile-commands.md",
+      "type": "document",
+      "name": "profile-commands.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/profile-commands.md",
+      "summary": "profile-commands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/skills-catalog.md",
+      "type": "document",
+      "name": "skills-catalog.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/skills-catalog.md",
+      "summary": "skills-catalog.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/slash-commands.md",
+      "type": "document",
+      "name": "slash-commands.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/slash-commands.md",
+      "summary": "slash-commands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/tools-reference.md",
+      "type": "document",
+      "name": "tools-reference.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/tools-reference.md",
+      "summary": "tools-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin",
+        "tooling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/toolsets-reference.md",
+      "type": "document",
+      "name": "toolsets-reference.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/toolsets-reference.md",
+      "summary": "toolsets-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin",
+        "tooling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

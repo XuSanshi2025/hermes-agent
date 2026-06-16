@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/creative/manim-video/references/animation-design-thinking.md",
+      "type": "document",
+      "name": "animation-design-thinking.md",
+      "filePath": "skills/creative/manim-video/references/animation-design-thinking.md",
+      "summary": "animation-design-thinking.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/animations.md",
+      "type": "document",
+      "name": "animations.md",
+      "filePath": "skills/creative/manim-video/references/animations.md",
+      "summary": "animations.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/camera-and-3d.md",
+      "type": "document",
+      "name": "camera-and-3d.md",
+      "filePath": "skills/creative/manim-video/references/camera-and-3d.md",
+      "summary": "camera-and-3d.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/decorations.md",
+      "type": "document",
+      "name": "decorations.md",
+      "filePath": "skills/creative/manim-video/references/decorations.md",
+      "summary": "decorations.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/equations.md",
+      "type": "document",
+      "name": "equations.md",
+      "filePath": "skills/creative/manim-video/references/equations.md",
+      "summary": "equations.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/graphs-and-data.md",
+      "type": "document",
+      "name": "graphs-and-data.md",
+      "filePath": "skills/creative/manim-video/references/graphs-and-data.md",
+      "summary": "graphs-and-data.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/mobjects.md",
+      "type": "document",
+      "name": "mobjects.md",
+      "filePath": "skills/creative/manim-video/references/mobjects.md",
+      "summary": "mobjects.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/paper-explainer.md",
+      "type": "document",
+      "name": "paper-explainer.md",
+      "filePath": "skills/creative/manim-video/references/paper-explainer.md",
+      "summary": "paper-explainer.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/production-quality.md",
+      "type": "document",
+      "name": "production-quality.md",
+      "filePath": "skills/creative/manim-video/references/production-quality.md",
+      "summary": "production-quality.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/rendering.md",
+      "type": "document",
+      "name": "rendering.md",
+      "filePath": "skills/creative/manim-video/references/rendering.md",
+      "summary": "rendering.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/scene-planning.md",
+      "type": "document",
+      "name": "scene-planning.md",
+      "filePath": "skills/creative/manim-video/references/scene-planning.md",
+      "summary": "scene-planning.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "skills/creative/manim-video/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/updaters-and-trackers.md",
+      "type": "document",
+      "name": "updaters-and-trackers.md",
+      "filePath": "skills/creative/manim-video/references/updaters-and-trackers.md",
+      "summary": "updaters-and-trackers.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/references/visual-design.md",
+      "type": "document",
+      "name": "visual-design.md",
+      "filePath": "skills/creative/manim-video/references/visual-design.md",
+      "summary": "visual-design.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

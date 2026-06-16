@@ -1,0 +1,480 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/media/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/media/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/media/gif-search/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/media/gif-search/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/media/heartmula/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/media/heartmula/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/media/songsee/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/media/songsee/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/media/youtube-content/references/output-formats.md",
+      "type": "document",
+      "name": "output-formats.md",
+      "filePath": "skills/media/youtube-content/references/output-formats.md",
+      "summary": "output-formats.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "type": "file",
+      "name": "fetch_transcript.py",
+      "filePath": "skills/media/youtube-content/scripts/fetch_transcript.py",
+      "summary": "fetch_transcript.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/media/youtube-content/scripts/fetch_transcript.py:extract_video_id",
+      "type": "function",
+      "name": "extract_video_id",
+      "filePath": "skills/media/youtube-content/scripts/fetch_transcript.py",
+      "lineRange": [
+        26,
+        37
+      ],
+      "summary": "extract_video_id 是 fetch_transcript.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/media/youtube-content/scripts/fetch_transcript.py:format_timestamp",
+      "type": "function",
+      "name": "format_timestamp",
+      "filePath": "skills/media/youtube-content/scripts/fetch_transcript.py",
+      "lineRange": [
+        40,
+        47
+      ],
+      "summary": "format_timestamp 是 fetch_transcript.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/media/youtube-content/scripts/fetch_transcript.py:fetch_transcript",
+      "type": "function",
+      "name": "fetch_transcript",
+      "filePath": "skills/media/youtube-content/scripts/fetch_transcript.py",
+      "lineRange": [
+        50,
+        73
+      ],
+      "summary": "fetch_transcript 是 fetch_transcript.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/media/youtube-content/scripts/fetch_transcript.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/media/youtube-content/scripts/fetch_transcript.py",
+      "lineRange": [
+        76,
+        120
+      ],
+      "summary": "main 是 fetch_transcript.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/media/youtube-content/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/media/youtube-content/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/mlops/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/evaluation/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/mlops/evaluation/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/evaluation/lm-evaluation-harness/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/evaluation/lm-evaluation-harness/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/evaluation/weights-and-biases/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/evaluation/weights-and-biases/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/huggingface-hub/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/huggingface-hub/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/inference/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/mlops/inference/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/inference/llama-cpp/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/inference/llama-cpp/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/inference/obliteratus/references/analysis-modules.md",
+      "type": "document",
+      "name": "analysis-modules.md",
+      "filePath": "skills/mlops/inference/obliteratus/references/analysis-modules.md",
+      "summary": "analysis-modules.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/inference/obliteratus/references/methods-guide.md",
+      "type": "document",
+      "name": "methods-guide.md",
+      "filePath": "skills/mlops/inference/obliteratus/references/methods-guide.md",
+      "summary": "methods-guide.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/inference/obliteratus/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/inference/obliteratus/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/inference/vllm/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/inference/vllm/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/audiocraft/references/advanced-usage.md",
+      "type": "document",
+      "name": "advanced-usage.md",
+      "filePath": "skills/mlops/models/audiocraft/references/advanced-usage.md",
+      "summary": "advanced-usage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/audiocraft/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "skills/mlops/models/audiocraft/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/audiocraft/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/models/audiocraft/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/mlops/models/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/segment-anything/references/advanced-usage.md",
+      "type": "document",
+      "name": "advanced-usage.md",
+      "filePath": "skills/mlops/models/segment-anything/references/advanced-usage.md",
+      "summary": "advanced-usage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/segment-anything/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "skills/mlops/models/segment-anything/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/models/segment-anything/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/mlops/models/segment-anything/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:extract_video_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:extract_video_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:format_timestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:format_timestamp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:fetch_transcript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:fetch_transcript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/media/youtube-content/scripts/fetch_transcript.py",
+      "target": "function:skills/media/youtube-content/scripts/fetch_transcript.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

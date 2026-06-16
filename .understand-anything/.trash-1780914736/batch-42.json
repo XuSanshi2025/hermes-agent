@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/security/oss-forensics/references/evidence-types.md",
+      "type": "document",
+      "name": "evidence-types.md",
+      "filePath": "optional-skills/security/oss-forensics/references/evidence-types.md",
+      "summary": "evidence-types.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/oss-forensics/references/github-archive-guide.md",
+      "type": "document",
+      "name": "github-archive-guide.md",
+      "filePath": "optional-skills/security/oss-forensics/references/github-archive-guide.md",
+      "summary": "github-archive-guide.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/oss-forensics/references/investigation-templates.md",
+      "type": "document",
+      "name": "investigation-templates.md",
+      "filePath": "optional-skills/security/oss-forensics/references/investigation-templates.md",
+      "summary": "investigation-templates.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/oss-forensics/references/recovery-techniques.md",
+      "type": "document",
+      "name": "recovery-techniques.md",
+      "filePath": "optional-skills/security/oss-forensics/references/recovery-techniques.md",
+      "summary": "recovery-techniques.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

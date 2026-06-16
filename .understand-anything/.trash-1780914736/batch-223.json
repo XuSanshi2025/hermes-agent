@@ -1,0 +1,819 @@
+{
+  "nodes": [
+    {
+      "id": "file:web/src/components/SlashPopover.tsx",
+      "type": "file",
+      "name": "SlashPopover.tsx",
+      "filePath": "web/src/components/SlashPopover.tsx",
+      "summary": "SlashPopover.tsx 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/components/ThemeSwitcher.tsx",
+      "type": "file",
+      "name": "ThemeSwitcher.tsx",
+      "filePath": "web/src/components/ThemeSwitcher.tsx",
+      "summary": "ThemeSwitcher.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwitcher",
+      "type": "function",
+      "name": "ThemeSwitcher",
+      "filePath": "web/src/components/ThemeSwitcher.tsx",
+      "lineRange": [
+        27,
+        161
+      ],
+      "summary": "ThemeSwitcher 是 ThemeSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwitcherOptions",
+      "type": "function",
+      "name": "ThemeSwitcherOptions",
+      "filePath": "web/src/components/ThemeSwitcher.tsx",
+      "lineRange": [
+        163,
+        218
+      ],
+      "summary": "ThemeSwitcherOptions 是 ThemeSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ThemeSwitcher.tsx:FontSection",
+      "type": "function",
+      "name": "FontSection",
+      "filePath": "web/src/components/ThemeSwitcher.tsx",
+      "lineRange": [
+        229,
+        317
+      ],
+      "summary": "FontSection 是 ThemeSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwatch",
+      "type": "function",
+      "name": "ThemeSwatch",
+      "filePath": "web/src/components/ThemeSwitcher.tsx",
+      "lineRange": [
+        319,
+        341
+      ],
+      "summary": "ThemeSwatch 是 ThemeSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/ToolCall.tsx",
+      "type": "file",
+      "name": "ToolCall.tsx",
+      "filePath": "web/src/components/ToolCall.tsx",
+      "summary": "ToolCall.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ToolCall.tsx:ToolCall",
+      "type": "function",
+      "name": "ToolCall",
+      "filePath": "web/src/components/ToolCall.tsx",
+      "lineRange": [
+        53,
+        175
+      ],
+      "summary": "ToolCall 是 ToolCall.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ToolCall.tsx:Section",
+      "type": "function",
+      "name": "Section",
+      "filePath": "web/src/components/ToolCall.tsx",
+      "lineRange": [
+        177,
+        199
+      ],
+      "summary": "Section 是 ToolCall.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/components/ToolCall.tsx:fmtElapsed",
+      "type": "function",
+      "name": "fmtElapsed",
+      "filePath": "web/src/components/ToolCall.tsx",
+      "lineRange": [
+        201,
+        210
+      ],
+      "summary": "fmtElapsed 是 ToolCall.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/ToolsetConfigDrawer.tsx",
+      "type": "file",
+      "name": "ToolsetConfigDrawer.tsx",
+      "filePath": "web/src/components/ToolsetConfigDrawer.tsx",
+      "summary": "ToolsetConfigDrawer.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ToolsetConfigDrawer.tsx:ToolsetConfigDrawer",
+      "type": "function",
+      "name": "ToolsetConfigDrawer",
+      "filePath": "web/src/components/ToolsetConfigDrawer.tsx",
+      "lineRange": [
+        34,
+        448
+      ],
+      "summary": "ToolsetConfigDrawer 是 ToolsetConfigDrawer.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/contexts/page-header-context.ts",
+      "type": "file",
+      "name": "page-header-context.ts",
+      "filePath": "web/src/contexts/page-header-context.ts",
+      "summary": "page-header-context.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/contexts/PageHeaderProvider.tsx",
+      "type": "file",
+      "name": "PageHeaderProvider.tsx",
+      "filePath": "web/src/contexts/PageHeaderProvider.tsx",
+      "summary": "PageHeaderProvider.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/contexts/PageHeaderProvider.tsx:PageHeaderProvider",
+      "type": "function",
+      "name": "PageHeaderProvider",
+      "filePath": "web/src/contexts/PageHeaderProvider.tsx",
+      "lineRange": [
+        8,
+        139
+      ],
+      "summary": "PageHeaderProvider 是 PageHeaderProvider.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/contexts/system-actions-context.ts",
+      "type": "file",
+      "name": "system-actions-context.ts",
+      "filePath": "web/src/contexts/system-actions-context.ts",
+      "summary": "system-actions-context.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/contexts/SystemActions.tsx",
+      "type": "file",
+      "name": "SystemActions.tsx",
+      "filePath": "web/src/contexts/SystemActions.tsx",
+      "summary": "SystemActions.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/contexts/SystemActions.tsx:SystemActionsProvider",
+      "type": "function",
+      "name": "SystemActionsProvider",
+      "filePath": "web/src/contexts/SystemActions.tsx",
+      "lineRange": [
+        16,
+        133
+      ],
+      "summary": "SystemActionsProvider 是 SystemActions.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/contexts/usePageHeader.ts",
+      "type": "file",
+      "name": "usePageHeader.ts",
+      "filePath": "web/src/contexts/usePageHeader.ts",
+      "summary": "usePageHeader.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/contexts/usePageHeader.ts:usePageHeader",
+      "type": "function",
+      "name": "usePageHeader",
+      "filePath": "web/src/contexts/usePageHeader.ts",
+      "lineRange": [
+        4,
+        10
+      ],
+      "summary": "usePageHeader 是 usePageHeader.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/contexts/useSystemActions.ts",
+      "type": "file",
+      "name": "useSystemActions.ts",
+      "filePath": "web/src/contexts/useSystemActions.ts",
+      "summary": "useSystemActions.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/contexts/useSystemActions.ts:useSystemActions",
+      "type": "function",
+      "name": "useSystemActions",
+      "filePath": "web/src/contexts/useSystemActions.ts",
+      "lineRange": [
+        7,
+        15
+      ],
+      "summary": "useSystemActions 是 useSystemActions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/hooks/useModalBehavior.ts",
+      "type": "file",
+      "name": "useModalBehavior.ts",
+      "filePath": "web/src/hooks/useModalBehavior.ts",
+      "summary": "useModalBehavior.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/hooks/useModalBehavior.ts:useModalBehavior",
+      "type": "function",
+      "name": "useModalBehavior",
+      "filePath": "web/src/hooks/useModalBehavior.ts",
+      "lineRange": [
+        11,
+        44
+      ],
+      "summary": "useModalBehavior 是 useModalBehavior.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/hooks/useSidebarStatus.ts",
+      "type": "file",
+      "name": "useSidebarStatus.ts",
+      "filePath": "web/src/hooks/useSidebarStatus.ts",
+      "summary": "useSidebarStatus.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/hooks/useSidebarStatus.ts:useSidebarStatus",
+      "type": "function",
+      "name": "useSidebarStatus",
+      "filePath": "web/src/hooks/useSidebarStatus.ts",
+      "lineRange": [
+        11,
+        27
+      ],
+      "summary": "useSidebarStatus 是 useSidebarStatus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/i18n/af.ts",
+      "type": "file",
+      "name": "af.ts",
+      "filePath": "web/src/i18n/af.ts",
+      "summary": "af.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/context.tsx",
+      "type": "file",
+      "name": "context.tsx",
+      "filePath": "web/src/i18n/context.tsx",
+      "summary": "context.tsx 是 typescript 源文件，包含 4 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/i18n/context.tsx:I18nProvider",
+      "type": "function",
+      "name": "I18nProvider",
+      "filePath": "web/src/i18n/context.tsx",
+      "lineRange": [
+        96,
+        119
+      ],
+      "summary": "I18nProvider 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/i18n/context.tsx:useI18n",
+      "type": "function",
+      "name": "useI18n",
+      "filePath": "web/src/i18n/context.tsx",
+      "lineRange": [
+        121,
+        123
+      ],
+      "summary": "useI18n 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/i18n/de.ts",
+      "type": "file",
+      "name": "de.ts",
+      "filePath": "web/src/i18n/de.ts",
+      "summary": "de.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/en.ts",
+      "type": "file",
+      "name": "en.ts",
+      "filePath": "web/src/i18n/en.ts",
+      "summary": "en.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/es.ts",
+      "type": "file",
+      "name": "es.ts",
+      "filePath": "web/src/i18n/es.ts",
+      "summary": "es.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/fr.ts",
+      "type": "file",
+      "name": "fr.ts",
+      "filePath": "web/src/i18n/fr.ts",
+      "summary": "fr.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/ga.ts",
+      "type": "file",
+      "name": "ga.ts",
+      "filePath": "web/src/i18n/ga.ts",
+      "summary": "ga.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/hu.ts",
+      "type": "file",
+      "name": "hu.ts",
+      "filePath": "web/src/i18n/hu.ts",
+      "summary": "hu.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "web/src/i18n/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/it.ts",
+      "type": "file",
+      "name": "it.ts",
+      "filePath": "web/src/i18n/it.ts",
+      "summary": "it.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/ja.ts",
+      "type": "file",
+      "name": "ja.ts",
+      "filePath": "web/src/i18n/ja.ts",
+      "summary": "ja.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/ko.ts",
+      "type": "file",
+      "name": "ko.ts",
+      "filePath": "web/src/i18n/ko.ts",
+      "summary": "ko.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/pt.ts",
+      "type": "file",
+      "name": "pt.ts",
+      "filePath": "web/src/i18n/pt.ts",
+      "summary": "pt.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:web/src/components/ThemeSwitcher.tsx",
+      "target": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwitcher",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ThemeSwitcher.tsx",
+      "target": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwitcher",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ThemeSwitcher.tsx",
+      "target": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwitcherOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ThemeSwitcher.tsx",
+      "target": "function:web/src/components/ThemeSwitcher.tsx:FontSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ThemeSwitcher.tsx",
+      "target": "function:web/src/components/ThemeSwitcher.tsx:ThemeSwatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ToolCall.tsx",
+      "target": "function:web/src/components/ToolCall.tsx:ToolCall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ToolCall.tsx",
+      "target": "function:web/src/components/ToolCall.tsx:ToolCall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ToolCall.tsx",
+      "target": "function:web/src/components/ToolCall.tsx:Section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ToolCall.tsx",
+      "target": "function:web/src/components/ToolCall.tsx:fmtElapsed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ToolsetConfigDrawer.tsx",
+      "target": "function:web/src/components/ToolsetConfigDrawer.tsx:ToolsetConfigDrawer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ToolsetConfigDrawer.tsx",
+      "target": "function:web/src/components/ToolsetConfigDrawer.tsx:ToolsetConfigDrawer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/contexts/PageHeaderProvider.tsx",
+      "target": "function:web/src/contexts/PageHeaderProvider.tsx:PageHeaderProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/contexts/PageHeaderProvider.tsx",
+      "target": "function:web/src/contexts/PageHeaderProvider.tsx:PageHeaderProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/contexts/SystemActions.tsx",
+      "target": "function:web/src/contexts/SystemActions.tsx:SystemActionsProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/contexts/SystemActions.tsx",
+      "target": "function:web/src/contexts/SystemActions.tsx:SystemActionsProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/contexts/usePageHeader.ts",
+      "target": "function:web/src/contexts/usePageHeader.ts:usePageHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/contexts/usePageHeader.ts",
+      "target": "function:web/src/contexts/usePageHeader.ts:usePageHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/contexts/useSystemActions.ts",
+      "target": "function:web/src/contexts/useSystemActions.ts:useSystemActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/contexts/useSystemActions.ts",
+      "target": "function:web/src/contexts/useSystemActions.ts:useSystemActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/hooks/useModalBehavior.ts",
+      "target": "function:web/src/hooks/useModalBehavior.ts:useModalBehavior",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/hooks/useModalBehavior.ts",
+      "target": "function:web/src/hooks/useModalBehavior.ts:useModalBehavior",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/hooks/useSidebarStatus.ts",
+      "target": "function:web/src/hooks/useSidebarStatus.ts:useSidebarStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/hooks/useSidebarStatus.ts",
+      "target": "function:web/src/hooks/useSidebarStatus.ts:useSidebarStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/i18n/context.tsx",
+      "target": "function:web/src/i18n/context.tsx:I18nProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/i18n/context.tsx",
+      "target": "function:web/src/i18n/context.tsx:I18nProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/i18n/context.tsx",
+      "target": "function:web/src/i18n/context.tsx:useI18n",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/i18n/context.tsx",
+      "target": "function:web/src/i18n/context.tsx:useI18n",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

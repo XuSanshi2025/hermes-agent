@@ -1,0 +1,2268 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "type": "file",
+      "name": "selection.ts",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "summary": "selection.ts 是 typescript 源文件，包含 6 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalTheme",
+      "type": "function",
+      "name": "terminalTheme",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "lineRange": [
+        35,
+        35
+      ],
+      "summary": "terminalTheme 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:isMacPlatform",
+      "type": "function",
+      "name": "isMacPlatform",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "lineRange": [
+        37,
+        37
+      ],
+      "summary": "isMacPlatform 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:addSelectionShortcutLabel",
+      "type": "function",
+      "name": "addSelectionShortcutLabel",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "lineRange": [
+        39,
+        39
+      ],
+      "summary": "addSelectionShortcutLabel 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:isAddSelectionShortcut",
+      "type": "function",
+      "name": "isAddSelectionShortcut",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "lineRange": [
+        41,
+        45
+      ],
+      "summary": "isAddSelectionShortcut 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalSelectionLabel",
+      "type": "function",
+      "name": "terminalSelectionLabel",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "lineRange": [
+        47,
+        57
+      ],
+      "summary": "terminalSelectionLabel 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalSelectionAnchor",
+      "type": "function",
+      "name": "terminalSelectionAnchor",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "lineRange": [
+        59,
+        75
+      ],
+      "summary": "terminalSelectionAnchor 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "type": "file",
+      "name": "use-terminal-session.ts",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "summary": "use-terminal-session.ts 是 typescript 源文件，包含 8 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:readEscapeSequence",
+      "type": "function",
+      "name": "readEscapeSequence",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        17,
+        47
+      ],
+      "summary": "readEscapeSequence 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:stripEscapeSequences",
+      "type": "function",
+      "name": "stripEscapeSequences",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        49,
+        65
+      ],
+      "summary": "stripEscapeSequences 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:stripInitialPromptGap",
+      "type": "function",
+      "name": "stripInitialPromptGap",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        73,
+        91
+      ],
+      "summary": "stripInitialPromptGap 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:transferHasDropCandidates",
+      "type": "function",
+      "name": "transferHasDropCandidates",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        98,
+        114
+      ],
+      "summary": "transferHasDropCandidates 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:collectDroppedPaths",
+      "type": "function",
+      "name": "collectDroppedPaths",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        116,
+        170
+      ],
+      "summary": "collectDroppedPaths 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:quotePathForShell",
+      "type": "function",
+      "name": "quotePathForShell",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        172,
+        184
+      ],
+      "summary": "quotePathForShell 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:useTerminalSession",
+      "type": "function",
+      "name": "useTerminalSession",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "lineRange": [
+        186,
+        504
+      ],
+      "summary": "useTerminalSession 是 use-terminal-session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/routes.ts",
+      "type": "file",
+      "name": "routes.ts",
+      "filePath": "apps/desktop/src/app/routes.ts",
+      "summary": "routes.ts 是 typescript 源文件，包含 5 个函数、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/routes.ts:isOverlayView",
+      "type": "function",
+      "name": "isOverlayView",
+      "filePath": "apps/desktop/src/app/routes.ts",
+      "lineRange": [
+        60,
+        62
+      ],
+      "summary": "isOverlayView 是 routes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/routes.ts:isNewChatRoute",
+      "type": "function",
+      "name": "isNewChatRoute",
+      "filePath": "apps/desktop/src/app/routes.ts",
+      "lineRange": [
+        64,
+        66
+      ],
+      "summary": "isNewChatRoute 是 routes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/routes.ts:routeSessionId",
+      "type": "function",
+      "name": "routeSessionId",
+      "filePath": "apps/desktop/src/app/routes.ts",
+      "lineRange": [
+        68,
+        76
+      ],
+      "summary": "routeSessionId 是 routes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/routes.ts:sessionRoute",
+      "type": "function",
+      "name": "sessionRoute",
+      "filePath": "apps/desktop/src/app/routes.ts",
+      "lineRange": [
+        78,
+        80
+      ],
+      "summary": "sessionRoute 是 routes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/routes.ts:appViewForPath",
+      "type": "function",
+      "name": "appViewForPath",
+      "filePath": "apps/desktop/src/app/routes.ts",
+      "lineRange": [
+        82,
+        88
+      ],
+      "summary": "appViewForPath 是 routes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-context-suggestions.ts",
+      "type": "file",
+      "name": "use-context-suggestions.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-context-suggestions.ts",
+      "summary": "use-context-suggestions.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-context-suggestions.ts:useContextSuggestions",
+      "type": "function",
+      "name": "useContextSuggestions",
+      "filePath": "apps/desktop/src/app/session/hooks/use-context-suggestions.ts",
+      "lineRange": [
+        15,
+        58
+      ],
+      "summary": "useContextSuggestions 是 use-context-suggestions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-cwd-actions.ts",
+      "type": "file",
+      "name": "use-cwd-actions.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-cwd-actions.ts",
+      "summary": "use-cwd-actions.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-cwd-actions.ts:useCwdActions",
+      "type": "function",
+      "name": "useCwdActions",
+      "filePath": "apps/desktop/src/app/session/hooks/use-cwd-actions.ts",
+      "lineRange": [
+        15,
+        109
+      ],
+      "summary": "useCwdActions 是 use-cwd-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-hermes-config.ts",
+      "type": "file",
+      "name": "use-hermes-config.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-hermes-config.ts",
+      "summary": "use-hermes-config.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-hermes-config.ts:useHermesConfig",
+      "type": "function",
+      "name": "useHermesConfig",
+      "filePath": "apps/desktop/src/app/session/hooks/use-hermes-config.ts",
+      "lineRange": [
+        28,
+        74
+      ],
+      "summary": "useHermesConfig 是 use-hermes-config.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "type": "file",
+      "name": "use-message-stream.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "summary": "use-message-stream.ts 是 typescript 源文件，包含 7 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:parseMaybeRecord",
+      "type": "function",
+      "name": "parseMaybeRecord",
+      "filePath": "apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "lineRange": [
+        114,
+        124
+      ],
+      "summary": "parseMaybeRecord 是 use-message-stream.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:delegateTaskPayloads",
+      "type": "function",
+      "name": "delegateTaskPayloads",
+      "filePath": "apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "lineRange": [
+        136,
+        184
+      ],
+      "summary": "delegateTaskPayloads 是 use-message-stream.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:useMessageStream",
+      "type": "function",
+      "name": "useMessageStream",
+      "filePath": "apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "lineRange": [
+        186,
+        957
+      ],
+      "summary": "useMessageStream 是 use-message-stream.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-model-controls.ts",
+      "type": "file",
+      "name": "use-model-controls.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-model-controls.ts",
+      "summary": "use-model-controls.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-model-controls.ts:useModelControls",
+      "type": "function",
+      "name": "useModelControls",
+      "filePath": "apps/desktop/src/app/session/hooks/use-model-controls.ts",
+      "lineRange": [
+        22,
+        106
+      ],
+      "summary": "useModelControls 是 use-model-controls.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx",
+      "type": "file",
+      "name": "use-preview-routing.test.tsx",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx",
+      "summary": "use-preview-routing.test.tsx 是 typescript 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx:previewTarget",
+      "type": "function",
+      "name": "previewTarget",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx",
+      "lineRange": [
+        25,
+        36
+      ],
+      "summary": "previewTarget 是 use-preview-routing.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx:PreviewRoutingHarness",
+      "type": "function",
+      "name": "PreviewRoutingHarness",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx",
+      "lineRange": [
+        40,
+        58
+      ],
+      "summary": "PreviewRoutingHarness 是 use-preview-routing.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "type": "file",
+      "name": "use-preview-routing.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "summary": "use-preview-routing.ts 是 typescript 源文件，包含 7 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:htmlPathFromInlineDiff",
+      "type": "function",
+      "name": "htmlPathFromInlineDiff",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "lineRange": [
+        51,
+        63
+      ],
+      "summary": "htmlPathFromInlineDiff 是 use-preview-routing.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:structuredPreviewCandidate",
+      "type": "function",
+      "name": "structuredPreviewCandidate",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "lineRange": [
+        65,
+        88
+      ],
+      "summary": "structuredPreviewCandidate 是 use-preview-routing.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:usePreviewRouting",
+      "type": "function",
+      "name": "usePreviewRouting",
+      "filePath": "apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "lineRange": [
+        90,
+        223
+      ],
+      "summary": "usePreviewRouting 是 use-preview-routing.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx",
+      "type": "file",
+      "name": "use-prompt-actions.test.tsx",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx",
+      "summary": "use-prompt-actions.test.tsx 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx:sessionInfo",
+      "type": "function",
+      "name": "sessionInfo",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx",
+      "lineRange": [
+        24,
+        41
+      ],
+      "summary": "sessionInfo 是 use-prompt-actions.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx:Harness",
+      "type": "function",
+      "name": "Harness",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx",
+      "lineRange": [
+        48,
+        96
+      ],
+      "summary": "Harness 是 use-prompt-actions.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "type": "file",
+      "name": "use-prompt-actions.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "summary": "use-prompt-actions.ts 是 typescript 源文件，包含 11 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:blobToDataUrl",
+      "type": "function",
+      "name": "blobToDataUrl",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "lineRange": [
+        56,
+        70
+      ],
+      "summary": "blobToDataUrl 是 use-prompt-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:renderCommandsCatalog",
+      "type": "function",
+      "name": "renderCommandsCatalog",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "lineRange": [
+        130,
+        154
+      ],
+      "summary": "renderCommandsCatalog 是 use-prompt-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:usePromptActions",
+      "type": "function",
+      "name": "usePromptActions",
+      "filePath": "apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "lineRange": [
+        171,
+        1073
+      ],
+      "summary": "usePromptActions 是 use-prompt-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-route-resume.test.tsx",
+      "type": "file",
+      "name": "use-route-resume.test.tsx",
+      "filePath": "apps/desktop/src/app/session/hooks/use-route-resume.test.tsx",
+      "summary": "use-route-resume.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "type": "file",
+      "name": "use-route-resume.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "summary": "use-route-resume.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-route-resume.ts:rawHashLooksLikeSession",
+      "type": "function",
+      "name": "rawHashLooksLikeSession",
+      "filePath": "apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "lineRange": [
+        24,
+        41
+      ],
+      "summary": "rawHashLooksLikeSession 是 use-route-resume.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-route-resume.ts:useRouteResume",
+      "type": "function",
+      "name": "useRouteResume",
+      "filePath": "apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "lineRange": [
+        43,
+        115
+      ],
+      "summary": "useRouteResume 是 use-route-resume.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "type": "file",
+      "name": "use-session-actions.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "summary": "use-session-actions.ts 是 typescript 源文件，包含 9 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:withAppendedText",
+      "type": "function",
+      "name": "withAppendedText",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "lineRange": [
+        73,
+        87
+      ],
+      "summary": "withAppendedText 是 use-session-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:chatMessagesEquivalent",
+      "type": "function",
+      "name": "chatMessagesEquivalent",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "lineRange": [
+        99,
+        116
+      ],
+      "summary": "chatMessagesEquivalent 是 use-session-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:reconcileResumeMessages",
+      "type": "function",
+      "name": "reconcileResumeMessages",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "lineRange": [
+        122,
+        169
+      ],
+      "summary": "reconcileResumeMessages 是 use-session-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:upsertOptimisticSession",
+      "type": "function",
+      "name": "upsertOptimisticSession",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "lineRange": [
+        171,
+        203
+      ],
+      "summary": "upsertOptimisticSession 是 use-session-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:applyRuntimeInfo",
+      "type": "function",
+      "name": "applyRuntimeInfo",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "lineRange": [
+        213,
+        271
+      ],
+      "summary": "applyRuntimeInfo 是 use-session-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:useSessionActions",
+      "type": "function",
+      "name": "useSessionActions",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "lineRange": [
+        273,
+        885
+      ],
+      "summary": "useSessionActions 是 use-session-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-session-state-cache.test.tsx",
+      "type": "file",
+      "name": "use-session-state-cache.test.tsx",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-state-cache.test.tsx",
+      "summary": "use-session-state-cache.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.test.tsx:Harness",
+      "type": "function",
+      "name": "Harness",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-state-cache.test.tsx",
+      "lineRange": [
+        17,
+        31
+      ],
+      "summary": "Harness 是 use-session-state-cache.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "type": "file",
+      "name": "use-session-state-cache.ts",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "summary": "use-session-state-cache.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.ts:sameMessageList",
+      "type": "function",
+      "name": "sameMessageList",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "lineRange": [
+        16,
+        32
+      ],
+      "summary": "sameMessageList 是 use-session-state-cache.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.ts:useSessionStateCache",
+      "type": "function",
+      "name": "useSessionStateCache",
+      "filePath": "apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "lineRange": [
+        43,
+        226
+      ],
+      "summary": "useSessionStateCache 是 use-session-state-cache.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/about-settings.tsx",
+      "type": "file",
+      "name": "about-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/about-settings.tsx",
+      "summary": "about-settings.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/about-settings.tsx:relativeTime",
+      "type": "function",
+      "name": "relativeTime",
+      "filePath": "apps/desktop/src/app/settings/about-settings.tsx",
+      "lineRange": [
+        24,
+        44
+      ],
+      "summary": "relativeTime 是 about-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/about-settings.tsx:AboutSettings",
+      "type": "function",
+      "name": "AboutSettings",
+      "filePath": "apps/desktop/src/app/settings/about-settings.tsx",
+      "lineRange": [
+        46,
+        176
+      ],
+      "summary": "AboutSettings 是 about-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/appearance-settings.tsx",
+      "type": "file",
+      "name": "appearance-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/appearance-settings.tsx",
+      "summary": "appearance-settings.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/appearance-settings.tsx:ThemePreview",
+      "type": "function",
+      "name": "ThemePreview",
+      "filePath": "apps/desktop/src/app/settings/appearance-settings.tsx",
+      "lineRange": [
+        16,
+        54
+      ],
+      "summary": "ThemePreview 是 appearance-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/appearance-settings.tsx:AppearanceSettings",
+      "type": "function",
+      "name": "AppearanceSettings",
+      "filePath": "apps/desktop/src/app/settings/appearance-settings.tsx",
+      "lineRange": [
+        56,
+        162
+      ],
+      "summary": "AppearanceSettings 是 appearance-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/config-settings.tsx",
+      "type": "file",
+      "name": "config-settings.tsx",
+      "filePath": "apps/desktop/src/app/settings/config-settings.tsx",
+      "summary": "config-settings.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/config-settings.tsx:ConfigField",
+      "type": "function",
+      "name": "ConfigField",
+      "filePath": "apps/desktop/src/app/settings/config-settings.tsx",
+      "lineRange": [
+        27,
+        180
+      ],
+      "summary": "ConfigField 是 config-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/config-settings.tsx:ConfigSettings",
+      "type": "function",
+      "name": "ConfigSettings",
+      "filePath": "apps/desktop/src/app/settings/config-settings.tsx",
+      "lineRange": [
+        182,
+        384
+      ],
+      "summary": "ConfigSettings 是 config-settings.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/constants.ts",
+      "type": "file",
+      "name": "constants.ts",
+      "filePath": "apps/desktop/src/app/settings/constants.ts",
+      "summary": "constants.ts 是 typescript 源文件，包含 9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "type": "file",
+      "name": "credential-key-ui.tsx",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "summary": "credential-key-ui.tsx 是 typescript 源文件，包含 8 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:isKeyVar",
+      "type": "function",
+      "name": "isKeyVar",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        20,
+        21
+      ],
+      "summary": "isKeyVar 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:friendlyFieldLabel",
+      "type": "function",
+      "name": "friendlyFieldLabel",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        23,
+        28
+      ],
+      "summary": "friendlyFieldLabel 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:credentialPlaceholder",
+      "type": "function",
+      "name": "credentialPlaceholder",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        30,
+        35
+      ],
+      "summary": "credentialPlaceholder 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:KeyField",
+      "type": "function",
+      "name": "KeyField",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        40,
+        126
+      ],
+      "summary": "KeyField 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:CredentialDocsLink",
+      "type": "function",
+      "name": "CredentialDocsLink",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        128,
+        143
+      ],
+      "summary": "CredentialDocsLink 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:CredentialKeyCard",
+      "type": "function",
+      "name": "CredentialKeyCard",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        146,
+        231
+      ],
+      "summary": "CredentialKeyCard 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:ProviderKeyRows",
+      "type": "function",
+      "name": "ProviderKeyRows",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        234,
+        337
+      ],
+      "summary": "ProviderKeyRows 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:credentialRowLabel",
+      "type": "function",
+      "name": "credentialRowLabel",
+      "filePath": "apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "lineRange": [
+        339,
+        345
+      ],
+      "summary": "credentialRowLabel 是 credential-key-ui.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "type": "file",
+      "name": "env-credentials.tsx",
+      "filePath": "apps/desktop/src/app/settings/env-credentials.tsx",
+      "summary": "env-credentials.tsx 是 typescript 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/env-credentials.tsx:filterEnv",
+      "type": "function",
+      "name": "filterEnv",
+      "filePath": "apps/desktop/src/app/settings/env-credentials.tsx",
+      "lineRange": [
+        15,
+        29
+      ],
+      "summary": "filterEnv 是 env-credentials.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/env-credentials.tsx:SettingsCategoryHeading",
+      "type": "function",
+      "name": "SettingsCategoryHeading",
+      "filePath": "apps/desktop/src/app/settings/env-credentials.tsx",
+      "lineRange": [
+        31,
+        39
+      ],
+      "summary": "SettingsCategoryHeading 是 env-credentials.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/env-credentials.tsx:useEnvCredentials",
+      "type": "function",
+      "name": "useEnvCredentials",
+      "filePath": "apps/desktop/src/app/settings/env-credentials.tsx",
+      "lineRange": [
+        44,
+        186
+      ],
+      "summary": "useEnvCredentials 是 env-credentials.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "type": "file",
+      "name": "env-var-actions-menu.tsx",
+      "filePath": "apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "summary": "env-var-actions-menu.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/env-var-actions-menu.tsx:EnvVarActionsMenu",
+      "type": "function",
+      "name": "EnvVarActionsMenu",
+      "filePath": "apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "lineRange": [
+        31,
+        114
+      ],
+      "summary": "EnvVarActionsMenu 是 env-var-actions-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/env-var-actions-menu.tsx:EnvVarActionsTrigger",
+      "type": "function",
+      "name": "EnvVarActionsTrigger",
+      "filePath": "apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "lineRange": [
+        120,
+        136
+      ],
+      "summary": "EnvVarActionsTrigger 是 env-var-actions-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "type": "file",
+      "name": "field-copy.ts",
+      "filePath": "apps/desktop/src/app/settings/field-copy.ts",
+      "summary": "field-copy.ts 是 typescript 源文件，包含 5 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/field-copy.ts:schemaKeyToFieldCopyKey",
+      "type": "function",
+      "name": "schemaKeyToFieldCopyKey",
+      "filePath": "apps/desktop/src/app/settings/field-copy.ts",
+      "lineRange": [
+        13,
+        15
+      ],
+      "summary": "schemaKeyToFieldCopyKey 是 field-copy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/field-copy.ts:fieldCopyForSchemaKey",
+      "type": "function",
+      "name": "fieldCopyForSchemaKey",
+      "filePath": "apps/desktop/src/app/settings/field-copy.ts",
+      "lineRange": [
+        17,
+        19
+      ],
+      "summary": "fieldCopyForSchemaKey 是 field-copy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/settings/field-copy.ts:defineFieldCopy",
+      "type": "function",
+      "name": "defineFieldCopy",
+      "filePath": "apps/desktop/src/app/settings/field-copy.ts",
+      "lineRange": [
+        21,
+        56
+      ],
+      "summary": "defineFieldCopy 是 field-copy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalTheme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:isMacPlatform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:isMacPlatform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:addSelectionShortcutLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:addSelectionShortcutLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:isAddSelectionShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:isAddSelectionShortcut",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalSelectionLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalSelectionLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalSelectionAnchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/selection.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/selection.ts:terminalSelectionAnchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:readEscapeSequence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:stripEscapeSequences",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:stripInitialPromptGap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:transferHasDropCandidates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:collectDroppedPaths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:quotePathForShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:useTerminalSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/use-terminal-session.ts:useTerminalSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:isOverlayView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:isOverlayView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:isNewChatRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:isNewChatRoute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:routeSessionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:routeSessionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:sessionRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:sessionRoute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:appViewForPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/routes.ts",
+      "target": "function:apps/desktop/src/app/routes.ts:appViewForPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-context-suggestions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-context-suggestions.ts:useContextSuggestions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-context-suggestions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-context-suggestions.ts:useContextSuggestions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-cwd-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-cwd-actions.ts:useCwdActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-cwd-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-cwd-actions.ts:useCwdActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-hermes-config.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-hermes-config.ts:useHermesConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-hermes-config.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-hermes-config.ts:useHermesConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:parseMaybeRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:delegateTaskPayloads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:useMessageStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-message-stream.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-message-stream.ts:useMessageStream",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-model-controls.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-model-controls.ts:useModelControls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-model-controls.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-model-controls.ts:useModelControls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx",
+      "target": "function:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx:previewTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx",
+      "target": "function:apps/desktop/src/app/session/hooks/use-preview-routing.test.tsx:PreviewRoutingHarness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:htmlPathFromInlineDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:structuredPreviewCandidate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:usePreviewRouting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-preview-routing.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-preview-routing.ts:usePreviewRouting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx",
+      "target": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx:sessionInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx",
+      "target": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.test.tsx:Harness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:blobToDataUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:renderCommandsCatalog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:usePromptActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-prompt-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-prompt-actions.ts:usePromptActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-route-resume.ts:rawHashLooksLikeSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-route-resume.ts:useRouteResume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-route-resume.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-route-resume.ts:useRouteResume",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:withAppendedText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:chatMessagesEquivalent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:reconcileResumeMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:upsertOptimisticSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:applyRuntimeInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:useSessionActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-actions.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-actions.ts:useSessionActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-state-cache.test.tsx",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.test.tsx:Harness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.ts:sameMessageList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.ts:useSessionStateCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/session/hooks/use-session-state-cache.ts",
+      "target": "function:apps/desktop/src/app/session/hooks/use-session-state-cache.ts:useSessionStateCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/about-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/about-settings.tsx:relativeTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/about-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/about-settings.tsx:AboutSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/about-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/about-settings.tsx:AboutSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/appearance-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/appearance-settings.tsx:ThemePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/appearance-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/appearance-settings.tsx:AppearanceSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/appearance-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/appearance-settings.tsx:AppearanceSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/config-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/config-settings.tsx:ConfigField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/config-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/config-settings.tsx:ConfigSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/config-settings.tsx",
+      "target": "function:apps/desktop/src/app/settings/config-settings.tsx:ConfigSettings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:isKeyVar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:isKeyVar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:friendlyFieldLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:friendlyFieldLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:credentialPlaceholder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:credentialPlaceholder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:KeyField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:KeyField",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:CredentialDocsLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:CredentialKeyCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:CredentialKeyCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:ProviderKeyRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:ProviderKeyRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:credentialRowLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/credential-key-ui.tsx",
+      "target": "function:apps/desktop/src/app/settings/credential-key-ui.tsx:credentialRowLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-credentials.tsx:filterEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-credentials.tsx:filterEnv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-credentials.tsx:SettingsCategoryHeading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-credentials.tsx:SettingsCategoryHeading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-credentials.tsx:useEnvCredentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-credentials.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-credentials.tsx:useEnvCredentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-var-actions-menu.tsx:EnvVarActionsMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-var-actions-menu.tsx:EnvVarActionsMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-var-actions-menu.tsx:EnvVarActionsTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/env-var-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/settings/env-var-actions-menu.tsx:EnvVarActionsTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "target": "function:apps/desktop/src/app/settings/field-copy.ts:schemaKeyToFieldCopyKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "target": "function:apps/desktop/src/app/settings/field-copy.ts:schemaKeyToFieldCopyKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "target": "function:apps/desktop/src/app/settings/field-copy.ts:fieldCopyForSchemaKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "target": "function:apps/desktop/src/app/settings/field-copy.ts:fieldCopyForSchemaKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "target": "function:apps/desktop/src/app/settings/field-copy.ts:defineFieldCopy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/settings/field-copy.ts",
+      "target": "function:apps/desktop/src/app/settings/field-copy.ts:defineFieldCopy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

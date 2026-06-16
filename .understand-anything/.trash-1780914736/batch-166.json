@@ -1,0 +1,5652 @@
+{
+  "nodes": [
+    {
+      "id": "config:apps/shared/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "apps/shared/package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:apps/shared/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "apps/shared/src/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/shared/src/json-rpc-gateway.ts",
+      "type": "file",
+      "name": "json-rpc-gateway.ts",
+      "filePath": "apps/shared/src/json-rpc-gateway.ts",
+      "summary": "json-rpc-gateway.ts 是 typescript 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "class:apps/shared/src/json-rpc-gateway.ts:JsonRpcGatewayClient",
+      "type": "class",
+      "name": "JsonRpcGatewayClient",
+      "filePath": "apps/shared/src/json-rpc-gateway.ts",
+      "lineRange": [
+        67,
+        336
+      ],
+      "summary": "JsonRpcGatewayClient 是 json-rpc-gateway.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:apps/shared/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "apps/shared/tsconfig.json",
+      "summary": "tsconfig.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:batch_runner.py",
+      "type": "file",
+      "name": "batch_runner.py",
+      "filePath": "batch_runner.py",
+      "summary": "batch_runner.py 是 python 源文件，包含 7 个函数、1 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:batch_runner.py:_normalize_tool_stats",
+      "type": "function",
+      "name": "_normalize_tool_stats",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        71,
+        98
+      ],
+      "summary": "_normalize_tool_stats 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:batch_runner.py:_normalize_tool_error_counts",
+      "type": "function",
+      "name": "_normalize_tool_error_counts",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        101,
+        122
+      ],
+      "summary": "_normalize_tool_error_counts 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:batch_runner.py:_extract_tool_stats",
+      "type": "function",
+      "name": "_extract_tool_stats",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        125,
+        205
+      ],
+      "summary": "_extract_tool_stats 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:batch_runner.py:_extract_reasoning_stats",
+      "type": "function",
+      "name": "_extract_reasoning_stats",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        208,
+        241
+      ],
+      "summary": "_extract_reasoning_stats 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:batch_runner.py:_process_single_prompt",
+      "type": "function",
+      "name": "_process_single_prompt",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        244,
+        397
+      ],
+      "summary": "_process_single_prompt 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:batch_runner.py:_process_batch_worker",
+      "type": "function",
+      "name": "_process_batch_worker",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        400,
+        524
+      ],
+      "summary": "_process_batch_worker 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:batch_runner.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        1147,
+        1316
+      ],
+      "summary": "main 是 batch_runner.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:batch_runner.py:BatchRunner",
+      "type": "class",
+      "name": "BatchRunner",
+      "filePath": "batch_runner.py",
+      "lineRange": [
+        527,
+        1144
+      ],
+      "summary": "BatchRunner 是 batch_runner.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:cli-config.yaml.example",
+      "type": "file",
+      "name": "cli-config.yaml.example",
+      "filePath": "cli-config.yaml.example",
+      "summary": "cli-config.yaml.example 是 example 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "example",
+        "cli",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 example。"
+    },
+    {
+      "id": "file:cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "filePath": "cli.py",
+      "summary": "cli.py 是 python 源文件，包含 91 个函数、3 个类、94 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:cli.py:CanonicalUsage",
+      "type": "function",
+      "name": "CanonicalUsage",
+      "filePath": "cli.py",
+      "lineRange": [
+        91,
+        94
+      ],
+      "summary": "CanonicalUsage 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:estimate_usage_cost",
+      "type": "function",
+      "name": "estimate_usage_cost",
+      "filePath": "cli.py",
+      "lineRange": [
+        97,
+        100
+      ],
+      "summary": "estimate_usage_cost 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:format_duration_compact",
+      "type": "function",
+      "name": "format_duration_compact",
+      "filePath": "cli.py",
+      "lineRange": [
+        103,
+        115
+      ],
+      "summary": "format_duration_compact 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:format_token_count_compact",
+      "type": "function",
+      "name": "format_token_count_compact",
+      "filePath": "cli.py",
+      "lineRange": [
+        118,
+        139
+      ],
+      "summary": "format_token_count_compact 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:is_table_divider",
+      "type": "function",
+      "name": "is_table_divider",
+      "filePath": "cli.py",
+      "lineRange": [
+        142,
+        145
+      ],
+      "summary": "is_table_divider 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:looks_like_table_row",
+      "type": "function",
+      "name": "looks_like_table_row",
+      "filePath": "cli.py",
+      "lineRange": [
+        148,
+        151
+      ],
+      "summary": "looks_like_table_row 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:realign_markdown_tables",
+      "type": "function",
+      "name": "realign_markdown_tables",
+      "filePath": "cli.py",
+      "lineRange": [
+        154,
+        157
+      ],
+      "summary": "realign_markdown_tables 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_strip_reasoning_tags",
+      "type": "function",
+      "name": "_strip_reasoning_tags",
+      "filePath": "cli.py",
+      "lineRange": [
+        192,
+        261
+      ],
+      "summary": "_strip_reasoning_tags 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_assistant_content_as_text",
+      "type": "function",
+      "name": "_assistant_content_as_text",
+      "filePath": "cli.py",
+      "lineRange": [
+        264,
+        276
+      ],
+      "summary": "_assistant_content_as_text 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_assistant_copy_text",
+      "type": "function",
+      "name": "_assistant_copy_text",
+      "filePath": "cli.py",
+      "lineRange": [
+        279,
+        280
+      ],
+      "summary": "_assistant_copy_text 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_load_prefill_messages",
+      "type": "function",
+      "name": "_load_prefill_messages",
+      "filePath": "cli.py",
+      "lineRange": [
+        287,
+        313
+      ],
+      "summary": "_load_prefill_messages 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_resolve_prefill_messages_file",
+      "type": "function",
+      "name": "_resolve_prefill_messages_file",
+      "filePath": "cli.py",
+      "lineRange": [
+        316,
+        332
+      ],
+      "summary": "_resolve_prefill_messages_file 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_parse_reasoning_config",
+      "type": "function",
+      "name": "_parse_reasoning_config",
+      "filePath": "cli.py",
+      "lineRange": [
+        335,
+        341
+      ],
+      "summary": "_parse_reasoning_config 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_parse_service_tier_config",
+      "type": "function",
+      "name": "_parse_service_tier_config",
+      "filePath": "cli.py",
+      "lineRange": [
+        344,
+        352
+      ],
+      "summary": "_parse_service_tier_config 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:load_cli_config",
+      "type": "function",
+      "name": "load_cli_config",
+      "filePath": "cli.py",
+      "lineRange": [
+        354,
+        698
+      ],
+      "summary": "load_cli_config 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:cli.py:AIAgent",
+      "type": "function",
+      "name": "AIAgent",
+      "filePath": "cli.py",
+      "lineRange": [
+        802,
+        805
+      ],
+      "summary": "AIAgent 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_tool_definitions",
+      "type": "function",
+      "name": "get_tool_definitions",
+      "filePath": "cli.py",
+      "lineRange": [
+        808,
+        813
+      ],
+      "summary": "get_tool_definitions 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_toolset_for_tool",
+      "type": "function",
+      "name": "get_toolset_for_tool",
+      "filePath": "cli.py",
+      "lineRange": [
+        816,
+        819
+      ],
+      "summary": "get_toolset_for_tool 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_all_toolsets",
+      "type": "function",
+      "name": "get_all_toolsets",
+      "filePath": "cli.py",
+      "lineRange": [
+        826,
+        829
+      ],
+      "summary": "get_all_toolsets 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_toolset_info",
+      "type": "function",
+      "name": "get_toolset_info",
+      "filePath": "cli.py",
+      "lineRange": [
+        832,
+        835
+      ],
+      "summary": "get_toolset_info 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:validate_toolset",
+      "type": "function",
+      "name": "validate_toolset",
+      "filePath": "cli.py",
+      "lineRange": [
+        838,
+        841
+      ],
+      "summary": "validate_toolset 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_sync_process_session_id",
+      "type": "function",
+      "name": "_sync_process_session_id",
+      "filePath": "cli.py",
+      "lineRange": [
+        844,
+        848
+      ],
+      "summary": "_sync_process_session_id 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_job",
+      "type": "function",
+      "name": "get_job",
+      "filePath": "cli.py",
+      "lineRange": [
+        851,
+        854
+      ],
+      "summary": "get_job 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_cleanup_all_terminals",
+      "type": "function",
+      "name": "_cleanup_all_terminals",
+      "filePath": "cli.py",
+      "lineRange": [
+        860,
+        863
+      ],
+      "summary": "_cleanup_all_terminals 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:set_sudo_password_callback",
+      "type": "function",
+      "name": "set_sudo_password_callback",
+      "filePath": "cli.py",
+      "lineRange": [
+        866,
+        869
+      ],
+      "summary": "set_sudo_password_callback 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:set_approval_callback",
+      "type": "function",
+      "name": "set_approval_callback",
+      "filePath": "cli.py",
+      "lineRange": [
+        872,
+        875
+      ],
+      "summary": "set_approval_callback 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:set_secret_capture_callback",
+      "type": "function",
+      "name": "set_secret_capture_callback",
+      "filePath": "cli.py",
+      "lineRange": [
+        878,
+        881
+      ],
+      "summary": "set_secret_capture_callback 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_cleanup_all_browsers",
+      "type": "function",
+      "name": "_cleanup_all_browsers",
+      "filePath": "cli.py",
+      "lineRange": [
+        884,
+        887
+      ],
+      "summary": "_cleanup_all_browsers 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_mark_tui_input_modes_active",
+      "type": "function",
+      "name": "_mark_tui_input_modes_active",
+      "filePath": "cli.py",
+      "lineRange": [
+        901,
+        904
+      ],
+      "summary": "_mark_tui_input_modes_active 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_prepare_deferred_agent_startup",
+      "type": "function",
+      "name": "_prepare_deferred_agent_startup",
+      "filePath": "cli.py",
+      "lineRange": [
+        907,
+        951
+      ],
+      "summary": "_prepare_deferred_agent_startup 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_run_cleanup",
+      "type": "function",
+      "name": "_run_cleanup",
+      "filePath": "cli.py",
+      "lineRange": [
+        953,
+        1013
+      ],
+      "summary": "_run_cleanup 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_emit_interrupted_session_end",
+      "type": "function",
+      "name": "_emit_interrupted_session_end",
+      "filePath": "cli.py",
+      "lineRange": [
+        1016,
+        1049
+      ],
+      "summary": "_emit_interrupted_session_end 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_reset_terminal_input_modes_on_exit",
+      "type": "function",
+      "name": "_reset_terminal_input_modes_on_exit",
+      "filePath": "cli.py",
+      "lineRange": [
+        1052,
+        1093
+      ],
+      "summary": "_reset_terminal_input_modes_on_exit 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_normalize_git_bash_path",
+      "type": "function",
+      "name": "_normalize_git_bash_path",
+      "filePath": "cli.py",
+      "lineRange": [
+        1104,
+        1130
+      ],
+      "summary": "_normalize_git_bash_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_git_repo_root",
+      "type": "function",
+      "name": "_git_repo_root",
+      "filePath": "cli.py",
+      "lineRange": [
+        1133,
+        1151
+      ],
+      "summary": "_git_repo_root 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_path_is_within_root",
+      "type": "function",
+      "name": "_path_is_within_root",
+      "filePath": "cli.py",
+      "lineRange": [
+        1154,
+        1160
+      ],
+      "summary": "_path_is_within_root 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_setup_worktree",
+      "type": "function",
+      "name": "_setup_worktree",
+      "filePath": "cli.py",
+      "lineRange": [
+        1163,
+        1288
+      ],
+      "summary": "_setup_worktree 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_worktree_has_unpushed_commits",
+      "type": "function",
+      "name": "_worktree_has_unpushed_commits",
+      "filePath": "cli.py",
+      "lineRange": [
+        1291,
+        1319
+      ],
+      "summary": "_worktree_has_unpushed_commits 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_cleanup_worktree",
+      "type": "function",
+      "name": "_cleanup_worktree",
+      "filePath": "cli.py",
+      "lineRange": [
+        1322,
+        1372
+      ],
+      "summary": "_cleanup_worktree 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_run_state_db_auto_maintenance",
+      "type": "function",
+      "name": "_run_state_db_auto_maintenance",
+      "filePath": "cli.py",
+      "lineRange": [
+        1375,
+        1426
+      ],
+      "summary": "_run_state_db_auto_maintenance 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_run_checkpoint_auto_maintenance",
+      "type": "function",
+      "name": "_run_checkpoint_auto_maintenance",
+      "filePath": "cli.py",
+      "lineRange": [
+        1429,
+        1450
+      ],
+      "summary": "_run_checkpoint_auto_maintenance 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_prune_stale_worktrees",
+      "type": "function",
+      "name": "_prune_stale_worktrees",
+      "filePath": "cli.py",
+      "lineRange": [
+        1453,
+        1516
+      ],
+      "summary": "_prune_stale_worktrees 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_prune_orphaned_branches",
+      "type": "function",
+      "name": "_prune_orphaned_branches",
+      "filePath": "cli.py",
+      "lineRange": [
+        1519,
+        1585
+      ],
+      "summary": "_prune_orphaned_branches 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_hex_to_ansi",
+      "type": "function",
+      "name": "_hex_to_ansi",
+      "filePath": "cli.py",
+      "lineRange": [
+        1605,
+        1620
+      ],
+      "summary": "_hex_to_ansi 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_luminance_from_hex",
+      "type": "function",
+      "name": "_luminance_from_hex",
+      "filePath": "cli.py",
+      "lineRange": [
+        1646,
+        1657
+      ],
+      "summary": "_luminance_from_hex 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_query_osc11_background",
+      "type": "function",
+      "name": "_query_osc11_background",
+      "filePath": "cli.py",
+      "lineRange": [
+        1660,
+        1730
+      ],
+      "summary": "_query_osc11_background 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_detect_light_mode",
+      "type": "function",
+      "name": "_detect_light_mode",
+      "filePath": "cli.py",
+      "lineRange": [
+        1733,
+        1793
+      ],
+      "summary": "_detect_light_mode 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_maybe_remap_for_light_mode",
+      "type": "function",
+      "name": "_maybe_remap_for_light_mode",
+      "filePath": "cli.py",
+      "lineRange": [
+        1824,
+        1835
+      ],
+      "summary": "_maybe_remap_for_light_mode 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_install_skin_light_mode_hook",
+      "type": "function",
+      "name": "_install_skin_light_mode_hook",
+      "filePath": "cli.py",
+      "lineRange": [
+        1842,
+        1861
+      ],
+      "summary": "_install_skin_light_mode_hook 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_accent_hex",
+      "type": "function",
+      "name": "_accent_hex",
+      "filePath": "cli.py",
+      "lineRange": [
+        1923,
+        1929
+      ],
+      "summary": "_accent_hex 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_rich_text_from_ansi",
+      "type": "function",
+      "name": "_rich_text_from_ansi",
+      "filePath": "cli.py",
+      "lineRange": [
+        1932,
+        1938
+      ],
+      "summary": "_rich_text_from_ansi 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_strip_markdown_syntax",
+      "type": "function",
+      "name": "_strip_markdown_syntax",
+      "filePath": "cli.py",
+      "lineRange": [
+        1941,
+        1968
+      ],
+      "summary": "_strip_markdown_syntax 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_preserve_windows_dot_segments_for_markdown",
+      "type": "function",
+      "name": "_preserve_windows_dot_segments_for_markdown",
+      "filePath": "cli.py",
+      "lineRange": [
+        1976,
+        1990
+      ],
+      "summary": "_preserve_windows_dot_segments_for_markdown 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_terminal_width_for_streaming",
+      "type": "function",
+      "name": "_terminal_width_for_streaming",
+      "filePath": "cli.py",
+      "lineRange": [
+        1993,
+        2008
+      ],
+      "summary": "_terminal_width_for_streaming 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_render_final_assistant_content",
+      "type": "function",
+      "name": "_render_final_assistant_content",
+      "filePath": "cli.py",
+      "lineRange": [
+        2011,
+        2046
+      ],
+      "summary": "_render_final_assistant_content 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_coerce_output_history_limit",
+      "type": "function",
+      "name": "_coerce_output_history_limit",
+      "filePath": "cli.py",
+      "lineRange": [
+        2056,
+        2060
+      ],
+      "summary": "_coerce_output_history_limit 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_configure_output_history",
+      "type": "function",
+      "name": "_configure_output_history",
+      "filePath": "cli.py",
+      "lineRange": [
+        2063,
+        2068
+      ],
+      "summary": "_configure_output_history 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_clear_output_history",
+      "type": "function",
+      "name": "_clear_output_history",
+      "filePath": "cli.py",
+      "lineRange": [
+        2071,
+        2072
+      ],
+      "summary": "_clear_output_history 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_suspend_output_history",
+      "type": "function",
+      "name": "_suspend_output_history",
+      "filePath": "cli.py",
+      "lineRange": [
+        2076,
+        2083
+      ],
+      "summary": "_suspend_output_history 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_record_output_history_entry",
+      "type": "function",
+      "name": "_record_output_history_entry",
+      "filePath": "cli.py",
+      "lineRange": [
+        2086,
+        2089
+      ],
+      "summary": "_record_output_history_entry 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_record_output_history",
+      "type": "function",
+      "name": "_record_output_history",
+      "filePath": "cli.py",
+      "lineRange": [
+        2092,
+        2099
+      ],
+      "summary": "_record_output_history 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_replay_output_history",
+      "type": "function",
+      "name": "_replay_output_history",
+      "filePath": "cli.py",
+      "lineRange": [
+        2102,
+        2132
+      ],
+      "summary": "_replay_output_history 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_cprint",
+      "type": "function",
+      "name": "_cprint",
+      "filePath": "cli.py",
+      "lineRange": [
+        2135,
+        2237
+      ],
+      "summary": "_cprint 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_prepend_note_to_message",
+      "type": "function",
+      "name": "_prepend_note_to_message",
+      "filePath": "cli.py",
+      "lineRange": [
+        2240,
+        2272
+      ],
+      "summary": "_prepend_note_to_message 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_termux_example_image_path",
+      "type": "function",
+      "name": "_termux_example_image_path",
+      "filePath": "cli.py",
+      "lineRange": [
+        2288,
+        2299
+      ],
+      "summary": "_termux_example_image_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_split_path_input",
+      "type": "function",
+      "name": "_split_path_input",
+      "filePath": "cli.py",
+      "lineRange": [
+        2302,
+        2342
+      ],
+      "summary": "_split_path_input 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_resolve_attachment_path",
+      "type": "function",
+      "name": "_resolve_attachment_path",
+      "filePath": "cli.py",
+      "lineRange": [
+        2345,
+        2403
+      ],
+      "summary": "_resolve_attachment_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_detect_file_drop",
+      "type": "function",
+      "name": "_detect_file_drop",
+      "filePath": "cli.py",
+      "lineRange": [
+        2409,
+        2478
+      ],
+      "summary": "_detect_file_drop 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_format_image_attachment_badges",
+      "type": "function",
+      "name": "_format_image_attachment_badges",
+      "filePath": "cli.py",
+      "lineRange": [
+        2481,
+        2511
+      ],
+      "summary": "_format_image_attachment_badges 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_should_auto_attach_clipboard_image_on_paste",
+      "type": "function",
+      "name": "_should_auto_attach_clipboard_image_on_paste",
+      "filePath": "cli.py",
+      "lineRange": [
+        2514,
+        2516
+      ],
+      "summary": "_should_auto_attach_clipboard_image_on_paste 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_strip_leaked_bracketed_paste_wrappers",
+      "type": "function",
+      "name": "_strip_leaked_bracketed_paste_wrappers",
+      "filePath": "cli.py",
+      "lineRange": [
+        2519,
+        2542
+      ],
+      "summary": "_strip_leaked_bracketed_paste_wrappers 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_apply_bracketed_paste_timeout_patch",
+      "type": "function",
+      "name": "_apply_bracketed_paste_timeout_patch",
+      "filePath": "cli.py",
+      "lineRange": [
+        2545,
+        2625
+      ],
+      "summary": "_apply_bracketed_paste_timeout_patch 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:_preserve_ctrl_enter_newline",
+      "type": "function",
+      "name": "_preserve_ctrl_enter_newline",
+      "filePath": "cli.py",
+      "lineRange": [
+        2658,
+        2693
+      ],
+      "summary": "_preserve_ctrl_enter_newline 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_bind_prompt_submit_keys",
+      "type": "function",
+      "name": "_bind_prompt_submit_keys",
+      "filePath": "cli.py",
+      "lineRange": [
+        2696,
+        2712
+      ],
+      "summary": "_bind_prompt_submit_keys 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_disable_prompt_toolkit_cpr_warning",
+      "type": "function",
+      "name": "_disable_prompt_toolkit_cpr_warning",
+      "filePath": "cli.py",
+      "lineRange": [
+        2715,
+        2720
+      ],
+      "summary": "_disable_prompt_toolkit_cpr_warning 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_strip_leaked_terminal_responses_with_meta",
+      "type": "function",
+      "name": "_strip_leaked_terminal_responses_with_meta",
+      "filePath": "cli.py",
+      "lineRange": [
+        2723,
+        2763
+      ],
+      "summary": "_strip_leaked_terminal_responses_with_meta 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_strip_leaked_terminal_responses",
+      "type": "function",
+      "name": "_strip_leaked_terminal_responses",
+      "filePath": "cli.py",
+      "lineRange": [
+        2766,
+        2769
+      ],
+      "summary": "_strip_leaked_terminal_responses 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_collect_query_images",
+      "type": "function",
+      "name": "_collect_query_images",
+      "filePath": "cli.py",
+      "lineRange": [
+        2772,
+        2799
+      ],
+      "summary": "_collect_query_images 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_build_compact_banner",
+      "type": "function",
+      "name": "_build_compact_banner",
+      "filePath": "cli.py",
+      "lineRange": [
+        2871,
+        2917
+      ],
+      "summary": "_build_compact_banner 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_looks_like_slash_command",
+      "type": "function",
+      "name": "_looks_like_slash_command",
+      "filePath": "cli.py",
+      "lineRange": [
+        2925,
+        2940
+      ],
+      "summary": "_looks_like_slash_command 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_ensure_skill_commands",
+      "type": "function",
+      "name": "_ensure_skill_commands",
+      "filePath": "cli.py",
+      "lineRange": [
+        2951,
+        2957
+      ],
+      "summary": "_ensure_skill_commands 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_skill_commands",
+      "type": "function",
+      "name": "get_skill_commands",
+      "filePath": "cli.py",
+      "lineRange": [
+        2960,
+        2961
+      ],
+      "summary": "get_skill_commands 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:build_skill_invocation_message",
+      "type": "function",
+      "name": "build_skill_invocation_message",
+      "filePath": "cli.py",
+      "lineRange": [
+        2964,
+        2967
+      ],
+      "summary": "build_skill_invocation_message 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:build_preloaded_skills_prompt",
+      "type": "function",
+      "name": "build_preloaded_skills_prompt",
+      "filePath": "cli.py",
+      "lineRange": [
+        2970,
+        2973
+      ],
+      "summary": "build_preloaded_skills_prompt 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:get_skill_bundles",
+      "type": "function",
+      "name": "get_skill_bundles",
+      "filePath": "cli.py",
+      "lineRange": [
+        2976,
+        2982
+      ],
+      "summary": "get_skill_bundles 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:build_bundle_invocation_message",
+      "type": "function",
+      "name": "build_bundle_invocation_message",
+      "filePath": "cli.py",
+      "lineRange": [
+        2985,
+        2988
+      ],
+      "summary": "build_bundle_invocation_message 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_get_plugin_cmd_handler_names",
+      "type": "function",
+      "name": "_get_plugin_cmd_handler_names",
+      "filePath": "cli.py",
+      "lineRange": [
+        2991,
+        2997
+      ],
+      "summary": "_get_plugin_cmd_handler_names 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_parse_skills_argument",
+      "type": "function",
+      "name": "_parse_skills_argument",
+      "filePath": "cli.py",
+      "lineRange": [
+        3000,
+        3021
+      ],
+      "summary": "_parse_skills_argument 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:save_config_value",
+      "type": "function",
+      "name": "save_config_value",
+      "filePath": "cli.py",
+      "lineRange": [
+        3024,
+        3062
+      ],
+      "summary": "save_config_value 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cli.py:_run_kanban_goal_loop_q",
+      "type": "function",
+      "name": "_run_kanban_goal_loop_q",
+      "filePath": "cli.py",
+      "lineRange": [
+        15610,
+        15697
+      ],
+      "summary": "_run_kanban_goal_loop_q 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cli.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "cli.py",
+      "lineRange": [
+        15700,
+        16174
+      ],
+      "summary": "main 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:cli.py:_SkinAwareAnsi",
+      "type": "class",
+      "name": "_SkinAwareAnsi",
+      "filePath": "cli.py",
+      "lineRange": [
+        1878,
+        1911
+      ],
+      "summary": "_SkinAwareAnsi 是 cli.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:cli.py:ChatConsole",
+      "type": "class",
+      "name": "ChatConsole",
+      "filePath": "cli.py",
+      "lineRange": [
+        2802,
+        2842
+      ],
+      "summary": "ChatConsole 是 cli.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:cli.py:HermesCLI",
+      "type": "class",
+      "name": "HermesCLI",
+      "filePath": "cli.py",
+      "lineRange": [
+        3071,
+        15603
+      ],
+      "summary": "HermesCLI 是 cli.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:cron/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "cron/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:cron/jobs.py",
+      "type": "file",
+      "name": "jobs.py",
+      "filePath": "cron/jobs.py",
+      "summary": "jobs.py 是 python 源文件，包含 34 个函数、1 个类、35 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:cron/jobs.py:_job_output_dir",
+      "type": "function",
+      "name": "_job_output_dir",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        55,
+        68
+      ],
+      "summary": "_job_output_dir 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_normalize_skill_list",
+      "type": "function",
+      "name": "_normalize_skill_list",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        71,
+        85
+      ],
+      "summary": "_normalize_skill_list 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_apply_skill_fields",
+      "type": "function",
+      "name": "_apply_skill_fields",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        88,
+        94
+      ],
+      "summary": "_apply_skill_fields 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_coerce_job_text",
+      "type": "function",
+      "name": "_coerce_job_text",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        97,
+        101
+      ],
+      "summary": "_coerce_job_text 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_schedule_display_for_job",
+      "type": "function",
+      "name": "_schedule_display_for_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        104,
+        118
+      ],
+      "summary": "_schedule_display_for_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_normalize_job_record",
+      "type": "function",
+      "name": "_normalize_job_record",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        121,
+        156
+      ],
+      "summary": "_normalize_job_record 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_secure_dir",
+      "type": "function",
+      "name": "_secure_dir",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        159,
+        164
+      ],
+      "summary": "_secure_dir 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_secure_file",
+      "type": "function",
+      "name": "_secure_file",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        167,
+        173
+      ],
+      "summary": "_secure_file 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:ensure_dirs",
+      "type": "function",
+      "name": "ensure_dirs",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        176,
+        181
+      ],
+      "summary": "ensure_dirs 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:parse_duration",
+      "type": "function",
+      "name": "parse_duration",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        188,
+        206
+      ],
+      "summary": "parse_duration 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:parse_schedule",
+      "type": "function",
+      "name": "parse_schedule",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        209,
+        295
+      ],
+      "summary": "parse_schedule 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/jobs.py:_ensure_aware",
+      "type": "function",
+      "name": "_ensure_aware",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        298,
+        314
+      ],
+      "summary": "_ensure_aware 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_recoverable_oneshot_run_at",
+      "type": "function",
+      "name": "_recoverable_oneshot_run_at",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        317,
+        341
+      ],
+      "summary": "_recoverable_oneshot_run_at 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_compute_grace_seconds",
+      "type": "function",
+      "name": "_compute_grace_seconds",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        344,
+        373
+      ],
+      "summary": "_compute_grace_seconds 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:compute_next_run",
+      "type": "function",
+      "name": "compute_next_run",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        376,
+        419
+      ],
+      "summary": "compute_next_run 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:load_jobs",
+      "type": "function",
+      "name": "load_jobs",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        426,
+        471
+      ],
+      "summary": "load_jobs 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:save_jobs",
+      "type": "function",
+      "name": "save_jobs",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        474,
+        490
+      ],
+      "summary": "save_jobs 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_normalize_workdir",
+      "type": "function",
+      "name": "_normalize_workdir",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        493,
+        523
+      ],
+      "summary": "_normalize_workdir 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_normalize_profile",
+      "type": "function",
+      "name": "_normalize_profile",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        526,
+        547
+      ],
+      "summary": "_normalize_profile 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:create_job",
+      "type": "function",
+      "name": "create_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        550,
+        712
+      ],
+      "summary": "create_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/jobs.py:get_job",
+      "type": "function",
+      "name": "get_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        715,
+        721
+      ],
+      "summary": "get_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:resolve_job_ref",
+      "type": "function",
+      "name": "resolve_job_ref",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        737,
+        759
+      ],
+      "summary": "resolve_job_ref 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:list_jobs",
+      "type": "function",
+      "name": "list_jobs",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        762,
+        767
+      ],
+      "summary": "list_jobs 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:update_job",
+      "type": "function",
+      "name": "update_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        770,
+        833
+      ],
+      "summary": "update_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/jobs.py:pause_job",
+      "type": "function",
+      "name": "pause_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        836,
+        849
+      ],
+      "summary": "pause_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:resume_job",
+      "type": "function",
+      "name": "resume_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        852,
+        868
+      ],
+      "summary": "resume_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:trigger_job",
+      "type": "function",
+      "name": "trigger_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        871,
+        885
+      ],
+      "summary": "trigger_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:remove_job",
+      "type": "function",
+      "name": "remove_job",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        888,
+        907
+      ],
+      "summary": "remove_job 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:mark_job_run",
+      "type": "function",
+      "name": "mark_job_run",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        910,
+        980
+      ],
+      "summary": "mark_job_run 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/jobs.py:advance_next_run",
+      "type": "function",
+      "name": "advance_next_run",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        983,
+        1009
+      ],
+      "summary": "advance_next_run 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:get_due_jobs",
+      "type": "function",
+      "name": "get_due_jobs",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        1012,
+        1021
+      ],
+      "summary": "get_due_jobs 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:_get_due_jobs_locked",
+      "type": "function",
+      "name": "_get_due_jobs_locked",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        1024,
+        1111
+      ],
+      "summary": "_get_due_jobs_locked 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/jobs.py:save_job_output",
+      "type": "function",
+      "name": "save_job_output",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        1114,
+        1139
+      ],
+      "summary": "save_job_output 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/jobs.py:rewrite_skill_refs",
+      "type": "function",
+      "name": "rewrite_skill_refs",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        1146,
+        1256
+      ],
+      "summary": "rewrite_skill_refs 是 jobs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:cron/jobs.py:AmbiguousJobReference",
+      "type": "class",
+      "name": "AmbiguousJobReference",
+      "filePath": "cron/jobs.py",
+      "lineRange": [
+        724,
+        734
+      ],
+      "summary": "AmbiguousJobReference 是 jobs.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cron/scheduler.py",
+      "type": "file",
+      "name": "scheduler.py",
+      "filePath": "cron/scheduler.py",
+      "summary": "scheduler.py 是 python 源文件，包含 32 个函数、1 个类、33 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_cron_disabled_toolsets",
+      "type": "function",
+      "name": "_resolve_cron_disabled_toolsets",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        62,
+        82
+      ],
+      "summary": "_resolve_cron_disabled_toolsets 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_cron_enabled_toolsets",
+      "type": "function",
+      "name": "_resolve_cron_enabled_toolsets",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        85,
+        113
+      ],
+      "summary": "_resolve_cron_enabled_toolsets 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_parallel_pool",
+      "type": "function",
+      "name": "_get_parallel_pool",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        176,
+        187
+      ],
+      "summary": "_get_parallel_pool 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_sequential_pool",
+      "type": "function",
+      "name": "_get_sequential_pool",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        190,
+        204
+      ],
+      "summary": "_get_sequential_pool 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_shutdown_parallel_pool",
+      "type": "function",
+      "name": "_shutdown_parallel_pool",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        207,
+        216
+      ],
+      "summary": "_shutdown_parallel_pool 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_hermes_home",
+      "type": "function",
+      "name": "_get_hermes_home",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        226,
+        228
+      ],
+      "summary": "_get_hermes_home 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_lock_paths",
+      "type": "function",
+      "name": "_get_lock_paths",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        231,
+        235
+      ],
+      "summary": "_get_lock_paths 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_job_profile_context",
+      "type": "function",
+      "name": "_job_profile_context",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        239,
+        300
+      ],
+      "summary": "_job_profile_context 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_origin",
+      "type": "function",
+      "name": "_resolve_origin",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        303,
+        322
+      ],
+      "summary": "_resolve_origin 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_cron_job_origin_log_suffix",
+      "type": "function",
+      "name": "_cron_job_origin_log_suffix",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        325,
+        346
+      ],
+      "summary": "_cron_job_origin_log_suffix 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_plugin_cron_env_var",
+      "type": "function",
+      "name": "_plugin_cron_env_var",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        349,
+        365
+      ],
+      "summary": "_plugin_cron_env_var 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_is_known_delivery_platform",
+      "type": "function",
+      "name": "_is_known_delivery_platform",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        368,
+        378
+      ],
+      "summary": "_is_known_delivery_platform 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_home_env_var",
+      "type": "function",
+      "name": "_resolve_home_env_var",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        381,
+        391
+      ],
+      "summary": "_resolve_home_env_var 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_home_target_chat_id",
+      "type": "function",
+      "name": "_get_home_target_chat_id",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        394,
+        404
+      ],
+      "summary": "_get_home_target_chat_id 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_home_target_thread_id",
+      "type": "function",
+      "name": "_get_home_target_thread_id",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        407,
+        430
+      ],
+      "summary": "_get_home_target_thread_id 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_iter_home_target_platforms",
+      "type": "function",
+      "name": "_iter_home_target_platforms",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        433,
+        448
+      ],
+      "summary": "_iter_home_target_platforms 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:cron_delivery_targets",
+      "type": "function",
+      "name": "cron_delivery_targets",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        451,
+        489
+      ],
+      "summary": "cron_delivery_targets 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_single_delivery_target",
+      "type": "function",
+      "name": "_resolve_single_delivery_target",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        492,
+        575
+      ],
+      "summary": "_resolve_single_delivery_target 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/scheduler.py:_normalize_deliver_value",
+      "type": "function",
+      "name": "_normalize_deliver_value",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        578,
+        595
+      ],
+      "summary": "_normalize_deliver_value 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_expand_routing_tokens",
+      "type": "function",
+      "name": "_expand_routing_tokens",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        605,
+        620
+      ],
+      "summary": "_expand_routing_tokens 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_delivery_targets",
+      "type": "function",
+      "name": "_resolve_delivery_targets",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        623,
+        653
+      ],
+      "summary": "_resolve_delivery_targets 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_resolve_delivery_target",
+      "type": "function",
+      "name": "_resolve_delivery_target",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        656,
+        659
+      ],
+      "summary": "_resolve_delivery_target 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_send_media_via_adapter",
+      "type": "function",
+      "name": "_send_media_via_adapter",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        668,
+        721
+      ],
+      "summary": "_send_media_via_adapter 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/scheduler.py:_deliver_result",
+      "type": "function",
+      "name": "_deliver_result",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        724,
+        916
+      ],
+      "summary": "_deliver_result 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/scheduler.py:_get_script_timeout",
+      "type": "function",
+      "name": "_get_script_timeout",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        924,
+        954
+      ],
+      "summary": "_get_script_timeout 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_run_job_script",
+      "type": "function",
+      "name": "_run_job_script",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        957,
+        1081
+      ],
+      "summary": "_run_job_script 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/scheduler.py:_parse_wake_gate",
+      "type": "function",
+      "name": "_parse_wake_gate",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        1084,
+        1107
+      ],
+      "summary": "_parse_wake_gate 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_build_job_prompt",
+      "type": "function",
+      "name": "_build_job_prompt",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        1110,
+        1294
+      ],
+      "summary": "_build_job_prompt 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cron/scheduler.py:_scan_assembled_cron_prompt",
+      "type": "function",
+      "name": "_scan_assembled_cron_prompt",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        1297,
+        1341
+      ],
+      "summary": "_scan_assembled_cron_prompt 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:run_job",
+      "type": "function",
+      "name": "run_job",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        1344,
+        1348
+      ],
+      "summary": "run_job 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cron/scheduler.py:_run_job_impl",
+      "type": "function",
+      "name": "_run_job_impl",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        1351,
+        2013
+      ],
+      "summary": "_run_job_impl 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:cron/scheduler.py:tick",
+      "type": "function",
+      "name": "tick",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        2016,
+        2264
+      ],
+      "summary": "tick 是 scheduler.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:cron/scheduler.py:CronPromptInjectionBlocked",
+      "type": "class",
+      "name": "CronPromptInjectionBlocked",
+      "filePath": "cron/scheduler.py",
+      "lineRange": [
+        49,
+        59
+      ],
+      "summary": "CronPromptInjectionBlocked 是 scheduler.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:datagen-config-examples/example_browser_tasks.jsonl",
+      "type": "file",
+      "name": "example_browser_tasks.jsonl",
+      "filePath": "datagen-config-examples/example_browser_tasks.jsonl",
+      "summary": "example_browser_tasks.jsonl 是 jsonl 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "jsonl",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 jsonl。"
+    },
+    {
+      "id": "file:docker/cont-init.d/015-supervise-perms",
+      "type": "file",
+      "name": "015-supervise-perms",
+      "filePath": "docker/cont-init.d/015-supervise-perms",
+      "summary": "015-supervise-perms 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:docker/cont-init.d/02-reconcile-profiles",
+      "type": "file",
+      "name": "02-reconcile-profiles",
+      "filePath": "docker/cont-init.d/02-reconcile-profiles",
+      "summary": "02-reconcile-profiles 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/dashboard/dependencies.d/base",
+      "type": "file",
+      "name": "base",
+      "filePath": "docker/s6-rc.d/dashboard/dependencies.d/base",
+      "summary": "base 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/dashboard/finish",
+      "type": "file",
+      "name": "finish",
+      "filePath": "docker/s6-rc.d/dashboard/finish",
+      "summary": "finish 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/dashboard/run",
+      "type": "file",
+      "name": "run",
+      "filePath": "docker/s6-rc.d/dashboard/run",
+      "summary": "run 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/dashboard/type",
+      "type": "file",
+      "name": "type",
+      "filePath": "docker/s6-rc.d/dashboard/type",
+      "summary": "type 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/main-hermes/dependencies.d/base",
+      "type": "file",
+      "name": "base",
+      "filePath": "docker/s6-rc.d/main-hermes/dependencies.d/base",
+      "summary": "base 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/main-hermes/run",
+      "type": "file",
+      "name": "run",
+      "filePath": "docker/s6-rc.d/main-hermes/run",
+      "summary": "run 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/main-hermes/type",
+      "type": "file",
+      "name": "type",
+      "filePath": "docker/s6-rc.d/main-hermes/type",
+      "summary": "type 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/user/contents.d/dashboard",
+      "type": "file",
+      "name": "dashboard",
+      "filePath": "docker/s6-rc.d/user/contents.d/dashboard",
+      "summary": "dashboard 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:docker/s6-rc.d/user/contents.d/main-hermes",
+      "type": "file",
+      "name": "main-hermes",
+      "filePath": "docker/s6-rc.d/user/contents.d/main-hermes",
+      "summary": "main-hermes 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "containerization",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/kanban/multi-gateway.md",
+      "type": "document",
+      "name": "multi-gateway.md",
+      "filePath": "docs/kanban/multi-gateway.md",
+      "summary": "multi-gateway.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "gateway"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:docs/middleware/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "docs/middleware/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:docs/observability/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "docs/observability/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/shared/src/json-rpc-gateway.ts",
+      "target": "class:apps/shared/src/json-rpc-gateway.ts:JsonRpcGatewayClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/shared/src/json-rpc-gateway.ts",
+      "target": "class:apps/shared/src/json-rpc-gateway.ts:JsonRpcGatewayClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_normalize_tool_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_normalize_tool_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_normalize_tool_error_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_normalize_tool_error_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_extract_tool_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_extract_tool_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_extract_reasoning_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_extract_reasoning_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_process_single_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_process_single_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_process_batch_worker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:_process_batch_worker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "function:batch_runner.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "class:batch_runner.py:BatchRunner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:batch_runner.py",
+      "target": "class:batch_runner.py:BatchRunner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:CanonicalUsage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:CanonicalUsage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:estimate_usage_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:estimate_usage_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:format_duration_compact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:format_duration_compact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:format_token_count_compact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:format_token_count_compact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:is_table_divider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:is_table_divider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:looks_like_table_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:looks_like_table_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:realign_markdown_tables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:realign_markdown_tables",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_reasoning_tags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_reasoning_tags",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_assistant_content_as_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_assistant_content_as_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_assistant_copy_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_assistant_copy_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_load_prefill_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_load_prefill_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_resolve_prefill_messages_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_resolve_prefill_messages_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_parse_reasoning_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_parse_reasoning_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_parse_service_tier_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_parse_service_tier_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:load_cli_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:load_cli_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:AIAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:AIAgent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_tool_definitions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_tool_definitions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_toolset_for_tool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_toolset_for_tool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_all_toolsets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_all_toolsets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_toolset_info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_toolset_info",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:validate_toolset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:validate_toolset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_sync_process_session_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_sync_process_session_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cleanup_all_terminals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cleanup_all_terminals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:set_sudo_password_callback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:set_sudo_password_callback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:set_approval_callback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:set_approval_callback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:set_secret_capture_callback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:set_secret_capture_callback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cleanup_all_browsers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cleanup_all_browsers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_mark_tui_input_modes_active",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_mark_tui_input_modes_active",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prepare_deferred_agent_startup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prepare_deferred_agent_startup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_cleanup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_cleanup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_emit_interrupted_session_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_emit_interrupted_session_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_reset_terminal_input_modes_on_exit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_reset_terminal_input_modes_on_exit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_normalize_git_bash_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_normalize_git_bash_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_git_repo_root",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_git_repo_root",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_path_is_within_root",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_path_is_within_root",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_setup_worktree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_setup_worktree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_worktree_has_unpushed_commits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_worktree_has_unpushed_commits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cleanup_worktree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cleanup_worktree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_state_db_auto_maintenance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_state_db_auto_maintenance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_checkpoint_auto_maintenance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_checkpoint_auto_maintenance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prune_stale_worktrees",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prune_stale_worktrees",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prune_orphaned_branches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prune_orphaned_branches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_hex_to_ansi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_hex_to_ansi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_luminance_from_hex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_luminance_from_hex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_query_osc11_background",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_query_osc11_background",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_detect_light_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_detect_light_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_maybe_remap_for_light_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_maybe_remap_for_light_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_install_skin_light_mode_hook",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_install_skin_light_mode_hook",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_accent_hex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_accent_hex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_rich_text_from_ansi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_rich_text_from_ansi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_markdown_syntax",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_markdown_syntax",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_preserve_windows_dot_segments_for_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_preserve_windows_dot_segments_for_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_terminal_width_for_streaming",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_terminal_width_for_streaming",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_render_final_assistant_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_render_final_assistant_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_coerce_output_history_limit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_coerce_output_history_limit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_configure_output_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_configure_output_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_clear_output_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_clear_output_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_suspend_output_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_suspend_output_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_record_output_history_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_record_output_history_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_record_output_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_record_output_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_replay_output_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_replay_output_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cprint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_cprint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prepend_note_to_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_prepend_note_to_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_termux_example_image_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_termux_example_image_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_split_path_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_split_path_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_resolve_attachment_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_resolve_attachment_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_detect_file_drop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_detect_file_drop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_format_image_attachment_badges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_format_image_attachment_badges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_should_auto_attach_clipboard_image_on_paste",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_should_auto_attach_clipboard_image_on_paste",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_leaked_bracketed_paste_wrappers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_leaked_bracketed_paste_wrappers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_apply_bracketed_paste_timeout_patch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_apply_bracketed_paste_timeout_patch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_preserve_ctrl_enter_newline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_preserve_ctrl_enter_newline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_bind_prompt_submit_keys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_bind_prompt_submit_keys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_disable_prompt_toolkit_cpr_warning",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_disable_prompt_toolkit_cpr_warning",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_leaked_terminal_responses_with_meta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_leaked_terminal_responses_with_meta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_leaked_terminal_responses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_strip_leaked_terminal_responses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_collect_query_images",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_collect_query_images",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_build_compact_banner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_build_compact_banner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_looks_like_slash_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_looks_like_slash_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_ensure_skill_commands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_ensure_skill_commands",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_skill_commands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_skill_commands",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:build_skill_invocation_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:build_skill_invocation_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:build_preloaded_skills_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:build_preloaded_skills_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_skill_bundles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:get_skill_bundles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:build_bundle_invocation_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:build_bundle_invocation_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_get_plugin_cmd_handler_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_get_plugin_cmd_handler_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_parse_skills_argument",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_parse_skills_argument",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:save_config_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:save_config_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_kanban_goal_loop_q",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:_run_kanban_goal_loop_q",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "function:cli.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "class:cli.py:_SkinAwareAnsi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "class:cli.py:_SkinAwareAnsi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "class:cli.py:ChatConsole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "class:cli.py:ChatConsole",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cli.py",
+      "target": "class:cli.py:HermesCLI",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cli.py",
+      "target": "class:cli.py:HermesCLI",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_job_output_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_job_output_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_skill_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_skill_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_apply_skill_fields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_apply_skill_fields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_coerce_job_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_coerce_job_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_schedule_display_for_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_schedule_display_for_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_job_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_job_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_secure_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_secure_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_secure_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_secure_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:ensure_dirs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:ensure_dirs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:parse_duration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:parse_duration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:parse_schedule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:parse_schedule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_ensure_aware",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_ensure_aware",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_recoverable_oneshot_run_at",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_recoverable_oneshot_run_at",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_compute_grace_seconds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_compute_grace_seconds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:compute_next_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:compute_next_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:load_jobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:load_jobs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:save_jobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:save_jobs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_workdir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_workdir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_normalize_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:create_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:create_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:get_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:get_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:resolve_job_ref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:resolve_job_ref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:list_jobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:list_jobs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:update_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:update_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:pause_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:pause_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:resume_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:resume_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:trigger_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:trigger_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:remove_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:remove_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:mark_job_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:mark_job_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:advance_next_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:advance_next_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:get_due_jobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:get_due_jobs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_get_due_jobs_locked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:_get_due_jobs_locked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:save_job_output",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:save_job_output",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:rewrite_skill_refs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "function:cron/jobs.py:rewrite_skill_refs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "class:cron/jobs.py:AmbiguousJobReference",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/jobs.py",
+      "target": "class:cron/jobs.py:AmbiguousJobReference",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_cron_disabled_toolsets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_cron_disabled_toolsets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_cron_enabled_toolsets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_cron_enabled_toolsets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_parallel_pool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_parallel_pool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_sequential_pool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_sequential_pool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_shutdown_parallel_pool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_shutdown_parallel_pool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_hermes_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_hermes_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_lock_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_lock_paths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_job_profile_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_job_profile_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_origin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_origin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_cron_job_origin_log_suffix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_cron_job_origin_log_suffix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_plugin_cron_env_var",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_plugin_cron_env_var",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_is_known_delivery_platform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_is_known_delivery_platform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_home_env_var",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_home_env_var",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_home_target_chat_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_home_target_chat_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_home_target_thread_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_home_target_thread_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_iter_home_target_platforms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_iter_home_target_platforms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:cron_delivery_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:cron_delivery_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_single_delivery_target",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_single_delivery_target",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_normalize_deliver_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_normalize_deliver_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_expand_routing_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_expand_routing_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_delivery_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_delivery_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_delivery_target",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_resolve_delivery_target",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_send_media_via_adapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_send_media_via_adapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_deliver_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_deliver_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_script_timeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_get_script_timeout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_run_job_script",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_run_job_script",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_parse_wake_gate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_parse_wake_gate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_build_job_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_build_job_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_scan_assembled_cron_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_scan_assembled_cron_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:run_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:run_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_run_job_impl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:_run_job_impl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:tick",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "function:cron/scheduler.py:tick",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "class:cron/scheduler.py:CronPromptInjectionBlocked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cron/scheduler.py",
+      "target": "class:cron/scheduler.py:CronPromptInjectionBlocked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

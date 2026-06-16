@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/prompt-construction.md",
+      "type": "document",
+      "name": "prompt-construction.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/prompt-construction.md",
+      "summary": "prompt-construction.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/style-presets.md",
+      "type": "document",
+      "name": "style-presets.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/style-presets.md",
+      "summary": "style-presets.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/styles.md",
+      "type": "document",
+      "name": "styles.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/styles.md",
+      "summary": "styles.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/usage.md",
+      "type": "document",
+      "name": "usage.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/usage.md",
+      "summary": "usage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-article-illustrator/references/workflow.md",
+      "type": "document",
+      "name": "workflow.md",
+      "filePath": "optional-skills/creative/baoyu-article-illustrator/references/workflow.md",
+      "summary": "workflow.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-bioinformatics.md",
+      "type": "document",
+      "name": "research-bioinformatics.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-bioinformatics.md",
+      "summary": "research-bioinformatics.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-darwinian-evolver.md",
+      "type": "document",
+      "name": "research-darwinian-evolver.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-darwinian-evolver.md",
+      "summary": "research-darwinian-evolver.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-domain-intel.md",
+      "type": "document",
+      "name": "research-domain-intel.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-domain-intel.md",
+      "summary": "research-domain-intel.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-drug-discovery.md",
+      "type": "document",
+      "name": "research-drug-discovery.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-drug-discovery.md",
+      "summary": "research-drug-discovery.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-duckduckgo-search.md",
+      "type": "document",
+      "name": "research-duckduckgo-search.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-duckduckgo-search.md",
+      "summary": "research-duckduckgo-search.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-gitnexus-explorer.md",
+      "type": "document",
+      "name": "research-gitnexus-explorer.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-gitnexus-explorer.md",
+      "summary": "research-gitnexus-explorer.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-osint-investigation.md",
+      "type": "document",
+      "name": "research-osint-investigation.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-osint-investigation.md",
+      "summary": "research-osint-investigation.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-parallel-cli.md",
+      "type": "document",
+      "name": "research-parallel-cli.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-parallel-cli.md",
+      "summary": "research-parallel-cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-qmd.md",
+      "type": "document",
+      "name": "research-qmd.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-qmd.md",
+      "summary": "research-qmd.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-scrapling.md",
+      "type": "document",
+      "name": "research-scrapling.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-scrapling.md",
+      "summary": "research-scrapling.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/research/research-searxng-search.md",
+      "type": "document",
+      "name": "research-searxng-search.md",
+      "filePath": "website/docs/user-guide/skills/optional/research/research-searxng-search.md",
+      "summary": "research-searxng-search.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

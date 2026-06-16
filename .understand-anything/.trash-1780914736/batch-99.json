@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/research/research-arxiv.md",
+      "type": "document",
+      "name": "research-arxiv.md",
+      "filePath": "website/docs/user-guide/skills/bundled/research/research-arxiv.md",
+      "summary": "research-arxiv.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/research/research-blogwatcher.md",
+      "type": "document",
+      "name": "research-blogwatcher.md",
+      "filePath": "website/docs/user-guide/skills/bundled/research/research-blogwatcher.md",
+      "summary": "research-blogwatcher.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/research/research-llm-wiki.md",
+      "type": "document",
+      "name": "research-llm-wiki.md",
+      "filePath": "website/docs/user-guide/skills/bundled/research/research-llm-wiki.md",
+      "summary": "research-llm-wiki.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/research/research-polymarket.md",
+      "type": "document",
+      "name": "research-polymarket.md",
+      "filePath": "website/docs/user-guide/skills/bundled/research/research-polymarket.md",
+      "summary": "research-polymarket.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/research/research-research-paper-writing.md",
+      "type": "document",
+      "name": "research-research-paper-writing.md",
+      "filePath": "website/docs/user-guide/skills/bundled/research/research-research-paper-writing.md",
+      "summary": "research-research-paper-writing.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

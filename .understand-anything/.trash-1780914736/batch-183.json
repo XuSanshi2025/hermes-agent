@@ -1,0 +1,3879 @@
+{
+  "nodes": [
+    {
+      "id": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "type": "file",
+      "name": "memento_cards.py",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "summary": "memento_cards.py 是 python 源文件，包含 18 个函数、18 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_now",
+      "type": "function",
+      "name": "_now",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        25,
+        26
+      ],
+      "summary": "_now 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_iso",
+      "type": "function",
+      "name": "_iso",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        29,
+        30
+      ],
+      "summary": "_iso 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_parse_iso",
+      "type": "function",
+      "name": "_parse_iso",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        33,
+        34
+      ],
+      "summary": "_parse_iso 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_empty_store",
+      "type": "function",
+      "name": "_empty_store",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        37,
+        38
+      ],
+      "summary": "_empty_store 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        41,
+        51
+      ],
+      "summary": "_load 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_save",
+      "type": "function",
+      "name": "_save",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        54,
+        67
+      ],
+      "summary": "_save 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_out",
+      "type": "function",
+      "name": "_out",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        70,
+        72
+      ],
+      "summary": "_out 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_add",
+      "type": "function",
+      "name": "cmd_add",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        77,
+        94
+      ],
+      "summary": "cmd_add 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_add_quiz",
+      "type": "function",
+      "name": "cmd_add_quiz",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        97,
+        132
+      ],
+      "summary": "cmd_add_quiz 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_due",
+      "type": "function",
+      "name": "cmd_due",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        135,
+        147
+      ],
+      "summary": "cmd_due 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_rate",
+      "type": "function",
+      "name": "cmd_rate",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        150,
+        184
+      ],
+      "summary": "cmd_rate 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_list",
+      "type": "function",
+      "name": "cmd_list",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        187,
+        194
+      ],
+      "summary": "cmd_list 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_stats",
+      "type": "function",
+      "name": "cmd_stats",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        197,
+        220
+      ],
+      "summary": "cmd_stats 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_export",
+      "type": "function",
+      "name": "cmd_export",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        223,
+        230
+      ],
+      "summary": "cmd_export 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_import",
+      "type": "function",
+      "name": "cmd_import",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        233,
+        269
+      ],
+      "summary": "cmd_import 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_delete",
+      "type": "function",
+      "name": "cmd_delete",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        272,
+        281
+      ],
+      "summary": "cmd_delete 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_delete_collection",
+      "type": "function",
+      "name": "cmd_delete_collection",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        284,
+        290
+      ],
+      "summary": "cmd_delete_collection 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "lineRange": [
+        295,
+        349
+      ],
+      "summary": "main 是 memento_cards.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "type": "file",
+      "name": "youtube_quiz.py",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "summary": "youtube_quiz.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:_out",
+      "type": "function",
+      "name": "_out",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "_out 是 youtube_quiz.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:_normalize_segments",
+      "type": "function",
+      "name": "_normalize_segments",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "lineRange": [
+        19,
+        25
+      ],
+      "summary": "_normalize_segments 是 youtube_quiz.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:cmd_fetch",
+      "type": "function",
+      "name": "cmd_fetch",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "lineRange": [
+        28,
+        72
+      ],
+      "summary": "cmd_fetch 是 youtube_quiz.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "lineRange": [
+        75,
+        84
+      ],
+      "summary": "main 是 youtube_quiz.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/productivity/memento-flashcards/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/memento-flashcards/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/productivity/shop-app/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/shop-app/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/productivity/shopify/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/shopify/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/productivity/siyuan/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/siyuan/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "type": "file",
+      "name": "telephony.py",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "summary": "telephony.py 是 python 源文件，包含 52 个函数、2 个类、54 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_hermes_home",
+      "type": "function",
+      "name": "_hermes_home",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        71,
+        72
+      ],
+      "summary": "_hermes_home 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_env_path",
+      "type": "function",
+      "name": "_env_path",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        75,
+        76
+      ],
+      "summary": "_env_path 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_config_path",
+      "type": "function",
+      "name": "_config_path",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        79,
+        80
+      ],
+      "summary": "_config_path 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_state_path",
+      "type": "function",
+      "name": "_state_path",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        83,
+        84
+      ],
+      "summary": "_state_path 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_root_config",
+      "type": "function",
+      "name": "_load_root_config",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        87,
+        100
+      ],
+      "summary": "_load_root_config 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_config_lookup",
+      "type": "function",
+      "name": "_config_lookup",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        103,
+        114
+      ],
+      "summary": "_config_lookup 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_dotenv_values",
+      "type": "function",
+      "name": "_load_dotenv_values",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        117,
+        132
+      ],
+      "summary": "_load_dotenv_values 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_env_or_config",
+      "type": "function",
+      "name": "_env_or_config",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        135,
+        142
+      ],
+      "summary": "_env_or_config 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_state",
+      "type": "function",
+      "name": "_load_state",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        145,
+        156
+      ],
+      "summary": "_load_state 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_save_state",
+      "type": "function",
+      "name": "_save_state",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        159,
+        163
+      ],
+      "summary": "_save_state 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_quote_env_value",
+      "type": "function",
+      "name": "_quote_env_value",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        166,
+        170
+      ],
+      "summary": "_quote_env_value 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_upsert_env_file",
+      "type": "function",
+      "name": "_upsert_env_file",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        173,
+        203
+      ],
+      "summary": "_upsert_env_file 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_normalize_phone",
+      "type": "function",
+      "name": "_normalize_phone",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        206,
+        217
+      ],
+      "summary": "_normalize_phone 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_mask_phone",
+      "type": "function",
+      "name": "_mask_phone",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        220,
+        224
+      ],
+      "summary": "_mask_phone 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_parse_twilio_date",
+      "type": "function",
+      "name": "_parse_twilio_date",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        227,
+        234
+      ],
+      "summary": "_parse_twilio_date 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_json_request",
+      "type": "function",
+      "name": "_json_request",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        237,
+        272
+      ],
+      "summary": "_json_request 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_creds",
+      "type": "function",
+      "name": "_twilio_creds",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        275,
+        291
+      ],
+      "summary": "_twilio_creds 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_basic_headers",
+      "type": "function",
+      "name": "_twilio_basic_headers",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        294,
+        297
+      ],
+      "summary": "_twilio_basic_headers 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_request",
+      "type": "function",
+      "name": "_twilio_request",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        300,
+        308
+      ],
+      "summary": "_twilio_request 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_owned_numbers",
+      "type": "function",
+      "name": "_twilio_owned_numbers",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        311,
+        327
+      ],
+      "summary": "_twilio_owned_numbers 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_remember_twilio_number",
+      "type": "function",
+      "name": "_remember_twilio_number",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        330,
+        356
+      ],
+      "summary": "_remember_twilio_number 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_remember_vapi_number",
+      "type": "function",
+      "name": "_remember_vapi_number",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        359,
+        379
+      ],
+      "summary": "_remember_vapi_number 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_resolve_twilio_number",
+      "type": "function",
+      "name": "_resolve_twilio_number",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        382,
+        424
+      ],
+      "summary": "_resolve_twilio_number 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_api_key",
+      "type": "function",
+      "name": "_vapi_api_key",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        427,
+        432
+      ],
+      "summary": "_vapi_api_key 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_phone_number_id",
+      "type": "function",
+      "name": "_vapi_phone_number_id",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        435,
+        443
+      ],
+      "summary": "_vapi_phone_number_id 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_api_key",
+      "type": "function",
+      "name": "_bland_api_key",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        446,
+        451
+      ],
+      "summary": "_bland_api_key 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_ai_provider",
+      "type": "function",
+      "name": "_ai_provider",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        454,
+        460
+      ],
+      "summary": "_ai_provider 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_search_numbers",
+      "type": "function",
+      "name": "_twilio_search_numbers",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        463,
+        509
+      ],
+      "summary": "_twilio_search_numbers 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_buy_number",
+      "type": "function",
+      "name": "_twilio_buy_number",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        512,
+        539
+      ],
+      "summary": "_twilio_buy_number 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_list_owned",
+      "type": "function",
+      "name": "_twilio_list_owned",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        542,
+        557
+      ],
+      "summary": "_twilio_list_owned 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_set_default",
+      "type": "function",
+      "name": "_twilio_set_default",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        560,
+        576
+      ],
+      "summary": "_twilio_set_default 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twiml_say",
+      "type": "function",
+      "name": "_twiml_say",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        579,
+        580
+      ],
+      "summary": "_twiml_say 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twiml_play",
+      "type": "function",
+      "name": "_twiml_play",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        583,
+        584
+      ],
+      "summary": "_twiml_play 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_call",
+      "type": "function",
+      "name": "_twilio_call",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        587,
+        624
+      ],
+      "summary": "_twilio_call 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_call_status",
+      "type": "function",
+      "name": "_twilio_call_status",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        627,
+        641
+      ],
+      "summary": "_twilio_call_status 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_send_sms",
+      "type": "function",
+      "name": "_twilio_send_sms",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        644,
+        672
+      ],
+      "summary": "_twilio_send_sms 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_checkpoint_for_messages",
+      "type": "function",
+      "name": "_checkpoint_for_messages",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        675,
+        679
+      ],
+      "summary": "_checkpoint_for_messages 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_messages_after_checkpoint",
+      "type": "function",
+      "name": "_messages_after_checkpoint",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        682,
+        690
+      ],
+      "summary": "_messages_after_checkpoint 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_inbox",
+      "type": "function",
+      "name": "_twilio_inbox",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        693,
+        746
+      ],
+      "summary": "_twilio_inbox 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_import_twilio_number",
+      "type": "function",
+      "name": "_vapi_import_twilio_number",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        749,
+        792
+      ],
+      "summary": "_vapi_import_twilio_number 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_call",
+      "type": "function",
+      "name": "_bland_call",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        795,
+        842
+      ],
+      "summary": "_bland_call 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_status",
+      "type": "function",
+      "name": "_bland_status",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        845,
+        870
+      ],
+      "summary": "_bland_status 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_call",
+      "type": "function",
+      "name": "_vapi_call",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        873,
+        945
+      ],
+      "summary": "_vapi_call 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_status",
+      "type": "function",
+      "name": "_vapi_status",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        948,
+        968
+      ],
+      "summary": "_vapi_status 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_provider_decision_tree",
+      "type": "function",
+      "name": "_provider_decision_tree",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        971,
+        993
+      ],
+      "summary": "_provider_decision_tree 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:diagnose",
+      "type": "function",
+      "name": "diagnose",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        996,
+        1076
+      ],
+      "summary": "diagnose 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_twilio",
+      "type": "function",
+      "name": "save_twilio",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        1079,
+        1098
+      ],
+      "summary": "save_twilio 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_bland",
+      "type": "function",
+      "name": "save_bland",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        1101,
+        1115
+      ],
+      "summary": "save_bland 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_vapi",
+      "type": "function",
+      "name": "save_vapi",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        1118,
+        1145
+      ],
+      "summary": "save_vapi 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_build_parser",
+      "type": "function",
+      "name": "_build_parser",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        1148,
+        1230
+      ],
+      "summary": "_build_parser 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:_dispatch",
+      "type": "function",
+      "name": "_dispatch",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        1233,
+        1327
+      ],
+      "summary": "_dispatch 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/productivity/telephony/scripts/telephony.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        1330,
+        1339
+      ],
+      "summary": "main 是 telephony.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/productivity/telephony/scripts/telephony.py:TelephonyError",
+      "type": "class",
+      "name": "TelephonyError",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        59,
+        60
+      ],
+      "summary": "TelephonyError 是 telephony.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/productivity/telephony/scripts/telephony.py:OwnedTwilioNumber",
+      "type": "class",
+      "name": "OwnedTwilioNumber",
+      "filePath": "optional-skills/productivity/telephony/scripts/telephony.py",
+      "lineRange": [
+        64,
+        68
+      ],
+      "summary": "OwnedTwilioNumber 是 telephony.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/productivity/telephony/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/telephony/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/research/bioinformatics/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/bioinformatics/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "type": "file",
+      "name": "parrot_openrouter.py",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "summary": "parrot_openrouter.py 是 python 源文件，包含 4 个函数、4 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:_client",
+      "type": "function",
+      "name": "_client",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        38,
+        42
+      ],
+      "summary": "_client 是 parrot_openrouter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:_prompt_llm",
+      "type": "function",
+      "name": "_prompt_llm",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        45,
+        57
+      ],
+      "summary": "_prompt_llm 是 parrot_openrouter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:make_problem",
+      "type": "function",
+      "name": "make_problem",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        161,
+        166
+      ],
+      "summary": "make_problem 是 parrot_openrouter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        169,
+        214
+      ],
+      "summary": "main 是 parrot_openrouter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotOrganism",
+      "type": "class",
+      "name": "ParrotOrganism",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        60,
+        70
+      ],
+      "summary": "ParrotOrganism 是 parrot_openrouter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotEvaluationFailureCase",
+      "type": "class",
+      "name": "ParrotEvaluationFailureCase",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        73,
+        75
+      ],
+      "summary": "ParrotEvaluationFailureCase 是 parrot_openrouter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ImproveParrotMutator",
+      "type": "class",
+      "name": "ImproveParrotMutator",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        78,
+        119
+      ],
+      "summary": "ImproveParrotMutator 是 parrot_openrouter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotEvaluator",
+      "type": "class",
+      "name": "ParrotEvaluator",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "lineRange": [
+        122,
+        158
+      ],
+      "summary": "ParrotEvaluator 是 parrot_openrouter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/darwinian-evolver/scripts/show_snapshot.py",
+      "type": "file",
+      "name": "show_snapshot.py",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/show_snapshot.py",
+      "summary": "show_snapshot.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/scripts/show_snapshot.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/darwinian-evolver/scripts/show_snapshot.py",
+      "lineRange": [
+        19,
+        88
+      ],
+      "summary": "main 是 show_snapshot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:optional-skills/research/darwinian-evolver/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/darwinian-evolver/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "type": "file",
+      "name": "custom_problem_template.py",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "summary": "custom_problem_template.py 是 python 源文件，包含 4 个函数、4 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:_client",
+      "type": "function",
+      "name": "_client",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        46,
+        50
+      ],
+      "summary": "_client 是 custom_problem_template.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:_prompt_llm",
+      "type": "function",
+      "name": "_prompt_llm",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        53,
+        63
+      ],
+      "summary": "_prompt_llm 是 custom_problem_template.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:make_problem",
+      "type": "function",
+      "name": "make_problem",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        192,
+        198
+      ],
+      "summary": "make_problem 是 custom_problem_template.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        201,
+        236
+      ],
+      "summary": "main 是 custom_problem_template.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyOrganism",
+      "type": "class",
+      "name": "MyOrganism",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        69,
+        83
+      ],
+      "summary": "MyOrganism 是 custom_problem_template.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyFailureCase",
+      "type": "class",
+      "name": "MyFailureCase",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        89,
+        93
+      ],
+      "summary": "MyFailureCase 是 custom_problem_template.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyEvaluator",
+      "type": "class",
+      "name": "MyEvaluator",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        96,
+        132
+      ],
+      "summary": "MyEvaluator 是 custom_problem_template.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyMutator",
+      "type": "class",
+      "name": "MyMutator",
+      "filePath": "optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "lineRange": [
+        138,
+        185
+      ],
+      "summary": "MyMutator 是 custom_problem_template.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "type": "file",
+      "name": "domain_intel.py",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "summary": "domain_intel.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:subdomains",
+      "type": "function",
+      "name": "subdomains",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        30,
+        61
+      ],
+      "summary": "subdomains 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:check_ssl",
+      "type": "function",
+      "name": "check_ssl",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        66,
+        125
+      ],
+      "summary": "check_ssl 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:whois_lookup",
+      "type": "function",
+      "name": "whois_lookup",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        155,
+        206
+      ],
+      "summary": "whois_lookup 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:dns_records",
+      "type": "function",
+      "name": "dns_records",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        211,
+        245
+      ],
+      "summary": "dns_records 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:check_available",
+      "type": "function",
+      "name": "check_available",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        250,
+        324
+      ],
+      "summary": "check_available 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:bulk_check",
+      "type": "function",
+      "name": "bulk_check",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        338,
+        360
+      ],
+      "summary": "bulk_check 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "lineRange": [
+        365,
+        393
+      ],
+      "summary": "main 是 domain_intel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/research/domain-intel/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/domain-intel/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/research/drug-discovery/references/ADMET_REFERENCE.md",
+      "type": "document",
+      "name": "ADMET_REFERENCE.md",
+      "filePath": "optional-skills/research/drug-discovery/references/ADMET_REFERENCE.md",
+      "summary": "ADMET_REFERENCE.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "type": "file",
+      "name": "chembl_target.py",
+      "filePath": "optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "summary": "chembl_target.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/drug-discovery/scripts/chembl_target.py:get",
+      "type": "function",
+      "name": "get",
+      "filePath": "optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "lineRange": [
+        12,
+        18
+      ],
+      "summary": "get 是 chembl_target.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/drug-discovery/scripts/chembl_target.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "lineRange": [
+        20,
+        51
+      ],
+      "summary": "main 是 chembl_target.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "type": "file",
+      "name": "ro5_screen.py",
+      "filePath": "optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "summary": "ro5_screen.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "lineRange": [
+        13,
+        19
+      ],
+      "summary": "fetch 是 ro5_screen.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:check",
+      "type": "function",
+      "name": "check",
+      "filePath": "optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "lineRange": [
+        21,
+        24
+      ],
+      "summary": "check 是 ro5_screen.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:report",
+      "type": "function",
+      "name": "report",
+      "filePath": "optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "lineRange": [
+        26,
+        30
+      ],
+      "summary": "report 是 ro5_screen.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "lineRange": [
+        32,
+        42
+      ],
+      "summary": "main 是 ro5_screen.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/research/drug-discovery/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/drug-discovery/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/duckduckgo-search/scripts/duckduckgo.sh",
+      "type": "file",
+      "name": "duckduckgo.sh",
+      "filePath": "optional-skills/research/duckduckgo-search/scripts/duckduckgo.sh",
+      "summary": "duckduckgo.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "document:optional-skills/research/duckduckgo-search/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/duckduckgo-search/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs",
+      "type": "file",
+      "name": "proxy.mjs",
+      "filePath": "optional-skills/research/gitnexus-explorer/scripts/proxy.mjs",
+      "summary": "proxy.mjs 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs:proxyToApi",
+      "type": "function",
+      "name": "proxyToApi",
+      "filePath": "optional-skills/research/gitnexus-explorer/scripts/proxy.mjs",
+      "lineRange": [
+        35,
+        52
+      ],
+      "summary": "proxyToApi 是 proxy.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs:serveStatic",
+      "type": "function",
+      "name": "serveStatic",
+      "filePath": "optional-skills/research/gitnexus-explorer/scripts/proxy.mjs",
+      "lineRange": [
+        54,
+        77
+      ],
+      "summary": "serveStatic 是 proxy.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/research/gitnexus-explorer/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/research/gitnexus-explorer/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/_http.py",
+      "type": "file",
+      "name": "_http.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_http.py",
+      "summary": "_http.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/_http.py:get",
+      "type": "function",
+      "name": "get",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_http.py",
+      "lineRange": [
+        22,
+        78
+      ],
+      "summary": "get 是 _http.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/_http.py:get_json",
+      "type": "function",
+      "name": "get_json",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_http.py",
+      "lineRange": [
+        81,
+        82
+      ],
+      "summary": "get_json 是 _http.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "type": "file",
+      "name": "_normalize.py",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "summary": "_normalize.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:normalize_name",
+      "type": "function",
+      "name": "normalize_name",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "lineRange": [
+        31,
+        38
+      ],
+      "summary": "normalize_name 是 _normalize.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:normalize_aggressive",
+      "type": "function",
+      "name": "normalize_aggressive",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "lineRange": [
+        41,
+        46
+      ],
+      "summary": "normalize_aggressive 是 _normalize.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:name_tokens",
+      "type": "function",
+      "name": "name_tokens",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "lineRange": [
+        49,
+        54
+      ],
+      "summary": "name_tokens 是 _normalize.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:token_overlap_ratio",
+      "type": "function",
+      "name": "token_overlap_ratio",
+      "filePath": "optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "lineRange": [
+        57,
+        67
+      ],
+      "summary": "token_overlap_ratio 是 _normalize.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_parse_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_parse_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_empty_store",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_empty_store",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_save",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_save",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_out",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:_out",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_add",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_add",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_add_quiz",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_add_quiz",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_due",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_due",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_rate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_rate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_export",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_export",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_import",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_import",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_delete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_delete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_delete_collection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:cmd_delete_collection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/memento_cards.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:_out",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:_out",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:_normalize_segments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:_normalize_segments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:cmd_fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:cmd_fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+      "target": "function:optional-skills/productivity/memento-flashcards/scripts/youtube_quiz.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_hermes_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_hermes_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_env_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_env_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_config_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_config_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_state_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_state_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_root_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_root_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_config_lookup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_config_lookup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_dotenv_values",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_dotenv_values",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_env_or_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_env_or_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_load_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_save_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_save_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_quote_env_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_quote_env_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_upsert_env_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_upsert_env_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_normalize_phone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_normalize_phone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_mask_phone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_mask_phone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_parse_twilio_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_parse_twilio_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_json_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_json_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_creds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_creds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_basic_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_basic_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_owned_numbers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_owned_numbers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_remember_twilio_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_remember_twilio_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_remember_vapi_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_remember_vapi_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_resolve_twilio_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_resolve_twilio_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_phone_number_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_phone_number_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_ai_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_ai_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_search_numbers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_search_numbers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_buy_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_buy_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_list_owned",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_list_owned",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_set_default",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_set_default",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twiml_say",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twiml_say",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twiml_play",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twiml_play",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_call_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_call_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_send_sms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_send_sms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_checkpoint_for_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_checkpoint_for_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_messages_after_checkpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_messages_after_checkpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_inbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_twilio_inbox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_import_twilio_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_import_twilio_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_bland_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_vapi_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_provider_decision_tree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_provider_decision_tree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:diagnose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:diagnose",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_twilio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_twilio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_bland",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_bland",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_vapi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:save_vapi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_build_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_build_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_dispatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:_dispatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "function:optional-skills/productivity/telephony/scripts/telephony.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "class:optional-skills/productivity/telephony/scripts/telephony.py:TelephonyError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "class:optional-skills/productivity/telephony/scripts/telephony.py:TelephonyError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "class:optional-skills/productivity/telephony/scripts/telephony.py:OwnedTwilioNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/telephony/scripts/telephony.py",
+      "target": "class:optional-skills/productivity/telephony/scripts/telephony.py:OwnedTwilioNumber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:_prompt_llm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:_prompt_llm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:make_problem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:make_problem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotOrganism",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotOrganism",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotEvaluationFailureCase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotEvaluationFailureCase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ImproveParrotMutator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ImproveParrotMutator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotEvaluator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py",
+      "target": "class:optional-skills/research/darwinian-evolver/scripts/parrot_openrouter.py:ParrotEvaluator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/show_snapshot.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/show_snapshot.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/scripts/show_snapshot.py",
+      "target": "function:optional-skills/research/darwinian-evolver/scripts/show_snapshot.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:_prompt_llm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:_prompt_llm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:make_problem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:make_problem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "function:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyOrganism",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyOrganism",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyFailureCase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyFailureCase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyEvaluator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyEvaluator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyMutator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py",
+      "target": "class:optional-skills/research/darwinian-evolver/templates/custom_problem_template.py:MyMutator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:subdomains",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:subdomains",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:check_ssl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:check_ssl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:whois_lookup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:whois_lookup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:dns_records",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:dns_records",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:check_available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:check_available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:bulk_check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:bulk_check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/domain-intel/scripts/domain_intel.py",
+      "target": "function:optional-skills/research/domain-intel/scripts/domain_intel.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/chembl_target.py:get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/chembl_target.py:get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/chembl_target.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/chembl_target.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/chembl_target.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/drug-discovery/scripts/ro5_screen.py",
+      "target": "function:optional-skills/research/drug-discovery/scripts/ro5_screen.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs",
+      "target": "function:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs:proxyToApi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs",
+      "target": "function:optional-skills/research/gitnexus-explorer/scripts/proxy.mjs:serveStatic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_http.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_http.py:get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_http.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_http.py:get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_http.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_http.py:get_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_http.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_http.py:get_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:normalize_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:normalize_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:normalize_aggressive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:normalize_aggressive",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:name_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:name_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:token_overlap_ratio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/research/osint-investigation/scripts/_normalize.py",
+      "target": "function:optional-skills/research/osint-investigation/scripts/_normalize.py:token_overlap_ratio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

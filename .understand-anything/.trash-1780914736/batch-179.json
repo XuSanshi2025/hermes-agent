@@ -1,0 +1,1630 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/devops/hermes-s6-container-supervision/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/devops/hermes-s6-container-supervision/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/devops/pinggy-tunnel/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/devops/pinggy-tunnel/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "type": "file",
+      "name": "_watermark.py",
+      "filePath": "optional-skills/devops/watchers/scripts/_watermark.py",
+      "summary": "_watermark.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/_watermark.py:_state_dir",
+      "type": "function",
+      "name": "_state_dir",
+      "filePath": "optional-skills/devops/watchers/scripts/_watermark.py",
+      "lineRange": [
+        30,
+        37
+      ],
+      "summary": "_state_dir 是 _watermark.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/_watermark.py:format_items_as_markdown",
+      "type": "function",
+      "name": "format_items_as_markdown",
+      "filePath": "optional-skills/devops/watchers/scripts/_watermark.py",
+      "lineRange": [
+        117,
+        148
+      ],
+      "summary": "format_items_as_markdown 是 _watermark.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/devops/watchers/scripts/_watermark.py:Watermark",
+      "type": "class",
+      "name": "Watermark",
+      "filePath": "optional-skills/devops/watchers/scripts/_watermark.py",
+      "lineRange": [
+        40,
+        114
+      ],
+      "summary": "Watermark 是 _watermark.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "type": "file",
+      "name": "watch_github.py",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_github.py",
+      "summary": "watch_github.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_github.py:_flatten_commit",
+      "type": "function",
+      "name": "_flatten_commit",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_github.py",
+      "lineRange": [
+        37,
+        51
+      ],
+      "summary": "_flatten_commit 是 watch_github.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_github.py:_flatten_issue_or_release",
+      "type": "function",
+      "name": "_flatten_issue_or_release",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_github.py",
+      "lineRange": [
+        54,
+        64
+      ],
+      "summary": "_flatten_issue_or_release 是 watch_github.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_github.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_github.py",
+      "lineRange": [
+        67,
+        164
+      ],
+      "summary": "main 是 watch_github.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "type": "file",
+      "name": "watch_http_json.py",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "summary": "watch_http_json.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:_dig",
+      "type": "function",
+      "name": "_dig",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "lineRange": [
+        34,
+        44
+      ],
+      "summary": "_dig 是 watch_http_json.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:_parse_header",
+      "type": "function",
+      "name": "_parse_header",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "lineRange": [
+        47,
+        53
+      ],
+      "summary": "_parse_header 是 watch_http_json.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "lineRange": [
+        56,
+        127
+      ],
+      "summary": "main 是 watch_http_json.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "type": "file",
+      "name": "watch_rss.py",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_rss.py",
+      "summary": "watch_rss.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_rss.py:_strip_ns",
+      "type": "function",
+      "name": "_strip_ns",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_rss.py",
+      "lineRange": [
+        28,
+        29
+      ],
+      "summary": "_strip_ns 是 watch_rss.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_rss.py:_parse_feed",
+      "type": "function",
+      "name": "_parse_feed",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_rss.py",
+      "lineRange": [
+        32,
+        75
+      ],
+      "summary": "_parse_feed 是 watch_rss.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/devops/watchers/scripts/watch_rss.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/devops/watchers/scripts/watch_rss.py",
+      "lineRange": [
+        78,
+        117
+      ],
+      "summary": "main 是 watch_rss.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/devops/watchers/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/devops/watchers/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/dogfood/adversarial-ux-test/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/dogfood/adversarial-ux-test/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/dogfood/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/dogfood/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/email/agentmail/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/email/agentmail/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/finance/3-statement-model/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/3-statement-model/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/finance/comps-analysis/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/comps-analysis/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "type": "file",
+      "name": "validate_dcf.py",
+      "filePath": "optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "summary": "validate_dcf.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/finance/dcf-model/scripts/validate_dcf.py:validate_dcf_model",
+      "type": "function",
+      "name": "validate_dcf_model",
+      "filePath": "optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "lineRange": [
+        235,
+        246
+      ],
+      "summary": "validate_dcf_model 是 validate_dcf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/dcf-model/scripts/validate_dcf.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "lineRange": [
+        249,
+        287
+      ],
+      "summary": "main 是 validate_dcf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/finance/dcf-model/scripts/validate_dcf.py:DCFModelValidator",
+      "type": "class",
+      "name": "DCFModelValidator",
+      "filePath": "optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "lineRange": [
+        12,
+        231
+      ],
+      "summary": "DCFModelValidator 是 validate_dcf.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "type": "file",
+      "name": "recalc.py",
+      "filePath": "optional-skills/finance/excel-author/scripts/recalc.py",
+      "summary": "recalc.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/finance/excel-author/scripts/recalc.py:find_libreoffice",
+      "type": "function",
+      "name": "find_libreoffice",
+      "filePath": "optional-skills/finance/excel-author/scripts/recalc.py",
+      "lineRange": [
+        23,
+        28
+      ],
+      "summary": "find_libreoffice 是 recalc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/excel-author/scripts/recalc.py:recalc",
+      "type": "function",
+      "name": "recalc",
+      "filePath": "optional-skills/finance/excel-author/scripts/recalc.py",
+      "lineRange": [
+        31,
+        74
+      ],
+      "summary": "recalc 是 recalc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/excel-author/scripts/recalc.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/finance/excel-author/scripts/recalc.py",
+      "lineRange": [
+        77,
+        84
+      ],
+      "summary": "main 是 recalc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/finance/excel-author/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/excel-author/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/finance/lbo-model/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/lbo-model/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/finance/merger-model/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/merger-model/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/finance/pptx-author/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/pptx-author/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "type": "file",
+      "name": "stocks_client.py",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "summary": "stocks_client.py 是 python 源文件，包含 23 个函数、23 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:print_json",
+      "type": "function",
+      "name": "print_json",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        40,
+        41
+      ],
+      "summary": "print_json 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_price",
+      "type": "function",
+      "name": "fmt_price",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        44,
+        50
+      ],
+      "summary": "fmt_price 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_large",
+      "type": "function",
+      "name": "fmt_large",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        53,
+        67
+      ],
+      "summary": "fmt_large 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_pct",
+      "type": "function",
+      "name": "fmt_pct",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        70,
+        76
+      ],
+      "summary": "fmt_pct 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:safe_get",
+      "type": "function",
+      "name": "safe_get",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        79,
+        88
+      ],
+      "summary": "safe_get 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:ts_to_date",
+      "type": "function",
+      "name": "ts_to_date",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        91,
+        98
+      ],
+      "summary": "ts_to_date 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:_build_request",
+      "type": "function",
+      "name": "_build_request",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        106,
+        114
+      ],
+      "summary": "_build_request 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fetch_url",
+      "type": "function",
+      "name": "fetch_url",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        117,
+        139
+      ],
+      "summary": "fetch_url 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:_fetch_crumb",
+      "type": "function",
+      "name": "_fetch_crumb",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        147,
+        176
+      ],
+      "summary": "_fetch_crumb 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_url",
+      "type": "function",
+      "name": "yf_url",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        179,
+        188
+      ],
+      "summary": "yf_url 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_chart",
+      "type": "function",
+      "name": "yf_chart",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        196,
+        208
+      ],
+      "summary": "yf_chart 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_search",
+      "type": "function",
+      "name": "yf_search",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        211,
+        222
+      ],
+      "summary": "yf_search 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_quote_summary",
+      "type": "function",
+      "name": "yf_quote_summary",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        225,
+        238
+      ],
+      "summary": "yf_quote_summary 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:av_overview",
+      "type": "function",
+      "name": "av_overview",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        246,
+        256
+      ],
+      "summary": "av_overview 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:extract_quote_from_chart",
+      "type": "function",
+      "name": "extract_quote_from_chart",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        264,
+        308
+      ],
+      "summary": "extract_quote_from_chart 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:extract_quote_summary_fields",
+      "type": "function",
+      "name": "extract_quote_summary_fields",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        311,
+        347
+      ],
+      "summary": "extract_quote_summary_fields 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_quote",
+      "type": "function",
+      "name": "cmd_quote",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        355,
+        402
+      ],
+      "summary": "cmd_quote 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_search",
+      "type": "function",
+      "name": "cmd_search",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        410,
+        436
+      ],
+      "summary": "cmd_search 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_history",
+      "type": "function",
+      "name": "cmd_history",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        444,
+        518
+      ],
+      "summary": "cmd_history 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_compare",
+      "type": "function",
+      "name": "cmd_compare",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        526,
+        590
+      ],
+      "summary": "cmd_compare 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_crypto",
+      "type": "function",
+      "name": "cmd_crypto",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        598,
+        665
+      ],
+      "summary": "cmd_crypto 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:build_parser",
+      "type": "function",
+      "name": "build_parser",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        673,
+        725
+      ],
+      "summary": "build_parser 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/finance/stocks/scripts/stocks_client.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/finance/stocks/scripts/stocks_client.py",
+      "lineRange": [
+        728,
+        751
+      ],
+      "summary": "main 是 stocks_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/finance/stocks/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/finance/stocks/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/gaming/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/gaming/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/gaming/minecraft-modpack-server/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/gaming/minecraft-modpack-server/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/gaming/pokemon-player/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/gaming/pokemon-player/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/health/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/health/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/health/fitness-nutrition/references/FORMULAS.md",
+      "type": "document",
+      "name": "FORMULAS.md",
+      "filePath": "optional-skills/health/fitness-nutrition/references/FORMULAS.md",
+      "summary": "FORMULAS.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "target": "function:optional-skills/devops/watchers/scripts/_watermark.py:_state_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "target": "function:optional-skills/devops/watchers/scripts/_watermark.py:_state_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "target": "function:optional-skills/devops/watchers/scripts/_watermark.py:format_items_as_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "target": "function:optional-skills/devops/watchers/scripts/_watermark.py:format_items_as_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "target": "class:optional-skills/devops/watchers/scripts/_watermark.py:Watermark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/_watermark.py",
+      "target": "class:optional-skills/devops/watchers/scripts/_watermark.py:Watermark",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_github.py:_flatten_commit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_github.py:_flatten_commit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_github.py:_flatten_issue_or_release",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_github.py:_flatten_issue_or_release",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_github.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_github.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_github.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:_dig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:_dig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:_parse_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:_parse_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_http_json.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_http_json.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_rss.py:_strip_ns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_rss.py:_strip_ns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_rss.py:_parse_feed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_rss.py:_parse_feed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_rss.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/devops/watchers/scripts/watch_rss.py",
+      "target": "function:optional-skills/devops/watchers/scripts/watch_rss.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "target": "function:optional-skills/finance/dcf-model/scripts/validate_dcf.py:validate_dcf_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "target": "function:optional-skills/finance/dcf-model/scripts/validate_dcf.py:validate_dcf_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "target": "function:optional-skills/finance/dcf-model/scripts/validate_dcf.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "target": "function:optional-skills/finance/dcf-model/scripts/validate_dcf.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "target": "class:optional-skills/finance/dcf-model/scripts/validate_dcf.py:DCFModelValidator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/dcf-model/scripts/validate_dcf.py",
+      "target": "class:optional-skills/finance/dcf-model/scripts/validate_dcf.py:DCFModelValidator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "target": "function:optional-skills/finance/excel-author/scripts/recalc.py:find_libreoffice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "target": "function:optional-skills/finance/excel-author/scripts/recalc.py:find_libreoffice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "target": "function:optional-skills/finance/excel-author/scripts/recalc.py:recalc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "target": "function:optional-skills/finance/excel-author/scripts/recalc.py:recalc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "target": "function:optional-skills/finance/excel-author/scripts/recalc.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/excel-author/scripts/recalc.py",
+      "target": "function:optional-skills/finance/excel-author/scripts/recalc.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:print_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:print_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_price",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_price",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_large",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_large",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_pct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fmt_pct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:safe_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:safe_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:ts_to_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:ts_to_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:_build_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:_build_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fetch_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:fetch_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:_fetch_crumb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:_fetch_crumb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_quote_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:yf_quote_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:av_overview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:av_overview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:extract_quote_from_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:extract_quote_from_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:extract_quote_summary_fields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:extract_quote_summary_fields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_quote",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_quote",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_compare",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_compare",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_crypto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:cmd_crypto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:build_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:build_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/finance/stocks/scripts/stocks_client.py",
+      "target": "function:optional-skills/finance/stocks/scripts/stocks_client.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

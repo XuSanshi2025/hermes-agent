@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "config:skills/index-cache/anthropics_skills_skills_.json",
+      "type": "config",
+      "name": "anthropics_skills_skills_.json",
+      "filePath": "skills/index-cache/anthropics_skills_skills_.json",
+      "summary": "anthropics_skills_skills_.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/index-cache/claude_marketplace_anthropics_skills.json",
+      "type": "config",
+      "name": "claude_marketplace_anthropics_skills.json",
+      "filePath": "skills/index-cache/claude_marketplace_anthropics_skills.json",
+      "summary": "claude_marketplace_anthropics_skills.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/index-cache/lobehub_index.json",
+      "type": "config",
+      "name": "lobehub_index.json",
+      "filePath": "skills/index-cache/lobehub_index.json",
+      "summary": "lobehub_index.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/index-cache/openai_skills_skills_.json",
+      "type": "config",
+      "name": "openai_skills_skills_.json",
+      "filePath": "skills/index-cache/openai_skills_skills_.json",
+      "summary": "openai_skills_skills_.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": []
+}

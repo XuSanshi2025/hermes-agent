@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/optional/software-development/software-development-code-wiki.md",
+      "type": "document",
+      "name": "software-development-code-wiki.md",
+      "filePath": "website/docs/user-guide/skills/optional/software-development/software-development-code-wiki.md",
+      "summary": "software-development-code-wiki.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/software-development/software-development-rest-graphql-debug.md",
+      "type": "document",
+      "name": "software-development-rest-graphql-debug.md",
+      "filePath": "website/docs/user-guide/skills/optional/software-development/software-development-rest-graphql-debug.md",
+      "summary": "software-development-rest-graphql-debug.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/software-development/software-development-subagent-driven-development.md",
+      "type": "document",
+      "name": "software-development-subagent-driven-development.md",
+      "filePath": "website/docs/user-guide/skills/optional/software-development/software-development-subagent-driven-development.md",
+      "summary": "software-development-subagent-driven-development.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

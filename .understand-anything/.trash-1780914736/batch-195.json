@@ -1,0 +1,3038 @@
+{
+  "nodes": [
+    {
+      "id": "file:scripts/hermes-gateway",
+      "type": "file",
+      "name": "hermes-gateway",
+      "filePath": "scripts/hermes-gateway",
+      "summary": "hermes-gateway 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "gateway",
+        "project",
+        "component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:scripts/install_psutil_android.py",
+      "type": "file",
+      "name": "install_psutil_android.py",
+      "filePath": "scripts/install_psutil_android.py",
+      "summary": "install_psutil_android.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/install_psutil_android.py:_resolve_install_cmd",
+      "type": "function",
+      "name": "_resolve_install_cmd",
+      "filePath": "scripts/install_psutil_android.py",
+      "lineRange": [
+        48,
+        59
+      ],
+      "summary": "_resolve_install_cmd 是 install_psutil_android.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install_psutil_android.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/install_psutil_android.py",
+      "lineRange": [
+        62,
+        98
+      ],
+      "summary": "main 是 install_psutil_android.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/keystroke_diagnostic.py",
+      "type": "file",
+      "name": "keystroke_diagnostic.py",
+      "filePath": "scripts/keystroke_diagnostic.py",
+      "summary": "keystroke_diagnostic.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/keystroke_diagnostic.py:_header",
+      "type": "function",
+      "name": "_header",
+      "filePath": "scripts/keystroke_diagnostic.py",
+      "lineRange": [
+        46,
+        52
+      ],
+      "summary": "_header 是 keystroke_diagnostic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/keystroke_diagnostic.py:_render_text",
+      "type": "function",
+      "name": "_render_text",
+      "filePath": "scripts/keystroke_diagnostic.py",
+      "lineRange": [
+        55,
+        56
+      ],
+      "summary": "_render_text 是 keystroke_diagnostic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/keystroke_diagnostic.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/keystroke_diagnostic.py",
+      "lineRange": [
+        59,
+        77
+      ],
+      "summary": "main 是 keystroke_diagnostic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/lib/node-bootstrap.sh",
+      "type": "file",
+      "name": "node-bootstrap.sh",
+      "filePath": "scripts/lib/node-bootstrap.sh",
+      "summary": "node-bootstrap.sh 是 shell 源文件，包含 14 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "function:scripts/lib/node-bootstrap.sh:_nb_try_fnm",
+      "type": "function",
+      "name": "_nb_try_fnm",
+      "filePath": "scripts/lib/node-bootstrap.sh",
+      "lineRange": [
+        75,
+        84
+      ],
+      "summary": "_nb_try_fnm 是 node-bootstrap.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lib/node-bootstrap.sh:_nb_try_nvm",
+      "type": "function",
+      "name": "_nb_try_nvm",
+      "filePath": "scripts/lib/node-bootstrap.sh",
+      "lineRange": [
+        95,
+        106
+      ],
+      "summary": "_nb_try_nvm 是 node-bootstrap.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lib/node-bootstrap.sh:_nb_try_brew",
+      "type": "function",
+      "name": "_nb_try_brew",
+      "filePath": "scripts/lib/node-bootstrap.sh",
+      "lineRange": [
+        121,
+        132
+      ],
+      "summary": "_nb_try_brew 是 node-bootstrap.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lib/node-bootstrap.sh:_nb_install_bundled_node",
+      "type": "function",
+      "name": "_nb_install_bundled_node",
+      "filePath": "scripts/lib/node-bootstrap.sh",
+      "lineRange": [
+        138,
+        214
+      ],
+      "summary": "_nb_install_bundled_node 是 node-bootstrap.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/lib/node-bootstrap.sh:ensure_node",
+      "type": "function",
+      "name": "ensure_node",
+      "filePath": "scripts/lib/node-bootstrap.sh",
+      "lineRange": [
+        220,
+        253
+      ],
+      "summary": "ensure_node 是 node-bootstrap.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/lint_diff.py",
+      "type": "file",
+      "name": "lint_diff.py",
+      "filePath": "scripts/lint_diff.py",
+      "summary": "lint_diff.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_load_json",
+      "type": "function",
+      "name": "_load_json",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        29,
+        39
+      ],
+      "summary": "_load_json 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_normalize_ruff",
+      "type": "function",
+      "name": "_normalize_ruff",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        42,
+        63
+      ],
+      "summary": "_normalize_ruff 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_normalize_ty",
+      "type": "function",
+      "name": "_normalize_ty",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        66,
+        81
+      ],
+      "summary": "_normalize_ty 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_key",
+      "type": "function",
+      "name": "_key",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        84,
+        88
+      ],
+      "summary": "_key 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_diff",
+      "type": "function",
+      "name": "_diff",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        91,
+        104
+      ],
+      "summary": "_diff 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_rule_counts",
+      "type": "function",
+      "name": "_rule_counts",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        107,
+        108
+      ],
+      "summary": "_rule_counts 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_section",
+      "type": "function",
+      "name": "_section",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        111,
+        132
+      ],
+      "summary": "_section 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:_tool_report",
+      "type": "function",
+      "name": "_tool_report",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        135,
+        161
+      ],
+      "summary": "_tool_report 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/lint_diff.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/lint_diff.py",
+      "lineRange": [
+        164,
+        203
+      ],
+      "summary": "main 是 lint_diff.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/profile-tui.py",
+      "type": "file",
+      "name": "profile-tui.py",
+      "filePath": "scripts/profile-tui.py",
+      "summary": "profile-tui.py 是 python 源文件，包含 12 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:pick_longest_session",
+      "type": "function",
+      "name": "pick_longest_session",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        65,
+        73
+      ],
+      "summary": "pick_longest_session 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:drain",
+      "type": "function",
+      "name": "drain",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        76,
+        91
+      ],
+      "summary": "drain 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:hold_key",
+      "type": "function",
+      "name": "hold_key",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        94,
+        108
+      ],
+      "summary": "hold_key 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:summarize",
+      "type": "function",
+      "name": "summarize",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        111,
+        136
+      ],
+      "summary": "summarize 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:pct",
+      "type": "function",
+      "name": "pct",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        139,
+        144
+      ],
+      "summary": "pct 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:format_report",
+      "type": "function",
+      "name": "format_report",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        147,
+        284
+      ],
+      "summary": "format_report 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:key_metrics",
+      "type": "function",
+      "name": "key_metrics",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        287,
+        354
+      ],
+      "summary": "key_metrics 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:format_diff",
+      "type": "function",
+      "name": "format_diff",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        357,
+        402
+      ],
+      "summary": "format_diff 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:run_once",
+      "type": "function",
+      "name": "run_once",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        405,
+        473
+      ],
+      "summary": "run_once 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        476,
+        525
+      ],
+      "summary": "main 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:loop_mode",
+      "type": "function",
+      "name": "loop_mode",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        528,
+        602
+      ],
+      "summary": "loop_mode 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/profile-tui.py:wait_for_change",
+      "type": "function",
+      "name": "wait_for_change",
+      "filePath": "scripts/profile-tui.py",
+      "lineRange": [
+        605,
+        621
+      ],
+      "summary": "wait_for_change 是 profile-tui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/release.py",
+      "type": "file",
+      "name": "release.py",
+      "filePath": "scripts/release.py",
+      "summary": "release.py 是 python 源文件，包含 17 个函数、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/release.py:git",
+      "type": "function",
+      "name": "git",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1491,
+        1501
+      ],
+      "summary": "git 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:git_result",
+      "type": "function",
+      "name": "git_result",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1504,
+        1511
+      ],
+      "summary": "git_result 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:get_last_tag",
+      "type": "function",
+      "name": "get_last_tag",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1514,
+        1519
+      ],
+      "summary": "get_last_tag 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:next_available_tag",
+      "type": "function",
+      "name": "next_available_tag",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1522,
+        1531
+      ],
+      "summary": "next_available_tag 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:get_current_version",
+      "type": "function",
+      "name": "get_current_version",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1534,
+        1538
+      ],
+      "summary": "get_current_version 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:bump_version",
+      "type": "function",
+      "name": "bump_version",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1541,
+        1560
+      ],
+      "summary": "bump_version 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:update_version_files",
+      "type": "function",
+      "name": "update_version_files",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1563,
+        1606
+      ],
+      "summary": "update_version_files 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:_update_acp_registry_versions",
+      "type": "function",
+      "name": "_update_acp_registry_versions",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1609,
+        1625
+      ],
+      "summary": "_update_acp_registry_versions 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:build_release_artifacts",
+      "type": "function",
+      "name": "build_release_artifacts",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1628,
+        1666
+      ],
+      "summary": "build_release_artifacts 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:resolve_author",
+      "type": "function",
+      "name": "resolve_author",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1669,
+        1687
+      ],
+      "summary": "resolve_author 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:categorize_commit",
+      "type": "function",
+      "name": "categorize_commit",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1690,
+        1721
+      ],
+      "summary": "categorize_commit 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:clean_subject",
+      "type": "function",
+      "name": "clean_subject",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1724,
+        1733
+      ],
+      "summary": "clean_subject 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:parse_coauthors",
+      "type": "function",
+      "name": "parse_coauthors",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1736,
+        1755
+      ],
+      "summary": "parse_coauthors 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:get_commits",
+      "type": "function",
+      "name": "get_commits",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1758,
+        1807
+      ],
+      "summary": "get_commits 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/release.py:get_pr_number",
+      "type": "function",
+      "name": "get_pr_number",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1810,
+        1815
+      ],
+      "summary": "get_pr_number 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/release.py:generate_changelog",
+      "type": "function",
+      "name": "generate_changelog",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1818,
+        1919
+      ],
+      "summary": "generate_changelog 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/release.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/release.py",
+      "lineRange": [
+        1922,
+        2090
+      ],
+      "summary": "main 是 release.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/run_tests_parallel.py",
+      "type": "file",
+      "name": "run_tests_parallel.py",
+      "filePath": "scripts/run_tests_parallel.py",
+      "summary": "run_tests_parallel.py 是 python 源文件，包含 12 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_count_tests",
+      "type": "function",
+      "name": "_count_tests",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        86,
+        141
+      ],
+      "summary": "_count_tests 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_discover_files",
+      "type": "function",
+      "name": "_discover_files",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        144,
+        188
+      ],
+      "summary": "_discover_files 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_kill_tree",
+      "type": "function",
+      "name": "_kill_tree",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        191,
+        246
+      ],
+      "summary": "_kill_tree 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_run_one_file",
+      "type": "function",
+      "name": "_run_one_file",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        249,
+        345
+      ],
+      "summary": "_run_one_file 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_parse_pytest_summary",
+      "type": "function",
+      "name": "_parse_pytest_summary",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        348,
+        380
+      ],
+      "summary": "_parse_pytest_summary 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_format_file",
+      "type": "function",
+      "name": "_format_file",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        383,
+        393
+      ],
+      "summary": "_format_file 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_print_progress",
+      "type": "function",
+      "name": "_print_progress",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        396,
+        466
+      ],
+      "summary": "_print_progress 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_print_inline_failure",
+      "type": "function",
+      "name": "_print_inline_failure",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        469,
+        497
+      ],
+      "summary": "_print_inline_failure 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_load_durations",
+      "type": "function",
+      "name": "_load_durations",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        500,
+        513
+      ],
+      "summary": "_load_durations 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_save_durations",
+      "type": "function",
+      "name": "_save_durations",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        516,
+        532
+      ],
+      "summary": "_save_durations 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:_slice_files",
+      "type": "function",
+      "name": "_slice_files",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        535,
+        598
+      ],
+      "summary": "_slice_files 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/run_tests_parallel.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/run_tests_parallel.py",
+      "lineRange": [
+        601,
+        863
+      ],
+      "summary": "main 是 run_tests_parallel.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:scripts/sample_and_compress.py",
+      "type": "file",
+      "name": "sample_and_compress.py",
+      "filePath": "scripts/sample_and_compress.py",
+      "summary": "sample_and_compress.py 是 python 源文件，包含 8 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:load_dataset_from_hf",
+      "type": "function",
+      "name": "load_dataset_from_hf",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        39,
+        74
+      ],
+      "summary": "load_dataset_from_hf 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:_init_tokenizer_worker",
+      "type": "function",
+      "name": "_init_tokenizer_worker",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        81,
+        85
+      ],
+      "summary": "_init_tokenizer_worker 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:_count_tokens_for_entry",
+      "type": "function",
+      "name": "_count_tokens_for_entry",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        88,
+        114
+      ],
+      "summary": "_count_tokens_for_entry 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:sample_from_datasets",
+      "type": "function",
+      "name": "sample_from_datasets",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        117,
+        221
+      ],
+      "summary": "sample_from_datasets 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:save_samples_for_compression",
+      "type": "function",
+      "name": "save_samples_for_compression",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        224,
+        255
+      ],
+      "summary": "save_samples_for_compression 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:run_compression",
+      "type": "function",
+      "name": "run_compression",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        258,
+        284
+      ],
+      "summary": "run_compression 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:merge_output_to_single_jsonl",
+      "type": "function",
+      "name": "merge_output_to_single_jsonl",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        287,
+        313
+      ],
+      "summary": "merge_output_to_single_jsonl 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/sample_and_compress.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/sample_and_compress.py",
+      "lineRange": [
+        316,
+        405
+      ],
+      "summary": "main 是 sample_and_compress.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/tool_search_livetest.py",
+      "type": "file",
+      "name": "tool_search_livetest.py",
+      "filePath": "scripts/tool_search_livetest.py",
+      "summary": "tool_search_livetest.py 是 python 源文件，包含 10 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:setup_isolated_home",
+      "type": "function",
+      "name": "setup_isolated_home",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        251,
+        294
+      ],
+      "summary": "setup_isolated_home 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:_yaml_dump",
+      "type": "function",
+      "name": "_yaml_dump",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        297,
+        302
+      ],
+      "summary": "_yaml_dump 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:register_fake_tools",
+      "type": "function",
+      "name": "register_fake_tools",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        305,
+        340
+      ],
+      "summary": "register_fake_tools 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:reset_module_state",
+      "type": "function",
+      "name": "reset_module_state",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        343,
+        349
+      ],
+      "summary": "reset_module_state 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:run_one_scenario",
+      "type": "function",
+      "name": "run_one_scenario",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        352,
+        444
+      ],
+      "summary": "run_one_scenario 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:_redact_secrets",
+      "type": "function",
+      "name": "_redact_secrets",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        447,
+        465
+      ],
+      "summary": "_redact_secrets 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:_trim_args",
+      "type": "function",
+      "name": "_trim_args",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        468,
+        478
+      ],
+      "summary": "_trim_args 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:_count_assistant_turns",
+      "type": "function",
+      "name": "_count_assistant_turns",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        481,
+        482
+      ],
+      "summary": "_count_assistant_turns 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:_extract_bridge_calls",
+      "type": "function",
+      "name": "_extract_bridge_calls",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        485,
+        505
+      ],
+      "summary": "_extract_bridge_calls 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/tool_search_livetest.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/tool_search_livetest.py",
+      "lineRange": [
+        508,
+        545
+      ],
+      "summary": "main 是 tool_search_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/whatsapp-bridge/allowlist.js",
+      "type": "file",
+      "name": "allowlist.js",
+      "filePath": "scripts/whatsapp-bridge/allowlist.js",
+      "summary": "allowlist.js 是 javascript 源文件，包含 5 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/allowlist.js:normalizeWhatsAppIdentifier",
+      "type": "function",
+      "name": "normalizeWhatsAppIdentifier",
+      "filePath": "scripts/whatsapp-bridge/allowlist.js",
+      "lineRange": [
+        4,
+        10
+      ],
+      "summary": "normalizeWhatsAppIdentifier 是 allowlist.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/allowlist.js:parseAllowedUsers",
+      "type": "function",
+      "name": "parseAllowedUsers",
+      "filePath": "scripts/whatsapp-bridge/allowlist.js",
+      "lineRange": [
+        12,
+        19
+      ],
+      "summary": "parseAllowedUsers 是 allowlist.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/allowlist.js:readMappingFile",
+      "type": "function",
+      "name": "readMappingFile",
+      "filePath": "scripts/whatsapp-bridge/allowlist.js",
+      "lineRange": [
+        21,
+        34
+      ],
+      "summary": "readMappingFile 是 allowlist.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/allowlist.js:expandWhatsAppIdentifiers",
+      "type": "function",
+      "name": "expandWhatsAppIdentifiers",
+      "filePath": "scripts/whatsapp-bridge/allowlist.js",
+      "lineRange": [
+        36,
+        64
+      ],
+      "summary": "expandWhatsAppIdentifiers 是 allowlist.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/allowlist.js:matchesAllowedUser",
+      "type": "function",
+      "name": "matchesAllowedUser",
+      "filePath": "scripts/whatsapp-bridge/allowlist.js",
+      "lineRange": [
+        66,
+        88
+      ],
+      "summary": "matchesAllowedUser 是 allowlist.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/whatsapp-bridge/allowlist.test.mjs",
+      "type": "file",
+      "name": "allowlist.test.mjs",
+      "filePath": "scripts/whatsapp-bridge/allowlist.test.mjs",
+      "summary": "allowlist.test.mjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:scripts/whatsapp-bridge/bridge.js",
+      "type": "file",
+      "name": "bridge.js",
+      "filePath": "scripts/whatsapp-bridge/bridge.js",
+      "summary": "bridge.js 是 javascript 源文件，包含 12 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/bridge.js:sendWithTimeout",
+      "type": "function",
+      "name": "sendWithTimeout",
+      "filePath": "scripts/whatsapp-bridge/bridge.js",
+      "lineRange": [
+        70,
+        80
+      ],
+      "summary": "sendWithTimeout 是 bridge.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/bridge.js:splitLongMessage",
+      "type": "function",
+      "name": "splitLongMessage",
+      "filePath": "scripts/whatsapp-bridge/bridge.js",
+      "lineRange": [
+        90,
+        111
+      ],
+      "summary": "splitLongMessage 是 bridge.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/bridge.js:getMessageContent",
+      "type": "function",
+      "name": "getMessageContent",
+      "filePath": "scripts/whatsapp-bridge/bridge.js",
+      "lineRange": [
+        127,
+        137
+      ],
+      "summary": "getMessageContent 是 bridge.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/bridge.js:buildLidMap",
+      "type": "function",
+      "name": "buildLidMap",
+      "filePath": "scripts/whatsapp-bridge/bridge.js",
+      "lineRange": [
+        152,
+        164
+      ],
+      "summary": "buildLidMap 是 bridge.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/whatsapp-bridge/bridge.js:startSocket",
+      "type": "function",
+      "name": "startSocket",
+      "filePath": "scripts/whatsapp-bridge/bridge.js",
+      "lineRange": [
+        180,
+        449
+      ],
+      "summary": "startSocket 是 bridge.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:scripts/whatsapp-bridge/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "scripts/whatsapp-bridge/package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "filePath": "setup.py",
+      "summary": "setup.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:setup.py:_data_file_tree",
+      "type": "function",
+      "name": "_data_file_tree",
+      "filePath": "setup.py",
+      "lineRange": [
+        12,
+        20
+      ],
+      "summary": "_data_file_tree 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/apple/apple-notes/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/apple/apple-notes/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/apple/apple-reminders/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/apple/apple-reminders/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/apple/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/apple/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/apple/findmy/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/apple/findmy/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/apple/imessage/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/apple/imessage/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/apple/macos-computer-use/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/apple/macos-computer-use/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/autonomous-ai-agents/claude-code/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/autonomous-ai-agents/claude-code/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/autonomous-ai-agents/codex/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/autonomous-ai-agents/codex/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/autonomous-ai-agents/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/autonomous-ai-agents/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+      "type": "document",
+      "name": "native-mcp.md",
+      "filePath": "skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+      "summary": "native-mcp.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:scripts/install_psutil_android.py",
+      "target": "function:scripts/install_psutil_android.py:_resolve_install_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install_psutil_android.py",
+      "target": "function:scripts/install_psutil_android.py:_resolve_install_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/install_psutil_android.py",
+      "target": "function:scripts/install_psutil_android.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install_psutil_android.py",
+      "target": "function:scripts/install_psutil_android.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/keystroke_diagnostic.py",
+      "target": "function:scripts/keystroke_diagnostic.py:_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/keystroke_diagnostic.py",
+      "target": "function:scripts/keystroke_diagnostic.py:_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/keystroke_diagnostic.py",
+      "target": "function:scripts/keystroke_diagnostic.py:_render_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/keystroke_diagnostic.py",
+      "target": "function:scripts/keystroke_diagnostic.py:_render_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/keystroke_diagnostic.py",
+      "target": "function:scripts/keystroke_diagnostic.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/keystroke_diagnostic.py",
+      "target": "function:scripts/keystroke_diagnostic.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lib/node-bootstrap.sh",
+      "target": "function:scripts/lib/node-bootstrap.sh:_nb_try_fnm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lib/node-bootstrap.sh",
+      "target": "function:scripts/lib/node-bootstrap.sh:_nb_try_nvm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lib/node-bootstrap.sh",
+      "target": "function:scripts/lib/node-bootstrap.sh:_nb_try_brew",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lib/node-bootstrap.sh",
+      "target": "function:scripts/lib/node-bootstrap.sh:_nb_install_bundled_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lib/node-bootstrap.sh",
+      "target": "function:scripts/lib/node-bootstrap.sh:ensure_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_load_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_load_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_normalize_ruff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_normalize_ruff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_normalize_ty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_normalize_ty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_diff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_diff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_rule_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_rule_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_tool_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:_tool_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/lint_diff.py",
+      "target": "function:scripts/lint_diff.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:pick_longest_session",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:pick_longest_session",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:drain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:drain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:hold_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:hold_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:summarize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:summarize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:pct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:pct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:format_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:format_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:key_metrics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:key_metrics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:format_diff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:format_diff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:run_once",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:run_once",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:loop_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:loop_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:wait_for_change",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/profile-tui.py",
+      "target": "function:scripts/profile-tui.py:wait_for_change",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:git",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:git",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:git_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:git_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_last_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_last_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:next_available_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:next_available_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_current_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_current_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:bump_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:bump_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:update_version_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:update_version_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:_update_acp_registry_versions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:_update_acp_registry_versions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:build_release_artifacts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:build_release_artifacts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:resolve_author",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:resolve_author",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:categorize_commit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:categorize_commit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:clean_subject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:clean_subject",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:parse_coauthors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:parse_coauthors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_commits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_commits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_pr_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:get_pr_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:generate_changelog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:generate_changelog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/release.py",
+      "target": "function:scripts/release.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_count_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_count_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_discover_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_discover_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_kill_tree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_kill_tree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_run_one_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_run_one_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_parse_pytest_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_parse_pytest_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_format_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_format_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_print_progress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_print_progress",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_print_inline_failure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_print_inline_failure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_load_durations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_load_durations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_save_durations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_save_durations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_slice_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:_slice_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/run_tests_parallel.py",
+      "target": "function:scripts/run_tests_parallel.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:load_dataset_from_hf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:load_dataset_from_hf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:_init_tokenizer_worker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:_init_tokenizer_worker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:_count_tokens_for_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:_count_tokens_for_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:sample_from_datasets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:sample_from_datasets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:save_samples_for_compression",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:save_samples_for_compression",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:run_compression",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:run_compression",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:merge_output_to_single_jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:merge_output_to_single_jsonl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/sample_and_compress.py",
+      "target": "function:scripts/sample_and_compress.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:setup_isolated_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:setup_isolated_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_yaml_dump",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_yaml_dump",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:register_fake_tools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:register_fake_tools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:reset_module_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:reset_module_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:run_one_scenario",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:run_one_scenario",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_redact_secrets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_redact_secrets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_trim_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_trim_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_count_assistant_turns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_count_assistant_turns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_extract_bridge_calls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:_extract_bridge_calls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/tool_search_livetest.py",
+      "target": "function:scripts/tool_search_livetest.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:normalizeWhatsAppIdentifier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:normalizeWhatsAppIdentifier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:parseAllowedUsers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:parseAllowedUsers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:readMappingFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:expandWhatsAppIdentifiers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:expandWhatsAppIdentifiers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:matchesAllowedUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/allowlist.js",
+      "target": "function:scripts/whatsapp-bridge/allowlist.js:matchesAllowedUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/bridge.js",
+      "target": "function:scripts/whatsapp-bridge/bridge.js:sendWithTimeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/bridge.js",
+      "target": "function:scripts/whatsapp-bridge/bridge.js:splitLongMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/bridge.js",
+      "target": "function:scripts/whatsapp-bridge/bridge.js:getMessageContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/bridge.js",
+      "target": "function:scripts/whatsapp-bridge/bridge.js:buildLidMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/whatsapp-bridge/bridge.js",
+      "target": "function:scripts/whatsapp-bridge/bridge.js:startSocket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:setup.py",
+      "target": "function:setup.py:_data_file_tree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:setup.py",
+      "target": "function:setup.py:_data_file_tree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

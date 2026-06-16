@@ -1,0 +1,452 @@
+{
+  "nodes": [
+    {
+      "id": "config:.env.example",
+      "type": "config",
+      "name": ".env.example",
+      "filePath": ".env.example",
+      "summary": ".env.example 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "config",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 config。"
+    },
+    {
+      "id": "schema:.env.example:TERMINAL_MODAL_IMAGE",
+      "type": "schema",
+      "name": "TERMINAL_MODAL_IMAGE",
+      "filePath": ".env.example",
+      "lineRange": [
+        184,
+        184
+      ],
+      "summary": "TERMINAL_MODAL_IMAGE 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:TERMINAL_TIMEOUT",
+      "type": "schema",
+      "name": "TERMINAL_TIMEOUT",
+      "filePath": ".env.example",
+      "lineRange": [
+        196,
+        196
+      ],
+      "summary": "TERMINAL_TIMEOUT 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:TERMINAL_LIFETIME_SECONDS",
+      "type": "schema",
+      "name": "TERMINAL_LIFETIME_SECONDS",
+      "filePath": ".env.example",
+      "lineRange": [
+        199,
+        199
+      ],
+      "summary": "TERMINAL_LIFETIME_SECONDS 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:BROWSERBASE_PROXIES",
+      "type": "schema",
+      "name": "BROWSERBASE_PROXIES",
+      "filePath": ".env.example",
+      "lineRange": [
+        261,
+        261
+      ],
+      "summary": "BROWSERBASE_PROXIES 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:BROWSERBASE_ADVANCED_STEALTH",
+      "type": "schema",
+      "name": "BROWSERBASE_ADVANCED_STEALTH",
+      "filePath": ".env.example",
+      "lineRange": [
+        265,
+        265
+      ],
+      "summary": "BROWSERBASE_ADVANCED_STEALTH 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:BROWSER_SESSION_TIMEOUT",
+      "type": "schema",
+      "name": "BROWSER_SESSION_TIMEOUT",
+      "filePath": ".env.example",
+      "lineRange": [
+        278,
+        278
+      ],
+      "summary": "BROWSER_SESSION_TIMEOUT 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:BROWSER_INACTIVITY_TIMEOUT",
+      "type": "schema",
+      "name": "BROWSER_INACTIVITY_TIMEOUT",
+      "filePath": ".env.example",
+      "lineRange": [
+        282,
+        282
+      ],
+      "summary": "BROWSER_INACTIVITY_TIMEOUT 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:WEB_TOOLS_DEBUG",
+      "type": "schema",
+      "name": "WEB_TOOLS_DEBUG",
+      "filePath": ".env.example",
+      "lineRange": [
+        382,
+        382
+      ],
+      "summary": "WEB_TOOLS_DEBUG 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:VISION_TOOLS_DEBUG",
+      "type": "schema",
+      "name": "VISION_TOOLS_DEBUG",
+      "filePath": ".env.example",
+      "lineRange": [
+        383,
+        383
+      ],
+      "summary": "VISION_TOOLS_DEBUG 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:MOA_TOOLS_DEBUG",
+      "type": "schema",
+      "name": "MOA_TOOLS_DEBUG",
+      "filePath": ".env.example",
+      "lineRange": [
+        384,
+        384
+      ],
+      "summary": "MOA_TOOLS_DEBUG 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:.env.example:IMAGE_TOOLS_DEBUG",
+      "type": "schema",
+      "name": "IMAGE_TOOLS_DEBUG",
+      "filePath": ".env.example",
+      "lineRange": [
+        385,
+        385
+      ],
+      "summary": "IMAGE_TOOLS_DEBUG 是 .env.example 中定义的数据或协议结构。",
+      "tags": [
+        "schema",
+        "definition",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.hadolint.yaml",
+      "type": "config",
+      "name": ".hadolint.yaml",
+      "filePath": ".hadolint.yaml",
+      "summary": ".hadolint.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "filePath": "AGENTS.md",
+      "summary": "AGENTS.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:CONTRIBUTING.md",
+      "type": "document",
+      "name": "CONTRIBUTING.md",
+      "filePath": "CONTRIBUTING.md",
+      "summary": "CONTRIBUTING.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:README.ur-pk.md",
+      "type": "document",
+      "name": "README.ur-pk.md",
+      "filePath": "README.ur-pk.md",
+      "summary": "README.ur-pk.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:README.zh-CN.md",
+      "type": "document",
+      "name": "README.zh-CN.md",
+      "filePath": "README.zh-CN.md",
+      "summary": "README.zh-CN.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:SECURITY.md",
+      "type": "document",
+      "name": "SECURITY.md",
+      "filePath": "SECURITY.md",
+      "summary": "SECURITY.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:constraints-termux.txt",
+      "type": "document",
+      "name": "constraints-termux.txt",
+      "filePath": "constraints-termux.txt",
+      "summary": "constraints-termux.txt 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "txt",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 txt。"
+    },
+    {
+      "id": "document:hermes-already-has-routines.md",
+      "type": "document",
+      "name": "hermes-already-has-routines.md",
+      "filePath": "hermes-already-has-routines.md",
+      "summary": "hermes-already-has-routines.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "pyproject.toml",
+      "summary": "pyproject.toml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "toml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 toml。"
+    },
+    {
+      "id": "file:setup-hermes.sh",
+      "type": "file",
+      "name": "setup-hermes.sh",
+      "filePath": "setup-hermes.sh",
+      "summary": "setup-hermes.sh 是 shell 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:TERMINAL_MODAL_IMAGE",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:TERMINAL_TIMEOUT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:TERMINAL_LIFETIME_SECONDS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:BROWSERBASE_PROXIES",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:BROWSERBASE_ADVANCED_STEALTH",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:BROWSER_SESSION_TIMEOUT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:BROWSER_INACTIVITY_TIMEOUT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:WEB_TOOLS_DEBUG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:VISION_TOOLS_DEBUG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:MOA_TOOLS_DEBUG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "config:.env.example",
+      "target": "schema:.env.example:IMAGE_TOOLS_DEBUG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

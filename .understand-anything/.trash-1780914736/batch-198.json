@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/devops/kanban-orchestrator/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/devops/kanban-orchestrator/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/devops/kanban-worker/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/devops/kanban-worker/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/dogfood/references/issue-taxonomy.md",
+      "type": "document",
+      "name": "issue-taxonomy.md",
+      "filePath": "skills/dogfood/references/issue-taxonomy.md",
+      "summary": "issue-taxonomy.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/dogfood/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/dogfood/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/dogfood/templates/dogfood-report-template.md",
+      "type": "document",
+      "name": "dogfood-report-template.md",
+      "filePath": "skills/dogfood/templates/dogfood-report-template.md",
+      "summary": "dogfood-report-template.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/email/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/email/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/email/himalaya/references/configuration.md",
+      "type": "document",
+      "name": "configuration.md",
+      "filePath": "skills/email/himalaya/references/configuration.md",
+      "summary": "configuration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/email/himalaya/references/message-composition.md",
+      "type": "document",
+      "name": "message-composition.md",
+      "filePath": "skills/email/himalaya/references/message-composition.md",
+      "summary": "message-composition.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/email/himalaya/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/email/himalaya/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/codebase-inspection/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/github/codebase-inspection/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/github/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/github/github-auth/scripts/gh-env.sh",
+      "type": "file",
+      "name": "gh-env.sh",
+      "filePath": "skills/github/github-auth/scripts/gh-env.sh",
+      "summary": "gh-env.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "document:skills/github/github-auth/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/github/github-auth/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-code-review/references/review-output-template.md",
+      "type": "document",
+      "name": "review-output-template.md",
+      "filePath": "skills/github/github-code-review/references/review-output-template.md",
+      "summary": "review-output-template.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-code-review/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/github/github-code-review/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-issues/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/github/github-issues/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-issues/templates/bug-report.md",
+      "type": "document",
+      "name": "bug-report.md",
+      "filePath": "skills/github/github-issues/templates/bug-report.md",
+      "summary": "bug-report.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-issues/templates/feature-request.md",
+      "type": "document",
+      "name": "feature-request.md",
+      "filePath": "skills/github/github-issues/templates/feature-request.md",
+      "summary": "feature-request.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-pr-workflow/references/ci-troubleshooting.md",
+      "type": "document",
+      "name": "ci-troubleshooting.md",
+      "filePath": "skills/github/github-pr-workflow/references/ci-troubleshooting.md",
+      "summary": "ci-troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-pr-workflow/references/conventional-commits.md",
+      "type": "document",
+      "name": "conventional-commits.md",
+      "filePath": "skills/github/github-pr-workflow/references/conventional-commits.md",
+      "summary": "conventional-commits.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-pr-workflow/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/github/github-pr-workflow/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-pr-workflow/templates/pr-body-bugfix.md",
+      "type": "document",
+      "name": "pr-body-bugfix.md",
+      "filePath": "skills/github/github-pr-workflow/templates/pr-body-bugfix.md",
+      "summary": "pr-body-bugfix.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-pr-workflow/templates/pr-body-feature.md",
+      "type": "document",
+      "name": "pr-body-feature.md",
+      "filePath": "skills/github/github-pr-workflow/templates/pr-body-feature.md",
+      "summary": "pr-body-feature.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-repo-management/references/github-api-cheatsheet.md",
+      "type": "document",
+      "name": "github-api-cheatsheet.md",
+      "filePath": "skills/github/github-repo-management/references/github-api-cheatsheet.md",
+      "summary": "github-api-cheatsheet.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/github/github-repo-management/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/github/github-repo-management/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/action.md",
+      "type": "document",
+      "name": "action.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/action.md",
+      "summary": "action.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/dramatic.md",
+      "type": "document",
+      "name": "dramatic.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/dramatic.md",
+      "summary": "dramatic.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/energetic.md",
+      "type": "document",
+      "name": "energetic.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/energetic.md",
+      "summary": "energetic.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/neutral.md",
+      "type": "document",
+      "name": "neutral.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/neutral.md",
+      "summary": "neutral.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/romantic.md",
+      "type": "document",
+      "name": "romantic.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/romantic.md",
+      "summary": "romantic.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/vintage.md",
+      "type": "document",
+      "name": "vintage.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/vintage.md",
+      "summary": "vintage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/tones/warm.md",
+      "type": "document",
+      "name": "warm.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/tones/warm.md",
+      "summary": "warm.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

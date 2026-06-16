@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/mlops/evaluation/weights-and-biases/references/artifacts.md",
+      "type": "document",
+      "name": "artifacts.md",
+      "filePath": "skills/mlops/evaluation/weights-and-biases/references/artifacts.md",
+      "summary": "artifacts.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/evaluation/weights-and-biases/references/integrations.md",
+      "type": "document",
+      "name": "integrations.md",
+      "filePath": "skills/mlops/evaluation/weights-and-biases/references/integrations.md",
+      "summary": "integrations.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/mlops/evaluation/weights-and-biases/references/sweeps.md",
+      "type": "document",
+      "name": "sweeps.md",
+      "filePath": "skills/mlops/evaluation/weights-and-biases/references/sweeps.md",
+      "summary": "sweeps.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

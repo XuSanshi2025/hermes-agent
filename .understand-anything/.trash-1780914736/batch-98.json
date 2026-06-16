@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-airtable.md",
+      "type": "document",
+      "name": "productivity-airtable.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-airtable.md",
+      "summary": "productivity-airtable.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-google-workspace.md",
+      "type": "document",
+      "name": "productivity-google-workspace.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-google-workspace.md",
+      "summary": "productivity-google-workspace.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-maps.md",
+      "type": "document",
+      "name": "productivity-maps.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-maps.md",
+      "summary": "productivity-maps.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-nano-pdf.md",
+      "type": "document",
+      "name": "productivity-nano-pdf.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-nano-pdf.md",
+      "summary": "productivity-nano-pdf.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-notion.md",
+      "type": "document",
+      "name": "productivity-notion.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-notion.md",
+      "summary": "productivity-notion.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-ocr-and-documents.md",
+      "type": "document",
+      "name": "productivity-ocr-and-documents.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-ocr-and-documents.md",
+      "summary": "productivity-ocr-and-documents.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-powerpoint.md",
+      "type": "document",
+      "name": "productivity-powerpoint.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-powerpoint.md",
+      "summary": "productivity-powerpoint.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/bundled/productivity/productivity-teams-meeting-pipeline.md",
+      "type": "document",
+      "name": "productivity-teams-meeting-pipeline.md",
+      "filePath": "website/docs/user-guide/skills/bundled/productivity/productivity-teams-meeting-pipeline.md",
+      "summary": "productivity-teams-meeting-pipeline.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

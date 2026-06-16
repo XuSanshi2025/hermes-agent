@@ -1,0 +1,2086 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/app/hooks/use-refresh-hotkey.ts",
+      "type": "file",
+      "name": "use-refresh-hotkey.ts",
+      "filePath": "apps/desktop/src/app/hooks/use-refresh-hotkey.ts",
+      "summary": "use-refresh-hotkey.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/hooks/use-refresh-hotkey.ts:useRefreshHotkey",
+      "type": "function",
+      "name": "useRefreshHotkey",
+      "filePath": "apps/desktop/src/app/hooks/use-refresh-hotkey.ts",
+      "lineRange": [
+        8,
+        45
+      ],
+      "summary": "useRefreshHotkey 是 use-refresh-hotkey.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/hooks/use-route-enum-param.ts",
+      "type": "file",
+      "name": "use-route-enum-param.ts",
+      "filePath": "apps/desktop/src/app/hooks/use-route-enum-param.ts",
+      "summary": "use-route-enum-param.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/hooks/use-route-enum-param.ts:useRouteEnumParam",
+      "type": "function",
+      "name": "useRouteEnumParam",
+      "filePath": "apps/desktop/src/app/hooks/use-route-enum-param.ts",
+      "lineRange": [
+        7,
+        38
+      ],
+      "summary": "useRouteEnumParam 是 use-route-enum-param.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/layout-constants.ts",
+      "type": "file",
+      "name": "layout-constants.ts",
+      "filePath": "apps/desktop/src/app/layout-constants.ts",
+      "summary": "layout-constants.ts 是 typescript 源文件，包含 4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/messaging/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 13 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:stateTone",
+      "type": "function",
+      "name": "stateTone",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        46,
+        60
+      ],
+      "summary": "stateTone 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:fieldCopy",
+      "type": "function",
+      "name": "fieldCopy",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        85,
+        95
+      ],
+      "summary": "fieldCopy 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:MessagingView",
+      "type": "function",
+      "name": "MessagingView",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        97,
+        306
+      ],
+      "summary": "MessagingView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:PlatformRow",
+      "type": "function",
+      "name": "PlatformRow",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        308,
+        335
+      ],
+      "summary": "PlatformRow 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:PlatformDetail",
+      "type": "function",
+      "name": "PlatformDetail",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        337,
+        499
+      ],
+      "summary": "PlatformDetail 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:MessagingField",
+      "type": "function",
+      "name": "MessagingField",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        541,
+        600
+      ],
+      "summary": "MessagingField 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:PlatformHint",
+      "type": "function",
+      "name": "PlatformHint",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        606,
+        621
+      ],
+      "summary": "PlatformHint 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:StatePill",
+      "type": "function",
+      "name": "StatePill",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        623,
+        635
+      ],
+      "summary": "StatePill 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/index.tsx:SetupPill",
+      "type": "function",
+      "name": "SetupPill",
+      "filePath": "apps/desktop/src/app/messaging/index.tsx",
+      "lineRange": [
+        637,
+        648
+      ],
+      "summary": "SetupPill 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/messaging/platform-icon.tsx",
+      "type": "file",
+      "name": "platform-icon.tsx",
+      "filePath": "apps/desktop/src/app/messaging/platform-icon.tsx",
+      "summary": "platform-icon.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/messaging/platform-icon.tsx:PlatformAvatar",
+      "type": "function",
+      "name": "PlatformAvatar",
+      "filePath": "apps/desktop/src/app/messaging/platform-icon.tsx",
+      "lineRange": [
+        63,
+        95
+      ],
+      "summary": "PlatformAvatar 是 platform-icon.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/model-picker-overlay.tsx",
+      "type": "file",
+      "name": "model-picker-overlay.tsx",
+      "filePath": "apps/desktop/src/app/model-picker-overlay.tsx",
+      "summary": "model-picker-overlay.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/model-picker-overlay.tsx:ModelPickerOverlay",
+      "type": "function",
+      "name": "ModelPickerOverlay",
+      "filePath": "apps/desktop/src/app/model-picker-overlay.tsx",
+      "lineRange": [
+        20,
+        42
+      ],
+      "summary": "ModelPickerOverlay 是 model-picker-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/model-visibility-overlay.tsx",
+      "type": "file",
+      "name": "model-visibility-overlay.tsx",
+      "filePath": "apps/desktop/src/app/model-visibility-overlay.tsx",
+      "summary": "model-visibility-overlay.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/model-visibility-overlay.tsx:ModelVisibilityOverlay",
+      "type": "function",
+      "name": "ModelVisibilityOverlay",
+      "filePath": "apps/desktop/src/app/model-visibility-overlay.tsx",
+      "lineRange": [
+        13,
+        31
+      ],
+      "summary": "ModelVisibilityOverlay 是 model-visibility-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "type": "file",
+      "name": "overlay-chrome.tsx",
+      "filePath": "apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "summary": "overlay-chrome.tsx 是 typescript 源文件，包含 3 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayCard",
+      "type": "function",
+      "name": "OverlayCard",
+      "filePath": "apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "lineRange": [
+        16,
+        22
+      ],
+      "summary": "OverlayCard 是 overlay-chrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayActionButton",
+      "type": "function",
+      "name": "OverlayActionButton",
+      "filePath": "apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "lineRange": [
+        24,
+        49
+      ],
+      "summary": "OverlayActionButton 是 overlay-chrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayIconButton",
+      "type": "function",
+      "name": "OverlayIconButton",
+      "filePath": "apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "lineRange": [
+        55,
+        66
+      ],
+      "summary": "OverlayIconButton 是 overlay-chrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/overlays/overlay-search-input.tsx",
+      "type": "file",
+      "name": "overlay-search-input.tsx",
+      "filePath": "apps/desktop/src/app/overlays/overlay-search-input.tsx",
+      "summary": "overlay-search-input.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-search-input.tsx:OverlaySearchInput",
+      "type": "function",
+      "name": "OverlaySearchInput",
+      "filePath": "apps/desktop/src/app/overlays/overlay-search-input.tsx",
+      "lineRange": [
+        15,
+        33
+      ],
+      "summary": "OverlaySearchInput 是 overlay-search-input.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "type": "file",
+      "name": "overlay-split-layout.tsx",
+      "filePath": "apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "summary": "overlay-split-layout.tsx 是 typescript 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlaySplitLayout",
+      "type": "function",
+      "name": "OverlaySplitLayout",
+      "filePath": "apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "lineRange": [
+        36,
+        47
+      ],
+      "summary": "OverlaySplitLayout 是 overlay-split-layout.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlaySidebar",
+      "type": "function",
+      "name": "OverlaySidebar",
+      "filePath": "apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "lineRange": [
+        49,
+        62
+      ],
+      "summary": "OverlaySidebar 是 overlay-split-layout.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayMain",
+      "type": "function",
+      "name": "OverlayMain",
+      "filePath": "apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "lineRange": [
+        64,
+        76
+      ],
+      "summary": "OverlayMain 是 overlay-split-layout.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayNewButton",
+      "type": "function",
+      "name": "OverlayNewButton",
+      "filePath": "apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "lineRange": [
+        81,
+        101
+      ],
+      "summary": "OverlayNewButton 是 overlay-split-layout.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayNavItem",
+      "type": "function",
+      "name": "OverlayNavItem",
+      "filePath": "apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "lineRange": [
+        103,
+        130
+      ],
+      "summary": "OverlayNavItem 是 overlay-split-layout.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/overlays/overlay-view.tsx",
+      "type": "file",
+      "name": "overlay-view.tsx",
+      "filePath": "apps/desktop/src/app/overlays/overlay-view.tsx",
+      "summary": "overlay-view.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/overlays/overlay-view.tsx:OverlayView",
+      "type": "function",
+      "name": "OverlayView",
+      "filePath": "apps/desktop/src/app/overlays/overlay-view.tsx",
+      "lineRange": [
+        18,
+        91
+      ],
+      "summary": "OverlayView 是 overlay-view.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/page-search-shell.tsx",
+      "type": "file",
+      "name": "page-search-shell.tsx",
+      "filePath": "apps/desktop/src/app/page-search-shell.tsx",
+      "summary": "page-search-shell.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/page-search-shell.tsx:PageSearchShell",
+      "type": "function",
+      "name": "PageSearchShell",
+      "filePath": "apps/desktop/src/app/page-search-shell.tsx",
+      "lineRange": [
+        20,
+        75
+      ],
+      "summary": "PageSearchShell 是 page-search-shell.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "type": "file",
+      "name": "create-profile-dialog.tsx",
+      "filePath": "apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "summary": "create-profile-dialog.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/create-profile-dialog.tsx:isValidProfileName",
+      "type": "function",
+      "name": "isValidProfileName",
+      "filePath": "apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "lineRange": [
+        16,
+        18
+      ],
+      "summary": "isValidProfileName 是 create-profile-dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/create-profile-dialog.tsx:CreateProfileDialog",
+      "type": "function",
+      "name": "CreateProfileDialog",
+      "filePath": "apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "lineRange": [
+        23,
+        154
+      ],
+      "summary": "CreateProfileDialog 是 create-profile-dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/profiles/delete-profile-dialog.tsx",
+      "type": "file",
+      "name": "delete-profile-dialog.tsx",
+      "filePath": "apps/desktop/src/app/profiles/delete-profile-dialog.tsx",
+      "summary": "delete-profile-dialog.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/delete-profile-dialog.tsx:DeleteProfileDialog",
+      "type": "function",
+      "name": "DeleteProfileDialog",
+      "filePath": "apps/desktop/src/app/profiles/delete-profile-dialog.tsx",
+      "lineRange": [
+        9,
+        65
+      ],
+      "summary": "DeleteProfileDialog 是 delete-profile-dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/profiles/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 8 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/index.tsx:ProfilesView",
+      "type": "function",
+      "name": "ProfilesView",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "lineRange": [
+        45,
+        215
+      ],
+      "summary": "ProfilesView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/index.tsx:ProfileRow",
+      "type": "function",
+      "name": "ProfileRow",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "lineRange": [
+        217,
+        240
+      ],
+      "summary": "ProfileRow 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/index.tsx:ProfileDetail",
+      "type": "function",
+      "name": "ProfileDetail",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "lineRange": [
+        242,
+        349
+      ],
+      "summary": "ProfileDetail 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/index.tsx:SoulEditor",
+      "type": "function",
+      "name": "SoulEditor",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "lineRange": [
+        360,
+        451
+      ],
+      "summary": "SoulEditor 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/index.tsx:CreateProfileDialog",
+      "type": "function",
+      "name": "CreateProfileDialog",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "lineRange": [
+        453,
+        563
+      ],
+      "summary": "CreateProfileDialog 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/index.tsx:RenameProfileDialog",
+      "type": "function",
+      "name": "RenameProfileDialog",
+      "filePath": "apps/desktop/src/app/profiles/index.tsx",
+      "lineRange": [
+        565,
+        671
+      ],
+      "summary": "RenameProfileDialog 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/profiles/rename-profile-dialog.tsx",
+      "type": "file",
+      "name": "rename-profile-dialog.tsx",
+      "filePath": "apps/desktop/src/app/profiles/rename-profile-dialog.tsx",
+      "summary": "rename-profile-dialog.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/profiles/rename-profile-dialog.tsx:RenameProfileDialog",
+      "type": "function",
+      "name": "RenameProfileDialog",
+      "filePath": "apps/desktop/src/app/profiles/rename-profile-dialog.tsx",
+      "lineRange": [
+        16,
+        125
+      ],
+      "summary": "RenameProfileDialog 是 rename-profile-dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "type": "file",
+      "name": "ipc.ts",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "summary": "ipc.ts 是 typescript 源文件，包含 11 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:decodeDataUrl",
+      "type": "function",
+      "name": "decodeDataUrl",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        15,
+        27
+      ],
+      "summary": "decodeDataUrl 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:relativeTo",
+      "type": "function",
+      "name": "relativeTo",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        34,
+        43
+      ],
+      "summary": "relativeTo 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:ancestorDirs",
+      "type": "function",
+      "name": "ancestorDirs",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        46,
+        63
+      ],
+      "summary": "ancestorDirs 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:gitRootFor",
+      "type": "function",
+      "name": "gitRootFor",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        65,
+        79
+      ],
+      "summary": "gitRootFor 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:readGitignore",
+      "type": "function",
+      "name": "readGitignore",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        82,
+        100
+      ],
+      "summary": "readGitignore 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:gitignoreFor",
+      "type": "function",
+      "name": "gitignoreFor",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        102,
+        112
+      ],
+      "summary": "gitignoreFor 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:ignoredBy",
+      "type": "function",
+      "name": "ignoredBy",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        114,
+        124
+      ],
+      "summary": "ignoredBy 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:filterIgnored",
+      "type": "function",
+      "name": "filterIgnored",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        126,
+        138
+      ],
+      "summary": "filterIgnored 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:readProjectDir",
+      "type": "function",
+      "name": "readProjectDir",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        140,
+        148
+      ],
+      "summary": "readProjectDir 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:clearProjectDirCache",
+      "type": "function",
+      "name": "clearProjectDirCache",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "lineRange": [
+        150,
+        161
+      ],
+      "summary": "clearProjectDirCache 是 ipc.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "type": "file",
+      "name": "tree.tsx",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "summary": "tree.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/tree.tsx:ProjectTree",
+      "type": "function",
+      "name": "ProjectTree",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "lineRange": [
+        27,
+        123
+      ],
+      "summary": "ProjectTree 是 tree.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/tree.tsx:ProjectTreeRow",
+      "type": "function",
+      "name": "ProjectTreeRow",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "lineRange": [
+        131,
+        224
+      ],
+      "summary": "ProjectTreeRow 是 tree.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.test.ts",
+      "type": "file",
+      "name": "use-project-tree.test.ts",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/use-project-tree.test.ts",
+      "summary": "use-project-tree.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "type": "file",
+      "name": "use-project-tree.ts",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "summary": "use-project-tree.ts 是 typescript 源文件，包含 8 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:patchNode",
+      "type": "function",
+      "name": "patchNode",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "lineRange": [
+        27,
+        43
+      ],
+      "summary": "patchNode 是 use-project-tree.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:loadRoot",
+      "type": "function",
+      "name": "loadRoot",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "lineRange": [
+        98,
+        145
+      ],
+      "summary": "loadRoot 是 use-project-tree.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:resetProjectTreeState",
+      "type": "function",
+      "name": "resetProjectTreeState",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "lineRange": [
+        147,
+        150
+      ],
+      "summary": "resetProjectTreeState 是 use-project-tree.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:useProjectTree",
+      "type": "function",
+      "name": "useProjectTree",
+      "filePath": "apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "lineRange": [
+        159,
+        268
+      ],
+      "summary": "useProjectTree 是 use-project-tree.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 7 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarPane",
+      "type": "function",
+      "name": "RightSidebarPane",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "lineRange": [
+        41,
+        139
+      ],
+      "summary": "RightSidebarPane 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarChrome",
+      "type": "function",
+      "name": "RightSidebarChrome",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "lineRange": [
+        141,
+        189
+      ],
+      "summary": "RightSidebarChrome 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/index.tsx:FilesystemTab",
+      "type": "function",
+      "name": "FilesystemTab",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "lineRange": [
+        208,
+        287
+      ],
+      "summary": "FilesystemTab 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarSectionHeader",
+      "type": "function",
+      "name": "RightSidebarSectionHeader",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "lineRange": [
+        289,
+        291
+      ],
+      "summary": "RightSidebarSectionHeader 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/index.tsx:FileTreeBody",
+      "type": "function",
+      "name": "FileTreeBody",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "lineRange": [
+        307,
+        369
+      ],
+      "summary": "FileTreeBody 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/index.tsx:FileTreeLoadingState",
+      "type": "function",
+      "name": "FileTreeLoadingState",
+      "filePath": "apps/desktop/src/app/right-sidebar/index.tsx",
+      "lineRange": [
+        371,
+        386
+      ],
+      "summary": "FileTreeLoadingState 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/store.ts",
+      "type": "file",
+      "name": "store.ts",
+      "filePath": "apps/desktop/src/app/right-sidebar/store.ts",
+      "summary": "store.ts 是 typescript 源文件，包含 2 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/store.ts:setRightSidebarTab",
+      "type": "function",
+      "name": "setRightSidebarTab",
+      "filePath": "apps/desktop/src/app/right-sidebar/store.ts",
+      "lineRange": [
+        14,
+        14
+      ],
+      "summary": "setRightSidebarTab 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/store.ts:setTerminalTakeover",
+      "type": "function",
+      "name": "setTerminalTakeover",
+      "filePath": "apps/desktop/src/app/right-sidebar/store.ts",
+      "lineRange": [
+        15,
+        15
+      ],
+      "summary": "setTerminalTakeover 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/terminal/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/index.tsx:TerminalTab",
+      "type": "function",
+      "name": "TerminalTab",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/index.tsx",
+      "lineRange": [
+        22,
+        98
+      ],
+      "summary": "TerminalTab 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "type": "file",
+      "name": "persistent.tsx",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "summary": "persistent.tsx 是 typescript 源文件，包含 3 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx:TerminalSlot",
+      "type": "function",
+      "name": "TerminalSlot",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "lineRange": [
+        20,
+        40
+      ],
+      "summary": "TerminalSlot 是 persistent.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx:PersistentTerminal",
+      "type": "function",
+      "name": "PersistentTerminal",
+      "filePath": "apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "lineRange": [
+        57,
+        122
+      ],
+      "summary": "PersistentTerminal 是 persistent.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/app/hooks/use-refresh-hotkey.ts",
+      "target": "function:apps/desktop/src/app/hooks/use-refresh-hotkey.ts:useRefreshHotkey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/hooks/use-refresh-hotkey.ts",
+      "target": "function:apps/desktop/src/app/hooks/use-refresh-hotkey.ts:useRefreshHotkey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/hooks/use-route-enum-param.ts",
+      "target": "function:apps/desktop/src/app/hooks/use-route-enum-param.ts:useRouteEnumParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/hooks/use-route-enum-param.ts",
+      "target": "function:apps/desktop/src/app/hooks/use-route-enum-param.ts:useRouteEnumParam",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:stateTone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:fieldCopy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:MessagingView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:MessagingView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:PlatformRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:PlatformDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:MessagingField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:PlatformHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:StatePill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/index.tsx",
+      "target": "function:apps/desktop/src/app/messaging/index.tsx:SetupPill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/platform-icon.tsx",
+      "target": "function:apps/desktop/src/app/messaging/platform-icon.tsx:PlatformAvatar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/messaging/platform-icon.tsx",
+      "target": "function:apps/desktop/src/app/messaging/platform-icon.tsx:PlatformAvatar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/model-picker-overlay.tsx",
+      "target": "function:apps/desktop/src/app/model-picker-overlay.tsx:ModelPickerOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/model-picker-overlay.tsx",
+      "target": "function:apps/desktop/src/app/model-picker-overlay.tsx:ModelPickerOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/model-visibility-overlay.tsx",
+      "target": "function:apps/desktop/src/app/model-visibility-overlay.tsx:ModelVisibilityOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/model-visibility-overlay.tsx",
+      "target": "function:apps/desktop/src/app/model-visibility-overlay.tsx:ModelVisibilityOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayActionButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayActionButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayIconButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-chrome.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-chrome.tsx:OverlayIconButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-search-input.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-search-input.tsx:OverlaySearchInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-search-input.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-search-input.tsx:OverlaySearchInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlaySplitLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlaySplitLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlaySidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlaySidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayMain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayMain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayNewButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayNewButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayNavItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-split-layout.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-split-layout.tsx:OverlayNavItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-view.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-view.tsx:OverlayView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/overlays/overlay-view.tsx",
+      "target": "function:apps/desktop/src/app/overlays/overlay-view.tsx:OverlayView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/page-search-shell.tsx",
+      "target": "function:apps/desktop/src/app/page-search-shell.tsx:PageSearchShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/page-search-shell.tsx",
+      "target": "function:apps/desktop/src/app/page-search-shell.tsx:PageSearchShell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/create-profile-dialog.tsx:isValidProfileName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/create-profile-dialog.tsx:isValidProfileName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/create-profile-dialog.tsx:CreateProfileDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/create-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/create-profile-dialog.tsx:CreateProfileDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/delete-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/delete-profile-dialog.tsx:DeleteProfileDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/delete-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/delete-profile-dialog.tsx:DeleteProfileDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:ProfilesView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:ProfilesView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:ProfileRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:ProfileDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:SoulEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:CreateProfileDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/index.tsx",
+      "target": "function:apps/desktop/src/app/profiles/index.tsx:RenameProfileDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/rename-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/rename-profile-dialog.tsx:RenameProfileDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/profiles/rename-profile-dialog.tsx",
+      "target": "function:apps/desktop/src/app/profiles/rename-profile-dialog.tsx:RenameProfileDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:decodeDataUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:relativeTo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:ancestorDirs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:gitRootFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:readGitignore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:gitignoreFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:ignoredBy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:filterIgnored",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:readProjectDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:readProjectDir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:clearProjectDirCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/ipc.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/ipc.ts:clearProjectDirCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/tree.tsx:ProjectTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/tree.tsx:ProjectTree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/tree.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/tree.tsx:ProjectTreeRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:patchNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:loadRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:resetProjectTreeState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:resetProjectTreeState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:useProjectTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/files/use-project-tree.ts:useProjectTree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarPane",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarPane",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarChrome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:FilesystemTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarSectionHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:RightSidebarSectionHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:FileTreeBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/index.tsx:FileTreeLoadingState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/store.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/store.ts:setRightSidebarTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/store.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/store.ts:setRightSidebarTab",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/store.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/store.ts:setTerminalTakeover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/store.ts",
+      "target": "function:apps/desktop/src/app/right-sidebar/store.ts:setTerminalTakeover",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/index.tsx:TerminalTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/index.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/index.tsx:TerminalTab",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx:TerminalSlot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx:TerminalSlot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx:PersistentTerminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx",
+      "target": "function:apps/desktop/src/app/right-sidebar/terminal/persistent.tsx:PersistentTerminal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/mlops/simpo/references/datasets.md",
+      "type": "document",
+      "name": "datasets.md",
+      "filePath": "optional-skills/mlops/simpo/references/datasets.md",
+      "summary": "datasets.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/simpo/references/hyperparameters.md",
+      "type": "document",
+      "name": "hyperparameters.md",
+      "filePath": "optional-skills/mlops/simpo/references/hyperparameters.md",
+      "summary": "hyperparameters.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/simpo/references/loss-functions.md",
+      "type": "document",
+      "name": "loss-functions.md",
+      "filePath": "optional-skills/mlops/simpo/references/loss-functions.md",
+      "summary": "loss-functions.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

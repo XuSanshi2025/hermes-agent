@@ -1,0 +1,3765 @@
+{
+  "nodes": [
+    {
+      "id": "config:plugins/browser/firecrawl/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/browser/firecrawl/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/browser/firecrawl/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/browser/firecrawl/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/browser/firecrawl/provider.py:FirecrawlBrowserProvider",
+      "type": "class",
+      "name": "FirecrawlBrowserProvider",
+      "filePath": "plugins/browser/firecrawl/provider.py",
+      "lineRange": [
+        43,
+        171
+      ],
+      "summary": "FirecrawlBrowserProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/context_engine/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/context_engine/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/context_engine/__init__.py:discover_context_engines",
+      "type": "function",
+      "name": "discover_context_engines",
+      "filePath": "plugins/context_engine/__init__.py",
+      "lineRange": [
+        33,
+        76
+      ],
+      "summary": "discover_context_engines 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/context_engine/__init__.py:load_context_engine",
+      "type": "function",
+      "name": "load_context_engine",
+      "filePath": "plugins/context_engine/__init__.py",
+      "lineRange": [
+        79,
+        97
+      ],
+      "summary": "load_context_engine 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/context_engine/__init__.py:_load_engine_from_dir",
+      "type": "function",
+      "name": "_load_engine_from_dir",
+      "filePath": "plugins/context_engine/__init__.py",
+      "lineRange": [
+        100,
+        196
+      ],
+      "summary": "_load_engine_from_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/context_engine/__init__.py:_EngineCollector",
+      "type": "class",
+      "name": "_EngineCollector",
+      "filePath": "plugins/context_engine/__init__.py",
+      "lineRange": [
+        199,
+        285
+      ],
+      "summary": "_EngineCollector 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/dashboard_auth/basic/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 8 个函数、1 个类、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:hash_password",
+      "type": "function",
+      "name": "hash_password",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        115,
+        136
+      ],
+      "summary": "hash_password 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:_verify_password",
+      "type": "function",
+      "name": "_verify_password",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        139,
+        162
+      ],
+      "summary": "_verify_password 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:_sign",
+      "type": "function",
+      "name": "_sign",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        176,
+        179
+      ],
+      "summary": "_sign 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:_unsign",
+      "type": "function",
+      "name": "_unsign",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        182,
+        193
+      ],
+      "summary": "_unsign 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:_load_config_basic_auth_section",
+      "type": "function",
+      "name": "_load_config_basic_auth_section",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        335,
+        353
+      ],
+      "summary": "_load_config_basic_auth_section 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:_resolve",
+      "type": "function",
+      "name": "_resolve",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        356,
+        361
+      ],
+      "summary": "_resolve 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:_resolve_secret",
+      "type": "function",
+      "name": "_resolve_secret",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        364,
+        391
+      ],
+      "summary": "_resolve_secret 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/basic/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        394,
+        491
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/dashboard_auth/basic/__init__.py:BasicAuthProvider",
+      "type": "class",
+      "name": "BasicAuthProvider",
+      "filePath": "plugins/dashboard_auth/basic/__init__.py",
+      "lineRange": [
+        201,
+        327
+      ],
+      "summary": "BasicAuthProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/dashboard_auth/basic/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/dashboard_auth/basic/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/dashboard_auth/nous/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 5 个函数、1 个类、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/nous/__init__.py:_b64url_no_pad",
+      "type": "function",
+      "name": "_b64url_no_pad",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "lineRange": [
+        143,
+        145
+      ],
+      "summary": "_b64url_no_pad 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/nous/__init__.py:_load_config_oauth_section",
+      "type": "function",
+      "name": "_load_config_oauth_section",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "lineRange": [
+        541,
+        563
+      ],
+      "summary": "_load_config_oauth_section 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/nous/__init__.py:_resolve_client_id",
+      "type": "function",
+      "name": "_resolve_client_id",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "lineRange": [
+        566,
+        581
+      ],
+      "summary": "_resolve_client_id 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/nous/__init__.py:_resolve_portal_url",
+      "type": "function",
+      "name": "_resolve_portal_url",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "lineRange": [
+        584,
+        598
+      ],
+      "summary": "_resolve_portal_url 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/nous/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "lineRange": [
+        601,
+        667
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/dashboard_auth/nous/__init__.py:NousDashboardAuthProvider",
+      "type": "class",
+      "name": "NousDashboardAuthProvider",
+      "filePath": "plugins/dashboard_auth/nous/__init__.py",
+      "lineRange": [
+        153,
+        533
+      ],
+      "summary": "NousDashboardAuthProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/dashboard_auth/nous/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/dashboard_auth/nous/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 6 个函数、1 个类、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/self_hosted/__init__.py:_b64url_no_pad",
+      "type": "function",
+      "name": "_b64url_no_pad",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        131,
+        133
+      ],
+      "summary": "_b64url_no_pad 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/self_hosted/__init__.py:_require_https_or_loopback",
+      "type": "function",
+      "name": "_require_https_or_loopback",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        136,
+        155
+      ],
+      "summary": "_require_https_or_loopback 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/self_hosted/__init__.py:_load_config_oauth_section",
+      "type": "function",
+      "name": "_load_config_oauth_section",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        634,
+        653
+      ],
+      "summary": "_load_config_oauth_section 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/self_hosted/__init__.py:_oidc_subsection",
+      "type": "function",
+      "name": "_oidc_subsection",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        656,
+        659
+      ],
+      "summary": "_oidc_subsection 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/self_hosted/__init__.py:_resolve_setting",
+      "type": "function",
+      "name": "_resolve_setting",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        662,
+        673
+      ],
+      "summary": "_resolve_setting 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/dashboard_auth/self_hosted/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        676,
+        736
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/dashboard_auth/self_hosted/__init__.py:SelfHostedOIDCProvider",
+      "type": "class",
+      "name": "SelfHostedOIDCProvider",
+      "filePath": "plugins/dashboard_auth/self_hosted/__init__.py",
+      "lineRange": [
+        163,
+        626
+      ],
+      "summary": "SelfHostedOIDCProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/dashboard_auth/self_hosted/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/dashboard_auth/self_hosted/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/disk-cleanup/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 12 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_tracker_key",
+      "type": "function",
+      "name": "_tracker_key",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        52,
+        53
+      ],
+      "summary": "_tracker_key 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_record_track",
+      "type": "function",
+      "name": "_record_track",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        56,
+        62
+      ],
+      "summary": "_record_track 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_drain",
+      "type": "function",
+      "name": "_drain",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        65,
+        69
+      ],
+      "summary": "_drain 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_attempt_track",
+      "type": "function",
+      "name": "_attempt_track",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        72,
+        85
+      ],
+      "summary": "_attempt_track 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_write_file",
+      "type": "function",
+      "name": "_extract_paths_from_write_file",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        88,
+        90
+      ],
+      "summary": "_extract_paths_from_write_file 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_patch",
+      "type": "function",
+      "name": "_extract_paths_from_patch",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        93,
+        100
+      ],
+      "summary": "_extract_paths_from_patch 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_terminal",
+      "type": "function",
+      "name": "_extract_paths_from_terminal",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        103,
+        121
+      ],
+      "summary": "_extract_paths_from_terminal 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_on_post_tool_call",
+      "type": "function",
+      "name": "_on_post_tool_call",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        128,
+        152
+      ],
+      "summary": "_on_post_tool_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_on_session_end",
+      "type": "function",
+      "name": "_on_session_end",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        155,
+        188
+      ],
+      "summary": "_on_session_end 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_fmt_summary",
+      "type": "function",
+      "name": "_fmt_summary",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        213,
+        220
+      ],
+      "summary": "_fmt_summary 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:_handle_slash",
+      "type": "function",
+      "name": "_handle_slash",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        223,
+        302
+      ],
+      "summary": "_handle_slash 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/disk-cleanup/__init__.py",
+      "lineRange": [
+        309,
+        316
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "type": "file",
+      "name": "disk_cleanup.py",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "summary": "disk_cleanup.py 是 python 源文件，包含 17 个函数、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:get_state_dir",
+      "type": "function",
+      "name": "get_state_dir",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        48,
+        50
+      ],
+      "summary": "get_state_dir 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:get_tracked_file",
+      "type": "function",
+      "name": "get_tracked_file",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        53,
+        54
+      ],
+      "summary": "get_tracked_file 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:get_log_file",
+      "type": "function",
+      "name": "get_log_file",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        57,
+        59
+      ],
+      "summary": "get_log_file 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:is_safe_path",
+      "type": "function",
+      "name": "is_safe_path",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        66,
+        81
+      ],
+      "summary": "is_safe_path 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:_log",
+      "type": "function",
+      "name": "_log",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        88,
+        97
+      ],
+      "summary": "_log 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:load_tracked",
+      "type": "function",
+      "name": "load_tracked",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        104,
+        124
+      ],
+      "summary": "load_tracked 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:save_tracked",
+      "type": "function",
+      "name": "save_tracked",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        127,
+        135
+      ],
+      "summary": "save_tracked 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:_is_protected_cron_path",
+      "type": "function",
+      "name": "_is_protected_cron_path",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        154,
+        172
+      ],
+      "summary": "_is_protected_cron_path 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:fmt_size",
+      "type": "function",
+      "name": "fmt_size",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        175,
+        180
+      ],
+      "summary": "fmt_size 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:track",
+      "type": "function",
+      "name": "track",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        187,
+        220
+      ],
+      "summary": "track 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:forget",
+      "type": "function",
+      "name": "forget",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        223,
+        233
+      ],
+      "summary": "forget 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:dry_run",
+      "type": "function",
+      "name": "dry_run",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        240,
+        277
+      ],
+      "summary": "dry_run 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:quick",
+      "type": "function",
+      "name": "quick",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        284,
+        392
+      ],
+      "summary": "quick 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:deep",
+      "type": "function",
+      "name": "deep",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        399,
+        463
+      ],
+      "summary": "deep 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:status",
+      "type": "function",
+      "name": "status",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        470,
+        490
+      ],
+      "summary": "status 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:format_status",
+      "type": "function",
+      "name": "format_status",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        493,
+        510
+      ],
+      "summary": "format_status 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/disk-cleanup/disk_cleanup.py:guess_category",
+      "type": "function",
+      "name": "guess_category",
+      "filePath": "plugins/disk-cleanup/disk_cleanup.py",
+      "lineRange": [
+        521,
+        560
+      ],
+      "summary": "guess_category 是 disk_cleanup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/disk-cleanup/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/disk-cleanup/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/disk-cleanup/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/disk-cleanup/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/google_meet/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/google_meet/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/__init__.py:_on_session_end",
+      "type": "function",
+      "name": "_on_session_end",
+      "filePath": "plugins/google_meet/__init__.py",
+      "lineRange": [
+        50,
+        62
+      ],
+      "summary": "_on_session_end 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/google_meet/__init__.py",
+      "lineRange": [
+        65,
+        103
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/google_meet/audio_bridge.py",
+      "type": "file",
+      "name": "audio_bridge.py",
+      "filePath": "plugins/google_meet/audio_bridge.py",
+      "summary": "audio_bridge.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/audio_bridge.py:chrome_fake_audio_flags",
+      "type": "function",
+      "name": "chrome_fake_audio_flags",
+      "filePath": "plugins/google_meet/audio_bridge.py",
+      "lineRange": [
+        223,
+        244
+      ],
+      "summary": "chrome_fake_audio_flags 是 audio_bridge.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/google_meet/audio_bridge.py:AudioBridge",
+      "type": "class",
+      "name": "AudioBridge",
+      "filePath": "plugins/google_meet/audio_bridge.py",
+      "lineRange": [
+        30,
+        220
+      ],
+      "summary": "AudioBridge 是 audio_bridge.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/google_meet/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "filePath": "plugins/google_meet/cli.py",
+      "summary": "cli.py 是 python 源文件，包含 11 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_auth_state_path",
+      "type": "function",
+      "name": "_auth_state_path",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        26,
+        27
+      ],
+      "summary": "_auth_state_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:register_cli",
+      "type": "function",
+      "name": "register_cli",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        34,
+        100
+      ],
+      "summary": "register_cli 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:meet_command",
+      "type": "function",
+      "name": "meet_command",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        107,
+        147
+      ],
+      "summary": "meet_command 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_setup",
+      "type": "function",
+      "name": "_cmd_setup",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        154,
+        211
+      ],
+      "summary": "_cmd_setup 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_install",
+      "type": "function",
+      "name": "_cmd_install",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        214,
+        333
+      ],
+      "summary": "_cmd_install 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_auth",
+      "type": "function",
+      "name": "_cmd_auth",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        336,
+        368
+      ],
+      "summary": "_cmd_auth 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_join",
+      "type": "function",
+      "name": "_cmd_join",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        371,
+        418
+      ],
+      "summary": "_cmd_join 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_say",
+      "type": "function",
+      "name": "_cmd_say",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        421,
+        448
+      ],
+      "summary": "_cmd_say 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_status",
+      "type": "function",
+      "name": "_cmd_status",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        451,
+        454
+      ],
+      "summary": "_cmd_status 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_transcript",
+      "type": "function",
+      "name": "_cmd_transcript",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        457,
+        464
+      ],
+      "summary": "_cmd_transcript 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/cli.py:_cmd_stop",
+      "type": "function",
+      "name": "_cmd_stop",
+      "filePath": "plugins/google_meet/cli.py",
+      "lineRange": [
+        467,
+        470
+      ],
+      "summary": "_cmd_stop 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/google_meet/meet_bot.py",
+      "type": "file",
+      "name": "meet_bot.py",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "summary": "meet_bot.py 是 python 源文件，包含 12 个函数、1 个类、13 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_is_safe_meet_url",
+      "type": "function",
+      "name": "_is_safe_meet_url",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        57,
+        61
+      ],
+      "summary": "_is_safe_meet_url 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_meeting_id_from_url",
+      "type": "function",
+      "name": "_meeting_id_from_url",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        64,
+        78
+      ],
+      "summary": "_meeting_id_from_url 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_enable_captions_js",
+      "type": "function",
+      "name": "_enable_captions_js",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        247,
+        262
+      ],
+      "summary": "_enable_captions_js 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_start_realtime_speaker",
+      "type": "function",
+      "name": "_start_realtime_speaker",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        265,
+        411
+      ],
+      "summary": "_start_realtime_speaker 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_mac_audio_device_index",
+      "type": "function",
+      "name": "_mac_audio_device_index",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        414,
+        444
+      ],
+      "summary": "_mac_audio_device_index 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:run_bot",
+      "type": "function",
+      "name": "run_bot",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        447,
+        734
+      ],
+      "summary": "run_bot 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_try_guest_name",
+      "type": "function",
+      "name": "_try_guest_name",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        737,
+        745
+      ],
+      "summary": "_try_guest_name 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_detect_admission",
+      "type": "function",
+      "name": "_detect_admission",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        748,
+        780
+      ],
+      "summary": "_detect_admission 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_detect_denied",
+      "type": "function",
+      "name": "_detect_denied",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        783,
+        799
+      ],
+      "summary": "_detect_denied 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_looks_like_human_speaker",
+      "type": "function",
+      "name": "_looks_like_human_speaker",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        802,
+        819
+      ],
+      "summary": "_looks_like_human_speaker 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_click_join",
+      "type": "function",
+      "name": "_click_join",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        822,
+        837
+      ],
+      "summary": "_click_join 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/meet_bot.py:_parse_duration",
+      "type": "function",
+      "name": "_parse_duration",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        840,
+        854
+      ],
+      "summary": "_parse_duration 是 meet_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/google_meet/meet_bot.py:_BotState",
+      "type": "class",
+      "name": "_BotState",
+      "filePath": "plugins/google_meet/meet_bot.py",
+      "lineRange": [
+        85,
+        173
+      ],
+      "summary": "_BotState 是 meet_bot.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/google_meet/node/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/google_meet/node/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/google_meet/node/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "filePath": "plugins/google_meet/node/cli.py",
+      "summary": "cli.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/node/cli.py:register_cli",
+      "type": "function",
+      "name": "register_cli",
+      "filePath": "plugins/google_meet/node/cli.py",
+      "lineRange": [
+        21,
+        54
+      ],
+      "summary": "register_cli 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/node/cli.py:node_command",
+      "type": "function",
+      "name": "node_command",
+      "filePath": "plugins/google_meet/node/cli.py",
+      "lineRange": [
+        57,
+        121
+      ],
+      "summary": "node_command 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/google_meet/node/cli.py:_coerce_dict",
+      "type": "function",
+      "name": "_coerce_dict",
+      "filePath": "plugins/google_meet/node/cli.py",
+      "lineRange": [
+        124,
+        125
+      ],
+      "summary": "_coerce_dict 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/google_meet/node/client.py",
+      "type": "file",
+      "name": "client.py",
+      "filePath": "plugins/google_meet/node/client.py",
+      "summary": "client.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/google_meet/node/client.py:NodeClient",
+      "type": "class",
+      "name": "NodeClient",
+      "filePath": "plugins/google_meet/node/client.py",
+      "lineRange": [
+        19,
+        107
+      ],
+      "summary": "NodeClient 是 client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/google_meet/node/protocol.py",
+      "type": "file",
+      "name": "protocol.py",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "summary": "protocol.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/node/protocol.py:make_request",
+      "type": "function",
+      "name": "make_request",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "lineRange": [
+        31,
+        55
+      ],
+      "summary": "make_request 是 protocol.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/node/protocol.py:make_response",
+      "type": "function",
+      "name": "make_response",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "lineRange": [
+        58,
+        68
+      ],
+      "summary": "make_response 是 protocol.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/node/protocol.py:make_error",
+      "type": "function",
+      "name": "make_error",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "lineRange": [
+        71,
+        72
+      ],
+      "summary": "make_error 是 protocol.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/node/protocol.py:encode",
+      "type": "function",
+      "name": "encode",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "lineRange": [
+        75,
+        77
+      ],
+      "summary": "encode 是 protocol.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/node/protocol.py:decode",
+      "type": "function",
+      "name": "decode",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "lineRange": [
+        80,
+        97
+      ],
+      "summary": "decode 是 protocol.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/node/protocol.py:validate_request",
+      "type": "function",
+      "name": "validate_request",
+      "filePath": "plugins/google_meet/node/protocol.py",
+      "lineRange": [
+        100,
+        124
+      ],
+      "summary": "validate_request 是 protocol.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/google_meet/node/registry.py",
+      "type": "file",
+      "name": "registry.py",
+      "filePath": "plugins/google_meet/node/registry.py",
+      "summary": "registry.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/node/registry.py:_default_path",
+      "type": "function",
+      "name": "_default_path",
+      "filePath": "plugins/google_meet/node/registry.py",
+      "lineRange": [
+        30,
+        31
+      ],
+      "summary": "_default_path 是 registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/google_meet/node/registry.py:NodeRegistry",
+      "type": "class",
+      "name": "NodeRegistry",
+      "filePath": "plugins/google_meet/node/registry.py",
+      "lineRange": [
+        34,
+        112
+      ],
+      "summary": "NodeRegistry 是 registry.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/google_meet/node/server.py",
+      "type": "file",
+      "name": "server.py",
+      "filePath": "plugins/google_meet/node/server.py",
+      "summary": "server.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/node/server.py:_default_token_path",
+      "type": "function",
+      "name": "_default_token_path",
+      "filePath": "plugins/google_meet/node/server.py",
+      "lineRange": [
+        37,
+        38
+      ],
+      "summary": "_default_token_path 是 server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/google_meet/node/server.py:NodeServer",
+      "type": "class",
+      "name": "NodeServer",
+      "filePath": "plugins/google_meet/node/server.py",
+      "lineRange": [
+        41,
+        200
+      ],
+      "summary": "NodeServer 是 server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/google_meet/process_manager.py",
+      "type": "file",
+      "name": "process_manager.py",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "summary": "process_manager.py 是 python 源文件，包含 11 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:_root",
+      "type": "function",
+      "name": "_root",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        39,
+        40
+      ],
+      "summary": "_root 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:_active_file",
+      "type": "function",
+      "name": "_active_file",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        43,
+        44
+      ],
+      "summary": "_active_file 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:_read_active",
+      "type": "function",
+      "name": "_read_active",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        47,
+        54
+      ],
+      "summary": "_read_active 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:_write_active",
+      "type": "function",
+      "name": "_write_active",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        57,
+        62
+      ],
+      "summary": "_write_active 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:_clear_active",
+      "type": "function",
+      "name": "_clear_active",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        65,
+        69
+      ],
+      "summary": "_clear_active 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:_pid_alive",
+      "type": "function",
+      "name": "_pid_alive",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        72,
+        77
+      ],
+      "summary": "_pid_alive 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:start",
+      "type": "function",
+      "name": "start",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        84,
+        187
+      ],
+      "summary": "start 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:status",
+      "type": "function",
+      "name": "status",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        190,
+        216
+      ],
+      "summary": "status 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:transcript",
+      "type": "function",
+      "name": "transcript",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        219,
+        243
+      ],
+      "summary": "transcript 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:enqueue_say",
+      "type": "function",
+      "name": "enqueue_say",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        246,
+        285
+      ],
+      "summary": "enqueue_say 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/google_meet/process_manager.py:stop",
+      "type": "function",
+      "name": "stop",
+      "filePath": "plugins/google_meet/process_manager.py",
+      "lineRange": [
+        288,
+        323
+      ],
+      "summary": "stop 是 process_manager.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/google_meet/realtime/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/google_meet/realtime/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/browser/firecrawl/provider.py",
+      "target": "class:plugins/browser/firecrawl/provider.py:FirecrawlBrowserProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/firecrawl/provider.py",
+      "target": "class:plugins/browser/firecrawl/provider.py:FirecrawlBrowserProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "function:plugins/context_engine/__init__.py:discover_context_engines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "function:plugins/context_engine/__init__.py:discover_context_engines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "function:plugins/context_engine/__init__.py:load_context_engine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "function:plugins/context_engine/__init__.py:load_context_engine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "function:plugins/context_engine/__init__.py:_load_engine_from_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "function:plugins/context_engine/__init__.py:_load_engine_from_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "class:plugins/context_engine/__init__.py:_EngineCollector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/context_engine/__init__.py",
+      "target": "class:plugins/context_engine/__init__.py:_EngineCollector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:hash_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:hash_password",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_verify_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_verify_password",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_sign",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_sign",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_unsign",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_unsign",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_load_config_basic_auth_section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_load_config_basic_auth_section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_resolve_secret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:_resolve_secret",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "function:plugins/dashboard_auth/basic/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "class:plugins/dashboard_auth/basic/__init__.py:BasicAuthProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/basic/__init__.py",
+      "target": "class:plugins/dashboard_auth/basic/__init__.py:BasicAuthProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_b64url_no_pad",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_b64url_no_pad",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_load_config_oauth_section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_load_config_oauth_section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_resolve_client_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_resolve_client_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_resolve_portal_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:_resolve_portal_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "function:plugins/dashboard_auth/nous/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "class:plugins/dashboard_auth/nous/__init__.py:NousDashboardAuthProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/nous/__init__.py",
+      "target": "class:plugins/dashboard_auth/nous/__init__.py:NousDashboardAuthProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_b64url_no_pad",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_b64url_no_pad",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_require_https_or_loopback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_require_https_or_loopback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_load_config_oauth_section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_load_config_oauth_section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_oidc_subsection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_oidc_subsection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_resolve_setting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:_resolve_setting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "function:plugins/dashboard_auth/self_hosted/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "class:plugins/dashboard_auth/self_hosted/__init__.py:SelfHostedOIDCProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/dashboard_auth/self_hosted/__init__.py",
+      "target": "class:plugins/dashboard_auth/self_hosted/__init__.py:SelfHostedOIDCProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_tracker_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_tracker_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_record_track",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_record_track",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_drain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_drain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_attempt_track",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_attempt_track",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_write_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_write_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_patch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_patch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_terminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_extract_paths_from_terminal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_on_post_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_on_post_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_on_session_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_on_session_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_fmt_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_fmt_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_handle_slash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:_handle_slash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/__init__.py",
+      "target": "function:plugins/disk-cleanup/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:get_state_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:get_state_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:get_tracked_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:get_tracked_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:get_log_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:get_log_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:is_safe_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:is_safe_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:_log",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:_log",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:load_tracked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:load_tracked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:save_tracked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:save_tracked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:_is_protected_cron_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:_is_protected_cron_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:fmt_size",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:fmt_size",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:track",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:track",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:forget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:forget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:dry_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:dry_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:quick",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:quick",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:deep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:deep",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:format_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:format_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:guess_category",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/disk-cleanup/disk_cleanup.py",
+      "target": "function:plugins/disk-cleanup/disk_cleanup.py:guess_category",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/__init__.py",
+      "target": "function:plugins/google_meet/__init__.py:_on_session_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/__init__.py",
+      "target": "function:plugins/google_meet/__init__.py:_on_session_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/__init__.py",
+      "target": "function:plugins/google_meet/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/__init__.py",
+      "target": "function:plugins/google_meet/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/audio_bridge.py",
+      "target": "function:plugins/google_meet/audio_bridge.py:chrome_fake_audio_flags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/audio_bridge.py",
+      "target": "function:plugins/google_meet/audio_bridge.py:chrome_fake_audio_flags",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/audio_bridge.py",
+      "target": "class:plugins/google_meet/audio_bridge.py:AudioBridge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/audio_bridge.py",
+      "target": "class:plugins/google_meet/audio_bridge.py:AudioBridge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_auth_state_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_auth_state_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:register_cli",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:register_cli",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:meet_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:meet_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_install",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_install",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_join",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_join",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_say",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_say",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_transcript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_transcript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_stop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/cli.py",
+      "target": "function:plugins/google_meet/cli.py:_cmd_stop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_is_safe_meet_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_is_safe_meet_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_meeting_id_from_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_meeting_id_from_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_enable_captions_js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_enable_captions_js",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_start_realtime_speaker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_start_realtime_speaker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_mac_audio_device_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_mac_audio_device_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:run_bot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:run_bot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_try_guest_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_try_guest_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_detect_admission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_detect_admission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_detect_denied",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_detect_denied",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_looks_like_human_speaker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_looks_like_human_speaker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_click_join",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_click_join",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_parse_duration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "function:plugins/google_meet/meet_bot.py:_parse_duration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "class:plugins/google_meet/meet_bot.py:_BotState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/meet_bot.py",
+      "target": "class:plugins/google_meet/meet_bot.py:_BotState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/cli.py",
+      "target": "function:plugins/google_meet/node/cli.py:register_cli",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/cli.py",
+      "target": "function:plugins/google_meet/node/cli.py:register_cli",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/cli.py",
+      "target": "function:plugins/google_meet/node/cli.py:node_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/cli.py",
+      "target": "function:plugins/google_meet/node/cli.py:node_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/cli.py",
+      "target": "function:plugins/google_meet/node/cli.py:_coerce_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/cli.py",
+      "target": "function:plugins/google_meet/node/cli.py:_coerce_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/client.py",
+      "target": "class:plugins/google_meet/node/client.py:NodeClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/client.py",
+      "target": "class:plugins/google_meet/node/client.py:NodeClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:make_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:make_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:make_response",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:make_response",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:make_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:make_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:encode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:encode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:decode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:decode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:validate_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/protocol.py",
+      "target": "function:plugins/google_meet/node/protocol.py:validate_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/registry.py",
+      "target": "function:plugins/google_meet/node/registry.py:_default_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/registry.py",
+      "target": "function:plugins/google_meet/node/registry.py:_default_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/registry.py",
+      "target": "class:plugins/google_meet/node/registry.py:NodeRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/registry.py",
+      "target": "class:plugins/google_meet/node/registry.py:NodeRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/server.py",
+      "target": "function:plugins/google_meet/node/server.py:_default_token_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/server.py",
+      "target": "function:plugins/google_meet/node/server.py:_default_token_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/node/server.py",
+      "target": "class:plugins/google_meet/node/server.py:NodeServer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/node/server.py",
+      "target": "class:plugins/google_meet/node/server.py:NodeServer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_root",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_root",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_active_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_active_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_read_active",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_read_active",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_write_active",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_write_active",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_clear_active",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_clear_active",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_pid_alive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:_pid_alive",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:start",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:start",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:transcript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:transcript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:enqueue_say",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:enqueue_say",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:stop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/google_meet/process_manager.py",
+      "target": "function:plugins/google_meet/process_manager.py:stop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

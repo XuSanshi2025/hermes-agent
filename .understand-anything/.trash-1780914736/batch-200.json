@@ -1,0 +1,4480 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/note-taking/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/note-taking/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/note-taking/obsidian/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/note-taking/obsidian/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/airtable/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/airtable/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/productivity/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/google-workspace/references/gmail-search-syntax.md",
+      "type": "document",
+      "name": "gmail-search-syntax.md",
+      "filePath": "skills/productivity/google-workspace/references/gmail-search-syntax.md",
+      "summary": "gmail-search-syntax.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/productivity/google-workspace/scripts/_hermes_home.py",
+      "type": "file",
+      "name": "_hermes_home.py",
+      "filePath": "skills/productivity/google-workspace/scripts/_hermes_home.py",
+      "summary": "_hermes_home.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "type": "file",
+      "name": "google_api.py",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "summary": "google_api.py 是 python 源文件，包含 38 个函数、38 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_normalize_authorized_user_payload",
+      "type": "function",
+      "name": "_normalize_authorized_user_payload",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        57,
+        61
+      ],
+      "summary": "_normalize_authorized_user_payload 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_ensure_authenticated",
+      "type": "function",
+      "name": "_ensure_authenticated",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        64,
+        68
+      ],
+      "summary": "_ensure_authenticated 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_stored_token_scopes",
+      "type": "function",
+      "name": "_stored_token_scopes",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        71,
+        79
+      ],
+      "summary": "_stored_token_scopes 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_gws_binary",
+      "type": "function",
+      "name": "_gws_binary",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        82,
+        86
+      ],
+      "summary": "_gws_binary 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_gws_env",
+      "type": "function",
+      "name": "_gws_env",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        89,
+        92
+      ],
+      "summary": "_gws_env 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_run_gws",
+      "type": "function",
+      "name": "_run_gws",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        95,
+        128
+      ],
+      "summary": "_run_gws 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_headers_dict",
+      "type": "function",
+      "name": "_headers_dict",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        131,
+        136
+      ],
+      "summary": "_headers_dict 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_extract_message_body",
+      "type": "function",
+      "name": "_extract_message_body",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        139,
+        154
+      ],
+      "summary": "_extract_message_body 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_extract_doc_text",
+      "type": "function",
+      "name": "_extract_doc_text",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        157,
+        165
+      ],
+      "summary": "_extract_doc_text 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_datetime_with_timezone",
+      "type": "function",
+      "name": "_datetime_with_timezone",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        168,
+        178
+      ],
+      "summary": "_datetime_with_timezone 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:get_credentials",
+      "type": "function",
+      "name": "get_credentials",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        181,
+        200
+      ],
+      "summary": "get_credentials 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:build_service",
+      "type": "function",
+      "name": "build_service",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        203,
+        206
+      ],
+      "summary": "build_service 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_search",
+      "type": "function",
+      "name": "gmail_search",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        214,
+        274
+      ],
+      "summary": "gmail_search 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_get",
+      "type": "function",
+      "name": "gmail_get",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        278,
+        314
+      ],
+      "summary": "gmail_get 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_send",
+      "type": "function",
+      "name": "gmail_send",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        318,
+        357
+      ],
+      "summary": "gmail_send 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_reply",
+      "type": "function",
+      "name": "gmail_reply",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        361,
+        420
+      ],
+      "summary": "gmail_reply 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_labels",
+      "type": "function",
+      "name": "gmail_labels",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        424,
+        434
+      ],
+      "summary": "gmail_labels 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_modify",
+      "type": "function",
+      "name": "gmail_modify",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        438,
+        456
+      ],
+      "summary": "gmail_modify 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_list",
+      "type": "function",
+      "name": "calendar_list",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        464,
+        514
+      ],
+      "summary": "calendar_list 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_create",
+      "type": "function",
+      "name": "calendar_create",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        518,
+        552
+      ],
+      "summary": "calendar_create 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_delete",
+      "type": "function",
+      "name": "calendar_delete",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        556,
+        564
+      ],
+      "summary": "calendar_delete 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_search",
+      "type": "function",
+      "name": "drive_search",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        572,
+        591
+      ],
+      "summary": "drive_search 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_get",
+      "type": "function",
+      "name": "drive_get",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        594,
+        607
+      ],
+      "summary": "drive_get 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_upload",
+      "type": "function",
+      "name": "drive_upload",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        610,
+        639
+      ],
+      "summary": "drive_upload 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_download",
+      "type": "function",
+      "name": "drive_download",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        642,
+        688
+      ],
+      "summary": "drive_download 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_create_folder",
+      "type": "function",
+      "name": "drive_create_folder",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        691,
+        720
+      ],
+      "summary": "drive_create_folder 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_share",
+      "type": "function",
+      "name": "drive_share",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        723,
+        770
+      ],
+      "summary": "drive_share 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_delete",
+      "type": "function",
+      "name": "drive_delete",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        773,
+        798
+      ],
+      "summary": "drive_delete 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:contacts_list",
+      "type": "function",
+      "name": "contacts_list",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        806,
+        845
+      ],
+      "summary": "contacts_list 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_get",
+      "type": "function",
+      "name": "sheets_get",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        853,
+        866
+      ],
+      "summary": "sheets_get 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_update",
+      "type": "function",
+      "name": "sheets_update",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        870,
+        892
+      ],
+      "summary": "sheets_update 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_append",
+      "type": "function",
+      "name": "sheets_append",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        896,
+        919
+      ],
+      "summary": "sheets_append 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_create",
+      "type": "function",
+      "name": "sheets_create",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        922,
+        947
+      ],
+      "summary": "sheets_create 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_get",
+      "type": "function",
+      "name": "docs_get",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        955,
+        973
+      ],
+      "summary": "docs_get 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_create",
+      "type": "function",
+      "name": "docs_create",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        976,
+        996
+      ],
+      "summary": "docs_create 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_append",
+      "type": "function",
+      "name": "docs_append",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        999,
+        1026
+      ],
+      "summary": "docs_append 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:_docs_insert_text",
+      "type": "function",
+      "name": "_docs_insert_text",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        1029,
+        1046
+      ],
+      "summary": "_docs_insert_text 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/google_api.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/productivity/google-workspace/scripts/google_api.py",
+      "lineRange": [
+        1054,
+        1221
+      ],
+      "summary": "main 是 google_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "type": "file",
+      "name": "gws_bridge.py",
+      "filePath": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "summary": "gws_bridge.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:get_token_path",
+      "type": "function",
+      "name": "get_token_path",
+      "filePath": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "lineRange": [
+        21,
+        22
+      ],
+      "summary": "get_token_path 是 gws_bridge.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:_normalize_authorized_user_payload",
+      "type": "function",
+      "name": "_normalize_authorized_user_payload",
+      "filePath": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "lineRange": [
+        25,
+        29
+      ],
+      "summary": "_normalize_authorized_user_payload 是 gws_bridge.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:refresh_token",
+      "type": "function",
+      "name": "refresh_token",
+      "filePath": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "lineRange": [
+        32,
+        74
+      ],
+      "summary": "refresh_token 是 gws_bridge.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:get_valid_token",
+      "type": "function",
+      "name": "get_valid_token",
+      "filePath": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "lineRange": [
+        77,
+        93
+      ],
+      "summary": "get_valid_token 是 gws_bridge.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "lineRange": [
+        96,
+        107
+      ],
+      "summary": "main 是 gws_bridge.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "summary": "setup.py 是 python 源文件，包含 16 个函数、16 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_normalize_authorized_user_payload",
+      "type": "function",
+      "name": "_normalize_authorized_user_payload",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        65,
+        69
+      ],
+      "summary": "_normalize_authorized_user_payload 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_load_token_payload",
+      "type": "function",
+      "name": "_load_token_payload",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        72,
+        76
+      ],
+      "summary": "_load_token_payload 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_missing_scopes_from_payload",
+      "type": "function",
+      "name": "_missing_scopes_from_payload",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        79,
+        84
+      ],
+      "summary": "_missing_scopes_from_payload 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_format_missing_scopes",
+      "type": "function",
+      "name": "_format_missing_scopes",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        87,
+        93
+      ],
+      "summary": "_format_missing_scopes 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:install_deps",
+      "type": "function",
+      "name": "install_deps",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        96,
+        146
+      ],
+      "summary": "install_deps 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_ensure_deps",
+      "type": "function",
+      "name": "_ensure_deps",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        149,
+        156
+      ],
+      "summary": "_ensure_deps 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:check_auth_live",
+      "type": "function",
+      "name": "check_auth_live",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        159,
+        182
+      ],
+      "summary": "check_auth_live 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:check_auth",
+      "type": "function",
+      "name": "check_auth",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        185,
+        252
+      ],
+      "summary": "check_auth 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:store_client_secret",
+      "type": "function",
+      "name": "store_client_secret",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        255,
+        274
+      ],
+      "summary": "store_client_secret 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_save_pending_auth",
+      "type": "function",
+      "name": "_save_pending_auth",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        277,
+        288
+      ],
+      "summary": "_save_pending_auth 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_load_pending_auth",
+      "type": "function",
+      "name": "_load_pending_auth",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        291,
+        309
+      ],
+      "summary": "_load_pending_auth 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:_extract_code_and_state",
+      "type": "function",
+      "name": "_extract_code_and_state",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        312,
+        326
+      ],
+      "summary": "_extract_code_and_state 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:get_auth_url",
+      "type": "function",
+      "name": "get_auth_url",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        329,
+        350
+      ],
+      "summary": "get_auth_url 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:exchange_auth_code",
+      "type": "function",
+      "name": "exchange_auth_code",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        353,
+        416
+      ],
+      "summary": "exchange_auth_code 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:revoke",
+      "type": "function",
+      "name": "revoke",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        419,
+        449
+      ],
+      "summary": "revoke 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/google-workspace/scripts/setup.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/productivity/google-workspace/scripts/setup.py",
+      "lineRange": [
+        452,
+        477
+      ],
+      "summary": "main 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/productivity/google-workspace/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/google-workspace/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/productivity/maps/scripts/maps_client.py",
+      "type": "file",
+      "name": "maps_client.py",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "summary": "maps_client.py 是 python 源文件，包含 26 个函数、26 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:_tags_for",
+      "type": "function",
+      "name": "_tags_for",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        127,
+        137
+      ],
+      "summary": "_tags_for 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:print_json",
+      "type": "function",
+      "name": "print_json",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        149,
+        151
+      ],
+      "summary": "print_json 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:error_exit",
+      "type": "function",
+      "name": "error_exit",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        154,
+        157
+      ],
+      "summary": "error_exit 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:http_get",
+      "type": "function",
+      "name": "http_get",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        164,
+        199
+      ],
+      "summary": "http_get 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:http_get_text",
+      "type": "function",
+      "name": "http_get_text",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        202,
+        232
+      ],
+      "summary": "http_get_text 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:http_post",
+      "type": "function",
+      "name": "http_post",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        235,
+        269
+      ],
+      "summary": "http_post 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:overpass_query",
+      "type": "function",
+      "name": "overpass_query",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        272,
+        293
+      ],
+      "summary": "overpass_query 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:haversine_m",
+      "type": "function",
+      "name": "haversine_m",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        300,
+        309
+      ],
+      "summary": "haversine_m 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:nominatim_search",
+      "type": "function",
+      "name": "nominatim_search",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        316,
+        325
+      ],
+      "summary": "nominatim_search 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:nominatim_reverse",
+      "type": "function",
+      "name": "nominatim_reverse",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        328,
+        337
+      ],
+      "summary": "nominatim_reverse 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:geocode_single",
+      "type": "function",
+      "name": "geocode_single",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        340,
+        349
+      ],
+      "summary": "geocode_single 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:build_overpass_nearby",
+      "type": "function",
+      "name": "build_overpass_nearby",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        356,
+        386
+      ],
+      "summary": "build_overpass_nearby 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:build_overpass_bbox",
+      "type": "function",
+      "name": "build_overpass_bbox",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        389,
+        416
+      ],
+      "summary": "build_overpass_bbox 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:parse_overpass_elements",
+      "type": "function",
+      "name": "parse_overpass_elements",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        419,
+        494
+      ],
+      "summary": "parse_overpass_elements 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_search",
+      "type": "function",
+      "name": "cmd_search",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        501,
+        541
+      ],
+      "summary": "cmd_search 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_reverse",
+      "type": "function",
+      "name": "cmd_reverse",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        548,
+        589
+      ],
+      "summary": "cmd_reverse 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_nearby",
+      "type": "function",
+      "name": "cmd_nearby",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        596,
+        679
+      ],
+      "summary": "cmd_nearby 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_distance",
+      "type": "function",
+      "name": "cmd_distance",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        686,
+        747
+      ],
+      "summary": "cmd_distance 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:_format_duration",
+      "type": "function",
+      "name": "_format_duration",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        754,
+        763
+      ],
+      "summary": "_format_duration 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:_format_distance",
+      "type": "function",
+      "name": "_format_distance",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        766,
+        770
+      ],
+      "summary": "_format_distance 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_directions",
+      "type": "function",
+      "name": "cmd_directions",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        773,
+        882
+      ],
+      "summary": "cmd_directions 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_timezone",
+      "type": "function",
+      "name": "cmd_timezone",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        889,
+        962
+      ],
+      "summary": "cmd_timezone 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_bbox",
+      "type": "function",
+      "name": "cmd_bbox",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        969,
+        1025
+      ],
+      "summary": "cmd_bbox 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:cmd_area",
+      "type": "function",
+      "name": "cmd_area",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        1032,
+        1079
+      ],
+      "summary": "cmd_area 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:build_parser",
+      "type": "function",
+      "name": "build_parser",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        1086,
+        1271
+      ],
+      "summary": "build_parser 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/maps/scripts/maps_client.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/productivity/maps/scripts/maps_client.py",
+      "lineRange": [
+        1274,
+        1293
+      ],
+      "summary": "main 是 maps_client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/productivity/maps/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/maps/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/nano-pdf/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/nano-pdf/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/notion/references/block-types.md",
+      "type": "document",
+      "name": "block-types.md",
+      "filePath": "skills/productivity/notion/references/block-types.md",
+      "summary": "block-types.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/notion/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/notion/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/productivity/ocr-and-documents/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/productivity/ocr-and-documents/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "type": "file",
+      "name": "extract_marker.py",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "summary": "extract_marker.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_marker.py:convert",
+      "type": "function",
+      "name": "convert",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "lineRange": [
+        19,
+        50
+      ],
+      "summary": "convert 是 extract_marker.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_marker.py:check_requirements",
+      "type": "function",
+      "name": "check_requirements",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "lineRange": [
+        53,
+        61
+      ],
+      "summary": "check_requirements 是 extract_marker.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "type": "file",
+      "name": "extract_pymupdf.py",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "summary": "extract_pymupdf.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_text",
+      "type": "function",
+      "name": "extract_text",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "lineRange": [
+        15,
+        22
+      ],
+      "summary": "extract_text 是 extract_pymupdf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_markdown",
+      "type": "function",
+      "name": "extract_markdown",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "lineRange": [
+        24,
+        27
+      ],
+      "summary": "extract_markdown 是 extract_pymupdf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_tables",
+      "type": "function",
+      "name": "extract_tables",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "lineRange": [
+        29,
+        37
+      ],
+      "summary": "extract_tables 是 extract_pymupdf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_images",
+      "type": "function",
+      "name": "extract_images",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "lineRange": [
+        39,
+        54
+      ],
+      "summary": "extract_images 是 extract_pymupdf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:show_metadata",
+      "type": "function",
+      "name": "show_metadata",
+      "filePath": "skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "lineRange": [
+        56,
+        67
+      ],
+      "summary": "show_metadata 是 extract_pymupdf.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/productivity/ocr-and-documents/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/ocr-and-documents/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "skills/productivity/powerpoint/scripts/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "type": "file",
+      "name": "add_slide.py",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "summary": "add_slide.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:get_next_slide_number",
+      "type": "function",
+      "name": "get_next_slide_number",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        27,
+        30
+      ],
+      "summary": "get_next_slide_number 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:create_slide_from_layout",
+      "type": "function",
+      "name": "create_slide_from_layout",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        33,
+        87
+      ],
+      "summary": "create_slide_from_layout 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:duplicate_slide",
+      "type": "function",
+      "name": "duplicate_slide",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        90,
+        127
+      ],
+      "summary": "duplicate_slide 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:_add_to_content_types",
+      "type": "function",
+      "name": "_add_to_content_types",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        130,
+        138
+      ],
+      "summary": "_add_to_content_types 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:_add_to_presentation_rels",
+      "type": "function",
+      "name": "_add_to_presentation_rels",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        141,
+        155
+      ],
+      "summary": "_add_to_presentation_rels 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:_get_next_slide_id",
+      "type": "function",
+      "name": "_get_next_slide_id",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        158,
+        162
+      ],
+      "summary": "_get_next_slide_id 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/add_slide.py:parse_source",
+      "type": "function",
+      "name": "parse_source",
+      "filePath": "skills/productivity/powerpoint/scripts/add_slide.py",
+      "lineRange": [
+        165,
+        169
+      ],
+      "summary": "parse_source 是 add_slide.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "type": "file",
+      "name": "clean.py",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "summary": "clean.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:get_slides_in_sldidlst",
+      "type": "function",
+      "name": "get_slides_in_sldidlst",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        27,
+        46
+      ],
+      "summary": "get_slides_in_sldidlst 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_slides",
+      "type": "function",
+      "name": "remove_orphaned_slides",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        49,
+        88
+      ],
+      "summary": "remove_orphaned_slides 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:remove_trash_directory",
+      "type": "function",
+      "name": "remove_trash_directory",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        91,
+        103
+      ],
+      "summary": "remove_trash_directory 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:get_slide_referenced_files",
+      "type": "function",
+      "name": "get_slide_referenced_files",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        106,
+        125
+      ],
+      "summary": "get_slide_referenced_files 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_rels_files",
+      "type": "function",
+      "name": "remove_orphaned_rels_files",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        128,
+        150
+      ],
+      "summary": "remove_orphaned_rels_files 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:get_referenced_files",
+      "type": "function",
+      "name": "get_referenced_files",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        153,
+        168
+      ],
+      "summary": "get_referenced_files 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_files",
+      "type": "function",
+      "name": "remove_orphaned_files",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        171,
+        218
+      ],
+      "summary": "remove_orphaned_files 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:update_content_types",
+      "type": "function",
+      "name": "update_content_types",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        221,
+        238
+      ],
+      "summary": "update_content_types 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/clean.py:clean_unused_files",
+      "type": "function",
+      "name": "clean_unused_files",
+      "filePath": "skills/productivity/powerpoint/scripts/clean.py",
+      "lineRange": [
+        241,
+        264
+      ],
+      "summary": "clean_unused_files 是 clean.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/office/helpers/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "type": "file",
+      "name": "merge_runs.py",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "summary": "merge_runs.py 是 python 源文件，包含 15 个函数、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:merge_runs",
+      "type": "function",
+      "name": "merge_runs",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        16,
+        39
+      ],
+      "summary": "merge_runs 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_find_elements",
+      "type": "function",
+      "name": "_find_elements",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        44,
+        56
+      ],
+      "summary": "_find_elements 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_get_child",
+      "type": "function",
+      "name": "_get_child",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        59,
+        65
+      ],
+      "summary": "_get_child 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_get_children",
+      "type": "function",
+      "name": "_get_children",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        68,
+        75
+      ],
+      "summary": "_get_children 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_is_adjacent",
+      "type": "function",
+      "name": "_is_adjacent",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        78,
+        88
+      ],
+      "summary": "_is_adjacent 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_remove_elements",
+      "type": "function",
+      "name": "_remove_elements",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        93,
+        96
+      ],
+      "summary": "_remove_elements 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_strip_run_rsid_attrs",
+      "type": "function",
+      "name": "_strip_run_rsid_attrs",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        99,
+        103
+      ],
+      "summary": "_strip_run_rsid_attrs 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_merge_runs_in",
+      "type": "function",
+      "name": "_merge_runs_in",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        108,
+        125
+      ],
+      "summary": "_merge_runs_in 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_first_child_run",
+      "type": "function",
+      "name": "_first_child_run",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        128,
+        132
+      ],
+      "summary": "_first_child_run 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_next_element_sibling",
+      "type": "function",
+      "name": "_next_element_sibling",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        135,
+        141
+      ],
+      "summary": "_next_element_sibling 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_next_sibling_run",
+      "type": "function",
+      "name": "_next_sibling_run",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        144,
+        151
+      ],
+      "summary": "_next_sibling_run 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_is_run",
+      "type": "function",
+      "name": "_is_run",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        154,
+        156
+      ],
+      "summary": "_is_run 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_can_merge",
+      "type": "function",
+      "name": "_can_merge",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        159,
+        167
+      ],
+      "summary": "_can_merge 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_merge_run_content",
+      "type": "function",
+      "name": "_merge_run_content",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        170,
+        175
+      ],
+      "summary": "_merge_run_content 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_consolidate_text",
+      "type": "function",
+      "name": "_consolidate_text",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "lineRange": [
+        178,
+        199
+      ],
+      "summary": "_consolidate_text 是 merge_runs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "type": "file",
+      "name": "simplify_redlines.py",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "summary": "simplify_redlines.py 是 python 源文件，包含 10 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:simplify_redlines",
+      "type": "function",
+      "name": "simplify_redlines",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        22,
+        44
+      ],
+      "summary": "simplify_redlines 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_merge_tracked_changes_in",
+      "type": "function",
+      "name": "_merge_tracked_changes_in",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        47,
+        72
+      ],
+      "summary": "_merge_tracked_changes_in 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_is_element",
+      "type": "function",
+      "name": "_is_element",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        75,
+        77
+      ],
+      "summary": "_is_element 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_get_author",
+      "type": "function",
+      "name": "_get_author",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        80,
+        86
+      ],
+      "summary": "_get_author 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_can_merge_tracked",
+      "type": "function",
+      "name": "_can_merge_tracked",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        89,
+        101
+      ],
+      "summary": "_can_merge_tracked 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_merge_tracked_content",
+      "type": "function",
+      "name": "_merge_tracked_content",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        104,
+        108
+      ],
+      "summary": "_merge_tracked_content 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_find_elements",
+      "type": "function",
+      "name": "_find_elements",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        111,
+        123
+      ],
+      "summary": "_find_elements 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:get_tracked_change_authors",
+      "type": "function",
+      "name": "get_tracked_change_authors",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        126,
+        146
+      ],
+      "summary": "get_tracked_change_authors 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_get_authors_from_docx",
+      "type": "function",
+      "name": "_get_authors_from_docx",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        149,
+        169
+      ],
+      "summary": "_get_authors_from_docx 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:infer_author",
+      "type": "function",
+      "name": "infer_author",
+      "filePath": "skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "lineRange": [
+        172,
+        197
+      ],
+      "summary": "infer_author 是 simplify_redlines.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_normalize_authorized_user_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_normalize_authorized_user_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_ensure_authenticated",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_ensure_authenticated",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_stored_token_scopes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_stored_token_scopes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_gws_binary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_gws_binary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_gws_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_gws_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_run_gws",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_run_gws",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_headers_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_headers_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_extract_message_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_extract_message_body",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_extract_doc_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_extract_doc_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_datetime_with_timezone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_datetime_with_timezone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:get_credentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:get_credentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:build_service",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:build_service",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_reply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_reply",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_labels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_labels",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_modify",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:gmail_modify",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_create",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_delete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:calendar_delete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_upload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_upload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_download",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_create_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_create_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_share",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_share",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_delete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:drive_delete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:contacts_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:contacts_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_update",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_append",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_append",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:sheets_create",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_create",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_append",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:docs_append",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_docs_insert_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:_docs_insert_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/google_api.py",
+      "target": "function:skills/productivity/google-workspace/scripts/google_api.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:get_token_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:get_token_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:_normalize_authorized_user_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:_normalize_authorized_user_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:refresh_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:refresh_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:get_valid_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:get_valid_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "target": "function:skills/productivity/google-workspace/scripts/gws_bridge.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_normalize_authorized_user_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_normalize_authorized_user_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_load_token_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_load_token_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_missing_scopes_from_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_missing_scopes_from_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_format_missing_scopes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_format_missing_scopes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:install_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:install_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_ensure_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_ensure_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:check_auth_live",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:check_auth_live",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:check_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:check_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:store_client_secret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:store_client_secret",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_save_pending_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_save_pending_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_load_pending_auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_load_pending_auth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_extract_code_and_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:_extract_code_and_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:get_auth_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:get_auth_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:exchange_auth_code",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:exchange_auth_code",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:revoke",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:revoke",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/google-workspace/scripts/setup.py",
+      "target": "function:skills/productivity/google-workspace/scripts/setup.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:_tags_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:_tags_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:print_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:print_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:error_exit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:error_exit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:http_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:http_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:http_get_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:http_get_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:http_post",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:http_post",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:overpass_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:overpass_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:haversine_m",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:haversine_m",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:nominatim_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:nominatim_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:nominatim_reverse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:nominatim_reverse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:geocode_single",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:geocode_single",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:build_overpass_nearby",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:build_overpass_nearby",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:build_overpass_bbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:build_overpass_bbox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:parse_overpass_elements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:parse_overpass_elements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_reverse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_reverse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_nearby",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_nearby",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_distance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_distance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:_format_duration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:_format_duration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:_format_distance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:_format_distance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_directions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_directions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_timezone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_timezone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_bbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_bbox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_area",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:cmd_area",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:build_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:build_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/maps/scripts/maps_client.py",
+      "target": "function:skills/productivity/maps/scripts/maps_client.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_marker.py:convert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_marker.py:convert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_marker.py:check_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_marker.py:check_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_tables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_tables",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_images",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:extract_images",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:show_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+      "target": "function:skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:show_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:get_next_slide_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:get_next_slide_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:create_slide_from_layout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:create_slide_from_layout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:duplicate_slide",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:duplicate_slide",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:_add_to_content_types",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:_add_to_content_types",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:_add_to_presentation_rels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:_add_to_presentation_rels",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:_get_next_slide_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:_get_next_slide_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:parse_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/add_slide.py",
+      "target": "function:skills/productivity/powerpoint/scripts/add_slide.py:parse_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:get_slides_in_sldidlst",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:get_slides_in_sldidlst",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_slides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_slides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_trash_directory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_trash_directory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:get_slide_referenced_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:get_slide_referenced_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_rels_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_rels_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:get_referenced_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:get_referenced_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:remove_orphaned_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:update_content_types",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:update_content_types",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:clean_unused_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/clean.py",
+      "target": "function:skills/productivity/powerpoint/scripts/clean.py:clean_unused_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:merge_runs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:merge_runs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_find_elements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_find_elements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_get_child",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_get_child",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_get_children",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_get_children",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_is_adjacent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_is_adjacent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_remove_elements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_remove_elements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_strip_run_rsid_attrs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_strip_run_rsid_attrs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_merge_runs_in",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_merge_runs_in",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_first_child_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_first_child_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_next_element_sibling",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_next_element_sibling",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_next_sibling_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_next_sibling_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_is_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_is_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_can_merge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_can_merge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_merge_run_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_merge_run_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_consolidate_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:_consolidate_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:simplify_redlines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:simplify_redlines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_merge_tracked_changes_in",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_merge_tracked_changes_in",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_is_element",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_is_element",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_get_author",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_get_author",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_can_merge_tracked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_can_merge_tracked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_merge_tracked_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_merge_tracked_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_find_elements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_find_elements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:get_tracked_change_authors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:get_tracked_change_authors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_get_authors_from_docx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:_get_authors_from_docx",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:infer_author",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:infer_author",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

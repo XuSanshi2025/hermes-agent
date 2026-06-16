@@ -1,0 +1,618 @@
+{
+  "nodes": [
+    {
+      "id": "config:plugins/model-providers/alibaba-coding-plan/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/alibaba-coding-plan/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/alibaba/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/alibaba/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/alibaba/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/alibaba/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/anthropic/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/anthropic/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/anthropic/__init__.py:AnthropicProfile",
+      "type": "class",
+      "name": "AnthropicProfile",
+      "filePath": "plugins/model-providers/anthropic/__init__.py",
+      "lineRange": [
+        13,
+        39
+      ],
+      "summary": "AnthropicProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/anthropic/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/anthropic/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/arcee/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/arcee/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/arcee/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/arcee/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/azure-foundry/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/azure-foundry/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/azure-foundry/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/azure-foundry/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/bedrock/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/bedrock/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/bedrock/__init__.py:BedrockProfile",
+      "type": "class",
+      "name": "BedrockProfile",
+      "filePath": "plugins/model-providers/bedrock/__init__.py",
+      "lineRange": [
+        7,
+        17
+      ],
+      "summary": "BedrockProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/bedrock/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/bedrock/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/copilot-acp/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/copilot-acp/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/copilot-acp/__init__.py:CopilotACPProfile",
+      "type": "class",
+      "name": "CopilotACPProfile",
+      "filePath": "plugins/model-providers/copilot-acp/__init__.py",
+      "lineRange": [
+        12,
+        22
+      ],
+      "summary": "CopilotACPProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/copilot-acp/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/copilot-acp/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/copilot/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/copilot/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/copilot/__init__.py:CopilotProfile",
+      "type": "class",
+      "name": "CopilotProfile",
+      "filePath": "plugins/model-providers/copilot/__init__.py",
+      "lineRange": [
+        19,
+        47
+      ],
+      "summary": "CopilotProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/copilot/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/copilot/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/custom/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/custom/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/custom/__init__.py:CustomProfile",
+      "type": "class",
+      "name": "CustomProfile",
+      "filePath": "plugins/model-providers/custom/__init__.py",
+      "lineRange": [
+        15,
+        51
+      ],
+      "summary": "CustomProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/custom/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/custom/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/deepseek/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/deepseek/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/model-providers/deepseek/__init__.py:_model_supports_thinking",
+      "type": "function",
+      "name": "_model_supports_thinking",
+      "filePath": "plugins/model-providers/deepseek/__init__.py",
+      "lineRange": [
+        28,
+        44
+      ],
+      "summary": "_model_supports_thinking 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/model-providers/deepseek/__init__.py:DeepSeekProfile",
+      "type": "class",
+      "name": "DeepSeekProfile",
+      "filePath": "plugins/model-providers/deepseek/__init__.py",
+      "lineRange": [
+        47,
+        82
+      ],
+      "summary": "DeepSeekProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/deepseek/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/deepseek/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/gemini/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/gemini/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/gemini/__init__.py:GeminiProfile",
+      "type": "class",
+      "name": "GeminiProfile",
+      "filePath": "plugins/model-providers/gemini/__init__.py",
+      "lineRange": [
+        19,
+        49
+      ],
+      "summary": "GeminiProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/gemini/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/gemini/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/gmi/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/gmi/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/gmi/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/gmi/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/huggingface/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/huggingface/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/huggingface/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/huggingface/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/model-providers/anthropic/__init__.py",
+      "target": "class:plugins/model-providers/anthropic/__init__.py:AnthropicProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/anthropic/__init__.py",
+      "target": "class:plugins/model-providers/anthropic/__init__.py:AnthropicProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/bedrock/__init__.py",
+      "target": "class:plugins/model-providers/bedrock/__init__.py:BedrockProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/bedrock/__init__.py",
+      "target": "class:plugins/model-providers/bedrock/__init__.py:BedrockProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/copilot-acp/__init__.py",
+      "target": "class:plugins/model-providers/copilot-acp/__init__.py:CopilotACPProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/copilot-acp/__init__.py",
+      "target": "class:plugins/model-providers/copilot-acp/__init__.py:CopilotACPProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/copilot/__init__.py",
+      "target": "class:plugins/model-providers/copilot/__init__.py:CopilotProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/copilot/__init__.py",
+      "target": "class:plugins/model-providers/copilot/__init__.py:CopilotProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/custom/__init__.py",
+      "target": "class:plugins/model-providers/custom/__init__.py:CustomProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/custom/__init__.py",
+      "target": "class:plugins/model-providers/custom/__init__.py:CustomProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/deepseek/__init__.py",
+      "target": "function:plugins/model-providers/deepseek/__init__.py:_model_supports_thinking",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/deepseek/__init__.py",
+      "target": "function:plugins/model-providers/deepseek/__init__.py:_model_supports_thinking",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/deepseek/__init__.py",
+      "target": "class:plugins/model-providers/deepseek/__init__.py:DeepSeekProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/deepseek/__init__.py",
+      "target": "class:plugins/model-providers/deepseek/__init__.py:DeepSeekProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/gemini/__init__.py",
+      "target": "class:plugins/model-providers/gemini/__init__.py:GeminiProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/gemini/__init__.py",
+      "target": "class:plugins/model-providers/gemini/__init__.py:GeminiProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

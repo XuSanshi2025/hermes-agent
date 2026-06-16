@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/creative/comfyui/references/official-cli.md",
+      "type": "document",
+      "name": "official-cli.md",
+      "filePath": "skills/creative/comfyui/references/official-cli.md",
+      "summary": "official-cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/comfyui/references/rest-api.md",
+      "type": "document",
+      "name": "rest-api.md",
+      "filePath": "skills/creative/comfyui/references/rest-api.md",
+      "summary": "rest-api.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/comfyui/references/template-integrity.md",
+      "type": "document",
+      "name": "template-integrity.md",
+      "filePath": "skills/creative/comfyui/references/template-integrity.md",
+      "summary": "template-integrity.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/comfyui/references/workflow-format.md",
+      "type": "document",
+      "name": "workflow-format.md",
+      "filePath": "skills/creative/comfyui/references/workflow-format.md",
+      "summary": "workflow-format.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

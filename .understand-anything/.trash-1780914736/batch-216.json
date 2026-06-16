@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/src/__tests__/terminalParity.test.ts",
+      "type": "file",
+      "name": "terminalParity.test.ts",
+      "filePath": "ui-tui/src/__tests__/terminalParity.test.ts",
+      "summary": "terminalParity.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/terminalSetup.test.ts",
+      "type": "file",
+      "name": "terminalSetup.test.ts",
+      "filePath": "ui-tui/src/__tests__/terminalSetup.test.ts",
+      "summary": "terminalSetup.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/termux.test.ts",
+      "type": "file",
+      "name": "termux.test.ts",
+      "filePath": "ui-tui/src/__tests__/termux.test.ts",
+      "summary": "termux.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/termuxComposerLayout.test.ts",
+      "type": "file",
+      "name": "termuxComposerLayout.test.ts",
+      "filePath": "ui-tui/src/__tests__/termuxComposerLayout.test.ts",
+      "summary": "termuxComposerLayout.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/text.test.ts",
+      "type": "file",
+      "name": "text.test.ts",
+      "filePath": "ui-tui/src/__tests__/text.test.ts",
+      "summary": "text.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputBurstInput.test.ts",
+      "type": "file",
+      "name": "textInputBurstInput.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputBurstInput.test.ts",
+      "summary": "textInputBurstInput.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputCursorSourceOfTruth.test.ts",
+      "type": "file",
+      "name": "textInputCursorSourceOfTruth.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputCursorSourceOfTruth.test.ts",
+      "summary": "textInputCursorSourceOfTruth.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputFastEcho.test.ts",
+      "type": "file",
+      "name": "textInputFastEcho.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputFastEcho.test.ts",
+      "summary": "textInputFastEcho.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputLineNav.test.ts",
+      "type": "file",
+      "name": "textInputLineNav.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputLineNav.test.ts",
+      "summary": "textInputLineNav.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputPassThrough.test.ts",
+      "type": "file",
+      "name": "textInputPassThrough.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputPassThrough.test.ts",
+      "summary": "textInputPassThrough.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputRightClick.test.ts",
+      "type": "file",
+      "name": "textInputRightClick.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputRightClick.test.ts",
+      "summary": "textInputRightClick.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "cli",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/textInputWrap.test.ts",
+      "type": "file",
+      "name": "textInputWrap.test.ts",
+      "filePath": "ui-tui/src/__tests__/textInputWrap.test.ts",
+      "summary": "textInputWrap.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/theme.test.ts",
+      "type": "file",
+      "name": "theme.test.ts",
+      "filePath": "ui-tui/src/__tests__/theme.test.ts",
+      "summary": "theme.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/turnControllerNotice.test.ts",
+      "type": "file",
+      "name": "turnControllerNotice.test.ts",
+      "filePath": "ui-tui/src/__tests__/turnControllerNotice.test.ts",
+      "summary": "turnControllerNotice.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/turnStore.test.ts",
+      "type": "file",
+      "name": "turnStore.test.ts",
+      "filePath": "ui-tui/src/__tests__/turnStore.test.ts",
+      "summary": "turnStore.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useCompletion.test.ts",
+      "type": "file",
+      "name": "useCompletion.test.ts",
+      "filePath": "ui-tui/src/__tests__/useCompletion.test.ts",
+      "summary": "useCompletion.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useComposerState.test.ts",
+      "type": "file",
+      "name": "useComposerState.test.ts",
+      "filePath": "ui-tui/src/__tests__/useComposerState.test.ts",
+      "summary": "useComposerState.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useConfigSync.test.ts",
+      "type": "file",
+      "name": "useConfigSync.test.ts",
+      "filePath": "ui-tui/src/__tests__/useConfigSync.test.ts",
+      "summary": "useConfigSync.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useInputHandlers.test.ts",
+      "type": "file",
+      "name": "useInputHandlers.test.ts",
+      "filePath": "ui-tui/src/__tests__/useInputHandlers.test.ts",
+      "summary": "useInputHandlers.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useQueue.test.ts",
+      "type": "file",
+      "name": "useQueue.test.ts",
+      "filePath": "ui-tui/src/__tests__/useQueue.test.ts",
+      "summary": "useQueue.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useSessionLifecycle.test.ts",
+      "type": "file",
+      "name": "useSessionLifecycle.test.ts",
+      "filePath": "ui-tui/src/__tests__/useSessionLifecycle.test.ts",
+      "summary": "useSessionLifecycle.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/useVirtualHistoryHeights.test.ts",
+      "type": "file",
+      "name": "useVirtualHistoryHeights.test.ts",
+      "filePath": "ui-tui/src/__tests__/useVirtualHistoryHeights.test.ts",
+      "summary": "useVirtualHistoryHeights.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/viewport.test.ts",
+      "type": "file",
+      "name": "viewport.test.ts",
+      "filePath": "ui-tui/src/__tests__/viewport.test.ts",
+      "summary": "viewport.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/viewportStore.test.ts",
+      "type": "file",
+      "name": "viewportStore.test.ts",
+      "filePath": "ui-tui/src/__tests__/viewportStore.test.ts",
+      "summary": "viewportStore.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/virtualHeights.test.ts",
+      "type": "file",
+      "name": "virtualHeights.test.ts",
+      "filePath": "ui-tui/src/__tests__/virtualHeights.test.ts",
+      "summary": "virtualHeights.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": []
+}

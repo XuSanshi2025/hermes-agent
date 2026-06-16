@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/features/tts.md",
+      "type": "document",
+      "name": "tts.md",
+      "filePath": "website/docs/user-guide/features/tts.md",
+      "summary": "tts.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/vision.md",
+      "type": "document",
+      "name": "vision.md",
+      "filePath": "website/docs/user-guide/features/vision.md",
+      "summary": "vision.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/voice-mode.md",
+      "type": "document",
+      "name": "voice-mode.md",
+      "filePath": "website/docs/user-guide/features/voice-mode.md",
+      "summary": "voice-mode.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/web-dashboard.md",
+      "type": "document",
+      "name": "web-dashboard.md",
+      "filePath": "website/docs/user-guide/features/web-dashboard.md",
+      "summary": "web-dashboard.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/web-search.md",
+      "type": "document",
+      "name": "web-search.md",
+      "filePath": "website/docs/user-guide/features/web-search.md",
+      "summary": "web-search.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/features/x-search.md",
+      "type": "document",
+      "name": "x-search.md",
+      "filePath": "website/docs/user-guide/features/x-search.md",
+      "summary": "x-search.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

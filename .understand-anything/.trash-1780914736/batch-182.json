@@ -1,0 +1,1013 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/mlops/qdrant/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "optional-skills/mlops/qdrant/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/qdrant/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/qdrant/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/research/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/mlops/research/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/research/dspy/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/research/dspy/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/saelens/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/saelens/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/simpo/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/simpo/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/slime/references/api-reference.md",
+      "type": "document",
+      "name": "api-reference.md",
+      "filePath": "optional-skills/mlops/slime/references/api-reference.md",
+      "summary": "api-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/slime/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "optional-skills/mlops/slime/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/slime/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/slime/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/stable-diffusion/references/advanced-usage.md",
+      "type": "document",
+      "name": "advanced-usage.md",
+      "filePath": "optional-skills/mlops/stable-diffusion/references/advanced-usage.md",
+      "summary": "advanced-usage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/stable-diffusion/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "optional-skills/mlops/stable-diffusion/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/stable-diffusion/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/stable-diffusion/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/tensorrt-llm/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/tensorrt-llm/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/torchtitan/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/torchtitan/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/training/axolotl/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/training/axolotl/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/training/trl-fine-tuning/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "type": "file",
+      "name": "basic_grpo_training.py",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "summary": "basic_grpo_training.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:get_dataset",
+      "type": "function",
+      "name": "get_dataset",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        39,
+        62
+      ],
+      "summary": "get_dataset 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:extract_xml_tag",
+      "type": "function",
+      "name": "extract_xml_tag",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        66,
+        70
+      ],
+      "summary": "extract_xml_tag 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:extract_answer",
+      "type": "function",
+      "name": "extract_answer",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        72,
+        74
+      ],
+      "summary": "extract_answer 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:correctness_reward_func",
+      "type": "function",
+      "name": "correctness_reward_func",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        78,
+        85
+      ],
+      "summary": "correctness_reward_func 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:format_reward_func",
+      "type": "function",
+      "name": "format_reward_func",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        87,
+        94
+      ],
+      "summary": "format_reward_func 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:incremental_format_reward_func",
+      "type": "function",
+      "name": "incremental_format_reward_func",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        96,
+        122
+      ],
+      "summary": "incremental_format_reward_func 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:setup_model_and_tokenizer",
+      "type": "function",
+      "name": "setup_model_and_tokenizer",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        126,
+        138
+      ],
+      "summary": "setup_model_and_tokenizer 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:get_peft_config",
+      "type": "function",
+      "name": "get_peft_config",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        140,
+        151
+      ],
+      "summary": "get_peft_config 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "lineRange": [
+        155,
+        225
+      ],
+      "summary": "main 是 basic_grpo_training.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:optional-skills/mlops/training/unsloth/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/training/unsloth/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/whisper/references/languages.md",
+      "type": "document",
+      "name": "languages.md",
+      "filePath": "optional-skills/mlops/whisper/references/languages.md",
+      "summary": "languages.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/whisper/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/whisper/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "type": "file",
+      "name": "canvas_api.py",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "summary": "canvas_api.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_check_config",
+      "type": "function",
+      "name": "_check_config",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "lineRange": [
+        23,
+        37
+      ],
+      "summary": "_check_config 是 canvas_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_headers",
+      "type": "function",
+      "name": "_headers",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "lineRange": [
+        40,
+        41
+      ],
+      "summary": "_headers 是 canvas_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_paginated_get",
+      "type": "function",
+      "name": "_paginated_get",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "lineRange": [
+        44,
+        57
+      ],
+      "summary": "_paginated_get 是 canvas_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:list_courses",
+      "type": "function",
+      "name": "list_courses",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "lineRange": [
+        65,
+        89
+      ],
+      "summary": "list_courses 是 canvas_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:list_assignments",
+      "type": "function",
+      "name": "list_assignments",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "lineRange": [
+        92,
+        117
+      ],
+      "summary": "list_assignments 是 canvas_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "lineRange": [
+        125,
+        153
+      ],
+      "summary": "main 是 canvas_api.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/productivity/canvas/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/canvas/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "type": "file",
+      "name": "drive.sh",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "summary": "drive.sh 是 shell 源文件，包含 11 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/drive.sh:usage",
+      "type": "function",
+      "name": "usage",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "lineRange": [
+        11,
+        37
+      ],
+      "summary": "usage 是 drive.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/drive.sh:guess_content_type",
+      "type": "function",
+      "name": "guess_content_type",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "lineRange": [
+        102,
+        118
+      ],
+      "summary": "guess_content_type 是 drive.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/drive.sh:api_json",
+      "type": "function",
+      "name": "api_json",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "lineRange": [
+        120,
+        141
+      ],
+      "summary": "api_json 是 drive.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/drive.sh:urlenc_path",
+      "type": "function",
+      "name": "urlenc_path",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "lineRange": [
+        147,
+        157
+      ],
+      "summary": "urlenc_path 是 drive.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/drive.sh:resolve_drive",
+      "type": "function",
+      "name": "resolve_drive",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "lineRange": [
+        159,
+        177
+      ],
+      "summary": "resolve_drive 是 drive.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/drive.sh:put_file",
+      "type": "function",
+      "name": "put_file",
+      "filePath": "optional-skills/productivity/here-now/scripts/drive.sh",
+      "lineRange": [
+        192,
+        224
+      ],
+      "summary": "put_file 是 drive.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/productivity/here-now/scripts/publish.sh",
+      "type": "file",
+      "name": "publish.sh",
+      "filePath": "optional-skills/productivity/here-now/scripts/publish.sh",
+      "summary": "publish.sh 是 shell 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/publish.sh:usage",
+      "type": "function",
+      "name": "usage",
+      "filePath": "optional-skills/productivity/here-now/scripts/publish.sh",
+      "lineRange": [
+        24,
+        45
+      ],
+      "summary": "usage 是 publish.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/productivity/here-now/scripts/publish.sh:guess_content_type",
+      "type": "function",
+      "name": "guess_content_type",
+      "filePath": "optional-skills/productivity/here-now/scripts/publish.sh",
+      "lineRange": [
+        173,
+        202
+      ],
+      "summary": "guess_content_type 是 publish.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/productivity/here-now/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/productivity/here-now/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:get_dataset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:get_dataset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:extract_xml_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:extract_xml_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:extract_answer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:extract_answer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:correctness_reward_func",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:correctness_reward_func",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:format_reward_func",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:format_reward_func",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:incremental_format_reward_func",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:incremental_format_reward_func",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:setup_model_and_tokenizer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:setup_model_and_tokenizer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:get_peft_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:get_peft_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py",
+      "target": "function:optional-skills/mlops/training/trl-fine-tuning/templates/basic_grpo_training.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_check_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_check_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_paginated_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:_paginated_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:list_courses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:list_courses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:list_assignments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:list_assignments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/canvas/scripts/canvas_api.py",
+      "target": "function:optional-skills/productivity/canvas/scripts/canvas_api.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/drive.sh:usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/drive.sh:guess_content_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/drive.sh:api_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/drive.sh:urlenc_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/drive.sh:resolve_drive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/drive.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/drive.sh:put_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/publish.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/publish.sh:usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/productivity/here-now/scripts/publish.sh",
+      "target": "function:optional-skills/productivity/here-now/scripts/publish.sh:guess_content_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

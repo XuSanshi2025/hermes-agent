@@ -1,0 +1,2510 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/src/gatewayClient.ts",
+      "type": "file",
+      "name": "gatewayClient.ts",
+      "filePath": "ui-tui/src/gatewayClient.ts",
+      "summary": "gatewayClient.ts 是 typescript 源文件，包含 8 个函数、1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/gatewayClient.ts:resolvePython",
+      "type": "function",
+      "name": "resolvePython",
+      "filePath": "ui-tui/src/gatewayClient.ts",
+      "lineRange": [
+        45,
+        64
+      ],
+      "summary": "resolvePython 是 gatewayClient.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/gatewayClient.ts:asWireText",
+      "type": "function",
+      "name": "asWireText",
+      "filePath": "ui-tui/src/gatewayClient.ts",
+      "lineRange": [
+        77,
+        91
+      ],
+      "summary": "asWireText 是 gatewayClient.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/gatewayClient.ts:redactUrl",
+      "type": "function",
+      "name": "redactUrl",
+      "filePath": "ui-tui/src/gatewayClient.ts",
+      "lineRange": [
+        103,
+        123
+      ],
+      "summary": "redactUrl 是 gatewayClient.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/src/gatewayClient.ts:GatewayClient",
+      "type": "class",
+      "name": "GatewayClient",
+      "filePath": "ui-tui/src/gatewayClient.ts",
+      "lineRange": [
+        133,
+        739
+      ],
+      "summary": "GatewayClient 是 gatewayClient.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/gatewayTypes.ts",
+      "type": "file",
+      "name": "gatewayTypes.ts",
+      "filePath": "ui-tui/src/gatewayTypes.ts",
+      "summary": "gatewayTypes.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/hooks/useCompletion.ts",
+      "type": "file",
+      "name": "useCompletion.ts",
+      "filePath": "ui-tui/src/hooks/useCompletion.ts",
+      "summary": "useCompletion.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useCompletion.ts:completionRequestForInput",
+      "type": "function",
+      "name": "completionRequestForInput",
+      "filePath": "ui-tui/src/hooks/useCompletion.ts",
+      "lineRange": [
+        11,
+        39
+      ],
+      "summary": "completionRequestForInput 是 useCompletion.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useCompletion.ts:useCompletion",
+      "type": "function",
+      "name": "useCompletion",
+      "filePath": "ui-tui/src/hooks/useCompletion.ts",
+      "lineRange": [
+        41,
+        112
+      ],
+      "summary": "useCompletion 是 useCompletion.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/hooks/useGitBranch.ts",
+      "type": "file",
+      "name": "useGitBranch.ts",
+      "filePath": "ui-tui/src/hooks/useGitBranch.ts",
+      "summary": "useGitBranch.ts 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useGitBranch.ts:resolveBranch",
+      "type": "function",
+      "name": "resolveBranch",
+      "filePath": "ui-tui/src/hooks/useGitBranch.ts",
+      "lineRange": [
+        13,
+        22
+      ],
+      "summary": "resolveBranch 是 useGitBranch.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useGitBranch.ts:fetchBranch",
+      "type": "function",
+      "name": "fetchBranch",
+      "filePath": "ui-tui/src/hooks/useGitBranch.ts",
+      "lineRange": [
+        24,
+        35
+      ],
+      "summary": "fetchBranch 是 useGitBranch.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useGitBranch.ts:useGitBranch",
+      "type": "function",
+      "name": "useGitBranch",
+      "filePath": "ui-tui/src/hooks/useGitBranch.ts",
+      "lineRange": [
+        37,
+        72
+      ],
+      "summary": "useGitBranch 是 useGitBranch.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/hooks/useInputHistory.ts",
+      "type": "file",
+      "name": "useInputHistory.ts",
+      "filePath": "ui-tui/src/hooks/useInputHistory.ts",
+      "summary": "useInputHistory.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useInputHistory.ts:useInputHistory",
+      "type": "function",
+      "name": "useInputHistory",
+      "filePath": "ui-tui/src/hooks/useInputHistory.ts",
+      "lineRange": [
+        5,
+        11
+      ],
+      "summary": "useInputHistory 是 useInputHistory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/hooks/useQueue.ts",
+      "type": "file",
+      "name": "useQueue.ts",
+      "filePath": "ui-tui/src/hooks/useQueue.ts",
+      "summary": "useQueue.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useQueue.ts:removeAtInPlace",
+      "type": "function",
+      "name": "removeAtInPlace",
+      "filePath": "ui-tui/src/hooks/useQueue.ts",
+      "lineRange": [
+        5,
+        13
+      ],
+      "summary": "removeAtInPlace 是 useQueue.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useQueue.ts:useQueue",
+      "type": "function",
+      "name": "useQueue",
+      "filePath": "ui-tui/src/hooks/useQueue.ts",
+      "lineRange": [
+        15,
+        76
+      ],
+      "summary": "useQueue 是 useQueue.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "type": "file",
+      "name": "useVirtualHistory.ts",
+      "filePath": "ui-tui/src/hooks/useVirtualHistory.ts",
+      "summary": "useVirtualHistory.ts 是 typescript 源文件，包含 6 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useVirtualHistory.ts:virtualHistorySnapshotKey",
+      "type": "function",
+      "name": "virtualHistorySnapshotKey",
+      "filePath": "ui-tui/src/hooks/useVirtualHistory.ts",
+      "lineRange": [
+        54,
+        64
+      ],
+      "summary": "virtualHistorySnapshotKey 是 useVirtualHistory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useVirtualHistory.ts:upperBound",
+      "type": "function",
+      "name": "upperBound",
+      "filePath": "ui-tui/src/hooks/useVirtualHistory.ts",
+      "lineRange": [
+        66,
+        77
+      ],
+      "summary": "upperBound 是 useVirtualHistory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useVirtualHistory.ts:shouldSetVirtualClamp",
+      "type": "function",
+      "name": "shouldSetVirtualClamp",
+      "filePath": "ui-tui/src/hooks/useVirtualHistory.ts",
+      "lineRange": [
+        79,
+        89
+      ],
+      "summary": "shouldSetVirtualClamp 是 useVirtualHistory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useVirtualHistory.ts:ensureVirtualItemHeight",
+      "type": "function",
+      "name": "ensureVirtualItemHeight",
+      "filePath": "ui-tui/src/hooks/useVirtualHistory.ts",
+      "lineRange": [
+        91,
+        108
+      ],
+      "summary": "ensureVirtualItemHeight 是 useVirtualHistory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/hooks/useVirtualHistory.ts:useVirtualHistory",
+      "type": "function",
+      "name": "useVirtualHistory",
+      "filePath": "ui-tui/src/hooks/useVirtualHistory.ts",
+      "lineRange": [
+        110,
+        539
+      ],
+      "summary": "useVirtualHistory 是 useVirtualHistory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/lib/circularBuffer.ts",
+      "type": "file",
+      "name": "circularBuffer.ts",
+      "filePath": "ui-tui/src/lib/circularBuffer.ts",
+      "summary": "circularBuffer.ts 是 typescript 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "class:ui-tui/src/lib/circularBuffer.ts:CircularBuffer",
+      "type": "class",
+      "name": "CircularBuffer",
+      "filePath": "ui-tui/src/lib/circularBuffer.ts",
+      "lineRange": [
+        1,
+        48
+      ],
+      "summary": "CircularBuffer 是 circularBuffer.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/clipboard.ts",
+      "type": "file",
+      "name": "clipboard.ts",
+      "filePath": "ui-tui/src/lib/clipboard.ts",
+      "summary": "clipboard.ts 是 typescript 源文件，包含 6 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/clipboard.ts:isUsableClipboardText",
+      "type": "function",
+      "name": "isUsableClipboardText",
+      "filePath": "ui-tui/src/lib/clipboard.ts",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "isUsableClipboardText 是 clipboard.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/clipboard.ts:readClipboardCommands",
+      "type": "function",
+      "name": "readClipboardCommands",
+      "filePath": "ui-tui/src/lib/clipboard.ts",
+      "lineRange": [
+        33,
+        58
+      ],
+      "summary": "readClipboardCommands 是 clipboard.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/clipboard.ts:readClipboardText",
+      "type": "function",
+      "name": "readClipboardText",
+      "filePath": "ui-tui/src/lib/clipboard.ts",
+      "lineRange": [
+        70,
+        92
+      ],
+      "summary": "readClipboardText 是 clipboard.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/clipboard.ts:writeClipboardCommands",
+      "type": "function",
+      "name": "writeClipboardCommands",
+      "filePath": "ui-tui/src/lib/clipboard.ts",
+      "lineRange": [
+        106,
+        132
+      ],
+      "summary": "writeClipboardCommands 是 clipboard.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/clipboard.ts:writeClipboardText",
+      "type": "function",
+      "name": "writeClipboardText",
+      "filePath": "ui-tui/src/lib/clipboard.ts",
+      "lineRange": [
+        148,
+        182
+      ],
+      "summary": "writeClipboardText 是 clipboard.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/editor.test.ts",
+      "type": "file",
+      "name": "editor.test.ts",
+      "filePath": "ui-tui/src/lib/editor.test.ts",
+      "summary": "editor.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/lib/editor.ts",
+      "type": "file",
+      "name": "editor.ts",
+      "filePath": "ui-tui/src/lib/editor.ts",
+      "summary": "editor.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/editor.ts:resolveEditor",
+      "type": "function",
+      "name": "resolveEditor",
+      "filePath": "ui-tui/src/lib/editor.ts",
+      "lineRange": [
+        29,
+        47
+      ],
+      "summary": "resolveEditor 是 editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/emoji.ts",
+      "type": "file",
+      "name": "emoji.ts",
+      "filePath": "ui-tui/src/lib/emoji.ts",
+      "summary": "emoji.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/emoji.ts:ensureEmojiPresentation",
+      "type": "function",
+      "name": "ensureEmojiPresentation",
+      "filePath": "ui-tui/src/lib/emoji.ts",
+      "lineRange": [
+        19,
+        55
+      ],
+      "summary": "ensureEmojiPresentation 是 emoji.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/externalCli.ts",
+      "type": "file",
+      "name": "externalCli.ts",
+      "filePath": "ui-tui/src/lib/externalCli.ts",
+      "summary": "externalCli.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalCli.ts:launchHermesCommand",
+      "type": "function",
+      "name": "launchHermesCommand",
+      "filePath": "ui-tui/src/lib/externalCli.ts",
+      "lineRange": [
+        10,
+        16
+      ],
+      "summary": "launchHermesCommand 是 externalCli.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/externalLink.ts",
+      "type": "file",
+      "name": "externalLink.ts",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "summary": "externalLink.ts 是 typescript 源文件，包含 21 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:normalizeExternalUrl",
+      "type": "function",
+      "name": "normalizeExternalUrl",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        36,
+        44
+      ],
+      "summary": "normalizeExternalUrl 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:titleCacheKey",
+      "type": "function",
+      "name": "titleCacheKey",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        54,
+        65
+      ],
+      "summary": "titleCacheKey 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:hostPathLabel",
+      "type": "function",
+      "name": "hostPathLabel",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        75,
+        86
+      ],
+      "summary": "hostPathLabel 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:cleanSlug",
+      "type": "function",
+      "name": "cleanSlug",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        88,
+        100
+      ],
+      "summary": "cleanSlug 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:urlSlugTitleLabel",
+      "type": "function",
+      "name": "urlSlugTitleLabel",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        102,
+        128
+      ],
+      "summary": "urlSlugTitleLabel 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:parseIpv4Octets",
+      "type": "function",
+      "name": "parseIpv4Octets",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        130,
+        154
+      ],
+      "summary": "parseIpv4Octets 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:isPrivateIpv4",
+      "type": "function",
+      "name": "isPrivateIpv4",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        156,
+        176
+      ],
+      "summary": "isPrivateIpv4 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:isPrivateIpv6",
+      "type": "function",
+      "name": "isPrivateIpv6",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        178,
+        198
+      ],
+      "summary": "isPrivateIpv6 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:isPrivateOrLocalHost",
+      "type": "function",
+      "name": "isPrivateOrLocalHost",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        207,
+        234
+      ],
+      "summary": "isPrivateOrLocalHost 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:isTitleFetchable",
+      "type": "function",
+      "name": "isTitleFetchable",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        236,
+        244
+      ],
+      "summary": "isTitleFetchable 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:readResponseSnippet",
+      "type": "function",
+      "name": "readResponseSnippet",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        259,
+        321
+      ],
+      "summary": "readResponseSnippet 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:fetchHtmlTitle",
+      "type": "function",
+      "name": "fetchHtmlTitle",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        329,
+        362
+      ],
+      "summary": "fetchHtmlTitle 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:fetchLinkTitle",
+      "type": "function",
+      "name": "fetchLinkTitle",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        364,
+        398
+      ],
+      "summary": "fetchLinkTitle 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:useLinkTitle",
+      "type": "function",
+      "name": "useLinkTitle",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        400,
+        428
+      ],
+      "summary": "useLinkTitle 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/externalLink.ts:__resetLinkTitleCache",
+      "type": "function",
+      "name": "__resetLinkTitleCache",
+      "filePath": "ui-tui/src/lib/externalLink.ts",
+      "lineRange": [
+        430,
+        434
+      ],
+      "summary": "__resetLinkTitleCache 是 externalLink.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/forceTruecolor.ts",
+      "type": "file",
+      "name": "forceTruecolor.ts",
+      "filePath": "ui-tui/src/lib/forceTruecolor.ts",
+      "summary": "forceTruecolor.ts 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/forceTruecolor.ts:shouldForceTruecolor",
+      "type": "function",
+      "name": "shouldForceTruecolor",
+      "filePath": "ui-tui/src/lib/forceTruecolor.ts",
+      "lineRange": [
+        12,
+        20
+      ],
+      "summary": "shouldForceTruecolor 是 forceTruecolor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/forceTruecolor.ts:shouldDowngradeAppleTerminalTruecolor",
+      "type": "function",
+      "name": "shouldDowngradeAppleTerminalTruecolor",
+      "filePath": "ui-tui/src/lib/forceTruecolor.ts",
+      "lineRange": [
+        31,
+        41
+      ],
+      "summary": "shouldDowngradeAppleTerminalTruecolor 是 forceTruecolor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/fpsStore.ts",
+      "type": "file",
+      "name": "fpsStore.ts",
+      "filePath": "ui-tui/src/lib/fpsStore.ts",
+      "summary": "fpsStore.ts 是 typescript 源文件，包含 2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/lib/fuzzy.test.ts",
+      "type": "file",
+      "name": "fuzzy.test.ts",
+      "filePath": "ui-tui/src/lib/fuzzy.test.ts",
+      "summary": "fuzzy.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/lib/fuzzy.ts",
+      "type": "file",
+      "name": "fuzzy.ts",
+      "filePath": "ui-tui/src/lib/fuzzy.ts",
+      "summary": "fuzzy.ts 是 typescript 源文件，包含 4 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/fuzzy.ts:isBoundary",
+      "type": "function",
+      "name": "isBoundary",
+      "filePath": "ui-tui/src/lib/fuzzy.ts",
+      "lineRange": [
+        28,
+        43
+      ],
+      "summary": "isBoundary 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/fuzzy.ts:fuzzyScore",
+      "type": "function",
+      "name": "fuzzyScore",
+      "filePath": "ui-tui/src/lib/fuzzy.ts",
+      "lineRange": [
+        49,
+        111
+      ],
+      "summary": "fuzzyScore 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/lib/fuzzy.ts:fuzzyScoreMulti",
+      "type": "function",
+      "name": "fuzzyScoreMulti",
+      "filePath": "ui-tui/src/lib/fuzzy.ts",
+      "lineRange": [
+        118,
+        143
+      ],
+      "summary": "fuzzyScoreMulti 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/fuzzy.ts:fuzzyRank",
+      "type": "function",
+      "name": "fuzzyRank",
+      "filePath": "ui-tui/src/lib/fuzzy.ts",
+      "lineRange": [
+        157,
+        177
+      ],
+      "summary": "fuzzyRank 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/gracefulExit.ts",
+      "type": "file",
+      "name": "gracefulExit.ts",
+      "filePath": "ui-tui/src/lib/gracefulExit.ts",
+      "summary": "gracefulExit.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/gracefulExit.ts:setupGracefulExit",
+      "type": "function",
+      "name": "setupGracefulExit",
+      "filePath": "ui-tui/src/lib/gracefulExit.ts",
+      "lineRange": [
+        16,
+        47
+      ],
+      "summary": "setupGracefulExit 是 gracefulExit.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/history.ts",
+      "type": "file",
+      "name": "history.ts",
+      "filePath": "ui-tui/src/lib/history.ts",
+      "summary": "history.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/history.ts:load",
+      "type": "function",
+      "name": "load",
+      "filePath": "ui-tui/src/lib/history.ts",
+      "lineRange": [
+        11,
+        45
+      ],
+      "summary": "load 是 history.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/history.ts:append",
+      "type": "function",
+      "name": "append",
+      "filePath": "ui-tui/src/lib/history.ts",
+      "lineRange": [
+        47,
+        82
+      ],
+      "summary": "append 是 history.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/inputMetrics.ts",
+      "type": "file",
+      "name": "inputMetrics.ts",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "summary": "inputMetrics.ts 是 typescript 源文件，包含 11 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:visualLines",
+      "type": "function",
+      "name": "visualLines",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        35,
+        100
+      ],
+      "summary": "visualLines 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:cursorLayout",
+      "type": "function",
+      "name": "cursorLayout",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        122,
+        146
+      ],
+      "summary": "cursorLayout 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:offsetFromPosition",
+      "type": "function",
+      "name": "offsetFromPosition",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        148,
+        167
+      ],
+      "summary": "offsetFromPosition 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:inputVisualHeight",
+      "type": "function",
+      "name": "inputVisualHeight",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        169,
+        171
+      ],
+      "summary": "inputVisualHeight 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:composerPromptWidth",
+      "type": "function",
+      "name": "composerPromptWidth",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        173,
+        175
+      ],
+      "summary": "composerPromptWidth 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:transcriptGutterWidth",
+      "type": "function",
+      "name": "transcriptGutterWidth",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        177,
+        179
+      ],
+      "summary": "transcriptGutterWidth 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:transcriptBodyWidth",
+      "type": "function",
+      "name": "transcriptBodyWidth",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        181,
+        192
+      ],
+      "summary": "transcriptBodyWidth 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/inputMetrics.ts:stableComposerColumns",
+      "type": "function",
+      "name": "stableComposerColumns",
+      "filePath": "ui-tui/src/lib/inputMetrics.ts",
+      "lineRange": [
+        194,
+        203
+      ],
+      "summary": "stableComposerColumns 是 inputMetrics.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/liveProgress.test.ts",
+      "type": "file",
+      "name": "liveProgress.test.ts",
+      "filePath": "ui-tui/src/lib/liveProgress.test.ts",
+      "summary": "liveProgress.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/lib/liveProgress.ts",
+      "type": "file",
+      "name": "liveProgress.ts",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "summary": "liveProgress.ts 是 typescript 源文件，包含 8 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:countPendingTodos",
+      "type": "function",
+      "name": "countPendingTodos",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        3,
+        4
+      ],
+      "summary": "countPendingTodos 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:isTodoDone",
+      "type": "function",
+      "name": "isTodoDone",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        6,
+        7
+      ],
+      "summary": "isTodoDone 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:isToolShelfMessage",
+      "type": "function",
+      "name": "isToolShelfMessage",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        9,
+        10
+      ],
+      "summary": "isToolShelfMessage 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:canHoldToolShelf",
+      "type": "function",
+      "name": "canHoldToolShelf",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        12,
+        13
+      ],
+      "summary": "canHoldToolShelf 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:mergeToolShelfInto",
+      "type": "function",
+      "name": "mergeToolShelfInto",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        15,
+        18
+      ],
+      "summary": "mergeToolShelfInto 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:isBarrierMessage",
+      "type": "function",
+      "name": "isBarrierMessage",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        20,
+        39
+      ],
+      "summary": "isBarrierMessage 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/liveProgress.ts:appendToolShelfMessage",
+      "type": "function",
+      "name": "appendToolShelfMessage",
+      "filePath": "ui-tui/src/lib/liveProgress.ts",
+      "lineRange": [
+        43,
+        79
+      ],
+      "summary": "appendToolShelfMessage 是 liveProgress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/lib/mathUnicode.ts",
+      "type": "file",
+      "name": "mathUnicode.ts",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "summary": "mathUnicode.ts 是 typescript 源文件，包含 9 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:splitByEnding",
+      "type": "function",
+      "name": "splitByEnding",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        437,
+        450
+      ],
+      "summary": "splitByEnding 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:convertScript",
+      "type": "function",
+      "name": "convertScript",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        463,
+        496
+      ],
+      "summary": "convertScript 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:readBraced",
+      "type": "function",
+      "name": "readBraced",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        503,
+        537
+      ],
+      "summary": "readBraced 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:replaceBracedCommand",
+      "type": "function",
+      "name": "replaceBracedCommand",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        544,
+        585
+      ],
+      "summary": "replaceBracedCommand 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:replaceFracs",
+      "type": "function",
+      "name": "replaceFracs",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        591,
+        644
+      ],
+      "summary": "replaceFracs 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:wrapForFrac",
+      "type": "function",
+      "name": "wrapForFrac",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        654,
+        670
+      ],
+      "summary": "wrapForFrac 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/mathUnicode.ts:texToUnicode",
+      "type": "function",
+      "name": "texToUnicode",
+      "filePath": "ui-tui/src/lib/mathUnicode.ts",
+      "lineRange": [
+        672,
+        770
+      ],
+      "summary": "texToUnicode 是 mathUnicode.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/lib/memory.ts",
+      "type": "file",
+      "name": "memory.ts",
+      "filePath": "ui-tui/src/lib/memory.ts",
+      "summary": "memory.ts 是 typescript 源文件，包含 4 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/memory.ts:captureMemoryDiagnostics",
+      "type": "function",
+      "name": "captureMemoryDiagnostics",
+      "filePath": "ui-tui/src/lib/memory.ts",
+      "lineRange": [
+        57,
+        141
+      ],
+      "summary": "captureMemoryDiagnostics 是 memory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/lib/memory.ts:performHeapDump",
+      "type": "function",
+      "name": "performHeapDump",
+      "filePath": "ui-tui/src/lib/memory.ts",
+      "lineRange": [
+        143,
+        163
+      ],
+      "summary": "performHeapDump 是 memory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/memory.ts:formatBytes",
+      "type": "function",
+      "name": "formatBytes",
+      "filePath": "ui-tui/src/lib/memory.ts",
+      "lineRange": [
+        165,
+        174
+      ],
+      "summary": "formatBytes 是 memory.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/src/gatewayClient.ts",
+      "target": "function:ui-tui/src/gatewayClient.ts:resolvePython",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/gatewayClient.ts",
+      "target": "function:ui-tui/src/gatewayClient.ts:asWireText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/gatewayClient.ts",
+      "target": "function:ui-tui/src/gatewayClient.ts:redactUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/gatewayClient.ts",
+      "target": "class:ui-tui/src/gatewayClient.ts:GatewayClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/gatewayClient.ts",
+      "target": "class:ui-tui/src/gatewayClient.ts:GatewayClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useCompletion.ts",
+      "target": "function:ui-tui/src/hooks/useCompletion.ts:completionRequestForInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useCompletion.ts",
+      "target": "function:ui-tui/src/hooks/useCompletion.ts:completionRequestForInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useCompletion.ts",
+      "target": "function:ui-tui/src/hooks/useCompletion.ts:useCompletion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useCompletion.ts",
+      "target": "function:ui-tui/src/hooks/useCompletion.ts:useCompletion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useGitBranch.ts",
+      "target": "function:ui-tui/src/hooks/useGitBranch.ts:resolveBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useGitBranch.ts",
+      "target": "function:ui-tui/src/hooks/useGitBranch.ts:fetchBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useGitBranch.ts",
+      "target": "function:ui-tui/src/hooks/useGitBranch.ts:useGitBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useGitBranch.ts",
+      "target": "function:ui-tui/src/hooks/useGitBranch.ts:useGitBranch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useInputHistory.ts",
+      "target": "function:ui-tui/src/hooks/useInputHistory.ts:useInputHistory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useInputHistory.ts",
+      "target": "function:ui-tui/src/hooks/useInputHistory.ts:useInputHistory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useQueue.ts",
+      "target": "function:ui-tui/src/hooks/useQueue.ts:removeAtInPlace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useQueue.ts",
+      "target": "function:ui-tui/src/hooks/useQueue.ts:removeAtInPlace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useQueue.ts",
+      "target": "function:ui-tui/src/hooks/useQueue.ts:useQueue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useQueue.ts",
+      "target": "function:ui-tui/src/hooks/useQueue.ts:useQueue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:virtualHistorySnapshotKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:virtualHistorySnapshotKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:upperBound",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:shouldSetVirtualClamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:shouldSetVirtualClamp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:ensureVirtualItemHeight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:ensureVirtualItemHeight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:useVirtualHistory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/hooks/useVirtualHistory.ts",
+      "target": "function:ui-tui/src/hooks/useVirtualHistory.ts:useVirtualHistory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/circularBuffer.ts",
+      "target": "class:ui-tui/src/lib/circularBuffer.ts:CircularBuffer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/circularBuffer.ts",
+      "target": "class:ui-tui/src/lib/circularBuffer.ts:CircularBuffer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:isUsableClipboardText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:isUsableClipboardText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:readClipboardCommands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:readClipboardText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:readClipboardText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:writeClipboardCommands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:writeClipboardText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/clipboard.ts",
+      "target": "function:ui-tui/src/lib/clipboard.ts:writeClipboardText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/editor.ts",
+      "target": "function:ui-tui/src/lib/editor.ts:resolveEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/editor.ts",
+      "target": "function:ui-tui/src/lib/editor.ts:resolveEditor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/emoji.ts",
+      "target": "function:ui-tui/src/lib/emoji.ts:ensureEmojiPresentation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/emoji.ts",
+      "target": "function:ui-tui/src/lib/emoji.ts:ensureEmojiPresentation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalCli.ts",
+      "target": "function:ui-tui/src/lib/externalCli.ts:launchHermesCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalCli.ts",
+      "target": "function:ui-tui/src/lib/externalCli.ts:launchHermesCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:normalizeExternalUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:normalizeExternalUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:titleCacheKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:hostPathLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:hostPathLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:cleanSlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:urlSlugTitleLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:urlSlugTitleLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:parseIpv4Octets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:isPrivateIpv4",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:isPrivateIpv6",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:isPrivateOrLocalHost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:isTitleFetchable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:isTitleFetchable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:readResponseSnippet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:fetchHtmlTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:fetchLinkTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:fetchLinkTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:useLinkTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:useLinkTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:__resetLinkTitleCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/externalLink.ts",
+      "target": "function:ui-tui/src/lib/externalLink.ts:__resetLinkTitleCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/forceTruecolor.ts",
+      "target": "function:ui-tui/src/lib/forceTruecolor.ts:shouldForceTruecolor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/forceTruecolor.ts",
+      "target": "function:ui-tui/src/lib/forceTruecolor.ts:shouldForceTruecolor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/forceTruecolor.ts",
+      "target": "function:ui-tui/src/lib/forceTruecolor.ts:shouldDowngradeAppleTerminalTruecolor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/forceTruecolor.ts",
+      "target": "function:ui-tui/src/lib/forceTruecolor.ts:shouldDowngradeAppleTerminalTruecolor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:isBoundary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:fuzzyScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:fuzzyScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:fuzzyScoreMulti",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:fuzzyScoreMulti",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:fuzzyRank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/fuzzy.ts",
+      "target": "function:ui-tui/src/lib/fuzzy.ts:fuzzyRank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/gracefulExit.ts",
+      "target": "function:ui-tui/src/lib/gracefulExit.ts:setupGracefulExit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/gracefulExit.ts",
+      "target": "function:ui-tui/src/lib/gracefulExit.ts:setupGracefulExit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/history.ts",
+      "target": "function:ui-tui/src/lib/history.ts:load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/history.ts",
+      "target": "function:ui-tui/src/lib/history.ts:load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/history.ts",
+      "target": "function:ui-tui/src/lib/history.ts:append",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/history.ts",
+      "target": "function:ui-tui/src/lib/history.ts:append",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:visualLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:cursorLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:cursorLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:offsetFromPosition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:offsetFromPosition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:inputVisualHeight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:inputVisualHeight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:composerPromptWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:composerPromptWidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:transcriptGutterWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:transcriptGutterWidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:transcriptBodyWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:transcriptBodyWidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:stableComposerColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/inputMetrics.ts",
+      "target": "function:ui-tui/src/lib/inputMetrics.ts:stableComposerColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:countPendingTodos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:countPendingTodos",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:isTodoDone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:isTodoDone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:isToolShelfMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:isToolShelfMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:canHoldToolShelf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:canHoldToolShelf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:mergeToolShelfInto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:mergeToolShelfInto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:isBarrierMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:appendToolShelfMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/liveProgress.ts",
+      "target": "function:ui-tui/src/lib/liveProgress.ts:appendToolShelfMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:splitByEnding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:convertScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:readBraced",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:replaceBracedCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:replaceFracs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:wrapForFrac",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:texToUnicode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/mathUnicode.ts",
+      "target": "function:ui-tui/src/lib/mathUnicode.ts:texToUnicode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/memory.ts",
+      "target": "function:ui-tui/src/lib/memory.ts:captureMemoryDiagnostics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/memory.ts",
+      "target": "function:ui-tui/src/lib/memory.ts:captureMemoryDiagnostics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/memory.ts",
+      "target": "function:ui-tui/src/lib/memory.ts:performHeapDump",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/memory.ts",
+      "target": "function:ui-tui/src/lib/memory.ts:performHeapDump",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/memory.ts",
+      "target": "function:ui-tui/src/lib/memory.ts:formatBytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/memory.ts",
+      "target": "function:ui-tui/src/lib/memory.ts:formatBytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

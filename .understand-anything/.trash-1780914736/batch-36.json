@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/mlops/tensorrt-llm/references/multi-gpu.md",
+      "type": "document",
+      "name": "multi-gpu.md",
+      "filePath": "optional-skills/mlops/tensorrt-llm/references/multi-gpu.md",
+      "summary": "multi-gpu.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/tensorrt-llm/references/optimization.md",
+      "type": "document",
+      "name": "optimization.md",
+      "filePath": "optional-skills/mlops/tensorrt-llm/references/optimization.md",
+      "summary": "optimization.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/tensorrt-llm/references/serving.md",
+      "type": "document",
+      "name": "serving.md",
+      "filePath": "optional-skills/mlops/tensorrt-llm/references/serving.md",
+      "summary": "serving.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

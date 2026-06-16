@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/bluebubbles.md",
+      "type": "document",
+      "name": "bluebubbles.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/bluebubbles.md",
+      "summary": "bluebubbles.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/dingtalk.md",
+      "type": "document",
+      "name": "dingtalk.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/dingtalk.md",
+      "summary": "dingtalk.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/discord.md",
+      "type": "document",
+      "name": "discord.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/discord.md",
+      "summary": "discord.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/email.md",
+      "type": "document",
+      "name": "email.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/email.md",
+      "summary": "email.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/feishu.md",
+      "type": "document",
+      "name": "feishu.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/feishu.md",
+      "summary": "feishu.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/google_chat.md",
+      "type": "document",
+      "name": "google_chat.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/google_chat.md",
+      "summary": "google_chat.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/homeassistant.md",
+      "type": "document",
+      "name": "homeassistant.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/homeassistant.md",
+      "summary": "homeassistant.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/index.md",
+      "summary": "index.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/line.md",
+      "type": "document",
+      "name": "line.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/line.md",
+      "summary": "line.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/matrix.md",
+      "type": "document",
+      "name": "matrix.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/matrix.md",
+      "summary": "matrix.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/mattermost.md",
+      "type": "document",
+      "name": "mattermost.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/mattermost.md",
+      "summary": "mattermost.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/msgraph-webhook.md",
+      "type": "document",
+      "name": "msgraph-webhook.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/msgraph-webhook.md",
+      "summary": "msgraph-webhook.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/ntfy.md",
+      "type": "document",
+      "name": "ntfy.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/ntfy.md",
+      "summary": "ntfy.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/open-webui.md",
+      "type": "document",
+      "name": "open-webui.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/open-webui.md",
+      "summary": "open-webui.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/qqbot.md",
+      "type": "document",
+      "name": "qqbot.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/qqbot.md",
+      "summary": "qqbot.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/signal.md",
+      "type": "document",
+      "name": "signal.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/signal.md",
+      "summary": "signal.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/simplex.md",
+      "type": "document",
+      "name": "simplex.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/simplex.md",
+      "summary": "simplex.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/slack.md",
+      "type": "document",
+      "name": "slack.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/slack.md",
+      "summary": "slack.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/sms.md",
+      "type": "document",
+      "name": "sms.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/sms.md",
+      "summary": "sms.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/teams-meetings.md",
+      "type": "document",
+      "name": "teams-meetings.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/messaging/teams-meetings.md",
+      "summary": "teams-meetings.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

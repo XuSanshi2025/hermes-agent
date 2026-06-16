@@ -1,0 +1,614 @@
+{
+  "nodes": [
+    {
+      "id": "file:plugins/model-providers/kilocode/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/kilocode/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/kilocode/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/kilocode/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/kimi-coding/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/kimi-coding/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/kimi-coding/__init__.py:KimiProfile",
+      "type": "class",
+      "name": "KimiProfile",
+      "filePath": "plugins/model-providers/kimi-coding/__init__.py",
+      "lineRange": [
+        16,
+        54
+      ],
+      "summary": "KimiProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/kimi-coding/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/kimi-coding/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/minimax/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/minimax/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/minimax/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/minimax/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/nous/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/nous/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/nous/__init__.py:NousProfile",
+      "type": "class",
+      "name": "NousProfile",
+      "filePath": "plugins/model-providers/nous/__init__.py",
+      "lineRange": [
+        10,
+        36
+      ],
+      "summary": "NousProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/model-providers/nous/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/nous/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/novita/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/novita/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/novita/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/novita/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/nvidia/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/nvidia/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/nvidia/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/nvidia/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/ollama-cloud/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/ollama-cloud/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/ollama-cloud/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/ollama-cloud/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/openai-codex/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/openai-codex/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/openai-codex/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/openai-codex/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/opencode-zen/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/model-providers/opencode-zen/__init__.py:_flat_model_name",
+      "type": "function",
+      "name": "_flat_model_name",
+      "filePath": "plugins/model-providers/opencode-zen/__init__.py",
+      "lineRange": [
+        18,
+        20
+      ],
+      "summary": "_flat_model_name 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/model-providers/opencode-zen/__init__.py:_is_kimi_k2_model",
+      "type": "function",
+      "name": "_is_kimi_k2_model",
+      "filePath": "plugins/model-providers/opencode-zen/__init__.py",
+      "lineRange": [
+        23,
+        24
+      ],
+      "summary": "_is_kimi_k2_model 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/model-providers/opencode-zen/__init__.py:_is_deepseek_thinking_model",
+      "type": "function",
+      "name": "_is_deepseek_thinking_model",
+      "filePath": "plugins/model-providers/opencode-zen/__init__.py",
+      "lineRange": [
+        27,
+        31
+      ],
+      "summary": "_is_deepseek_thinking_model 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/model-providers/opencode-zen/__init__.py:OpenCodeGoProfile",
+      "type": "class",
+      "name": "OpenCodeGoProfile",
+      "filePath": "plugins/model-providers/opencode-zen/__init__.py",
+      "lineRange": [
+        34,
+        106
+      ],
+      "summary": "OpenCodeGoProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/model-providers/opencode-zen/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/opencode-zen/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/openrouter/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/openrouter/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/openrouter/__init__.py:OpenRouterProfile",
+      "type": "class",
+      "name": "OpenRouterProfile",
+      "filePath": "plugins/model-providers/openrouter/__init__.py",
+      "lineRange": [
+        14,
+        96
+      ],
+      "summary": "OpenRouterProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/model-providers/openrouter/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/openrouter/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/model-providers/qwen-oauth/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/qwen-oauth/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/model-providers/qwen-oauth/__init__.py:QwenProfile",
+      "type": "class",
+      "name": "QwenProfile",
+      "filePath": "plugins/model-providers/qwen-oauth/__init__.py",
+      "lineRange": [
+        10,
+        70
+      ],
+      "summary": "QwenProfile 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:plugins/model-providers/qwen-oauth/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/qwen-oauth/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/model-providers/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/model-providers/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/model-providers/stepfun/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/stepfun/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "config:plugins/model-providers/stepfun/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/model-providers/stepfun/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/model-providers/kimi-coding/__init__.py",
+      "target": "class:plugins/model-providers/kimi-coding/__init__.py:KimiProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/kimi-coding/__init__.py",
+      "target": "class:plugins/model-providers/kimi-coding/__init__.py:KimiProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/nous/__init__.py",
+      "target": "class:plugins/model-providers/nous/__init__.py:NousProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/nous/__init__.py",
+      "target": "class:plugins/model-providers/nous/__init__.py:NousProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "function:plugins/model-providers/opencode-zen/__init__.py:_flat_model_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "function:plugins/model-providers/opencode-zen/__init__.py:_flat_model_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "function:plugins/model-providers/opencode-zen/__init__.py:_is_kimi_k2_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "function:plugins/model-providers/opencode-zen/__init__.py:_is_kimi_k2_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "function:plugins/model-providers/opencode-zen/__init__.py:_is_deepseek_thinking_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "function:plugins/model-providers/opencode-zen/__init__.py:_is_deepseek_thinking_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "class:plugins/model-providers/opencode-zen/__init__.py:OpenCodeGoProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/opencode-zen/__init__.py",
+      "target": "class:plugins/model-providers/opencode-zen/__init__.py:OpenCodeGoProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/openrouter/__init__.py",
+      "target": "class:plugins/model-providers/openrouter/__init__.py:OpenRouterProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/openrouter/__init__.py",
+      "target": "class:plugins/model-providers/openrouter/__init__.py:OpenRouterProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/model-providers/qwen-oauth/__init__.py",
+      "target": "class:plugins/model-providers/qwen-oauth/__init__.py:QwenProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/model-providers/qwen-oauth/__init__.py",
+      "target": "class:plugins/model-providers/qwen-oauth/__init__.py:QwenProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/creative/excalidraw/references/colors.md",
+      "type": "document",
+      "name": "colors.md",
+      "filePath": "skills/creative/excalidraw/references/colors.md",
+      "summary": "colors.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/excalidraw/references/dark-mode.md",
+      "type": "document",
+      "name": "dark-mode.md",
+      "filePath": "skills/creative/excalidraw/references/dark-mode.md",
+      "summary": "dark-mode.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/excalidraw/references/examples.md",
+      "type": "document",
+      "name": "examples.md",
+      "filePath": "skills/creative/excalidraw/references/examples.md",
+      "summary": "examples.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,3387 @@
+{
+  "nodes": [
+    {
+      "id": "file:plugins/web/firecrawl/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 14 个函数、2 个类、16 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_load_firecrawl_cls",
+      "type": "function",
+      "name": "_load_firecrawl_cls",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        76,
+        91
+      ],
+      "summary": "_load_firecrawl_cls 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_get_direct_firecrawl_config",
+      "type": "function",
+      "name": "_get_direct_firecrawl_config",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        122,
+        136
+      ],
+      "summary": "_get_direct_firecrawl_config 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_get_firecrawl_gateway_url",
+      "type": "function",
+      "name": "_get_firecrawl_gateway_url",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        139,
+        143
+      ],
+      "summary": "_get_firecrawl_gateway_url 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_is_tool_gateway_ready",
+      "type": "function",
+      "name": "_is_tool_gateway_ready",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        146,
+        159
+      ],
+      "summary": "_is_tool_gateway_ready 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_has_direct_firecrawl_config",
+      "type": "function",
+      "name": "_has_direct_firecrawl_config",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        162,
+        164
+      ],
+      "summary": "_has_direct_firecrawl_config 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:check_firecrawl_api_key",
+      "type": "function",
+      "name": "check_firecrawl_api_key",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        167,
+        173
+      ],
+      "summary": "check_firecrawl_api_key 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_firecrawl_backend_help_suffix",
+      "type": "function",
+      "name": "_firecrawl_backend_help_suffix",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        176,
+        185
+      ],
+      "summary": "_firecrawl_backend_help_suffix 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_raise_web_backend_configuration_error",
+      "type": "function",
+      "name": "_raise_web_backend_configuration_error",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        188,
+        206
+      ],
+      "summary": "_raise_web_backend_configuration_error 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_get_firecrawl_client",
+      "type": "function",
+      "name": "_get_firecrawl_client",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        209,
+        262
+      ],
+      "summary": "_get_firecrawl_client 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_reset_client_for_tests",
+      "type": "function",
+      "name": "_reset_client_for_tests",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        265,
+        274
+      ],
+      "summary": "_reset_client_for_tests 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_to_plain_object",
+      "type": "function",
+      "name": "_to_plain_object",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        282,
+        302
+      ],
+      "summary": "_to_plain_object 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_normalize_result_list",
+      "type": "function",
+      "name": "_normalize_result_list",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        305,
+        315
+      ],
+      "summary": "_normalize_result_list 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_extract_web_search_results",
+      "type": "function",
+      "name": "_extract_web_search_results",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        318,
+        346
+      ],
+      "summary": "_extract_web_search_results 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/firecrawl/provider.py:_extract_scrape_payload",
+      "type": "function",
+      "name": "_extract_scrape_payload",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        349,
+        359
+      ],
+      "summary": "_extract_scrape_payload 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/firecrawl/provider.py:_FirecrawlProxy",
+      "type": "class",
+      "name": "_FirecrawlProxy",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        94,
+        106
+      ],
+      "summary": "_FirecrawlProxy 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/firecrawl/provider.py:FirecrawlWebSearchProvider",
+      "type": "class",
+      "name": "FirecrawlWebSearchProvider",
+      "filePath": "plugins/web/firecrawl/provider.py",
+      "lineRange": [
+        367,
+        594
+      ],
+      "summary": "FirecrawlWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/web/parallel/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/parallel/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/parallel/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/parallel/__init__.py",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/parallel/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/parallel/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/parallel/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/parallel/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 5 个函数、1 个类、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/parallel/provider.py:_ensure_parallel_sdk_installed",
+      "type": "function",
+      "name": "_ensure_parallel_sdk_installed",
+      "filePath": "plugins/web/parallel/provider.py",
+      "lineRange": [
+        46,
+        61
+      ],
+      "summary": "_ensure_parallel_sdk_installed 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/parallel/provider.py:_get_sync_client",
+      "type": "function",
+      "name": "_get_sync_client",
+      "filePath": "plugins/web/parallel/provider.py",
+      "lineRange": [
+        64,
+        88
+      ],
+      "summary": "_get_sync_client 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/parallel/provider.py:_get_async_client",
+      "type": "function",
+      "name": "_get_async_client",
+      "filePath": "plugins/web/parallel/provider.py",
+      "lineRange": [
+        91,
+        114
+      ],
+      "summary": "_get_async_client 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/parallel/provider.py:_reset_clients_for_tests",
+      "type": "function",
+      "name": "_reset_clients_for_tests",
+      "filePath": "plugins/web/parallel/provider.py",
+      "lineRange": [
+        117,
+        126
+      ],
+      "summary": "_reset_clients_for_tests 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/parallel/provider.py:_resolve_search_mode",
+      "type": "function",
+      "name": "_resolve_search_mode",
+      "filePath": "plugins/web/parallel/provider.py",
+      "lineRange": [
+        135,
+        140
+      ],
+      "summary": "_resolve_search_mode 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/parallel/provider.py:ParallelWebSearchProvider",
+      "type": "class",
+      "name": "ParallelWebSearchProvider",
+      "filePath": "plugins/web/parallel/provider.py",
+      "lineRange": [
+        143,
+        291
+      ],
+      "summary": "ParallelWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/web/searxng/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/searxng/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/searxng/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/searxng/__init__.py",
+      "lineRange": [
+        13,
+        15
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/searxng/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/searxng/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/searxng/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/searxng/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/searxng/provider.py:_searxng_url",
+      "type": "function",
+      "name": "_searxng_url",
+      "filePath": "plugins/web/searxng/provider.py",
+      "lineRange": [
+        34,
+        44
+      ],
+      "summary": "_searxng_url 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/searxng/provider.py:SearXNGWebSearchProvider",
+      "type": "class",
+      "name": "SearXNGWebSearchProvider",
+      "filePath": "plugins/web/searxng/provider.py",
+      "lineRange": [
+        47,
+        153
+      ],
+      "summary": "SearXNGWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/web/tavily/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/tavily/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/tavily/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/tavily/__init__.py",
+      "lineRange": [
+        8,
+        10
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/tavily/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/tavily/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/tavily/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/tavily/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/tavily/provider.py:_tavily_request",
+      "type": "function",
+      "name": "_tavily_request",
+      "filePath": "plugins/web/tavily/provider.py",
+      "lineRange": [
+        35,
+        59
+      ],
+      "summary": "_tavily_request 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/tavily/provider.py:_normalize_tavily_search_results",
+      "type": "function",
+      "name": "_normalize_tavily_search_results",
+      "filePath": "plugins/web/tavily/provider.py",
+      "lineRange": [
+        62,
+        74
+      ],
+      "summary": "_normalize_tavily_search_results 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/tavily/provider.py:_normalize_tavily_documents",
+      "type": "function",
+      "name": "_normalize_tavily_documents",
+      "filePath": "plugins/web/tavily/provider.py",
+      "lineRange": [
+        77,
+        125
+      ],
+      "summary": "_normalize_tavily_documents 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/tavily/provider.py:TavilyWebSearchProvider",
+      "type": "class",
+      "name": "TavilyWebSearchProvider",
+      "filePath": "plugins/web/tavily/provider.py",
+      "lineRange": [
+        128,
+        220
+      ],
+      "summary": "TavilyWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/web/xai/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/web/xai/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/xai/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/web/xai/__init__.py",
+      "lineRange": [
+        12,
+        14
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/web/xai/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/web/xai/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/web/xai/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/web/xai/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/web/xai/provider.py:_load_xai_web_config",
+      "type": "function",
+      "name": "_load_xai_web_config",
+      "filePath": "plugins/web/xai/provider.py",
+      "lineRange": [
+        64,
+        75
+      ],
+      "summary": "_load_xai_web_config 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/web/xai/provider.py:_coerce_domain_list",
+      "type": "function",
+      "name": "_coerce_domain_list",
+      "filePath": "plugins/web/xai/provider.py",
+      "lineRange": [
+        78,
+        88
+      ],
+      "summary": "_coerce_domain_list 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/web/xai/provider.py:XAIWebSearchProvider",
+      "type": "class",
+      "name": "XAIWebSearchProvider",
+      "filePath": "plugins/web/xai/provider.py",
+      "lineRange": [
+        96,
+        557
+      ],
+      "summary": "XAIWebSearchProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:providers/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "providers/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:providers/__init__.py:register_provider",
+      "type": "function",
+      "name": "register_provider",
+      "filePath": "providers/__init__.py",
+      "lineRange": [
+        53,
+        62
+      ],
+      "summary": "register_provider 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:providers/__init__.py:get_provider_profile",
+      "type": "function",
+      "name": "get_provider_profile",
+      "filePath": "providers/__init__.py",
+      "lineRange": [
+        65,
+        73
+      ],
+      "summary": "get_provider_profile 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:providers/__init__.py:list_providers",
+      "type": "function",
+      "name": "list_providers",
+      "filePath": "providers/__init__.py",
+      "lineRange": [
+        76,
+        88
+      ],
+      "summary": "list_providers 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:providers/__init__.py:_user_plugins_dir",
+      "type": "function",
+      "name": "_user_plugins_dir",
+      "filePath": "providers/__init__.py",
+      "lineRange": [
+        91,
+        99
+      ],
+      "summary": "_user_plugins_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:providers/__init__.py:_import_plugin_dir",
+      "type": "function",
+      "name": "_import_plugin_dir",
+      "filePath": "providers/__init__.py",
+      "lineRange": [
+        102,
+        137
+      ],
+      "summary": "_import_plugin_dir 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:providers/__init__.py:_discover_providers",
+      "type": "function",
+      "name": "_discover_providers",
+      "filePath": "providers/__init__.py",
+      "lineRange": [
+        140,
+        191
+      ],
+      "summary": "_discover_providers 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:providers/base.py",
+      "type": "file",
+      "name": "base.py",
+      "filePath": "providers/base.py",
+      "summary": "base.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:providers/base.py:_profile_user_agent",
+      "type": "function",
+      "name": "_profile_user_agent",
+      "filePath": "providers/base.py",
+      "lineRange": [
+        24,
+        35
+      ],
+      "summary": "_profile_user_agent 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:providers/base.py:ProviderProfile",
+      "type": "class",
+      "name": "ProviderProfile",
+      "filePath": "providers/base.py",
+      "lineRange": [
+        39,
+        214
+      ],
+      "summary": "ProviderProfile 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:providers/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "providers/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:run_agent.py",
+      "type": "file",
+      "name": "run_agent.py",
+      "filePath": "run_agent.py",
+      "summary": "run_agent.py 是 python 源文件，包含 5 个函数、2 个类、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:run_agent.py:_launch_cwd_for_session",
+      "type": "function",
+      "name": "_launch_cwd_for_session",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        68,
+        89
+      ],
+      "summary": "_launch_cwd_for_session 是 run_agent.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:run_agent.py:_routermint_headers",
+      "type": "function",
+      "name": "_routermint_headers",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        224,
+        230
+      ],
+      "summary": "_routermint_headers 是 run_agent.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:run_agent.py:_pool_may_recover_from_rate_limit",
+      "type": "function",
+      "name": "_pool_may_recover_from_rate_limit",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        233,
+        265
+      ],
+      "summary": "_pool_may_recover_from_rate_limit 是 run_agent.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:run_agent.py:_qwen_portal_headers",
+      "type": "function",
+      "name": "_qwen_portal_headers",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        268,
+        278
+      ],
+      "summary": "_qwen_portal_headers 是 run_agent.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:run_agent.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        5112,
+        5323
+      ],
+      "summary": "main 是 run_agent.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:run_agent.py:_StreamErrorEvent",
+      "type": "class",
+      "name": "_StreamErrorEvent",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        281,
+        317
+      ],
+      "summary": "_StreamErrorEvent 是 run_agent.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:run_agent.py:AIAgent",
+      "type": "class",
+      "name": "AIAgent",
+      "filePath": "run_agent.py",
+      "lineRange": [
+        320,
+        5110
+      ],
+      "summary": "AIAgent 是 run_agent.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:scripts/analyze_livetest.py",
+      "type": "file",
+      "name": "analyze_livetest.py",
+      "filePath": "scripts/analyze_livetest.py",
+      "summary": "analyze_livetest.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/analyze_livetest.py:load_record",
+      "type": "function",
+      "name": "load_record",
+      "filePath": "scripts/analyze_livetest.py",
+      "lineRange": [
+        19,
+        23
+      ],
+      "summary": "load_record 是 analyze_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/analyze_livetest.py:fmt_tool_seq",
+      "type": "function",
+      "name": "fmt_tool_seq",
+      "filePath": "scripts/analyze_livetest.py",
+      "lineRange": [
+        26,
+        29
+      ],
+      "summary": "fmt_tool_seq 是 analyze_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/analyze_livetest.py:fmt_bridge_seq",
+      "type": "function",
+      "name": "fmt_bridge_seq",
+      "filePath": "scripts/analyze_livetest.py",
+      "lineRange": [
+        32,
+        46
+      ],
+      "summary": "fmt_bridge_seq 是 analyze_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/analyze_livetest.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/analyze_livetest.py",
+      "lineRange": [
+        49,
+        110
+      ],
+      "summary": "main 是 analyze_livetest.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/benchmark_browser_eval.py",
+      "type": "file",
+      "name": "benchmark_browser_eval.py",
+      "filePath": "scripts/benchmark_browser_eval.py",
+      "summary": "benchmark_browser_eval.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/benchmark_browser_eval.py:_find_chrome",
+      "type": "function",
+      "name": "_find_chrome",
+      "filePath": "scripts/benchmark_browser_eval.py",
+      "lineRange": [
+        22,
+        28
+      ],
+      "summary": "_find_chrome 是 benchmark_browser_eval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/benchmark_browser_eval.py:_start_chrome",
+      "type": "function",
+      "name": "_start_chrome",
+      "filePath": "scripts/benchmark_browser_eval.py",
+      "lineRange": [
+        31,
+        55
+      ],
+      "summary": "_start_chrome 是 benchmark_browser_eval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/benchmark_browser_eval.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/benchmark_browser_eval.py",
+      "lineRange": [
+        58,
+        134
+      ],
+      "summary": "main 是 benchmark_browser_eval.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/build_model_catalog.py",
+      "type": "file",
+      "name": "build_model_catalog.py",
+      "filePath": "scripts/build_model_catalog.py",
+      "summary": "build_model_catalog.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/build_model_catalog.py:build_catalog",
+      "type": "function",
+      "name": "build_catalog",
+      "filePath": "scripts/build_model_catalog.py",
+      "lineRange": [
+        42,
+        78
+      ],
+      "summary": "build_catalog 是 build_model_catalog.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/build_model_catalog.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/build_model_catalog.py",
+      "lineRange": [
+        81,
+        91
+      ],
+      "summary": "main 是 build_model_catalog.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_skills_index.py",
+      "type": "file",
+      "name": "build_skills_index.py",
+      "filePath": "scripts/build_skills_index.py",
+      "summary": "build_skills_index.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/build_skills_index.py:_meta_to_dict",
+      "type": "function",
+      "name": "_meta_to_dict",
+      "filePath": "scripts/build_skills_index.py",
+      "lineRange": [
+        52,
+        64
+      ],
+      "summary": "_meta_to_dict 是 build_skills_index.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/build_skills_index.py:crawl_source",
+      "type": "function",
+      "name": "crawl_source",
+      "filePath": "scripts/build_skills_index.py",
+      "lineRange": [
+        67,
+        79
+      ],
+      "summary": "crawl_source 是 build_skills_index.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/build_skills_index.py:crawl_skills_sh",
+      "type": "function",
+      "name": "crawl_skills_sh",
+      "filePath": "scripts/build_skills_index.py",
+      "lineRange": [
+        82,
+        108
+      ],
+      "summary": "crawl_skills_sh 是 build_skills_index.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/build_skills_index.py:_fetch_repo_tree",
+      "type": "function",
+      "name": "_fetch_repo_tree",
+      "filePath": "scripts/build_skills_index.py",
+      "lineRange": [
+        111,
+        135
+      ],
+      "summary": "_fetch_repo_tree 是 build_skills_index.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/build_skills_index.py:batch_resolve_paths",
+      "type": "function",
+      "name": "batch_resolve_paths",
+      "filePath": "scripts/build_skills_index.py",
+      "lineRange": [
+        138,
+        240
+      ],
+      "summary": "batch_resolve_paths 是 build_skills_index.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/build_skills_index.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/build_skills_index.py",
+      "lineRange": [
+        243,
+        389
+      ],
+      "summary": "main 是 build_skills_index.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/check-windows-footguns.py",
+      "type": "file",
+      "name": "check-windows-footguns.py",
+      "filePath": "scripts/check-windows-footguns.py",
+      "summary": "check-windows-footguns.py 是 python 源文件，包含 10 个函数、1 个类、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:should_scan_file",
+      "type": "function",
+      "name": "should_scan_file",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        330,
+        349
+      ],
+      "summary": "should_scan_file 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:iter_files",
+      "type": "function",
+      "name": "iter_files",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        352,
+        364
+      ],
+      "summary": "iter_files 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:_strip_code",
+      "type": "function",
+      "name": "_strip_code",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        367,
+        383
+      ],
+      "summary": "_strip_code 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:_find_unquoted_hash",
+      "type": "function",
+      "name": "_find_unquoted_hash",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        386,
+        408
+      ],
+      "summary": "_find_unquoted_hash 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:scan_file",
+      "type": "function",
+      "name": "scan_file",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        411,
+        485
+      ],
+      "summary": "scan_file 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:get_staged_files",
+      "type": "function",
+      "name": "get_staged_files",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        488,
+        499
+      ],
+      "summary": "get_staged_files 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:get_diff_files",
+      "type": "function",
+      "name": "get_diff_files",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        502,
+        513
+      ],
+      "summary": "get_diff_files 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:parse_args",
+      "type": "function",
+      "name": "parse_args",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        516,
+        541
+      ],
+      "summary": "parse_args 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:print_rules",
+      "type": "function",
+      "name": "print_rules",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        544,
+        550
+      ],
+      "summary": "print_rules 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/check-windows-footguns.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        553,
+        628
+      ],
+      "summary": "main 是 check-windows-footguns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:scripts/check-windows-footguns.py:Footgun",
+      "type": "class",
+      "name": "Footgun",
+      "filePath": "scripts/check-windows-footguns.py",
+      "lineRange": [
+        118,
+        135
+      ],
+      "summary": "Footgun 是 check-windows-footguns.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/contributor_audit.py",
+      "type": "file",
+      "name": "contributor_audit.py",
+      "filePath": "scripts/contributor_audit.py",
+      "summary": "contributor_audit.py 是 python 源文件，包含 8 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:is_ignored",
+      "type": "function",
+      "name": "is_ignored",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        65,
+        72
+      ],
+      "summary": "is_ignored 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:git",
+      "type": "function",
+      "name": "git",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        79,
+        90
+      ],
+      "summary": "git 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:gh_pr_list",
+      "type": "function",
+      "name": "gh_pr_list",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        93,
+        124
+      ],
+      "summary": "gh_pr_list 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:collect_commit_authors",
+      "type": "function",
+      "name": "collect_commit_authors",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        153,
+        190
+      ],
+      "summary": "collect_commit_authors 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:collect_co_authors",
+      "type": "function",
+      "name": "collect_co_authors",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        193,
+        226
+      ],
+      "summary": "collect_co_authors 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:collect_salvaged_contributors",
+      "type": "function",
+      "name": "collect_salvaged_contributors",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        229,
+        283
+      ],
+      "summary": "collect_salvaged_contributors 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:check_release_file",
+      "type": "function",
+      "name": "check_release_file",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        290,
+        314
+      ],
+      "summary": "check_release_file 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/contributor_audit.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/contributor_audit.py",
+      "lineRange": [
+        321,
+        473
+      ],
+      "summary": "main 是 contributor_audit.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/discord-voice-doctor.py",
+      "type": "file",
+      "name": "discord-voice-doctor.py",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "summary": "discord-voice-doctor.py 是 python 源文件，包含 10 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:mask",
+      "type": "function",
+      "name": "mask",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        33,
+        37
+      ],
+      "summary": "mask 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:check",
+      "type": "function",
+      "name": "check",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        40,
+        46
+      ],
+      "summary": "check 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:warn",
+      "type": "function",
+      "name": "warn",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        49,
+        53
+      ],
+      "summary": "warn 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:section",
+      "type": "function",
+      "name": "section",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        56,
+        57
+      ],
+      "summary": "section 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:check_packages",
+      "type": "function",
+      "name": "check_packages",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        60,
+        118
+      ],
+      "summary": "check_packages 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:check_system_tools",
+      "type": "function",
+      "name": "check_system_tools",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        121,
+        170
+      ],
+      "summary": "check_system_tools 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:check_env_vars",
+      "type": "function",
+      "name": "check_env_vars",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        173,
+        234
+      ],
+      "summary": "check_env_vars 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:check_config",
+      "type": "function",
+      "name": "check_config",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        237,
+        278
+      ],
+      "summary": "check_config 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:check_bot_permissions",
+      "type": "function",
+      "name": "check_bot_permissions",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        281,
+        367
+      ],
+      "summary": "check_bot_permissions 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/discord-voice-doctor.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/discord-voice-doctor.py",
+      "lineRange": [
+        370,
+        392
+      ],
+      "summary": "main 是 discord-voice-doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/docker_config_migrate.py",
+      "type": "file",
+      "name": "docker_config_migrate.py",
+      "filePath": "scripts/docker_config_migrate.py",
+      "summary": "docker_config_migrate.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "containerization",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:scripts/docker_config_migrate.py:_backup_path",
+      "type": "function",
+      "name": "_backup_path",
+      "filePath": "scripts/docker_config_migrate.py",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "_backup_path 是 docker_config_migrate.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/docker_config_migrate.py:_backup_existing",
+      "type": "function",
+      "name": "_backup_existing",
+      "filePath": "scripts/docker_config_migrate.py",
+      "lineRange": [
+        31,
+        40
+      ],
+      "summary": "_backup_existing 是 docker_config_migrate.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/docker_config_migrate.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/docker_config_migrate.py",
+      "lineRange": [
+        43,
+        59
+      ],
+      "summary": "main 是 docker_config_migrate.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_load_firecrawl_cls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_load_firecrawl_cls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_get_direct_firecrawl_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_get_direct_firecrawl_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_get_firecrawl_gateway_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_get_firecrawl_gateway_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_is_tool_gateway_ready",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_is_tool_gateway_ready",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_has_direct_firecrawl_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_has_direct_firecrawl_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:check_firecrawl_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:check_firecrawl_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_firecrawl_backend_help_suffix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_firecrawl_backend_help_suffix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_raise_web_backend_configuration_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_raise_web_backend_configuration_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_get_firecrawl_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_get_firecrawl_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_reset_client_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_reset_client_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_to_plain_object",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_to_plain_object",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_normalize_result_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_normalize_result_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_extract_web_search_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_extract_web_search_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_extract_scrape_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "function:plugins/web/firecrawl/provider.py:_extract_scrape_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "class:plugins/web/firecrawl/provider.py:_FirecrawlProxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "class:plugins/web/firecrawl/provider.py:_FirecrawlProxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "class:plugins/web/firecrawl/provider.py:FirecrawlWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/firecrawl/provider.py",
+      "target": "class:plugins/web/firecrawl/provider.py:FirecrawlWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/__init__.py",
+      "target": "function:plugins/web/parallel/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/__init__.py",
+      "target": "function:plugins/web/parallel/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_ensure_parallel_sdk_installed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_ensure_parallel_sdk_installed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_get_sync_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_get_sync_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_get_async_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_get_async_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_reset_clients_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_reset_clients_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_resolve_search_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "function:plugins/web/parallel/provider.py:_resolve_search_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "class:plugins/web/parallel/provider.py:ParallelWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/parallel/provider.py",
+      "target": "class:plugins/web/parallel/provider.py:ParallelWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/searxng/__init__.py",
+      "target": "function:plugins/web/searxng/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/searxng/__init__.py",
+      "target": "function:plugins/web/searxng/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/searxng/provider.py",
+      "target": "function:plugins/web/searxng/provider.py:_searxng_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/searxng/provider.py",
+      "target": "function:plugins/web/searxng/provider.py:_searxng_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/searxng/provider.py",
+      "target": "class:plugins/web/searxng/provider.py:SearXNGWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/searxng/provider.py",
+      "target": "class:plugins/web/searxng/provider.py:SearXNGWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/tavily/__init__.py",
+      "target": "function:plugins/web/tavily/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/tavily/__init__.py",
+      "target": "function:plugins/web/tavily/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "function:plugins/web/tavily/provider.py:_tavily_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "function:plugins/web/tavily/provider.py:_tavily_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "function:plugins/web/tavily/provider.py:_normalize_tavily_search_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "function:plugins/web/tavily/provider.py:_normalize_tavily_search_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "function:plugins/web/tavily/provider.py:_normalize_tavily_documents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "function:plugins/web/tavily/provider.py:_normalize_tavily_documents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "class:plugins/web/tavily/provider.py:TavilyWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/tavily/provider.py",
+      "target": "class:plugins/web/tavily/provider.py:TavilyWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/xai/__init__.py",
+      "target": "function:plugins/web/xai/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/xai/__init__.py",
+      "target": "function:plugins/web/xai/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/xai/provider.py",
+      "target": "function:plugins/web/xai/provider.py:_load_xai_web_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/xai/provider.py",
+      "target": "function:plugins/web/xai/provider.py:_load_xai_web_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/xai/provider.py",
+      "target": "function:plugins/web/xai/provider.py:_coerce_domain_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/xai/provider.py",
+      "target": "function:plugins/web/xai/provider.py:_coerce_domain_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/web/xai/provider.py",
+      "target": "class:plugins/web/xai/provider.py:XAIWebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/web/xai/provider.py",
+      "target": "class:plugins/web/xai/provider.py:XAIWebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:register_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:register_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:get_provider_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:get_provider_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:list_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:list_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:_user_plugins_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:_user_plugins_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:_import_plugin_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:_import_plugin_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:_discover_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/__init__.py",
+      "target": "function:providers/__init__.py:_discover_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/base.py",
+      "target": "function:providers/base.py:_profile_user_agent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/base.py",
+      "target": "function:providers/base.py:_profile_user_agent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:providers/base.py",
+      "target": "class:providers/base.py:ProviderProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:providers/base.py",
+      "target": "class:providers/base.py:ProviderProfile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_launch_cwd_for_session",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_launch_cwd_for_session",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_routermint_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_routermint_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_pool_may_recover_from_rate_limit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_pool_may_recover_from_rate_limit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_qwen_portal_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:_qwen_portal_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "function:run_agent.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "class:run_agent.py:_StreamErrorEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "class:run_agent.py:_StreamErrorEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "class:run_agent.py:AIAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:run_agent.py",
+      "target": "class:run_agent.py:AIAgent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:load_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:load_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:fmt_tool_seq",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:fmt_tool_seq",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:fmt_bridge_seq",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:fmt_bridge_seq",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/analyze_livetest.py",
+      "target": "function:scripts/analyze_livetest.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/benchmark_browser_eval.py",
+      "target": "function:scripts/benchmark_browser_eval.py:_find_chrome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/benchmark_browser_eval.py",
+      "target": "function:scripts/benchmark_browser_eval.py:_find_chrome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/benchmark_browser_eval.py",
+      "target": "function:scripts/benchmark_browser_eval.py:_start_chrome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/benchmark_browser_eval.py",
+      "target": "function:scripts/benchmark_browser_eval.py:_start_chrome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/benchmark_browser_eval.py",
+      "target": "function:scripts/benchmark_browser_eval.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/benchmark_browser_eval.py",
+      "target": "function:scripts/benchmark_browser_eval.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_model_catalog.py",
+      "target": "function:scripts/build_model_catalog.py:build_catalog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_model_catalog.py",
+      "target": "function:scripts/build_model_catalog.py:build_catalog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_model_catalog.py",
+      "target": "function:scripts/build_model_catalog.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_model_catalog.py",
+      "target": "function:scripts/build_model_catalog.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:_meta_to_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:_meta_to_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:crawl_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:crawl_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:crawl_skills_sh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:crawl_skills_sh",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:_fetch_repo_tree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:_fetch_repo_tree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:batch_resolve_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:batch_resolve_paths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_skills_index.py",
+      "target": "function:scripts/build_skills_index.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:should_scan_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:should_scan_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:iter_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:iter_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:_strip_code",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:_strip_code",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:_find_unquoted_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:_find_unquoted_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:scan_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:scan_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:get_staged_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:get_staged_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:get_diff_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:get_diff_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:parse_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:parse_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:print_rules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:print_rules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "function:scripts/check-windows-footguns.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "class:scripts/check-windows-footguns.py:Footgun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/check-windows-footguns.py",
+      "target": "class:scripts/check-windows-footguns.py:Footgun",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:is_ignored",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:is_ignored",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:git",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:git",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:gh_pr_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:gh_pr_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:collect_commit_authors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:collect_commit_authors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:collect_co_authors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:collect_co_authors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:collect_salvaged_contributors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:collect_salvaged_contributors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:check_release_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:check_release_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/contributor_audit.py",
+      "target": "function:scripts/contributor_audit.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:mask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:mask",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:warn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:warn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_packages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_packages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_system_tools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_system_tools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_env_vars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_env_vars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_bot_permissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:check_bot_permissions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/discord-voice-doctor.py",
+      "target": "function:scripts/discord-voice-doctor.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/docker_config_migrate.py",
+      "target": "function:scripts/docker_config_migrate.py:_backup_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/docker_config_migrate.py",
+      "target": "function:scripts/docker_config_migrate.py:_backup_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/docker_config_migrate.py",
+      "target": "function:scripts/docker_config_migrate.py:_backup_existing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/docker_config_migrate.py",
+      "target": "function:scripts/docker_config_migrate.py:_backup_existing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:scripts/docker_config_migrate.py",
+      "target": "function:scripts/docker_config_migrate.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/docker_config_migrate.py",
+      "target": "function:scripts/docker_config_migrate.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,6743 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/security/network-egress-isolation.md",
+      "type": "document",
+      "name": "network-egress-isolation.md",
+      "filePath": "docs/security/network-egress-isolation.md",
+      "summary": "network-egress-isolation.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:flake.nix",
+      "type": "file",
+      "name": "flake.nix",
+      "filePath": "flake.nix",
+      "summary": "flake.nix 是 nix 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "nix",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 nix。"
+    },
+    {
+      "id": "file:gateway/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "gateway/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:gateway/builtin_hooks/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "gateway/builtin_hooks/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:gateway/channel_directory.py",
+      "type": "file",
+      "name": "channel_directory.py",
+      "filePath": "gateway/channel_directory.py",
+      "summary": "channel_directory.py 是 python 源文件，包含 12 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_normalize_channel_query",
+      "type": "function",
+      "name": "_normalize_channel_query",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        22,
+        23
+      ],
+      "summary": "_normalize_channel_query 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_channel_target_name",
+      "type": "function",
+      "name": "_channel_target_name",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        26,
+        33
+      ],
+      "summary": "_channel_target_name 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_session_entry_id",
+      "type": "function",
+      "name": "_session_entry_id",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        36,
+        43
+      ],
+      "summary": "_session_entry_id 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_session_entry_name",
+      "type": "function",
+      "name": "_session_entry_name",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        46,
+        53
+      ],
+      "summary": "_session_entry_name 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:build_channel_directory",
+      "type": "function",
+      "name": "build_channel_directory",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        60,
+        109
+      ],
+      "summary": "build_channel_directory 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_build_discord",
+      "type": "function",
+      "name": "_build_discord",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        112,
+        146
+      ],
+      "summary": "_build_discord 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_build_slack",
+      "type": "function",
+      "name": "_build_slack",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        149,
+        208
+      ],
+      "summary": "_build_slack 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:_build_from_sessions",
+      "type": "function",
+      "name": "_build_from_sessions",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        211,
+        240
+      ],
+      "summary": "_build_from_sessions 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:load_directory",
+      "type": "function",
+      "name": "load_directory",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        247,
+        255
+      ],
+      "summary": "load_directory 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:lookup_channel_type",
+      "type": "function",
+      "name": "lookup_channel_type",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        258,
+        264
+      ],
+      "summary": "lookup_channel_type 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:resolve_channel_name",
+      "type": "function",
+      "name": "resolve_channel_name",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        267,
+        311
+      ],
+      "summary": "resolve_channel_name 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/channel_directory.py:format_directory_for_display",
+      "type": "function",
+      "name": "format_directory_for_display",
+      "filePath": "gateway/channel_directory.py",
+      "lineRange": [
+        314,
+        357
+      ],
+      "summary": "format_directory_for_display 是 channel_directory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gateway/config.py",
+      "type": "file",
+      "name": "config.py",
+      "filePath": "gateway/config.py",
+      "summary": "config.py 是 python 源文件，包含 9 个函数、6 个类、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/config.py:_coerce_bool",
+      "type": "function",
+      "name": "_coerce_bool",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        25,
+        36
+      ],
+      "summary": "_coerce_bool 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/config.py:_coerce_float",
+      "type": "function",
+      "name": "_coerce_float",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        39,
+        46
+      ],
+      "summary": "_coerce_float 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/config.py:_coerce_int",
+      "type": "function",
+      "name": "_coerce_int",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        49,
+        56
+      ],
+      "summary": "_coerce_int 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/config.py:_normalize_unauthorized_dm_behavior",
+      "type": "function",
+      "name": "_normalize_unauthorized_dm_behavior",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        59,
+        65
+      ],
+      "summary": "_normalize_unauthorized_dm_behavior 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/config.py:_normalize_notice_delivery",
+      "type": "function",
+      "name": "_normalize_notice_delivery",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        68,
+        74
+      ],
+      "summary": "_normalize_notice_delivery 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/config.py:_ensure_platform_extra_dict",
+      "type": "function",
+      "name": "_ensure_platform_extra_dict",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        77,
+        92
+      ],
+      "summary": "_ensure_platform_extra_dict 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/config.py:load_gateway_config",
+      "type": "function",
+      "name": "load_gateway_config",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        702,
+        1202
+      ],
+      "summary": "load_gateway_config 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:gateway/config.py:_validate_gateway_config",
+      "type": "function",
+      "name": "_validate_gateway_config",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        1205,
+        1271
+      ],
+      "summary": "_validate_gateway_config 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/config.py:_apply_env_overrides",
+      "type": "function",
+      "name": "_apply_env_overrides",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        1274,
+        2004
+      ],
+      "summary": "_apply_env_overrides 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:gateway/config.py:Platform",
+      "type": "class",
+      "name": "Platform",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        100,
+        194
+      ],
+      "summary": "Platform 是 config.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/config.py:HomeChannel",
+      "type": "class",
+      "name": "HomeChannel",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        203,
+        234
+      ],
+      "summary": "HomeChannel 是 config.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/config.py:SessionResetPolicy",
+      "type": "class",
+      "name": "SessionResetPolicy",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        238,
+        277
+      ],
+      "summary": "SessionResetPolicy 是 config.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/config.py:PlatformConfig",
+      "type": "class",
+      "name": "PlatformConfig",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        281,
+        341
+      ],
+      "summary": "PlatformConfig 是 config.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/config.py:StreamingConfig",
+      "type": "class",
+      "name": "StreamingConfig",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        355,
+        414
+      ],
+      "summary": "StreamingConfig 是 config.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/config.py:GatewayConfig",
+      "type": "class",
+      "name": "GatewayConfig",
+      "filePath": "gateway/config.py",
+      "lineRange": [
+        459,
+        699
+      ],
+      "summary": "GatewayConfig 是 config.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/delivery.py",
+      "type": "file",
+      "name": "delivery.py",
+      "filePath": "gateway/delivery.py",
+      "summary": "delivery.py 是 python 源文件，包含 6 个函数、2 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/delivery.py:_is_silence_narration",
+      "type": "function",
+      "name": "_is_silence_narration",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        38,
+        50
+      ],
+      "summary": "_is_silence_narration 是 delivery.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/delivery.py:_looks_like_telegram_private_chat_id",
+      "type": "function",
+      "name": "_looks_like_telegram_private_chat_id",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        56,
+        62
+      ],
+      "summary": "_looks_like_telegram_private_chat_id 是 delivery.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/delivery.py:_looks_like_int",
+      "type": "function",
+      "name": "_looks_like_int",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        65,
+        72
+      ],
+      "summary": "_looks_like_int 是 delivery.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/delivery.py:_send_result_failed",
+      "type": "function",
+      "name": "_send_result_failed",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        75,
+        78
+      ],
+      "summary": "_send_result_failed 是 delivery.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/delivery.py:_send_result_error",
+      "type": "function",
+      "name": "_send_result_error",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        81,
+        86
+      ],
+      "summary": "_send_result_error 是 delivery.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/delivery.py:_is_thread_not_found_delivery_error",
+      "type": "function",
+      "name": "_is_thread_not_found_delivery_error",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        89,
+        91
+      ],
+      "summary": "_is_thread_not_found_delivery_error 是 delivery.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/delivery.py:DeliveryTarget",
+      "type": "class",
+      "name": "DeliveryTarget",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        95,
+        172
+      ],
+      "summary": "DeliveryTarget 是 delivery.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/delivery.py:DeliveryRouter",
+      "type": "class",
+      "name": "DeliveryRouter",
+      "filePath": "gateway/delivery.py",
+      "lineRange": [
+        175,
+        429
+      ],
+      "summary": "DeliveryRouter 是 delivery.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/display_config.py",
+      "type": "file",
+      "name": "display_config.py",
+      "filePath": "gateway/display_config.py",
+      "summary": "display_config.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/display_config.py:resolve_display_setting",
+      "type": "function",
+      "name": "resolve_display_setting",
+      "filePath": "gateway/display_config.py",
+      "lineRange": [
+        144,
+        206
+      ],
+      "summary": "resolve_display_setting 是 display_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/display_config.py:_normalise",
+      "type": "function",
+      "name": "_normalise",
+      "filePath": "gateway/display_config.py",
+      "lineRange": [
+        213,
+        240
+      ],
+      "summary": "_normalise 是 display_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gateway/hooks.py",
+      "type": "file",
+      "name": "hooks.py",
+      "filePath": "gateway/hooks.py",
+      "summary": "hooks.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:gateway/hooks.py:HookRegistry",
+      "type": "class",
+      "name": "HookRegistry",
+      "filePath": "gateway/hooks.py",
+      "lineRange": [
+        52,
+        227
+      ],
+      "summary": "HookRegistry 是 hooks.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:gateway/kanban_watchers.py",
+      "type": "file",
+      "name": "kanban_watchers.py",
+      "filePath": "gateway/kanban_watchers.py",
+      "summary": "kanban_watchers.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:gateway/kanban_watchers.py:GatewayKanbanWatchersMixin",
+      "type": "class",
+      "name": "GatewayKanbanWatchersMixin",
+      "filePath": "gateway/kanban_watchers.py",
+      "lineRange": [
+        26,
+        1064
+      ],
+      "summary": "GatewayKanbanWatchersMixin 是 kanban_watchers.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/memory_monitor.py",
+      "type": "file",
+      "name": "memory_monitor.py",
+      "filePath": "gateway/memory_monitor.py",
+      "summary": "memory_monitor.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/memory_monitor.py:_get_rss_mb",
+      "type": "function",
+      "name": "_get_rss_mb",
+      "filePath": "gateway/memory_monitor.py",
+      "lineRange": [
+        52,
+        80
+      ],
+      "summary": "_get_rss_mb 是 memory_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/memory_monitor.py:log_memory_usage",
+      "type": "function",
+      "name": "log_memory_usage",
+      "filePath": "gateway/memory_monitor.py",
+      "lineRange": [
+        83,
+        126
+      ],
+      "summary": "log_memory_usage 是 memory_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/memory_monitor.py:_monitor_loop",
+      "type": "function",
+      "name": "_monitor_loop",
+      "filePath": "gateway/memory_monitor.py",
+      "lineRange": [
+        129,
+        136
+      ],
+      "summary": "_monitor_loop 是 memory_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/memory_monitor.py:start_memory_monitoring",
+      "type": "function",
+      "name": "start_memory_monitoring",
+      "filePath": "gateway/memory_monitor.py",
+      "lineRange": [
+        139,
+        193
+      ],
+      "summary": "start_memory_monitoring 是 memory_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/memory_monitor.py:stop_memory_monitoring",
+      "type": "function",
+      "name": "stop_memory_monitoring",
+      "filePath": "gateway/memory_monitor.py",
+      "lineRange": [
+        196,
+        224
+      ],
+      "summary": "stop_memory_monitoring 是 memory_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/memory_monitor.py:is_running",
+      "type": "function",
+      "name": "is_running",
+      "filePath": "gateway/memory_monitor.py",
+      "lineRange": [
+        227,
+        230
+      ],
+      "summary": "is_running 是 memory_monitor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gateway/mirror.py",
+      "type": "file",
+      "name": "mirror.py",
+      "filePath": "gateway/mirror.py",
+      "summary": "mirror.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/mirror.py:mirror_to_session",
+      "type": "function",
+      "name": "mirror_to_session",
+      "filePath": "gateway/mirror.py",
+      "lineRange": [
+        25,
+        81
+      ],
+      "summary": "mirror_to_session 是 mirror.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/mirror.py:_find_session_id",
+      "type": "function",
+      "name": "_find_session_id",
+      "filePath": "gateway/mirror.py",
+      "lineRange": [
+        84,
+        149
+      ],
+      "summary": "_find_session_id 是 mirror.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/mirror.py:_append_to_sqlite",
+      "type": "function",
+      "name": "_append_to_sqlite",
+      "filePath": "gateway/mirror.py",
+      "lineRange": [
+        153,
+        168
+      ],
+      "summary": "_append_to_sqlite 是 mirror.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gateway/pairing.py",
+      "type": "file",
+      "name": "pairing.py",
+      "filePath": "gateway/pairing.py",
+      "summary": "pairing.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/pairing.py:_secure_write",
+      "type": "function",
+      "name": "_secure_write",
+      "filePath": "gateway/pairing.py",
+      "lineRange": [
+        55,
+        78
+      ],
+      "summary": "_secure_write 是 pairing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/pairing.py:PairingStore",
+      "type": "class",
+      "name": "PairingStore",
+      "filePath": "gateway/pairing.py",
+      "lineRange": [
+        81,
+        450
+      ],
+      "summary": "PairingStore 是 pairing.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/platform_registry.py",
+      "type": "file",
+      "name": "platform_registry.py",
+      "filePath": "gateway/platform_registry.py",
+      "summary": "platform_registry.py 是 python 源文件，包含 2 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:gateway/platform_registry.py:PlatformEntry",
+      "type": "class",
+      "name": "PlatformEntry",
+      "filePath": "gateway/platform_registry.py",
+      "lineRange": [
+        39,
+        159
+      ],
+      "summary": "PlatformEntry 是 platform_registry.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/platform_registry.py:PlatformRegistry",
+      "type": "class",
+      "name": "PlatformRegistry",
+      "filePath": "gateway/platform_registry.py",
+      "lineRange": [
+        162,
+        256
+      ],
+      "summary": "PlatformRegistry 是 platform_registry.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:gateway/platforms/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "gateway/platforms/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/__init__.py:__getattr__",
+      "type": "function",
+      "name": "__getattr__",
+      "filePath": "gateway/platforms/__init__.py",
+      "lineRange": [
+        34,
+        41
+      ],
+      "summary": "__getattr__ 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/__init__.py:__dir__",
+      "type": "function",
+      "name": "__dir__",
+      "filePath": "gateway/platforms/__init__.py",
+      "lineRange": [
+        44,
+        45
+      ],
+      "summary": "__dir__ 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gateway/platforms/_http_client_limits.py",
+      "type": "file",
+      "name": "_http_client_limits.py",
+      "filePath": "gateway/platforms/_http_client_limits.py",
+      "summary": "_http_client_limits.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/_http_client_limits.py:platform_httpx_limits",
+      "type": "function",
+      "name": "platform_httpx_limits",
+      "filePath": "gateway/platforms/_http_client_limits.py",
+      "lineRange": [
+        43,
+        84
+      ],
+      "summary": "platform_httpx_limits 是 _http_client_limits.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:gateway/platforms/ADDING_A_PLATFORM.md",
+      "type": "document",
+      "name": "ADDING_A_PLATFORM.md",
+      "filePath": "gateway/platforms/ADDING_A_PLATFORM.md",
+      "summary": "ADDING_A_PLATFORM.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "gateway"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:gateway/platforms/api_server.py",
+      "type": "file",
+      "name": "api_server.py",
+      "filePath": "gateway/platforms/api_server.py",
+      "summary": "api_server.py 是 python 源文件，包含 12 个函数、3 个类、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_hermes_version",
+      "type": "function",
+      "name": "_hermes_version",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        65,
+        84
+      ],
+      "summary": "_hermes_version 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_coerce_port",
+      "type": "function",
+      "name": "_coerce_port",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        97,
+        102
+      ],
+      "summary": "_coerce_port 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_coerce_request_bool",
+      "type": "function",
+      "name": "_coerce_request_bool",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        109,
+        131
+      ],
+      "summary": "_coerce_request_bool 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_normalize_chat_content",
+      "type": "function",
+      "name": "_normalize_chat_content",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        134,
+        189
+      ],
+      "summary": "_normalize_chat_content 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_normalize_multimodal_content",
+      "type": "function",
+      "name": "_normalize_multimodal_content",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        201,
+        316
+      ],
+      "summary": "_normalize_multimodal_content 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_content_has_visible_payload",
+      "type": "function",
+      "name": "_content_has_visible_payload",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        319,
+        331
+      ],
+      "summary": "_content_has_visible_payload 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_multimodal_validation_error",
+      "type": "function",
+      "name": "_multimodal_validation_error",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        334,
+        343
+      ],
+      "summary": "_multimodal_validation_error 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_session_chat_user_message",
+      "type": "function",
+      "name": "_session_chat_user_message",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        346,
+        357
+      ],
+      "summary": "_session_chat_user_message 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:check_api_server_requirements",
+      "type": "function",
+      "name": "check_api_server_requirements",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        360,
+        362
+      ],
+      "summary": "check_api_server_requirements 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_openai_error",
+      "type": "function",
+      "name": "_openai_error",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        568,
+        577
+      ],
+      "summary": "_openai_error 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_make_request_fingerprint",
+      "type": "function",
+      "name": "_make_request_fingerprint",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        667,
+        670
+      ],
+      "summary": "_make_request_fingerprint 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/api_server.py:_derive_chat_session_id",
+      "type": "function",
+      "name": "_derive_chat_session_id",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        673,
+        688
+      ],
+      "summary": "_derive_chat_session_id 是 api_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/api_server.py:ResponseStore",
+      "type": "class",
+      "name": "ResponseStore",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        365,
+        530
+      ],
+      "summary": "ResponseStore 是 api_server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/platforms/api_server.py:_IdempotencyCache",
+      "type": "class",
+      "name": "_IdempotencyCache",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        619,
+        661
+      ],
+      "summary": "_IdempotencyCache 是 api_server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/api_server.py:APIServerAdapter",
+      "type": "class",
+      "name": "APIServerAdapter",
+      "filePath": "gateway/platforms/api_server.py",
+      "lineRange": [
+        728,
+        4305
+      ],
+      "summary": "APIServerAdapter 是 api_server.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/platforms/base.py",
+      "type": "file",
+      "name": "base.py",
+      "filePath": "gateway/platforms/base.py",
+      "summary": "base.py 是 python 源文件，包含 49 个函数、8 个类、57 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_platform_name",
+      "type": "function",
+      "name": "_platform_name",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        38,
+        41
+      ],
+      "summary": "_platform_name 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_float_env",
+      "type": "function",
+      "name": "_float_env",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        44,
+        51
+      ],
+      "summary": "_float_env 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_thread_metadata_for_source",
+      "type": "function",
+      "name": "_thread_metadata_for_source",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        54,
+        76
+      ],
+      "summary": "_thread_metadata_for_source 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_reply_anchor_for_event",
+      "type": "function",
+      "name": "_reply_anchor_for_event",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        79,
+        99
+      ],
+      "summary": "_reply_anchor_for_event 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:should_send_media_as_audio",
+      "type": "function",
+      "name": "should_send_media_as_audio",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        102,
+        122
+      ],
+      "summary": "should_send_media_as_audio 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:utf16_len",
+      "type": "function",
+      "name": "utf16_len",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        125,
+        137
+      ],
+      "summary": "utf16_len 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_prefix_within_utf16_limit",
+      "type": "function",
+      "name": "_prefix_within_utf16_limit",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        140,
+        156
+      ],
+      "summary": "_prefix_within_utf16_limit 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_custom_unit_to_cp",
+      "type": "function",
+      "name": "_custom_unit_to_cp",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        159,
+        175
+      ],
+      "summary": "_custom_unit_to_cp 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:is_network_accessible",
+      "type": "function",
+      "name": "is_network_accessible",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        178,
+        210
+      ],
+      "summary": "is_network_accessible 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_detect_macos_system_proxy",
+      "type": "function",
+      "name": "_detect_macos_system_proxy",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        213,
+        246
+      ],
+      "summary": "_detect_macos_system_proxy 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_split_host_port",
+      "type": "function",
+      "name": "_split_host_port",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        249,
+        266
+      ],
+      "summary": "_split_host_port 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_no_proxy_entries",
+      "type": "function",
+      "name": "_no_proxy_entries",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        269,
+        274
+      ],
+      "summary": "_no_proxy_entries 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_no_proxy_entry_matches",
+      "type": "function",
+      "name": "_no_proxy_entry_matches",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        277,
+        315
+      ],
+      "summary": "_no_proxy_entry_matches 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:should_bypass_proxy",
+      "type": "function",
+      "name": "should_bypass_proxy",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        318,
+        337
+      ],
+      "summary": "should_bypass_proxy 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:resolve_proxy_url",
+      "type": "function",
+      "name": "resolve_proxy_url",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        340,
+        371
+      ],
+      "summary": "resolve_proxy_url 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:proxy_kwargs_for_bot",
+      "type": "function",
+      "name": "proxy_kwargs_for_bot",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        374,
+        401
+      ],
+      "summary": "proxy_kwargs_for_bot 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:proxy_kwargs_for_aiohttp",
+      "type": "function",
+      "name": "proxy_kwargs_for_aiohttp",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        404,
+        439
+      ],
+      "summary": "proxy_kwargs_for_aiohttp 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:is_host_excluded_by_no_proxy",
+      "type": "function",
+      "name": "is_host_excluded_by_no_proxy",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        442,
+        472
+      ],
+      "summary": "is_host_excluded_by_no_proxy 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:safe_url_for_log",
+      "type": "function",
+      "name": "safe_url_for_log",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        496,
+        530
+      ],
+      "summary": "safe_url_for_log 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_ssrf_redirect_guard",
+      "type": "function",
+      "name": "_ssrf_redirect_guard",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        533,
+        547
+      ],
+      "summary": "_ssrf_redirect_guard 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:get_image_cache_dir",
+      "type": "function",
+      "name": "get_image_cache_dir",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        563,
+        566
+      ],
+      "summary": "get_image_cache_dir 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_looks_like_image",
+      "type": "function",
+      "name": "_looks_like_image",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        569,
+        583
+      ],
+      "summary": "_looks_like_image 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_image_from_bytes",
+      "type": "function",
+      "name": "cache_image_from_bytes",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        586,
+        611
+      ],
+      "summary": "cache_image_from_bytes 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_image_from_url",
+      "type": "function",
+      "name": "cache_image_from_url",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        614,
+        670
+      ],
+      "summary": "cache_image_from_url 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cleanup_image_cache",
+      "type": "function",
+      "name": "cleanup_image_cache",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        673,
+        691
+      ],
+      "summary": "cleanup_image_cache 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:get_audio_cache_dir",
+      "type": "function",
+      "name": "get_audio_cache_dir",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        704,
+        707
+      ],
+      "summary": "get_audio_cache_dir 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_audio_from_bytes",
+      "type": "function",
+      "name": "cache_audio_from_bytes",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        710,
+        725
+      ],
+      "summary": "cache_audio_from_bytes 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_audio_from_url",
+      "type": "function",
+      "name": "cache_audio_from_url",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        728,
+        784
+      ],
+      "summary": "cache_audio_from_url 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:get_video_cache_dir",
+      "type": "function",
+      "name": "get_video_cache_dir",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        805,
+        808
+      ],
+      "summary": "get_video_cache_dir 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_video_from_bytes",
+      "type": "function",
+      "name": "cache_video_from_bytes",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        811,
+        817
+      ],
+      "summary": "cache_video_from_bytes 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_media_delivery_allowed_roots",
+      "type": "function",
+      "name": "_media_delivery_allowed_roots",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        904,
+        916
+      ],
+      "summary": "_media_delivery_allowed_roots 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_media_delivery_recency_seconds",
+      "type": "function",
+      "name": "_media_delivery_recency_seconds",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        919,
+        934
+      ],
+      "summary": "_media_delivery_recency_seconds 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_media_delivery_strict_mode",
+      "type": "function",
+      "name": "_media_delivery_strict_mode",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        937,
+        949
+      ],
+      "summary": "_media_delivery_strict_mode 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_media_delivery_denied_paths",
+      "type": "function",
+      "name": "_media_delivery_denied_paths",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        952,
+        966
+      ],
+      "summary": "_media_delivery_denied_paths 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_path_under_denied_prefix",
+      "type": "function",
+      "name": "_path_under_denied_prefix",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        969,
+        999
+      ],
+      "summary": "_path_under_denied_prefix 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_file_is_recently_produced",
+      "type": "function",
+      "name": "_file_is_recently_produced",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1002,
+        1016
+      ],
+      "summary": "_file_is_recently_produced 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_path_is_within",
+      "type": "function",
+      "name": "_path_is_within",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1019,
+        1024
+      ],
+      "summary": "_path_is_within 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:validate_media_delivery_path",
+      "type": "function",
+      "name": "validate_media_delivery_path",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1027,
+        1102
+      ],
+      "summary": "validate_media_delivery_path 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_log_safe_path",
+      "type": "function",
+      "name": "_log_safe_path",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1111,
+        1113
+      ],
+      "summary": "_log_safe_path 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:get_document_cache_dir",
+      "type": "function",
+      "name": "get_document_cache_dir",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1230,
+        1233
+      ],
+      "summary": "get_document_cache_dir 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_document_from_bytes",
+      "type": "function",
+      "name": "cache_document_from_bytes",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1236,
+        1265
+      ],
+      "summary": "cache_document_from_bytes 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cleanup_document_cache",
+      "type": "function",
+      "name": "cleanup_document_cache",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1268,
+        1286
+      ],
+      "summary": "cleanup_document_cache 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_resolve_media_ext",
+      "type": "function",
+      "name": "_resolve_media_ext",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1314,
+        1331
+      ],
+      "summary": "_resolve_media_ext 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:cache_media_bytes",
+      "type": "function",
+      "name": "cache_media_bytes",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1334,
+        1387
+      ],
+      "summary": "cache_media_bytes 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:coerce_plaintext_gateway_command",
+      "type": "function",
+      "name": "coerce_plaintext_gateway_command",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1512,
+        1537
+      ],
+      "summary": "coerce_plaintext_gateway_command 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:merge_pending_message_event",
+      "type": "function",
+      "name": "merge_pending_message_event",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1596,
+        1655
+      ],
+      "summary": "merge_pending_message_event 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:resolve_channel_prompt",
+      "type": "function",
+      "name": "resolve_channel_prompt",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1684,
+        1711
+      ],
+      "summary": "resolve_channel_prompt 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:resolve_channel_skills",
+      "type": "function",
+      "name": "resolve_channel_skills",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1714,
+        1766
+      ],
+      "summary": "resolve_channel_skills 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/base.py:_strip_media_directives",
+      "type": "function",
+      "name": "_strip_media_directives",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1769,
+        1782
+      ],
+      "summary": "_strip_media_directives 是 base.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:CachedMedia",
+      "type": "class",
+      "name": "CachedMedia",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1301,
+        1311
+      ],
+      "summary": "CachedMedia 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:MessageType",
+      "type": "class",
+      "name": "MessageType",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1390,
+        1400
+      ],
+      "summary": "MessageType 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:ProcessingOutcome",
+      "type": "class",
+      "name": "ProcessingOutcome",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1403,
+        1408
+      ],
+      "summary": "ProcessingOutcome 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:MessageEvent",
+      "type": "class",
+      "name": "MessageEvent",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1412,
+        1494
+      ],
+      "summary": "MessageEvent 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:TextDebounceState",
+      "type": "class",
+      "name": "TextDebounceState",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1498,
+        1502
+      ],
+      "summary": "TextDebounceState 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:SendResult",
+      "type": "class",
+      "name": "SendResult",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1541,
+        1554
+      ],
+      "summary": "SendResult 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:EphemeralReply",
+      "type": "class",
+      "name": "EphemeralReply",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1557,
+        1593
+      ],
+      "summary": "EphemeralReply 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/base.py:BasePlatformAdapter",
+      "type": "class",
+      "name": "BasePlatformAdapter",
+      "filePath": "gateway/platforms/base.py",
+      "lineRange": [
+        1785,
+        4825
+      ],
+      "summary": "BasePlatformAdapter 是 base.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/platforms/bluebubbles.py",
+      "type": "file",
+      "name": "bluebubbles.py",
+      "filePath": "gateway/platforms/bluebubbles.py",
+      "summary": "bluebubbles.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/bluebubbles.py:_redact",
+      "type": "function",
+      "name": "_redact",
+      "filePath": "gateway/platforms/bluebubbles.py",
+      "lineRange": [
+        76,
+        80
+      ],
+      "summary": "_redact 是 bluebubbles.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/bluebubbles.py:check_bluebubbles_requirements",
+      "type": "function",
+      "name": "check_bluebubbles_requirements",
+      "filePath": "gateway/platforms/bluebubbles.py",
+      "lineRange": [
+        87,
+        93
+      ],
+      "summary": "check_bluebubbles_requirements 是 bluebubbles.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/bluebubbles.py:_normalize_server_url",
+      "type": "function",
+      "name": "_normalize_server_url",
+      "filePath": "gateway/platforms/bluebubbles.py",
+      "lineRange": [
+        96,
+        102
+      ],
+      "summary": "_normalize_server_url 是 bluebubbles.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/bluebubbles.py:BlueBubblesAdapter",
+      "type": "class",
+      "name": "BlueBubblesAdapter",
+      "filePath": "gateway/platforms/bluebubbles.py",
+      "lineRange": [
+        112,
+        1038
+      ],
+      "summary": "BlueBubblesAdapter 是 bluebubbles.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/platforms/dingtalk.py",
+      "type": "file",
+      "name": "dingtalk.py",
+      "filePath": "gateway/platforms/dingtalk.py",
+      "summary": "dingtalk.py 是 python 源文件，包含 1 个函数、2 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/dingtalk.py:check_dingtalk_requirements",
+      "type": "function",
+      "name": "check_dingtalk_requirements",
+      "filePath": "gateway/platforms/dingtalk.py",
+      "lineRange": [
+        113,
+        143
+      ],
+      "summary": "check_dingtalk_requirements 是 dingtalk.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/dingtalk.py:DingTalkAdapter",
+      "type": "class",
+      "name": "DingTalkAdapter",
+      "filePath": "gateway/platforms/dingtalk.py",
+      "lineRange": [
+        146,
+        1394
+      ],
+      "summary": "DingTalkAdapter 是 dingtalk.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:gateway/platforms/dingtalk.py:_IncomingHandler",
+      "type": "class",
+      "name": "_IncomingHandler",
+      "filePath": "gateway/platforms/dingtalk.py",
+      "lineRange": [
+        1402,
+        1503
+      ],
+      "summary": "_IncomingHandler 是 dingtalk.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:gateway/platforms/email.py",
+      "type": "file",
+      "name": "email.py",
+      "filePath": "gateway/platforms/email.py",
+      "summary": "email.py 是 python 源文件，包含 8 个函数、1 个类、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_send_imap_id",
+      "type": "function",
+      "name": "_send_imap_id",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        68,
+        88
+      ],
+      "summary": "_send_imap_id 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_is_automated_sender",
+      "type": "function",
+      "name": "_is_automated_sender",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        91,
+        100
+      ],
+      "summary": "_is_automated_sender 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:check_email_requirements",
+      "type": "function",
+      "name": "check_email_requirements",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        102,
+        110
+      ],
+      "summary": "check_email_requirements 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_decode_header_value",
+      "type": "function",
+      "name": "_decode_header_value",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        113,
+        122
+      ],
+      "summary": "_decode_header_value 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_extract_text_body",
+      "type": "function",
+      "name": "_extract_text_body",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        125,
+        160
+      ],
+      "summary": "_extract_text_body 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_strip_html",
+      "type": "function",
+      "name": "_strip_html",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        163,
+        174
+      ],
+      "summary": "_strip_html 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_extract_email_address",
+      "type": "function",
+      "name": "_extract_email_address",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        177,
+        182
+      ],
+      "summary": "_extract_email_address 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/email.py:_extract_attachments",
+      "type": "function",
+      "name": "_extract_attachments",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        185,
+        242
+      ],
+      "summary": "_extract_attachments 是 email.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/platforms/email.py:EmailAdapter",
+      "type": "class",
+      "name": "EmailAdapter",
+      "filePath": "gateway/platforms/email.py",
+      "lineRange": [
+        245,
+        773
+      ],
+      "summary": "EmailAdapter 是 email.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/platforms/feishu_comment_rules.py",
+      "type": "file",
+      "name": "feishu_comment_rules.py",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "summary": "feishu_comment_rules.py 是 python 源文件，包含 14 个函数、4 个类、18 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_parse_frozenset",
+      "type": "function",
+      "name": "_parse_frozenset",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        114,
+        120
+      ],
+      "summary": "_parse_frozenset 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_parse_document_rule",
+      "type": "function",
+      "name": "_parse_document_rule",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        123,
+        133
+      ],
+      "summary": "_parse_document_rule 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:load_config",
+      "type": "function",
+      "name": "load_config",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        136,
+        158
+      ],
+      "summary": "load_config 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:has_wiki_keys",
+      "type": "function",
+      "name": "has_wiki_keys",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        165,
+        167
+      ],
+      "summary": "has_wiki_keys 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:resolve_rule",
+      "type": "function",
+      "name": "resolve_rule",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        170,
+        217
+      ],
+      "summary": "resolve_rule 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_load_pairing_approved",
+      "type": "function",
+      "name": "_load_pairing_approved",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        224,
+        232
+      ],
+      "summary": "_load_pairing_approved 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_save_pairing",
+      "type": "function",
+      "name": "_save_pairing",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        235,
+        243
+      ],
+      "summary": "_save_pairing 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:pairing_add",
+      "type": "function",
+      "name": "pairing_add",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        246,
+        257
+      ],
+      "summary": "pairing_add 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:pairing_remove",
+      "type": "function",
+      "name": "pairing_remove",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        260,
+        271
+      ],
+      "summary": "pairing_remove 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:pairing_list",
+      "type": "function",
+      "name": "pairing_list",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        274,
+        278
+      ],
+      "summary": "pairing_list 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:is_user_allowed",
+      "type": "function",
+      "name": "is_user_allowed",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        285,
+        291
+      ],
+      "summary": "is_user_allowed 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_print_status",
+      "type": "function",
+      "name": "_print_status",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        298,
+        328
+      ],
+      "summary": "_print_status 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_do_check",
+      "type": "function",
+      "name": "_do_check",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        331,
+        347
+      ],
+      "summary": "_do_check 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment_rules.py:_main",
+      "type": "function",
+      "name": "_main",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        350,
+        424
+      ],
+      "summary": "_main 是 feishu_comment_rules.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_comment_rules.py:CommentDocumentRule",
+      "type": "class",
+      "name": "CommentDocumentRule",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        43,
+        47
+      ],
+      "summary": "CommentDocumentRule 是 feishu_comment_rules.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_comment_rules.py:CommentsConfig",
+      "type": "class",
+      "name": "CommentsConfig",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        51,
+        56
+      ],
+      "summary": "CommentsConfig 是 feishu_comment_rules.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_comment_rules.py:ResolvedCommentRule",
+      "type": "class",
+      "name": "ResolvedCommentRule",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        60,
+        65
+      ],
+      "summary": "ResolvedCommentRule 是 feishu_comment_rules.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_comment_rules.py:_MtimeCache",
+      "type": "class",
+      "name": "_MtimeCache",
+      "filePath": "gateway/platforms/feishu_comment_rules.py",
+      "lineRange": [
+        72,
+        103
+      ],
+      "summary": "_MtimeCache 是 feishu_comment_rules.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gateway/platforms/feishu_comment.py",
+      "type": "file",
+      "name": "feishu_comment.py",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "summary": "feishu_comment.py 是 python 源文件，包含 32 个函数、32 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_build_request",
+      "type": "function",
+      "name": "_build_request",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        37,
+        57
+      ],
+      "summary": "_build_request 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_exec_request",
+      "type": "function",
+      "name": "_exec_request",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        60,
+        95
+      ],
+      "summary": "_exec_request 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:parse_drive_comment_event",
+      "type": "function",
+      "name": "parse_drive_comment_event",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        103,
+        146
+      ],
+      "summary": "parse_drive_comment_event 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:add_comment_reaction",
+      "type": "function",
+      "name": "add_comment_reaction",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        156,
+        203
+      ],
+      "summary": "add_comment_reaction 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:delete_comment_reaction",
+      "type": "function",
+      "name": "delete_comment_reaction",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        206,
+        243
+      ],
+      "summary": "delete_comment_reaction 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:query_document_meta",
+      "type": "function",
+      "name": "query_document_meta",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        258,
+        297
+      ],
+      "summary": "query_document_meta 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:batch_query_comment",
+      "type": "function",
+      "name": "batch_query_comment",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        304,
+        352
+      ],
+      "summary": "batch_query_comment 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:list_whole_comments",
+      "type": "function",
+      "name": "list_whole_comments",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        355,
+        395
+      ],
+      "summary": "list_whole_comments 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:list_comment_replies",
+      "type": "function",
+      "name": "list_comment_replies",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        398,
+        462
+      ],
+      "summary": "list_comment_replies 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_sanitize_comment_text",
+      "type": "function",
+      "name": "_sanitize_comment_text",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        465,
+        467
+      ],
+      "summary": "_sanitize_comment_text 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:reply_to_comment",
+      "type": "function",
+      "name": "reply_to_comment",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        470,
+        501
+      ],
+      "summary": "reply_to_comment 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:add_whole_comment",
+      "type": "function",
+      "name": "add_whole_comment",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        504,
+        530
+      ],
+      "summary": "add_whole_comment 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_chunk_text",
+      "type": "function",
+      "name": "_chunk_text",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        536,
+        551
+      ],
+      "summary": "_chunk_text 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:deliver_comment_reply",
+      "type": "function",
+      "name": "deliver_comment_reply",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        554,
+        594
+      ],
+      "summary": "deliver_comment_reply 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_extract_reply_text",
+      "type": "function",
+      "name": "_extract_reply_text",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        602,
+        623
+      ],
+      "summary": "_extract_reply_text 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_get_reply_user_id",
+      "type": "function",
+      "name": "_get_reply_user_id",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        626,
+        631
+      ],
+      "summary": "_get_reply_user_id 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_extract_semantic_text",
+      "type": "function",
+      "name": "_extract_semantic_text",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        634,
+        659
+      ],
+      "summary": "_extract_semantic_text 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_extract_docs_links",
+      "type": "function",
+      "name": "_extract_docs_links",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        678,
+        708
+      ],
+      "summary": "_extract_docs_links 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_reverse_lookup_wiki_token",
+      "type": "function",
+      "name": "_reverse_lookup_wiki_token",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        711,
+        729
+      ],
+      "summary": "_reverse_lookup_wiki_token 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_resolve_wiki_nodes",
+      "type": "function",
+      "name": "_resolve_wiki_nodes",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        732,
+        767
+      ],
+      "summary": "_resolve_wiki_nodes 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_format_referenced_docs",
+      "type": "function",
+      "name": "_format_referenced_docs",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        770,
+        783
+      ],
+      "summary": "_format_referenced_docs 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_truncate",
+      "type": "function",
+      "name": "_truncate",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        795,
+        799
+      ],
+      "summary": "_truncate 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_select_local_timeline",
+      "type": "function",
+      "name": "_select_local_timeline",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        802,
+        830
+      ],
+      "summary": "_select_local_timeline 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_select_whole_timeline",
+      "type": "function",
+      "name": "_select_whole_timeline",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        833,
+        865
+      ],
+      "summary": "_select_whole_timeline 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:build_local_comment_prompt",
+      "type": "function",
+      "name": "build_local_comment_prompt",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        884,
+        926
+      ],
+      "summary": "build_local_comment_prompt 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:build_whole_comment_prompt",
+      "type": "function",
+      "name": "build_whole_comment_prompt",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        929,
+        967
+      ],
+      "summary": "build_whole_comment_prompt 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_resolve_model_and_runtime",
+      "type": "function",
+      "name": "_resolve_model_and_runtime",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        975,
+        993
+      ],
+      "summary": "_resolve_model_and_runtime 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_session_key",
+      "type": "function",
+      "name": "_session_key",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        1010,
+        1011
+      ],
+      "summary": "_session_key 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_load_session_history",
+      "type": "function",
+      "name": "_load_session_history",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        1014,
+        1026
+      ],
+      "summary": "_load_session_history 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_save_session_history",
+      "type": "function",
+      "name": "_save_session_history",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        1029,
+        1044
+      ],
+      "summary": "_save_session_history 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:_run_comment_agent",
+      "type": "function",
+      "name": "_run_comment_agent",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        1047,
+        1107
+      ],
+      "summary": "_run_comment_agent 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_comment.py:handle_drive_comment_event",
+      "type": "function",
+      "name": "handle_drive_comment_event",
+      "filePath": "gateway/platforms/feishu_comment.py",
+      "lineRange": [
+        1120,
+        1382
+      ],
+      "summary": "handle_drive_comment_event 是 feishu_comment.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gateway/platforms/feishu_meeting_invite.py",
+      "type": "file",
+      "name": "feishu_meeting_invite.py",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "summary": "feishu_meeting_invite.py 是 python 源文件，包含 9 个函数、3 个类、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:_as_dict",
+      "type": "function",
+      "name": "_as_dict",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        49,
+        61
+      ],
+      "summary": "_as_dict 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:_content_payload",
+      "type": "function",
+      "name": "_content_payload",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        64,
+        78
+      ],
+      "summary": "_content_payload 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:_int_field",
+      "type": "function",
+      "name": "_int_field",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        81,
+        87
+      ],
+      "summary": "_int_field 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:_parse_user",
+      "type": "function",
+      "name": "_parse_user",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        90,
+        100
+      ],
+      "summary": "_parse_user 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:_parse_meeting",
+      "type": "function",
+      "name": "_parse_meeting",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        103,
+        114
+      ],
+      "summary": "_parse_meeting 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:parse_meeting_invited_event",
+      "type": "function",
+      "name": "parse_meeting_invited_event",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        117,
+        135
+      ],
+      "summary": "parse_meeting_invited_event 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:build_meeting_invite_prompt",
+      "type": "function",
+      "name": "build_meeting_invite_prompt",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        138,
+        156
+      ],
+      "summary": "build_meeting_invite_prompt 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:_dedup_key",
+      "type": "function",
+      "name": "_dedup_key",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        159,
+        164
+      ],
+      "summary": "_dedup_key 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:gateway/platforms/feishu_meeting_invite.py:handle_meeting_invited_event",
+      "type": "function",
+      "name": "handle_meeting_invited_event",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        167,
+        212
+      ],
+      "summary": "handle_meeting_invited_event 是 feishu_meeting_invite.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInviteUser",
+      "type": "class",
+      "name": "MeetingInviteUser",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        24,
+        28
+      ],
+      "summary": "MeetingInviteUser 是 feishu_meeting_invite.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInviteMeeting",
+      "type": "class",
+      "name": "MeetingInviteMeeting",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        32,
+        38
+      ],
+      "summary": "MeetingInviteMeeting 是 feishu_meeting_invite.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInvitedPayload",
+      "type": "class",
+      "name": "MeetingInvitedPayload",
+      "filePath": "gateway/platforms/feishu_meeting_invite.py",
+      "lineRange": [
+        42,
+        46
+      ],
+      "summary": "MeetingInvitedPayload 是 feishu_meeting_invite.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_normalize_channel_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_normalize_channel_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_channel_target_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_channel_target_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_session_entry_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_session_entry_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_session_entry_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_session_entry_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:build_channel_directory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:build_channel_directory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_build_discord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_build_discord",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_build_slack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_build_slack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_build_from_sessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:_build_from_sessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:load_directory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:load_directory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:lookup_channel_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:lookup_channel_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:resolve_channel_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:resolve_channel_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:format_directory_for_display",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/channel_directory.py",
+      "target": "function:gateway/channel_directory.py:format_directory_for_display",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_coerce_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_coerce_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_coerce_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_coerce_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_coerce_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_coerce_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_normalize_unauthorized_dm_behavior",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_normalize_unauthorized_dm_behavior",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_normalize_notice_delivery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_normalize_notice_delivery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_ensure_platform_extra_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_ensure_platform_extra_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:load_gateway_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:load_gateway_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_validate_gateway_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_validate_gateway_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_apply_env_overrides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "function:gateway/config.py:_apply_env_overrides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:Platform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:Platform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:HomeChannel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:HomeChannel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:SessionResetPolicy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:SessionResetPolicy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:PlatformConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:PlatformConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:StreamingConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:StreamingConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:GatewayConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/config.py",
+      "target": "class:gateway/config.py:GatewayConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_is_silence_narration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_is_silence_narration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_looks_like_telegram_private_chat_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_looks_like_telegram_private_chat_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_looks_like_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_looks_like_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_send_result_failed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_send_result_failed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_send_result_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_send_result_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_is_thread_not_found_delivery_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "function:gateway/delivery.py:_is_thread_not_found_delivery_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "class:gateway/delivery.py:DeliveryTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "class:gateway/delivery.py:DeliveryTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "class:gateway/delivery.py:DeliveryRouter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/delivery.py",
+      "target": "class:gateway/delivery.py:DeliveryRouter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/display_config.py",
+      "target": "function:gateway/display_config.py:resolve_display_setting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/display_config.py",
+      "target": "function:gateway/display_config.py:resolve_display_setting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/display_config.py",
+      "target": "function:gateway/display_config.py:_normalise",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/display_config.py",
+      "target": "function:gateway/display_config.py:_normalise",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/hooks.py",
+      "target": "class:gateway/hooks.py:HookRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/hooks.py",
+      "target": "class:gateway/hooks.py:HookRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/kanban_watchers.py",
+      "target": "class:gateway/kanban_watchers.py:GatewayKanbanWatchersMixin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/kanban_watchers.py",
+      "target": "class:gateway/kanban_watchers.py:GatewayKanbanWatchersMixin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:_get_rss_mb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:_get_rss_mb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:log_memory_usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:log_memory_usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:_monitor_loop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:_monitor_loop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:start_memory_monitoring",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:start_memory_monitoring",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:stop_memory_monitoring",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:stop_memory_monitoring",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:is_running",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/memory_monitor.py",
+      "target": "function:gateway/memory_monitor.py:is_running",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/mirror.py",
+      "target": "function:gateway/mirror.py:mirror_to_session",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/mirror.py",
+      "target": "function:gateway/mirror.py:mirror_to_session",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/mirror.py",
+      "target": "function:gateway/mirror.py:_find_session_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/mirror.py",
+      "target": "function:gateway/mirror.py:_find_session_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/mirror.py",
+      "target": "function:gateway/mirror.py:_append_to_sqlite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/mirror.py",
+      "target": "function:gateway/mirror.py:_append_to_sqlite",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/pairing.py",
+      "target": "function:gateway/pairing.py:_secure_write",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/pairing.py",
+      "target": "function:gateway/pairing.py:_secure_write",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/pairing.py",
+      "target": "class:gateway/pairing.py:PairingStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/pairing.py",
+      "target": "class:gateway/pairing.py:PairingStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platform_registry.py",
+      "target": "class:gateway/platform_registry.py:PlatformEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platform_registry.py",
+      "target": "class:gateway/platform_registry.py:PlatformEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platform_registry.py",
+      "target": "class:gateway/platform_registry.py:PlatformRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platform_registry.py",
+      "target": "class:gateway/platform_registry.py:PlatformRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/__init__.py",
+      "target": "function:gateway/platforms/__init__.py:__getattr__",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/__init__.py",
+      "target": "function:gateway/platforms/__init__.py:__getattr__",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/__init__.py",
+      "target": "function:gateway/platforms/__init__.py:__dir__",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/__init__.py",
+      "target": "function:gateway/platforms/__init__.py:__dir__",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/_http_client_limits.py",
+      "target": "function:gateway/platforms/_http_client_limits.py:platform_httpx_limits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/_http_client_limits.py",
+      "target": "function:gateway/platforms/_http_client_limits.py:platform_httpx_limits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_hermes_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_hermes_version",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_coerce_port",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_coerce_port",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_coerce_request_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_coerce_request_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_normalize_chat_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_normalize_chat_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_normalize_multimodal_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_normalize_multimodal_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_content_has_visible_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_content_has_visible_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_multimodal_validation_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_multimodal_validation_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_session_chat_user_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_session_chat_user_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:check_api_server_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:check_api_server_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_openai_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_openai_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_make_request_fingerprint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_make_request_fingerprint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_derive_chat_session_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "function:gateway/platforms/api_server.py:_derive_chat_session_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "class:gateway/platforms/api_server.py:ResponseStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "class:gateway/platforms/api_server.py:ResponseStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "class:gateway/platforms/api_server.py:_IdempotencyCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "class:gateway/platforms/api_server.py:_IdempotencyCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "class:gateway/platforms/api_server.py:APIServerAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/api_server.py",
+      "target": "class:gateway/platforms/api_server.py:APIServerAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_platform_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_platform_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_float_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_float_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_thread_metadata_for_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_thread_metadata_for_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_reply_anchor_for_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_reply_anchor_for_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:should_send_media_as_audio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:should_send_media_as_audio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:utf16_len",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:utf16_len",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_prefix_within_utf16_limit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_prefix_within_utf16_limit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_custom_unit_to_cp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_custom_unit_to_cp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:is_network_accessible",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:is_network_accessible",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_detect_macos_system_proxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_detect_macos_system_proxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_split_host_port",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_split_host_port",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_no_proxy_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_no_proxy_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_no_proxy_entry_matches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_no_proxy_entry_matches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:should_bypass_proxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:should_bypass_proxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:resolve_proxy_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:resolve_proxy_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:proxy_kwargs_for_bot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:proxy_kwargs_for_bot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:proxy_kwargs_for_aiohttp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:proxy_kwargs_for_aiohttp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:is_host_excluded_by_no_proxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:is_host_excluded_by_no_proxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:safe_url_for_log",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:safe_url_for_log",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_ssrf_redirect_guard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_ssrf_redirect_guard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_image_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_image_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_looks_like_image",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_looks_like_image",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_image_from_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_image_from_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_image_from_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_image_from_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cleanup_image_cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cleanup_image_cache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_audio_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_audio_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_audio_from_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_audio_from_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_audio_from_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_audio_from_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_video_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_video_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_video_from_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_video_from_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_allowed_roots",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_allowed_roots",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_recency_seconds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_recency_seconds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_strict_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_strict_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_denied_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_media_delivery_denied_paths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_path_under_denied_prefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_path_under_denied_prefix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_file_is_recently_produced",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_file_is_recently_produced",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_path_is_within",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_path_is_within",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:validate_media_delivery_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:validate_media_delivery_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_log_safe_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_log_safe_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_document_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:get_document_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_document_from_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_document_from_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cleanup_document_cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cleanup_document_cache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_resolve_media_ext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_resolve_media_ext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_media_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:cache_media_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:coerce_plaintext_gateway_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:coerce_plaintext_gateway_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:merge_pending_message_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:merge_pending_message_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:resolve_channel_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:resolve_channel_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:resolve_channel_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:resolve_channel_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_strip_media_directives",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "function:gateway/platforms/base.py:_strip_media_directives",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:CachedMedia",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:CachedMedia",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:MessageType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:MessageType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:ProcessingOutcome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:ProcessingOutcome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:MessageEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:MessageEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:TextDebounceState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:TextDebounceState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:SendResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:SendResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:EphemeralReply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:EphemeralReply",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:BasePlatformAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/base.py",
+      "target": "class:gateway/platforms/base.py:BasePlatformAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "function:gateway/platforms/bluebubbles.py:_redact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "function:gateway/platforms/bluebubbles.py:_redact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "function:gateway/platforms/bluebubbles.py:check_bluebubbles_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "function:gateway/platforms/bluebubbles.py:check_bluebubbles_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "function:gateway/platforms/bluebubbles.py:_normalize_server_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "function:gateway/platforms/bluebubbles.py:_normalize_server_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "class:gateway/platforms/bluebubbles.py:BlueBubblesAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/bluebubbles.py",
+      "target": "class:gateway/platforms/bluebubbles.py:BlueBubblesAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/dingtalk.py",
+      "target": "function:gateway/platforms/dingtalk.py:check_dingtalk_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/dingtalk.py",
+      "target": "function:gateway/platforms/dingtalk.py:check_dingtalk_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/dingtalk.py",
+      "target": "class:gateway/platforms/dingtalk.py:DingTalkAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/dingtalk.py",
+      "target": "class:gateway/platforms/dingtalk.py:DingTalkAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/dingtalk.py",
+      "target": "class:gateway/platforms/dingtalk.py:_IncomingHandler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/dingtalk.py",
+      "target": "class:gateway/platforms/dingtalk.py:_IncomingHandler",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_send_imap_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_send_imap_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_is_automated_sender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_is_automated_sender",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:check_email_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:check_email_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_decode_header_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_decode_header_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_extract_text_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_extract_text_body",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_strip_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_strip_html",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_extract_email_address",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_extract_email_address",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_extract_attachments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "function:gateway/platforms/email.py:_extract_attachments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "class:gateway/platforms/email.py:EmailAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/email.py",
+      "target": "class:gateway/platforms/email.py:EmailAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_parse_frozenset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_parse_frozenset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_parse_document_rule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_parse_document_rule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:load_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:load_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:has_wiki_keys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:has_wiki_keys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:resolve_rule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:resolve_rule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_load_pairing_approved",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_load_pairing_approved",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_save_pairing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_save_pairing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:pairing_add",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:pairing_add",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:pairing_remove",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:pairing_remove",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:pairing_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:pairing_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:is_user_allowed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:is_user_allowed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_print_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_print_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_do_check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_do_check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "function:gateway/platforms/feishu_comment_rules.py:_main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:CommentDocumentRule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:CommentDocumentRule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:CommentsConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:CommentsConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:ResolvedCommentRule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:ResolvedCommentRule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:_MtimeCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment_rules.py",
+      "target": "class:gateway/platforms/feishu_comment_rules.py:_MtimeCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_build_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_build_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_exec_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_exec_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:parse_drive_comment_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:parse_drive_comment_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:add_comment_reaction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:add_comment_reaction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:delete_comment_reaction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:delete_comment_reaction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:query_document_meta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:query_document_meta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:batch_query_comment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:batch_query_comment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:list_whole_comments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:list_whole_comments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:list_comment_replies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:list_comment_replies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_sanitize_comment_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_sanitize_comment_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:reply_to_comment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:reply_to_comment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:add_whole_comment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:add_whole_comment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_chunk_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_chunk_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:deliver_comment_reply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:deliver_comment_reply",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_extract_reply_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_extract_reply_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_get_reply_user_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_get_reply_user_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_extract_semantic_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_extract_semantic_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_extract_docs_links",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_extract_docs_links",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_reverse_lookup_wiki_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_reverse_lookup_wiki_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_resolve_wiki_nodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_resolve_wiki_nodes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_format_referenced_docs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_format_referenced_docs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_truncate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_truncate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_select_local_timeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_select_local_timeline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_select_whole_timeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_select_whole_timeline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:build_local_comment_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:build_local_comment_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:build_whole_comment_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:build_whole_comment_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_resolve_model_and_runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_resolve_model_and_runtime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_session_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_session_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_load_session_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_load_session_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_save_session_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_save_session_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_run_comment_agent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:_run_comment_agent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:handle_drive_comment_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_comment.py",
+      "target": "function:gateway/platforms/feishu_comment.py:handle_drive_comment_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_as_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_as_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_content_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_content_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_int_field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_int_field",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_parse_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_parse_user",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_parse_meeting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_parse_meeting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:parse_meeting_invited_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:parse_meeting_invited_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:build_meeting_invite_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:build_meeting_invite_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_dedup_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:_dedup_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:handle_meeting_invited_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "function:gateway/platforms/feishu_meeting_invite.py:handle_meeting_invited_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInviteUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInviteUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInviteMeeting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInviteMeeting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInvitedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:gateway/platforms/feishu_meeting_invite.py",
+      "target": "class:gateway/platforms/feishu_meeting_invite.py:MeetingInvitedPayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/acp-internals.md",
+      "type": "document",
+      "name": "acp-internals.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/acp-internals.md",
+      "summary": "acp-internals.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-platform-adapters.md",
+      "type": "document",
+      "name": "adding-platform-adapters.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-platform-adapters.md",
+      "summary": "adding-platform-adapters.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-providers.md",
+      "type": "document",
+      "name": "adding-providers.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-providers.md",
+      "summary": "adding-providers.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-tools.md",
+      "type": "document",
+      "name": "adding-tools.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-tools.md",
+      "summary": "adding-tools.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin",
+        "tooling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/agent-loop.md",
+      "type": "document",
+      "name": "agent-loop.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/agent-loop.md",
+      "summary": "agent-loop.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/architecture.md",
+      "type": "document",
+      "name": "architecture.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/architecture.md",
+      "summary": "architecture.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/browser-supervisor.md",
+      "type": "document",
+      "name": "browser-supervisor.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/browser-supervisor.md",
+      "summary": "browser-supervisor.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/context-compression-and-caching.md",
+      "type": "document",
+      "name": "context-compression-and-caching.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/context-compression-and-caching.md",
+      "summary": "context-compression-and-caching.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/context-engine-plugin.md",
+      "type": "document",
+      "name": "context-engine-plugin.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/context-engine-plugin.md",
+      "summary": "context-engine-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/contributing.md",
+      "type": "document",
+      "name": "contributing.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/contributing.md",
+      "summary": "contributing.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/creating-skills.md",
+      "type": "document",
+      "name": "creating-skills.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/creating-skills.md",
+      "summary": "creating-skills.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/cron-internals.md",
+      "type": "document",
+      "name": "cron-internals.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/cron-internals.md",
+      "summary": "cron-internals.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/extending-the-cli.md",
+      "type": "document",
+      "name": "extending-the-cli.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/extending-the-cli.md",
+      "summary": "extending-the-cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/gateway-internals.md",
+      "type": "document",
+      "name": "gateway-internals.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/gateway-internals.md",
+      "summary": "gateway-internals.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "gateway",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/image-gen-provider-plugin.md",
+      "type": "document",
+      "name": "image-gen-provider-plugin.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/image-gen-provider-plugin.md",
+      "summary": "image-gen-provider-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/memory-provider-plugin.md",
+      "type": "document",
+      "name": "memory-provider-plugin.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/memory-provider-plugin.md",
+      "summary": "memory-provider-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/model-provider-plugin.md",
+      "type": "document",
+      "name": "model-provider-plugin.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/model-provider-plugin.md",
+      "summary": "model-provider-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/plugin-llm-access.md",
+      "type": "document",
+      "name": "plugin-llm-access.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/plugin-llm-access.md",
+      "summary": "plugin-llm-access.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/programmatic-integration.md",
+      "type": "document",
+      "name": "programmatic-integration.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/programmatic-integration.md",
+      "summary": "programmatic-integration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/prompt-assembly.md",
+      "type": "document",
+      "name": "prompt-assembly.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/prompt-assembly.md",
+      "summary": "prompt-assembly.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,2681 @@
+{
+  "nodes": [
+    {
+      "id": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "type": "file",
+      "name": "pack.py",
+      "filePath": "skills/productivity/powerpoint/scripts/office/pack.py",
+      "summary": "pack.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/pack.py:pack",
+      "type": "function",
+      "name": "pack",
+      "filePath": "skills/productivity/powerpoint/scripts/office/pack.py",
+      "lineRange": [
+        24,
+        66
+      ],
+      "summary": "pack 是 pack.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/pack.py:_run_validation",
+      "type": "function",
+      "name": "_run_validation",
+      "filePath": "skills/productivity/powerpoint/scripts/office/pack.py",
+      "lineRange": [
+        69,
+        105
+      ],
+      "summary": "_run_validation 是 pack.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/productivity/powerpoint/scripts/office/pack.py:_condense_xml",
+      "type": "function",
+      "name": "_condense_xml",
+      "filePath": "skills/productivity/powerpoint/scripts/office/pack.py",
+      "lineRange": [
+        108,
+        128
+      ],
+      "summary": "_condense_xml 是 pack.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
+      "type": "config",
+      "name": "mc.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
+      "summary": "mc.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "document:skills/productivity/teams-meeting-pipeline/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/productivity/teams-meeting-pipeline/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/red-teaming/godmode/references/jailbreak-templates.md",
+      "type": "document",
+      "name": "jailbreak-templates.md",
+      "filePath": "skills/red-teaming/godmode/references/jailbreak-templates.md",
+      "summary": "jailbreak-templates.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/red-teaming/godmode/references/refusal-detection.md",
+      "type": "document",
+      "name": "refusal-detection.md",
+      "filePath": "skills/red-teaming/godmode/references/refusal-detection.md",
+      "summary": "refusal-detection.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "type": "file",
+      "name": "auto_jailbreak.py",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "summary": "auto_jailbreak.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_detect_model_family",
+      "type": "function",
+      "name": "_detect_model_family",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        297,
+        318
+      ],
+      "summary": "_detect_model_family 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_get_current_model",
+      "type": "function",
+      "name": "_get_current_model",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        321,
+        336
+      ],
+      "summary": "_get_current_model 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_get_api_key",
+      "type": "function",
+      "name": "_get_api_key",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        339,
+        348
+      ],
+      "summary": "_get_api_key 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_test_query",
+      "type": "function",
+      "name": "_test_query",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        351,
+        368
+      ],
+      "summary": "_test_query 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_build_messages",
+      "type": "function",
+      "name": "_build_messages",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        371,
+        380
+      ],
+      "summary": "_build_messages 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_write_config",
+      "type": "function",
+      "name": "_write_config",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        383,
+        407
+      ],
+      "summary": "_write_config 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_write_prefill",
+      "type": "function",
+      "name": "_write_prefill",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        410,
+        414
+      ],
+      "summary": "_write_prefill 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:auto_jailbreak",
+      "type": "function",
+      "name": "auto_jailbreak",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        421,
+        713
+      ],
+      "summary": "auto_jailbreak 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:undo_jailbreak",
+      "type": "function",
+      "name": "undo_jailbreak",
+      "filePath": "skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "lineRange": [
+        716,
+        741
+      ],
+      "summary": "undo_jailbreak 是 auto_jailbreak.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "type": "file",
+      "name": "godmode_race.py",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "summary": "godmode_race.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/godmode_race.py:is_refusal",
+      "type": "function",
+      "name": "is_refusal",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "lineRange": [
+        168,
+        173
+      ],
+      "summary": "is_refusal 是 godmode_race.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/godmode_race.py:count_hedges",
+      "type": "function",
+      "name": "count_hedges",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "lineRange": [
+        176,
+        182
+      ],
+      "summary": "count_hedges 是 godmode_race.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/godmode_race.py:score_response",
+      "type": "function",
+      "name": "score_response",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "lineRange": [
+        185,
+        275
+      ],
+      "summary": "score_response 是 godmode_race.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/godmode_race.py:_query_model",
+      "type": "function",
+      "name": "_query_model",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "lineRange": [
+        282,
+        297
+      ],
+      "summary": "_query_model 是 godmode_race.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/godmode_race.py:race_models",
+      "type": "function",
+      "name": "race_models",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "lineRange": [
+        300,
+        397
+      ],
+      "summary": "race_models 是 godmode_race.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/godmode_race.py:race_godmode_classic",
+      "type": "function",
+      "name": "race_godmode_classic",
+      "filePath": "skills/red-teaming/godmode/scripts/godmode_race.py",
+      "lineRange": [
+        400,
+        498
+      ],
+      "summary": "race_godmode_classic 是 godmode_race.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:skills/red-teaming/godmode/scripts/load_godmode.py",
+      "type": "file",
+      "name": "load_godmode.py",
+      "filePath": "skills/red-teaming/godmode/scripts/load_godmode.py",
+      "summary": "load_godmode.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/load_godmode.py:_gm_load",
+      "type": "function",
+      "name": "_gm_load",
+      "filePath": "skills/red-teaming/godmode/scripts/load_godmode.py",
+      "lineRange": [
+        25,
+        30
+      ],
+      "summary": "_gm_load 是 load_godmode.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "type": "file",
+      "name": "parseltongue.py",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "summary": "parseltongue.py 是 python 源文件，包含 41 个函数、41 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_raw",
+      "type": "function",
+      "name": "_apply_raw",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        113,
+        115
+      ],
+      "summary": "_apply_raw 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetspeak",
+      "type": "function",
+      "name": "_apply_leetspeak",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        117,
+        119
+      ],
+      "summary": "_apply_leetspeak 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_unicode",
+      "type": "function",
+      "name": "_apply_unicode",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        121,
+        130
+      ],
+      "summary": "_apply_unicode 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_bubble",
+      "type": "function",
+      "name": "_apply_bubble",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        132,
+        141
+      ],
+      "summary": "_apply_bubble 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_spaced",
+      "type": "function",
+      "name": "_apply_spaced",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        143,
+        145
+      ],
+      "summary": "_apply_spaced 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_fullwidth",
+      "type": "function",
+      "name": "_apply_fullwidth",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        147,
+        156
+      ],
+      "summary": "_apply_fullwidth 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_zwj",
+      "type": "function",
+      "name": "_apply_zwj",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        158,
+        160
+      ],
+      "summary": "_apply_zwj 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mixedcase",
+      "type": "function",
+      "name": "_apply_mixedcase",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        162,
+        164
+      ],
+      "summary": "_apply_mixedcase 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_semantic",
+      "type": "function",
+      "name": "_apply_semantic",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        166,
+        168
+      ],
+      "summary": "_apply_semantic 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_dotted",
+      "type": "function",
+      "name": "_apply_dotted",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        170,
+        172
+      ],
+      "summary": "_apply_dotted 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_underscored",
+      "type": "function",
+      "name": "_apply_underscored",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        174,
+        176
+      ],
+      "summary": "_apply_underscored 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_reversed",
+      "type": "function",
+      "name": "_apply_reversed",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        180,
+        182
+      ],
+      "summary": "_apply_reversed 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_superscript",
+      "type": "function",
+      "name": "_apply_superscript",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        184,
+        186
+      ],
+      "summary": "_apply_superscript 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_smallcaps",
+      "type": "function",
+      "name": "_apply_smallcaps",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        188,
+        190
+      ],
+      "summary": "_apply_smallcaps 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_morse",
+      "type": "function",
+      "name": "_apply_morse",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        192,
+        194
+      ],
+      "summary": "_apply_morse 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_piglatin",
+      "type": "function",
+      "name": "_apply_piglatin",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        196,
+        205
+      ],
+      "summary": "_apply_piglatin 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_brackets",
+      "type": "function",
+      "name": "_apply_brackets",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        207,
+        209
+      ],
+      "summary": "_apply_brackets 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mathbold",
+      "type": "function",
+      "name": "_apply_mathbold",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        211,
+        220
+      ],
+      "summary": "_apply_mathbold 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mathitalic",
+      "type": "function",
+      "name": "_apply_mathitalic",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        222,
+        231
+      ],
+      "summary": "_apply_mathitalic 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_strikethrough",
+      "type": "function",
+      "name": "_apply_strikethrough",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        233,
+        235
+      ],
+      "summary": "_apply_strikethrough 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetheavy",
+      "type": "function",
+      "name": "_apply_leetheavy",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        237,
+        239
+      ],
+      "summary": "_apply_leetheavy 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_hyphenated",
+      "type": "function",
+      "name": "_apply_hyphenated",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        241,
+        243
+      ],
+      "summary": "_apply_hyphenated 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetunicode",
+      "type": "function",
+      "name": "_apply_leetunicode",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        247,
+        256
+      ],
+      "summary": "_apply_leetunicode 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_spacedmixed",
+      "type": "function",
+      "name": "_apply_spacedmixed",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        258,
+        260
+      ],
+      "summary": "_apply_spacedmixed 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_reversedleet",
+      "type": "function",
+      "name": "_apply_reversedleet",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        262,
+        264
+      ],
+      "summary": "_apply_reversedleet 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_bubblespaced",
+      "type": "function",
+      "name": "_apply_bubblespaced",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        266,
+        275
+      ],
+      "summary": "_apply_bubblespaced 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_unicodezwj",
+      "type": "function",
+      "name": "_apply_unicodezwj",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        277,
+        283
+      ],
+      "summary": "_apply_unicodezwj 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_base64hint",
+      "type": "function",
+      "name": "_apply_base64hint",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        285,
+        290
+      ],
+      "summary": "_apply_base64hint 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_hexencode",
+      "type": "function",
+      "name": "_apply_hexencode",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        292,
+        294
+      ],
+      "summary": "_apply_hexencode 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_acrostic",
+      "type": "function",
+      "name": "_apply_acrostic",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        296,
+        305
+      ],
+      "summary": "_apply_acrostic 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_dottedunicode",
+      "type": "function",
+      "name": "_apply_dottedunicode",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        307,
+        313
+      ],
+      "summary": "_apply_dottedunicode 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_fullwidthmixed",
+      "type": "function",
+      "name": "_apply_fullwidthmixed",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        315,
+        324
+      ],
+      "summary": "_apply_fullwidthmixed 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_triplelayer",
+      "type": "function",
+      "name": "_apply_triplelayer",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        326,
+        338
+      ],
+      "summary": "_apply_triplelayer 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_braille",
+      "type": "function",
+      "name": "to_braille",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        392,
+        394
+      ],
+      "summary": "to_braille 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_leetspeak",
+      "type": "function",
+      "name": "to_leetspeak",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        396,
+        398
+      ],
+      "summary": "to_leetspeak 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_bubble",
+      "type": "function",
+      "name": "to_bubble",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        400,
+        410
+      ],
+      "summary": "to_bubble 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_morse",
+      "type": "function",
+      "name": "to_morse",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        412,
+        422
+      ],
+      "summary": "to_morse 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:detect_triggers",
+      "type": "function",
+      "name": "detect_triggers",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        437,
+        446
+      ],
+      "summary": "detect_triggers 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:obfuscate_query",
+      "type": "function",
+      "name": "obfuscate_query",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        449,
+        478
+      ],
+      "summary": "obfuscate_query 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:generate_variants",
+      "type": "function",
+      "name": "generate_variants",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        481,
+        504
+      ],
+      "summary": "generate_variants 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/red-teaming/godmode/scripts/parseltongue.py:escalate_encoding",
+      "type": "function",
+      "name": "escalate_encoding",
+      "filePath": "skills/red-teaming/godmode/scripts/parseltongue.py",
+      "lineRange": [
+        507,
+        520
+      ],
+      "summary": "escalate_encoding 是 parseltongue.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/red-teaming/godmode/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/red-teaming/godmode/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "config:skills/red-teaming/godmode/templates/prefill-subtle.json",
+      "type": "config",
+      "name": "prefill-subtle.json",
+      "filePath": "skills/red-teaming/godmode/templates/prefill-subtle.json",
+      "summary": "prefill-subtle.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:skills/red-teaming/godmode/templates/prefill.json",
+      "type": "config",
+      "name": "prefill.json",
+      "filePath": "skills/red-teaming/godmode/templates/prefill.json",
+      "summary": "prefill.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:skills/research/arxiv/scripts/search_arxiv.py",
+      "type": "file",
+      "name": "search_arxiv.py",
+      "filePath": "skills/research/arxiv/scripts/search_arxiv.py",
+      "summary": "search_arxiv.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/research/arxiv/scripts/search_arxiv.py:search",
+      "type": "function",
+      "name": "search",
+      "filePath": "skills/research/arxiv/scripts/search_arxiv.py",
+      "lineRange": [
+        20,
+        79
+      ],
+      "summary": "search 是 search_arxiv.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:skills/research/arxiv/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/research/arxiv/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/research/blogwatcher/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/research/blogwatcher/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/research/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/research/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/research/llm-wiki/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/research/llm-wiki/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/research/polymarket/references/api-endpoints.md",
+      "type": "document",
+      "name": "api-endpoints.md",
+      "filePath": "skills/research/polymarket/references/api-endpoints.md",
+      "summary": "api-endpoints.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/research/polymarket/scripts/polymarket.py",
+      "type": "file",
+      "name": "polymarket.py",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "summary": "polymarket.py 是 python 源文件，包含 14 个函数、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        26,
+        37
+      ],
+      "summary": "_get 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:_parse_json_field",
+      "type": "function",
+      "name": "_parse_json_field",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        40,
+        47
+      ],
+      "summary": "_parse_json_field 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:_fmt_pct",
+      "type": "function",
+      "name": "_fmt_pct",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        50,
+        55
+      ],
+      "summary": "_fmt_pct 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:_fmt_volume",
+      "type": "function",
+      "name": "_fmt_volume",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        58,
+        68
+      ],
+      "summary": "_fmt_volume 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:_print_market",
+      "type": "function",
+      "name": "_print_market",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        71,
+        93
+      ],
+      "summary": "_print_market 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_search",
+      "type": "function",
+      "name": "cmd_search",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        96,
+        111
+      ],
+      "summary": "cmd_search 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_trending",
+      "type": "function",
+      "name": "cmd_trending",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        114,
+        127
+      ],
+      "summary": "cmd_trending 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_market",
+      "type": "function",
+      "name": "cmd_market",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        130,
+        149
+      ],
+      "summary": "cmd_market 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_event",
+      "type": "function",
+      "name": "cmd_event",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        152,
+        165
+      ],
+      "summary": "cmd_event 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_price",
+      "type": "function",
+      "name": "cmd_price",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        168,
+        176
+      ],
+      "summary": "cmd_price 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_book",
+      "type": "function",
+      "name": "cmd_book",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        179,
+        195
+      ],
+      "summary": "cmd_book 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_history",
+      "type": "function",
+      "name": "cmd_history",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        198,
+        211
+      ],
+      "summary": "cmd_history 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:cmd_trades",
+      "type": "function",
+      "name": "cmd_trades",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        214,
+        231
+      ],
+      "summary": "cmd_trades 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/research/polymarket/scripts/polymarket.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/research/polymarket/scripts/polymarket.py",
+      "lineRange": [
+        234,
+        280
+      ],
+      "summary": "main 是 polymarket.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/research/polymarket/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/research/polymarket/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/research/research-paper-writing/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/research/research-paper-writing/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-supp.tex",
+      "type": "file",
+      "name": "aaai2026-unified-supp.tex",
+      "filePath": "skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-supp.tex",
+      "summary": "aaai2026-unified-supp.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-template.tex",
+      "type": "file",
+      "name": "aaai2026-unified-template.tex",
+      "filePath": "skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-template.tex",
+      "summary": "aaai2026-unified-template.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/aaai2026/aaai2026.bib",
+      "type": "file",
+      "name": "aaai2026.bib",
+      "filePath": "skills/research/research-paper-writing/templates/aaai2026/aaai2026.bib",
+      "summary": "aaai2026.bib 是 bib 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bib",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 bib。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/aaai2026/aaai2026.bst",
+      "type": "file",
+      "name": "aaai2026.bst",
+      "filePath": "skills/research/research-paper-writing/templates/aaai2026/aaai2026.bst",
+      "summary": "aaai2026.bst 是 bst 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bst",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 bst。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/pack.py:pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/pack.py:pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/pack.py:_run_validation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/pack.py:_run_validation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/pack.py:_condense_xml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/productivity/powerpoint/scripts/office/pack.py",
+      "target": "function:skills/productivity/powerpoint/scripts/office/pack.py:_condense_xml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_detect_model_family",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_detect_model_family",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_get_current_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_get_current_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_get_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_get_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_test_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_test_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_build_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_build_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_write_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_write_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_write_prefill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:_write_prefill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:auto_jailbreak",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:auto_jailbreak",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:undo_jailbreak",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/auto_jailbreak.py",
+      "target": "function:skills/red-teaming/godmode/scripts/auto_jailbreak.py:undo_jailbreak",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:is_refusal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:is_refusal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:count_hedges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:count_hedges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:score_response",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:score_response",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:_query_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:_query_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:race_models",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:race_models",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:race_godmode_classic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/godmode_race.py",
+      "target": "function:skills/red-teaming/godmode/scripts/godmode_race.py:race_godmode_classic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/load_godmode.py",
+      "target": "function:skills/red-teaming/godmode/scripts/load_godmode.py:_gm_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/load_godmode.py",
+      "target": "function:skills/red-teaming/godmode/scripts/load_godmode.py:_gm_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_raw",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_raw",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetspeak",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetspeak",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_unicode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_unicode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_bubble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_bubble",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_spaced",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_spaced",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_fullwidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_fullwidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_zwj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_zwj",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mixedcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mixedcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_semantic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_semantic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_dotted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_dotted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_underscored",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_underscored",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_reversed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_reversed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_superscript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_superscript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_smallcaps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_smallcaps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_morse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_morse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_piglatin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_piglatin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_brackets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_brackets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mathbold",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mathbold",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mathitalic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_mathitalic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_strikethrough",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_strikethrough",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetheavy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetheavy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_hyphenated",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_hyphenated",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetunicode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_leetunicode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_spacedmixed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_spacedmixed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_reversedleet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_reversedleet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_bubblespaced",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_bubblespaced",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_unicodezwj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_unicodezwj",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_base64hint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_base64hint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_hexencode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_hexencode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_acrostic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_acrostic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_dottedunicode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_dottedunicode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_fullwidthmixed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_fullwidthmixed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_triplelayer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:_apply_triplelayer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_braille",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_braille",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_leetspeak",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_leetspeak",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_bubble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_bubble",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_morse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:to_morse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:detect_triggers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:detect_triggers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:obfuscate_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:obfuscate_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:generate_variants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:generate_variants",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:escalate_encoding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/red-teaming/godmode/scripts/parseltongue.py",
+      "target": "function:skills/red-teaming/godmode/scripts/parseltongue.py:escalate_encoding",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/arxiv/scripts/search_arxiv.py",
+      "target": "function:skills/research/arxiv/scripts/search_arxiv.py:search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/arxiv/scripts/search_arxiv.py",
+      "target": "function:skills/research/arxiv/scripts/search_arxiv.py:search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_parse_json_field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_parse_json_field",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_fmt_pct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_fmt_pct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_fmt_volume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_fmt_volume",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_print_market",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:_print_market",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_trending",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_trending",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_market",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_market",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_price",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_price",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_book",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_book",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_trades",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:cmd_trades",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/research/polymarket/scripts/polymarket.py",
+      "target": "function:skills/research/polymarket/scripts/polymarket.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

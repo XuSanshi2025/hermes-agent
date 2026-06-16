@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "file:datagen-config-examples/run_browser_tasks.sh",
+      "type": "file",
+      "name": "run_browser_tasks.sh",
+      "filePath": "datagen-config-examples/run_browser_tasks.sh",
+      "summary": "run_browser_tasks.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "config:datagen-config-examples/trajectory_compression.yaml",
+      "type": "config",
+      "name": "trajectory_compression.yaml",
+      "filePath": "datagen-config-examples/trajectory_compression.yaml",
+      "summary": "trajectory_compression.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:datagen-config-examples/web_research.yaml",
+      "type": "config",
+      "name": "web_research.yaml",
+      "filePath": "datagen-config-examples/web_research.yaml",
+      "summary": "web_research.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": []
+}

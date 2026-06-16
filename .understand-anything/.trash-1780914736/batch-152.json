@@ -1,0 +1,2044 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "type": "file",
+      "name": "help-hint.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "summary": "help-hint.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:HelpHint",
+      "type": "function",
+      "name": "HelpHint",
+      "filePath": "apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "lineRange": [
+        10,
+        33
+      ],
+      "summary": "HelpHint 是 help-hint.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:Section",
+      "type": "function",
+      "name": "Section",
+      "filePath": "apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "lineRange": [
+        35,
+        44
+      ],
+      "summary": "Section 是 help-hint.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:Row",
+      "type": "function",
+      "name": "Row",
+      "filePath": "apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "lineRange": [
+        46,
+        59
+      ],
+      "summary": "Row 是 help-hint.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "type": "file",
+      "name": "use-at-completions.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "summary": "use-at-completions.ts 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:starterEntries",
+      "type": "function",
+      "name": "starterEntries",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "lineRange": [
+        21,
+        31
+      ],
+      "summary": "starterEntries 是 use-at-completions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:classify",
+      "type": "function",
+      "name": "classify",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "lineRange": [
+        48,
+        73
+      ],
+      "summary": "classify 是 use-at-completions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:useAtCompletions",
+      "type": "function",
+      "name": "useAtCompletions",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "lineRange": [
+        76,
+        138
+      ],
+      "summary": "useAtCompletions 是 use-at-completions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts",
+      "type": "file",
+      "name": "use-live-completion-adapter.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts",
+      "summary": "use-live-completion-adapter.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts:useLiveCompletionAdapter",
+      "type": "function",
+      "name": "useLiveCompletionAdapter",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts",
+      "lineRange": [
+        17,
+        119
+      ],
+      "summary": "useLiveCompletionAdapter 是 use-live-completion-adapter.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "type": "file",
+      "name": "use-mic-recorder.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "summary": "use-mic-recorder.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts:micError",
+      "type": "function",
+      "name": "micError",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "lineRange": [
+        36,
+        60
+      ],
+      "summary": "micError 是 use-mic-recorder.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts:useMicRecorder",
+      "type": "function",
+      "name": "useMicRecorder",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "lineRange": [
+        62,
+        291
+      ],
+      "summary": "useMicRecorder 是 use-mic-recorder.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "type": "file",
+      "name": "use-slash-completions.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "summary": "use-slash-completions.ts 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts:textValue",
+      "type": "function",
+      "name": "textValue",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "lineRange": [
+        22,
+        35
+      ],
+      "summary": "textValue 是 use-slash-completions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts:useSlashCompletions",
+      "type": "function",
+      "name": "useSlashCompletions",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "lineRange": [
+        42,
+        114
+      ],
+      "summary": "useSlashCompletions 是 use-slash-completions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts",
+      "type": "file",
+      "name": "use-voice-conversation.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts",
+      "summary": "use-voice-conversation.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts:useVoiceConversation",
+      "type": "function",
+      "name": "useVoiceConversation",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts",
+      "lineRange": [
+        27,
+        390
+      ],
+      "summary": "useVoiceConversation 是 use-voice-conversation.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts",
+      "type": "file",
+      "name": "use-voice-recorder.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts",
+      "summary": "use-voice-recorder.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts:useVoiceRecorder",
+      "type": "function",
+      "name": "useVoiceRecorder",
+      "filePath": "apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts",
+      "lineRange": [
+        17,
+        116
+      ],
+      "summary": "useVoiceRecorder 是 use-voice-recorder.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/ime-composition-dom-repro.test.tsx",
+      "type": "file",
+      "name": "ime-composition-dom-repro.test.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/ime-composition-dom-repro.test.tsx",
+      "summary": "ime-composition-dom-repro.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/ime-composition-dom-repro.test.tsx:Harness",
+      "type": "function",
+      "name": "Harness",
+      "filePath": "apps/desktop/src/app/chat/composer/ime-composition-dom-repro.test.tsx",
+      "lineRange": [
+        20,
+        59
+      ],
+      "summary": "Harness 是 ime-composition-dom-repro.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/index.tsx:ChatBar",
+      "type": "function",
+      "name": "ChatBar",
+      "filePath": "apps/desktop/src/app/chat/composer/index.tsx",
+      "lineRange": [
+        107,
+        1584
+      ],
+      "summary": "ChatBar 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/index.tsx:ChatBarFallback",
+      "type": "function",
+      "name": "ChatBarFallback",
+      "filePath": "apps/desktop/src/app/chat/composer/index.tsx",
+      "lineRange": [
+        1586,
+        1611
+      ],
+      "summary": "ChatBarFallback 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "type": "file",
+      "name": "inline-refs.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "summary": "inline-refs.ts 是 typescript 源文件，包含 7 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:writeSessionDrag",
+      "type": "function",
+      "name": "writeSessionDrag",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        20,
+        23
+      ],
+      "summary": "writeSessionDrag 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:dragHasSession",
+      "type": "function",
+      "name": "dragHasSession",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        25,
+        27
+      ],
+      "summary": "dragHasSession 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:readSessionDrag",
+      "type": "function",
+      "name": "readSessionDrag",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        29,
+        43
+      ],
+      "summary": "readSessionDrag 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:sessionInlineRef",
+      "type": "function",
+      "name": "sessionInlineRef",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "sessionInlineRef 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:dragHasAttachments",
+      "type": "function",
+      "name": "dragHasAttachments",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        51,
+        65
+      ],
+      "summary": "dragHasAttachments 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:droppedFileInlineRef",
+      "type": "function",
+      "name": "droppedFileInlineRef",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        67,
+        84
+      ],
+      "summary": "droppedFileInlineRef 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:insertInlineRefsIntoEditor",
+      "type": "function",
+      "name": "insertInlineRefsIntoEditor",
+      "filePath": "apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "lineRange": [
+        86,
+        138
+      ],
+      "summary": "insertInlineRefsIntoEditor 是 inline-refs.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/queue-panel.tsx",
+      "type": "file",
+      "name": "queue-panel.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/queue-panel.tsx",
+      "summary": "queue-panel.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/queue-panel.tsx:QueuePanel",
+      "type": "function",
+      "name": "QueuePanel",
+      "filePath": "apps/desktop/src/app/chat/composer/queue-panel.tsx",
+      "lineRange": [
+        23,
+        130
+      ],
+      "summary": "QueuePanel 是 queue-panel.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/rich-editor.test.ts",
+      "type": "file",
+      "name": "rich-editor.test.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.test.ts",
+      "summary": "rich-editor.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "type": "file",
+      "name": "rich-editor.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "summary": "rich-editor.ts 是 typescript 源文件，包含 12 个函数、13 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:escapeHtml",
+      "type": "function",
+      "name": "escapeHtml",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        22,
+        24
+      ],
+      "summary": "escapeHtml 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:unquoteRef",
+      "type": "function",
+      "name": "unquoteRef",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        26,
+        32
+      ],
+      "summary": "unquoteRef 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refLabel",
+      "type": "function",
+      "name": "refLabel",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        34,
+        36
+      ],
+      "summary": "refLabel 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:quoteRefValue",
+      "type": "function",
+      "name": "quoteRefValue",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        39,
+        53
+      ],
+      "summary": "quoteRefValue 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refChipHtml",
+      "type": "function",
+      "name": "refChipHtml",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        55,
+        60
+      ],
+      "summary": "refChipHtml 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refChipElement",
+      "type": "function",
+      "name": "refChipElement",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        62,
+        78
+      ],
+      "summary": "refChipElement 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:appendTextWithBreaks",
+      "type": "function",
+      "name": "appendTextWithBreaks",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        80,
+        92
+      ],
+      "summary": "appendTextWithBreaks 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:appendComposerContents",
+      "type": "function",
+      "name": "appendComposerContents",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        94,
+        107
+      ],
+      "summary": "appendComposerContents 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:renderComposerContents",
+      "type": "function",
+      "name": "renderComposerContents",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        109,
+        112
+      ],
+      "summary": "renderComposerContents 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:composerHtml",
+      "type": "function",
+      "name": "composerHtml",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        115,
+        129
+      ],
+      "summary": "composerHtml 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:composerPlainText",
+      "type": "function",
+      "name": "composerPlainText",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        132,
+        155
+      ],
+      "summary": "composerPlainText 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:placeCaretEnd",
+      "type": "function",
+      "name": "placeCaretEnd",
+      "filePath": "apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "lineRange": [
+        157,
+        165
+      ],
+      "summary": "placeCaretEnd 是 rich-editor.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/skin-slash-popover.tsx",
+      "type": "file",
+      "name": "skin-slash-popover.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/skin-slash-popover.tsx",
+      "summary": "skin-slash-popover.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/skin-slash-popover.tsx:SkinSlashPopover",
+      "type": "function",
+      "name": "SkinSlashPopover",
+      "filePath": "apps/desktop/src/app/chat/composer/skin-slash-popover.tsx",
+      "lineRange": [
+        13,
+        61
+      ],
+      "summary": "SkinSlashPopover 是 skin-slash-popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/slash-nav-dom-repro.test.tsx",
+      "type": "file",
+      "name": "slash-nav-dom-repro.test.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/slash-nav-dom-repro.test.tsx",
+      "summary": "slash-nav-dom-repro.test.tsx 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/slash-nav-dom-repro.test.tsx:Harness",
+      "type": "function",
+      "name": "Harness",
+      "filePath": "apps/desktop/src/app/chat/composer/slash-nav-dom-repro.test.tsx",
+      "lineRange": [
+        14,
+        138
+      ],
+      "summary": "Harness 是 slash-nav-dom-repro.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/text-utils.test.ts",
+      "type": "file",
+      "name": "text-utils.test.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/text-utils.test.ts",
+      "summary": "text-utils.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "type": "file",
+      "name": "text-utils.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/text-utils.ts",
+      "summary": "text-utils.ts 是 typescript 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/text-utils.ts:blobDedupeKey",
+      "type": "function",
+      "name": "blobDedupeKey",
+      "filePath": "apps/desktop/src/app/chat/composer/text-utils.ts",
+      "lineRange": [
+        12,
+        18
+      ],
+      "summary": "blobDedupeKey 是 text-utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/text-utils.ts:extractClipboardImageBlobs",
+      "type": "function",
+      "name": "extractClipboardImageBlobs",
+      "filePath": "apps/desktop/src/app/chat/composer/text-utils.ts",
+      "lineRange": [
+        20,
+        81
+      ],
+      "summary": "extractClipboardImageBlobs 是 text-utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/text-utils.ts:textBeforeCaret",
+      "type": "function",
+      "name": "textBeforeCaret",
+      "filePath": "apps/desktop/src/app/chat/composer/text-utils.ts",
+      "lineRange": [
+        84,
+        97
+      ],
+      "summary": "textBeforeCaret 是 text-utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/text-utils.ts:detectTrigger",
+      "type": "function",
+      "name": "detectTrigger",
+      "filePath": "apps/desktop/src/app/chat/composer/text-utils.ts",
+      "lineRange": [
+        99,
+        107
+      ],
+      "summary": "detectTrigger 是 text-utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/trigger-popover.test.tsx",
+      "type": "file",
+      "name": "trigger-popover.test.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/trigger-popover.test.tsx",
+      "summary": "trigger-popover.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/trigger-popover.test.tsx:renderPopover",
+      "type": "function",
+      "name": "renderPopover",
+      "filePath": "apps/desktop/src/app/chat/composer/trigger-popover.test.tsx",
+      "lineRange": [
+        8,
+        19
+      ],
+      "summary": "renderPopover 是 trigger-popover.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "type": "file",
+      "name": "trigger-popover.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "summary": "trigger-popover.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/trigger-popover.tsx:completionIcon",
+      "type": "function",
+      "name": "completionIcon",
+      "filePath": "apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "lineRange": [
+        26,
+        43
+      ],
+      "summary": "completionIcon 是 trigger-popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/trigger-popover.tsx:ComposerTriggerPopover",
+      "type": "function",
+      "name": "ComposerTriggerPopover",
+      "filePath": "apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "lineRange": [
+        55,
+        116
+      ],
+      "summary": "ComposerTriggerPopover 是 trigger-popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/url-dialog.tsx",
+      "type": "file",
+      "name": "url-dialog.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/url-dialog.tsx",
+      "summary": "url-dialog.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/url-dialog.tsx:UrlDialog",
+      "type": "function",
+      "name": "UrlDialog",
+      "filePath": "apps/desktop/src/app/chat/composer/url-dialog.tsx",
+      "lineRange": [
+        18,
+        82
+      ],
+      "summary": "UrlDialog 是 url-dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "type": "file",
+      "name": "voice-activity.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "summary": "voice-activity.tsx 是 typescript 源文件，包含 7 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:getPlaybackAudioContext",
+      "type": "function",
+      "name": "getPlaybackAudioContext",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "lineRange": [
+        22,
+        37
+      ],
+      "summary": "getPlaybackAudioContext 是 voice-activity.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoiceLevelBars",
+      "type": "function",
+      "name": "VoiceLevelBars",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "lineRange": [
+        47,
+        69
+      ],
+      "summary": "VoiceLevelBars 是 voice-activity.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:getElementAnalyser",
+      "type": "function",
+      "name": "getElementAnalyser",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "lineRange": [
+        71,
+        95
+      ],
+      "summary": "getElementAnalyser 是 voice-activity.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:PlaybackWaveform",
+      "type": "function",
+      "name": "PlaybackWaveform",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "lineRange": [
+        105,
+        164
+      ],
+      "summary": "PlaybackWaveform 是 voice-activity.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoiceActivity",
+      "type": "function",
+      "name": "VoiceActivity",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "lineRange": [
+        166,
+        204
+      ],
+      "summary": "VoiceActivity 是 voice-activity.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoicePlaybackActivity",
+      "type": "function",
+      "name": "VoicePlaybackActivity",
+      "filePath": "apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "lineRange": [
+        206,
+        252
+      ],
+      "summary": "VoicePlaybackActivity 是 voice-activity.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "type": "file",
+      "name": "use-composer-actions.ts",
+      "filePath": "apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "summary": "use-composer-actions.ts 是 typescript 源文件，包含 5 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/hooks/use-composer-actions.ts:extractDroppedFiles",
+      "type": "function",
+      "name": "extractDroppedFiles",
+      "filePath": "apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "lineRange": [
+        66,
+        182
+      ],
+      "summary": "extractDroppedFiles 是 use-composer-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/hooks/use-composer-actions.ts:useComposerActions",
+      "type": "function",
+      "name": "useComposerActions",
+      "filePath": "apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "lineRange": [
+        196,
+        525
+      ],
+      "summary": "useComposerActions 是 use-composer-actions.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "type": "file",
+      "name": "use-file-drop-zone.ts",
+      "filePath": "apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "summary": "use-file-drop-zone.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts:dragKindOf",
+      "type": "function",
+      "name": "dragKindOf",
+      "filePath": "apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "lineRange": [
+        14,
+        24
+      ],
+      "summary": "dragKindOf 是 use-file-drop-zone.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts:useFileDropZone",
+      "type": "function",
+      "name": "useFileDropZone",
+      "filePath": "apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "lineRange": [
+        42,
+        118
+      ],
+      "summary": "useFileDropZone 是 use-file-drop-zone.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/chat/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/index.tsx:ChatHeader",
+      "type": "function",
+      "name": "ChatHeader",
+      "filePath": "apps/desktop/src/app/chat/index.tsx",
+      "lineRange": [
+        94,
+        152
+      ],
+      "summary": "ChatHeader 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/index.tsx:ChatView",
+      "type": "function",
+      "name": "ChatView",
+      "filePath": "apps/desktop/src/app/chat/index.tsx",
+      "lineRange": [
+        154,
+        393
+      ],
+      "summary": "ChatView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:HelpHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:HelpHint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:Section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/help-hint.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/help-hint.tsx:Row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:starterEntries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:classify",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:classify",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:useAtCompletions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-at-completions.ts:useAtCompletions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts:useLiveCompletionAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-live-completion-adapter.ts:useLiveCompletionAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts:micError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts:useMicRecorder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-mic-recorder.ts:useMicRecorder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts:textValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts:useSlashCompletions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-slash-completions.ts:useSlashCompletions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts:useVoiceConversation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-voice-conversation.ts:useVoiceConversation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts:useVoiceRecorder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/hooks/use-voice-recorder.ts:useVoiceRecorder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/ime-composition-dom-repro.test.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/ime-composition-dom-repro.test.tsx:Harness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/index.tsx:ChatBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/index.tsx:ChatBar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/index.tsx:ChatBarFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/index.tsx:ChatBarFallback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:writeSessionDrag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:writeSessionDrag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:dragHasSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:dragHasSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:readSessionDrag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:readSessionDrag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:sessionInlineRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:sessionInlineRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:dragHasAttachments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:dragHasAttachments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:droppedFileInlineRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:droppedFileInlineRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:insertInlineRefsIntoEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/inline-refs.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/inline-refs.ts:insertInlineRefsIntoEditor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/queue-panel.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/queue-panel.tsx:QueuePanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/queue-panel.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/queue-panel.tsx:QueuePanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:escapeHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:escapeHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:unquoteRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:unquoteRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:quoteRefValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:quoteRefValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refChipHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refChipHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refChipElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:refChipElement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:appendTextWithBreaks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:appendComposerContents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:appendComposerContents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:renderComposerContents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:renderComposerContents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:composerHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:composerHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:composerPlainText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:composerPlainText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:placeCaretEnd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/rich-editor.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/rich-editor.ts:placeCaretEnd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/skin-slash-popover.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/skin-slash-popover.tsx:SkinSlashPopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/skin-slash-popover.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/skin-slash-popover.tsx:SkinSlashPopover",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/slash-nav-dom-repro.test.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/slash-nav-dom-repro.test.tsx:Harness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:blobDedupeKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:blobDedupeKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:extractClipboardImageBlobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:extractClipboardImageBlobs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:textBeforeCaret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:textBeforeCaret",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:detectTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/text-utils.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/text-utils.ts:detectTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/trigger-popover.test.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/trigger-popover.test.tsx:renderPopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/trigger-popover.tsx:completionIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/trigger-popover.tsx:ComposerTriggerPopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/trigger-popover.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/trigger-popover.tsx:ComposerTriggerPopover",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/url-dialog.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/url-dialog.tsx:UrlDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/url-dialog.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/url-dialog.tsx:UrlDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:getPlaybackAudioContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoiceLevelBars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:getElementAnalyser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:PlaybackWaveform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoiceActivity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoiceActivity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoicePlaybackActivity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/voice-activity.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/voice-activity.tsx:VoicePlaybackActivity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-composer-actions.ts:extractDroppedFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-composer-actions.ts:extractDroppedFiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-composer-actions.ts:useComposerActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-composer-actions.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-composer-actions.ts:useComposerActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts:dragKindOf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts:useFileDropZone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts",
+      "target": "function:apps/desktop/src/app/chat/hooks/use-file-drop-zone.ts:useFileDropZone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/index.tsx:ChatHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/index.tsx:ChatView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/index.tsx:ChatView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

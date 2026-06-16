@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/references/examples.md",
+      "type": "document",
+      "name": "examples.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/references/examples.md",
+      "summary": "examples.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/references/intake.md",
+      "type": "document",
+      "name": "intake.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/references/intake.md",
+      "summary": "intake.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/references/kanban-setup.md",
+      "type": "document",
+      "name": "kanban-setup.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/references/kanban-setup.md",
+      "summary": "kanban-setup.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/references/monitoring.md",
+      "type": "document",
+      "name": "monitoring.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/references/monitoring.md",
+      "summary": "monitoring.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/references/role-archetypes.md",
+      "type": "document",
+      "name": "role-archetypes.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/references/role-archetypes.md",
+      "summary": "role-archetypes.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/kanban-video-orchestrator/references/tool-matrix.md",
+      "type": "document",
+      "name": "tool-matrix.md",
+      "filePath": "optional-skills/creative/kanban-video-orchestrator/references/tool-matrix.md",
+      "summary": "tool-matrix.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "tooling"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

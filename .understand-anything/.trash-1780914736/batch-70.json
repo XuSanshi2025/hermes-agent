@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "type": "config",
+      "name": "dml-chart.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "summary": "dml-chart.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "type": "config",
+      "name": "dml-chartDrawing.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "summary": "dml-chartDrawing.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "type": "config",
+      "name": "dml-diagram.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "summary": "dml-diagram.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "type": "config",
+      "name": "dml-lockedCanvas.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "summary": "dml-lockedCanvas.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "type": "config",
+      "name": "dml-main.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "summary": "dml-main.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "type": "config",
+      "name": "dml-picture.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "summary": "dml-picture.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "type": "config",
+      "name": "dml-spreadsheetDrawing.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "summary": "dml-spreadsheetDrawing.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "type": "config",
+      "name": "dml-wordprocessingDrawing.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "summary": "dml-wordprocessingDrawing.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "type": "config",
+      "name": "pml.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "summary": "pml.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "type": "config",
+      "name": "shared-additionalCharacteristics.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "summary": "shared-additionalCharacteristics.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "type": "config",
+      "name": "shared-bibliography.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "summary": "shared-bibliography.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "type": "config",
+      "name": "shared-commonSimpleTypes.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "summary": "shared-commonSimpleTypes.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "type": "config",
+      "name": "shared-customXmlDataProperties.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "summary": "shared-customXmlDataProperties.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "type": "config",
+      "name": "shared-customXmlSchemaProperties.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "summary": "shared-customXmlSchemaProperties.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "type": "config",
+      "name": "shared-documentPropertiesCustom.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "summary": "shared-documentPropertiesCustom.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "type": "config",
+      "name": "shared-documentPropertiesExtended.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "summary": "shared-documentPropertiesExtended.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "type": "config",
+      "name": "shared-documentPropertiesVariantTypes.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "summary": "shared-documentPropertiesVariantTypes.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "type": "config",
+      "name": "shared-math.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "summary": "shared-math.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "type": "config",
+      "name": "shared-relationshipReference.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "summary": "shared-relationshipReference.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "type": "config",
+      "name": "sml.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "summary": "sml.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 xml。"
+    }
+  ],
+  "edges": []
+}

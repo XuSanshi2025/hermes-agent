@@ -1,0 +1,53 @@
+# .understandignore - patterns for files/dirs to exclude from analysis
+# Syntax: same as .gitignore (globs, # comments, ! negation, trailing / for dirs)
+#
+# Built-in defaults already exclude common generated assets such as:
+# node_modules/, .git/, dist/, build/, obj/, *.lock, *.min.js, *.map, media files.
+
+# Runtime / local state
+.hermes/
+.codex/
+.cursor/
+.gemini/
+.zed/
+.plans/
+.idea/
+logs/
+data/
+tmp/
+testlogs/
+wandb/
+
+# Python caches and virtual environments
+venv/
+venv.old/
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest-cache/
+*.pyc*
+hermes_agent.egg-info/
+
+# Build and generated output
+hermes_cli/web_dist/
+hermes_cli/tui_dist/
+apps/desktop/build/
+apps/desktop/dist/
+apps/desktop/release/
+apps/desktop/*.tsbuildinfo
+web/public/fonts/
+web/public/ds-assets/
+website/static/api/skills-index.json
+website/static/api/skills.json
+website/static/api/skills-meta.json
+scripts/out/
+
+# Large or generated datasets
+source-data/
+models-dev-upstream/
+browser-use/
+agent-browser/
+mini-swe-agent/
+
+# Keep tests out of the first architecture graph; remove this line for a test-focused graph.
+tests/

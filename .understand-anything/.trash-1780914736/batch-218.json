@@ -1,0 +1,3795 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/src/app/useComposerState.ts",
+      "type": "file",
+      "name": "useComposerState.ts",
+      "filePath": "ui-tui/src/app/useComposerState.ts",
+      "summary": "useComposerState.ts 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useComposerState.ts:trimSnips",
+      "type": "function",
+      "name": "trimSnips",
+      "filePath": "ui-tui/src/app/useComposerState.ts",
+      "lineRange": [
+        28,
+        45
+      ],
+      "summary": "trimSnips 是 useComposerState.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useComposerState.ts:insertAtCursor",
+      "type": "function",
+      "name": "insertAtCursor",
+      "filePath": "ui-tui/src/app/useComposerState.ts",
+      "lineRange": [
+        48,
+        57
+      ],
+      "summary": "insertAtCursor 是 useComposerState.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useComposerState.ts:looksLikeDroppedPath",
+      "type": "function",
+      "name": "looksLikeDroppedPath",
+      "filePath": "ui-tui/src/app/useComposerState.ts",
+      "lineRange": [
+        65,
+        98
+      ],
+      "summary": "looksLikeDroppedPath 是 useComposerState.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useComposerState.ts:useComposerState",
+      "type": "function",
+      "name": "useComposerState",
+      "filePath": "ui-tui/src/app/useComposerState.ts",
+      "lineRange": [
+        100,
+        367
+      ],
+      "summary": "useComposerState 是 useComposerState.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/app/useConfigSync.ts",
+      "type": "file",
+      "name": "useConfigSync.ts",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "summary": "useConfigSync.ts 是 typescript 源文件，包含 12 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:normalizeStatusBar",
+      "type": "function",
+      "name": "normalizeStatusBar",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        35,
+        36
+      ],
+      "summary": "normalizeStatusBar 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:normalizeBusyInputMode",
+      "type": "function",
+      "name": "normalizeBusyInputMode",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        49,
+        57
+      ],
+      "summary": "normalizeBusyInputMode 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:normalizeIndicatorStyle",
+      "type": "function",
+      "name": "normalizeIndicatorStyle",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        61,
+        69
+      ],
+      "summary": "normalizeIndicatorStyle 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:normalizeMouseTracking",
+      "type": "function",
+      "name": "normalizeMouseTracking",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        82,
+        123
+      ],
+      "summary": "normalizeMouseTracking 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:quietRpc",
+      "type": "function",
+      "name": "quietRpc",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        127,
+        137
+      ],
+      "summary": "quietRpc 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:_pasteCollapseLinesFromConfig",
+      "type": "function",
+      "name": "_pasteCollapseLinesFromConfig",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        145,
+        154
+      ],
+      "summary": "_pasteCollapseLinesFromConfig 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:_pasteCollapseCharsFromConfig",
+      "type": "function",
+      "name": "_pasteCollapseCharsFromConfig",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        156,
+        165
+      ],
+      "summary": "_pasteCollapseCharsFromConfig 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:hydrateFullConfig",
+      "type": "function",
+      "name": "hydrateFullConfig",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        174,
+        183
+      ],
+      "summary": "hydrateFullConfig 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:applyDisplay",
+      "type": "function",
+      "name": "applyDisplay",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        185,
+        221
+      ],
+      "summary": "applyDisplay 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useConfigSync.ts:useConfigSync",
+      "type": "function",
+      "name": "useConfigSync",
+      "filePath": "ui-tui/src/app/useConfigSync.ts",
+      "lineRange": [
+        223,
+        280
+      ],
+      "summary": "useConfigSync 是 useConfigSync.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/app/useInputHandlers.ts",
+      "type": "file",
+      "name": "useInputHandlers.ts",
+      "filePath": "ui-tui/src/app/useInputHandlers.ts",
+      "summary": "useInputHandlers.ts 是 typescript 源文件，包含 4 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useInputHandlers.ts:shouldFallThroughForScroll",
+      "type": "function",
+      "name": "shouldFallThroughForScroll",
+      "filePath": "ui-tui/src/app/useInputHandlers.ts",
+      "lineRange": [
+        38,
+        60
+      ],
+      "summary": "shouldFallThroughForScroll 是 useInputHandlers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useInputHandlers.ts:applyVoiceRecordResponse",
+      "type": "function",
+      "name": "applyVoiceRecordResponse",
+      "filePath": "ui-tui/src/app/useInputHandlers.ts",
+      "lineRange": [
+        62,
+        80
+      ],
+      "summary": "applyVoiceRecordResponse 是 useInputHandlers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useInputHandlers.ts:useInputHandlers",
+      "type": "function",
+      "name": "useInputHandlers",
+      "filePath": "ui-tui/src/app/useInputHandlers.ts",
+      "lineRange": [
+        82,
+        576
+      ],
+      "summary": "useInputHandlers 是 useInputHandlers.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/app/useLongRunToolCharms.ts",
+      "type": "file",
+      "name": "useLongRunToolCharms.ts",
+      "filePath": "ui-tui/src/app/useLongRunToolCharms.ts",
+      "summary": "useLongRunToolCharms.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useLongRunToolCharms.ts:useLongRunToolCharms",
+      "type": "function",
+      "name": "useLongRunToolCharms",
+      "filePath": "ui-tui/src/app/useLongRunToolCharms.ts",
+      "lineRange": [
+        19,
+        69
+      ],
+      "summary": "useLongRunToolCharms 是 useLongRunToolCharms.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/app/useMainApp.ts",
+      "type": "file",
+      "name": "useMainApp.ts",
+      "filePath": "ui-tui/src/app/useMainApp.ts",
+      "summary": "useMainApp.ts 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useMainApp.ts:statusColorOf",
+      "type": "function",
+      "name": "statusColorOf",
+      "filePath": "ui-tui/src/app/useMainApp.ts",
+      "lineRange": [
+        62,
+        76
+      ],
+      "summary": "statusColorOf 是 useMainApp.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useMainApp.ts:startPromptLiveSession",
+      "type": "function",
+      "name": "startPromptLiveSession",
+      "filePath": "ui-tui/src/app/useMainApp.ts",
+      "lineRange": [
+        89,
+        136
+      ],
+      "summary": "startPromptLiveSession 是 useMainApp.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useMainApp.ts:useMainApp",
+      "type": "function",
+      "name": "useMainApp",
+      "filePath": "ui-tui/src/app/useMainApp.ts",
+      "lineRange": [
+        138,
+        1110
+      ],
+      "summary": "useMainApp 是 useMainApp.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "type": "file",
+      "name": "useSessionLifecycle.ts",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "summary": "useSessionLifecycle.ts 是 typescript 源文件，包含 7 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSessionLifecycle.ts:statusFromLiveSession",
+      "type": "function",
+      "name": "statusFromLiveSession",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "lineRange": [
+        31,
+        41
+      ],
+      "summary": "statusFromLiveSession 是 useSessionLifecycle.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSessionLifecycle.ts:writeActiveSessionFile",
+      "type": "function",
+      "name": "writeActiveSessionFile",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "lineRange": [
+        43,
+        53
+      ],
+      "summary": "writeActiveSessionFile 是 useSessionLifecycle.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSessionLifecycle.ts:liveSessionInflightMessages",
+      "type": "function",
+      "name": "liveSessionInflightMessages",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "lineRange": [
+        55,
+        59
+      ],
+      "summary": "liveSessionInflightMessages 是 useSessionLifecycle.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSessionLifecycle.ts:hydrateLiveSessionInflight",
+      "type": "function",
+      "name": "hydrateLiveSessionInflight",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "lineRange": [
+        61,
+        69
+      ],
+      "summary": "hydrateLiveSessionInflight 是 useSessionLifecycle.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSessionLifecycle.ts:trimTail",
+      "type": "function",
+      "name": "trimTail",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "lineRange": [
+        71,
+        83
+      ],
+      "summary": "trimTail 是 useSessionLifecycle.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSessionLifecycle.ts:useSessionLifecycle",
+      "type": "function",
+      "name": "useSessionLifecycle",
+      "filePath": "ui-tui/src/app/useSessionLifecycle.ts",
+      "lineRange": [
+        101,
+        375
+      ],
+      "summary": "useSessionLifecycle 是 useSessionLifecycle.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/app/useSubmission.ts",
+      "type": "file",
+      "name": "useSubmission.ts",
+      "filePath": "ui-tui/src/app/useSubmission.ts",
+      "summary": "useSubmission.ts 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSubmission.ts:expandSnips",
+      "type": "function",
+      "name": "expandSnips",
+      "filePath": "ui-tui/src/app/useSubmission.ts",
+      "lineRange": [
+        27,
+        36
+      ],
+      "summary": "expandSnips 是 useSubmission.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/useSubmission.ts:useSubmission",
+      "type": "function",
+      "name": "useSubmission",
+      "filePath": "ui-tui/src/app/useSubmission.ts",
+      "lineRange": [
+        41,
+        412
+      ],
+      "summary": "useSubmission 是 useSubmission.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/banner.ts",
+      "type": "file",
+      "name": "banner.ts",
+      "filePath": "ui-tui/src/banner.ts",
+      "summary": "banner.ts 是 typescript 源文件，包含 5 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/banner.ts:parseRichMarkup",
+      "type": "function",
+      "name": "parseRichMarkup",
+      "filePath": "ui-tui/src/banner.ts",
+      "lineRange": [
+        5,
+        44
+      ],
+      "summary": "parseRichMarkup 是 banner.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/banner.ts:logo",
+      "type": "function",
+      "name": "logo",
+      "filePath": "ui-tui/src/banner.ts",
+      "lineRange": [
+        85,
+        86
+      ],
+      "summary": "logo 是 banner.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/banner.ts:caduceus",
+      "type": "function",
+      "name": "caduceus",
+      "filePath": "ui-tui/src/banner.ts",
+      "lineRange": [
+        88,
+        89
+      ],
+      "summary": "caduceus 是 banner.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/banner.ts:artWidth",
+      "type": "function",
+      "name": "artWidth",
+      "filePath": "ui-tui/src/banner.ts",
+      "lineRange": [
+        91,
+        91
+      ],
+      "summary": "artWidth 是 banner.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "type": "file",
+      "name": "activeSessionSwitcher.tsx",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "summary": "activeSessionSwitcher.tsx 是 typescript 源文件，包含 29 个函数、27 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:fixedSessionColumnStyle",
+      "type": "function",
+      "name": "fixedSessionColumnStyle",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        45,
+        45
+      ],
+      "summary": "fixedSessionColumnStyle 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:activeSessionCountLabel",
+      "type": "function",
+      "name": "activeSessionCountLabel",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        47,
+        48
+      ],
+      "summary": "activeSessionCountLabel 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:sessionsCountLabel",
+      "type": "function",
+      "name": "sessionsCountLabel",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        50,
+        51
+      ],
+      "summary": "sessionsCountLabel 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:sessionRowKindAt",
+      "type": "function",
+      "name": "sessionRowKindAt",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        60,
+        66
+      ],
+      "summary": "sessionRowKindAt 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:relativeSessionAge",
+      "type": "function",
+      "name": "relativeSessionAge",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        68,
+        84
+      ],
+      "summary": "relativeSessionAge 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:resumableHistory",
+      "type": "function",
+      "name": "resumableHistory",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        87,
+        91
+      ],
+      "summary": "resumableHistory 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorContextHintSegments",
+      "type": "function",
+      "name": "orchestratorContextHintSegments",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        109,
+        126
+      ],
+      "summary": "orchestratorContextHintSegments 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorContextHint",
+      "type": "function",
+      "name": "orchestratorContextHint",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        141,
+        141
+      ],
+      "summary": "orchestratorContextHint 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorHintSegmentColor",
+      "type": "function",
+      "name": "orchestratorHintSegmentColor",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        145,
+        155
+      ],
+      "summary": "orchestratorHintSegmentColor 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:selectedSessionRowStyle",
+      "type": "function",
+      "name": "selectedSessionRowStyle",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        157,
+        160
+      ],
+      "summary": "selectedSessionRowStyle 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:newSessionMarkerColor",
+      "type": "function",
+      "name": "newSessionMarkerColor",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        162,
+        163
+      ],
+      "summary": "newSessionMarkerColor 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:newSessionRowIndex",
+      "type": "function",
+      "name": "newSessionRowIndex",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        165,
+        165
+      ],
+      "summary": "newSessionRowIndex 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:isNewSessionRow",
+      "type": "function",
+      "name": "isNewSessionRow",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        167,
+        167
+      ],
+      "summary": "isNewSessionRow 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:canTypeOrchestratorPrompt",
+      "type": "function",
+      "name": "canTypeOrchestratorPrompt",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        169,
+        169
+      ],
+      "summary": "canTypeOrchestratorPrompt 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:clampOrchestratorSelection",
+      "type": "function",
+      "name": "clampOrchestratorSelection",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        171,
+        172
+      ],
+      "summary": "clampOrchestratorSelection 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:currentSessionSelectionIndex",
+      "type": "function",
+      "name": "currentSessionSelectionIndex",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        174,
+        181
+      ],
+      "summary": "currentSessionSelectionIndex 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorVisibleRowIndexes",
+      "type": "function",
+      "name": "orchestratorVisibleRowIndexes",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        183,
+        190
+      ],
+      "summary": "orchestratorVisibleRowIndexes 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:closeFallbackAfterClose",
+      "type": "function",
+      "name": "closeFallbackAfterClose",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        194,
+        206
+      ],
+      "summary": "closeFallbackAfterClose 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelArgFromPickerValue",
+      "type": "function",
+      "name": "draftModelArgFromPickerValue",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        208,
+        221
+      ],
+      "summary": "draftModelArgFromPickerValue 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelNameFromArg",
+      "type": "function",
+      "name": "draftModelNameFromArg",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        223,
+        243
+      ],
+      "summary": "draftModelNameFromArg 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelDisplayLabel",
+      "type": "function",
+      "name": "draftModelDisplayLabel",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        245,
+        249
+      ],
+      "summary": "draftModelDisplayLabel 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorRowClickAction",
+      "type": "function",
+      "name": "orchestratorRowClickAction",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        253,
+        262
+      ],
+      "summary": "orchestratorRowClickAction 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftTitleFromPrompt",
+      "type": "function",
+      "name": "draftTitleFromPrompt",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        264,
+        272
+      ],
+      "summary": "draftTitleFromPrompt 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:OrchestratorHintSegments",
+      "type": "function",
+      "name": "OrchestratorHintSegments",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        274,
+        284
+      ],
+      "summary": "OrchestratorHintSegments 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/activeSessionSwitcher.tsx:ActiveSessionSwitcher",
+      "type": "function",
+      "name": "ActiveSessionSwitcher",
+      "filePath": "ui-tui/src/components/activeSessionSwitcher.tsx",
+      "lineRange": [
+        294,
+        898
+      ],
+      "summary": "ActiveSessionSwitcher 是 activeSessionSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "type": "file",
+      "name": "agentsOverlay.tsx",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "summary": "agentsOverlay.tsx 是 typescript 源文件，包含 22 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:displayElapsedSeconds",
+      "type": "function",
+      "name": "displayElapsedSeconds",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        107,
+        117
+      ],
+      "summary": "displayElapsedSeconds 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:OverlayScrollbar",
+      "type": "function",
+      "name": "OverlayScrollbar",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        143,
+        225
+      ],
+      "summary": "OverlayScrollbar 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:GanttStrip",
+      "type": "function",
+      "name": "GanttStrip",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        227,
+        360
+      ],
+      "summary": "GanttStrip 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:OverlaySection",
+      "type": "function",
+      "name": "OverlaySection",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        362,
+        391
+      ],
+      "summary": "OverlaySection 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:Detail",
+      "type": "function",
+      "name": "Detail",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        402,
+        537
+      ],
+      "summary": "Detail 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:ListRow",
+      "type": "function",
+      "name": "ListRow",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        539,
+        582
+      ],
+      "summary": "ListRow 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:DiffPane",
+      "type": "function",
+      "name": "DiffPane",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        584,
+        628
+      ],
+      "summary": "DiffPane 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:DiffView",
+      "type": "function",
+      "name": "DiffView",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        630,
+        690
+      ],
+      "summary": "DiffView 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:AgentsOverlay",
+      "type": "function",
+      "name": "AgentsOverlay",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        694,
+        1063
+      ],
+      "summary": "AgentsOverlay 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:closeAgentsOverlay",
+      "type": "function",
+      "name": "closeAgentsOverlay",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        1072,
+        1072
+      ],
+      "summary": "closeAgentsOverlay 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/agentsOverlay.tsx:openAgentsOverlay",
+      "type": "function",
+      "name": "openAgentsOverlay",
+      "filePath": "ui-tui/src/components/agentsOverlay.tsx",
+      "lineRange": [
+        1073,
+        1073
+      ],
+      "summary": "openAgentsOverlay 是 agentsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/appChrome.tsx",
+      "type": "file",
+      "name": "appChrome.tsx",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "summary": "appChrome.tsx 是 typescript 源文件，包含 21 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:padVerb",
+      "type": "function",
+      "name": "padVerb",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        26,
+        26
+      ],
+      "summary": "padVerb 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:renderIndicator",
+      "type": "function",
+      "name": "renderIndicator",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        47,
+        76
+      ],
+      "summary": "renderIndicator 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:indicatorFrameWidth",
+      "type": "function",
+      "name": "indicatorFrameWidth",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        83,
+        94
+      ],
+      "summary": "indicatorFrameWidth 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:busyIndicatorWidth",
+      "type": "function",
+      "name": "busyIndicatorWidth",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        110,
+        117
+      ],
+      "summary": "busyIndicatorWidth 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:FaceTicker",
+      "type": "function",
+      "name": "FaceTicker",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        119,
+        163
+      ],
+      "summary": "FaceTicker 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:ctxBarColor",
+      "type": "function",
+      "name": "ctxBarColor",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        165,
+        183
+      ],
+      "summary": "ctxBarColor 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:noticeColor",
+      "type": "function",
+      "name": "noticeColor",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        192,
+        207
+      ],
+      "summary": "noticeColor 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:statusRuleWidths",
+      "type": "function",
+      "name": "statusRuleWidths",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        220,
+        239
+      ],
+      "summary": "statusRuleWidths 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:statusBarSegments",
+      "type": "function",
+      "name": "statusBarSegments",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        256,
+        268
+      ],
+      "summary": "statusBarSegments 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:SpawnHud",
+      "type": "function",
+      "name": "SpawnHud",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        270,
+        329
+      ],
+      "summary": "SpawnHud 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:SessionDuration",
+      "type": "function",
+      "name": "SessionDuration",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        331,
+        342
+      ],
+      "summary": "SessionDuration 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:GoodVibesHeart",
+      "type": "function",
+      "name": "GoodVibesHeart",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        365,
+        388
+      ],
+      "summary": "GoodVibesHeart 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:StatusRule",
+      "type": "function",
+      "name": "StatusRule",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        390,
+        626
+      ],
+      "summary": "StatusRule 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:FloatBox",
+      "type": "function",
+      "name": "FloatBox",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        628,
+        642
+      ],
+      "summary": "FloatBox 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:StickyPromptTracker",
+      "type": "function",
+      "name": "StickyPromptTracker",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        644,
+        651
+      ],
+      "summary": "StickyPromptTracker 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/appChrome.tsx:TranscriptScrollbar",
+      "type": "function",
+      "name": "TranscriptScrollbar",
+      "filePath": "ui-tui/src/components/appChrome.tsx",
+      "lineRange": [
+        653,
+        724
+      ],
+      "summary": "TranscriptScrollbar 是 appChrome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/components/appLayout.tsx",
+      "type": "file",
+      "name": "appLayout.tsx",
+      "filePath": "ui-tui/src/components/appLayout.tsx",
+      "summary": "appLayout.tsx 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/components/appOverlays.tsx",
+      "type": "file",
+      "name": "appOverlays.tsx",
+      "filePath": "ui-tui/src/components/appOverlays.tsx",
+      "summary": "appOverlays.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/appOverlays.tsx:PromptZone",
+      "type": "function",
+      "name": "PromptZone",
+      "filePath": "ui-tui/src/components/appOverlays.tsx",
+      "lineRange": [
+        19,
+        92
+      ],
+      "summary": "PromptZone 是 appOverlays.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/appOverlays.tsx:FloatingOverlays",
+      "type": "function",
+      "name": "FloatingOverlays",
+      "filePath": "ui-tui/src/components/appOverlays.tsx",
+      "lineRange": [
+        94,
+        242
+      ],
+      "summary": "FloatingOverlays 是 appOverlays.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/components/branding.tsx",
+      "type": "file",
+      "name": "branding.tsx",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "summary": "branding.tsx 是 typescript 源文件，包含 10 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:InlineLoader",
+      "type": "function",
+      "name": "InlineLoader",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        12,
+        28
+      ],
+      "summary": "InlineLoader 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:ArtLines",
+      "type": "function",
+      "name": "ArtLines",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        30,
+        40
+      ],
+      "summary": "ArtLines 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:CompactBanner",
+      "type": "function",
+      "name": "CompactBanner",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        72,
+        83
+      ],
+      "summary": "CompactBanner 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:Banner",
+      "type": "function",
+      "name": "Banner",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        85,
+        120
+      ],
+      "summary": "Banner 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:CollapseToggle",
+      "type": "function",
+      "name": "CollapseToggle",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        124,
+        153
+      ],
+      "summary": "CollapseToggle 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:SessionPanel",
+      "type": "function",
+      "name": "SessionPanel",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        160,
+        416
+      ],
+      "summary": "SessionPanel 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:ui-tui/src/components/branding.tsx:Panel",
+      "type": "function",
+      "name": "Panel",
+      "filePath": "ui-tui/src/components/branding.tsx",
+      "lineRange": [
+        418,
+        453
+      ],
+      "summary": "Panel 是 branding.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/fpsOverlay.tsx",
+      "type": "file",
+      "name": "fpsOverlay.tsx",
+      "filePath": "ui-tui/src/components/fpsOverlay.tsx",
+      "summary": "fpsOverlay.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/fpsOverlay.tsx:FpsOverlay",
+      "type": "function",
+      "name": "FpsOverlay",
+      "filePath": "ui-tui/src/components/fpsOverlay.tsx",
+      "lineRange": [
+        13,
+        19
+      ],
+      "summary": "FpsOverlay 是 fpsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/fpsOverlay.tsx:FpsOverlayInner",
+      "type": "function",
+      "name": "FpsOverlayInner",
+      "filePath": "ui-tui/src/components/fpsOverlay.tsx",
+      "lineRange": [
+        21,
+        30
+      ],
+      "summary": "FpsOverlayInner 是 fpsOverlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/helpHint.tsx",
+      "type": "file",
+      "name": "helpHint.tsx",
+      "filePath": "ui-tui/src/components/helpHint.tsx",
+      "summary": "helpHint.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/helpHint.tsx:HelpHint",
+      "type": "function",
+      "name": "HelpHint",
+      "filePath": "ui-tui/src/components/helpHint.tsx",
+      "lineRange": [
+        17,
+        73
+      ],
+      "summary": "HelpHint 是 helpHint.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/components/markdown.tsx",
+      "type": "file",
+      "name": "markdown.tsx",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "summary": "markdown.tsx 是 typescript 源文件，包含 16 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:renderMath",
+      "type": "function",
+      "name": "renderMath",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        17,
+        58
+      ],
+      "summary": "renderMath 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:ResolvedLink",
+      "type": "function",
+      "name": "ResolvedLink",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        172,
+        183
+      ],
+      "summary": "ResolvedLink 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:stripInlineMarkup",
+      "type": "function",
+      "name": "stripInlineMarkup",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        191,
+        207
+      ],
+      "summary": "stripInlineMarkup 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:renderTable",
+      "type": "function",
+      "name": "renderTable",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        214,
+        494
+      ],
+      "summary": "renderTable 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:MdInline",
+      "type": "function",
+      "name": "MdInline",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        496,
+        608
+      ],
+      "summary": "MdInline 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:cacheBucket",
+      "type": "function",
+      "name": "cacheBucket",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        616,
+        627
+      ],
+      "summary": "cacheBucket 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:cacheGet",
+      "type": "function",
+      "name": "cacheGet",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        629,
+        638
+      ],
+      "summary": "cacheGet 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/markdown.tsx:MdImpl",
+      "type": "function",
+      "name": "MdImpl",
+      "filePath": "ui-tui/src/components/markdown.tsx",
+      "lineRange": [
+        648,
+        1108
+      ],
+      "summary": "MdImpl 是 markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/components/maskedPrompt.tsx",
+      "type": "file",
+      "name": "maskedPrompt.tsx",
+      "filePath": "ui-tui/src/components/maskedPrompt.tsx",
+      "summary": "maskedPrompt.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/maskedPrompt.tsx:MaskedPrompt",
+      "type": "function",
+      "name": "MaskedPrompt",
+      "filePath": "ui-tui/src/components/maskedPrompt.tsx",
+      "lineRange": [
+        8,
+        25
+      ],
+      "summary": "MaskedPrompt 是 maskedPrompt.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/messageLine.tsx",
+      "type": "file",
+      "name": "messageLine.tsx",
+      "filePath": "ui-tui/src/components/messageLine.tsx",
+      "summary": "messageLine.tsx 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/messageLine.tsx:shouldShowResponseSeparator",
+      "type": "function",
+      "name": "shouldShowResponseSeparator",
+      "filePath": "ui-tui/src/components/messageLine.tsx",
+      "lineRange": [
+        242,
+        243
+      ],
+      "summary": "shouldShowResponseSeparator 是 messageLine.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/modelPicker.tsx",
+      "type": "file",
+      "name": "modelPicker.tsx",
+      "filePath": "ui-tui/src/components/modelPicker.tsx",
+      "summary": "modelPicker.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/modelPicker.tsx:ModelPicker",
+      "type": "function",
+      "name": "ModelPicker",
+      "filePath": "ui-tui/src/components/modelPicker.tsx",
+      "lineRange": [
+        20,
+        637
+      ],
+      "summary": "ModelPicker 是 modelPicker.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/components/overlayControls.tsx",
+      "type": "file",
+      "name": "overlayControls.tsx",
+      "filePath": "ui-tui/src/components/overlayControls.tsx",
+      "summary": "overlayControls.tsx 是 typescript 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/overlayControls.tsx:useOverlayKeys",
+      "type": "function",
+      "name": "useOverlayKeys",
+      "filePath": "ui-tui/src/components/overlayControls.tsx",
+      "lineRange": [
+        5,
+        19
+      ],
+      "summary": "useOverlayKeys 是 overlayControls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/overlayControls.tsx:OverlayHint",
+      "type": "function",
+      "name": "OverlayHint",
+      "filePath": "ui-tui/src/components/overlayControls.tsx",
+      "lineRange": [
+        21,
+        27
+      ],
+      "summary": "OverlayHint 是 overlayControls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/overlayControls.tsx:windowOffset",
+      "type": "function",
+      "name": "windowOffset",
+      "filePath": "ui-tui/src/components/overlayControls.tsx",
+      "lineRange": [
+        29,
+        30
+      ],
+      "summary": "windowOffset 是 overlayControls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/overlayControls.tsx:windowItems",
+      "type": "function",
+      "name": "windowItems",
+      "filePath": "ui-tui/src/components/overlayControls.tsx",
+      "lineRange": [
+        32,
+        39
+      ],
+      "summary": "windowItems 是 overlayControls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/prompts.tsx",
+      "type": "file",
+      "name": "prompts.tsx",
+      "filePath": "ui-tui/src/components/prompts.tsx",
+      "summary": "prompts.tsx 是 typescript 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/prompts.tsx:approvalAction",
+      "type": "function",
+      "name": "approvalAction",
+      "filePath": "ui-tui/src/components/prompts.tsx",
+      "lineRange": [
+        37,
+        61
+      ],
+      "summary": "approvalAction 是 prompts.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/prompts.tsx:ApprovalPrompt",
+      "type": "function",
+      "name": "ApprovalPrompt",
+      "filePath": "ui-tui/src/components/prompts.tsx",
+      "lineRange": [
+        63,
+        114
+      ],
+      "summary": "ApprovalPrompt 是 prompts.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/prompts.tsx:ClarifyPrompt",
+      "type": "function",
+      "name": "ClarifyPrompt",
+      "filePath": "ui-tui/src/components/prompts.tsx",
+      "lineRange": [
+        116,
+        193
+      ],
+      "summary": "ClarifyPrompt 是 prompts.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/components/prompts.tsx:ConfirmPrompt",
+      "type": "function",
+      "name": "ConfirmPrompt",
+      "filePath": "ui-tui/src/components/prompts.tsx",
+      "lineRange": [
+        195,
+        255
+      ],
+      "summary": "ConfirmPrompt 是 prompts.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/components/queuedMessages.tsx",
+      "type": "file",
+      "name": "queuedMessages.tsx",
+      "filePath": "ui-tui/src/components/queuedMessages.tsx",
+      "summary": "queuedMessages.tsx 是 typescript 源文件，包含 2 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/queuedMessages.tsx:getQueueWindow",
+      "type": "function",
+      "name": "getQueueWindow",
+      "filePath": "ui-tui/src/components/queuedMessages.tsx",
+      "lineRange": [
+        8,
+        15
+      ],
+      "summary": "getQueueWindow 是 queuedMessages.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/components/queuedMessages.tsx:QueuedMessages",
+      "type": "function",
+      "name": "QueuedMessages",
+      "filePath": "ui-tui/src/components/queuedMessages.tsx",
+      "lineRange": [
+        17,
+        57
+      ],
+      "summary": "QueuedMessages 是 queuedMessages.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/components/skillsHub.tsx",
+      "type": "file",
+      "name": "skillsHub.tsx",
+      "filePath": "ui-tui/src/components/skillsHub.tsx",
+      "summary": "skillsHub.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/components/skillsHub.tsx:SkillsHub",
+      "type": "function",
+      "name": "SkillsHub",
+      "filePath": "ui-tui/src/components/skillsHub.tsx",
+      "lineRange": [
+        14,
+        295
+      ],
+      "summary": "SkillsHub 是 skillsHub.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/components/streamingAssistant.tsx",
+      "type": "file",
+      "name": "streamingAssistant.tsx",
+      "filePath": "ui-tui/src/components/streamingAssistant.tsx",
+      "summary": "streamingAssistant.tsx 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/src/app/useComposerState.ts",
+      "target": "function:ui-tui/src/app/useComposerState.ts:trimSnips",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useComposerState.ts",
+      "target": "function:ui-tui/src/app/useComposerState.ts:insertAtCursor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useComposerState.ts",
+      "target": "function:ui-tui/src/app/useComposerState.ts:looksLikeDroppedPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useComposerState.ts",
+      "target": "function:ui-tui/src/app/useComposerState.ts:looksLikeDroppedPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useComposerState.ts",
+      "target": "function:ui-tui/src/app/useComposerState.ts:useComposerState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useComposerState.ts",
+      "target": "function:ui-tui/src/app/useComposerState.ts:useComposerState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeStatusBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeStatusBar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeBusyInputMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeBusyInputMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeIndicatorStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeIndicatorStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeMouseTracking",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:normalizeMouseTracking",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:quietRpc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:_pasteCollapseLinesFromConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:_pasteCollapseCharsFromConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:hydrateFullConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:hydrateFullConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:applyDisplay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:applyDisplay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:useConfigSync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useConfigSync.ts",
+      "target": "function:ui-tui/src/app/useConfigSync.ts:useConfigSync",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useInputHandlers.ts",
+      "target": "function:ui-tui/src/app/useInputHandlers.ts:shouldFallThroughForScroll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useInputHandlers.ts",
+      "target": "function:ui-tui/src/app/useInputHandlers.ts:shouldFallThroughForScroll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useInputHandlers.ts",
+      "target": "function:ui-tui/src/app/useInputHandlers.ts:applyVoiceRecordResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useInputHandlers.ts",
+      "target": "function:ui-tui/src/app/useInputHandlers.ts:applyVoiceRecordResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useInputHandlers.ts",
+      "target": "function:ui-tui/src/app/useInputHandlers.ts:useInputHandlers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useInputHandlers.ts",
+      "target": "function:ui-tui/src/app/useInputHandlers.ts:useInputHandlers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useLongRunToolCharms.ts",
+      "target": "function:ui-tui/src/app/useLongRunToolCharms.ts:useLongRunToolCharms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useLongRunToolCharms.ts",
+      "target": "function:ui-tui/src/app/useLongRunToolCharms.ts:useLongRunToolCharms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useMainApp.ts",
+      "target": "function:ui-tui/src/app/useMainApp.ts:statusColorOf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useMainApp.ts",
+      "target": "function:ui-tui/src/app/useMainApp.ts:startPromptLiveSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useMainApp.ts",
+      "target": "function:ui-tui/src/app/useMainApp.ts:startPromptLiveSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useMainApp.ts",
+      "target": "function:ui-tui/src/app/useMainApp.ts:useMainApp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useMainApp.ts",
+      "target": "function:ui-tui/src/app/useMainApp.ts:useMainApp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:statusFromLiveSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:writeActiveSessionFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:writeActiveSessionFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:liveSessionInflightMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:liveSessionInflightMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:hydrateLiveSessionInflight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:hydrateLiveSessionInflight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:trimTail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:useSessionLifecycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSessionLifecycle.ts",
+      "target": "function:ui-tui/src/app/useSessionLifecycle.ts:useSessionLifecycle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/useSubmission.ts",
+      "target": "function:ui-tui/src/app/useSubmission.ts:expandSnips",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSubmission.ts",
+      "target": "function:ui-tui/src/app/useSubmission.ts:useSubmission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/useSubmission.ts",
+      "target": "function:ui-tui/src/app/useSubmission.ts:useSubmission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:parseRichMarkup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:parseRichMarkup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:logo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:logo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:caduceus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:caduceus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:artWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/banner.ts",
+      "target": "function:ui-tui/src/banner.ts:artWidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:fixedSessionColumnStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:fixedSessionColumnStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:activeSessionCountLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:activeSessionCountLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:sessionsCountLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:sessionsCountLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:sessionRowKindAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:sessionRowKindAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:relativeSessionAge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:relativeSessionAge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:resumableHistory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:resumableHistory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorContextHintSegments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorContextHintSegments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorContextHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorContextHint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorHintSegmentColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorHintSegmentColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:selectedSessionRowStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:selectedSessionRowStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:newSessionMarkerColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:newSessionMarkerColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:newSessionRowIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:newSessionRowIndex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:isNewSessionRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:isNewSessionRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:canTypeOrchestratorPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:canTypeOrchestratorPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:clampOrchestratorSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:clampOrchestratorSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:currentSessionSelectionIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:currentSessionSelectionIndex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorVisibleRowIndexes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorVisibleRowIndexes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:closeFallbackAfterClose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:closeFallbackAfterClose",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelArgFromPickerValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelArgFromPickerValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelNameFromArg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelNameFromArg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelDisplayLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftModelDisplayLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorRowClickAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:orchestratorRowClickAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftTitleFromPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:draftTitleFromPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:OrchestratorHintSegments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:ActiveSessionSwitcher",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/activeSessionSwitcher.tsx",
+      "target": "function:ui-tui/src/components/activeSessionSwitcher.tsx:ActiveSessionSwitcher",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:displayElapsedSeconds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:OverlayScrollbar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:GanttStrip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:OverlaySection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:Detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:ListRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:DiffPane",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:DiffView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:AgentsOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:AgentsOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:closeAgentsOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:closeAgentsOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:openAgentsOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/agentsOverlay.tsx",
+      "target": "function:ui-tui/src/components/agentsOverlay.tsx:openAgentsOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:padVerb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:padVerb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:renderIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:indicatorFrameWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:busyIndicatorWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:busyIndicatorWidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:FaceTicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:ctxBarColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:noticeColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:statusRuleWidths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:statusRuleWidths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:statusBarSegments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:statusBarSegments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:SpawnHud",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:SessionDuration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:GoodVibesHeart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:GoodVibesHeart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:StatusRule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:StatusRule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:FloatBox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:FloatBox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:StickyPromptTracker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:StickyPromptTracker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:TranscriptScrollbar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appChrome.tsx",
+      "target": "function:ui-tui/src/components/appChrome.tsx:TranscriptScrollbar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appOverlays.tsx",
+      "target": "function:ui-tui/src/components/appOverlays.tsx:PromptZone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appOverlays.tsx",
+      "target": "function:ui-tui/src/components/appOverlays.tsx:PromptZone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/appOverlays.tsx",
+      "target": "function:ui-tui/src/components/appOverlays.tsx:FloatingOverlays",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/appOverlays.tsx",
+      "target": "function:ui-tui/src/components/appOverlays.tsx:FloatingOverlays",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:InlineLoader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:ArtLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:ArtLines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:CompactBanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:Banner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:Banner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:CollapseToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:SessionPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:SessionPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:Panel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/branding.tsx",
+      "target": "function:ui-tui/src/components/branding.tsx:Panel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/fpsOverlay.tsx",
+      "target": "function:ui-tui/src/components/fpsOverlay.tsx:FpsOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/fpsOverlay.tsx",
+      "target": "function:ui-tui/src/components/fpsOverlay.tsx:FpsOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/fpsOverlay.tsx",
+      "target": "function:ui-tui/src/components/fpsOverlay.tsx:FpsOverlayInner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/helpHint.tsx",
+      "target": "function:ui-tui/src/components/helpHint.tsx:HelpHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/helpHint.tsx",
+      "target": "function:ui-tui/src/components/helpHint.tsx:HelpHint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:renderMath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:ResolvedLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:stripInlineMarkup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:stripInlineMarkup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:renderTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:MdInline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:cacheBucket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:cacheGet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/markdown.tsx",
+      "target": "function:ui-tui/src/components/markdown.tsx:MdImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/maskedPrompt.tsx",
+      "target": "function:ui-tui/src/components/maskedPrompt.tsx:MaskedPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/maskedPrompt.tsx",
+      "target": "function:ui-tui/src/components/maskedPrompt.tsx:MaskedPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/messageLine.tsx",
+      "target": "function:ui-tui/src/components/messageLine.tsx:shouldShowResponseSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/messageLine.tsx",
+      "target": "function:ui-tui/src/components/messageLine.tsx:shouldShowResponseSeparator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/modelPicker.tsx",
+      "target": "function:ui-tui/src/components/modelPicker.tsx:ModelPicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/modelPicker.tsx",
+      "target": "function:ui-tui/src/components/modelPicker.tsx:ModelPicker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:useOverlayKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:useOverlayKeys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:OverlayHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:OverlayHint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:windowOffset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:windowOffset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:windowItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/overlayControls.tsx",
+      "target": "function:ui-tui/src/components/overlayControls.tsx:windowItems",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:approvalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:approvalAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:ApprovalPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:ApprovalPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:ClarifyPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:ClarifyPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:ConfirmPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/prompts.tsx",
+      "target": "function:ui-tui/src/components/prompts.tsx:ConfirmPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/queuedMessages.tsx",
+      "target": "function:ui-tui/src/components/queuedMessages.tsx:getQueueWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/queuedMessages.tsx",
+      "target": "function:ui-tui/src/components/queuedMessages.tsx:getQueueWindow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/queuedMessages.tsx",
+      "target": "function:ui-tui/src/components/queuedMessages.tsx:QueuedMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/queuedMessages.tsx",
+      "target": "function:ui-tui/src/components/queuedMessages.tsx:QueuedMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/components/skillsHub.tsx",
+      "target": "function:ui-tui/src/components/skillsHub.tsx:SkillsHub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/components/skillsHub.tsx",
+      "target": "function:ui-tui/src/components/skillsHub.tsx:SkillsHub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

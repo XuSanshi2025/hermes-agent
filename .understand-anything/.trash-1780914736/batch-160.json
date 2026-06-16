@@ -1,0 +1,3548 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/components/ui/control.ts",
+      "type": "file",
+      "name": "control.ts",
+      "filePath": "apps/desktop/src/components/ui/control.ts",
+      "summary": "control.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/copy-button.test.tsx",
+      "type": "file",
+      "name": "copy-button.test.tsx",
+      "filePath": "apps/desktop/src/components/ui/copy-button.test.tsx",
+      "summary": "copy-button.test.tsx 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/copy-button.tsx",
+      "type": "file",
+      "name": "copy-button.tsx",
+      "filePath": "apps/desktop/src/components/ui/copy-button.tsx",
+      "summary": "copy-button.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/copy-button.tsx:writeClipboardText",
+      "type": "function",
+      "name": "writeClipboardText",
+      "filePath": "apps/desktop/src/components/ui/copy-button.tsx",
+      "lineRange": [
+        16,
+        34
+      ],
+      "summary": "writeClipboardText 是 copy-button.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/copy-button.tsx:CopyButton",
+      "type": "function",
+      "name": "CopyButton",
+      "filePath": "apps/desktop/src/components/ui/copy-button.tsx",
+      "lineRange": [
+        56,
+        229
+      ],
+      "summary": "CopyButton 是 copy-button.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "type": "file",
+      "name": "dialog.tsx",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "summary": "dialog.tsx 是 typescript 源文件，包含 10 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:Dialog",
+      "type": "function",
+      "name": "Dialog",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "Dialog 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogTrigger",
+      "type": "function",
+      "name": "DialogTrigger",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        13,
+        15
+      ],
+      "summary": "DialogTrigger 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogPortal",
+      "type": "function",
+      "name": "DialogPortal",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        17,
+        19
+      ],
+      "summary": "DialogPortal 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogClose",
+      "type": "function",
+      "name": "DialogClose",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "DialogClose 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "function",
+      "name": "DialogOverlay",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        25,
+        36
+      ],
+      "summary": "DialogOverlay 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogContent",
+      "type": "function",
+      "name": "DialogContent",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        38,
+        79
+      ],
+      "summary": "DialogContent 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogHeader",
+      "type": "function",
+      "name": "DialogHeader",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        81,
+        89
+      ],
+      "summary": "DialogHeader 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogFooter",
+      "type": "function",
+      "name": "DialogFooter",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        91,
+        99
+      ],
+      "summary": "DialogFooter 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogTitle",
+      "type": "function",
+      "name": "DialogTitle",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        101,
+        126
+      ],
+      "summary": "DialogTitle 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dialog.tsx:DialogDescription",
+      "type": "function",
+      "name": "DialogDescription",
+      "filePath": "apps/desktop/src/components/ui/dialog.tsx",
+      "lineRange": [
+        128,
+        139
+      ],
+      "summary": "DialogDescription 是 dialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/disclosure-caret.tsx",
+      "type": "file",
+      "name": "disclosure-caret.tsx",
+      "filePath": "apps/desktop/src/components/ui/disclosure-caret.tsx",
+      "summary": "disclosure-caret.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/disclosure-caret.tsx:DisclosureCaret",
+      "type": "function",
+      "name": "DisclosureCaret",
+      "filePath": "apps/desktop/src/components/ui/disclosure-caret.tsx",
+      "lineRange": [
+        11,
+        20
+      ],
+      "summary": "DisclosureCaret 是 disclosure-caret.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "type": "file",
+      "name": "dropdown-menu.tsx",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "summary": "dropdown-menu.tsx 是 typescript 源文件，包含 16 个函数、18 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenu",
+      "type": "function",
+      "name": "DropdownMenu",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        18,
+        20
+      ],
+      "summary": "DropdownMenu 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuPortal",
+      "type": "function",
+      "name": "DropdownMenuPortal",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        22,
+        24
+      ],
+      "summary": "DropdownMenuPortal 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "function",
+      "name": "DropdownMenuTrigger",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "DropdownMenuTrigger 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSearch",
+      "type": "function",
+      "name": "DropdownMenuSearch",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        35,
+        68
+      ],
+      "summary": "DropdownMenuSearch 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "function",
+      "name": "DropdownMenuContent",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        70,
+        95
+      ],
+      "summary": "DropdownMenuContent 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuGroup",
+      "type": "function",
+      "name": "DropdownMenuGroup",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        97,
+        99
+      ],
+      "summary": "DropdownMenuGroup 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "function",
+      "name": "DropdownMenuItem",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        101,
+        122
+      ],
+      "summary": "DropdownMenuItem 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "function",
+      "name": "DropdownMenuCheckboxItem",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        124,
+        146
+      ],
+      "summary": "DropdownMenuCheckboxItem 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "function",
+      "name": "DropdownMenuRadioGroup",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        148,
+        150
+      ],
+      "summary": "DropdownMenuRadioGroup 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "function",
+      "name": "DropdownMenuRadioItem",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        152,
+        172
+      ],
+      "summary": "DropdownMenuRadioItem 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "function",
+      "name": "DropdownMenuLabel",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        174,
+        189
+      ],
+      "summary": "DropdownMenuLabel 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "function",
+      "name": "DropdownMenuSeparator",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        191,
+        199
+      ],
+      "summary": "DropdownMenuSeparator 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "function",
+      "name": "DropdownMenuShortcut",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        201,
+        209
+      ],
+      "summary": "DropdownMenuShortcut 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSub",
+      "type": "function",
+      "name": "DropdownMenuSub",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        211,
+        213
+      ],
+      "summary": "DropdownMenuSub 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "function",
+      "name": "DropdownMenuSubTrigger",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        215,
+        240
+      ],
+      "summary": "DropdownMenuSubTrigger 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "function",
+      "name": "DropdownMenuSubContent",
+      "filePath": "apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        242,
+        272
+      ],
+      "summary": "DropdownMenuSubContent 是 dropdown-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/error-state.tsx",
+      "type": "file",
+      "name": "error-state.tsx",
+      "filePath": "apps/desktop/src/components/ui/error-state.tsx",
+      "summary": "error-state.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/error-state.tsx:ErrorIcon",
+      "type": "function",
+      "name": "ErrorIcon",
+      "filePath": "apps/desktop/src/components/ui/error-state.tsx",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "ErrorIcon 是 error-state.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/error-state.tsx:ErrorState",
+      "type": "function",
+      "name": "ErrorState",
+      "filePath": "apps/desktop/src/components/ui/error-state.tsx",
+      "lineRange": [
+        28,
+        50
+      ],
+      "summary": "ErrorState 是 error-state.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/fade-text.tsx",
+      "type": "file",
+      "name": "fade-text.tsx",
+      "filePath": "apps/desktop/src/components/ui/fade-text.tsx",
+      "summary": "fade-text.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/fade-text.tsx:FadeTextImpl",
+      "type": "function",
+      "name": "FadeTextImpl",
+      "filePath": "apps/desktop/src/components/ui/fade-text.tsx",
+      "lineRange": [
+        33,
+        67
+      ],
+      "summary": "FadeTextImpl 是 fade-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/fade-text.tsx:styleEqual",
+      "type": "function",
+      "name": "styleEqual",
+      "filePath": "apps/desktop/src/components/ui/fade-text.tsx",
+      "lineRange": [
+        69,
+        91
+      ],
+      "summary": "styleEqual 是 fade-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/input.tsx",
+      "type": "file",
+      "name": "input.tsx",
+      "filePath": "apps/desktop/src/components/ui/input.tsx",
+      "summary": "input.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/input.tsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "apps/desktop/src/components/ui/input.tsx",
+      "lineRange": [
+        7,
+        20
+      ],
+      "summary": "Input 是 input.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/kbd.tsx",
+      "type": "file",
+      "name": "kbd.tsx",
+      "filePath": "apps/desktop/src/components/ui/kbd.tsx",
+      "summary": "kbd.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/kbd.tsx:Kbd",
+      "type": "function",
+      "name": "Kbd",
+      "filePath": "apps/desktop/src/components/ui/kbd.tsx",
+      "lineRange": [
+        5,
+        16
+      ],
+      "summary": "Kbd 是 kbd.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/kbd.tsx:KbdGroup",
+      "type": "function",
+      "name": "KbdGroup",
+      "filePath": "apps/desktop/src/components/ui/kbd.tsx",
+      "lineRange": [
+        22,
+        35
+      ],
+      "summary": "KbdGroup 是 kbd.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/loader.tsx",
+      "type": "file",
+      "name": "loader.tsx",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "summary": "loader.tsx 是 typescript 源文件，包含 11 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:Loader",
+      "type": "function",
+      "name": "Loader",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        318,
+        397
+      ],
+      "summary": "Loader 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:baseCurve",
+      "type": "function",
+      "name": "baseCurve",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        399,
+        411
+      ],
+      "summary": "baseCurve 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:thinkingCurve",
+      "type": "function",
+      "name": "thinkingCurve",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        413,
+        435
+      ],
+      "summary": "thinkingCurve 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:roseCurve",
+      "type": "function",
+      "name": "roseCurve",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        437,
+        459
+      ],
+      "summary": "roseCurve 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:spiralPetalCurve",
+      "type": "function",
+      "name": "spiralPetalCurve",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        461,
+        486
+      ],
+      "summary": "spiralPetalCurve 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:cardioidCurve",
+      "type": "function",
+      "name": "cardioidCurve",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        488,
+        514
+      ],
+      "summary": "cardioidCurve 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/loader.tsx:particleFor",
+      "type": "function",
+      "name": "particleFor",
+      "filePath": "apps/desktop/src/components/ui/loader.tsx",
+      "lineRange": [
+        537,
+        548
+      ],
+      "summary": "particleFor 是 loader.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/log-view.tsx",
+      "type": "file",
+      "name": "log-view.tsx",
+      "filePath": "apps/desktop/src/components/ui/log-view.tsx",
+      "summary": "log-view.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/log-view.tsx:LogView",
+      "type": "function",
+      "name": "LogView",
+      "filePath": "apps/desktop/src/components/ui/log-view.tsx",
+      "lineRange": [
+        7,
+        17
+      ],
+      "summary": "LogView 是 log-view.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "type": "file",
+      "name": "pagination.tsx",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "summary": "pagination.tsx 是 typescript 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:Pagination",
+      "type": "function",
+      "name": "Pagination",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        7,
+        18
+      ],
+      "summary": "Pagination 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationContent",
+      "type": "function",
+      "name": "PaginationContent",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        20,
+        24
+      ],
+      "summary": "PaginationContent 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationItem",
+      "type": "function",
+      "name": "PaginationItem",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "PaginationItem 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationButton",
+      "type": "function",
+      "name": "PaginationButton",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        34,
+        51
+      ],
+      "summary": "PaginationButton 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationPrevious",
+      "type": "function",
+      "name": "PaginationPrevious",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        53,
+        71
+      ],
+      "summary": "PaginationPrevious 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationNext",
+      "type": "function",
+      "name": "PaginationNext",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        73,
+        91
+      ],
+      "summary": "PaginationNext 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationEllipsis",
+      "type": "function",
+      "name": "PaginationEllipsis",
+      "filePath": "apps/desktop/src/components/ui/pagination.tsx",
+      "lineRange": [
+        93,
+        104
+      ],
+      "summary": "PaginationEllipsis 是 pagination.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/popover.tsx",
+      "type": "file",
+      "name": "popover.tsx",
+      "filePath": "apps/desktop/src/components/ui/popover.tsx",
+      "summary": "popover.tsx 是 typescript 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/popover.tsx:Popover",
+      "type": "function",
+      "name": "Popover",
+      "filePath": "apps/desktop/src/components/ui/popover.tsx",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "Popover 是 popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/popover.tsx:PopoverTrigger",
+      "type": "function",
+      "name": "PopoverTrigger",
+      "filePath": "apps/desktop/src/components/ui/popover.tsx",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "PopoverTrigger 是 popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/popover.tsx:PopoverAnchor",
+      "type": "function",
+      "name": "PopoverAnchor",
+      "filePath": "apps/desktop/src/components/ui/popover.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "PopoverAnchor 是 popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/popover.tsx:PopoverContent",
+      "type": "function",
+      "name": "PopoverContent",
+      "filePath": "apps/desktop/src/components/ui/popover.tsx",
+      "lineRange": [
+        18,
+        42
+      ],
+      "summary": "PopoverContent 是 popover.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/scroll-area.tsx",
+      "type": "file",
+      "name": "scroll-area.tsx",
+      "filePath": "apps/desktop/src/components/ui/scroll-area.tsx",
+      "summary": "scroll-area.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/scroll-area.tsx:ScrollArea",
+      "type": "function",
+      "name": "ScrollArea",
+      "filePath": "apps/desktop/src/components/ui/scroll-area.tsx",
+      "lineRange": [
+        6,
+        16
+      ],
+      "summary": "ScrollArea 是 scroll-area.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/scroll-area.tsx:ScrollBar",
+      "type": "function",
+      "name": "ScrollBar",
+      "filePath": "apps/desktop/src/components/ui/scroll-area.tsx",
+      "lineRange": [
+        18,
+        41
+      ],
+      "summary": "ScrollBar 是 scroll-area.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/search-field.tsx",
+      "type": "file",
+      "name": "search-field.tsx",
+      "filePath": "apps/desktop/src/components/ui/search-field.tsx",
+      "summary": "search-field.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/search-field.tsx:SearchField",
+      "type": "function",
+      "name": "SearchField",
+      "filePath": "apps/desktop/src/components/ui/search-field.tsx",
+      "lineRange": [
+        27,
+        80
+      ],
+      "summary": "SearchField 是 search-field.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/segmented-control.tsx",
+      "type": "file",
+      "name": "segmented-control.tsx",
+      "filePath": "apps/desktop/src/components/ui/segmented-control.tsx",
+      "summary": "segmented-control.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/segmented-control.tsx:SegmentedControl",
+      "type": "function",
+      "name": "SegmentedControl",
+      "filePath": "apps/desktop/src/components/ui/segmented-control.tsx",
+      "lineRange": [
+        22,
+        51
+      ],
+      "summary": "SegmentedControl 是 segmented-control.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/select.tsx",
+      "type": "file",
+      "name": "select.tsx",
+      "filePath": "apps/desktop/src/components/ui/select.tsx",
+      "summary": "select.tsx 是 typescript 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/select.tsx:Select",
+      "type": "function",
+      "name": "Select",
+      "filePath": "apps/desktop/src/components/ui/select.tsx",
+      "lineRange": [
+        8,
+        10
+      ],
+      "summary": "Select 是 select.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/select.tsx:SelectTrigger",
+      "type": "function",
+      "name": "SelectTrigger",
+      "filePath": "apps/desktop/src/components/ui/select.tsx",
+      "lineRange": [
+        12,
+        34
+      ],
+      "summary": "SelectTrigger 是 select.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/select.tsx:SelectValue",
+      "type": "function",
+      "name": "SelectValue",
+      "filePath": "apps/desktop/src/components/ui/select.tsx",
+      "lineRange": [
+        36,
+        38
+      ],
+      "summary": "SelectValue 是 select.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/select.tsx:SelectContent",
+      "type": "function",
+      "name": "SelectContent",
+      "filePath": "apps/desktop/src/components/ui/select.tsx",
+      "lineRange": [
+        40,
+        70
+      ],
+      "summary": "SelectContent 是 select.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/select.tsx:SelectItem",
+      "type": "function",
+      "name": "SelectItem",
+      "filePath": "apps/desktop/src/components/ui/select.tsx",
+      "lineRange": [
+        72,
+        90
+      ],
+      "summary": "SelectItem 是 select.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/separator.tsx",
+      "type": "file",
+      "name": "separator.tsx",
+      "filePath": "apps/desktop/src/components/ui/separator.tsx",
+      "summary": "separator.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/separator.tsx:Separator",
+      "type": "function",
+      "name": "Separator",
+      "filePath": "apps/desktop/src/components/ui/separator.tsx",
+      "lineRange": [
+        6,
+        24
+      ],
+      "summary": "Separator 是 separator.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "type": "file",
+      "name": "sheet.tsx",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "summary": "sheet.tsx 是 typescript 源文件，包含 10 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:Sheet",
+      "type": "function",
+      "name": "Sheet",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "Sheet 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetTrigger",
+      "type": "function",
+      "name": "SheetTrigger",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "SheetTrigger 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetClose",
+      "type": "function",
+      "name": "SheetClose",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        18,
+        20
+      ],
+      "summary": "SheetClose 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetOverlay",
+      "type": "function",
+      "name": "SheetOverlay",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        26,
+        37
+      ],
+      "summary": "SheetOverlay 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetContent",
+      "type": "function",
+      "name": "SheetContent",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        39,
+        83
+      ],
+      "summary": "SheetContent 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetHeader",
+      "type": "function",
+      "name": "SheetHeader",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        85,
+        87
+      ],
+      "summary": "SheetHeader 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetFooter",
+      "type": "function",
+      "name": "SheetFooter",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        89,
+        91
+      ],
+      "summary": "SheetFooter 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetTitle",
+      "type": "function",
+      "name": "SheetTitle",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        93,
+        101
+      ],
+      "summary": "SheetTitle 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sheet.tsx:SheetDescription",
+      "type": "function",
+      "name": "SheetDescription",
+      "filePath": "apps/desktop/src/components/ui/sheet.tsx",
+      "lineRange": [
+        103,
+        114
+      ],
+      "summary": "SheetDescription 是 sheet.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "type": "file",
+      "name": "sidebar.tsx",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "summary": "sidebar.tsx 是 typescript 源文件，包含 24 个函数、24 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:useSidebar",
+      "type": "function",
+      "name": "useSidebar",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        36,
+        44
+      ],
+      "summary": "useSidebar 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarProvider",
+      "type": "function",
+      "name": "SidebarProvider",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        46,
+        129
+      ],
+      "summary": "SidebarProvider 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:Sidebar",
+      "type": "function",
+      "name": "Sidebar",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        131,
+        229
+      ],
+      "summary": "Sidebar 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarTrigger",
+      "type": "function",
+      "name": "SidebarTrigger",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        231,
+        252
+      ],
+      "summary": "SidebarTrigger 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarRail",
+      "type": "function",
+      "name": "SidebarRail",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        254,
+        278
+      ],
+      "summary": "SidebarRail 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarInset",
+      "type": "function",
+      "name": "SidebarInset",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        280,
+        292
+      ],
+      "summary": "SidebarInset 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarInput",
+      "type": "function",
+      "name": "SidebarInput",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        294,
+        303
+      ],
+      "summary": "SidebarInput 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarHeader",
+      "type": "function",
+      "name": "SidebarHeader",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        305,
+        314
+      ],
+      "summary": "SidebarHeader 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarFooter",
+      "type": "function",
+      "name": "SidebarFooter",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        316,
+        325
+      ],
+      "summary": "SidebarFooter 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarSeparator",
+      "type": "function",
+      "name": "SidebarSeparator",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        327,
+        336
+      ],
+      "summary": "SidebarSeparator 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarContent",
+      "type": "function",
+      "name": "SidebarContent",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        338,
+        350
+      ],
+      "summary": "SidebarContent 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroup",
+      "type": "function",
+      "name": "SidebarGroup",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        352,
+        361
+      ],
+      "summary": "SidebarGroup 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupLabel",
+      "type": "function",
+      "name": "SidebarGroupLabel",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        363,
+        382
+      ],
+      "summary": "SidebarGroupLabel 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupAction",
+      "type": "function",
+      "name": "SidebarGroupAction",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        384,
+        405
+      ],
+      "summary": "SidebarGroupAction 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupContent",
+      "type": "function",
+      "name": "SidebarGroupContent",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        407,
+        416
+      ],
+      "summary": "SidebarGroupContent 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenu",
+      "type": "function",
+      "name": "SidebarMenu",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        418,
+        427
+      ],
+      "summary": "SidebarMenu 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuItem",
+      "type": "function",
+      "name": "SidebarMenuItem",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        429,
+        438
+      ],
+      "summary": "SidebarMenuItem 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuButton",
+      "type": "function",
+      "name": "SidebarMenuButton",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        462,
+        505
+      ],
+      "summary": "SidebarMenuButton 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuAction",
+      "type": "function",
+      "name": "SidebarMenuAction",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        507,
+        537
+      ],
+      "summary": "SidebarMenuAction 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuBadge",
+      "type": "function",
+      "name": "SidebarMenuBadge",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        539,
+        556
+      ],
+      "summary": "SidebarMenuBadge 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSkeleton",
+      "type": "function",
+      "name": "SidebarMenuSkeleton",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        558,
+        589
+      ],
+      "summary": "SidebarMenuSkeleton 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSub",
+      "type": "function",
+      "name": "SidebarMenuSub",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        591,
+        604
+      ],
+      "summary": "SidebarMenuSub 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSubItem",
+      "type": "function",
+      "name": "SidebarMenuSubItem",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        606,
+        615
+      ],
+      "summary": "SidebarMenuSubItem 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSubButton",
+      "type": "function",
+      "name": "SidebarMenuSubButton",
+      "filePath": "apps/desktop/src/components/ui/sidebar.tsx",
+      "lineRange": [
+        617,
+        647
+      ],
+      "summary": "SidebarMenuSubButton 是 sidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/skeleton.tsx",
+      "type": "file",
+      "name": "skeleton.tsx",
+      "filePath": "apps/desktop/src/components/ui/skeleton.tsx",
+      "summary": "skeleton.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/skeleton.tsx:Skeleton",
+      "type": "function",
+      "name": "Skeleton",
+      "filePath": "apps/desktop/src/components/ui/skeleton.tsx",
+      "lineRange": [
+        3,
+        5
+      ],
+      "summary": "Skeleton 是 skeleton.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/switch.tsx",
+      "type": "file",
+      "name": "switch.tsx",
+      "filePath": "apps/desktop/src/components/ui/switch.tsx",
+      "summary": "switch.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/switch.tsx:Switch",
+      "type": "function",
+      "name": "Switch",
+      "filePath": "apps/desktop/src/components/ui/switch.tsx",
+      "lineRange": [
+        37,
+        47
+      ],
+      "summary": "Switch 是 switch.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "type": "file",
+      "name": "tabs.tsx",
+      "filePath": "apps/desktop/src/components/ui/tabs.tsx",
+      "summary": "tabs.tsx 是 typescript 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tabs.tsx:Tabs",
+      "type": "function",
+      "name": "Tabs",
+      "filePath": "apps/desktop/src/components/ui/tabs.tsx",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "Tabs 是 tabs.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tabs.tsx:TabsList",
+      "type": "function",
+      "name": "TabsList",
+      "filePath": "apps/desktop/src/components/ui/tabs.tsx",
+      "lineRange": [
+        10,
+        21
+      ],
+      "summary": "TabsList 是 tabs.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "function",
+      "name": "TabsTrigger",
+      "filePath": "apps/desktop/src/components/ui/tabs.tsx",
+      "lineRange": [
+        23,
+        34
+      ],
+      "summary": "TabsTrigger 是 tabs.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/ui/text-tab.tsx",
+      "type": "file",
+      "name": "text-tab.tsx",
+      "filePath": "apps/desktop/src/components/ui/text-tab.tsx",
+      "summary": "text-tab.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/text-tab.tsx:TextTabMeta",
+      "type": "function",
+      "name": "TextTabMeta",
+      "filePath": "apps/desktop/src/components/ui/text-tab.tsx",
+      "lineRange": [
+        5,
+        7
+      ],
+      "summary": "TextTabMeta 是 text-tab.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/ui/text-tab.tsx:TextTab",
+      "type": "function",
+      "name": "TextTab",
+      "filePath": "apps/desktop/src/components/ui/text-tab.tsx",
+      "lineRange": [
+        13,
+        41
+      ],
+      "summary": "TextTab 是 text-tab.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/components/ui/copy-button.tsx",
+      "target": "function:apps/desktop/src/components/ui/copy-button.tsx:writeClipboardText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/copy-button.tsx",
+      "target": "function:apps/desktop/src/components/ui/copy-button.tsx:writeClipboardText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/copy-button.tsx",
+      "target": "function:apps/desktop/src/components/ui/copy-button.tsx:CopyButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/copy-button.tsx",
+      "target": "function:apps/desktop/src/components/ui/copy-button.tsx:CopyButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:Dialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:Dialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogPortal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogPortal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogClose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogClose",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dialog.tsx",
+      "target": "function:apps/desktop/src/components/ui/dialog.tsx:DialogDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/disclosure-caret.tsx",
+      "target": "function:apps/desktop/src/components/ui/disclosure-caret.tsx:DisclosureCaret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/disclosure-caret.tsx",
+      "target": "function:apps/desktop/src/components/ui/disclosure-caret.tsx:DisclosureCaret",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuPortal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuPortal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSearch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSearch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/dropdown-menu.tsx",
+      "target": "function:apps/desktop/src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/error-state.tsx",
+      "target": "function:apps/desktop/src/components/ui/error-state.tsx:ErrorIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/error-state.tsx",
+      "target": "function:apps/desktop/src/components/ui/error-state.tsx:ErrorIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/error-state.tsx",
+      "target": "function:apps/desktop/src/components/ui/error-state.tsx:ErrorState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/error-state.tsx",
+      "target": "function:apps/desktop/src/components/ui/error-state.tsx:ErrorState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/fade-text.tsx",
+      "target": "function:apps/desktop/src/components/ui/fade-text.tsx:FadeTextImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/fade-text.tsx",
+      "target": "function:apps/desktop/src/components/ui/fade-text.tsx:styleEqual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/input.tsx",
+      "target": "function:apps/desktop/src/components/ui/input.tsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/input.tsx",
+      "target": "function:apps/desktop/src/components/ui/input.tsx:Input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/kbd.tsx",
+      "target": "function:apps/desktop/src/components/ui/kbd.tsx:Kbd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/kbd.tsx",
+      "target": "function:apps/desktop/src/components/ui/kbd.tsx:Kbd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/kbd.tsx",
+      "target": "function:apps/desktop/src/components/ui/kbd.tsx:KbdGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/kbd.tsx",
+      "target": "function:apps/desktop/src/components/ui/kbd.tsx:KbdGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:Loader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:Loader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:baseCurve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:thinkingCurve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:roseCurve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:spiralPetalCurve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:cardioidCurve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/loader.tsx",
+      "target": "function:apps/desktop/src/components/ui/loader.tsx:particleFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/log-view.tsx",
+      "target": "function:apps/desktop/src/components/ui/log-view.tsx:LogView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/log-view.tsx",
+      "target": "function:apps/desktop/src/components/ui/log-view.tsx:LogView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:Pagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:Pagination",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationPrevious",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationPrevious",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationNext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationNext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationEllipsis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/pagination.tsx",
+      "target": "function:apps/desktop/src/components/ui/pagination.tsx:PaginationEllipsis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:Popover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:Popover",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:PopoverTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:PopoverTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:PopoverAnchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:PopoverAnchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:PopoverContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/popover.tsx",
+      "target": "function:apps/desktop/src/components/ui/popover.tsx:PopoverContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/scroll-area.tsx",
+      "target": "function:apps/desktop/src/components/ui/scroll-area.tsx:ScrollArea",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/scroll-area.tsx",
+      "target": "function:apps/desktop/src/components/ui/scroll-area.tsx:ScrollArea",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/scroll-area.tsx",
+      "target": "function:apps/desktop/src/components/ui/scroll-area.tsx:ScrollBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/scroll-area.tsx",
+      "target": "function:apps/desktop/src/components/ui/scroll-area.tsx:ScrollBar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/search-field.tsx",
+      "target": "function:apps/desktop/src/components/ui/search-field.tsx:SearchField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/search-field.tsx",
+      "target": "function:apps/desktop/src/components/ui/search-field.tsx:SearchField",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/segmented-control.tsx",
+      "target": "function:apps/desktop/src/components/ui/segmented-control.tsx:SegmentedControl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/segmented-control.tsx",
+      "target": "function:apps/desktop/src/components/ui/segmented-control.tsx:SegmentedControl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:Select",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:Select",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/select.tsx",
+      "target": "function:apps/desktop/src/components/ui/select.tsx:SelectItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/separator.tsx",
+      "target": "function:apps/desktop/src/components/ui/separator.tsx:Separator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/separator.tsx",
+      "target": "function:apps/desktop/src/components/ui/separator.tsx:Separator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:Sheet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:Sheet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetClose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetClose",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sheet.tsx",
+      "target": "function:apps/desktop/src/components/ui/sheet.tsx:SheetDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:useSidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:useSidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:Sidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:Sidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarRail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarRail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarInset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarInset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarSeparator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarGroupContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuBadge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSkeleton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSkeleton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSubItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSubItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSubButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/sidebar.tsx",
+      "target": "function:apps/desktop/src/components/ui/sidebar.tsx:SidebarMenuSubButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/skeleton.tsx",
+      "target": "function:apps/desktop/src/components/ui/skeleton.tsx:Skeleton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/skeleton.tsx",
+      "target": "function:apps/desktop/src/components/ui/skeleton.tsx:Skeleton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/switch.tsx",
+      "target": "function:apps/desktop/src/components/ui/switch.tsx:Switch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/switch.tsx",
+      "target": "function:apps/desktop/src/components/ui/switch.tsx:Switch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "target": "function:apps/desktop/src/components/ui/tabs.tsx:Tabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "target": "function:apps/desktop/src/components/ui/tabs.tsx:Tabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "target": "function:apps/desktop/src/components/ui/tabs.tsx:TabsList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "target": "function:apps/desktop/src/components/ui/tabs.tsx:TabsList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "target": "function:apps/desktop/src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/tabs.tsx",
+      "target": "function:apps/desktop/src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/text-tab.tsx",
+      "target": "function:apps/desktop/src/components/ui/text-tab.tsx:TextTabMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/text-tab.tsx",
+      "target": "function:apps/desktop/src/components/ui/text-tab.tsx:TextTabMeta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/text-tab.tsx",
+      "target": "function:apps/desktop/src/components/ui/text-tab.tsx:TextTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/ui/text-tab.tsx",
+      "target": "function:apps/desktop/src/components/ui/text-tab.tsx:TextTab",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

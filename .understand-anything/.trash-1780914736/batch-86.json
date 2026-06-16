@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "config:website/docs/user-guide/_category_.json",
+      "type": "config",
+      "name": "_category_.json",
+      "filePath": "website/docs/user-guide/_category_.json",
+      "summary": "_category_.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "document:website/docs/user-guide/checkpoints-and-rollback.md",
+      "type": "document",
+      "name": "checkpoints-and-rollback.md",
+      "filePath": "website/docs/user-guide/checkpoints-and-rollback.md",
+      "summary": "checkpoints-and-rollback.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/cli.md",
+      "type": "document",
+      "name": "cli.md",
+      "filePath": "website/docs/user-guide/cli.md",
+      "summary": "cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/configuration.md",
+      "type": "document",
+      "name": "configuration.md",
+      "filePath": "website/docs/user-guide/configuration.md",
+      "summary": "configuration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/configuring-models.md",
+      "type": "document",
+      "name": "configuring-models.md",
+      "filePath": "website/docs/user-guide/configuring-models.md",
+      "summary": "configuring-models.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/desktop.md",
+      "type": "document",
+      "name": "desktop.md",
+      "filePath": "website/docs/user-guide/desktop.md",
+      "summary": "desktop.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/docker.md",
+      "type": "document",
+      "name": "docker.md",
+      "filePath": "website/docs/user-guide/docker.md",
+      "summary": "docker.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "containerization"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/git-worktrees.md",
+      "type": "document",
+      "name": "git-worktrees.md",
+      "filePath": "website/docs/user-guide/git-worktrees.md",
+      "summary": "git-worktrees.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/multi-profile-gateways.md",
+      "type": "document",
+      "name": "multi-profile-gateways.md",
+      "filePath": "website/docs/user-guide/multi-profile-gateways.md",
+      "summary": "multi-profile-gateways.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "gateway"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/profile-distributions.md",
+      "type": "document",
+      "name": "profile-distributions.md",
+      "filePath": "website/docs/user-guide/profile-distributions.md",
+      "summary": "profile-distributions.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/profiles.md",
+      "type": "document",
+      "name": "profiles.md",
+      "filePath": "website/docs/user-guide/profiles.md",
+      "summary": "profiles.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/security.md",
+      "type": "document",
+      "name": "security.md",
+      "filePath": "website/docs/user-guide/security.md",
+      "summary": "security.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/sessions.md",
+      "type": "document",
+      "name": "sessions.md",
+      "filePath": "website/docs/user-guide/sessions.md",
+      "summary": "sessions.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/tui.md",
+      "type": "document",
+      "name": "tui.md",
+      "filePath": "website/docs/user-guide/tui.md",
+      "summary": "tui.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/windows-native.md",
+      "type": "document",
+      "name": "windows-native.md",
+      "filePath": "website/docs/user-guide/windows-native.md",
+      "summary": "windows-native.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/windows-wsl-quickstart.md",
+      "type": "document",
+      "name": "windows-wsl-quickstart.md",
+      "filePath": "website/docs/user-guide/windows-wsl-quickstart.md",
+      "summary": "windows-wsl-quickstart.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

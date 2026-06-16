@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/mlops/accelerate/references/custom-plugins.md",
+      "type": "document",
+      "name": "custom-plugins.md",
+      "filePath": "optional-skills/mlops/accelerate/references/custom-plugins.md",
+      "summary": "custom-plugins.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/accelerate/references/megatron-integration.md",
+      "type": "document",
+      "name": "megatron-integration.md",
+      "filePath": "optional-skills/mlops/accelerate/references/megatron-integration.md",
+      "summary": "megatron-integration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/accelerate/references/performance.md",
+      "type": "document",
+      "name": "performance.md",
+      "filePath": "optional-skills/mlops/accelerate/references/performance.md",
+      "summary": "performance.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/developer-guide/prompt-assembly.md",
+      "type": "document",
+      "name": "prompt-assembly.md",
+      "filePath": "website/docs/developer-guide/prompt-assembly.md",
+      "summary": "prompt-assembly.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/developer-guide/provider-runtime.md",
+      "type": "document",
+      "name": "provider-runtime.md",
+      "filePath": "website/docs/developer-guide/provider-runtime.md",
+      "summary": "provider-runtime.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/developer-guide/session-storage.md",
+      "type": "document",
+      "name": "session-storage.md",
+      "filePath": "website/docs/developer-guide/session-storage.md",
+      "summary": "session-storage.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/developer-guide/tools-runtime.md",
+      "type": "document",
+      "name": "tools-runtime.md",
+      "filePath": "website/docs/developer-guide/tools-runtime.md",
+      "summary": "tools-runtime.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "tooling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/developer-guide/trajectory-format.md",
+      "type": "document",
+      "name": "trajectory-format.md",
+      "filePath": "website/docs/developer-guide/trajectory-format.md",
+      "summary": "trajectory-format.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/developer-guide/video-gen-provider-plugin.md",
+      "type": "document",
+      "name": "video-gen-provider-plugin.md",
+      "filePath": "website/docs/developer-guide/video-gen-provider-plugin.md",
+      "summary": "video-gen-provider-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/developer-guide/web-search-provider-plugin.md",
+      "type": "document",
+      "name": "web-search-provider-plugin.md",
+      "filePath": "website/docs/developer-guide/web-search-provider-plugin.md",
+      "summary": "web-search-provider-plugin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

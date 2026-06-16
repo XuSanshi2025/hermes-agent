@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/art-styles/chalk.md",
+      "type": "document",
+      "name": "chalk.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/art-styles/chalk.md",
+      "summary": "chalk.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/art-styles/ink-brush.md",
+      "type": "document",
+      "name": "ink-brush.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/art-styles/ink-brush.md",
+      "summary": "ink-brush.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/art-styles/ligne-claire.md",
+      "type": "document",
+      "name": "ligne-claire.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/art-styles/ligne-claire.md",
+      "summary": "ligne-claire.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/art-styles/manga.md",
+      "type": "document",
+      "name": "manga.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/art-styles/manga.md",
+      "summary": "manga.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/art-styles/minimalist.md",
+      "type": "document",
+      "name": "minimalist.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/art-styles/minimalist.md",
+      "summary": "minimalist.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/art-styles/realistic.md",
+      "type": "document",
+      "name": "realistic.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/art-styles/realistic.md",
+      "summary": "realistic.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

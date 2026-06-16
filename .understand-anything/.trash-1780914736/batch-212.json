@@ -1,0 +1,4854 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/optimizer.ts",
+      "type": "file",
+      "name": "optimizer.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/optimizer.ts",
+      "summary": "optimizer.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/optimizer.ts:optimize",
+      "type": "function",
+      "name": "optimize",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/optimizer.ts",
+      "lineRange": [
+        16,
+        99
+      ],
+      "summary": "optimize 是 optimizer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "type": "file",
+      "name": "output.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "summary": "output.ts 是 typescript 源文件，包含 7 个函数、1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:intersectClip",
+      "type": "function",
+      "name": "intersectClip",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        101,
+        112
+      ],
+      "summary": "intersectClip 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:maxDefined",
+      "type": "function",
+      "name": "maxDefined",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        114,
+        124
+      ],
+      "summary": "maxDefined 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:minDefined",
+      "type": "function",
+      "name": "minDefined",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        126,
+        136
+      ],
+      "summary": "minDefined 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:stylesEqual",
+      "type": "function",
+      "name": "stylesEqual",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        584,
+        606
+      ],
+      "summary": "stylesEqual 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:styledCharsWithGraphemeClustering",
+      "type": "function",
+      "name": "styledCharsWithGraphemeClustering",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        616,
+        647
+      ],
+      "summary": "styledCharsWithGraphemeClustering 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:flushBuffer",
+      "type": "function",
+      "name": "flushBuffer",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        649,
+        675
+      ],
+      "summary": "flushBuffer 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:writeLineToScreen",
+      "type": "function",
+      "name": "writeLineToScreen",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        688,
+        845
+      ],
+      "summary": "writeLineToScreen 是 output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:ui-tui/packages/hermes-ink/src/ink/output.ts:Output",
+      "type": "class",
+      "name": "Output",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "lineRange": [
+        176,
+        582
+      ],
+      "summary": "Output 是 output.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.test.ts",
+      "type": "file",
+      "name": "parse-keypress.test.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.test.ts",
+      "summary": "parse-keypress.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "type": "file",
+      "name": "parse-keypress.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "summary": "parse-keypress.ts 是 typescript 源文件，包含 13 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:createPasteKey",
+      "type": "function",
+      "name": "createPasteKey",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        67,
+        81
+      ],
+      "summary": "createPasteKey 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseTerminalResponse",
+      "type": "function",
+      "name": "parseTerminalResponse",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        122,
+        177
+      ],
+      "summary": "parseTerminalResponse 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:inputToString",
+      "type": "function",
+      "name": "inputToString",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        201,
+        217
+      ],
+      "summary": "inputToString 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseMultipleKeypresses",
+      "type": "function",
+      "name": "parseMultipleKeypresses",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        219,
+        307
+      ],
+      "summary": "parseMultipleKeypresses 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:decodeModifier",
+      "type": "function",
+      "name": "decodeModifier",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        445,
+        459
+      ],
+      "summary": "decodeModifier 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:keycodeToName",
+      "type": "function",
+      "name": "keycodeToName",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        468,
+        545
+      ],
+      "summary": "keycodeToName 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseMouseEvent",
+      "type": "function",
+      "name": "parseMouseEvent",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        598,
+        621
+      ],
+      "summary": "parseMouseEvent 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseKeypress",
+      "type": "function",
+      "name": "parseKeypress",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        623,
+        816
+      ],
+      "summary": "parseKeypress 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:createNavKey",
+      "type": "function",
+      "name": "createNavKey",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        818,
+        832
+      ],
+      "summary": "createNavKey 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:createWheelKey",
+      "type": "function",
+      "name": "createWheelKey",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "lineRange": [
+        834,
+        848
+      ],
+      "summary": "createWheelKey 是 parse-keypress.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "type": "file",
+      "name": "reconciler.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "summary": "reconciler.ts 是 typescript 源文件，包含 9 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:diff",
+      "type": "function",
+      "name": "diff",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        55,
+        86
+      ],
+      "summary": "diff 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:cleanupYogaNode",
+      "type": "function",
+      "name": "cleanupYogaNode",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        88,
+        98
+      ],
+      "summary": "cleanupYogaNode 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:applyProp",
+      "type": "function",
+      "name": "applyProp",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        116,
+        144
+      ],
+      "summary": "applyProp 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:recordYogaMs",
+      "type": "function",
+      "name": "recordYogaMs",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        156,
+        158
+      ],
+      "summary": "recordYogaMs 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:getLastYogaMs",
+      "type": "function",
+      "name": "getLastYogaMs",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        160,
+        162
+      ],
+      "summary": "getLastYogaMs 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:markCommitStart",
+      "type": "function",
+      "name": "markCommitStart",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        164,
+        166
+      ],
+      "summary": "markCommitStart 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:getLastCommitMs",
+      "type": "function",
+      "name": "getLastCommitMs",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        168,
+        170
+      ],
+      "summary": "getLastCommitMs 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:resetProfileCounters",
+      "type": "function",
+      "name": "resetProfileCounters",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "lineRange": [
+        172,
+        176
+      ],
+      "summary": "resetProfileCounters 是 reconciler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/render-border.ts",
+      "type": "file",
+      "name": "render-border.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-border.ts",
+      "summary": "render-border.ts 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-border.ts:embedTextInBorder",
+      "type": "function",
+      "name": "embedTextInBorder",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-border.ts",
+      "lineRange": [
+        33,
+        66
+      ],
+      "summary": "embedTextInBorder 是 render-border.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-border.ts:renderBorder",
+      "type": "function",
+      "name": "renderBorder",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-border.ts",
+      "lineRange": [
+        78,
+        204
+      ],
+      "summary": "renderBorder 是 render-border.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "type": "file",
+      "name": "render-node-to-output.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "summary": "render-node-to-output.ts 是 typescript 源文件，包含 23 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetLayoutShifted",
+      "type": "function",
+      "name": "resetLayoutShifted",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        35,
+        38
+      ],
+      "summary": "resetLayoutShifted 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:didLayoutShift",
+      "type": "function",
+      "name": "didLayoutShift",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        40,
+        42
+      ],
+      "summary": "didLayoutShift 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:didAbsoluteOverlayMove",
+      "type": "function",
+      "name": "didAbsoluteOverlayMove",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        44,
+        46
+      ],
+      "summary": "didAbsoluteOverlayMove 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetScrollHint",
+      "type": "function",
+      "name": "resetScrollHint",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        64,
+        68
+      ],
+      "summary": "resetScrollHint 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:getScrollHint",
+      "type": "function",
+      "name": "getScrollHint",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        101,
+        103
+      ],
+      "summary": "getScrollHint 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetScrollDrainNode",
+      "type": "function",
+      "name": "resetScrollDrainNode",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        112,
+        114
+      ],
+      "summary": "resetScrollDrainNode 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:getScrollDrainNode",
+      "type": "function",
+      "name": "getScrollDrainNode",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        116,
+        118
+      ],
+      "summary": "getScrollDrainNode 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:consumeFollowScroll",
+      "type": "function",
+      "name": "consumeFollowScroll",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        135,
+        140
+      ],
+      "summary": "consumeFollowScroll 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:drainAdaptive",
+      "type": "function",
+      "name": "drainAdaptive",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        160,
+        191
+      ],
+      "summary": "drainAdaptive 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:drainProportional",
+      "type": "function",
+      "name": "drainProportional",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        195,
+        210
+      ],
+      "summary": "drainProportional 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:buildCharToSegmentMap",
+      "type": "function",
+      "name": "buildCharToSegmentMap",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        226,
+        238
+      ],
+      "summary": "buildCharToSegmentMap 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:applyStylesToWrappedText",
+      "type": "function",
+      "name": "applyStylesToWrappedText",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        248,
+        327
+      ],
+      "summary": "applyStylesToWrappedText 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:wrapWithSoftWrap",
+      "type": "function",
+      "name": "wrapWithSoftWrap",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        339,
+        365
+      ],
+      "summary": "wrapWithSoftWrap 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:applyPaddingToText",
+      "type": "function",
+      "name": "applyPaddingToText",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        373,
+        389
+      ],
+      "summary": "applyPaddingToText 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:renderNodeToOutput",
+      "type": "function",
+      "name": "renderNodeToOutput",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        392,
+        1315
+      ],
+      "summary": "renderNodeToOutput 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:renderChildren",
+      "type": "function",
+      "name": "renderChildren",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        1345,
+        1381
+      ],
+      "summary": "renderChildren 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:siblingSharesY",
+      "type": "function",
+      "name": "siblingSharesY",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        1395,
+        1429
+      ],
+      "summary": "siblingSharesY 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:blitEscapingAbsoluteDescendants",
+      "type": "function",
+      "name": "blitEscapingAbsoluteDescendants",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        1438,
+        1478
+      ],
+      "summary": "blitEscapingAbsoluteDescendants 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:renderScrolledChildren",
+      "type": "function",
+      "name": "renderScrolledChildren",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "lineRange": [
+        1486,
+        1567
+      ],
+      "summary": "renderScrolledChildren 是 render-node-to-output.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "type": "file",
+      "name": "render-to-screen.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "summary": "render-to-screen.ts 是 typescript 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:renderToScreen",
+      "type": "function",
+      "name": "renderToScreen",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "lineRange": [
+        59,
+        123
+      ],
+      "summary": "renderToScreen 是 render-to-screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:scanPositions",
+      "type": "function",
+      "name": "scanPositions",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "lineRange": [
+        133,
+        194
+      ],
+      "summary": "scanPositions 是 render-to-screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:applyPositionedHighlight",
+      "type": "function",
+      "name": "applyPositionedHighlight",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "lineRange": [
+        205,
+        236
+      ],
+      "summary": "applyPositionedHighlight 是 render-to-screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/renderer.ts",
+      "type": "file",
+      "name": "renderer.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/renderer.ts",
+      "summary": "renderer.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/renderer.ts:createRenderer",
+      "type": "function",
+      "name": "createRenderer",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/renderer.ts",
+      "lineRange": [
+        33,
+        169
+      ],
+      "summary": "createRenderer 是 renderer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "type": "file",
+      "name": "root.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "summary": "root.ts 是 typescript 源文件，包含 6 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:forceRedraw",
+      "type": "function",
+      "name": "forceRedraw",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "lineRange": [
+        92,
+        102
+      ],
+      "summary": "forceRedraw 是 root.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:renderSync",
+      "type": "function",
+      "name": "renderSync",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "lineRange": [
+        107,
+        131
+      ],
+      "summary": "renderSync 是 root.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:wrappedRender",
+      "type": "function",
+      "name": "wrappedRender",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "lineRange": [
+        133,
+        143
+      ],
+      "summary": "wrappedRender 是 root.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:createRoot",
+      "type": "function",
+      "name": "createRoot",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "lineRange": [
+        151,
+        182
+      ],
+      "summary": "createRoot 是 root.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:getOptions",
+      "type": "function",
+      "name": "getOptions",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "lineRange": [
+        184,
+        193
+      ],
+      "summary": "getOptions 是 root.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:getInstance",
+      "type": "function",
+      "name": "getInstance",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "lineRange": [
+        195,
+        204
+      ],
+      "summary": "getInstance 是 root.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "type": "file",
+      "name": "screen.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "summary": "screen.ts 是 typescript 源文件，包含 33 个函数、3 个类、24 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isEmptyCellAt",
+      "type": "function",
+      "name": "isEmptyCellAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        477,
+        483
+      ],
+      "summary": "isEmptyCellAt 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isWrittenCellAt",
+      "type": "function",
+      "name": "isWrittenCellAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        485,
+        491
+      ],
+      "summary": "isWrittenCellAt 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isCellEmpty",
+      "type": "function",
+      "name": "isCellEmpty",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        496,
+        502
+      ],
+      "summary": "isCellEmpty 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:createScreen",
+      "type": "function",
+      "name": "createScreen",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        511,
+        554
+      ],
+      "summary": "createScreen 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:resetScreen",
+      "type": "function",
+      "name": "resetScreen",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        563,
+        606
+      ],
+      "summary": "resetScreen 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:migrateScreenPools",
+      "type": "function",
+      "name": "migrateScreenPools",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        616,
+        649
+      ],
+      "summary": "migrateScreenPools 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:cellAt",
+      "type": "function",
+      "name": "cellAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        655,
+        661
+      ],
+      "summary": "cellAt 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:cellAtIndex",
+      "type": "function",
+      "name": "cellAtIndex",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        667,
+        679
+      ],
+      "summary": "cellAtIndex 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:visibleCellAtIndex",
+      "type": "function",
+      "name": "visibleCellAtIndex",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        690,
+        726
+      ],
+      "summary": "visibleCellAtIndex 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:charInCellAt",
+      "type": "function",
+      "name": "charInCellAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        742,
+        750
+      ],
+      "summary": "charInCellAt 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:setCellAt",
+      "type": "function",
+      "name": "setCellAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        769,
+        881
+      ],
+      "summary": "setCellAt 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:setCellStyleId",
+      "type": "function",
+      "name": "setCellStyleId",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        888,
+        913
+      ],
+      "summary": "setCellStyleId 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:blitRegion",
+      "type": "function",
+      "name": "blitRegion",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        932,
+        1036
+      ],
+      "summary": "blitRegion 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:clearRegion",
+      "type": "function",
+      "name": "clearRegion",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1043,
+        1139
+      ],
+      "summary": "clearRegion 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:shiftRows",
+      "type": "function",
+      "name": "shiftRows",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1148,
+        1190
+      ],
+      "summary": "shiftRows 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:extractHyperlinkFromStyles",
+      "type": "function",
+      "name": "extractHyperlinkFromStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1197,
+        1213
+      ],
+      "summary": "extractHyperlinkFromStyles 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:filterOutHyperlinkStyles",
+      "type": "function",
+      "name": "filterOutHyperlinkStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1215,
+        1217
+      ],
+      "summary": "filterOutHyperlinkStyles 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diff",
+      "type": "function",
+      "name": "diff",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1225,
+        1233
+      ],
+      "summary": "diff 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffEach",
+      "type": "function",
+      "name": "diffEach",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1244,
+        1294
+      ],
+      "summary": "diffEach 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:findNextDiff",
+      "type": "function",
+      "name": "findNextDiff",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1301,
+        1311
+      ],
+      "summary": "findNextDiff 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffRowBoth",
+      "type": "function",
+      "name": "diffRowBoth",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1317,
+        1353
+      ],
+      "summary": "diffRowBoth 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffRowRemoved",
+      "type": "function",
+      "name": "diffRowRemoved",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1360,
+        1378
+      ],
+      "summary": "diffRowRemoved 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffRowAdded",
+      "type": "function",
+      "name": "diffRowAdded",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1384,
+        1407
+      ],
+      "summary": "diffRowAdded 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffSameWidth",
+      "type": "function",
+      "name": "diffSameWidth",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1413,
+        1468
+      ],
+      "summary": "diffSameWidth 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffDifferentWidth",
+      "type": "function",
+      "name": "diffDifferentWidth",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1474,
+        1572
+      ],
+      "summary": "diffDifferentWidth 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:markNoSelectRegion",
+      "type": "function",
+      "name": "markNoSelectRegion",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        1580,
+        1590
+      ],
+      "summary": "markNoSelectRegion 是 screen.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:CharPool",
+      "type": "class",
+      "name": "CharPool",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        13,
+        57
+      ],
+      "summary": "CharPool 是 screen.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:HyperlinkPool",
+      "type": "class",
+      "name": "HyperlinkPool",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        61,
+        84
+      ],
+      "summary": "HyperlinkPool 是 screen.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:StylePool",
+      "type": "class",
+      "name": "StylePool",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "lineRange": [
+        126,
+        305
+      ],
+      "summary": "StylePool 是 screen.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts",
+      "type": "file",
+      "name": "searchHighlight.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts",
+      "summary": "searchHighlight.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts:applySearchHighlight",
+      "type": "function",
+      "name": "applySearchHighlight",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts",
+      "lineRange": [
+        21,
+        91
+      ],
+      "summary": "applySearchHighlight 是 searchHighlight.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/selection.test.ts",
+      "type": "file",
+      "name": "selection.test.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.test.ts",
+      "summary": "selection.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "type": "file",
+      "name": "selection.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "summary": "selection.ts 是 typescript 源文件，包含 29 个函数、20 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:createSelectionState",
+      "type": "function",
+      "name": "createSelectionState",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        65,
+        77
+      ],
+      "summary": "createSelectionState 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:startSelection",
+      "type": "function",
+      "name": "startSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        79,
+        94
+      ],
+      "summary": "startSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:updateSelection",
+      "type": "function",
+      "name": "updateSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        96,
+        111
+      ],
+      "summary": "updateSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:finishSelection",
+      "type": "function",
+      "name": "finishSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        113,
+        117
+      ],
+      "summary": "finishSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:clearSelection",
+      "type": "function",
+      "name": "clearSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        119,
+        131
+      ],
+      "summary": "clearSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:charClass",
+      "type": "function",
+      "name": "charClass",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        147,
+        157
+      ],
+      "summary": "charClass 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:wordBoundsAt",
+      "type": "function",
+      "name": "wordBoundsAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        164,
+        271
+      ],
+      "summary": "wordBoundsAt 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:comparePoints",
+      "type": "function",
+      "name": "comparePoints",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        274,
+        284
+      ],
+      "summary": "comparePoints 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectWordAt",
+      "type": "function",
+      "name": "selectWordAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        293,
+        306
+      ],
+      "summary": "selectWordAt 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:findPlainTextUrlAt",
+      "type": "function",
+      "name": "findPlainTextUrlAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        329,
+        473
+      ],
+      "summary": "findPlainTextUrlAt 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectLineAt",
+      "type": "function",
+      "name": "selectLineAt",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        482,
+        493
+      ],
+      "summary": "selectLineAt 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:extendSelection",
+      "type": "function",
+      "name": "extendSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        502,
+        534
+      ],
+      "summary": "extendSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:moveFocus",
+      "type": "function",
+      "name": "moveFocus",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        549,
+        560
+      ],
+      "summary": "moveFocus 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftSelection",
+      "type": "function",
+      "name": "shiftSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        580,
+        686
+      ],
+      "summary": "shiftSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftAnchor",
+      "type": "function",
+      "name": "shiftAnchor",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        694,
+        723
+      ],
+      "summary": "shiftAnchor 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftSelectionForFollow",
+      "type": "function",
+      "name": "shiftSelectionForFollow",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        746,
+        796
+      ],
+      "summary": "shiftSelectionForFollow 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:hasSelection",
+      "type": "function",
+      "name": "hasSelection",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        798,
+        800
+      ],
+      "summary": "hasSelection 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionSignature",
+      "type": "function",
+      "name": "selectionSignature",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        809,
+        814
+      ],
+      "summary": "selectionSignature 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionBounds",
+      "type": "function",
+      "name": "selectionBounds",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        820,
+        829
+      ],
+      "summary": "selectionBounds 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:isCellSelected",
+      "type": "function",
+      "name": "isCellSelected",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        835,
+        857
+      ],
+      "summary": "isCellSelected 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectableCell",
+      "type": "function",
+      "name": "selectableCell",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        859,
+        869
+      ],
+      "summary": "selectableCell 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionContentBounds",
+      "type": "function",
+      "name": "selectionContentBounds",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        871,
+        894
+      ],
+      "summary": "selectionContentBounds 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:extractRowText",
+      "type": "function",
+      "name": "extractRowText",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        900,
+        930
+      ],
+      "summary": "extractRowText 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:trimEmptyEdgeRows",
+      "type": "function",
+      "name": "trimEmptyEdgeRows",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        944,
+        957
+      ],
+      "summary": "trimEmptyEdgeRows 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:getSelectedText",
+      "type": "function",
+      "name": "getSelectedText",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        970,
+        998
+      ],
+      "summary": "getSelectedText 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:captureScrolledRows",
+      "type": "function",
+      "name": "captureScrolledRows",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        1016,
+        1090
+      ],
+      "summary": "captureScrolledRows 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:applySelectionOverlay",
+      "type": "function",
+      "name": "applySelectionOverlay",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "lineRange": [
+        1108,
+        1143
+      ],
+      "summary": "applySelectionOverlay 是 selection.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "type": "file",
+      "name": "squash-text-nodes.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "summary": "squash-text-nodes.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts:squashTextNodesToSegments",
+      "type": "function",
+      "name": "squashTextNodesToSegments",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "lineRange": [
+        18,
+        48
+      ],
+      "summary": "squashTextNodesToSegments 是 squash-text-nodes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts:squashTextNodes",
+      "type": "function",
+      "name": "squashTextNodes",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "lineRange": [
+        54,
+        72
+      ],
+      "summary": "squashTextNodes 是 squash-text-nodes.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "type": "file",
+      "name": "stringWidth.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "summary": "stringWidth.ts 是 typescript 源文件，包含 7 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:stringWidthJavaScript",
+      "type": "function",
+      "name": "stringWidthJavaScript",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        23,
+        108
+      ],
+      "summary": "stringWidthJavaScript 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:needsSegmentation",
+      "type": "function",
+      "name": "needsSegmentation",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        110,
+        138
+      ],
+      "summary": "needsSegmentation 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:getEmojiWidth",
+      "type": "function",
+      "name": "getEmojiWidth",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        140,
+        164
+      ],
+      "summary": "getEmojiWidth 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:isZeroWidth",
+      "type": "function",
+      "name": "isZeroWidth",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        166,
+        261
+      ],
+      "summary": "isZeroWidth 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:stringWidth",
+      "type": "function",
+      "name": "stringWidth",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        290,
+        333
+      ],
+      "summary": "stringWidth 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:widthCacheSize",
+      "type": "function",
+      "name": "widthCacheSize",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        335,
+        337
+      ],
+      "summary": "widthCacheSize 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:evictWidthCache",
+      "type": "function",
+      "name": "evictWidthCache",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "lineRange": [
+        339,
+        341
+      ],
+      "summary": "evictWidthCache 是 stringWidth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "type": "file",
+      "name": "styles.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "summary": "styles.ts 是 typescript 源文件，包含 11 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyPositionStyles",
+      "type": "function",
+      "name": "applyPositionStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        401,
+        421
+      ],
+      "summary": "applyPositionStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyPositionEdge",
+      "type": "function",
+      "name": "applyPositionEdge",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        423,
+        435
+      ],
+      "summary": "applyPositionEdge 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyOverflowStyles",
+      "type": "function",
+      "name": "applyOverflowStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        437,
+        452
+      ],
+      "summary": "applyOverflowStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyMarginStyles",
+      "type": "function",
+      "name": "applyMarginStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        454,
+        482
+      ],
+      "summary": "applyMarginStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyPaddingStyles",
+      "type": "function",
+      "name": "applyPaddingStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        484,
+        512
+      ],
+      "summary": "applyPaddingStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyFlexStyles",
+      "type": "function",
+      "name": "applyFlexStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        514,
+        626
+      ],
+      "summary": "applyFlexStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyDimensionStyles",
+      "type": "function",
+      "name": "applyDimensionStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        628,
+        680
+      ],
+      "summary": "applyDimensionStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyBorderStyles",
+      "type": "function",
+      "name": "applyBorderStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        688,
+        722
+      ],
+      "summary": "applyBorderStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyGapStyles",
+      "type": "function",
+      "name": "applyGapStyles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        724,
+        736
+      ],
+      "summary": "applyGapStyles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:styles",
+      "type": "function",
+      "name": "styles",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "lineRange": [
+        738,
+        748
+      ],
+      "summary": "styles 是 styles.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts",
+      "type": "file",
+      "name": "supports-hyperlinks.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts",
+      "summary": "supports-hyperlinks.ts 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts:supportsHyperlinks",
+      "type": "function",
+      "name": "supportsHyperlinks",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts",
+      "lineRange": [
+        19,
+        51
+      ],
+      "summary": "supportsHyperlinks 是 supports-hyperlinks.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/tabstops.ts",
+      "type": "file",
+      "name": "tabstops.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/tabstops.ts",
+      "summary": "tabstops.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/tabstops.ts:expandTabs",
+      "type": "function",
+      "name": "expandTabs",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/tabstops.ts",
+      "lineRange": [
+        9,
+        44
+      ],
+      "summary": "expandTabs 是 tabstops.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "type": "file",
+      "name": "terminal-focus-state.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "summary": "terminal-focus-state.ts 是 typescript 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:setTerminalFocused",
+      "type": "function",
+      "name": "setTerminalFocused",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "lineRange": [
+        12,
+        27
+      ],
+      "summary": "setTerminalFocused 是 terminal-focus-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:getTerminalFocused",
+      "type": "function",
+      "name": "getTerminalFocused",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "lineRange": [
+        29,
+        31
+      ],
+      "summary": "getTerminalFocused 是 terminal-focus-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:getTerminalFocusState",
+      "type": "function",
+      "name": "getTerminalFocusState",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "lineRange": [
+        33,
+        35
+      ],
+      "summary": "getTerminalFocusState 是 terminal-focus-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:subscribeTerminalFocus",
+      "type": "function",
+      "name": "subscribeTerminalFocus",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "lineRange": [
+        38,
+        44
+      ],
+      "summary": "subscribeTerminalFocus 是 terminal-focus-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:resetTerminalFocusState",
+      "type": "function",
+      "name": "resetTerminalFocusState",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "lineRange": [
+        46,
+        52
+      ],
+      "summary": "resetTerminalFocusState 是 terminal-focus-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "type": "file",
+      "name": "terminal-querier.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "summary": "terminal-querier.ts 是 typescript 源文件，包含 7 个函数、1 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:decrqm",
+      "type": "function",
+      "name": "decrqm",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        49,
+        54
+      ],
+      "summary": "decrqm 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:da1",
+      "type": "function",
+      "name": "da1",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        59,
+        64
+      ],
+      "summary": "da1 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:da2",
+      "type": "function",
+      "name": "da2",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        67,
+        72
+      ],
+      "summary": "da2 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:kittyKeyboard",
+      "type": "function",
+      "name": "kittyKeyboard",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        76,
+        81
+      ],
+      "summary": "kittyKeyboard 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:cursorPosition",
+      "type": "function",
+      "name": "cursorPosition",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        87,
+        92
+      ],
+      "summary": "cursorPosition 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:oscColor",
+      "type": "function",
+      "name": "oscColor",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        96,
+        101
+      ],
+      "summary": "oscColor 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:xtversion",
+      "type": "function",
+      "name": "xtversion",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        108,
+        113
+      ],
+      "summary": "xtversion 是 terminal-querier.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:TerminalQuerier",
+      "type": "class",
+      "name": "TerminalQuerier",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "lineRange": [
+        128,
+        222
+      ],
+      "summary": "TerminalQuerier 是 terminal-querier.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/terminal.test.ts",
+      "type": "file",
+      "name": "terminal.test.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.test.ts",
+      "summary": "terminal.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "type": "file",
+      "name": "terminal.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "summary": "terminal.ts 是 typescript 源文件，包含 8 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isProgressReportingAvailable",
+      "type": "function",
+      "name": "isProgressReportingAvailable",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        28,
+        64
+      ],
+      "summary": "isProgressReportingAvailable 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isSynchronizedOutputSupported",
+      "type": "function",
+      "name": "isSynchronizedOutputSupported",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        70,
+        136
+      ],
+      "summary": "isSynchronizedOutputSupported 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:setXtversionName",
+      "type": "function",
+      "name": "setXtversionName",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        152,
+        156
+      ],
+      "summary": "setXtversionName 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isXtermJs",
+      "type": "function",
+      "name": "isXtermJs",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        163,
+        169
+      ],
+      "summary": "isXtermJs 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:needsAltScreenResizeScrollbackClear",
+      "type": "function",
+      "name": "needsAltScreenResizeScrollbackClear",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        171,
+        173
+      ],
+      "summary": "needsAltScreenResizeScrollbackClear 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:supportsExtendedKeys",
+      "type": "function",
+      "name": "supportsExtendedKeys",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        187,
+        189
+      ],
+      "summary": "supportsExtendedKeys 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:hasCursorUpViewportYankBug",
+      "type": "function",
+      "name": "hasCursorUpViewportYankBug",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        197,
+        199
+      ],
+      "summary": "hasCursorUpViewportYankBug 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:writeDiffToTerminal",
+      "type": "function",
+      "name": "writeDiffToTerminal",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "lineRange": [
+        210,
+        299
+      ],
+      "summary": "writeDiffToTerminal 是 terminal.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/termio.ts",
+      "type": "file",
+      "name": "termio.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/termio.ts",
+      "summary": "termio.ts 是 typescript 源文件，包含 18 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "type": "file",
+      "name": "ansi.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "summary": "ansi.ts 是 typescript 源文件，包含 2 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts:isC0",
+      "type": "function",
+      "name": "isC0",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "lineRange": [
+        65,
+        67
+      ],
+      "summary": "isC0 是 ansi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts:isEscFinal",
+      "type": "function",
+      "name": "isEscFinal",
+      "filePath": "ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "lineRange": [
+        73,
+        75
+      ],
+      "summary": "isEscFinal 是 ansi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/optimizer.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/optimizer.ts:optimize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/optimizer.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/optimizer.ts:optimize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:intersectClip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:maxDefined",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:minDefined",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:stylesEqual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:styledCharsWithGraphemeClustering",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:flushBuffer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/output.ts:writeLineToScreen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/output.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/output.ts:Output",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:createPasteKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseTerminalResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:inputToString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseMultipleKeypresses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseMultipleKeypresses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:decodeModifier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:keycodeToName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseMouseEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:parseKeypress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:createNavKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/parse-keypress.ts:createWheelKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:diff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:cleanupYogaNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:applyProp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:recordYogaMs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:recordYogaMs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:getLastYogaMs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:getLastYogaMs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:markCommitStart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:markCommitStart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:getLastCommitMs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:getLastCommitMs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:resetProfileCounters",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/reconciler.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/reconciler.ts:resetProfileCounters",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-border.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-border.ts:embedTextInBorder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-border.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-border.ts:renderBorder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetLayoutShifted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetLayoutShifted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:didLayoutShift",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:didLayoutShift",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:didAbsoluteOverlayMove",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:didAbsoluteOverlayMove",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetScrollHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetScrollHint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:getScrollHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:getScrollHint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetScrollDrainNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:resetScrollDrainNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:getScrollDrainNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:getScrollDrainNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:consumeFollowScroll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:consumeFollowScroll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:drainAdaptive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:drainProportional",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:buildCharToSegmentMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:buildCharToSegmentMap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:applyStylesToWrappedText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:applyStylesToWrappedText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:wrapWithSoftWrap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:applyPaddingToText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:renderNodeToOutput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:renderChildren",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:siblingSharesY",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:blitEscapingAbsoluteDescendants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-node-to-output.ts:renderScrolledChildren",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:renderToScreen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:renderToScreen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:scanPositions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:scanPositions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:applyPositionedHighlight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/render-to-screen.ts:applyPositionedHighlight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/renderer.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/renderer.ts:createRenderer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/renderer.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/renderer.ts:createRenderer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:forceRedraw",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:forceRedraw",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:renderSync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:renderSync",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:wrappedRender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:createRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:createRoot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:getOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/root.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/root.ts:getInstance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isEmptyCellAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isEmptyCellAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isWrittenCellAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isWrittenCellAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isCellEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:isCellEmpty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:createScreen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:createScreen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:resetScreen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:resetScreen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:migrateScreenPools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:migrateScreenPools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:cellAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:cellAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:cellAtIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:cellAtIndex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:visibleCellAtIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:visibleCellAtIndex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:charInCellAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:charInCellAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:setCellAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:setCellAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:setCellStyleId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:setCellStyleId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:blitRegion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:blitRegion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:clearRegion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:clearRegion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:shiftRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:shiftRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:extractHyperlinkFromStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:extractHyperlinkFromStyles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:filterOutHyperlinkStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:filterOutHyperlinkStyles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffEach",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffEach",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:findNextDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffRowBoth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffRowRemoved",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffRowAdded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffSameWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:diffDifferentWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:markNoSelectRegion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/screen.ts:markNoSelectRegion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:CharPool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:CharPool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:HyperlinkPool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:HyperlinkPool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:StylePool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/screen.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/screen.ts:StylePool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts:applySearchHighlight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/searchHighlight.ts:applySearchHighlight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:createSelectionState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:createSelectionState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:startSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:startSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:updateSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:updateSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:finishSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:finishSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:clearSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:clearSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:charClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:wordBoundsAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:comparePoints",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectWordAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectWordAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:findPlainTextUrlAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:findPlainTextUrlAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectLineAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectLineAt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:extendSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:extendSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:moveFocus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:moveFocus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftAnchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftAnchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftSelectionForFollow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:shiftSelectionForFollow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:hasSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:hasSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionSignature",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionSignature",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionBounds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionBounds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:isCellSelected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:isCellSelected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectableCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:selectionContentBounds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:extractRowText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:trimEmptyEdgeRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:getSelectedText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:getSelectedText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:captureScrolledRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:captureScrolledRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:applySelectionOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/selection.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/selection.ts:applySelectionOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts:squashTextNodesToSegments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts:squashTextNodesToSegments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/squash-text-nodes.ts:squashTextNodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:stringWidthJavaScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:needsSegmentation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:getEmojiWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:isZeroWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:stringWidth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:stringWidth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:widthCacheSize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:widthCacheSize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:evictWidthCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/stringWidth.ts:evictWidthCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyPositionStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyPositionEdge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyOverflowStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyMarginStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyPaddingStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyFlexStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyDimensionStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyBorderStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:applyGapStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/styles.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/styles.ts:styles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts:supportsHyperlinks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/supports-hyperlinks.ts:supportsHyperlinks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/tabstops.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/tabstops.ts:expandTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/tabstops.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/tabstops.ts:expandTabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:setTerminalFocused",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:setTerminalFocused",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:getTerminalFocused",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:getTerminalFocused",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:getTerminalFocusState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:getTerminalFocusState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:subscribeTerminalFocus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:subscribeTerminalFocus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:resetTerminalFocusState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-focus-state.ts:resetTerminalFocusState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:decrqm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:decrqm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:da1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:da1",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:da2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:da2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:kittyKeyboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:kittyKeyboard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:cursorPosition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:cursorPosition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:oscColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:oscColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:xtversion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:xtversion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:TerminalQuerier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts",
+      "target": "class:ui-tui/packages/hermes-ink/src/ink/terminal-querier.ts:TerminalQuerier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isProgressReportingAvailable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isProgressReportingAvailable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isSynchronizedOutputSupported",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isSynchronizedOutputSupported",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:setXtversionName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:setXtversionName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isXtermJs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:isXtermJs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:needsAltScreenResizeScrollbackClear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:needsAltScreenResizeScrollbackClear",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:supportsExtendedKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:supportsExtendedKeys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:hasCursorUpViewportYankBug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:hasCursorUpViewportYankBug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:writeDiffToTerminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/terminal.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/terminal.ts:writeDiffToTerminal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts:isC0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts:isC0",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts:isEscFinal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/ink/termio/ansi.ts:isEscFinal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

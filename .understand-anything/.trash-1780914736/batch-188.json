@@ -1,0 +1,3663 @@
+{
+  "nodes": [
+    {
+      "id": "file:plugins/memory/holographic/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/holographic/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/holographic/__init__.py:_load_plugin_config",
+      "type": "function",
+      "name": "_load_plugin_config",
+      "filePath": "plugins/memory/holographic/__init__.py",
+      "lineRange": [
+        97,
+        108
+      ],
+      "summary": "_load_plugin_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/holographic/__init__.py",
+      "lineRange": [
+        404,
+        408
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/holographic/__init__.py:HolographicMemoryProvider",
+      "type": "class",
+      "name": "HolographicMemoryProvider",
+      "filePath": "plugins/memory/holographic/__init__.py",
+      "lineRange": [
+        115,
+        397
+      ],
+      "summary": "HolographicMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/memory/holographic/holographic.py",
+      "type": "file",
+      "name": "holographic.py",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "summary": "holographic.py 是 python 源文件，包含 11 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:_require_numpy",
+      "type": "function",
+      "name": "_require_numpy",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        38,
+        40
+      ],
+      "summary": "_require_numpy 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:encode_atom",
+      "type": "function",
+      "name": "encode_atom",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        43,
+        67
+      ],
+      "summary": "encode_atom 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:bind",
+      "type": "function",
+      "name": "bind",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        70,
+        77
+      ],
+      "summary": "bind 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:unbind",
+      "type": "function",
+      "name": "unbind",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        80,
+        87
+      ],
+      "summary": "unbind 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:bundle",
+      "type": "function",
+      "name": "bundle",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        90,
+        98
+      ],
+      "summary": "bundle 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:similarity",
+      "type": "function",
+      "name": "similarity",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        101,
+        108
+      ],
+      "summary": "similarity 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:encode_text",
+      "type": "function",
+      "name": "encode_text",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        111,
+        132
+      ],
+      "summary": "encode_text 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:encode_fact",
+      "type": "function",
+      "name": "encode_fact",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        135,
+        160
+      ],
+      "summary": "encode_fact 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:phases_to_bytes",
+      "type": "function",
+      "name": "phases_to_bytes",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        163,
+        166
+      ],
+      "summary": "phases_to_bytes 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:bytes_to_phases",
+      "type": "function",
+      "name": "bytes_to_phases",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        169,
+        176
+      ],
+      "summary": "bytes_to_phases 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/holographic/holographic.py:snr_estimate",
+      "type": "function",
+      "name": "snr_estimate",
+      "filePath": "plugins/memory/holographic/holographic.py",
+      "lineRange": [
+        179,
+        203
+      ],
+      "summary": "snr_estimate 是 holographic.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/memory/holographic/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/holographic/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/holographic/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/holographic/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/memory/holographic/retrieval.py",
+      "type": "file",
+      "name": "retrieval.py",
+      "filePath": "plugins/memory/holographic/retrieval.py",
+      "summary": "retrieval.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/memory/holographic/retrieval.py:FactRetriever",
+      "type": "class",
+      "name": "FactRetriever",
+      "filePath": "plugins/memory/holographic/retrieval.py",
+      "lineRange": [
+        22,
+        593
+      ],
+      "summary": "FactRetriever 是 retrieval.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/memory/holographic/store.py",
+      "type": "file",
+      "name": "store.py",
+      "filePath": "plugins/memory/holographic/store.py",
+      "summary": "store.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/holographic/store.py:_clamp_trust",
+      "type": "function",
+      "name": "_clamp_trust",
+      "filePath": "plugins/memory/holographic/store.py",
+      "lineRange": [
+        94,
+        95
+      ],
+      "summary": "_clamp_trust 是 store.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/holographic/store.py:MemoryStore",
+      "type": "class",
+      "name": "MemoryStore",
+      "filePath": "plugins/memory/holographic/store.py",
+      "lineRange": [
+        98,
+        578
+      ],
+      "summary": "MemoryStore 是 store.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/memory/honcho/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/honcho/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/honcho/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/honcho/__init__.py",
+      "lineRange": [
+        1417,
+        1419
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/honcho/__init__.py:HonchoMemoryProvider",
+      "type": "class",
+      "name": "HonchoMemoryProvider",
+      "filePath": "plugins/memory/honcho/__init__.py",
+      "lineRange": [
+        191,
+        1410
+      ],
+      "summary": "HonchoMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/memory/honcho/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "summary": "cli.py 是 python 源文件，包含 33 个函数、33 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:clone_honcho_for_profile",
+      "type": "function",
+      "name": "clone_honcho_for_profile",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        18,
+        79
+      ],
+      "summary": "clone_honcho_for_profile 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_ensure_peer_exists",
+      "type": "function",
+      "name": "_ensure_peer_exists",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        82,
+        100
+      ],
+      "summary": "_ensure_peer_exists 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_enable",
+      "type": "function",
+      "name": "cmd_enable",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        103,
+        143
+      ],
+      "summary": "cmd_enable 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_disable",
+      "type": "function",
+      "name": "cmd_disable",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        146,
+        160
+      ],
+      "summary": "cmd_disable 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_sync",
+      "type": "function",
+      "name": "cmd_sync",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        163,
+        206
+      ],
+      "summary": "cmd_sync 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:sync_honcho_profiles_quiet",
+      "type": "function",
+      "name": "sync_honcho_profiles_quiet",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        209,
+        235
+      ],
+      "summary": "sync_honcho_profiles_quiet 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_host_key",
+      "type": "function",
+      "name": "_host_key",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        241,
+        247
+      ],
+      "summary": "_host_key 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_config_path",
+      "type": "function",
+      "name": "_config_path",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        250,
+        252
+      ],
+      "summary": "_config_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_local_config_path",
+      "type": "function",
+      "name": "_local_config_path",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        255,
+        262
+      ],
+      "summary": "_local_config_path 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_read_config",
+      "type": "function",
+      "name": "_read_config",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        265,
+        272
+      ],
+      "summary": "_read_config 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_write_config",
+      "type": "function",
+      "name": "_write_config",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        275,
+        279
+      ],
+      "summary": "_write_config 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_resolve_api_key",
+      "type": "function",
+      "name": "_resolve_api_key",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        282,
+        314
+      ],
+      "summary": "_resolve_api_key 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_resolve_effective_identity_mapping",
+      "type": "function",
+      "name": "_resolve_effective_identity_mapping",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        325,
+        368
+      ],
+      "summary": "_resolve_effective_identity_mapping 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_scrub_identity_mapping",
+      "type": "function",
+      "name": "_scrub_identity_mapping",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        371,
+        380
+      ],
+      "summary": "_scrub_identity_mapping 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_prompt",
+      "type": "function",
+      "name": "_prompt",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        383,
+        396
+      ],
+      "summary": "_prompt 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_ensure_sdk_installed",
+      "type": "function",
+      "name": "_ensure_sdk_installed",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        399,
+        426
+      ],
+      "summary": "_ensure_sdk_installed 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_setup",
+      "type": "function",
+      "name": "cmd_setup",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        429,
+        819
+      ],
+      "summary": "cmd_setup 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_active_profile_name",
+      "type": "function",
+      "name": "_active_profile_name",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        822,
+        830
+      ],
+      "summary": "_active_profile_name 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_all_profile_host_configs",
+      "type": "function",
+      "name": "_all_profile_host_configs",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        833,
+        858
+      ],
+      "summary": "_all_profile_host_configs 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_status",
+      "type": "function",
+      "name": "cmd_status",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        861,
+        953
+      ],
+      "summary": "cmd_status 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_show_peer_cards",
+      "type": "function",
+      "name": "_show_peer_cards",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        956,
+        992
+      ],
+      "summary": "_show_peer_cards 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:_cmd_status_all",
+      "type": "function",
+      "name": "_cmd_status_all",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        995,
+        1018
+      ],
+      "summary": "_cmd_status_all 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_peers",
+      "type": "function",
+      "name": "cmd_peers",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1021,
+        1035
+      ],
+      "summary": "cmd_peers 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_sessions",
+      "type": "function",
+      "name": "cmd_sessions",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1038,
+        1054
+      ],
+      "summary": "cmd_sessions 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_map",
+      "type": "function",
+      "name": "cmd_map",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1057,
+        1079
+      ],
+      "summary": "cmd_map 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_peer",
+      "type": "function",
+      "name": "cmd_peer",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1082,
+        1135
+      ],
+      "summary": "cmd_peer 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_mode",
+      "type": "function",
+      "name": "cmd_mode",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1138,
+        1169
+      ],
+      "summary": "cmd_mode 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_strategy",
+      "type": "function",
+      "name": "cmd_strategy",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1172,
+        1204
+      ],
+      "summary": "cmd_strategy 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_tokens",
+      "type": "function",
+      "name": "cmd_tokens",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1207,
+        1248
+      ],
+      "summary": "cmd_tokens 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_identity",
+      "type": "function",
+      "name": "cmd_identity",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1251,
+        1322
+      ],
+      "summary": "cmd_identity 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:cmd_migrate",
+      "type": "function",
+      "name": "cmd_migrate",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1325,
+        1551
+      ],
+      "summary": "cmd_migrate 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:honcho_command",
+      "type": "function",
+      "name": "honcho_command",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1554,
+        1597
+      ],
+      "summary": "honcho_command 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/cli.py:register_cli",
+      "type": "function",
+      "name": "register_cli",
+      "filePath": "plugins/memory/honcho/cli.py",
+      "lineRange": [
+        1600,
+        1697
+      ],
+      "summary": "register_cli 是 cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plugins/memory/honcho/client.py",
+      "type": "file",
+      "name": "client.py",
+      "filePath": "plugins/memory/honcho/client.py",
+      "summary": "client.py 是 python 源文件，包含 18 个函数、1 个类、19 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:profile_host_key",
+      "type": "function",
+      "name": "profile_host_key",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        35,
+        40
+      ],
+      "summary": "profile_host_key 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_host_block",
+      "type": "function",
+      "name": "_host_block",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        43,
+        50
+      ],
+      "summary": "_host_block 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:resolve_active_host",
+      "type": "function",
+      "name": "resolve_active_host",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        53,
+        71
+      ],
+      "summary": "resolve_active_host 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:resolve_global_config_path",
+      "type": "function",
+      "name": "resolve_global_config_path",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        74,
+        76
+      ],
+      "summary": "resolve_global_config_path 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:resolve_config_path",
+      "type": "function",
+      "name": "resolve_config_path",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        79,
+        98
+      ],
+      "summary": "resolve_config_path 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_normalize_recall_mode",
+      "type": "function",
+      "name": "_normalize_recall_mode",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        105,
+        108
+      ],
+      "summary": "_normalize_recall_mode 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_resolve_bool",
+      "type": "function",
+      "name": "_resolve_bool",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        111,
+        122
+      ],
+      "summary": "_resolve_bool 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_parse_context_tokens",
+      "type": "function",
+      "name": "_parse_context_tokens",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        125,
+        133
+      ],
+      "summary": "_parse_context_tokens 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_parse_int_config",
+      "type": "function",
+      "name": "_parse_int_config",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        136,
+        144
+      ],
+      "summary": "_parse_int_config 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_parse_string_map",
+      "type": "function",
+      "name": "_parse_string_map",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        147,
+        159
+      ],
+      "summary": "_parse_string_map 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_parse_optional_string",
+      "type": "function",
+      "name": "_parse_optional_string",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        162,
+        172
+      ],
+      "summary": "_parse_optional_string 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_parse_dialectic_depth",
+      "type": "function",
+      "name": "_parse_dialectic_depth",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        175,
+        183
+      ],
+      "summary": "_parse_dialectic_depth 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_parse_dialectic_depth_levels",
+      "type": "function",
+      "name": "_parse_dialectic_depth_levels",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        189,
+        205
+      ],
+      "summary": "_parse_dialectic_depth_levels 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_resolve_optional_float",
+      "type": "function",
+      "name": "_resolve_optional_float",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        217,
+        232
+      ],
+      "summary": "_resolve_optional_float 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_normalize_observation_mode",
+      "type": "function",
+      "name": "_normalize_observation_mode",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        239,
+        242
+      ],
+      "summary": "_normalize_observation_mode 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:_resolve_observation",
+      "type": "function",
+      "name": "_resolve_observation",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        259,
+        284
+      ],
+      "summary": "_resolve_observation 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:get_honcho_client",
+      "type": "function",
+      "name": "get_honcho_client",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        743,
+        866
+      ],
+      "summary": "get_honcho_client 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/memory/honcho/client.py:reset_honcho_client",
+      "type": "function",
+      "name": "reset_honcho_client",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        869,
+        872
+      ],
+      "summary": "reset_honcho_client 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/honcho/client.py:HonchoClientConfig",
+      "type": "class",
+      "name": "HonchoClientConfig",
+      "filePath": "plugins/memory/honcho/client.py",
+      "lineRange": [
+        291,
+        737
+      ],
+      "summary": "HonchoClientConfig 是 client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/honcho/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/honcho/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/honcho/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/honcho/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/memory/honcho/session.py",
+      "type": "file",
+      "name": "session.py",
+      "filePath": "plugins/memory/honcho/session.py",
+      "summary": "session.py 是 python 源文件，包含 2 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/memory/honcho/session.py:HonchoSession",
+      "type": "class",
+      "name": "HonchoSession",
+      "filePath": "plugins/memory/honcho/session.py",
+      "lineRange": [
+        28,
+        68
+      ],
+      "summary": "HonchoSession 是 session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/honcho/session.py:HonchoSessionManager",
+      "type": "class",
+      "name": "HonchoSessionManager",
+      "filePath": "plugins/memory/honcho/session.py",
+      "lineRange": [
+        71,
+        1341
+      ],
+      "summary": "HonchoSessionManager 是 session.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/memory/mem0/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/mem0/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 2 个函数、1 个类、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/mem0/__init__.py:_load_config",
+      "type": "function",
+      "name": "_load_config",
+      "filePath": "plugins/memory/mem0/__init__.py",
+      "lineRange": [
+        40,
+        66
+      ],
+      "summary": "_load_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/mem0/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/mem0/__init__.py",
+      "lineRange": [
+        372,
+        374
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/mem0/__init__.py:Mem0MemoryProvider",
+      "type": "class",
+      "name": "Mem0MemoryProvider",
+      "filePath": "plugins/memory/mem0/__init__.py",
+      "lineRange": [
+        119,
+        369
+      ],
+      "summary": "Mem0MemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/mem0/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/mem0/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/mem0/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/mem0/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/memory/openviking/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 8 个函数、2 个类、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_atexit_commit_sessions",
+      "type": "function",
+      "name": "_atexit_commit_sessions",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        78,
+        88
+      ],
+      "summary": "_atexit_commit_sessions 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_get_httpx",
+      "type": "function",
+      "name": "_get_httpx",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        98,
+        104
+      ],
+      "summary": "_get_httpx 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_zip_directory",
+      "type": "function",
+      "name": "_zip_directory",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        356,
+        371
+      ],
+      "summary": "_zip_directory 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_is_windows_absolute_path",
+      "type": "function",
+      "name": "_is_windows_absolute_path",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        374,
+        380
+      ],
+      "summary": "_is_windows_absolute_path 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_is_remote_resource_source",
+      "type": "function",
+      "name": "_is_remote_resource_source",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        383,
+        384
+      ],
+      "summary": "_is_remote_resource_source 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_is_local_path_reference",
+      "type": "function",
+      "name": "_is_local_path_reference",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        387,
+        398
+      ],
+      "summary": "_is_local_path_reference 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:_path_from_file_uri",
+      "type": "function",
+      "name": "_path_from_file_uri",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        401,
+        405
+      ],
+      "summary": "_path_from_file_uri 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/openviking/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        976,
+        978
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/openviking/__init__.py:_VikingClient",
+      "type": "class",
+      "name": "_VikingClient",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        107,
+        214
+      ],
+      "summary": "_VikingClient 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/memory/openviking/__init__.py:OpenVikingMemoryProvider",
+      "type": "class",
+      "name": "OpenVikingMemoryProvider",
+      "filePath": "plugins/memory/openviking/__init__.py",
+      "lineRange": [
+        412,
+        969
+      ],
+      "summary": "OpenVikingMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/openviking/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/openviking/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/openviking/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/openviking/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/memory/retaindb/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/retaindb/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 2 个函数、3 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/retaindb/__init__.py:_build_overlay",
+      "type": "function",
+      "name": "_build_overlay",
+      "filePath": "plugins/memory/retaindb/__init__.py",
+      "lineRange": [
+        414,
+        445
+      ],
+      "summary": "_build_overlay 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/retaindb/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/retaindb/__init__.py",
+      "lineRange": [
+        764,
+        766
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/retaindb/__init__.py:_Client",
+      "type": "class",
+      "name": "_Client",
+      "filePath": "plugins/memory/retaindb/__init__.py",
+      "lineRange": [
+        179,
+        323
+      ],
+      "summary": "_Client 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/memory/retaindb/__init__.py:_WriteQueue",
+      "type": "class",
+      "name": "_WriteQueue",
+      "filePath": "plugins/memory/retaindb/__init__.py",
+      "lineRange": [
+        330,
+        407
+      ],
+      "summary": "_WriteQueue 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/memory/retaindb/__init__.py:RetainDBMemoryProvider",
+      "type": "class",
+      "name": "RetainDBMemoryProvider",
+      "filePath": "plugins/memory/retaindb/__init__.py",
+      "lineRange": [
+        452,
+        761
+      ],
+      "summary": "RetainDBMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/retaindb/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/retaindb/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/retaindb/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/retaindb/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/memory/supermemory/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 13 个函数、2 个类、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_default_config",
+      "type": "function",
+      "name": "_default_config",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        56,
+        70
+      ],
+      "summary": "_default_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_sanitize_tag",
+      "type": "function",
+      "name": "_sanitize_tag",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        73,
+        76
+      ],
+      "summary": "_sanitize_tag 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_clamp_entity_context",
+      "type": "function",
+      "name": "_clamp_entity_context",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        79,
+        83
+      ],
+      "summary": "_clamp_entity_context 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_as_bool",
+      "type": "function",
+      "name": "_as_bool",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        86,
+        95
+      ],
+      "summary": "_as_bool 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_load_supermemory_config",
+      "type": "function",
+      "name": "_load_supermemory_config",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        98,
+        141
+      ],
+      "summary": "_load_supermemory_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_save_supermemory_config",
+      "type": "function",
+      "name": "_save_supermemory_config",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        144,
+        156
+      ],
+      "summary": "_save_supermemory_config 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_detect_category",
+      "type": "function",
+      "name": "_detect_category",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        159,
+        167
+      ],
+      "summary": "_detect_category 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_format_relative_time",
+      "type": "function",
+      "name": "_format_relative_time",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        170,
+        187
+      ],
+      "summary": "_format_relative_time 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_deduplicate_recall",
+      "type": "function",
+      "name": "_deduplicate_recall",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        190,
+        206
+      ],
+      "summary": "_deduplicate_recall 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_format_prefetch_context",
+      "type": "function",
+      "name": "_format_prefetch_context",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        209,
+        251
+      ],
+      "summary": "_format_prefetch_context 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_clean_text_for_capture",
+      "type": "function",
+      "name": "_clean_text_for_capture",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        254,
+        257
+      ],
+      "summary": "_clean_text_for_capture 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:_is_trivial_message",
+      "type": "function",
+      "name": "_is_trivial_message",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        260,
+        261
+      ],
+      "summary": "_is_trivial_message 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/memory/supermemory/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        896,
+        897
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/memory/supermemory/__init__.py:_SupermemoryClient",
+      "type": "class",
+      "name": "_SupermemoryClient",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        264,
+        387
+      ],
+      "summary": "_SupermemoryClient 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/memory/supermemory/__init__.py:SupermemoryMemoryProvider",
+      "type": "class",
+      "name": "SupermemoryMemoryProvider",
+      "filePath": "plugins/memory/supermemory/__init__.py",
+      "lineRange": [
+        440,
+        893
+      ],
+      "summary": "SupermemoryMemoryProvider 是 __init__.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/memory/supermemory/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/memory/supermemory/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/memory/supermemory/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/memory/supermemory/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/model-providers/alibaba-coding-plan/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/model-providers/alibaba-coding-plan/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/memory/holographic/__init__.py",
+      "target": "function:plugins/memory/holographic/__init__.py:_load_plugin_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/__init__.py",
+      "target": "function:plugins/memory/holographic/__init__.py:_load_plugin_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/__init__.py",
+      "target": "function:plugins/memory/holographic/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/__init__.py",
+      "target": "function:plugins/memory/holographic/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/__init__.py",
+      "target": "class:plugins/memory/holographic/__init__.py:HolographicMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/__init__.py",
+      "target": "class:plugins/memory/holographic/__init__.py:HolographicMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:_require_numpy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:_require_numpy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:encode_atom",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:encode_atom",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:bind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:bind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:unbind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:unbind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:bundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:bundle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:similarity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:similarity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:encode_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:encode_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:encode_fact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:encode_fact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:phases_to_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:phases_to_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:bytes_to_phases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:bytes_to_phases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:snr_estimate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/holographic.py",
+      "target": "function:plugins/memory/holographic/holographic.py:snr_estimate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/retrieval.py",
+      "target": "class:plugins/memory/holographic/retrieval.py:FactRetriever",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/retrieval.py",
+      "target": "class:plugins/memory/holographic/retrieval.py:FactRetriever",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/store.py",
+      "target": "function:plugins/memory/holographic/store.py:_clamp_trust",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/store.py",
+      "target": "function:plugins/memory/holographic/store.py:_clamp_trust",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/holographic/store.py",
+      "target": "class:plugins/memory/holographic/store.py:MemoryStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/holographic/store.py",
+      "target": "class:plugins/memory/holographic/store.py:MemoryStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/__init__.py",
+      "target": "function:plugins/memory/honcho/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/__init__.py",
+      "target": "function:plugins/memory/honcho/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/__init__.py",
+      "target": "class:plugins/memory/honcho/__init__.py:HonchoMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/__init__.py",
+      "target": "class:plugins/memory/honcho/__init__.py:HonchoMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:clone_honcho_for_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:clone_honcho_for_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_ensure_peer_exists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_ensure_peer_exists",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_enable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_enable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_disable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_disable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_sync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_sync",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:sync_honcho_profiles_quiet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:sync_honcho_profiles_quiet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_host_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_host_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_config_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_config_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_local_config_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_local_config_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_read_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_read_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_write_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_write_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_resolve_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_resolve_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_resolve_effective_identity_mapping",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_resolve_effective_identity_mapping",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_scrub_identity_mapping",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_scrub_identity_mapping",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_ensure_sdk_installed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_ensure_sdk_installed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_active_profile_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_active_profile_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_all_profile_host_configs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_all_profile_host_configs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_show_peer_cards",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_show_peer_cards",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_cmd_status_all",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:_cmd_status_all",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_peers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_peers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_sessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_sessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_peer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_peer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_strategy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_strategy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_identity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_identity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_migrate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:cmd_migrate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:honcho_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:honcho_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:register_cli",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/cli.py",
+      "target": "function:plugins/memory/honcho/cli.py:register_cli",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:profile_host_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:profile_host_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_host_block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_host_block",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:resolve_active_host",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:resolve_active_host",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:resolve_global_config_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:resolve_global_config_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:resolve_config_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:resolve_config_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_normalize_recall_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_normalize_recall_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_resolve_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_resolve_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_context_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_context_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_int_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_int_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_string_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_string_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_optional_string",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_optional_string",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_dialectic_depth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_dialectic_depth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_dialectic_depth_levels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_parse_dialectic_depth_levels",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_resolve_optional_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_resolve_optional_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_normalize_observation_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_normalize_observation_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_resolve_observation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:_resolve_observation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:get_honcho_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:get_honcho_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:reset_honcho_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "function:plugins/memory/honcho/client.py:reset_honcho_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "class:plugins/memory/honcho/client.py:HonchoClientConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/client.py",
+      "target": "class:plugins/memory/honcho/client.py:HonchoClientConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/session.py",
+      "target": "class:plugins/memory/honcho/session.py:HonchoSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/session.py",
+      "target": "class:plugins/memory/honcho/session.py:HonchoSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/honcho/session.py",
+      "target": "class:plugins/memory/honcho/session.py:HonchoSessionManager",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/honcho/session.py",
+      "target": "class:plugins/memory/honcho/session.py:HonchoSessionManager",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/mem0/__init__.py",
+      "target": "function:plugins/memory/mem0/__init__.py:_load_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/mem0/__init__.py",
+      "target": "function:plugins/memory/mem0/__init__.py:_load_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/mem0/__init__.py",
+      "target": "function:plugins/memory/mem0/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/mem0/__init__.py",
+      "target": "function:plugins/memory/mem0/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/mem0/__init__.py",
+      "target": "class:plugins/memory/mem0/__init__.py:Mem0MemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/mem0/__init__.py",
+      "target": "class:plugins/memory/mem0/__init__.py:Mem0MemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_atexit_commit_sessions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_atexit_commit_sessions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_get_httpx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_get_httpx",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_zip_directory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_zip_directory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_is_windows_absolute_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_is_windows_absolute_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_is_remote_resource_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_is_remote_resource_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_is_local_path_reference",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_is_local_path_reference",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_path_from_file_uri",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:_path_from_file_uri",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "function:plugins/memory/openviking/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "class:plugins/memory/openviking/__init__.py:_VikingClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "class:plugins/memory/openviking/__init__.py:_VikingClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "class:plugins/memory/openviking/__init__.py:OpenVikingMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/openviking/__init__.py",
+      "target": "class:plugins/memory/openviking/__init__.py:OpenVikingMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "function:plugins/memory/retaindb/__init__.py:_build_overlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "function:plugins/memory/retaindb/__init__.py:_build_overlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "function:plugins/memory/retaindb/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "function:plugins/memory/retaindb/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "class:plugins/memory/retaindb/__init__.py:_Client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "class:plugins/memory/retaindb/__init__.py:_Client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "class:plugins/memory/retaindb/__init__.py:_WriteQueue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "class:plugins/memory/retaindb/__init__.py:_WriteQueue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "class:plugins/memory/retaindb/__init__.py:RetainDBMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/retaindb/__init__.py",
+      "target": "class:plugins/memory/retaindb/__init__.py:RetainDBMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_default_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_default_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_sanitize_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_sanitize_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_clamp_entity_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_clamp_entity_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_as_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_as_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_load_supermemory_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_load_supermemory_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_save_supermemory_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_save_supermemory_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_detect_category",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_detect_category",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_format_relative_time",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_format_relative_time",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_deduplicate_recall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_deduplicate_recall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_format_prefetch_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_format_prefetch_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_clean_text_for_capture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_clean_text_for_capture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_is_trivial_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:_is_trivial_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "function:plugins/memory/supermemory/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "class:plugins/memory/supermemory/__init__.py:_SupermemoryClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "class:plugins/memory/supermemory/__init__.py:_SupermemoryClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "class:plugins/memory/supermemory/__init__.py:SupermemoryMemoryProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/memory/supermemory/__init__.py",
+      "target": "class:plugins/memory/supermemory/__init__.py:SupermemoryMemoryProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

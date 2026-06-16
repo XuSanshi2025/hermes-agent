@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "config:.github/ISSUE_TEMPLATE/bug_report.yml",
+      "type": "config",
+      "name": "bug_report.yml",
+      "filePath": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "summary": "bug_report.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:.github/ISSUE_TEMPLATE/config.yml",
+      "type": "config",
+      "name": "config.yml",
+      "filePath": ".github/ISSUE_TEMPLATE/config.yml",
+      "summary": "config.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:.github/ISSUE_TEMPLATE/feature_request.yml",
+      "type": "config",
+      "name": "feature_request.yml",
+      "filePath": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "summary": "feature_request.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:.github/ISSUE_TEMPLATE/setup_help.yml",
+      "type": "config",
+      "name": "setup_help.yml",
+      "filePath": ".github/ISSUE_TEMPLATE/setup_help.yml",
+      "summary": "setup_help.yml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": []
+}

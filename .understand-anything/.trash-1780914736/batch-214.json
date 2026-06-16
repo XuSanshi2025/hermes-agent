@@ -1,0 +1,1196 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "type": "file",
+      "name": "intl.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "summary": "intl.ts 是 typescript 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getGraphemeSegmenter",
+      "type": "function",
+      "name": "getGraphemeSegmenter",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        4,
+        12
+      ],
+      "summary": "getGraphemeSegmenter 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:firstGrapheme",
+      "type": "function",
+      "name": "firstGrapheme",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        14,
+        23
+      ],
+      "summary": "firstGrapheme 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:lastGrapheme",
+      "type": "function",
+      "name": "lastGrapheme",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        25,
+        37
+      ],
+      "summary": "lastGrapheme 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getWordSegmenter",
+      "type": "function",
+      "name": "getWordSegmenter",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        39,
+        45
+      ],
+      "summary": "getWordSegmenter 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getRelativeTimeFormat",
+      "type": "function",
+      "name": "getRelativeTimeFormat",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        49,
+        62
+      ],
+      "summary": "getRelativeTimeFormat 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getTimeZone",
+      "type": "function",
+      "name": "getTimeZone",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        66,
+        72
+      ],
+      "summary": "getTimeZone 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getSystemLocaleLanguage",
+      "type": "function",
+      "name": "getSystemLocaleLanguage",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "lineRange": [
+        76,
+        87
+      ],
+      "summary": "getSystemLocaleLanguage 是 intl.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/utils/log.ts",
+      "type": "file",
+      "name": "log.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/log.ts",
+      "summary": "log.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/log.ts:logError",
+      "type": "function",
+      "name": "logError",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/log.ts",
+      "lineRange": [
+        1,
+        7
+      ],
+      "summary": "logError 是 log.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "type": "file",
+      "name": "semver.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "summary": "semver.ts 是 typescript 源文件，包含 7 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:gt",
+      "type": "function",
+      "name": "gt",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "lineRange": [
+        11,
+        17
+      ],
+      "summary": "gt 是 semver.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:gte",
+      "type": "function",
+      "name": "gte",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "lineRange": [
+        19,
+        25
+      ],
+      "summary": "gte 是 semver.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:lt",
+      "type": "function",
+      "name": "lt",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "lineRange": [
+        27,
+        33
+      ],
+      "summary": "lt 是 semver.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:lte",
+      "type": "function",
+      "name": "lte",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "lineRange": [
+        35,
+        41
+      ],
+      "summary": "lte 是 semver.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:satisfies",
+      "type": "function",
+      "name": "satisfies",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "lineRange": [
+        43,
+        49
+      ],
+      "summary": "satisfies 是 semver.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:order",
+      "type": "function",
+      "name": "order",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "order 是 semver.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "type": "file",
+      "name": "sliceAnsi.ts",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "summary": "sliceAnsi.ts 是 typescript 源文件，包含 6 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:sliceAnsi",
+      "type": "function",
+      "name": "sliceAnsi",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "lineRange": [
+        22,
+        51
+      ],
+      "summary": "sliceAnsi 是 sliceAnsi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:sliceCacheSize",
+      "type": "function",
+      "name": "sliceCacheSize",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "sliceCacheSize 是 sliceAnsi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:evictSliceCache",
+      "type": "function",
+      "name": "evictSliceCache",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "lineRange": [
+        57,
+        59
+      ],
+      "summary": "evictSliceCache 是 sliceAnsi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:computeSlice",
+      "type": "function",
+      "name": "computeSlice",
+      "filePath": "ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "lineRange": [
+        61,
+        106
+      ],
+      "summary": "computeSlice 是 sliceAnsi.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/text-input.d.ts",
+      "type": "file",
+      "name": "text-input.d.ts",
+      "filePath": "ui-tui/packages/hermes-ink/text-input.d.ts",
+      "summary": "text-input.d.ts 是 typescript 源文件，包含 3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/packages/hermes-ink/text-input.js",
+      "type": "file",
+      "name": "text-input.js",
+      "filePath": "ui-tui/packages/hermes-ink/text-input.js",
+      "summary": "text-input.js 是 javascript 源文件，包含 2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:ui-tui/scripts/build.mjs",
+      "type": "file",
+      "name": "build.mjs",
+      "filePath": "ui-tui/scripts/build.mjs",
+      "summary": "build.mjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:ui-tui/scripts/profile-tui.mjs",
+      "type": "file",
+      "name": "profile-tui.mjs",
+      "filePath": "ui-tui/scripts/profile-tui.mjs",
+      "summary": "profile-tui.mjs 是 javascript 源文件，包含 4 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:ui-tui/scripts/profile-tui.mjs:baseProps",
+      "type": "function",
+      "name": "baseProps",
+      "filePath": "ui-tui/scripts/profile-tui.mjs",
+      "lineRange": [
+        73,
+        89
+      ],
+      "summary": "baseProps 是 profile-tui.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/scripts/profile-tui.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "ui-tui/scripts/profile-tui.mjs",
+      "lineRange": [
+        91,
+        119
+      ],
+      "summary": "main 是 profile-tui.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/scripts/profile-tui.mjs:Sink",
+      "type": "class",
+      "name": "Sink",
+      "filePath": "ui-tui/scripts/profile-tui.mjs",
+      "lineRange": [
+        22,
+        38
+      ],
+      "summary": "Sink 是 profile-tui.mjs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/activeSessionSwitcher.test.ts",
+      "type": "file",
+      "name": "activeSessionSwitcher.test.ts",
+      "filePath": "ui-tui/src/__tests__/activeSessionSwitcher.test.ts",
+      "summary": "activeSessionSwitcher.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "type": "file",
+      "name": "appChromeStatusRule.test.tsx",
+      "filePath": "ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "summary": "appChromeStatusRule.test.tsx 是 typescript 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/appChromeStatusRule.test.tsx:textContent",
+      "type": "function",
+      "name": "textContent",
+      "filePath": "ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "lineRange": [
+        9,
+        27
+      ],
+      "summary": "textContent 是 appChromeStatusRule.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/appChromeStatusRule.test.tsx:findClickableWithText",
+      "type": "function",
+      "name": "findClickableWithText",
+      "filePath": "ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "lineRange": [
+        29,
+        55
+      ],
+      "summary": "findClickableWithText 是 appChromeStatusRule.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/appChromeStatusRule.test.tsx:findElementWithText",
+      "type": "function",
+      "name": "findElementWithText",
+      "filePath": "ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "lineRange": [
+        59,
+        89
+      ],
+      "summary": "findElementWithText 是 appChromeStatusRule.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx",
+      "type": "file",
+      "name": "appChromeStatusRuleDevCredits.test.tsx",
+      "filePath": "ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx",
+      "summary": "appChromeStatusRuleDevCredits.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx:textContent",
+      "type": "function",
+      "name": "textContent",
+      "filePath": "ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx",
+      "lineRange": [
+        20,
+        38
+      ],
+      "summary": "textContent 是 appChromeStatusRuleDevCredits.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/approvalAction.test.ts",
+      "type": "file",
+      "name": "approvalAction.test.ts",
+      "filePath": "ui-tui/src/__tests__/approvalAction.test.ts",
+      "summary": "approvalAction.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/asCommandDispatch.test.ts",
+      "type": "file",
+      "name": "asCommandDispatch.test.ts",
+      "filePath": "ui-tui/src/__tests__/asCommandDispatch.test.ts",
+      "summary": "asCommandDispatch.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/blockLayout.test.ts",
+      "type": "file",
+      "name": "blockLayout.test.ts",
+      "filePath": "ui-tui/src/__tests__/blockLayout.test.ts",
+      "summary": "blockLayout.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/clipboard.test.ts",
+      "type": "file",
+      "name": "clipboard.test.ts",
+      "filePath": "ui-tui/src/__tests__/clipboard.test.ts",
+      "summary": "clipboard.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "cli",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/constants.test.ts",
+      "type": "file",
+      "name": "constants.test.ts",
+      "filePath": "ui-tui/src/__tests__/constants.test.ts",
+      "summary": "constants.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/createGatewayEventHandler.test.ts",
+      "type": "file",
+      "name": "createGatewayEventHandler.test.ts",
+      "filePath": "ui-tui/src/__tests__/createGatewayEventHandler.test.ts",
+      "summary": "createGatewayEventHandler.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/createGatewayEventHandler.test.ts:buildCtx",
+      "type": "function",
+      "name": "buildCtx",
+      "filePath": "ui-tui/src/__tests__/createGatewayEventHandler.test.ts",
+      "lineRange": [
+        13,
+        51
+      ],
+      "summary": "buildCtx 是 createGatewayEventHandler.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/createSlashHandler.test.ts",
+      "type": "file",
+      "name": "createSlashHandler.test.ts",
+      "filePath": "ui-tui/src/__tests__/createSlashHandler.test.ts",
+      "summary": "createSlashHandler.test.ts 是 typescript 源文件，包含 7 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/createSlashHandler.test.ts:buildCtx",
+      "type": "function",
+      "name": "buildCtx",
+      "filePath": "ui-tui/src/__tests__/createSlashHandler.test.ts",
+      "lineRange": [
+        774,
+        783
+      ],
+      "summary": "buildCtx 是 createSlashHandler.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/createSlashHandler.test.ts:buildSession",
+      "type": "function",
+      "name": "buildSession",
+      "filePath": "ui-tui/src/__tests__/createSlashHandler.test.ts",
+      "lineRange": [
+        811,
+        821
+      ],
+      "summary": "buildSession 是 createSlashHandler.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/cursorDriftRegression.test.ts",
+      "type": "file",
+      "name": "cursorDriftRegression.test.ts",
+      "filePath": "ui-tui/src/__tests__/cursorDriftRegression.test.ts",
+      "summary": "cursorDriftRegression.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/details.test.ts",
+      "type": "file",
+      "name": "details.test.ts",
+      "filePath": "ui-tui/src/__tests__/details.test.ts",
+      "summary": "details.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/emoji.test.ts",
+      "type": "file",
+      "name": "emoji.test.ts",
+      "filePath": "ui-tui/src/__tests__/emoji.test.ts",
+      "summary": "emoji.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/externalLink.test.ts",
+      "type": "file",
+      "name": "externalLink.test.ts",
+      "filePath": "ui-tui/src/__tests__/externalLink.test.ts",
+      "summary": "externalLink.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/forceTruecolor.test.ts",
+      "type": "file",
+      "name": "forceTruecolor.test.ts",
+      "filePath": "ui-tui/src/__tests__/forceTruecolor.test.ts",
+      "summary": "forceTruecolor.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/forceTruecolor.test.ts:withCleanEnv",
+      "type": "function",
+      "name": "withCleanEnv",
+      "filePath": "ui-tui/src/__tests__/forceTruecolor.test.ts",
+      "lineRange": [
+        6,
+        26
+      ],
+      "summary": "withCleanEnv 是 forceTruecolor.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/gatewayClient.test.ts",
+      "type": "file",
+      "name": "gatewayClient.test.ts",
+      "filePath": "ui-tui/src/__tests__/gatewayClient.test.ts",
+      "summary": "gatewayClient.test.ts 是 typescript 源文件，包含 1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "cli",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "class:ui-tui/src/__tests__/gatewayClient.test.ts:FakeWebSocket",
+      "type": "class",
+      "name": "FakeWebSocket",
+      "filePath": "ui-tui/src/__tests__/gatewayClient.test.ts",
+      "lineRange": [
+        10,
+        94
+      ],
+      "summary": "FakeWebSocket 是 gatewayClient.test.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/gatewayRecovery.test.ts",
+      "type": "file",
+      "name": "gatewayRecovery.test.ts",
+      "filePath": "ui-tui/src/__tests__/gatewayRecovery.test.ts",
+      "summary": "gatewayRecovery.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getGraphemeSegmenter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getGraphemeSegmenter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:firstGrapheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:firstGrapheme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:lastGrapheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:lastGrapheme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getWordSegmenter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getWordSegmenter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getRelativeTimeFormat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getRelativeTimeFormat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getTimeZone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getTimeZone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getSystemLocaleLanguage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/intl.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/intl.ts:getSystemLocaleLanguage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/log.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/log.ts:logError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/log.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/log.ts:logError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:gt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:gt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:gte",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:gte",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:lt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:lt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:lte",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:lte",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:satisfies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:satisfies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:order",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/semver.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/semver.ts:order",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:sliceAnsi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:sliceAnsi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:sliceCacheSize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:sliceCacheSize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:evictSliceCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:evictSliceCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts",
+      "target": "function:ui-tui/packages/hermes-ink/src/utils/sliceAnsi.ts:computeSlice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/scripts/profile-tui.mjs",
+      "target": "function:ui-tui/scripts/profile-tui.mjs:baseProps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/scripts/profile-tui.mjs",
+      "target": "function:ui-tui/scripts/profile-tui.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/scripts/profile-tui.mjs",
+      "target": "class:ui-tui/scripts/profile-tui.mjs:Sink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "target": "function:ui-tui/src/__tests__/appChromeStatusRule.test.tsx:textContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "target": "function:ui-tui/src/__tests__/appChromeStatusRule.test.tsx:findClickableWithText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/appChromeStatusRule.test.tsx",
+      "target": "function:ui-tui/src/__tests__/appChromeStatusRule.test.tsx:findElementWithText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx",
+      "target": "function:ui-tui/src/__tests__/appChromeStatusRuleDevCredits.test.tsx:textContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/createGatewayEventHandler.test.ts",
+      "target": "function:ui-tui/src/__tests__/createGatewayEventHandler.test.ts:buildCtx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/createSlashHandler.test.ts",
+      "target": "function:ui-tui/src/__tests__/createSlashHandler.test.ts:buildCtx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/createSlashHandler.test.ts",
+      "target": "function:ui-tui/src/__tests__/createSlashHandler.test.ts:buildSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/forceTruecolor.test.ts",
+      "target": "function:ui-tui/src/__tests__/forceTruecolor.test.ts:withCleanEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/gatewayClient.test.ts",
+      "target": "class:ui-tui/src/__tests__/gatewayClient.test.ts:FakeWebSocket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

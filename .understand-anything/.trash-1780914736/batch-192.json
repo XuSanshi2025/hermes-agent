@@ -1,0 +1,3723 @@
+{
+  "nodes": [
+    {
+      "id": "config:plugins/platforms/irc/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/irc/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/line/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/line/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/line/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 21 个函数、6 个类、27 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:strip_markdown_preserving_urls",
+      "type": "function",
+      "name": "strip_markdown_preserving_urls",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        174,
+        209
+      ],
+      "summary": "strip_markdown_preserving_urls 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:split_for_line",
+      "type": "function",
+      "name": "split_for_line",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        212,
+        251
+      ],
+      "summary": "split_for_line 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:verify_line_signature",
+      "type": "function",
+      "name": "verify_line_signature",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        258,
+        276
+      ],
+      "summary": "verify_line_signature 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_resolve_chat",
+      "type": "function",
+      "name": "_resolve_chat",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        397,
+        414
+      ],
+      "summary": "_resolve_chat 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_allowed_for_source",
+      "type": "function",
+      "name": "_allowed_for_source",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        417,
+        438
+      ],
+      "summary": "_allowed_for_source 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_text_message",
+      "type": "function",
+      "name": "_text_message",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        535,
+        539
+      ],
+      "summary": "_text_message 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_image_message",
+      "type": "function",
+      "name": "_image_message",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        542,
+        547
+      ],
+      "summary": "_image_message 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_audio_message",
+      "type": "function",
+      "name": "_audio_message",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        550,
+        555
+      ],
+      "summary": "_audio_message 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_video_message",
+      "type": "function",
+      "name": "_video_message",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        558,
+        563
+      ],
+      "summary": "_video_message 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:build_postback_button_message",
+      "type": "function",
+      "name": "build_postback_button_message",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        566,
+        596
+      ],
+      "summary": "build_postback_button_message 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_is_system_bypass",
+      "type": "function",
+      "name": "_is_system_bypass",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        611,
+        614
+      ],
+      "summary": "_is_system_bypass 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_csv_set",
+      "type": "function",
+      "name": "_csv_set",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        621,
+        624
+      ],
+      "summary": "_csv_set 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_truthy_env",
+      "type": "function",
+      "name": "_truthy_env",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        627,
+        631
+      ],
+      "summary": "_truthy_env 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_is_relative_to",
+      "type": "function",
+      "name": "_is_relative_to",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1463,
+        1473
+      ],
+      "summary": "_is_relative_to 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:check_requirements",
+      "type": "function",
+      "name": "check_requirements",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1480,
+        1490
+      ],
+      "summary": "check_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:validate_config",
+      "type": "function",
+      "name": "validate_config",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1493,
+        1501
+      ],
+      "summary": "validate_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:is_connected",
+      "type": "function",
+      "name": "is_connected",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1504,
+        1506
+      ],
+      "summary": "is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_env_enablement",
+      "type": "function",
+      "name": "_env_enablement",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1509,
+        1530
+      ],
+      "summary": "_env_enablement 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1533,
+        1575
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1578,
+        1617
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/line/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        1620,
+        1652
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/line/adapter.py:State",
+      "type": "class",
+      "name": "State",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        283,
+        287
+      ],
+      "summary": "State 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/line/adapter.py:_CacheEntry",
+      "type": "class",
+      "name": "_CacheEntry",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        291,
+        296
+      ],
+      "summary": "_CacheEntry 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/line/adapter.py:RequestCache",
+      "type": "class",
+      "name": "RequestCache",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        299,
+        366
+      ],
+      "summary": "RequestCache 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/platforms/line/adapter.py:_MessageDeduplicator",
+      "type": "class",
+      "name": "_MessageDeduplicator",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        373,
+        390
+      ],
+      "summary": "_MessageDeduplicator 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/line/adapter.py:_LineClient",
+      "type": "class",
+      "name": "_LineClient",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        445,
+        528
+      ],
+      "summary": "_LineClient 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:plugins/platforms/line/adapter.py:LineAdapter",
+      "type": "class",
+      "name": "LineAdapter",
+      "filePath": "plugins/platforms/line/adapter.py",
+      "lineRange": [
+        638,
+        1460
+      ],
+      "summary": "LineAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/line/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/line/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/mattermost/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/mattermost/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/mattermost/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 7 个函数、1 个类、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:check_mattermost_requirements",
+      "type": "function",
+      "name": "check_mattermost_requirements",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        53,
+        68
+      ],
+      "summary": "check_mattermost_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        881,
+        1014
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        1022,
+        1080
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:_apply_yaml_config",
+      "type": "function",
+      "name": "_apply_yaml_config",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        1088,
+        1121
+      ],
+      "summary": "_apply_yaml_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:_is_connected",
+      "type": "function",
+      "name": "_is_connected",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        1129,
+        1142
+      ],
+      "summary": "_is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:_build_adapter",
+      "type": "function",
+      "name": "_build_adapter",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        1150,
+        1152
+      ],
+      "summary": "_build_adapter 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/mattermost/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        1155,
+        1192
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/mattermost/adapter.py:MattermostAdapter",
+      "type": "class",
+      "name": "MattermostAdapter",
+      "filePath": "plugins/platforms/mattermost/adapter.py",
+      "lineRange": [
+        71,
+        871
+      ],
+      "summary": "MattermostAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/mattermost/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/mattermost/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/ntfy/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/ntfy/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/ntfy/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 8 个函数、2 个类、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:_build_auth_header",
+      "type": "function",
+      "name": "_build_auth_header",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        87,
+        108
+      ],
+      "summary": "_build_auth_header 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:_truncate_body",
+      "type": "function",
+      "name": "_truncate_body",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        111,
+        122
+      ],
+      "summary": "_truncate_body 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:check_requirements",
+      "type": "function",
+      "name": "check_requirements",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        125,
+        135
+      ],
+      "summary": "check_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:validate_config",
+      "type": "function",
+      "name": "validate_config",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        138,
+        142
+      ],
+      "summary": "validate_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:is_connected",
+      "type": "function",
+      "name": "is_connected",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        145,
+        149
+      ],
+      "summary": "is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:_env_enablement",
+      "type": "function",
+      "name": "_env_enablement",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        452,
+        487
+      ],
+      "summary": "_env_enablement 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        490,
+        552
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/ntfy/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        555,
+        593
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/ntfy/adapter.py:_FatalStreamError",
+      "type": "class",
+      "name": "_FatalStreamError",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        74,
+        75
+      ],
+      "summary": "_FatalStreamError 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/ntfy/adapter.py:NtfyAdapter",
+      "type": "class",
+      "name": "NtfyAdapter",
+      "filePath": "plugins/platforms/ntfy/adapter.py",
+      "lineRange": [
+        152,
+        444
+      ],
+      "summary": "NtfyAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/ntfy/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/ntfy/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/simplex/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/simplex/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/simplex/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 11 个函数、1 个类、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:_parse_comma_list",
+      "type": "function",
+      "name": "_parse_comma_list",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        81,
+        83
+      ],
+      "summary": "_parse_comma_list 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:_guess_extension",
+      "type": "function",
+      "name": "_guess_extension",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        86,
+        104
+      ],
+      "summary": "_guess_extension 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:_is_image_ext",
+      "type": "function",
+      "name": "_is_image_ext",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        107,
+        108
+      ],
+      "summary": "_is_image_ext 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:_is_audio_ext",
+      "type": "function",
+      "name": "_is_audio_ext",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        111,
+        112
+      ],
+      "summary": "_is_audio_ext 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:check_requirements",
+      "type": "function",
+      "name": "check_requirements",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        567,
+        580
+      ],
+      "summary": "check_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:validate_config",
+      "type": "function",
+      "name": "validate_config",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        583,
+        587
+      ],
+      "summary": "validate_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:is_connected",
+      "type": "function",
+      "name": "is_connected",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        590,
+        594
+      ],
+      "summary": "is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:_env_enablement",
+      "type": "function",
+      "name": "_env_enablement",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        597,
+        619
+      ],
+      "summary": "_env_enablement 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        622,
+        674
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        677,
+        715
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/simplex/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        718,
+        760
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/simplex/adapter.py:SimplexAdapter",
+      "type": "class",
+      "name": "SimplexAdapter",
+      "filePath": "plugins/platforms/simplex/adapter.py",
+      "lineRange": [
+        119,
+        560
+      ],
+      "summary": "SimplexAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/simplex/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/simplex/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/platforms/teams/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/platforms/teams/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/platforms/teams/adapter.py",
+      "type": "file",
+      "name": "adapter.py",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "summary": "adapter.py 是 python 源文件，包含 10 个函数、4 个类、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:_parse_bool",
+      "type": "function",
+      "name": "_parse_bool",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        107,
+        116
+      ],
+      "summary": "_parse_bool 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:_coerce_port",
+      "type": "function",
+      "name": "_coerce_port",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        119,
+        123
+      ],
+      "summary": "_coerce_port 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:check_requirements",
+      "type": "function",
+      "name": "check_requirements",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        393,
+        395
+      ],
+      "summary": "check_requirements 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:validate_config",
+      "type": "function",
+      "name": "validate_config",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        398,
+        404
+      ],
+      "summary": "validate_config 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:is_connected",
+      "type": "function",
+      "name": "is_connected",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        407,
+        409
+      ],
+      "summary": "is_connected 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:_env_enablement",
+      "type": "function",
+      "name": "_env_enablement",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        412,
+        448
+      ],
+      "summary": "_env_enablement 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:_validate_teams_service_url",
+      "type": "function",
+      "name": "_validate_teams_service_url",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        473,
+        493
+      ],
+      "summary": "_validate_teams_service_url 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:_standalone_send",
+      "type": "function",
+      "name": "_standalone_send",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        496,
+        615
+      ],
+      "summary": "_standalone_send 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:interactive_setup",
+      "type": "function",
+      "name": "interactive_setup",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        1085,
+        1153
+      ],
+      "summary": "interactive_setup 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/platforms/teams/adapter.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        1158,
+        1197
+      ],
+      "summary": "register 是 adapter.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/teams/adapter.py:_StaticAccessTokenProvider",
+      "type": "class",
+      "name": "_StaticAccessTokenProvider",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        126,
+        139
+      ],
+      "summary": "_StaticAccessTokenProvider 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/teams/adapter.py:TeamsSummaryWriter",
+      "type": "class",
+      "name": "TeamsSummaryWriter",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        142,
+        350
+      ],
+      "summary": "TeamsSummaryWriter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:plugins/platforms/teams/adapter.py:_AiohttpBridgeAdapter",
+      "type": "class",
+      "name": "_AiohttpBridgeAdapter",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        353,
+        390
+      ],
+      "summary": "_AiohttpBridgeAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/platforms/teams/adapter.py:TeamsAdapter",
+      "type": "class",
+      "name": "TeamsAdapter",
+      "filePath": "plugins/platforms/teams/adapter.py",
+      "lineRange": [
+        622,
+        1080
+      ],
+      "summary": "TeamsAdapter 是 adapter.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/platforms/teams/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/platforms/teams/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/security-guidance/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 9 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_block_mode_enabled",
+      "type": "function",
+      "name": "_block_mode_enabled",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        66,
+        67
+      ],
+      "summary": "_block_mode_enabled 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_plugin_disabled",
+      "type": "function",
+      "name": "_plugin_disabled",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        70,
+        71
+      ],
+      "summary": "_plugin_disabled 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_scan_content",
+      "type": "function",
+      "name": "_scan_content",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        104,
+        146
+      ],
+      "summary": "_scan_content 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_extract_path_and_content",
+      "type": "function",
+      "name": "_extract_path_and_content",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        149,
+        163
+      ],
+      "summary": "_extract_path_and_content 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_format_warning_block",
+      "type": "function",
+      "name": "_format_warning_block",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        166,
+        183
+      ],
+      "summary": "_format_warning_block 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_scan_args",
+      "type": "function",
+      "name": "_scan_args",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        191,
+        199
+      ],
+      "summary": "_scan_args 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_on_pre_tool_call",
+      "type": "function",
+      "name": "_on_pre_tool_call",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        202,
+        224
+      ],
+      "summary": "_on_pre_tool_call 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:_on_transform_tool_result",
+      "type": "function",
+      "name": "_on_transform_tool_result",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        227,
+        254
+      ],
+      "summary": "_on_transform_tool_result 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/security-guidance/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/security-guidance/__init__.py",
+      "lineRange": [
+        257,
+        259
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/security-guidance/NOTICE",
+      "type": "file",
+      "name": "NOTICE",
+      "filePath": "plugins/security-guidance/NOTICE",
+      "summary": "NOTICE 是 unknown 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "plugin",
+        "project",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/security-guidance/patterns.py",
+      "type": "file",
+      "name": "patterns.py",
+      "filePath": "plugins/security-guidance/patterns.py",
+      "summary": "patterns.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/security-guidance/patterns.py:rule_names_to_mask",
+      "type": "function",
+      "name": "rule_names_to_mask",
+      "filePath": "plugins/security-guidance/patterns.py",
+      "lineRange": [
+        360,
+        368
+      ],
+      "summary": "rule_names_to_mask 是 patterns.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/security-guidance/patterns.py:RuleId",
+      "type": "class",
+      "name": "RuleId",
+      "filePath": "plugins/security-guidance/patterns.py",
+      "lineRange": [
+        287,
+        320
+      ],
+      "summary": "RuleId 是 patterns.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/security-guidance/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/security-guidance/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "document:plugins/security-guidance/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/security-guidance/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/spotify/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/spotify/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/spotify/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/spotify/__init__.py",
+      "lineRange": [
+        56,
+        66
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:plugins/spotify/client.py",
+      "type": "file",
+      "name": "client.py",
+      "filePath": "plugins/spotify/client.py",
+      "summary": "client.py 是 python 源文件，包含 7 个函数、4 个类、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:_extract_spotify_error_detail",
+      "type": "function",
+      "name": "_extract_spotify_error_detail",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        324,
+        336
+      ],
+      "summary": "_extract_spotify_error_detail 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:_friendly_spotify_error_message",
+      "type": "function",
+      "name": "_friendly_spotify_error_message",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        339,
+        376
+      ],
+      "summary": "_friendly_spotify_error_message 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:_strip_none",
+      "type": "function",
+      "name": "_strip_none",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        379,
+        382
+      ],
+      "summary": "_strip_none 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:normalize_spotify_id",
+      "type": "function",
+      "name": "normalize_spotify_id",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        385,
+        404
+      ],
+      "summary": "normalize_spotify_id 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:normalize_spotify_uri",
+      "type": "function",
+      "name": "normalize_spotify_uri",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        407,
+        420
+      ],
+      "summary": "normalize_spotify_uri 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:normalize_spotify_uris",
+      "type": "function",
+      "name": "normalize_spotify_uris",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        423,
+        431
+      ],
+      "summary": "normalize_spotify_uris 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/client.py:compact_json",
+      "type": "function",
+      "name": "compact_json",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        434,
+        435
+      ],
+      "summary": "compact_json 是 client.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/spotify/client.py:SpotifyError",
+      "type": "class",
+      "name": "SpotifyError",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        17,
+        18
+      ],
+      "summary": "SpotifyError 是 client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/spotify/client.py:SpotifyAuthRequiredError",
+      "type": "class",
+      "name": "SpotifyAuthRequiredError",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        21,
+        22
+      ],
+      "summary": "SpotifyAuthRequiredError 是 client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/spotify/client.py:SpotifyAPIError",
+      "type": "class",
+      "name": "SpotifyAPIError",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        25,
+        38
+      ],
+      "summary": "SpotifyAPIError 是 client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/spotify/client.py:SpotifyClient",
+      "type": "class",
+      "name": "SpotifyClient",
+      "filePath": "plugins/spotify/client.py",
+      "lineRange": [
+        41,
+        321
+      ],
+      "summary": "SpotifyClient 是 client.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:plugins/spotify/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/spotify/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/spotify/tools.py",
+      "type": "file",
+      "name": "tools.py",
+      "filePath": "plugins/spotify/tools.py",
+      "summary": "tools.py 是 python 源文件，包含 14 个函数、14 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_check_spotify_available",
+      "type": "function",
+      "name": "_check_spotify_available",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        20,
+        24
+      ],
+      "summary": "_check_spotify_available 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_spotify_client",
+      "type": "function",
+      "name": "_spotify_client",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        27,
+        28
+      ],
+      "summary": "_spotify_client 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_spotify_tool_error",
+      "type": "function",
+      "name": "_spotify_tool_error",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        31,
+        36
+      ],
+      "summary": "_spotify_tool_error 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_coerce_limit",
+      "type": "function",
+      "name": "_coerce_limit",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        39,
+        44
+      ],
+      "summary": "_coerce_limit 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_coerce_bool",
+      "type": "function",
+      "name": "_coerce_bool",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        47,
+        56
+      ],
+      "summary": "_coerce_bool 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_as_list",
+      "type": "function",
+      "name": "_as_list",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        59,
+        64
+      ],
+      "summary": "_as_list 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_describe_empty_playback",
+      "type": "function",
+      "name": "_describe_empty_playback",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        67,
+        86
+      ],
+      "summary": "_describe_empty_playback 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_playback",
+      "type": "function",
+      "name": "_handle_spotify_playback",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        89,
+        167
+      ],
+      "summary": "_handle_spotify_playback 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_devices",
+      "type": "function",
+      "name": "_handle_spotify_devices",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        170,
+        184
+      ],
+      "summary": "_handle_spotify_devices 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_queue",
+      "type": "function",
+      "name": "_handle_spotify_queue",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        187,
+        199
+      ],
+      "summary": "_handle_spotify_queue 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_search",
+      "type": "function",
+      "name": "_handle_spotify_search",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        202,
+        221
+      ],
+      "summary": "_handle_spotify_search 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_playlists",
+      "type": "function",
+      "name": "_handle_spotify_playlists",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        224,
+        273
+      ],
+      "summary": "_handle_spotify_playlists 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_albums",
+      "type": "function",
+      "name": "_handle_spotify_albums",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        276,
+        292
+      ],
+      "summary": "_handle_spotify_albums 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/spotify/tools.py:_handle_spotify_library",
+      "type": "function",
+      "name": "_handle_spotify_library",
+      "filePath": "plugins/spotify/tools.py",
+      "lineRange": [
+        295,
+        323
+      ],
+      "summary": "_handle_spotify_library 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:strip_markdown_preserving_urls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:strip_markdown_preserving_urls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:split_for_line",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:split_for_line",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:verify_line_signature",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:verify_line_signature",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_resolve_chat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_resolve_chat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_allowed_for_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_allowed_for_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_text_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_text_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_image_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_image_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_audio_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_audio_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_video_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_video_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:build_postback_button_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:build_postback_button_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_is_system_bypass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_is_system_bypass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_csv_set",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_csv_set",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_truthy_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_truthy_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_is_relative_to",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_is_relative_to",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:check_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:check_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:validate_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:validate_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_env_enablement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_env_enablement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "function:plugins/platforms/line/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:State",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:State",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:_CacheEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:_CacheEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:RequestCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:RequestCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:_MessageDeduplicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:_MessageDeduplicator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:_LineClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:_LineClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:LineAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/line/adapter.py",
+      "target": "class:plugins/platforms/line/adapter.py:LineAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:check_mattermost_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:check_mattermost_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_apply_yaml_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_apply_yaml_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_build_adapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:_build_adapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "function:plugins/platforms/mattermost/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "class:plugins/platforms/mattermost/adapter.py:MattermostAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/mattermost/adapter.py",
+      "target": "class:plugins/platforms/mattermost/adapter.py:MattermostAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_build_auth_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_build_auth_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_truncate_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_truncate_body",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:check_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:check_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:validate_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:validate_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_env_enablement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_env_enablement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "function:plugins/platforms/ntfy/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "class:plugins/platforms/ntfy/adapter.py:_FatalStreamError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "class:plugins/platforms/ntfy/adapter.py:_FatalStreamError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "class:plugins/platforms/ntfy/adapter.py:NtfyAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/ntfy/adapter.py",
+      "target": "class:plugins/platforms/ntfy/adapter.py:NtfyAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_parse_comma_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_parse_comma_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_guess_extension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_guess_extension",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_is_image_ext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_is_image_ext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_is_audio_ext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_is_audio_ext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:check_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:check_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:validate_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:validate_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_env_enablement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_env_enablement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "function:plugins/platforms/simplex/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "class:plugins/platforms/simplex/adapter.py:SimplexAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/simplex/adapter.py",
+      "target": "class:plugins/platforms/simplex/adapter.py:SimplexAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_parse_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_parse_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_coerce_port",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_coerce_port",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:check_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:check_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:validate_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:validate_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:is_connected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:is_connected",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_env_enablement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_env_enablement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_validate_teams_service_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_validate_teams_service_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_standalone_send",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:_standalone_send",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:interactive_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:interactive_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "function:plugins/platforms/teams/adapter.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:_StaticAccessTokenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:_StaticAccessTokenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:TeamsSummaryWriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:TeamsSummaryWriter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:_AiohttpBridgeAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:_AiohttpBridgeAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:TeamsAdapter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/platforms/teams/adapter.py",
+      "target": "class:plugins/platforms/teams/adapter.py:TeamsAdapter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_block_mode_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_block_mode_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_plugin_disabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_plugin_disabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_scan_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_scan_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_extract_path_and_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_extract_path_and_content",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_format_warning_block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_format_warning_block",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_scan_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_scan_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_on_pre_tool_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_on_pre_tool_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_on_transform_tool_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:_on_transform_tool_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/__init__.py",
+      "target": "function:plugins/security-guidance/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/patterns.py",
+      "target": "function:plugins/security-guidance/patterns.py:rule_names_to_mask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/patterns.py",
+      "target": "function:plugins/security-guidance/patterns.py:rule_names_to_mask",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/security-guidance/patterns.py",
+      "target": "class:plugins/security-guidance/patterns.py:RuleId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/security-guidance/patterns.py",
+      "target": "class:plugins/security-guidance/patterns.py:RuleId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/__init__.py",
+      "target": "function:plugins/spotify/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/__init__.py",
+      "target": "function:plugins/spotify/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:_extract_spotify_error_detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:_extract_spotify_error_detail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:_friendly_spotify_error_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:_friendly_spotify_error_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:_strip_none",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:_strip_none",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:normalize_spotify_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:normalize_spotify_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:normalize_spotify_uri",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:normalize_spotify_uri",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:normalize_spotify_uris",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:normalize_spotify_uris",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:compact_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "function:plugins/spotify/client.py:compact_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyAuthRequiredError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyAuthRequiredError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyAPIError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyAPIError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/client.py",
+      "target": "class:plugins/spotify/client.py:SpotifyClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_check_spotify_available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_check_spotify_available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_spotify_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_spotify_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_spotify_tool_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_spotify_tool_error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_coerce_limit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_coerce_limit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_coerce_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_coerce_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_as_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_as_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_describe_empty_playback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_describe_empty_playback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_playback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_playback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_devices",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_devices",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_queue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_queue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_playlists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_playlists",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_albums",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_albums",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_library",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/spotify/tools.py",
+      "target": "function:plugins/spotify/tools.py:_handle_spotify_library",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

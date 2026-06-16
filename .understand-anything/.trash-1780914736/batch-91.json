@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/messaging/teams-meetings.md",
+      "type": "document",
+      "name": "teams-meetings.md",
+      "filePath": "website/docs/user-guide/messaging/teams-meetings.md",
+      "summary": "teams-meetings.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/teams.md",
+      "type": "document",
+      "name": "teams.md",
+      "filePath": "website/docs/user-guide/messaging/teams.md",
+      "summary": "teams.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/telegram.md",
+      "type": "document",
+      "name": "telegram.md",
+      "filePath": "website/docs/user-guide/messaging/telegram.md",
+      "summary": "telegram.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/webhooks.md",
+      "type": "document",
+      "name": "webhooks.md",
+      "filePath": "website/docs/user-guide/messaging/webhooks.md",
+      "summary": "webhooks.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/wecom-callback.md",
+      "type": "document",
+      "name": "wecom-callback.md",
+      "filePath": "website/docs/user-guide/messaging/wecom-callback.md",
+      "summary": "wecom-callback.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/wecom.md",
+      "type": "document",
+      "name": "wecom.md",
+      "filePath": "website/docs/user-guide/messaging/wecom.md",
+      "summary": "wecom.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/weixin.md",
+      "type": "document",
+      "name": "weixin.md",
+      "filePath": "website/docs/user-guide/messaging/weixin.md",
+      "summary": "weixin.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/whatsapp.md",
+      "type": "document",
+      "name": "whatsapp.md",
+      "filePath": "website/docs/user-guide/messaging/whatsapp.md",
+      "summary": "whatsapp.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/messaging/yuanbao.md",
+      "type": "document",
+      "name": "yuanbao.md",
+      "filePath": "website/docs/user-guide/messaging/yuanbao.md",
+      "summary": "yuanbao.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

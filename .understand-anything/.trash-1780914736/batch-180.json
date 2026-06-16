@@ -1,0 +1,2093 @@
+{
+  "nodes": [
+    {
+      "id": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "type": "file",
+      "name": "body_calc.py",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "summary": "body_calc.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:bmi",
+      "type": "function",
+      "name": "bmi",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        18,
+        35
+      ],
+      "summary": "bmi 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:tdee",
+      "type": "function",
+      "name": "tdee",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        38,
+        65
+      ],
+      "summary": "tdee 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:one_rep_max",
+      "type": "function",
+      "name": "one_rep_max",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        68,
+        93
+      ],
+      "summary": "one_rep_max 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:macros",
+      "type": "function",
+      "name": "macros",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        96,
+        123
+      ],
+      "summary": "macros 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:bodyfat",
+      "type": "function",
+      "name": "bodyfat",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        126,
+        163
+      ],
+      "summary": "bodyfat 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:usage",
+      "type": "function",
+      "name": "usage",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        166,
+        168
+      ],
+      "summary": "usage 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "lineRange": [
+        171,
+        206
+      ],
+      "summary": "main 是 body_calc.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "type": "file",
+      "name": "nutrition_search.py",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "summary": "nutrition_search.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:search",
+      "type": "function",
+      "name": "search",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "lineRange": [
+        24,
+        37
+      ],
+      "summary": "search 是 nutrition_search.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:display",
+      "type": "function",
+      "name": "display",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "lineRange": [
+        40,
+        54
+      ],
+      "summary": "display 是 nutrition_search.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "lineRange": [
+        57,
+        81
+      ],
+      "summary": "main 是 nutrition_search.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/health/fitness-nutrition/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/health/fitness-nutrition/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/health/neuroskill-bci/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/health/neuroskill-bci/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mcp/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/mcp/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mcp/fastmcp/references/fastmcp-cli.md",
+      "type": "document",
+      "name": "fastmcp-cli.md",
+      "filePath": "optional-skills/mcp/fastmcp/references/fastmcp-cli.md",
+      "summary": "fastmcp-cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "type": "file",
+      "name": "scaffold_fastmcp.py",
+      "filePath": "optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "summary": "scaffold_fastmcp.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:list_templates",
+      "type": "function",
+      "name": "list_templates",
+      "filePath": "optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "lineRange": [
+        16,
+        17
+      ],
+      "summary": "list_templates 是 scaffold_fastmcp.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:render_template",
+      "type": "function",
+      "name": "render_template",
+      "filePath": "optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "lineRange": [
+        20,
+        25
+      ],
+      "summary": "render_template 是 scaffold_fastmcp.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "lineRange": [
+        28,
+        52
+      ],
+      "summary": "main 是 scaffold_fastmcp.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/mcp/fastmcp/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mcp/fastmcp/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "type": "file",
+      "name": "api_wrapper.py",
+      "filePath": "optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "summary": "api_wrapper.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:_headers",
+      "type": "function",
+      "name": "_headers",
+      "filePath": "optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "lineRange": [
+        17,
+        21
+      ],
+      "summary": "_headers 是 api_wrapper.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:_request",
+      "type": "function",
+      "name": "_request",
+      "filePath": "optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "lineRange": [
+        24,
+        29
+      ],
+      "summary": "_request 是 api_wrapper.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:health_check",
+      "type": "function",
+      "name": "health_check",
+      "filePath": "optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "lineRange": [
+        33,
+        36
+      ],
+      "summary": "health_check 是 api_wrapper.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:get_resource",
+      "type": "function",
+      "name": "get_resource",
+      "filePath": "optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "lineRange": [
+        40,
+        43
+      ],
+      "summary": "get_resource 是 api_wrapper.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:search_resources",
+      "type": "function",
+      "name": "search_resources",
+      "filePath": "optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "lineRange": [
+        47,
+        50
+      ],
+      "summary": "search_resources 是 api_wrapper.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "type": "file",
+      "name": "database_server.py",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "summary": "database_server.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_connect",
+      "type": "function",
+      "name": "_connect",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "lineRange": [
+        18,
+        19
+      ],
+      "summary": "_connect 是 database_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_reject_mutation",
+      "type": "function",
+      "name": "_reject_mutation",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "lineRange": [
+        22,
+        25
+      ],
+      "summary": "_reject_mutation 是 database_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_validate_table_name",
+      "type": "function",
+      "name": "_validate_table_name",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "lineRange": [
+        28,
+        31
+      ],
+      "summary": "_validate_table_name 是 database_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/database_server.py:list_tables",
+      "type": "function",
+      "name": "list_tables",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "lineRange": [
+        35,
+        41
+      ],
+      "summary": "list_tables 是 database_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/database_server.py:describe_table",
+      "type": "function",
+      "name": "describe_table",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "lineRange": [
+        45,
+        60
+      ],
+      "summary": "describe_table 是 database_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/database_server.py:query",
+      "type": "function",
+      "name": "query",
+      "filePath": "optional-skills/mcp/fastmcp/templates/database_server.py",
+      "lineRange": [
+        64,
+        73
+      ],
+      "summary": "query 是 database_server.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "type": "file",
+      "name": "file_processor.py",
+      "filePath": "optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "summary": "file_processor.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:_read_text",
+      "type": "function",
+      "name": "_read_text",
+      "filePath": "optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "lineRange": [
+        12,
+        19
+      ],
+      "summary": "_read_text 是 file_processor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:summarize_text_file",
+      "type": "function",
+      "name": "summarize_text_file",
+      "filePath": "optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "lineRange": [
+        23,
+        32
+      ],
+      "summary": "summarize_text_file 是 file_processor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:search_text_file",
+      "type": "function",
+      "name": "search_text_file",
+      "filePath": "optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "lineRange": [
+        36,
+        45
+      ],
+      "summary": "search_text_file 是 file_processor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:read_file_resource",
+      "type": "function",
+      "name": "read_file_resource",
+      "filePath": "optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "lineRange": [
+        49,
+        51
+      ],
+      "summary": "read_file_resource 是 file_processor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/mcp/mcporter/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mcp/mcporter/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/migration/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/migration/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "type": "file",
+      "name": "openclaw_to_hermes.py",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "summary": "openclaw_to_hermes.py 是 python 源文件，包含 26 个函数、2 个类、28 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_selection_values",
+      "type": "function",
+      "name": "parse_selection_values",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        256,
+        263
+      ],
+      "summary": "parse_selection_values 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:resolve_selected_options",
+      "type": "function",
+      "name": "resolve_selected_options",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        266,
+        303
+      ],
+      "summary": "resolve_selected_options 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:sha256_file",
+      "type": "function",
+      "name": "sha256_file",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        306,
+        311
+      ],
+      "summary": "sha256_file 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:read_text",
+      "type": "function",
+      "name": "read_text",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        314,
+        315
+      ],
+      "summary": "read_text 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:normalize_text",
+      "type": "function",
+      "name": "normalize_text",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        318,
+        319
+      ],
+      "summary": "normalize_text 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:ensure_parent",
+      "type": "function",
+      "name": "ensure_parent",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        322,
+        323
+      ],
+      "summary": "ensure_parent 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:resolve_secret_input",
+      "type": "function",
+      "name": "resolve_secret_input",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        326,
+        346
+      ],
+      "summary": "resolve_secret_input 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:load_yaml_file",
+      "type": "function",
+      "name": "load_yaml_file",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        349,
+        353
+      ],
+      "summary": "load_yaml_file 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:dump_yaml_file",
+      "type": "function",
+      "name": "dump_yaml_file",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        356,
+        363
+      ],
+      "summary": "dump_yaml_file 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_env_file",
+      "type": "function",
+      "name": "parse_env_file",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        366,
+        376
+      ],
+      "summary": "parse_env_file 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:save_env_file",
+      "type": "function",
+      "name": "save_env_file",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        379,
+        382
+      ],
+      "summary": "save_env_file 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:backup_existing",
+      "type": "function",
+      "name": "backup_existing",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        385,
+        395
+      ],
+      "summary": "backup_existing 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_case_preserving_replacement",
+      "type": "function",
+      "name": "_case_preserving_replacement",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        413,
+        427
+      ],
+      "summary": "_case_preserving_replacement 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:rebrand_text",
+      "type": "function",
+      "name": "rebrand_text",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        430,
+        438
+      ],
+      "summary": "rebrand_text 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_existing_memory_entries",
+      "type": "function",
+      "name": "parse_existing_memory_entries",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        441,
+        449
+      ],
+      "summary": "parse_existing_memory_entries 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:extract_markdown_entries",
+      "type": "function",
+      "name": "extract_markdown_entries",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        452,
+        525
+      ],
+      "summary": "extract_markdown_entries 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:merge_entries",
+      "type": "function",
+      "name": "merge_entries",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        528,
+        559
+      ],
+      "summary": "merge_entries 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:relative_label",
+      "type": "function",
+      "name": "relative_label",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        562,
+        566
+      ],
+      "summary": "relative_label 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_normalize_secret_key",
+      "type": "function",
+      "name": "_normalize_secret_key",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        605,
+        606
+      ],
+      "summary": "_normalize_secret_key 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_is_secret_key",
+      "type": "function",
+      "name": "_is_secret_key",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        609,
+        615
+      ],
+      "summary": "_is_secret_key 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_redact_string",
+      "type": "function",
+      "name": "_redact_string",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        618,
+        621
+      ],
+      "summary": "_redact_string 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:redact_migration_value",
+      "type": "function",
+      "name": "redact_migration_value",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        624,
+        632
+      ],
+      "summary": "redact_migration_value 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_redact_internal",
+      "type": "function",
+      "name": "_redact_internal",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        635,
+        652
+      ],
+      "summary": "_redact_internal 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:write_report",
+      "type": "function",
+      "name": "write_report",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        655,
+        708
+      ],
+      "summary": "write_report 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_args",
+      "type": "function",
+      "name": "parse_args",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        2960,
+        3008
+      ],
+      "summary": "parse_args 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        3011,
+        3132
+      ],
+      "summary": "main 是 openclaw_to_hermes.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:ItemResult",
+      "type": "class",
+      "name": "ItemResult",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        246,
+        253
+      ],
+      "summary": "ItemResult 是 openclaw_to_hermes.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:Migrator",
+      "type": "class",
+      "name": "Migrator",
+      "filePath": "optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "lineRange": [
+        711,
+        2957
+      ],
+      "summary": "Migrator 是 openclaw_to_hermes.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:optional-skills/migration/openclaw-migration/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/migration/openclaw-migration/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/accelerate/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/accelerate/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/chroma/references/integration.md",
+      "type": "document",
+      "name": "integration.md",
+      "filePath": "optional-skills/mlops/chroma/references/integration.md",
+      "summary": "integration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/chroma/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/chroma/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/clip/references/applications.md",
+      "type": "document",
+      "name": "applications.md",
+      "filePath": "optional-skills/mlops/clip/references/applications.md",
+      "summary": "applications.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/clip/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/clip/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/faiss/references/index_types.md",
+      "type": "document",
+      "name": "index_types.md",
+      "filePath": "optional-skills/mlops/faiss/references/index_types.md",
+      "summary": "index_types.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/faiss/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/faiss/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/flash-attention/references/benchmarks.md",
+      "type": "document",
+      "name": "benchmarks.md",
+      "filePath": "optional-skills/mlops/flash-attention/references/benchmarks.md",
+      "summary": "benchmarks.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/flash-attention/references/transformers-integration.md",
+      "type": "document",
+      "name": "transformers-integration.md",
+      "filePath": "optional-skills/mlops/flash-attention/references/transformers-integration.md",
+      "summary": "transformers-integration.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/mlops/flash-attention/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/mlops/flash-attention/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:bmi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:bmi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:tdee",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:tdee",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:one_rep_max",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:one_rep_max",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:macros",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:macros",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:bodyfat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:bodyfat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/body_calc.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/body_calc.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:display",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:display",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py",
+      "target": "function:optional-skills/health/fitness-nutrition/scripts/nutrition_search.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "target": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:list_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "target": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:list_templates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "target": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:render_template",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "target": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:render_template",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "target": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+      "target": "function:optional-skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:health_check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:health_check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:get_resource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:get_resource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:search_resources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/api_wrapper.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/api_wrapper.py:search_resources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_connect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_reject_mutation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_reject_mutation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_validate_table_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:_validate_table_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:list_tables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:list_tables",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:describe_table",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:describe_table",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/database_server.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/database_server.py:query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:_read_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:_read_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:summarize_text_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:summarize_text_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:search_text_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:search_text_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:read_file_resource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/mcp/fastmcp/templates/file_processor.py",
+      "target": "function:optional-skills/mcp/fastmcp/templates/file_processor.py:read_file_resource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_selection_values",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_selection_values",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:resolve_selected_options",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:resolve_selected_options",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:sha256_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:sha256_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:read_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:read_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:normalize_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:normalize_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:ensure_parent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:ensure_parent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:resolve_secret_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:resolve_secret_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:load_yaml_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:load_yaml_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:dump_yaml_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:dump_yaml_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_env_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_env_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:save_env_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:save_env_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:backup_existing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:backup_existing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_case_preserving_replacement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_case_preserving_replacement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:rebrand_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:rebrand_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_existing_memory_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_existing_memory_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:extract_markdown_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:extract_markdown_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:merge_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:merge_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:relative_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:relative_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_normalize_secret_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_normalize_secret_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_is_secret_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_is_secret_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_redact_string",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_redact_string",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:redact_migration_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:redact_migration_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_redact_internal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:_redact_internal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:write_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:write_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:parse_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "function:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "class:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:ItemResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "class:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:ItemResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "class:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:Migrator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+      "target": "class:optional-skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:Migrator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

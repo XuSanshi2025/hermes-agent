@@ -1,0 +1,1779 @@
+{
+  "nodes": [
+    {
+      "id": "file:hermes_cli/subcommands/login.py",
+      "type": "file",
+      "name": "login.py",
+      "filePath": "hermes_cli/subcommands/login.py",
+      "summary": "login.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/login.py:build_login_parser",
+      "type": "function",
+      "name": "build_login_parser",
+      "filePath": "hermes_cli/subcommands/login.py",
+      "lineRange": [
+        12,
+        58
+      ],
+      "summary": "build_login_parser 是 login.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/logout.py",
+      "type": "file",
+      "name": "logout.py",
+      "filePath": "hermes_cli/subcommands/logout.py",
+      "summary": "logout.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/logout.py:build_logout_parser",
+      "type": "function",
+      "name": "build_logout_parser",
+      "filePath": "hermes_cli/subcommands/logout.py",
+      "lineRange": [
+        12,
+        28
+      ],
+      "summary": "build_logout_parser 是 logout.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/logs.py",
+      "type": "file",
+      "name": "logs.py",
+      "filePath": "hermes_cli/subcommands/logs.py",
+      "summary": "logs.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/logs.py:build_logs_parser",
+      "type": "function",
+      "name": "build_logs_parser",
+      "filePath": "hermes_cli/subcommands/logs.py",
+      "lineRange": [
+        13,
+        78
+      ],
+      "summary": "build_logs_parser 是 logs.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/mcp.py",
+      "type": "file",
+      "name": "mcp.py",
+      "filePath": "hermes_cli/subcommands/mcp.py",
+      "summary": "mcp.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/mcp.py:build_mcp_parser",
+      "type": "function",
+      "name": "build_mcp_parser",
+      "filePath": "hermes_cli/subcommands/mcp.py",
+      "lineRange": [
+        14,
+        104
+      ],
+      "summary": "build_mcp_parser 是 mcp.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/memory.py",
+      "type": "file",
+      "name": "memory.py",
+      "filePath": "hermes_cli/subcommands/memory.py",
+      "summary": "memory.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/memory.py:build_memory_parser",
+      "type": "function",
+      "name": "build_memory_parser",
+      "filePath": "hermes_cli/subcommands/memory.py",
+      "lineRange": [
+        12,
+        53
+      ],
+      "summary": "build_memory_parser 是 memory.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/model.py",
+      "type": "file",
+      "name": "model.py",
+      "filePath": "hermes_cli/subcommands/model.py",
+      "summary": "model.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/model.py:build_model_parser",
+      "type": "function",
+      "name": "build_model_parser",
+      "filePath": "hermes_cli/subcommands/model.py",
+      "lineRange": [
+        12,
+        72
+      ],
+      "summary": "build_model_parser 是 model.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/pairing.py",
+      "type": "file",
+      "name": "pairing.py",
+      "filePath": "hermes_cli/subcommands/pairing.py",
+      "summary": "pairing.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/pairing.py:build_pairing_parser",
+      "type": "function",
+      "name": "build_pairing_parser",
+      "filePath": "hermes_cli/subcommands/pairing.py",
+      "lineRange": [
+        12,
+        36
+      ],
+      "summary": "build_pairing_parser 是 pairing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/plugins.py",
+      "type": "file",
+      "name": "plugins.py",
+      "filePath": "hermes_cli/subcommands/plugins.py",
+      "summary": "plugins.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/plugins.py:build_plugins_parser",
+      "type": "function",
+      "name": "build_plugins_parser",
+      "filePath": "hermes_cli/subcommands/plugins.py",
+      "lineRange": [
+        12,
+        94
+      ],
+      "summary": "build_plugins_parser 是 plugins.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/postinstall.py",
+      "type": "file",
+      "name": "postinstall.py",
+      "filePath": "hermes_cli/subcommands/postinstall.py",
+      "summary": "postinstall.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/postinstall.py:build_postinstall_parser",
+      "type": "function",
+      "name": "build_postinstall_parser",
+      "filePath": "hermes_cli/subcommands/postinstall.py",
+      "lineRange": [
+        12,
+        23
+      ],
+      "summary": "build_postinstall_parser 是 postinstall.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/profile.py",
+      "type": "file",
+      "name": "profile.py",
+      "filePath": "hermes_cli/subcommands/profile.py",
+      "summary": "profile.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/profile.py:build_profile_parser",
+      "type": "function",
+      "name": "build_profile_parser",
+      "filePath": "hermes_cli/subcommands/profile.py",
+      "lineRange": [
+        12,
+        203
+      ],
+      "summary": "build_profile_parser 是 profile.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/prompt_size.py",
+      "type": "file",
+      "name": "prompt_size.py",
+      "filePath": "hermes_cli/subcommands/prompt_size.py",
+      "summary": "prompt_size.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/prompt_size.py:build_prompt_size_parser",
+      "type": "function",
+      "name": "build_prompt_size_parser",
+      "filePath": "hermes_cli/subcommands/prompt_size.py",
+      "lineRange": [
+        12,
+        36
+      ],
+      "summary": "build_prompt_size_parser 是 prompt_size.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/security.py",
+      "type": "file",
+      "name": "security.py",
+      "filePath": "hermes_cli/subcommands/security.py",
+      "summary": "security.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/security.py:build_security_parser",
+      "type": "function",
+      "name": "build_security_parser",
+      "filePath": "hermes_cli/subcommands/security.py",
+      "lineRange": [
+        12,
+        62
+      ],
+      "summary": "build_security_parser 是 security.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "filePath": "hermes_cli/subcommands/setup.py",
+      "summary": "setup.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/setup.py:build_setup_parser",
+      "type": "function",
+      "name": "build_setup_parser",
+      "filePath": "hermes_cli/subcommands/setup.py",
+      "lineRange": [
+        12,
+        58
+      ],
+      "summary": "build_setup_parser 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/skills.py",
+      "type": "file",
+      "name": "skills.py",
+      "filePath": "hermes_cli/subcommands/skills.py",
+      "summary": "skills.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/skills.py:build_skills_parser",
+      "type": "function",
+      "name": "build_skills_parser",
+      "filePath": "hermes_cli/subcommands/skills.py",
+      "lineRange": [
+        12,
+        269
+      ],
+      "summary": "build_skills_parser 是 skills.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/slack.py",
+      "type": "file",
+      "name": "slack.py",
+      "filePath": "hermes_cli/subcommands/slack.py",
+      "summary": "slack.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/slack.py:build_slack_parser",
+      "type": "function",
+      "name": "build_slack_parser",
+      "filePath": "hermes_cli/subcommands/slack.py",
+      "lineRange": [
+        12,
+        60
+      ],
+      "summary": "build_slack_parser 是 slack.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/status.py",
+      "type": "file",
+      "name": "status.py",
+      "filePath": "hermes_cli/subcommands/status.py",
+      "summary": "status.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/status.py:build_status_parser",
+      "type": "function",
+      "name": "build_status_parser",
+      "filePath": "hermes_cli/subcommands/status.py",
+      "lineRange": [
+        12,
+        28
+      ],
+      "summary": "build_status_parser 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/tools.py",
+      "type": "file",
+      "name": "tools.py",
+      "filePath": "hermes_cli/subcommands/tools.py",
+      "summary": "tools.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/tools.py:build_tools_parser",
+      "type": "function",
+      "name": "build_tools_parser",
+      "filePath": "hermes_cli/subcommands/tools.py",
+      "lineRange": [
+        12,
+        95
+      ],
+      "summary": "build_tools_parser 是 tools.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/uninstall.py",
+      "type": "file",
+      "name": "uninstall.py",
+      "filePath": "hermes_cli/subcommands/uninstall.py",
+      "summary": "uninstall.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/uninstall.py:build_uninstall_parser",
+      "type": "function",
+      "name": "build_uninstall_parser",
+      "filePath": "hermes_cli/subcommands/uninstall.py",
+      "lineRange": [
+        12,
+        41
+      ],
+      "summary": "build_uninstall_parser 是 uninstall.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/update.py",
+      "type": "file",
+      "name": "update.py",
+      "filePath": "hermes_cli/subcommands/update.py",
+      "summary": "update.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/update.py:build_update_parser",
+      "type": "function",
+      "name": "build_update_parser",
+      "filePath": "hermes_cli/subcommands/update.py",
+      "lineRange": [
+        12,
+        70
+      ],
+      "summary": "build_update_parser 是 update.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/version.py",
+      "type": "file",
+      "name": "version.py",
+      "filePath": "hermes_cli/subcommands/version.py",
+      "summary": "version.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/version.py:build_version_parser",
+      "type": "function",
+      "name": "build_version_parser",
+      "filePath": "hermes_cli/subcommands/version.py",
+      "lineRange": [
+        12,
+        18
+      ],
+      "summary": "build_version_parser 是 version.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/webhook.py",
+      "type": "file",
+      "name": "webhook.py",
+      "filePath": "hermes_cli/subcommands/webhook.py",
+      "summary": "webhook.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/webhook.py:build_webhook_parser",
+      "type": "function",
+      "name": "build_webhook_parser",
+      "filePath": "hermes_cli/subcommands/webhook.py",
+      "lineRange": [
+        12,
+        76
+      ],
+      "summary": "build_webhook_parser 是 webhook.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/whatsapp.py",
+      "type": "file",
+      "name": "whatsapp.py",
+      "filePath": "hermes_cli/subcommands/whatsapp.py",
+      "summary": "whatsapp.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/whatsapp.py:build_whatsapp_parser",
+      "type": "function",
+      "name": "build_whatsapp_parser",
+      "filePath": "hermes_cli/subcommands/whatsapp.py",
+      "lineRange": [
+        12,
+        22
+      ],
+      "summary": "build_whatsapp_parser 是 whatsapp.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/telegram_managed_bot.py",
+      "type": "file",
+      "name": "telegram_managed_bot.py",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "summary": "telegram_managed_bot.py 是 python 源文件，包含 16 个函数、2 个类、18 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:_api_url",
+      "type": "function",
+      "name": "_api_url",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        59,
+        63
+      ],
+      "summary": "_api_url 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:is_valid_telegram_bot_token",
+      "type": "function",
+      "name": "is_valid_telegram_bot_token",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "is_valid_telegram_bot_token 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:_parse_owner_user_id",
+      "type": "function",
+      "name": "_parse_owner_user_id",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        71,
+        79
+      ],
+      "summary": "_parse_owner_user_id 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:render_qr_terminal",
+      "type": "function",
+      "name": "render_qr_terminal",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        82,
+        102
+      ],
+      "summary": "render_qr_terminal 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:print_qr_code",
+      "type": "function",
+      "name": "print_qr_code",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        105,
+        113
+      ],
+      "summary": "print_qr_code 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:generate_username_slug",
+      "type": "function",
+      "name": "generate_username_slug",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        116,
+        122
+      ],
+      "summary": "generate_username_slug 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:generate_bot_username",
+      "type": "function",
+      "name": "generate_bot_username",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        125,
+        133
+      ],
+      "summary": "generate_bot_username 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:generate_deep_link",
+      "type": "function",
+      "name": "generate_deep_link",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        136,
+        153
+      ],
+      "summary": "generate_deep_link 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:generate_pairing_nonce",
+      "type": "function",
+      "name": "generate_pairing_nonce",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        156,
+        163
+      ],
+      "summary": "generate_pairing_nonce 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:create_pairing",
+      "type": "function",
+      "name": "create_pairing",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        166,
+        205
+      ],
+      "summary": "create_pairing 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:poll_pairing_result_once",
+      "type": "function",
+      "name": "poll_pairing_result_once",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        208,
+        236
+      ],
+      "summary": "poll_pairing_result_once 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:poll_pairing_once",
+      "type": "function",
+      "name": "poll_pairing_once",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        239,
+        246
+      ],
+      "summary": "poll_pairing_once 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:poll_for_setup_result",
+      "type": "function",
+      "name": "poll_for_setup_result",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        249,
+        265
+      ],
+      "summary": "poll_for_setup_result 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:poll_for_token",
+      "type": "function",
+      "name": "poll_for_token",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        268,
+        276
+      ],
+      "summary": "poll_for_token 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:auto_setup_telegram_bot_result",
+      "type": "function",
+      "name": "auto_setup_telegram_bot_result",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        279,
+        342
+      ],
+      "summary": "auto_setup_telegram_bot_result 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/telegram_managed_bot.py:auto_setup_telegram_bot",
+      "type": "function",
+      "name": "auto_setup_telegram_bot",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        345,
+        358
+      ],
+      "summary": "auto_setup_telegram_bot 是 telegram_managed_bot.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:hermes_cli/telegram_managed_bot.py:TelegramPairing",
+      "type": "class",
+      "name": "TelegramPairing",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        39,
+        47
+      ],
+      "summary": "TelegramPairing 是 telegram_managed_bot.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:hermes_cli/telegram_managed_bot.py:TelegramBotSetupResult",
+      "type": "class",
+      "name": "TelegramBotSetupResult",
+      "filePath": "hermes_cli/telegram_managed_bot.py",
+      "lineRange": [
+        51,
+        56
+      ],
+      "summary": "TelegramBotSetupResult 是 telegram_managed_bot.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/timeouts.py",
+      "type": "file",
+      "name": "timeouts.py",
+      "filePath": "hermes_cli/timeouts.py",
+      "summary": "timeouts.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/timeouts.py:_coerce_timeout",
+      "type": "function",
+      "name": "_coerce_timeout",
+      "filePath": "hermes_cli/timeouts.py",
+      "lineRange": [
+        4,
+        11
+      ],
+      "summary": "_coerce_timeout 是 timeouts.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/timeouts.py:get_provider_request_timeout",
+      "type": "function",
+      "name": "get_provider_request_timeout",
+      "filePath": "hermes_cli/timeouts.py",
+      "lineRange": [
+        14,
+        40
+      ],
+      "summary": "get_provider_request_timeout 是 timeouts.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/timeouts.py:get_provider_stale_timeout",
+      "type": "function",
+      "name": "get_provider_stale_timeout",
+      "filePath": "hermes_cli/timeouts.py",
+      "lineRange": [
+        43,
+        69
+      ],
+      "summary": "get_provider_stale_timeout 是 timeouts.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/timeouts.py:_get_model_config",
+      "type": "function",
+      "name": "_get_model_config",
+      "filePath": "hermes_cli/timeouts.py",
+      "lineRange": [
+        72,
+        82
+      ],
+      "summary": "_get_model_config 是 timeouts.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/tips.py",
+      "type": "file",
+      "name": "tips.py",
+      "filePath": "hermes_cli/tips.py",
+      "summary": "tips.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/tips.py:get_random_tip",
+      "type": "function",
+      "name": "get_random_tip",
+      "filePath": "hermes_cli/tips.py",
+      "lineRange": [
+        479,
+        486
+      ],
+      "summary": "get_random_tip 是 tips.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:hermes_cli/subcommands/login.py",
+      "target": "function:hermes_cli/subcommands/login.py:build_login_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/login.py",
+      "target": "function:hermes_cli/subcommands/login.py:build_login_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/logout.py",
+      "target": "function:hermes_cli/subcommands/logout.py:build_logout_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/logout.py",
+      "target": "function:hermes_cli/subcommands/logout.py:build_logout_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/logs.py",
+      "target": "function:hermes_cli/subcommands/logs.py:build_logs_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/logs.py",
+      "target": "function:hermes_cli/subcommands/logs.py:build_logs_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/mcp.py",
+      "target": "function:hermes_cli/subcommands/mcp.py:build_mcp_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/mcp.py",
+      "target": "function:hermes_cli/subcommands/mcp.py:build_mcp_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/memory.py",
+      "target": "function:hermes_cli/subcommands/memory.py:build_memory_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/memory.py",
+      "target": "function:hermes_cli/subcommands/memory.py:build_memory_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/model.py",
+      "target": "function:hermes_cli/subcommands/model.py:build_model_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/model.py",
+      "target": "function:hermes_cli/subcommands/model.py:build_model_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/pairing.py",
+      "target": "function:hermes_cli/subcommands/pairing.py:build_pairing_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/pairing.py",
+      "target": "function:hermes_cli/subcommands/pairing.py:build_pairing_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/plugins.py",
+      "target": "function:hermes_cli/subcommands/plugins.py:build_plugins_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/plugins.py",
+      "target": "function:hermes_cli/subcommands/plugins.py:build_plugins_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/postinstall.py",
+      "target": "function:hermes_cli/subcommands/postinstall.py:build_postinstall_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/postinstall.py",
+      "target": "function:hermes_cli/subcommands/postinstall.py:build_postinstall_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/profile.py",
+      "target": "function:hermes_cli/subcommands/profile.py:build_profile_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/profile.py",
+      "target": "function:hermes_cli/subcommands/profile.py:build_profile_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/prompt_size.py",
+      "target": "function:hermes_cli/subcommands/prompt_size.py:build_prompt_size_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/prompt_size.py",
+      "target": "function:hermes_cli/subcommands/prompt_size.py:build_prompt_size_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/security.py",
+      "target": "function:hermes_cli/subcommands/security.py:build_security_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/security.py",
+      "target": "function:hermes_cli/subcommands/security.py:build_security_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/setup.py",
+      "target": "function:hermes_cli/subcommands/setup.py:build_setup_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/setup.py",
+      "target": "function:hermes_cli/subcommands/setup.py:build_setup_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/skills.py",
+      "target": "function:hermes_cli/subcommands/skills.py:build_skills_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/skills.py",
+      "target": "function:hermes_cli/subcommands/skills.py:build_skills_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/slack.py",
+      "target": "function:hermes_cli/subcommands/slack.py:build_slack_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/slack.py",
+      "target": "function:hermes_cli/subcommands/slack.py:build_slack_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/status.py",
+      "target": "function:hermes_cli/subcommands/status.py:build_status_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/status.py",
+      "target": "function:hermes_cli/subcommands/status.py:build_status_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/tools.py",
+      "target": "function:hermes_cli/subcommands/tools.py:build_tools_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/tools.py",
+      "target": "function:hermes_cli/subcommands/tools.py:build_tools_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/uninstall.py",
+      "target": "function:hermes_cli/subcommands/uninstall.py:build_uninstall_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/uninstall.py",
+      "target": "function:hermes_cli/subcommands/uninstall.py:build_uninstall_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/update.py",
+      "target": "function:hermes_cli/subcommands/update.py:build_update_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/update.py",
+      "target": "function:hermes_cli/subcommands/update.py:build_update_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/version.py",
+      "target": "function:hermes_cli/subcommands/version.py:build_version_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/version.py",
+      "target": "function:hermes_cli/subcommands/version.py:build_version_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/webhook.py",
+      "target": "function:hermes_cli/subcommands/webhook.py:build_webhook_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/webhook.py",
+      "target": "function:hermes_cli/subcommands/webhook.py:build_webhook_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/whatsapp.py",
+      "target": "function:hermes_cli/subcommands/whatsapp.py:build_whatsapp_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/whatsapp.py",
+      "target": "function:hermes_cli/subcommands/whatsapp.py:build_whatsapp_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:_api_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:_api_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:is_valid_telegram_bot_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:is_valid_telegram_bot_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:_parse_owner_user_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:_parse_owner_user_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:render_qr_terminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:render_qr_terminal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:print_qr_code",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:print_qr_code",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_username_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_username_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_bot_username",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_bot_username",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_deep_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_deep_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_pairing_nonce",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:generate_pairing_nonce",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:create_pairing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:create_pairing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_pairing_result_once",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_pairing_result_once",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_pairing_once",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_pairing_once",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_for_setup_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_for_setup_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_for_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:poll_for_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:auto_setup_telegram_bot_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:auto_setup_telegram_bot_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:auto_setup_telegram_bot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "function:hermes_cli/telegram_managed_bot.py:auto_setup_telegram_bot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "class:hermes_cli/telegram_managed_bot.py:TelegramPairing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "class:hermes_cli/telegram_managed_bot.py:TelegramPairing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "class:hermes_cli/telegram_managed_bot.py:TelegramBotSetupResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/telegram_managed_bot.py",
+      "target": "class:hermes_cli/telegram_managed_bot.py:TelegramBotSetupResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:_coerce_timeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:_coerce_timeout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:get_provider_request_timeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:get_provider_request_timeout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:get_provider_stale_timeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:get_provider_stale_timeout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:_get_model_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/timeouts.py",
+      "target": "function:hermes_cli/timeouts.py:_get_model_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/tips.py",
+      "target": "function:hermes_cli/tips.py:get_random_tip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/tips.py",
+      "target": "function:hermes_cli/tips.py:get_random_tip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

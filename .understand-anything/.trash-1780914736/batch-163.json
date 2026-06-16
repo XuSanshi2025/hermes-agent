@@ -1,0 +1,2652 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/lib/media.remote.test.ts",
+      "type": "file",
+      "name": "media.remote.test.ts",
+      "filePath": "apps/desktop/src/lib/media.remote.test.ts",
+      "summary": "media.remote.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/media.ts",
+      "type": "file",
+      "name": "media.ts",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "summary": "media.ts 是 typescript 源文件，包含 12 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaKind",
+      "type": "function",
+      "name": "mediaKind",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        37,
+        39
+      ],
+      "summary": "mediaKind 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaMime",
+      "type": "function",
+      "name": "mediaMime",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        41,
+        43
+      ],
+      "summary": "mediaMime 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaName",
+      "type": "function",
+      "name": "mediaName",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        45,
+        53
+      ],
+      "summary": "mediaName 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaMarkdownHref",
+      "type": "function",
+      "name": "mediaMarkdownHref",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        55,
+        57
+      ],
+      "summary": "mediaMarkdownHref 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaExternalUrl",
+      "type": "function",
+      "name": "mediaExternalUrl",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        59,
+        61
+      ],
+      "summary": "mediaExternalUrl 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaStreamUrl",
+      "type": "function",
+      "name": "mediaStreamUrl",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "mediaStreamUrl 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaPathFromMarkdownHref",
+      "type": "function",
+      "name": "mediaPathFromMarkdownHref",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        70,
+        80
+      ],
+      "summary": "mediaPathFromMarkdownHref 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:filePathFromMediaPath",
+      "type": "function",
+      "name": "filePathFromMediaPath",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        82,
+        92
+      ],
+      "summary": "filePathFromMediaPath 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:isRemoteGateway",
+      "type": "function",
+      "name": "isRemoteGateway",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        96,
+        98
+      ],
+      "summary": "isRemoteGateway 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:gatewayMediaDataUrl",
+      "type": "function",
+      "name": "gatewayMediaDataUrl",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        104,
+        112
+      ],
+      "summary": "gatewayMediaDataUrl 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/media.ts:mediaDisplayLabel",
+      "type": "function",
+      "name": "mediaDisplayLabel",
+      "filePath": "apps/desktop/src/lib/media.ts",
+      "lineRange": [
+        114,
+        119
+      ],
+      "summary": "mediaDisplayLabel 是 media.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/model-status-label.test.ts",
+      "type": "file",
+      "name": "model-status-label.test.ts",
+      "filePath": "apps/desktop/src/lib/model-status-label.test.ts",
+      "summary": "model-status-label.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/model-status-label.ts",
+      "type": "file",
+      "name": "model-status-label.ts",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "summary": "model-status-label.ts 是 typescript 源文件，包含 7 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/model-status-label.ts:reasoningEffortLabel",
+      "type": "function",
+      "name": "reasoningEffortLabel",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "lineRange": [
+        10,
+        18
+      ],
+      "summary": "reasoningEffortLabel 是 model-status-label.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/model-status-label.ts:modelBaseId",
+      "type": "function",
+      "name": "modelBaseId",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "lineRange": [
+        21,
+        26
+      ],
+      "summary": "modelBaseId 是 model-status-label.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/model-status-label.ts:prettifyBase",
+      "type": "function",
+      "name": "prettifyBase",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "lineRange": [
+        40,
+        54
+      ],
+      "summary": "prettifyBase 是 model-status-label.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/model-status-label.ts:modelDisplayParts",
+      "type": "function",
+      "name": "modelDisplayParts",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "lineRange": [
+        58,
+        72
+      ],
+      "summary": "modelDisplayParts 是 model-status-label.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/model-status-label.ts:displayModelName",
+      "type": "function",
+      "name": "displayModelName",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "lineRange": [
+        75,
+        77
+      ],
+      "summary": "displayModelName 是 model-status-label.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/model-status-label.ts:formatModelStatusLabel",
+      "type": "function",
+      "name": "formatModelStatusLabel",
+      "filePath": "apps/desktop/src/lib/model-status-label.ts",
+      "lineRange": [
+        80,
+        103
+      ],
+      "summary": "formatModelStatusLabel 是 model-status-label.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/mutable-ref.ts",
+      "type": "file",
+      "name": "mutable-ref.ts",
+      "filePath": "apps/desktop/src/lib/mutable-ref.ts",
+      "summary": "mutable-ref.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/mutable-ref.ts:setMutableRef",
+      "type": "function",
+      "name": "setMutableRef",
+      "filePath": "apps/desktop/src/lib/mutable-ref.ts",
+      "lineRange": [
+        4,
+        6
+      ],
+      "summary": "setMutableRef 是 mutable-ref.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/preview-targets.test.ts",
+      "type": "file",
+      "name": "preview-targets.test.ts",
+      "filePath": "apps/desktop/src/lib/preview-targets.test.ts",
+      "summary": "preview-targets.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/preview-targets.ts",
+      "type": "file",
+      "name": "preview-targets.ts",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "summary": "preview-targets.ts 是 typescript 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/preview-targets.ts:stripPreviewTargets",
+      "type": "function",
+      "name": "stripPreviewTargets",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "lineRange": [
+        3,
+        9
+      ],
+      "summary": "stripPreviewTargets 是 preview-targets.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/preview-targets.ts:extractPreviewTargets",
+      "type": "function",
+      "name": "extractPreviewTargets",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "lineRange": [
+        11,
+        25
+      ],
+      "summary": "extractPreviewTargets 是 preview-targets.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/preview-targets.ts:previewMarkdownHref",
+      "type": "function",
+      "name": "previewMarkdownHref",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "lineRange": [
+        27,
+        29
+      ],
+      "summary": "previewMarkdownHref 是 preview-targets.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/preview-targets.ts:previewTargetFromMarkdownHref",
+      "type": "function",
+      "name": "previewTargetFromMarkdownHref",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "lineRange": [
+        31,
+        41
+      ],
+      "summary": "previewTargetFromMarkdownHref 是 preview-targets.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/preview-targets.ts:previewName",
+      "type": "function",
+      "name": "previewName",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "lineRange": [
+        43,
+        57
+      ],
+      "summary": "previewName 是 preview-targets.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/preview-targets.ts:previewDisplayLabel",
+      "type": "function",
+      "name": "previewDisplayLabel",
+      "filePath": "apps/desktop/src/lib/preview-targets.ts",
+      "lineRange": [
+        59,
+        63
+      ],
+      "summary": "previewDisplayLabel 是 preview-targets.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/profile-color.ts",
+      "type": "file",
+      "name": "profile-color.ts",
+      "filePath": "apps/desktop/src/lib/profile-color.ts",
+      "summary": "profile-color.ts 是 typescript 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/profile-color.ts:profileColor",
+      "type": "function",
+      "name": "profileColor",
+      "filePath": "apps/desktop/src/lib/profile-color.ts",
+      "lineRange": [
+        21,
+        31
+      ],
+      "summary": "profileColor 是 profile-color.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/profile-color.ts:resolveProfileColor",
+      "type": "function",
+      "name": "resolveProfileColor",
+      "filePath": "apps/desktop/src/lib/profile-color.ts",
+      "lineRange": [
+        35,
+        46
+      ],
+      "summary": "resolveProfileColor 是 profile-color.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/profile-color.ts:profileColorSoft",
+      "type": "function",
+      "name": "profileColorSoft",
+      "filePath": "apps/desktop/src/lib/profile-color.ts",
+      "lineRange": [
+        56,
+        58
+      ],
+      "summary": "profileColorSoft 是 profile-color.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/provider-setup-errors.test.ts",
+      "type": "file",
+      "name": "provider-setup-errors.test.ts",
+      "filePath": "apps/desktop/src/lib/provider-setup-errors.test.ts",
+      "summary": "provider-setup-errors.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/provider-setup-errors.ts",
+      "type": "file",
+      "name": "provider-setup-errors.ts",
+      "filePath": "apps/desktop/src/lib/provider-setup-errors.ts",
+      "summary": "provider-setup-errors.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/provider-setup-errors.ts:isProviderSetupErrorMessage",
+      "type": "function",
+      "name": "isProviderSetupErrorMessage",
+      "filePath": "apps/desktop/src/lib/provider-setup-errors.ts",
+      "lineRange": [
+        4,
+        12
+      ],
+      "summary": "isProviderSetupErrorMessage 是 provider-setup-errors.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/query-client.ts",
+      "type": "file",
+      "name": "query-client.ts",
+      "filePath": "apps/desktop/src/lib/query-client.ts",
+      "summary": "query-client.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "cli",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/runtime-readiness.test.ts",
+      "type": "file",
+      "name": "runtime-readiness.test.ts",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.test.ts",
+      "summary": "runtime-readiness.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "type": "file",
+      "name": "runtime-readiness.ts",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.ts",
+      "summary": "runtime-readiness.ts 是 typescript 源文件，包含 6 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/runtime-readiness.ts:toErrorMessage",
+      "type": "function",
+      "name": "toErrorMessage",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.ts",
+      "lineRange": [
+        33,
+        47
+      ],
+      "summary": "toErrorMessage 是 runtime-readiness.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/runtime-readiness.ts:requestWithFallback",
+      "type": "function",
+      "name": "requestWithFallback",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.ts",
+      "lineRange": [
+        55,
+        64
+      ],
+      "summary": "requestWithFallback 是 runtime-readiness.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/runtime-readiness.ts:fetchRuntimeReadinessSignals",
+      "type": "function",
+      "name": "fetchRuntimeReadinessSignals",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.ts",
+      "lineRange": [
+        66,
+        80
+      ],
+      "summary": "fetchRuntimeReadinessSignals 是 runtime-readiness.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/runtime-readiness.ts:interpretRuntimeReadiness",
+      "type": "function",
+      "name": "interpretRuntimeReadiness",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.ts",
+      "lineRange": [
+        82,
+        138
+      ],
+      "summary": "interpretRuntimeReadiness 是 runtime-readiness.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/runtime-readiness.ts:evaluateRuntimeReadiness",
+      "type": "function",
+      "name": "evaluateRuntimeReadiness",
+      "filePath": "apps/desktop/src/lib/runtime-readiness.ts",
+      "lineRange": [
+        140,
+        147
+      ],
+      "summary": "evaluateRuntimeReadiness 是 runtime-readiness.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/session-export.ts",
+      "type": "file",
+      "name": "session-export.ts",
+      "filePath": "apps/desktop/src/lib/session-export.ts",
+      "summary": "session-export.ts 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/session-export.ts:exportSession",
+      "type": "function",
+      "name": "exportSession",
+      "filePath": "apps/desktop/src/lib/session-export.ts",
+      "lineRange": [
+        28,
+        57
+      ],
+      "summary": "exportSession 是 session-export.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/session-search.test.ts",
+      "type": "file",
+      "name": "session-search.test.ts",
+      "filePath": "apps/desktop/src/lib/session-search.test.ts",
+      "summary": "session-search.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/session-search.test.ts:makeSession",
+      "type": "function",
+      "name": "makeSession",
+      "filePath": "apps/desktop/src/lib/session-search.test.ts",
+      "lineRange": [
+        7,
+        26
+      ],
+      "summary": "makeSession 是 session-search.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/session-search.ts",
+      "type": "file",
+      "name": "session-search.ts",
+      "filePath": "apps/desktop/src/lib/session-search.ts",
+      "summary": "session-search.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/session-search.ts:sessionMatchesSearch",
+      "type": "function",
+      "name": "sessionMatchesSearch",
+      "filePath": "apps/desktop/src/lib/session-search.ts",
+      "lineRange": [
+        6,
+        21
+      ],
+      "summary": "sessionMatchesSearch 是 session-search.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/session-source.ts",
+      "type": "file",
+      "name": "session-source.ts",
+      "filePath": "apps/desktop/src/lib/session-source.ts",
+      "summary": "session-source.ts 是 typescript 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/session-source.ts:normalizeSessionSource",
+      "type": "function",
+      "name": "normalizeSessionSource",
+      "filePath": "apps/desktop/src/lib/session-source.ts",
+      "lineRange": [
+        37,
+        41
+      ],
+      "summary": "normalizeSessionSource 是 session-source.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/session-source.ts:sessionSourceLabel",
+      "type": "function",
+      "name": "sessionSourceLabel",
+      "filePath": "apps/desktop/src/lib/session-source.ts",
+      "lineRange": [
+        43,
+        51
+      ],
+      "summary": "sessionSourceLabel 是 session-source.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/session-source.ts:sessionSourceSearchTerms",
+      "type": "function",
+      "name": "sessionSourceSearchTerms",
+      "filePath": "apps/desktop/src/lib/session-source.ts",
+      "lineRange": [
+        53,
+        62
+      ],
+      "summary": "sessionSourceSearchTerms 是 session-source.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/speech-text.ts",
+      "type": "file",
+      "name": "speech-text.ts",
+      "filePath": "apps/desktop/src/lib/speech-text.ts",
+      "summary": "speech-text.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/speech-text.ts:sanitizeTextForSpeech",
+      "type": "function",
+      "name": "sanitizeTextForSpeech",
+      "filePath": "apps/desktop/src/lib/speech-text.ts",
+      "lineRange": [
+        22,
+        35
+      ],
+      "summary": "sanitizeTextForSpeech 是 speech-text.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/statusbar.ts",
+      "type": "file",
+      "name": "statusbar.ts",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "summary": "statusbar.ts 是 typescript 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:formatK",
+      "type": "function",
+      "name": "formatK",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        5,
+        19
+      ],
+      "summary": "formatK 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:formatDuration",
+      "type": "function",
+      "name": "formatDuration",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        21,
+        30
+      ],
+      "summary": "formatDuration 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:compactPath",
+      "type": "function",
+      "name": "compactPath",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        32,
+        48
+      ],
+      "summary": "compactPath 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:contextBar",
+      "type": "function",
+      "name": "contextBar",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        50,
+        55
+      ],
+      "summary": "contextBar 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:usageContextLabel",
+      "type": "function",
+      "name": "usageContextLabel",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        57,
+        63
+      ],
+      "summary": "usageContextLabel 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:contextBarLabel",
+      "type": "function",
+      "name": "contextBarLabel",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        65,
+        73
+      ],
+      "summary": "contextBarLabel 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/statusbar.ts:LiveDuration",
+      "type": "function",
+      "name": "LiveDuration",
+      "filePath": "apps/desktop/src/lib/statusbar.ts",
+      "lineRange": [
+        75,
+        91
+      ],
+      "summary": "LiveDuration 是 statusbar.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/storage.ts",
+      "type": "file",
+      "name": "storage.ts",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "summary": "storage.ts 是 typescript 源文件，包含 10 个函数、10 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:storedBoolean",
+      "type": "function",
+      "name": "storedBoolean",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        1,
+        9
+      ],
+      "summary": "storedBoolean 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:persistBoolean",
+      "type": "function",
+      "name": "persistBoolean",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        11,
+        17
+      ],
+      "summary": "persistBoolean 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:storedString",
+      "type": "function",
+      "name": "storedString",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        19,
+        25
+      ],
+      "summary": "storedString 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:persistString",
+      "type": "function",
+      "name": "persistString",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        27,
+        37
+      ],
+      "summary": "persistString 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:storedStringArray",
+      "type": "function",
+      "name": "storedStringArray",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        39,
+        57
+      ],
+      "summary": "storedStringArray 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:persistStringArray",
+      "type": "function",
+      "name": "persistStringArray",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        59,
+        65
+      ],
+      "summary": "persistStringArray 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:storedStringRecord",
+      "type": "function",
+      "name": "storedStringRecord",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        67,
+        87
+      ],
+      "summary": "storedStringRecord 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:persistStringRecord",
+      "type": "function",
+      "name": "persistStringRecord",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        89,
+        95
+      ],
+      "summary": "persistStringRecord 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:arraysEqual",
+      "type": "function",
+      "name": "arraysEqual",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        97,
+        99
+      ],
+      "summary": "arraysEqual 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/storage.ts:insertUniqueId",
+      "type": "function",
+      "name": "insertUniqueId",
+      "filePath": "apps/desktop/src/lib/storage.ts",
+      "lineRange": [
+        101,
+        107
+      ],
+      "summary": "insertUniqueId 是 storage.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/todos.test.ts",
+      "type": "file",
+      "name": "todos.test.ts",
+      "filePath": "apps/desktop/src/lib/todos.test.ts",
+      "summary": "todos.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/todos.ts",
+      "type": "file",
+      "name": "todos.ts",
+      "filePath": "apps/desktop/src/lib/todos.ts",
+      "summary": "todos.ts 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/todos.ts:parseArray",
+      "type": "function",
+      "name": "parseArray",
+      "filePath": "apps/desktop/src/lib/todos.ts",
+      "lineRange": [
+        14,
+        25
+      ],
+      "summary": "parseArray 是 todos.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/todos.ts:parse",
+      "type": "function",
+      "name": "parse",
+      "filePath": "apps/desktop/src/lib/todos.ts",
+      "lineRange": [
+        27,
+        49
+      ],
+      "summary": "parse 是 todos.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/todos.ts:parseTodos",
+      "type": "function",
+      "name": "parseTodos",
+      "filePath": "apps/desktop/src/lib/todos.ts",
+      "lineRange": [
+        51,
+        51
+      ],
+      "summary": "parseTodos 是 todos.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/tool-result-summary.test.ts",
+      "type": "file",
+      "name": "tool-result-summary.test.ts",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.test.ts",
+      "summary": "tool-result-summary.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "type": "file",
+      "name": "tool-result-summary.ts",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "summary": "tool-result-summary.ts 是 typescript 源文件，包含 25 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:tryJson",
+      "type": "function",
+      "name": "tryJson",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        34,
+        50
+      ],
+      "summary": "tryJson 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:clipBlock",
+      "type": "function",
+      "name": "clipBlock",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        69,
+        85
+      ],
+      "summary": "clipBlock 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:firstString",
+      "type": "function",
+      "name": "firstString",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        87,
+        97
+      ],
+      "summary": "firstString 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:summarizeScalar",
+      "type": "function",
+      "name": "summarizeScalar",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        109,
+        119
+      ],
+      "summary": "summarizeScalar 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:summarizeRecordInline",
+      "type": "function",
+      "name": "summarizeRecordInline",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        121,
+        153
+      ],
+      "summary": "summarizeRecordInline 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:summarizeListItem",
+      "type": "function",
+      "name": "summarizeListItem",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        155,
+        179
+      ],
+      "summary": "summarizeListItem 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:formatFieldValue",
+      "type": "function",
+      "name": "formatFieldValue",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        181,
+        214
+      ],
+      "summary": "formatFieldValue 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:formatArraySummary",
+      "type": "function",
+      "name": "formatArraySummary",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        218,
+        241
+      ],
+      "summary": "formatArraySummary 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:formatRecordSummary",
+      "type": "function",
+      "name": "formatRecordSummary",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        243,
+        287
+      ],
+      "summary": "formatRecordSummary 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:formatSummaryValue",
+      "type": "function",
+      "name": "formatSummaryValue",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        289,
+        317
+      ],
+      "summary": "formatSummaryValue 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:unwrapPayload",
+      "type": "function",
+      "name": "unwrapPayload",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        319,
+        338
+      ],
+      "summary": "unwrapPayload 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:hasMeaningfulErrorValue",
+      "type": "function",
+      "name": "hasMeaningfulErrorValue",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        340,
+        368
+      ],
+      "summary": "hasMeaningfulErrorValue 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:hasErrorSignal",
+      "type": "function",
+      "name": "hasErrorSignal",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        370,
+        379
+      ],
+      "summary": "hasErrorSignal 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:valueErrorText",
+      "type": "function",
+      "name": "valueErrorText",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        381,
+        401
+      ],
+      "summary": "valueErrorText 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:findNestedError",
+      "type": "function",
+      "name": "findNestedError",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        403,
+        459
+      ],
+      "summary": "findNestedError 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:formatToolResultSummary",
+      "type": "function",
+      "name": "formatToolResultSummary",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        461,
+        463
+      ],
+      "summary": "formatToolResultSummary 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/tool-result-summary.ts:extractToolErrorMessage",
+      "type": "function",
+      "name": "extractToolErrorMessage",
+      "filePath": "apps/desktop/src/lib/tool-result-summary.ts",
+      "lineRange": [
+        465,
+        467
+      ],
+      "summary": "extractToolErrorMessage 是 tool-result-summary.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/lib/use-enter-animation.ts",
+      "type": "file",
+      "name": "use-enter-animation.ts",
+      "filePath": "apps/desktop/src/lib/use-enter-animation.ts",
+      "summary": "use-enter-animation.ts 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/use-enter-animation.ts:rememberPlayedAnimation",
+      "type": "function",
+      "name": "rememberPlayedAnimation",
+      "filePath": "apps/desktop/src/lib/use-enter-animation.ts",
+      "lineRange": [
+        33,
+        48
+      ],
+      "summary": "rememberPlayedAnimation 是 use-enter-animation.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/lib/use-enter-animation.ts:useEnterAnimation",
+      "type": "function",
+      "name": "useEnterAnimation",
+      "filePath": "apps/desktop/src/lib/use-enter-animation.ts",
+      "lineRange": [
+        60,
+        100
+      ],
+      "summary": "useEnterAnimation 是 use-enter-animation.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaKind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaKind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaMime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaMime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaMarkdownHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaMarkdownHref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaExternalUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaExternalUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaStreamUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaStreamUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaPathFromMarkdownHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaPathFromMarkdownHref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:filePathFromMediaPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:filePathFromMediaPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:isRemoteGateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:isRemoteGateway",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:gatewayMediaDataUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:gatewayMediaDataUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaDisplayLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/media.ts",
+      "target": "function:apps/desktop/src/lib/media.ts:mediaDisplayLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:reasoningEffortLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:reasoningEffortLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:modelBaseId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:modelBaseId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:prettifyBase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:modelDisplayParts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:modelDisplayParts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:displayModelName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:displayModelName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:formatModelStatusLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/model-status-label.ts",
+      "target": "function:apps/desktop/src/lib/model-status-label.ts:formatModelStatusLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/mutable-ref.ts",
+      "target": "function:apps/desktop/src/lib/mutable-ref.ts:setMutableRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/mutable-ref.ts",
+      "target": "function:apps/desktop/src/lib/mutable-ref.ts:setMutableRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:stripPreviewTargets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:stripPreviewTargets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:extractPreviewTargets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:extractPreviewTargets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewMarkdownHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewMarkdownHref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewTargetFromMarkdownHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewTargetFromMarkdownHref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewDisplayLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/preview-targets.ts",
+      "target": "function:apps/desktop/src/lib/preview-targets.ts:previewDisplayLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/profile-color.ts",
+      "target": "function:apps/desktop/src/lib/profile-color.ts:profileColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/profile-color.ts",
+      "target": "function:apps/desktop/src/lib/profile-color.ts:profileColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/profile-color.ts",
+      "target": "function:apps/desktop/src/lib/profile-color.ts:resolveProfileColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/profile-color.ts",
+      "target": "function:apps/desktop/src/lib/profile-color.ts:resolveProfileColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/profile-color.ts",
+      "target": "function:apps/desktop/src/lib/profile-color.ts:profileColorSoft",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/profile-color.ts",
+      "target": "function:apps/desktop/src/lib/profile-color.ts:profileColorSoft",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/provider-setup-errors.ts",
+      "target": "function:apps/desktop/src/lib/provider-setup-errors.ts:isProviderSetupErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/provider-setup-errors.ts",
+      "target": "function:apps/desktop/src/lib/provider-setup-errors.ts:isProviderSetupErrorMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:toErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:requestWithFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:fetchRuntimeReadinessSignals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:fetchRuntimeReadinessSignals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:interpretRuntimeReadiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:interpretRuntimeReadiness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:evaluateRuntimeReadiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/runtime-readiness.ts",
+      "target": "function:apps/desktop/src/lib/runtime-readiness.ts:evaluateRuntimeReadiness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-export.ts",
+      "target": "function:apps/desktop/src/lib/session-export.ts:exportSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-export.ts",
+      "target": "function:apps/desktop/src/lib/session-export.ts:exportSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-search.test.ts",
+      "target": "function:apps/desktop/src/lib/session-search.test.ts:makeSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-search.ts",
+      "target": "function:apps/desktop/src/lib/session-search.ts:sessionMatchesSearch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-search.ts",
+      "target": "function:apps/desktop/src/lib/session-search.ts:sessionMatchesSearch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-source.ts",
+      "target": "function:apps/desktop/src/lib/session-source.ts:normalizeSessionSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-source.ts",
+      "target": "function:apps/desktop/src/lib/session-source.ts:normalizeSessionSource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-source.ts",
+      "target": "function:apps/desktop/src/lib/session-source.ts:sessionSourceLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-source.ts",
+      "target": "function:apps/desktop/src/lib/session-source.ts:sessionSourceLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-source.ts",
+      "target": "function:apps/desktop/src/lib/session-source.ts:sessionSourceSearchTerms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/session-source.ts",
+      "target": "function:apps/desktop/src/lib/session-source.ts:sessionSourceSearchTerms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/speech-text.ts",
+      "target": "function:apps/desktop/src/lib/speech-text.ts:sanitizeTextForSpeech",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/speech-text.ts",
+      "target": "function:apps/desktop/src/lib/speech-text.ts:sanitizeTextForSpeech",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:formatK",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:formatK",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:formatDuration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:formatDuration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:compactPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:compactPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:contextBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:contextBar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:usageContextLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:usageContextLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:contextBarLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:contextBarLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:LiveDuration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/statusbar.ts",
+      "target": "function:apps/desktop/src/lib/statusbar.ts:LiveDuration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedBoolean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedBoolean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistBoolean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistBoolean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedStringArray",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedStringArray",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistStringArray",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistStringArray",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedStringRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:storedStringRecord",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistStringRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:persistStringRecord",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:arraysEqual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:arraysEqual",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:insertUniqueId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/storage.ts",
+      "target": "function:apps/desktop/src/lib/storage.ts:insertUniqueId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/todos.ts",
+      "target": "function:apps/desktop/src/lib/todos.ts:parseArray",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/todos.ts",
+      "target": "function:apps/desktop/src/lib/todos.ts:parse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/todos.ts",
+      "target": "function:apps/desktop/src/lib/todos.ts:parseTodos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/todos.ts",
+      "target": "function:apps/desktop/src/lib/todos.ts:parseTodos",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:tryJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:clipBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:firstString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:summarizeScalar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:summarizeRecordInline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:summarizeListItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:formatFieldValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:formatArraySummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:formatRecordSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:formatSummaryValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:unwrapPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:hasMeaningfulErrorValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:hasErrorSignal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:valueErrorText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:findNestedError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:formatToolResultSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:formatToolResultSummary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:extractToolErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/tool-result-summary.ts",
+      "target": "function:apps/desktop/src/lib/tool-result-summary.ts:extractToolErrorMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/lib/use-enter-animation.ts",
+      "target": "function:apps/desktop/src/lib/use-enter-animation.ts:rememberPlayedAnimation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/use-enter-animation.ts",
+      "target": "function:apps/desktop/src/lib/use-enter-animation.ts:useEnterAnimation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/lib/use-enter-animation.ts",
+      "target": "function:apps/desktop/src/lib/use-enter-animation.ts:useEnterAnimation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

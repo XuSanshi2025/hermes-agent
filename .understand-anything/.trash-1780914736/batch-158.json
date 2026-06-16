@@ -1,0 +1,2529 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/tooltip-icon-button.tsx",
+      "type": "file",
+      "name": "tooltip-icon-button.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/tooltip-icon-button.tsx",
+      "summary": "tooltip-icon-button.tsx 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "tooling",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "type": "file",
+      "name": "user-message-text.tsx",
+      "filePath": "apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "summary": "user-message-text.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:splitFences",
+      "type": "function",
+      "name": "splitFences",
+      "filePath": "apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "lineRange": [
+        45,
+        69
+      ],
+      "summary": "splitFences 是 user-message-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:splitInlineCode",
+      "type": "function",
+      "name": "splitInlineCode",
+      "filePath": "apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "lineRange": [
+        71,
+        91
+      ],
+      "summary": "splitInlineCode 是 user-message-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:UserMessageText",
+      "type": "function",
+      "name": "UserMessageText",
+      "filePath": "apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "lineRange": [
+        98,
+        124
+      ],
+      "summary": "UserMessageText 是 user-message-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:InlineSegmentView",
+      "type": "function",
+      "name": "InlineSegmentView",
+      "filePath": "apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "lineRange": [
+        126,
+        150
+      ],
+      "summary": "InlineSegmentView 是 user-message-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/Backdrop.tsx",
+      "type": "file",
+      "name": "Backdrop.tsx",
+      "filePath": "apps/desktop/src/components/Backdrop.tsx",
+      "summary": "Backdrop.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/Backdrop.tsx:Backdrop",
+      "type": "function",
+      "name": "Backdrop",
+      "filePath": "apps/desktop/src/components/Backdrop.tsx",
+      "lineRange": [
+        26,
+        114
+      ],
+      "summary": "Backdrop 是 Backdrop.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/boot-failure-overlay.tsx",
+      "type": "file",
+      "name": "boot-failure-overlay.tsx",
+      "filePath": "apps/desktop/src/components/boot-failure-overlay.tsx",
+      "summary": "boot-failure-overlay.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/boot-failure-overlay.tsx:BootFailureOverlay",
+      "type": "function",
+      "name": "BootFailureOverlay",
+      "filePath": "apps/desktop/src/components/boot-failure-overlay.tsx",
+      "lineRange": [
+        30,
+        246
+      ],
+      "summary": "BootFailureOverlay 是 boot-failure-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/components/boot-failure-reauth.test.ts",
+      "type": "file",
+      "name": "boot-failure-reauth.test.ts",
+      "filePath": "apps/desktop/src/components/boot-failure-reauth.test.ts",
+      "summary": "boot-failure-reauth.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/boot-failure-reauth.test.ts:config",
+      "type": "function",
+      "name": "config",
+      "filePath": "apps/desktop/src/components/boot-failure-reauth.test.ts",
+      "lineRange": [
+        7,
+        19
+      ],
+      "summary": "config 是 boot-failure-reauth.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "type": "file",
+      "name": "boot-failure-reauth.ts",
+      "filePath": "apps/desktop/src/components/boot-failure-reauth.ts",
+      "summary": "boot-failure-reauth.ts 是 typescript 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/boot-failure-reauth.ts:isRemoteReauthFailure",
+      "type": "function",
+      "name": "isRemoteReauthFailure",
+      "filePath": "apps/desktop/src/components/boot-failure-reauth.ts",
+      "lineRange": [
+        35,
+        46
+      ],
+      "summary": "isRemoteReauthFailure 是 boot-failure-reauth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/boot-failure-reauth.ts:deriveProviderShape",
+      "type": "function",
+      "name": "deriveProviderShape",
+      "filePath": "apps/desktop/src/components/boot-failure-reauth.ts",
+      "lineRange": [
+        52,
+        70
+      ],
+      "summary": "deriveProviderShape 是 boot-failure-reauth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/boot-failure-reauth.ts:signInLabel",
+      "type": "function",
+      "name": "signInLabel",
+      "filePath": "apps/desktop/src/components/boot-failure-reauth.ts",
+      "lineRange": [
+        73,
+        81
+      ],
+      "summary": "signInLabel 是 boot-failure-reauth.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/brand-mark.tsx",
+      "type": "file",
+      "name": "brand-mark.tsx",
+      "filePath": "apps/desktop/src/components/brand-mark.tsx",
+      "summary": "brand-mark.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/brand-mark.tsx:BrandMark",
+      "type": "function",
+      "name": "BrandMark",
+      "filePath": "apps/desktop/src/components/brand-mark.tsx",
+      "lineRange": [
+        7,
+        19
+      ],
+      "summary": "BrandMark 是 brand-mark.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/activity-timer-text.tsx",
+      "type": "file",
+      "name": "activity-timer-text.tsx",
+      "filePath": "apps/desktop/src/components/chat/activity-timer-text.tsx",
+      "summary": "activity-timer-text.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/activity-timer-text.tsx:ActivityTimerText",
+      "type": "function",
+      "name": "ActivityTimerText",
+      "filePath": "apps/desktop/src/components/chat/activity-timer-text.tsx",
+      "lineRange": [
+        10,
+        24
+      ],
+      "summary": "ActivityTimerText 是 activity-timer-text.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/activity-timer.test.tsx",
+      "type": "file",
+      "name": "activity-timer.test.tsx",
+      "filePath": "apps/desktop/src/components/chat/activity-timer.test.tsx",
+      "summary": "activity-timer.test.tsx 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "type": "file",
+      "name": "activity-timer.ts",
+      "filePath": "apps/desktop/src/components/chat/activity-timer.ts",
+      "summary": "activity-timer.ts 是 typescript 源文件，包含 4 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/activity-timer.ts:startedAt",
+      "type": "function",
+      "name": "startedAt",
+      "filePath": "apps/desktop/src/components/chat/activity-timer.ts",
+      "lineRange": [
+        8,
+        23
+      ],
+      "summary": "startedAt 是 activity-timer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/activity-timer.ts:formatElapsed",
+      "type": "function",
+      "name": "formatElapsed",
+      "filePath": "apps/desktop/src/components/chat/activity-timer.ts",
+      "lineRange": [
+        25,
+        31
+      ],
+      "summary": "formatElapsed 是 activity-timer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/activity-timer.ts:useElapsedSeconds",
+      "type": "function",
+      "name": "useElapsedSeconds",
+      "filePath": "apps/desktop/src/components/chat/activity-timer.ts",
+      "lineRange": [
+        33,
+        60
+      ],
+      "summary": "useElapsedSeconds 是 activity-timer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/activity-timer.ts:__resetElapsedTimerRegistryForTests",
+      "type": "function",
+      "name": "__resetElapsedTimerRegistryForTests",
+      "filePath": "apps/desktop/src/components/chat/activity-timer.ts",
+      "lineRange": [
+        62,
+        64
+      ],
+      "summary": "__resetElapsedTimerRegistryForTests 是 activity-timer.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "type": "file",
+      "name": "code-card.tsx",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "summary": "code-card.tsx 是 typescript 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCard",
+      "type": "function",
+      "name": "CodeCard",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "lineRange": [
+        11,
+        22
+      ],
+      "summary": "CodeCard 是 code-card.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardHeader",
+      "type": "function",
+      "name": "CodeCardHeader",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "lineRange": [
+        24,
+        32
+      ],
+      "summary": "CodeCardHeader 是 code-card.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardTitle",
+      "type": "function",
+      "name": "CodeCardTitle",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "lineRange": [
+        34,
+        47
+      ],
+      "summary": "CodeCardTitle 是 code-card.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardIcon",
+      "type": "function",
+      "name": "CodeCardIcon",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "lineRange": [
+        49,
+        57
+      ],
+      "summary": "CodeCardIcon 是 code-card.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardSubtitle",
+      "type": "function",
+      "name": "CodeCardSubtitle",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "lineRange": [
+        59,
+        63
+      ],
+      "summary": "CodeCardSubtitle 是 code-card.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardBody",
+      "type": "function",
+      "name": "CodeCardBody",
+      "filePath": "apps/desktop/src/components/chat/code-card.tsx",
+      "lineRange": [
+        65,
+        76
+      ],
+      "summary": "CodeCardBody 是 code-card.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/compact-markdown.tsx",
+      "type": "file",
+      "name": "compact-markdown.tsx",
+      "filePath": "apps/desktop/src/components/chat/compact-markdown.tsx",
+      "summary": "compact-markdown.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/compact-markdown.tsx:tagged",
+      "type": "function",
+      "name": "tagged",
+      "filePath": "apps/desktop/src/components/chat/compact-markdown.tsx",
+      "lineRange": [
+        29,
+        39
+      ],
+      "summary": "tagged 是 compact-markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/compact-markdown.tsx:MarkdownAnchor",
+      "type": "function",
+      "name": "MarkdownAnchor",
+      "filePath": "apps/desktop/src/components/chat/compact-markdown.tsx",
+      "lineRange": [
+        41,
+        60
+      ],
+      "summary": "MarkdownAnchor 是 compact-markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/compact-markdown.tsx:MarkdownTable",
+      "type": "function",
+      "name": "MarkdownTable",
+      "filePath": "apps/desktop/src/components/chat/compact-markdown.tsx",
+      "lineRange": [
+        71,
+        83
+      ],
+      "summary": "MarkdownTable 是 compact-markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/compact-markdown.tsx:CompactMarkdown",
+      "type": "function",
+      "name": "CompactMarkdown",
+      "filePath": "apps/desktop/src/components/chat/compact-markdown.tsx",
+      "lineRange": [
+        105,
+        113
+      ],
+      "summary": "CompactMarkdown 是 compact-markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/diff-lines.tsx",
+      "type": "file",
+      "name": "diff-lines.tsx",
+      "filePath": "apps/desktop/src/components/chat/diff-lines.tsx",
+      "summary": "diff-lines.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/diff-lines.tsx:DiffLines",
+      "type": "function",
+      "name": "DiffLines",
+      "filePath": "apps/desktop/src/components/chat/diff-lines.tsx",
+      "lineRange": [
+        37,
+        54
+      ],
+      "summary": "DiffLines 是 diff-lines.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/disclosure-row.tsx",
+      "type": "file",
+      "name": "disclosure-row.tsx",
+      "filePath": "apps/desktop/src/components/chat/disclosure-row.tsx",
+      "summary": "disclosure-row.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/disclosure-row.tsx:DisclosureRow",
+      "type": "function",
+      "name": "DisclosureRow",
+      "filePath": "apps/desktop/src/components/chat/disclosure-row.tsx",
+      "lineRange": [
+        17,
+        63
+      ],
+      "summary": "DisclosureRow 是 disclosure-row.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/generated-image-context.tsx",
+      "type": "file",
+      "name": "generated-image-context.tsx",
+      "filePath": "apps/desktop/src/components/chat/generated-image-context.tsx",
+      "summary": "generated-image-context.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/generated-image-context.tsx:GeneratedImageProvider",
+      "type": "function",
+      "name": "GeneratedImageProvider",
+      "filePath": "apps/desktop/src/components/chat/generated-image-context.tsx",
+      "lineRange": [
+        12,
+        17
+      ],
+      "summary": "GeneratedImageProvider 是 generated-image-context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/generated-image-context.tsx:useGeneratedImageContext",
+      "type": "function",
+      "name": "useGeneratedImageContext",
+      "filePath": "apps/desktop/src/components/chat/generated-image-context.tsx",
+      "lineRange": [
+        19,
+        19
+      ],
+      "summary": "useGeneratedImageContext 是 generated-image-context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "type": "file",
+      "name": "image-generation-placeholder.tsx",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "summary": "image-generation-placeholder.tsx 是 typescript 源文件，包含 13 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:parseColor",
+      "type": "function",
+      "name": "parseColor",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        26,
+        40
+      ],
+      "summary": "parseColor 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:noise2",
+      "type": "function",
+      "name": "noise2",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        56,
+        69
+      ],
+      "summary": "noise2 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:fbm",
+      "type": "function",
+      "name": "fbm",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        71,
+        83
+      ],
+      "summary": "fbm 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:readTheme",
+      "type": "function",
+      "name": "readTheme",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        85,
+        95
+      ],
+      "summary": "readTheme 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:fitCanvas",
+      "type": "function",
+      "name": "fitCanvas",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        97,
+        108
+      ],
+      "summary": "fitCanvas 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:drawAsciiDiffusion",
+      "type": "function",
+      "name": "drawAsciiDiffusion",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        110,
+        225
+      ],
+      "summary": "drawAsciiDiffusion 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:DiffusionCanvas",
+      "type": "function",
+      "name": "DiffusionCanvas",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        227,
+        267
+      ],
+      "summary": "DiffusionCanvas 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:ImageGenerationPlaceholder",
+      "type": "function",
+      "name": "ImageGenerationPlaceholder",
+      "filePath": "apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "lineRange": [
+        269,
+        279
+      ],
+      "summary": "ImageGenerationPlaceholder 是 image-generation-placeholder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/intro-copy.jsonl",
+      "type": "file",
+      "name": "intro-copy.jsonl",
+      "filePath": "apps/desktop/src/components/chat/intro-copy.jsonl",
+      "summary": "intro-copy.jsonl 是 jsonl 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "jsonl",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 jsonl。"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/intro.tsx",
+      "type": "file",
+      "name": "intro.tsx",
+      "filePath": "apps/desktop/src/components/chat/intro.tsx",
+      "summary": "intro.tsx 是 typescript 源文件，包含 9 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/intro.tsx:isIntroCopyRecord",
+      "type": "function",
+      "name": "isIntroCopyRecord",
+      "filePath": "apps/desktop/src/components/chat/intro.tsx",
+      "lineRange": [
+        56,
+        71
+      ],
+      "summary": "isIntroCopyRecord 是 intro.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/intro.tsx:parseIntroCopy",
+      "type": "function",
+      "name": "parseIntroCopy",
+      "filePath": "apps/desktop/src/components/chat/intro.tsx",
+      "lineRange": [
+        73,
+        102
+      ],
+      "summary": "parseIntroCopy 是 intro.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/intro.tsx:fallbackCopyForPersonality",
+      "type": "function",
+      "name": "fallbackCopyForPersonality",
+      "filePath": "apps/desktop/src/components/chat/intro.tsx",
+      "lineRange": [
+        110,
+        139
+      ],
+      "summary": "fallbackCopyForPersonality 是 intro.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/intro.tsx:Intro",
+      "type": "function",
+      "name": "Intro",
+      "filePath": "apps/desktop/src/components/chat/intro.tsx",
+      "lineRange": [
+        157,
+        182
+      ],
+      "summary": "Intro 是 intro.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/preview-attachment.tsx",
+      "type": "file",
+      "name": "preview-attachment.tsx",
+      "filePath": "apps/desktop/src/components/chat/preview-attachment.tsx",
+      "summary": "preview-attachment.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/preview-attachment.tsx:PreviewAttachment",
+      "type": "function",
+      "name": "PreviewAttachment",
+      "filePath": "apps/desktop/src/components/chat/preview-attachment.tsx",
+      "lineRange": [
+        17,
+        125
+      ],
+      "summary": "PreviewAttachment 是 preview-attachment.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/shiki-highlighter.tsx",
+      "type": "file",
+      "name": "shiki-highlighter.tsx",
+      "filePath": "apps/desktop/src/components/chat/shiki-highlighter.tsx",
+      "summary": "shiki-highlighter.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/shiki-highlighter.tsx:SyntaxHighlighter",
+      "type": "function",
+      "name": "SyntaxHighlighter",
+      "filePath": "apps/desktop/src/components/chat/shiki-highlighter.tsx",
+      "lineRange": [
+        46,
+        107
+      ],
+      "summary": "SyntaxHighlighter 是 shiki-highlighter.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/components/chat/zoomable-image.tsx",
+      "type": "file",
+      "name": "zoomable-image.tsx",
+      "filePath": "apps/desktop/src/components/chat/zoomable-image.tsx",
+      "summary": "zoomable-image.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/zoomable-image.tsx:imageFilename",
+      "type": "function",
+      "name": "imageFilename",
+      "filePath": "apps/desktop/src/components/chat/zoomable-image.tsx",
+      "lineRange": [
+        11,
+        23
+      ],
+      "summary": "imageFilename 是 zoomable-image.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/zoomable-image.tsx:startBrowserDownload",
+      "type": "function",
+      "name": "startBrowserDownload",
+      "filePath": "apps/desktop/src/components/chat/zoomable-image.tsx",
+      "lineRange": [
+        31,
+        47
+      ],
+      "summary": "startBrowserDownload 是 zoomable-image.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/zoomable-image.tsx:ZoomableImage",
+      "type": "function",
+      "name": "ZoomableImage",
+      "filePath": "apps/desktop/src/components/chat/zoomable-image.tsx",
+      "lineRange": [
+        59,
+        146
+      ],
+      "summary": "ZoomableImage 是 zoomable-image.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/chat/zoomable-image.tsx:ImageActionButton",
+      "type": "function",
+      "name": "ImageActionButton",
+      "filePath": "apps/desktop/src/components/chat/zoomable-image.tsx",
+      "lineRange": [
+        148,
+        177
+      ],
+      "summary": "ImageActionButton 是 zoomable-image.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "type": "file",
+      "name": "desktop-install-overlay.tsx",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "summary": "desktop-install-overlay.tsx 是 typescript 源文件，包含 6 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-install-overlay.tsx:formatStageName",
+      "type": "function",
+      "name": "formatStageName",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "lineRange": [
+        55,
+        65
+      ],
+      "summary": "formatStageName 是 desktop-install-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-install-overlay.tsx:formatDuration",
+      "type": "function",
+      "name": "formatDuration",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "lineRange": [
+        67,
+        86
+      ],
+      "summary": "formatDuration 是 desktop-install-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-install-overlay.tsx:formatElapsed",
+      "type": "function",
+      "name": "formatElapsed",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "lineRange": [
+        89,
+        99
+      ],
+      "summary": "formatElapsed 是 desktop-install-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-install-overlay.tsx:StageRow",
+      "type": "function",
+      "name": "StageRow",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "lineRange": [
+        101,
+        160
+      ],
+      "summary": "StageRow 是 desktop-install-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-install-overlay.tsx:applyEvent",
+      "type": "function",
+      "name": "applyEvent",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "lineRange": [
+        173,
+        243
+      ],
+      "summary": "applyEvent 是 desktop-install-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-install-overlay.tsx:DesktopInstallOverlay",
+      "type": "function",
+      "name": "DesktopInstallOverlay",
+      "filePath": "apps/desktop/src/components/desktop-install-overlay.tsx",
+      "lineRange": [
+        245,
+        595
+      ],
+      "summary": "DesktopInstallOverlay 是 desktop-install-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx",
+      "type": "file",
+      "name": "desktop-onboarding-overlay.test.tsx",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.test.tsx",
+      "summary": "desktop-onboarding-overlay.test.tsx 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx:provider",
+      "type": "function",
+      "name": "provider",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.test.tsx",
+      "lineRange": [
+        9,
+        18
+      ],
+      "summary": "provider 是 desktop-onboarding-overlay.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx:setProviders",
+      "type": "function",
+      "name": "setProviders",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.test.tsx",
+      "lineRange": [
+        20,
+        31
+      ],
+      "summary": "setProviders 是 desktop-onboarding-overlay.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "type": "file",
+      "name": "desktop-onboarding-overlay.tsx",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "summary": "desktop-onboarding-overlay.tsx 是 typescript 源文件，包含 34 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:useApiKeyCatalog",
+      "type": "function",
+      "name": "useApiKeyCatalog",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        108,
+        167
+      ],
+      "summary": "useApiKeyCatalog 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:sortProviders",
+      "type": "function",
+      "name": "sortProviders",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        186,
+        187
+      ],
+      "summary": "sortProviders 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DesktopOnboardingOverlay",
+      "type": "function",
+      "name": "DesktopOnboardingOverlay",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        194,
+        357
+      ],
+      "summary": "DesktopOnboardingOverlay 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Preparing",
+      "type": "function",
+      "name": "Preparing",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        370,
+        397
+      ],
+      "summary": "Preparing 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Header",
+      "type": "function",
+      "name": "Header",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        399,
+        408
+      ],
+      "summary": "Header 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Picker",
+      "type": "function",
+      "name": "Picker",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        431,
+        511
+      ],
+      "summary": "Picker 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ChooseLaterLink",
+      "type": "function",
+      "name": "ChooseLaterLink",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        516,
+        530
+      ],
+      "summary": "ChooseLaterLink 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:FeaturedProviderRow",
+      "type": "function",
+      "name": "FeaturedProviderRow",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        532,
+        569
+      ],
+      "summary": "FeaturedProviderRow 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ConnectedTag",
+      "type": "function",
+      "name": "ConnectedTag",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        571,
+        580
+      ],
+      "summary": "ConnectedTag 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:KeyProviderRow",
+      "type": "function",
+      "name": "KeyProviderRow",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        585,
+        597
+      ],
+      "summary": "KeyProviderRow 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ProviderRow",
+      "type": "function",
+      "name": "ProviderRow",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        599,
+        624
+      ],
+      "summary": "ProviderRow 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ApiKeyForm",
+      "type": "function",
+      "name": "ApiKeyForm",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        631,
+        780
+      ],
+      "summary": "ApiKeyForm 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:FlowPanel",
+      "type": "function",
+      "name": "FlowPanel",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        782,
+        906
+      ],
+      "summary": "FlowPanel 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DeviceCode",
+      "type": "function",
+      "name": "DeviceCode",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        920,
+        951
+      ],
+      "summary": "DeviceCode 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:CodeBlock",
+      "type": "function",
+      "name": "CodeBlock",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        953,
+        967
+      ],
+      "summary": "CodeBlock 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:GlyphText",
+      "type": "function",
+      "name": "GlyphText",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1004,
+        1018
+      ],
+      "summary": "GlyphText 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:useDecoded",
+      "type": "function",
+      "name": "useDecoded",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1020,
+        1075
+      ],
+      "summary": "useDecoded 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:useScramble",
+      "type": "function",
+      "name": "useScramble",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1079,
+        1097
+      ],
+      "summary": "useScramble 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DecodedLabel",
+      "type": "function",
+      "name": "DecodedLabel",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1099,
+        1118
+      ],
+      "summary": "DecodedLabel 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:HackeryButton",
+      "type": "function",
+      "name": "HackeryButton",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1123,
+        1152
+      ],
+      "summary": "HackeryButton 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ConfirmingModelPanel",
+      "type": "function",
+      "name": "ConfirmingModelPanel",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1154,
+        1266
+      ],
+      "summary": "ConfirmingModelPanel 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DocsLink",
+      "type": "function",
+      "name": "DocsLink",
+      "filePath": "apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "lineRange": [
+        1268,
+        1277
+      ],
+      "summary": "DocsLink 是 desktop-onboarding-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/components/error-boundary.tsx",
+      "type": "file",
+      "name": "error-boundary.tsx",
+      "filePath": "apps/desktop/src/components/error-boundary.tsx",
+      "summary": "error-boundary.tsx 是 typescript 源文件，包含 1 个函数、1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/components/error-boundary.tsx:RootErrorFallback",
+      "type": "function",
+      "name": "RootErrorFallback",
+      "filePath": "apps/desktop/src/components/error-boundary.tsx",
+      "lineRange": [
+        55,
+        77
+      ],
+      "summary": "RootErrorFallback 是 error-boundary.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/components/error-boundary.tsx:ErrorBoundary",
+      "type": "class",
+      "name": "ErrorBoundary",
+      "filePath": "apps/desktop/src/components/error-boundary.tsx",
+      "lineRange": [
+        23,
+        53
+      ],
+      "summary": "ErrorBoundary 是 error-boundary.tsx 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:splitFences",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:splitInlineCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:UserMessageText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:UserMessageText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/assistant-ui/user-message-text.tsx",
+      "target": "function:apps/desktop/src/components/assistant-ui/user-message-text.tsx:InlineSegmentView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/Backdrop.tsx",
+      "target": "function:apps/desktop/src/components/Backdrop.tsx:Backdrop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/Backdrop.tsx",
+      "target": "function:apps/desktop/src/components/Backdrop.tsx:Backdrop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-overlay.tsx",
+      "target": "function:apps/desktop/src/components/boot-failure-overlay.tsx:BootFailureOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-overlay.tsx",
+      "target": "function:apps/desktop/src/components/boot-failure-overlay.tsx:BootFailureOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.test.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.test.ts:config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.ts:isRemoteReauthFailure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.ts:isRemoteReauthFailure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.ts:deriveProviderShape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.ts:deriveProviderShape",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.ts:signInLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/boot-failure-reauth.ts",
+      "target": "function:apps/desktop/src/components/boot-failure-reauth.ts:signInLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/brand-mark.tsx",
+      "target": "function:apps/desktop/src/components/brand-mark.tsx:BrandMark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/brand-mark.tsx",
+      "target": "function:apps/desktop/src/components/brand-mark.tsx:BrandMark",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer-text.tsx",
+      "target": "function:apps/desktop/src/components/chat/activity-timer-text.tsx:ActivityTimerText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer-text.tsx",
+      "target": "function:apps/desktop/src/components/chat/activity-timer-text.tsx:ActivityTimerText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:startedAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:formatElapsed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:formatElapsed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:useElapsedSeconds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:useElapsedSeconds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:__resetElapsedTimerRegistryForTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/activity-timer.ts",
+      "target": "function:apps/desktop/src/components/chat/activity-timer.ts:__resetElapsedTimerRegistryForTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardSubtitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardSubtitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/code-card.tsx",
+      "target": "function:apps/desktop/src/components/chat/code-card.tsx:CodeCardBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/compact-markdown.tsx",
+      "target": "function:apps/desktop/src/components/chat/compact-markdown.tsx:tagged",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/compact-markdown.tsx",
+      "target": "function:apps/desktop/src/components/chat/compact-markdown.tsx:MarkdownAnchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/compact-markdown.tsx",
+      "target": "function:apps/desktop/src/components/chat/compact-markdown.tsx:MarkdownTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/compact-markdown.tsx",
+      "target": "function:apps/desktop/src/components/chat/compact-markdown.tsx:CompactMarkdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/compact-markdown.tsx",
+      "target": "function:apps/desktop/src/components/chat/compact-markdown.tsx:CompactMarkdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/diff-lines.tsx",
+      "target": "function:apps/desktop/src/components/chat/diff-lines.tsx:DiffLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/diff-lines.tsx",
+      "target": "function:apps/desktop/src/components/chat/diff-lines.tsx:DiffLines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/disclosure-row.tsx",
+      "target": "function:apps/desktop/src/components/chat/disclosure-row.tsx:DisclosureRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/disclosure-row.tsx",
+      "target": "function:apps/desktop/src/components/chat/disclosure-row.tsx:DisclosureRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/generated-image-context.tsx",
+      "target": "function:apps/desktop/src/components/chat/generated-image-context.tsx:GeneratedImageProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/generated-image-context.tsx",
+      "target": "function:apps/desktop/src/components/chat/generated-image-context.tsx:GeneratedImageProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/generated-image-context.tsx",
+      "target": "function:apps/desktop/src/components/chat/generated-image-context.tsx:useGeneratedImageContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/generated-image-context.tsx",
+      "target": "function:apps/desktop/src/components/chat/generated-image-context.tsx:useGeneratedImageContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:parseColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:noise2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:fbm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:readTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:fitCanvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:drawAsciiDiffusion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:DiffusionCanvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:ImageGenerationPlaceholder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/image-generation-placeholder.tsx",
+      "target": "function:apps/desktop/src/components/chat/image-generation-placeholder.tsx:ImageGenerationPlaceholder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/intro.tsx",
+      "target": "function:apps/desktop/src/components/chat/intro.tsx:isIntroCopyRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/intro.tsx",
+      "target": "function:apps/desktop/src/components/chat/intro.tsx:parseIntroCopy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/intro.tsx",
+      "target": "function:apps/desktop/src/components/chat/intro.tsx:fallbackCopyForPersonality",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/intro.tsx",
+      "target": "function:apps/desktop/src/components/chat/intro.tsx:Intro",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/intro.tsx",
+      "target": "function:apps/desktop/src/components/chat/intro.tsx:Intro",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/preview-attachment.tsx",
+      "target": "function:apps/desktop/src/components/chat/preview-attachment.tsx:PreviewAttachment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/preview-attachment.tsx",
+      "target": "function:apps/desktop/src/components/chat/preview-attachment.tsx:PreviewAttachment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/shiki-highlighter.tsx",
+      "target": "function:apps/desktop/src/components/chat/shiki-highlighter.tsx:SyntaxHighlighter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/shiki-highlighter.tsx",
+      "target": "function:apps/desktop/src/components/chat/shiki-highlighter.tsx:SyntaxHighlighter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/zoomable-image.tsx",
+      "target": "function:apps/desktop/src/components/chat/zoomable-image.tsx:imageFilename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/zoomable-image.tsx",
+      "target": "function:apps/desktop/src/components/chat/zoomable-image.tsx:startBrowserDownload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/zoomable-image.tsx",
+      "target": "function:apps/desktop/src/components/chat/zoomable-image.tsx:ZoomableImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/zoomable-image.tsx",
+      "target": "function:apps/desktop/src/components/chat/zoomable-image.tsx:ZoomableImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/chat/zoomable-image.tsx",
+      "target": "function:apps/desktop/src/components/chat/zoomable-image.tsx:ImageActionButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:formatStageName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:formatDuration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:formatElapsed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:StageRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:applyEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:DesktopInstallOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-install-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-install-overlay.tsx:DesktopInstallOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx:provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.test.tsx:setProviders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:useApiKeyCatalog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:sortProviders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:sortProviders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DesktopOnboardingOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DesktopOnboardingOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Preparing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Picker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:Picker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ChooseLaterLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:FeaturedProviderRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:FeaturedProviderRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ConnectedTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:KeyProviderRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:KeyProviderRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ProviderRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ProviderRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ApiKeyForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ApiKeyForm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:FlowPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DeviceCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:CodeBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:GlyphText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:useDecoded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:useScramble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DecodedLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:HackeryButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:ConfirmingModelPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/desktop-onboarding-overlay.tsx",
+      "target": "function:apps/desktop/src/components/desktop-onboarding-overlay.tsx:DocsLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/error-boundary.tsx",
+      "target": "function:apps/desktop/src/components/error-boundary.tsx:RootErrorFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/error-boundary.tsx",
+      "target": "class:apps/desktop/src/components/error-boundary.tsx:ErrorBoundary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/components/error-boundary.tsx",
+      "target": "class:apps/desktop/src/components/error-boundary.tsx:ErrorBoundary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

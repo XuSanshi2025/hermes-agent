@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/hyperframes/references/cli.md",
+      "type": "document",
+      "name": "cli.md",
+      "filePath": "optional-skills/creative/hyperframes/references/cli.md",
+      "summary": "cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/hyperframes/references/composition.md",
+      "type": "document",
+      "name": "composition.md",
+      "filePath": "optional-skills/creative/hyperframes/references/composition.md",
+      "summary": "composition.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/hyperframes/references/features.md",
+      "type": "document",
+      "name": "features.md",
+      "filePath": "optional-skills/creative/hyperframes/references/features.md",
+      "summary": "features.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/hyperframes/references/gsap.md",
+      "type": "document",
+      "name": "gsap.md",
+      "filePath": "optional-skills/creative/hyperframes/references/gsap.md",
+      "summary": "gsap.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/hyperframes/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "optional-skills/creative/hyperframes/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/hyperframes/references/website-to-video.md",
+      "type": "document",
+      "name": "website-to-video.md",
+      "filePath": "optional-skills/creative/hyperframes/references/website-to-video.md",
+      "summary": "website-to-video.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

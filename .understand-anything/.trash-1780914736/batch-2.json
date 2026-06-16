@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "id": "pipeline:.github/workflows/build-windows-installer.yml",
+      "type": "pipeline",
+      "name": "build-windows-installer.yml",
+      "filePath": ".github/workflows/build-windows-installer.yml",
+      "summary": "build-windows-installer.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/contributor-check.yml",
+      "type": "pipeline",
+      "name": "contributor-check.yml",
+      "filePath": ".github/workflows/contributor-check.yml",
+      "summary": "contributor-check.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/deploy-site.yml",
+      "type": "pipeline",
+      "name": "deploy-site.yml",
+      "filePath": ".github/workflows/deploy-site.yml",
+      "summary": "deploy-site.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/docker-lint.yml",
+      "type": "pipeline",
+      "name": "docker-lint.yml",
+      "filePath": ".github/workflows/docker-lint.yml",
+      "summary": "docker-lint.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd",
+        "containerization"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/docker-publish.yml",
+      "type": "pipeline",
+      "name": "docker-publish.yml",
+      "filePath": ".github/workflows/docker-publish.yml",
+      "summary": "docker-publish.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd",
+        "containerization"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/docs-site-checks.yml",
+      "type": "pipeline",
+      "name": "docs-site-checks.yml",
+      "filePath": ".github/workflows/docs-site-checks.yml",
+      "summary": "docs-site-checks.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/history-check.yml",
+      "type": "pipeline",
+      "name": "history-check.yml",
+      "filePath": ".github/workflows/history-check.yml",
+      "summary": "history-check.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/lint.yml",
+      "type": "pipeline",
+      "name": "lint.yml",
+      "filePath": ".github/workflows/lint.yml",
+      "summary": "lint.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/nix-lockfile-fix.yml",
+      "type": "pipeline",
+      "name": "nix-lockfile-fix.yml",
+      "filePath": ".github/workflows/nix-lockfile-fix.yml",
+      "summary": "nix-lockfile-fix.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/nix.yml",
+      "type": "pipeline",
+      "name": "nix.yml",
+      "filePath": ".github/workflows/nix.yml",
+      "summary": "nix.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/osv-scanner.yml",
+      "type": "pipeline",
+      "name": "osv-scanner.yml",
+      "filePath": ".github/workflows/osv-scanner.yml",
+      "summary": "osv-scanner.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/skills-index-freshness.yml",
+      "type": "pipeline",
+      "name": "skills-index-freshness.yml",
+      "filePath": ".github/workflows/skills-index-freshness.yml",
+      "summary": "skills-index-freshness.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/skills-index.yml",
+      "type": "pipeline",
+      "name": "skills-index.yml",
+      "filePath": ".github/workflows/skills-index.yml",
+      "summary": "skills-index.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/supply-chain-audit.yml",
+      "type": "pipeline",
+      "name": "supply-chain-audit.yml",
+      "filePath": ".github/workflows/supply-chain-audit.yml",
+      "summary": "supply-chain-audit.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/tests.yml",
+      "type": "pipeline",
+      "name": "tests.yml",
+      "filePath": ".github/workflows/tests.yml",
+      "summary": "tests.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/upload_to_pypi.yml",
+      "type": "pipeline",
+      "name": "upload_to_pypi.yml",
+      "filePath": ".github/workflows/upload_to_pypi.yml",
+      "summary": "upload_to_pypi.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "pipeline:.github/workflows/uv-lockfile-check.yml",
+      "type": "pipeline",
+      "name": "uv-lockfile-check.yml",
+      "filePath": ".github/workflows/uv-lockfile-check.yml",
+      "summary": "uv-lockfile-check.yml 定义 CI/CD 自动化流程，用于检查、构建、发布或维护项目。",
+      "tags": [
+        "yaml",
+        "infrastructure",
+        "ci-cd"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": []
+}

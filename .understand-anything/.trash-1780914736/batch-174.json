@@ -1,0 +1,4939 @@
+{
+  "nodes": [
+    {
+      "id": "file:hermes_cli/session_recap.py",
+      "type": "file",
+      "name": "session_recap.py",
+      "filePath": "hermes_cli/session_recap.py",
+      "summary": "session_recap.py 是 python 源文件，包含 11 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_coerce_text",
+      "type": "function",
+      "name": "_coerce_text",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        49,
+        71
+      ],
+      "summary": "_coerce_text 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_tool_call_name_and_args",
+      "type": "function",
+      "name": "_tool_call_name_and_args",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        74,
+        98
+      ],
+      "summary": "_tool_call_name_and_args 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_iter_assistant_tool_calls",
+      "type": "function",
+      "name": "_iter_assistant_tool_calls",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        101,
+        115
+      ],
+      "summary": "_iter_assistant_tool_calls 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_count_visible_turns",
+      "type": "function",
+      "name": "_count_visible_turns",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        118,
+        133
+      ],
+      "summary": "_count_visible_turns 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_latest_user_prompt",
+      "type": "function",
+      "name": "_latest_user_prompt",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        136,
+        144
+      ],
+      "summary": "_latest_user_prompt 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_latest_assistant_text",
+      "type": "function",
+      "name": "_latest_assistant_text",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        147,
+        158
+      ],
+      "summary": "_latest_assistant_text 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_recent_window",
+      "type": "function",
+      "name": "_recent_window",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        161,
+        181
+      ],
+      "summary": "_recent_window 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_shortened_path",
+      "type": "function",
+      "name": "_shortened_path",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        184,
+        200
+      ],
+      "summary": "_shortened_path 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_summarise_tool_activity",
+      "type": "function",
+      "name": "_summarise_tool_activity",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        203,
+        228
+      ],
+      "summary": "_summarise_tool_activity 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:_truncate",
+      "type": "function",
+      "name": "_truncate",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        231,
+        235
+      ],
+      "summary": "_truncate 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/session_recap.py:build_recap",
+      "type": "function",
+      "name": "build_recap",
+      "filePath": "hermes_cli/session_recap.py",
+      "lineRange": [
+        238,
+        313
+      ],
+      "summary": "build_recap 是 session_recap.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "filePath": "hermes_cli/setup.py",
+      "summary": "setup.py 是 python 源文件，包含 53 个函数、53 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_model_config_dict",
+      "type": "function",
+      "name": "_model_config_dict",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        36,
+        42
+      ],
+      "summary": "_model_config_dict 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_get_credential_pool_strategies",
+      "type": "function",
+      "name": "_get_credential_pool_strategies",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        45,
+        47
+      ],
+      "summary": "_get_credential_pool_strategies 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_set_credential_pool_strategy",
+      "type": "function",
+      "name": "_set_credential_pool_strategy",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        50,
+        55
+      ],
+      "summary": "_set_credential_pool_strategy 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_supports_same_provider_pool_setup",
+      "type": "function",
+      "name": "_supports_same_provider_pool_setup",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        58,
+        68
+      ],
+      "summary": "_supports_same_provider_pool_setup 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_current_reasoning_effort",
+      "type": "function",
+      "name": "_current_reasoning_effort",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        114,
+        118
+      ],
+      "summary": "_current_reasoning_effort 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_set_reasoning_effort",
+      "type": "function",
+      "name": "_set_reasoning_effort",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        121,
+        126
+      ],
+      "summary": "_set_reasoning_effort 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:print_header",
+      "type": "function",
+      "name": "print_header",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        150,
+        153
+      ],
+      "summary": "print_header 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:is_interactive_stdin",
+      "type": "function",
+      "name": "is_interactive_stdin",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        165,
+        173
+      ],
+      "summary": "is_interactive_stdin 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:print_noninteractive_setup_guidance",
+      "type": "function",
+      "name": "print_noninteractive_setup_guidance",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        176,
+        192
+      ],
+      "summary": "print_noninteractive_setup_guidance 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:prompt",
+      "type": "function",
+      "name": "prompt",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        195,
+        212
+      ],
+      "summary": "prompt 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_sanitize_pasted_input",
+      "type": "function",
+      "name": "_sanitize_pasted_input",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        218,
+        222
+      ],
+      "summary": "_sanitize_pasted_input 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_curses_prompt_choice",
+      "type": "function",
+      "name": "_curses_prompt_choice",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        225,
+        228
+      ],
+      "summary": "_curses_prompt_choice 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:prompt_choice",
+      "type": "function",
+      "name": "prompt_choice",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        232,
+        272
+      ],
+      "summary": "prompt_choice 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:prompt_yes_no",
+      "type": "function",
+      "name": "prompt_yes_no",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        275,
+        296
+      ],
+      "summary": "prompt_yes_no 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:prompt_checklist",
+      "type": "function",
+      "name": "prompt_checklist",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        299,
+        325
+      ],
+      "summary": "prompt_checklist 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_prompt_api_key",
+      "type": "function",
+      "name": "_prompt_api_key",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        328,
+        353
+      ],
+      "summary": "_prompt_api_key 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_print_setup_summary",
+      "type": "function",
+      "name": "_print_setup_summary",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        356,
+        639
+      ],
+      "summary": "_print_setup_summary 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_prompt_container_resources",
+      "type": "function",
+      "name": "_prompt_container_resources",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        642,
+        681
+      ],
+      "summary": "_prompt_container_resources 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:setup_model_provider",
+      "type": "function",
+      "name": "setup_model_provider",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        694,
+        748
+      ],
+      "summary": "setup_model_provider 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_check_espeak_ng",
+      "type": "function",
+      "name": "_check_espeak_ng",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        756,
+        758
+      ],
+      "summary": "_check_espeak_ng 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_install_neutts_deps",
+      "type": "function",
+      "name": "_install_neutts_deps",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        761,
+        808
+      ],
+      "summary": "_install_neutts_deps 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_install_kittentts_deps",
+      "type": "function",
+      "name": "_install_kittentts_deps",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        811,
+        833
+      ],
+      "summary": "_install_kittentts_deps 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_xai_oauth_logged_in_for_setup",
+      "type": "function",
+      "name": "_xai_oauth_logged_in_for_setup",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        836,
+        847
+      ],
+      "summary": "_xai_oauth_logged_in_for_setup 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_run_xai_oauth_login_from_setup",
+      "type": "function",
+      "name": "_run_xai_oauth_login_from_setup",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        850,
+        885
+      ],
+      "summary": "_run_xai_oauth_login_from_setup 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_tts_provider",
+      "type": "function",
+      "name": "_setup_tts_provider",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        888,
+        1121
+      ],
+      "summary": "_setup_tts_provider 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:setup_tts",
+      "type": "function",
+      "name": "setup_tts",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1124,
+        1126
+      ],
+      "summary": "setup_tts 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:setup_terminal_backend",
+      "type": "function",
+      "name": "setup_terminal_backend",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1134,
+        1429
+      ],
+      "summary": "setup_terminal_backend 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_apply_default_agent_settings",
+      "type": "function",
+      "name": "_apply_default_agent_settings",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1437,
+        1462
+      ],
+      "summary": "_apply_default_agent_settings 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:setup_agent_settings",
+      "type": "function",
+      "name": "setup_agent_settings",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1465,
+        1634
+      ],
+      "summary": "setup_agent_settings 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_is_valid_telegram_bot_token",
+      "type": "function",
+      "name": "_is_valid_telegram_bot_token",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1645,
+        1646
+      ],
+      "summary": "_is_valid_telegram_bot_token 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_telegram_auto_result",
+      "type": "function",
+      "name": "_setup_telegram_auto_result",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1649,
+        1664
+      ],
+      "summary": "_setup_telegram_auto_result 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_telegram_auto",
+      "type": "function",
+      "name": "_setup_telegram_auto",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1667,
+        1670
+      ],
+      "summary": "_setup_telegram_auto 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_prompt_telegram_bot_token",
+      "type": "function",
+      "name": "_prompt_telegram_bot_token",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1673,
+        1685
+      ],
+      "summary": "_prompt_telegram_bot_token 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_telegram",
+      "type": "function",
+      "name": "_setup_telegram",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1688,
+        1795
+      ],
+      "summary": "_setup_telegram 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_slack",
+      "type": "function",
+      "name": "_setup_slack",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1798,
+        1863
+      ],
+      "summary": "_setup_slack 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_write_slack_manifest_and_instruct",
+      "type": "function",
+      "name": "_write_slack_manifest_and_instruct",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1866,
+        1906
+      ],
+      "summary": "_write_slack_manifest_and_instruct 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_matrix",
+      "type": "function",
+      "name": "_setup_matrix",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        1909,
+        2022
+      ],
+      "summary": "_setup_matrix 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_bluebubbles",
+      "type": "function",
+      "name": "_setup_bluebubbles",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2025,
+        2087
+      ],
+      "summary": "_setup_bluebubbles 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_qqbot",
+      "type": "function",
+      "name": "_setup_qqbot",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2090,
+        2093
+      ],
+      "summary": "_setup_qqbot 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_setup_webhooks",
+      "type": "function",
+      "name": "_setup_webhooks",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2096,
+        2140
+      ],
+      "summary": "_setup_webhooks 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:setup_gateway",
+      "type": "function",
+      "name": "setup_gateway",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2143,
+        2375
+      ],
+      "summary": "setup_gateway 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:setup_tools",
+      "type": "function",
+      "name": "setup_tools",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2383,
+        2395
+      ],
+      "summary": "setup_tools 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_model_section_has_credentials",
+      "type": "function",
+      "name": "_model_section_has_credentials",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2403,
+        2462
+      ],
+      "summary": "_model_section_has_credentials 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_gateway_platform_short_label",
+      "type": "function",
+      "name": "_gateway_platform_short_label",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2465,
+        2468
+      ],
+      "summary": "_gateway_platform_short_label 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_get_section_config_summary",
+      "type": "function",
+      "name": "_get_section_config_summary",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2471,
+        2523
+      ],
+      "summary": "_get_section_config_summary 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_skip_configured_section",
+      "type": "function",
+      "name": "_skip_configured_section",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2526,
+        2538
+      ],
+      "summary": "_skip_configured_section 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_load_openclaw_migration_module",
+      "type": "function",
+      "name": "_load_openclaw_migration_module",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2555,
+        2579
+      ],
+      "summary": "_load_openclaw_migration_module 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_print_migration_preview",
+      "type": "function",
+      "name": "_print_migration_preview",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2599,
+        2660
+      ],
+      "summary": "_print_migration_preview 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_offer_openclaw_migration",
+      "type": "function",
+      "name": "_offer_openclaw_migration",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2663,
+        2793
+      ],
+      "summary": "_offer_openclaw_migration 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_run_portal_one_shot",
+      "type": "function",
+      "name": "_run_portal_one_shot",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2810,
+        2891
+      ],
+      "summary": "_run_portal_one_shot 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:run_setup_wizard",
+      "type": "function",
+      "name": "run_setup_wizard",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        2894,
+        3122
+      ],
+      "summary": "run_setup_wizard 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_run_first_time_quick_setup",
+      "type": "function",
+      "name": "_run_first_time_quick_setup",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        3125,
+        3195
+      ],
+      "summary": "_run_first_time_quick_setup 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/setup.py:_run_quick_setup",
+      "type": "function",
+      "name": "_run_quick_setup",
+      "filePath": "hermes_cli/setup.py",
+      "lineRange": [
+        3198,
+        3361
+      ],
+      "summary": "_run_quick_setup 是 setup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/skills_config.py",
+      "type": "file",
+      "name": "skills_config.py",
+      "filePath": "hermes_cli/skills_config.py",
+      "summary": "skills_config.py 是 python 源文件，包含 7 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:get_disabled_skills",
+      "type": "function",
+      "name": "get_disabled_skills",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        27,
+        36
+      ],
+      "summary": "get_disabled_skills 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:save_disabled_skills",
+      "type": "function",
+      "name": "save_disabled_skills",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        39,
+        47
+      ],
+      "summary": "save_disabled_skills 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:_list_all_skills",
+      "type": "function",
+      "name": "_list_all_skills",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        52,
+        58
+      ],
+      "summary": "_list_all_skills 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:_get_categories",
+      "type": "function",
+      "name": "_get_categories",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        61,
+        63
+      ],
+      "summary": "_get_categories 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:_select_platform",
+      "type": "function",
+      "name": "_select_platform",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        68,
+        89
+      ],
+      "summary": "_select_platform 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:_toggle_by_category",
+      "type": "function",
+      "name": "_toggle_by_category",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        94,
+        120
+      ],
+      "summary": "_toggle_by_category 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_config.py:skills_command",
+      "type": "function",
+      "name": "skills_command",
+      "filePath": "hermes_cli/skills_config.py",
+      "lineRange": [
+        125,
+        177
+      ],
+      "summary": "skills_command 是 skills_config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/skills_hub.py",
+      "type": "file",
+      "name": "skills_hub.py",
+      "filePath": "hermes_cli/skills_hub.py",
+      "summary": "skills_hub.py 是 python 源文件，包含 31 个函数、31 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_resolve_short_name",
+      "type": "function",
+      "name": "_resolve_short_name",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        35,
+        81
+      ],
+      "summary": "_resolve_short_name 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_format_extra_metadata_lines",
+      "type": "function",
+      "name": "_format_extra_metadata_lines",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        84,
+        109
+      ],
+      "summary": "_format_extra_metadata_lines 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_resolve_source_meta_and_bundle",
+      "type": "function",
+      "name": "_resolve_source_meta_and_bundle",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        112,
+        139
+      ],
+      "summary": "_resolve_source_meta_and_bundle 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_derive_category_from_install_path",
+      "type": "function",
+      "name": "_derive_category_from_install_path",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        142,
+        145
+      ],
+      "summary": "_derive_category_from_install_path 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_is_valid_installed_skill_name",
+      "type": "function",
+      "name": "_is_valid_installed_skill_name",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        156,
+        163
+      ],
+      "summary": "_is_valid_installed_skill_name 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_existing_categories",
+      "type": "function",
+      "name": "_existing_categories",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        166,
+        195
+      ],
+      "summary": "_existing_categories 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_prompt_for_skill_name",
+      "type": "function",
+      "name": "_prompt_for_skill_name",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        198,
+        220
+      ],
+      "summary": "_prompt_for_skill_name 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_prompt_for_category",
+      "type": "function",
+      "name": "_prompt_for_category",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        223,
+        245
+      ],
+      "summary": "_prompt_for_category 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_search",
+      "type": "function",
+      "name": "do_search",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        248,
+        314
+      ],
+      "summary": "do_search 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_browse",
+      "type": "function",
+      "name": "do_browse",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        317,
+        459
+      ],
+      "summary": "do_browse 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_install",
+      "type": "function",
+      "name": "do_install",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        462,
+        687
+      ],
+      "summary": "do_install 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_inspect",
+      "type": "function",
+      "name": "do_inspect",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        690,
+        737
+      ],
+      "summary": "do_inspect 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:browse_skills",
+      "type": "function",
+      "name": "browse_skills",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        740,
+        786
+      ],
+      "summary": "browse_skills 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:inspect_skill",
+      "type": "function",
+      "name": "inspect_skill",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        789,
+        824
+      ],
+      "summary": "inspect_skill 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_list",
+      "type": "function",
+      "name": "do_list",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        827,
+        923
+      ],
+      "summary": "do_list 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_check",
+      "type": "function",
+      "name": "do_check",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        926,
+        946
+      ],
+      "summary": "do_check 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_update",
+      "type": "function",
+      "name": "do_update",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        949,
+        966
+      ],
+      "summary": "do_update 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_audit",
+      "type": "function",
+      "name": "do_audit",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        969,
+        1012
+      ],
+      "summary": "do_audit 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_uninstall",
+      "type": "function",
+      "name": "do_uninstall",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1015,
+        1047
+      ],
+      "summary": "do_uninstall 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_reset",
+      "type": "function",
+      "name": "do_reset",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1050,
+        1092
+      ],
+      "summary": "do_reset 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_opt_out",
+      "type": "function",
+      "name": "do_opt_out",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1095,
+        1162
+      ],
+      "summary": "do_opt_out 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_opt_in",
+      "type": "function",
+      "name": "do_opt_in",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1165,
+        1193
+      ],
+      "summary": "do_opt_in 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_repair_official",
+      "type": "function",
+      "name": "do_repair_official",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1196,
+        1235
+      ],
+      "summary": "do_repair_official 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_tap",
+      "type": "function",
+      "name": "do_tap",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1238,
+        1278
+      ],
+      "summary": "do_tap 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_publish",
+      "type": "function",
+      "name": "do_publish",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1281,
+        1347
+      ],
+      "summary": "do_publish 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_github_publish",
+      "type": "function",
+      "name": "_github_publish",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1350,
+        1444
+      ],
+      "summary": "_github_publish 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_snapshot_export",
+      "type": "function",
+      "name": "do_snapshot_export",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1447,
+        1484
+      ],
+      "summary": "do_snapshot_export 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:do_snapshot_import",
+      "type": "function",
+      "name": "do_snapshot_import",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1487,
+        1531
+      ],
+      "summary": "do_snapshot_import 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:skills_command",
+      "type": "function",
+      "name": "skills_command",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1538,
+        1601
+      ],
+      "summary": "skills_command 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:handle_skills_slash",
+      "type": "function",
+      "name": "handle_skills_slash",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1608,
+        1812
+      ],
+      "summary": "handle_skills_slash 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:hermes_cli/skills_hub.py:_print_skills_help",
+      "type": "function",
+      "name": "_print_skills_help",
+      "filePath": "hermes_cli/skills_hub.py",
+      "lineRange": [
+        1815,
+        1834
+      ],
+      "summary": "_print_skills_help 是 skills_hub.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/skin_engine.py",
+      "type": "file",
+      "name": "skin_engine.py",
+      "filePath": "hermes_cli/skin_engine.py",
+      "summary": "skin_engine.py 是 python 源文件，包含 14 个函数、1 个类、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:_skins_dir",
+      "type": "function",
+      "name": "_skins_dir",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        656,
+        658
+      ],
+      "summary": "_skins_dir 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:_load_skin_from_yaml",
+      "type": "function",
+      "name": "_load_skin_from_yaml",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        661,
+        671
+      ],
+      "summary": "_load_skin_from_yaml 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:_mapping_or_empty",
+      "type": "function",
+      "name": "_mapping_or_empty",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        674,
+        686
+      ],
+      "summary": "_mapping_or_empty 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:_build_skin_config",
+      "type": "function",
+      "name": "_build_skin_config",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        689,
+        716
+      ],
+      "summary": "_build_skin_config 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:list_skins",
+      "type": "function",
+      "name": "list_skins",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        719,
+        747
+      ],
+      "summary": "list_skins 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:load_skin",
+      "type": "function",
+      "name": "load_skin",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        750,
+        766
+      ],
+      "summary": "load_skin 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:get_active_skin",
+      "type": "function",
+      "name": "get_active_skin",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        769,
+        774
+      ],
+      "summary": "get_active_skin 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:set_active_skin",
+      "type": "function",
+      "name": "set_active_skin",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        777,
+        782
+      ],
+      "summary": "set_active_skin 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:get_active_skin_name",
+      "type": "function",
+      "name": "get_active_skin_name",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        785,
+        787
+      ],
+      "summary": "get_active_skin_name 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:init_skin_from_config",
+      "type": "function",
+      "name": "init_skin_from_config",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        790,
+        802
+      ],
+      "summary": "init_skin_from_config 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:get_active_prompt_symbol",
+      "type": "function",
+      "name": "get_active_prompt_symbol",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        810,
+        824
+      ],
+      "summary": "get_active_prompt_symbol 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:get_active_help_header",
+      "type": "function",
+      "name": "get_active_help_header",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        828,
+        833
+      ],
+      "summary": "get_active_help_header 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:get_active_goodbye",
+      "type": "function",
+      "name": "get_active_goodbye",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        837,
+        842
+      ],
+      "summary": "get_active_goodbye 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/skin_engine.py:get_prompt_toolkit_style_overrides",
+      "type": "function",
+      "name": "get_prompt_toolkit_style_overrides",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        846,
+        926
+      ],
+      "summary": "get_prompt_toolkit_style_overrides 是 skin_engine.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:hermes_cli/skin_engine.py:SkinConfig",
+      "type": "class",
+      "name": "SkinConfig",
+      "filePath": "hermes_cli/skin_engine.py",
+      "lineRange": [
+        130,
+        157
+      ],
+      "summary": "SkinConfig 是 skin_engine.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/slack_cli.py",
+      "type": "file",
+      "name": "slack_cli.py",
+      "filePath": "hermes_cli/slack_cli.py",
+      "summary": "slack_cli.py 是 python 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/slack_cli.py:_build_full_manifest",
+      "type": "function",
+      "name": "_build_full_manifest",
+      "filePath": "hermes_cli/slack_cli.py",
+      "lineRange": [
+        26,
+        103
+      ],
+      "summary": "_build_full_manifest 是 slack_cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/slack_cli.py:slack_manifest_command",
+      "type": "function",
+      "name": "slack_manifest_command",
+      "filePath": "hermes_cli/slack_cli.py",
+      "lineRange": [
+        106,
+        159
+      ],
+      "summary": "slack_manifest_command 是 slack_cli.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/status.py",
+      "type": "file",
+      "name": "status.py",
+      "filePath": "hermes_cli/status.py",
+      "summary": "status.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/status.py:check_mark",
+      "type": "function",
+      "name": "check_mark",
+      "filePath": "hermes_cli/status.py",
+      "lineRange": [
+        27,
+        30
+      ],
+      "summary": "check_mark 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/status.py:redact_key",
+      "type": "function",
+      "name": "redact_key",
+      "filePath": "hermes_cli/status.py",
+      "lineRange": [
+        32,
+        41
+      ],
+      "summary": "redact_key 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/status.py:_format_iso_timestamp",
+      "type": "function",
+      "name": "_format_iso_timestamp",
+      "filePath": "hermes_cli/status.py",
+      "lineRange": [
+        44,
+        60
+      ],
+      "summary": "_format_iso_timestamp 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/status.py:_configured_model_label",
+      "type": "function",
+      "name": "_configured_model_label",
+      "filePath": "hermes_cli/status.py",
+      "lineRange": [
+        63,
+        72
+      ],
+      "summary": "_configured_model_label 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/status.py:_effective_provider_label",
+      "type": "function",
+      "name": "_effective_provider_label",
+      "filePath": "hermes_cli/status.py",
+      "lineRange": [
+        75,
+        86
+      ],
+      "summary": "_effective_provider_label 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/status.py:show_status",
+      "type": "function",
+      "name": "show_status",
+      "filePath": "hermes_cli/status.py",
+      "lineRange": [
+        92,
+        586
+      ],
+      "summary": "show_status 是 status.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:hermes_cli/stdio.py",
+      "type": "file",
+      "name": "stdio.py",
+      "filePath": "hermes_cli/stdio.py",
+      "summary": "stdio.py 是 python 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/stdio.py:is_windows",
+      "type": "function",
+      "name": "is_windows",
+      "filePath": "hermes_cli/stdio.py",
+      "lineRange": [
+        41,
+        43
+      ],
+      "summary": "is_windows 是 stdio.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/stdio.py:_flip_console_code_page_to_utf8",
+      "type": "function",
+      "name": "_flip_console_code_page_to_utf8",
+      "filePath": "hermes_cli/stdio.py",
+      "lineRange": [
+        46,
+        66
+      ],
+      "summary": "_flip_console_code_page_to_utf8 是 stdio.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/stdio.py:_reconfigure_stream",
+      "type": "function",
+      "name": "_reconfigure_stream",
+      "filePath": "hermes_cli/stdio.py",
+      "lineRange": [
+        69,
+        82
+      ],
+      "summary": "_reconfigure_stream 是 stdio.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/stdio.py:configure_windows_stdio",
+      "type": "function",
+      "name": "configure_windows_stdio",
+      "filePath": "hermes_cli/stdio.py",
+      "lineRange": [
+        85,
+        158
+      ],
+      "summary": "configure_windows_stdio 是 stdio.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:hermes_cli/stdio.py:_default_windows_editor",
+      "type": "function",
+      "name": "_default_windows_editor",
+      "filePath": "hermes_cli/stdio.py",
+      "lineRange": [
+        161,
+        191
+      ],
+      "summary": "_default_windows_editor 是 stdio.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:hermes_cli/stdio.py:_augment_path_with_known_tools",
+      "type": "function",
+      "name": "_augment_path_with_known_tools",
+      "filePath": "hermes_cli/stdio.py",
+      "lineRange": [
+        195,
+        251
+      ],
+      "summary": "_augment_path_with_known_tools 是 stdio.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "hermes_cli/subcommands/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/_shared.py",
+      "type": "file",
+      "name": "_shared.py",
+      "filePath": "hermes_cli/subcommands/_shared.py",
+      "summary": "_shared.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/_shared.py:add_accept_hooks_flag",
+      "type": "function",
+      "name": "add_accept_hooks_flag",
+      "filePath": "hermes_cli/subcommands/_shared.py",
+      "lineRange": [
+        15,
+        29
+      ],
+      "summary": "add_accept_hooks_flag 是 _shared.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/acp.py",
+      "type": "file",
+      "name": "acp.py",
+      "filePath": "hermes_cli/subcommands/acp.py",
+      "summary": "acp.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/acp.py:build_acp_parser",
+      "type": "function",
+      "name": "build_acp_parser",
+      "filePath": "hermes_cli/subcommands/acp.py",
+      "lineRange": [
+        14,
+        52
+      ],
+      "summary": "build_acp_parser 是 acp.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/auth.py",
+      "type": "file",
+      "name": "auth.py",
+      "filePath": "hermes_cli/subcommands/auth.py",
+      "summary": "auth.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/auth.py:build_auth_parser",
+      "type": "function",
+      "name": "build_auth_parser",
+      "filePath": "hermes_cli/subcommands/auth.py",
+      "lineRange": [
+        12,
+        109
+      ],
+      "summary": "build_auth_parser 是 auth.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/backup.py",
+      "type": "file",
+      "name": "backup.py",
+      "filePath": "hermes_cli/subcommands/backup.py",
+      "summary": "backup.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/backup.py:build_backup_parser",
+      "type": "function",
+      "name": "build_backup_parser",
+      "filePath": "hermes_cli/subcommands/backup.py",
+      "lineRange": [
+        12,
+        38
+      ],
+      "summary": "build_backup_parser 是 backup.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/claw.py",
+      "type": "file",
+      "name": "claw.py",
+      "filePath": "hermes_cli/subcommands/claw.py",
+      "summary": "claw.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/claw.py:build_claw_parser",
+      "type": "function",
+      "name": "build_claw_parser",
+      "filePath": "hermes_cli/subcommands/claw.py",
+      "lineRange": [
+        12,
+        92
+      ],
+      "summary": "build_claw_parser 是 claw.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/config.py",
+      "type": "file",
+      "name": "config.py",
+      "filePath": "hermes_cli/subcommands/config.py",
+      "summary": "config.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/config.py:build_config_parser",
+      "type": "function",
+      "name": "build_config_parser",
+      "filePath": "hermes_cli/subcommands/config.py",
+      "lineRange": [
+        12,
+        49
+      ],
+      "summary": "build_config_parser 是 config.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/cron.py",
+      "type": "file",
+      "name": "cron.py",
+      "filePath": "hermes_cli/subcommands/cron.py",
+      "summary": "cron.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/cron.py:build_cron_parser",
+      "type": "function",
+      "name": "build_cron_parser",
+      "filePath": "hermes_cli/subcommands/cron.py",
+      "lineRange": [
+        15,
+        171
+      ],
+      "summary": "build_cron_parser 是 cron.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/dashboard.py",
+      "type": "file",
+      "name": "dashboard.py",
+      "filePath": "hermes_cli/subcommands/dashboard.py",
+      "summary": "dashboard.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/dashboard.py:build_dashboard_parser",
+      "type": "function",
+      "name": "build_dashboard_parser",
+      "filePath": "hermes_cli/subcommands/dashboard.py",
+      "lineRange": [
+        13,
+        123
+      ],
+      "summary": "build_dashboard_parser 是 dashboard.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/debug.py",
+      "type": "file",
+      "name": "debug.py",
+      "filePath": "hermes_cli/subcommands/debug.py",
+      "summary": "debug.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/debug.py:build_debug_parser",
+      "type": "function",
+      "name": "build_debug_parser",
+      "filePath": "hermes_cli/subcommands/debug.py",
+      "lineRange": [
+        13,
+        77
+      ],
+      "summary": "build_debug_parser 是 debug.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/doctor.py",
+      "type": "file",
+      "name": "doctor.py",
+      "filePath": "hermes_cli/subcommands/doctor.py",
+      "summary": "doctor.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/doctor.py:build_doctor_parser",
+      "type": "function",
+      "name": "build_doctor_parser",
+      "filePath": "hermes_cli/subcommands/doctor.py",
+      "lineRange": [
+        12,
+        35
+      ],
+      "summary": "build_doctor_parser 是 doctor.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/dump.py",
+      "type": "file",
+      "name": "dump.py",
+      "filePath": "hermes_cli/subcommands/dump.py",
+      "summary": "dump.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/dump.py:build_dump_parser",
+      "type": "function",
+      "name": "build_dump_parser",
+      "filePath": "hermes_cli/subcommands/dump.py",
+      "lineRange": [
+        12,
+        28
+      ],
+      "summary": "build_dump_parser 是 dump.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/gateway.py",
+      "type": "file",
+      "name": "gateway.py",
+      "filePath": "hermes_cli/subcommands/gateway.py",
+      "summary": "gateway.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "gateway",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/gateway.py:build_gateway_parser",
+      "type": "function",
+      "name": "build_gateway_parser",
+      "filePath": "hermes_cli/subcommands/gateway.py",
+      "lineRange": [
+        17,
+        256
+      ],
+      "summary": "build_gateway_parser 是 gateway.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/gui.py",
+      "type": "file",
+      "name": "gui.py",
+      "filePath": "hermes_cli/subcommands/gui.py",
+      "summary": "gui.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/gui.py:build_gui_parser",
+      "type": "function",
+      "name": "build_gui_parser",
+      "filePath": "hermes_cli/subcommands/gui.py",
+      "lineRange": [
+        12,
+        63
+      ],
+      "summary": "build_gui_parser 是 gui.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/hooks.py",
+      "type": "file",
+      "name": "hooks.py",
+      "filePath": "hermes_cli/subcommands/hooks.py",
+      "summary": "hooks.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/hooks.py:build_hooks_parser",
+      "type": "function",
+      "name": "build_hooks_parser",
+      "filePath": "hermes_cli/subcommands/hooks.py",
+      "lineRange": [
+        12,
+        77
+      ],
+      "summary": "build_hooks_parser 是 hooks.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/import_cmd.py",
+      "type": "file",
+      "name": "import_cmd.py",
+      "filePath": "hermes_cli/subcommands/import_cmd.py",
+      "summary": "import_cmd.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/import_cmd.py:build_import_cmd_parser",
+      "type": "function",
+      "name": "build_import_cmd_parser",
+      "filePath": "hermes_cli/subcommands/import_cmd.py",
+      "lineRange": [
+        12,
+        31
+      ],
+      "summary": "build_import_cmd_parser 是 import_cmd.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hermes_cli/subcommands/insights.py",
+      "type": "file",
+      "name": "insights.py",
+      "filePath": "hermes_cli/subcommands/insights.py",
+      "summary": "insights.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "cli",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:hermes_cli/subcommands/insights.py:build_insights_parser",
+      "type": "function",
+      "name": "build_insights_parser",
+      "filePath": "hermes_cli/subcommands/insights.py",
+      "lineRange": [
+        12,
+        25
+      ],
+      "summary": "build_insights_parser 是 insights.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_coerce_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_coerce_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_tool_call_name_and_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_tool_call_name_and_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_iter_assistant_tool_calls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_iter_assistant_tool_calls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_count_visible_turns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_count_visible_turns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_latest_user_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_latest_user_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_latest_assistant_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_latest_assistant_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_recent_window",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_recent_window",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_shortened_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_shortened_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_summarise_tool_activity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_summarise_tool_activity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_truncate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:_truncate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:build_recap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/session_recap.py",
+      "target": "function:hermes_cli/session_recap.py:build_recap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_model_config_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_model_config_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_get_credential_pool_strategies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_get_credential_pool_strategies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_set_credential_pool_strategy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_set_credential_pool_strategy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_supports_same_provider_pool_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_supports_same_provider_pool_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_current_reasoning_effort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_current_reasoning_effort",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_set_reasoning_effort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_set_reasoning_effort",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:print_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:print_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:is_interactive_stdin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:is_interactive_stdin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:print_noninteractive_setup_guidance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:print_noninteractive_setup_guidance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_sanitize_pasted_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_sanitize_pasted_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_curses_prompt_choice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_curses_prompt_choice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt_choice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt_choice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt_yes_no",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt_yes_no",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt_checklist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:prompt_checklist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_prompt_api_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_prompt_api_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_print_setup_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_print_setup_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_prompt_container_resources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_prompt_container_resources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_model_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_model_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_check_espeak_ng",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_check_espeak_ng",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_install_neutts_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_install_neutts_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_install_kittentts_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_install_kittentts_deps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_xai_oauth_logged_in_for_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_xai_oauth_logged_in_for_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_xai_oauth_login_from_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_xai_oauth_login_from_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_tts_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_tts_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_tts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_tts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_terminal_backend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_terminal_backend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_apply_default_agent_settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_apply_default_agent_settings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_agent_settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_agent_settings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_is_valid_telegram_bot_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_is_valid_telegram_bot_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_telegram_auto_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_telegram_auto_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_telegram_auto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_telegram_auto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_prompt_telegram_bot_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_prompt_telegram_bot_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_telegram",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_telegram",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_slack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_slack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_write_slack_manifest_and_instruct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_write_slack_manifest_and_instruct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_bluebubbles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_bluebubbles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_qqbot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_qqbot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_webhooks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_setup_webhooks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_gateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_gateway",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_tools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:setup_tools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_model_section_has_credentials",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_model_section_has_credentials",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_gateway_platform_short_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_gateway_platform_short_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_get_section_config_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_get_section_config_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_skip_configured_section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_skip_configured_section",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_load_openclaw_migration_module",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_load_openclaw_migration_module",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_print_migration_preview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_print_migration_preview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_offer_openclaw_migration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_offer_openclaw_migration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_portal_one_shot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_portal_one_shot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:run_setup_wizard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:run_setup_wizard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_first_time_quick_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_first_time_quick_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_quick_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/setup.py",
+      "target": "function:hermes_cli/setup.py:_run_quick_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:get_disabled_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:get_disabled_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:save_disabled_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:save_disabled_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_list_all_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_list_all_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_get_categories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_get_categories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_select_platform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_select_platform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_toggle_by_category",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:_toggle_by_category",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:skills_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_config.py",
+      "target": "function:hermes_cli/skills_config.py:skills_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_resolve_short_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_resolve_short_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_format_extra_metadata_lines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_format_extra_metadata_lines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_resolve_source_meta_and_bundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_resolve_source_meta_and_bundle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_derive_category_from_install_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_derive_category_from_install_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_is_valid_installed_skill_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_is_valid_installed_skill_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_existing_categories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_existing_categories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_prompt_for_skill_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_prompt_for_skill_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_prompt_for_category",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_prompt_for_category",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_browse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_browse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_install",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_install",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_inspect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_inspect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:browse_skills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:browse_skills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:inspect_skill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:inspect_skill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_update",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_audit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_audit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_uninstall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_uninstall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_reset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_reset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_opt_out",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_opt_out",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_opt_in",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_opt_in",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_repair_official",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_repair_official",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_tap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_tap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_publish",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_publish",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_github_publish",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_github_publish",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_snapshot_export",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_snapshot_export",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_snapshot_import",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:do_snapshot_import",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:skills_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:skills_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:handle_skills_slash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:handle_skills_slash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_print_skills_help",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skills_hub.py",
+      "target": "function:hermes_cli/skills_hub.py:_print_skills_help",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_skins_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_skins_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_load_skin_from_yaml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_load_skin_from_yaml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_mapping_or_empty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_mapping_or_empty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_build_skin_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:_build_skin_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:list_skins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:list_skins",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:load_skin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:load_skin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_skin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_skin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:set_active_skin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:set_active_skin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_skin_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_skin_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:init_skin_from_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:init_skin_from_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_prompt_symbol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_prompt_symbol",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_help_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_help_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_goodbye",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_active_goodbye",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_prompt_toolkit_style_overrides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "function:hermes_cli/skin_engine.py:get_prompt_toolkit_style_overrides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "class:hermes_cli/skin_engine.py:SkinConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/skin_engine.py",
+      "target": "class:hermes_cli/skin_engine.py:SkinConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/slack_cli.py",
+      "target": "function:hermes_cli/slack_cli.py:_build_full_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/slack_cli.py",
+      "target": "function:hermes_cli/slack_cli.py:_build_full_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/slack_cli.py",
+      "target": "function:hermes_cli/slack_cli.py:slack_manifest_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/slack_cli.py",
+      "target": "function:hermes_cli/slack_cli.py:slack_manifest_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:check_mark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:check_mark",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:redact_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:redact_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:_format_iso_timestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:_format_iso_timestamp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:_configured_model_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:_configured_model_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:_effective_provider_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:_effective_provider_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:show_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/status.py",
+      "target": "function:hermes_cli/status.py:show_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:is_windows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:is_windows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_flip_console_code_page_to_utf8",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_flip_console_code_page_to_utf8",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_reconfigure_stream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_reconfigure_stream",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:configure_windows_stdio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:configure_windows_stdio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_default_windows_editor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_default_windows_editor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_augment_path_with_known_tools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/stdio.py",
+      "target": "function:hermes_cli/stdio.py:_augment_path_with_known_tools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/_shared.py",
+      "target": "function:hermes_cli/subcommands/_shared.py:add_accept_hooks_flag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/_shared.py",
+      "target": "function:hermes_cli/subcommands/_shared.py:add_accept_hooks_flag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/acp.py",
+      "target": "function:hermes_cli/subcommands/acp.py:build_acp_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/acp.py",
+      "target": "function:hermes_cli/subcommands/acp.py:build_acp_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/auth.py",
+      "target": "function:hermes_cli/subcommands/auth.py:build_auth_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/auth.py",
+      "target": "function:hermes_cli/subcommands/auth.py:build_auth_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/backup.py",
+      "target": "function:hermes_cli/subcommands/backup.py:build_backup_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/backup.py",
+      "target": "function:hermes_cli/subcommands/backup.py:build_backup_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/claw.py",
+      "target": "function:hermes_cli/subcommands/claw.py:build_claw_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/claw.py",
+      "target": "function:hermes_cli/subcommands/claw.py:build_claw_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/config.py",
+      "target": "function:hermes_cli/subcommands/config.py:build_config_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/config.py",
+      "target": "function:hermes_cli/subcommands/config.py:build_config_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/cron.py",
+      "target": "function:hermes_cli/subcommands/cron.py:build_cron_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/cron.py",
+      "target": "function:hermes_cli/subcommands/cron.py:build_cron_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/dashboard.py",
+      "target": "function:hermes_cli/subcommands/dashboard.py:build_dashboard_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/dashboard.py",
+      "target": "function:hermes_cli/subcommands/dashboard.py:build_dashboard_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/debug.py",
+      "target": "function:hermes_cli/subcommands/debug.py:build_debug_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/debug.py",
+      "target": "function:hermes_cli/subcommands/debug.py:build_debug_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/doctor.py",
+      "target": "function:hermes_cli/subcommands/doctor.py:build_doctor_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/doctor.py",
+      "target": "function:hermes_cli/subcommands/doctor.py:build_doctor_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/dump.py",
+      "target": "function:hermes_cli/subcommands/dump.py:build_dump_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/dump.py",
+      "target": "function:hermes_cli/subcommands/dump.py:build_dump_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/gateway.py",
+      "target": "function:hermes_cli/subcommands/gateway.py:build_gateway_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/gateway.py",
+      "target": "function:hermes_cli/subcommands/gateway.py:build_gateway_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/gui.py",
+      "target": "function:hermes_cli/subcommands/gui.py:build_gui_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/gui.py",
+      "target": "function:hermes_cli/subcommands/gui.py:build_gui_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/hooks.py",
+      "target": "function:hermes_cli/subcommands/hooks.py:build_hooks_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/hooks.py",
+      "target": "function:hermes_cli/subcommands/hooks.py:build_hooks_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/import_cmd.py",
+      "target": "function:hermes_cli/subcommands/import_cmd.py:build_import_cmd_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/import_cmd.py",
+      "target": "function:hermes_cli/subcommands/import_cmd.py:build_import_cmd_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:hermes_cli/subcommands/insights.py",
+      "target": "function:hermes_cli/subcommands/insights.py:build_insights_parser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:hermes_cli/subcommands/insights.py",
+      "target": "function:hermes_cli/subcommands/insights.py:build_insights_parser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

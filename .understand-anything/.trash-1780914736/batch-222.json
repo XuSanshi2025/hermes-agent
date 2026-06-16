@@ -1,0 +1,2364 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/src/lib/wheelAccel.ts",
+      "type": "file",
+      "name": "wheelAccel.ts",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "summary": "wheelAccel.ts 是 typescript 源文件，包含 6 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/lib/wheelAccel.ts:initWheelAccel",
+      "type": "function",
+      "name": "initWheelAccel",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "lineRange": [
+        63,
+        65
+      ],
+      "summary": "initWheelAccel 是 wheelAccel.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/wheelAccel.ts:readScrollSpeedBase",
+      "type": "function",
+      "name": "readScrollSpeedBase",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "lineRange": [
+        69,
+        73
+      ],
+      "summary": "readScrollSpeedBase 是 wheelAccel.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/wheelAccel.ts:initWheelAccelForHost",
+      "type": "function",
+      "name": "initWheelAccelForHost",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "lineRange": [
+        75,
+        77
+      ],
+      "summary": "initWheelAccelForHost 是 wheelAccel.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/wheelAccel.ts:computeWheelStep",
+      "type": "function",
+      "name": "computeWheelStep",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "lineRange": [
+        82,
+        84
+      ],
+      "summary": "computeWheelStep 是 wheelAccel.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/lib/wheelAccel.ts:nativeStep",
+      "type": "function",
+      "name": "nativeStep",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "lineRange": [
+        86,
+        160
+      ],
+      "summary": "nativeStep 是 wheelAccel.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/lib/wheelAccel.ts:xtermJsStep",
+      "type": "function",
+      "name": "xtermJsStep",
+      "filePath": "ui-tui/src/lib/wheelAccel.ts",
+      "lineRange": [
+        162,
+        190
+      ],
+      "summary": "xtermJsStep 是 wheelAccel.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/protocol/interpolation.ts",
+      "type": "file",
+      "name": "interpolation.ts",
+      "filePath": "ui-tui/src/protocol/interpolation.ts",
+      "summary": "interpolation.ts 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/protocol/interpolation.ts:hasInterpolation",
+      "type": "function",
+      "name": "hasInterpolation",
+      "filePath": "ui-tui/src/protocol/interpolation.ts",
+      "lineRange": [
+        3,
+        3
+      ],
+      "summary": "hasInterpolation 是 interpolation.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/protocol/paste.ts",
+      "type": "file",
+      "name": "paste.ts",
+      "filePath": "ui-tui/src/protocol/paste.ts",
+      "summary": "paste.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/theme.ts",
+      "type": "file",
+      "name": "theme.ts",
+      "filePath": "ui-tui/src/theme.ts",
+      "summary": "theme.ts 是 typescript 源文件，包含 16 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:parseHex",
+      "type": "function",
+      "name": "parseHex",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        56,
+        66
+      ],
+      "summary": "parseHex 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:mix",
+      "type": "function",
+      "name": "mix",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        68,
+        79
+      ],
+      "summary": "mix 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:xtermEightBitRgb",
+      "type": "function",
+      "name": "xtermEightBitRgb",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        104,
+        122
+      ],
+      "summary": "xtermEightBitRgb 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:rgbToHsl",
+      "type": "function",
+      "name": "rgbToHsl",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        134,
+        157
+      ],
+      "summary": "rgbToHsl 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:richEightBitColorNumber",
+      "type": "function",
+      "name": "richEightBitColorNumber",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        167,
+        181
+      ],
+      "summary": "richEightBitColorNumber 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:bestReadableAnsiColor",
+      "type": "function",
+      "name": "bestReadableAnsiColor",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        183,
+        218
+      ],
+      "summary": "bestReadableAnsiColor 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:normalizeAnsiForeground",
+      "type": "function",
+      "name": "normalizeAnsiForeground",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        220,
+        235
+      ],
+      "summary": "normalizeAnsiForeground 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:backgroundLuminance",
+      "type": "function",
+      "name": "backgroundLuminance",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        375,
+        396
+      ],
+      "summary": "backgroundLuminance 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:detectLightMode",
+      "type": "function",
+      "name": "detectLightMode",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        415,
+        475
+      ],
+      "summary": "detectLightMode 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:normalizeThemeForAnsiLightTerminal",
+      "type": "function",
+      "name": "normalizeThemeForAnsiLightTerminal",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        484,
+        504
+      ],
+      "summary": "normalizeThemeForAnsiLightTerminal 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/theme.ts:fromSkin",
+      "type": "function",
+      "name": "fromSkin",
+      "filePath": "ui-tui/src/theme.ts",
+      "lineRange": [
+        516,
+        589
+      ],
+      "summary": "fromSkin 是 theme.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "ui-tui/src/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/types/hermes-ink.d.ts",
+      "type": "file",
+      "name": "hermes-ink.d.ts",
+      "filePath": "ui-tui/src/types/hermes-ink.d.ts",
+      "summary": "hermes-ink.d.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/vitest.config.ts",
+      "type": "file",
+      "name": "vitest.config.ts",
+      "filePath": "ui-tui/vitest.config.ts",
+      "summary": "vitest.config.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:utils.py",
+      "type": "file",
+      "name": "utils.py",
+      "filePath": "utils.py",
+      "summary": "utils.py 是 python 源文件，包含 15 个函数、15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:utils.py:is_truthy_value",
+      "type": "function",
+      "name": "is_truthy_value",
+      "filePath": "utils.py",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "is_truthy_value 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:env_var_enabled",
+      "type": "function",
+      "name": "env_var_enabled",
+      "filePath": "utils.py",
+      "lineRange": [
+        31,
+        33
+      ],
+      "summary": "env_var_enabled 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:_preserve_file_mode",
+      "type": "function",
+      "name": "_preserve_file_mode",
+      "filePath": "utils.py",
+      "lineRange": [
+        36,
+        41
+      ],
+      "summary": "_preserve_file_mode 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:_restore_file_mode",
+      "type": "function",
+      "name": "_restore_file_mode",
+      "filePath": "utils.py",
+      "lineRange": [
+        44,
+        58
+      ],
+      "summary": "_restore_file_mode 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:atomic_replace",
+      "type": "function",
+      "name": "atomic_replace",
+      "filePath": "utils.py",
+      "lineRange": [
+        61,
+        82
+      ],
+      "summary": "atomic_replace 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:atomic_json_write",
+      "type": "function",
+      "name": "atomic_json_write",
+      "filePath": "utils.py",
+      "lineRange": [
+        85,
+        151
+      ],
+      "summary": "atomic_json_write 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:utils.py:atomic_yaml_write",
+      "type": "function",
+      "name": "atomic_yaml_write",
+      "filePath": "utils.py",
+      "lineRange": [
+        154,
+        203
+      ],
+      "summary": "atomic_yaml_write 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:utils.py:atomic_roundtrip_yaml_update",
+      "type": "function",
+      "name": "atomic_roundtrip_yaml_update",
+      "filePath": "utils.py",
+      "lineRange": [
+        206,
+        267
+      ],
+      "summary": "atomic_roundtrip_yaml_update 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:utils.py:safe_json_loads",
+      "type": "function",
+      "name": "safe_json_loads",
+      "filePath": "utils.py",
+      "lineRange": [
+        273,
+        283
+      ],
+      "summary": "safe_json_loads 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:env_int",
+      "type": "function",
+      "name": "env_int",
+      "filePath": "utils.py",
+      "lineRange": [
+        289,
+        297
+      ],
+      "summary": "env_int 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:env_bool",
+      "type": "function",
+      "name": "env_bool",
+      "filePath": "utils.py",
+      "lineRange": [
+        300,
+        302
+      ],
+      "summary": "env_bool 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:normalize_proxy_url",
+      "type": "function",
+      "name": "normalize_proxy_url",
+      "filePath": "utils.py",
+      "lineRange": [
+        314,
+        326
+      ],
+      "summary": "normalize_proxy_url 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:normalize_proxy_env_vars",
+      "type": "function",
+      "name": "normalize_proxy_env_vars",
+      "filePath": "utils.py",
+      "lineRange": [
+        329,
+        335
+      ],
+      "summary": "normalize_proxy_env_vars 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:base_url_hostname",
+      "type": "function",
+      "name": "base_url_hostname",
+      "filePath": "utils.py",
+      "lineRange": [
+        341,
+        355
+      ],
+      "summary": "base_url_hostname 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:utils.py:base_url_host_matches",
+      "type": "function",
+      "name": "base_url_host_matches",
+      "filePath": "utils.py",
+      "lineRange": [
+        358,
+        376
+      ],
+      "summary": "base_url_host_matches 是 utils.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "web/eslint.config.js",
+      "summary": "eslint.config.js 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:web/src/App.tsx",
+      "type": "file",
+      "name": "App.tsx",
+      "filePath": "web/src/App.tsx",
+      "summary": "App.tsx 是 typescript 源文件，包含 14 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/App.tsx:buildNavItems",
+      "type": "function",
+      "name": "buildNavItems",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        220,
+        253
+      ],
+      "summary": "buildNavItems 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/App.tsx:partitionSidebarNav",
+      "type": "function",
+      "name": "partitionSidebarNav",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        256,
+        269
+      ],
+      "summary": "partitionSidebarNav 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/App.tsx:buildRoutes",
+      "type": "function",
+      "name": "buildRoutes",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        271,
+        332
+      ],
+      "summary": "buildRoutes 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/App.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        336,
+        772
+      ],
+      "summary": "App 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/App.tsx:SidebarNavLink",
+      "type": "function",
+      "name": "SidebarNavLink",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        774,
+        852
+      ],
+      "summary": "SidebarNavLink 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/App.tsx:SidebarSystemActions",
+      "type": "function",
+      "name": "SidebarSystemActions",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        854,
+        929
+      ],
+      "summary": "SidebarSystemActions 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/App.tsx:SystemActionButton",
+      "type": "function",
+      "name": "SystemActionButton",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        931,
+        1011
+      ],
+      "summary": "SystemActionButton 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/App.tsx:SidebarIconWithTooltip",
+      "type": "function",
+      "name": "SidebarIconWithTooltip",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        1013,
+        1046
+      ],
+      "summary": "SidebarIconWithTooltip 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/App.tsx:GatewayDot",
+      "type": "function",
+      "name": "GatewayDot",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        1048,
+        1097
+      ],
+      "summary": "GatewayDot 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/App.tsx:SidebarTooltip",
+      "type": "function",
+      "name": "SidebarTooltip",
+      "filePath": "web/src/App.tsx",
+      "lineRange": [
+        1099,
+        1133
+      ],
+      "summary": "SidebarTooltip 是 App.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/AuthWidget.tsx",
+      "type": "file",
+      "name": "AuthWidget.tsx",
+      "filePath": "web/src/components/AuthWidget.tsx",
+      "summary": "AuthWidget.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/AuthWidget.tsx:AuthWidget",
+      "type": "function",
+      "name": "AuthWidget",
+      "filePath": "web/src/components/AuthWidget.tsx",
+      "lineRange": [
+        43,
+        150
+      ],
+      "summary": "AuthWidget 是 AuthWidget.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/components/AutoField.tsx",
+      "type": "file",
+      "name": "AutoField.tsx",
+      "filePath": "web/src/components/AutoField.tsx",
+      "summary": "AutoField.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/AutoField.tsx:FieldHint",
+      "type": "function",
+      "name": "FieldHint",
+      "filePath": "web/src/components/AutoField.tsx",
+      "lineRange": [
+        6,
+        18
+      ],
+      "summary": "FieldHint 是 AutoField.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/components/AutoField.tsx:NestedValueEditor",
+      "type": "function",
+      "name": "NestedValueEditor",
+      "filePath": "web/src/components/AutoField.tsx",
+      "lineRange": [
+        31,
+        83
+      ],
+      "summary": "NestedValueEditor 是 AutoField.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/AutoField.tsx:AutoField",
+      "type": "function",
+      "name": "AutoField",
+      "filePath": "web/src/components/AutoField.tsx",
+      "lineRange": [
+        85,
+        199
+      ],
+      "summary": "AutoField 是 AutoField.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/components/Backdrop.tsx",
+      "type": "file",
+      "name": "Backdrop.tsx",
+      "filePath": "web/src/components/Backdrop.tsx",
+      "summary": "Backdrop.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/Backdrop.tsx:Backdrop",
+      "type": "function",
+      "name": "Backdrop",
+      "filePath": "web/src/components/Backdrop.tsx",
+      "lineRange": [
+        42,
+        137
+      ],
+      "summary": "Backdrop 是 Backdrop.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/components/ChatSidebar.tsx",
+      "type": "file",
+      "name": "ChatSidebar.tsx",
+      "filePath": "web/src/components/ChatSidebar.tsx",
+      "summary": "ChatSidebar.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ChatSidebar.tsx:ChatSidebar",
+      "type": "function",
+      "name": "ChatSidebar",
+      "filePath": "web/src/components/ChatSidebar.tsx",
+      "lineRange": [
+        77,
+        394
+      ],
+      "summary": "ChatSidebar 是 ChatSidebar.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/components/DeleteConfirmDialog.tsx",
+      "type": "file",
+      "name": "DeleteConfirmDialog.tsx",
+      "filePath": "web/src/components/DeleteConfirmDialog.tsx",
+      "summary": "DeleteConfirmDialog.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/DeleteConfirmDialog.tsx:DeleteConfirmDialog",
+      "type": "function",
+      "name": "DeleteConfirmDialog",
+      "filePath": "web/src/components/DeleteConfirmDialog.tsx",
+      "lineRange": [
+        4,
+        29
+      ],
+      "summary": "DeleteConfirmDialog 是 DeleteConfirmDialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/LanguageSwitcher.tsx",
+      "type": "file",
+      "name": "LanguageSwitcher.tsx",
+      "filePath": "web/src/components/LanguageSwitcher.tsx",
+      "summary": "LanguageSwitcher.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/LanguageSwitcher.tsx:LanguageSwitcher",
+      "type": "function",
+      "name": "LanguageSwitcher",
+      "filePath": "web/src/components/LanguageSwitcher.tsx",
+      "lineRange": [
+        30,
+        136
+      ],
+      "summary": "LanguageSwitcher 是 LanguageSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/LanguageSwitcher.tsx:LanguageSwitcherOptions",
+      "type": "function",
+      "name": "LanguageSwitcherOptions",
+      "filePath": "web/src/components/LanguageSwitcher.tsx",
+      "lineRange": [
+        138,
+        174
+      ],
+      "summary": "LanguageSwitcherOptions 是 LanguageSwitcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/Markdown.tsx",
+      "type": "file",
+      "name": "Markdown.tsx",
+      "filePath": "web/src/components/Markdown.tsx",
+      "summary": "Markdown.tsx 是 typescript 源文件，包含 7 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/Markdown.tsx:Markdown",
+      "type": "function",
+      "name": "Markdown",
+      "filePath": "web/src/components/Markdown.tsx",
+      "lineRange": [
+        12,
+        37
+      ],
+      "summary": "Markdown 是 Markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/components/Markdown.tsx:parseBlocks",
+      "type": "function",
+      "name": "parseBlocks",
+      "filePath": "web/src/components/Markdown.tsx",
+      "lineRange": [
+        63,
+        153
+      ],
+      "summary": "parseBlocks 是 Markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/Markdown.tsx:Block",
+      "type": "function",
+      "name": "Block",
+      "filePath": "web/src/components/Markdown.tsx",
+      "lineRange": [
+        159,
+        228
+      ],
+      "summary": "Block 是 Markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/Markdown.tsx:parseInline",
+      "type": "function",
+      "name": "parseInline",
+      "filePath": "web/src/components/Markdown.tsx",
+      "lineRange": [
+        242,
+        283
+      ],
+      "summary": "parseInline 是 Markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/components/Markdown.tsx:InlineContent",
+      "type": "function",
+      "name": "InlineContent",
+      "filePath": "web/src/components/Markdown.tsx",
+      "lineRange": [
+        285,
+        359
+      ],
+      "summary": "InlineContent 是 Markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/Markdown.tsx:HighlightedText",
+      "type": "function",
+      "name": "HighlightedText",
+      "filePath": "web/src/components/Markdown.tsx",
+      "lineRange": [
+        362,
+        383
+      ],
+      "summary": "HighlightedText 是 Markdown.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/ModelInfoCard.tsx",
+      "type": "file",
+      "name": "ModelInfoCard.tsx",
+      "filePath": "web/src/components/ModelInfoCard.tsx",
+      "summary": "ModelInfoCard.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ModelInfoCard.tsx:ModelInfoCard",
+      "type": "function",
+      "name": "ModelInfoCard",
+      "filePath": "web/src/components/ModelInfoCard.tsx",
+      "lineRange": [
+        15,
+        112
+      ],
+      "summary": "ModelInfoCard 是 ModelInfoCard.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/components/ModelPickerDialog.tsx",
+      "type": "file",
+      "name": "ModelPickerDialog.tsx",
+      "filePath": "web/src/components/ModelPickerDialog.tsx",
+      "summary": "ModelPickerDialog.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ModelPickerDialog.tsx:ModelPickerDialog",
+      "type": "function",
+      "name": "ModelPickerDialog",
+      "filePath": "web/src/components/ModelPickerDialog.tsx",
+      "lineRange": [
+        70,
+        326
+      ],
+      "summary": "ModelPickerDialog 是 ModelPickerDialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/components/ModelPickerDialog.tsx:ProviderColumn",
+      "type": "function",
+      "name": "ProviderColumn",
+      "filePath": "web/src/components/ModelPickerDialog.tsx",
+      "lineRange": [
+        332,
+        394
+      ],
+      "summary": "ProviderColumn 是 ModelPickerDialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ModelPickerDialog.tsx:ModelColumn",
+      "type": "function",
+      "name": "ModelColumn",
+      "filePath": "web/src/components/ModelPickerDialog.tsx",
+      "lineRange": [
+        400,
+        470
+      ],
+      "summary": "ModelColumn 是 ModelPickerDialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ModelPickerDialog.tsx:HighlightedText",
+      "type": "function",
+      "name": "HighlightedText",
+      "filePath": "web/src/components/ModelPickerDialog.tsx",
+      "lineRange": [
+        485,
+        514
+      ],
+      "summary": "HighlightedText 是 ModelPickerDialog.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/OAuthLoginModal.tsx",
+      "type": "file",
+      "name": "OAuthLoginModal.tsx",
+      "filePath": "web/src/components/OAuthLoginModal.tsx",
+      "summary": "OAuthLoginModal.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/OAuthLoginModal.tsx:OAuthLoginModal",
+      "type": "function",
+      "name": "OAuthLoginModal",
+      "filePath": "web/src/components/OAuthLoginModal.tsx",
+      "lineRange": [
+        28,
+        374
+      ],
+      "summary": "OAuthLoginModal 是 OAuthLoginModal.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/components/OAuthProvidersCard.tsx",
+      "type": "file",
+      "name": "OAuthProvidersCard.tsx",
+      "filePath": "web/src/components/OAuthProvidersCard.tsx",
+      "summary": "OAuthProvidersCard.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/OAuthProvidersCard.tsx:formatExpiresAt",
+      "type": "function",
+      "name": "formatExpiresAt",
+      "filePath": "web/src/components/OAuthProvidersCard.tsx",
+      "lineRange": [
+        30,
+        50
+      ],
+      "summary": "formatExpiresAt 是 OAuthProvidersCard.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/components/OAuthProvidersCard.tsx:OAuthProvidersCard",
+      "type": "function",
+      "name": "OAuthProvidersCard",
+      "filePath": "web/src/components/OAuthProvidersCard.tsx",
+      "lineRange": [
+        52,
+        287
+      ],
+      "summary": "OAuthProvidersCard 是 OAuthProvidersCard.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/components/PlatformsCard.tsx",
+      "type": "file",
+      "name": "PlatformsCard.tsx",
+      "filePath": "web/src/components/PlatformsCard.tsx",
+      "summary": "PlatformsCard.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/PlatformsCard.tsx:PlatformsCard",
+      "type": "function",
+      "name": "PlatformsCard",
+      "filePath": "web/src/components/PlatformsCard.tsx",
+      "lineRange": [
+        8,
+        93
+      ],
+      "summary": "PlatformsCard 是 PlatformsCard.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/components/ScheduleBuilder.tsx",
+      "type": "file",
+      "name": "ScheduleBuilder.tsx",
+      "filePath": "web/src/components/ScheduleBuilder.tsx",
+      "summary": "ScheduleBuilder.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/ScheduleBuilder.tsx:ScheduleBuilder",
+      "type": "function",
+      "name": "ScheduleBuilder",
+      "filePath": "web/src/components/ScheduleBuilder.tsx",
+      "lineRange": [
+        39,
+        235
+      ],
+      "summary": "ScheduleBuilder 是 ScheduleBuilder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/components/ScheduleBuilder.tsx:TimeOfDayField",
+      "type": "function",
+      "name": "TimeOfDayField",
+      "filePath": "web/src/components/ScheduleBuilder.tsx",
+      "lineRange": [
+        237,
+        259
+      ],
+      "summary": "TimeOfDayField 是 ScheduleBuilder.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/SidebarFooter.tsx",
+      "type": "file",
+      "name": "SidebarFooter.tsx",
+      "filePath": "web/src/components/SidebarFooter.tsx",
+      "summary": "SidebarFooter.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/SidebarFooter.tsx:SidebarFooter",
+      "type": "function",
+      "name": "SidebarFooter",
+      "filePath": "web/src/components/SidebarFooter.tsx",
+      "lineRange": [
+        6,
+        38
+      ],
+      "summary": "SidebarFooter 是 SidebarFooter.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/components/SidebarStatusStrip.tsx",
+      "type": "file",
+      "name": "SidebarStatusStrip.tsx",
+      "filePath": "web/src/components/SidebarStatusStrip.tsx",
+      "summary": "SidebarStatusStrip.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/components/SidebarStatusStrip.tsx:SidebarStatusStrip",
+      "type": "function",
+      "name": "SidebarStatusStrip",
+      "filePath": "web/src/components/SidebarStatusStrip.tsx",
+      "lineRange": [
+        7,
+        49
+      ],
+      "summary": "SidebarStatusStrip 是 SidebarStatusStrip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/components/SidebarStatusStrip.tsx:gatewayLine",
+      "type": "function",
+      "name": "gatewayLine",
+      "filePath": "web/src/components/SidebarStatusStrip.tsx",
+      "lineRange": [
+        51,
+        68
+      ],
+      "summary": "gatewayLine 是 SidebarStatusStrip.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:initWheelAccel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:initWheelAccel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:readScrollSpeedBase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:readScrollSpeedBase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:initWheelAccelForHost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:initWheelAccelForHost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:computeWheelStep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:computeWheelStep",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:nativeStep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/lib/wheelAccel.ts",
+      "target": "function:ui-tui/src/lib/wheelAccel.ts:xtermJsStep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/protocol/interpolation.ts",
+      "target": "function:ui-tui/src/protocol/interpolation.ts:hasInterpolation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/protocol/interpolation.ts",
+      "target": "function:ui-tui/src/protocol/interpolation.ts:hasInterpolation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:parseHex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:mix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:xtermEightBitRgb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:rgbToHsl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:richEightBitColorNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:bestReadableAnsiColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:normalizeAnsiForeground",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:backgroundLuminance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:detectLightMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:detectLightMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:normalizeThemeForAnsiLightTerminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:normalizeThemeForAnsiLightTerminal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:fromSkin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/theme.ts",
+      "target": "function:ui-tui/src/theme.ts:fromSkin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:is_truthy_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:is_truthy_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:env_var_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:env_var_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:_preserve_file_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:_preserve_file_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:_restore_file_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:_restore_file_mode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_replace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_replace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_json_write",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_json_write",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_yaml_write",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_yaml_write",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_roundtrip_yaml_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:atomic_roundtrip_yaml_update",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:safe_json_loads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:safe_json_loads",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:env_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:env_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:env_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:env_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:normalize_proxy_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:normalize_proxy_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:normalize_proxy_env_vars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:normalize_proxy_env_vars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:base_url_hostname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:base_url_hostname",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:base_url_host_matches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:utils.py",
+      "target": "function:utils.py:base_url_host_matches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:buildNavItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:partitionSidebarNav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:buildRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:App",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:SidebarNavLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:SidebarSystemActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:SystemActionButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:SidebarIconWithTooltip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:GatewayDot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/App.tsx",
+      "target": "function:web/src/App.tsx:SidebarTooltip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/AuthWidget.tsx",
+      "target": "function:web/src/components/AuthWidget.tsx:AuthWidget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/AuthWidget.tsx",
+      "target": "function:web/src/components/AuthWidget.tsx:AuthWidget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/AutoField.tsx",
+      "target": "function:web/src/components/AutoField.tsx:FieldHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/AutoField.tsx",
+      "target": "function:web/src/components/AutoField.tsx:NestedValueEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/AutoField.tsx",
+      "target": "function:web/src/components/AutoField.tsx:AutoField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/AutoField.tsx",
+      "target": "function:web/src/components/AutoField.tsx:AutoField",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/Backdrop.tsx",
+      "target": "function:web/src/components/Backdrop.tsx:Backdrop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Backdrop.tsx",
+      "target": "function:web/src/components/Backdrop.tsx:Backdrop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ChatSidebar.tsx",
+      "target": "function:web/src/components/ChatSidebar.tsx:ChatSidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ChatSidebar.tsx",
+      "target": "function:web/src/components/ChatSidebar.tsx:ChatSidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/DeleteConfirmDialog.tsx",
+      "target": "function:web/src/components/DeleteConfirmDialog.tsx:DeleteConfirmDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/DeleteConfirmDialog.tsx",
+      "target": "function:web/src/components/DeleteConfirmDialog.tsx:DeleteConfirmDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/LanguageSwitcher.tsx",
+      "target": "function:web/src/components/LanguageSwitcher.tsx:LanguageSwitcher",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/LanguageSwitcher.tsx",
+      "target": "function:web/src/components/LanguageSwitcher.tsx:LanguageSwitcher",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/LanguageSwitcher.tsx",
+      "target": "function:web/src/components/LanguageSwitcher.tsx:LanguageSwitcherOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:Markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:Markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:parseBlocks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:Block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:parseInline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:InlineContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/Markdown.tsx",
+      "target": "function:web/src/components/Markdown.tsx:HighlightedText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ModelInfoCard.tsx",
+      "target": "function:web/src/components/ModelInfoCard.tsx:ModelInfoCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ModelInfoCard.tsx",
+      "target": "function:web/src/components/ModelInfoCard.tsx:ModelInfoCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ModelPickerDialog.tsx",
+      "target": "function:web/src/components/ModelPickerDialog.tsx:ModelPickerDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ModelPickerDialog.tsx",
+      "target": "function:web/src/components/ModelPickerDialog.tsx:ModelPickerDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ModelPickerDialog.tsx",
+      "target": "function:web/src/components/ModelPickerDialog.tsx:ProviderColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ModelPickerDialog.tsx",
+      "target": "function:web/src/components/ModelPickerDialog.tsx:ModelColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ModelPickerDialog.tsx",
+      "target": "function:web/src/components/ModelPickerDialog.tsx:HighlightedText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/OAuthLoginModal.tsx",
+      "target": "function:web/src/components/OAuthLoginModal.tsx:OAuthLoginModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/OAuthLoginModal.tsx",
+      "target": "function:web/src/components/OAuthLoginModal.tsx:OAuthLoginModal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/OAuthProvidersCard.tsx",
+      "target": "function:web/src/components/OAuthProvidersCard.tsx:formatExpiresAt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/OAuthProvidersCard.tsx",
+      "target": "function:web/src/components/OAuthProvidersCard.tsx:OAuthProvidersCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/OAuthProvidersCard.tsx",
+      "target": "function:web/src/components/OAuthProvidersCard.tsx:OAuthProvidersCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/PlatformsCard.tsx",
+      "target": "function:web/src/components/PlatformsCard.tsx:PlatformsCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/PlatformsCard.tsx",
+      "target": "function:web/src/components/PlatformsCard.tsx:PlatformsCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ScheduleBuilder.tsx",
+      "target": "function:web/src/components/ScheduleBuilder.tsx:ScheduleBuilder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/ScheduleBuilder.tsx",
+      "target": "function:web/src/components/ScheduleBuilder.tsx:ScheduleBuilder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/ScheduleBuilder.tsx",
+      "target": "function:web/src/components/ScheduleBuilder.tsx:TimeOfDayField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/SidebarFooter.tsx",
+      "target": "function:web/src/components/SidebarFooter.tsx:SidebarFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/SidebarFooter.tsx",
+      "target": "function:web/src/components/SidebarFooter.tsx:SidebarFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/SidebarStatusStrip.tsx",
+      "target": "function:web/src/components/SidebarStatusStrip.tsx:SidebarStatusStrip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/SidebarStatusStrip.tsx",
+      "target": "function:web/src/components/SidebarStatusStrip.tsx:SidebarStatusStrip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/components/SidebarStatusStrip.tsx",
+      "target": "function:web/src/components/SidebarStatusStrip.tsx:gatewayLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/components/SidebarStatusStrip.tsx",
+      "target": "function:web/src/components/SidebarStatusStrip.tsx:gatewayLine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

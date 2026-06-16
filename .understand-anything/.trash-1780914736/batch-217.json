@@ -1,0 +1,1857 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/src/__tests__/virtualHistoryClamp.test.ts",
+      "type": "file",
+      "name": "virtualHistoryClamp.test.ts",
+      "filePath": "ui-tui/src/__tests__/virtualHistoryClamp.test.ts",
+      "summary": "virtualHistoryClamp.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts",
+      "type": "file",
+      "name": "virtualHistoryOffsetCache.test.ts",
+      "filePath": "ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts",
+      "summary": "virtualHistoryOffsetCache.test.ts 是 typescript 源文件，包含 6 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts:makeStreams",
+      "type": "function",
+      "name": "makeStreams",
+      "filePath": "ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts",
+      "lineRange": [
+        22,
+        33
+      ],
+      "summary": "makeStreams 是 virtualHistoryOffsetCache.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts:Harness",
+      "type": "function",
+      "name": "Harness",
+      "filePath": "ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts",
+      "lineRange": [
+        56,
+        105
+      ],
+      "summary": "Harness 是 virtualHistoryOffsetCache.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/wheelAccel.test.ts",
+      "type": "file",
+      "name": "wheelAccel.test.ts",
+      "filePath": "ui-tui/src/__tests__/wheelAccel.test.ts",
+      "summary": "wheelAccel.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/app.tsx",
+      "type": "file",
+      "name": "app.tsx",
+      "filePath": "ui-tui/src/app.tsx",
+      "summary": "app.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "ui-tui/src/app.tsx",
+      "lineRange": [
+        9,
+        25
+      ],
+      "summary": "App 是 app.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/createGatewayEventHandler.ts",
+      "type": "file",
+      "name": "createGatewayEventHandler.ts",
+      "filePath": "ui-tui/src/app/createGatewayEventHandler.ts",
+      "summary": "createGatewayEventHandler.ts 是 typescript 源文件，包含 6 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/createGatewayEventHandler.ts:applySkin",
+      "type": "function",
+      "name": "applySkin",
+      "filePath": "ui-tui/src/app/createGatewayEventHandler.ts",
+      "lineRange": [
+        28,
+        38
+      ],
+      "summary": "applySkin 是 createGatewayEventHandler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/createGatewayEventHandler.ts:createGatewayEventHandler",
+      "type": "function",
+      "name": "createGatewayEventHandler",
+      "filePath": "ui-tui/src/app/createGatewayEventHandler.ts",
+      "lineRange": [
+        77,
+        916
+      ],
+      "summary": "createGatewayEventHandler 是 createGatewayEventHandler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/app/createSlashHandler.ts",
+      "type": "file",
+      "name": "createSlashHandler.ts",
+      "filePath": "ui-tui/src/app/createSlashHandler.ts",
+      "summary": "createSlashHandler.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/createSlashHandler.ts:createSlashHandler",
+      "type": "function",
+      "name": "createSlashHandler",
+      "filePath": "ui-tui/src/app/createSlashHandler.ts",
+      "lineRange": [
+        10,
+        143
+      ],
+      "summary": "createSlashHandler 是 createSlashHandler.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ui-tui/src/app/delegationStore.ts",
+      "type": "file",
+      "name": "delegationStore.ts",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "summary": "delegationStore.ts 是 typescript 源文件，包含 7 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/delegationStore.ts:getDelegationState",
+      "type": "function",
+      "name": "getDelegationState",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "lineRange": [
+        24,
+        24
+      ],
+      "summary": "getDelegationState 是 delegationStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/delegationStore.ts:patchDelegationState",
+      "type": "function",
+      "name": "patchDelegationState",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "lineRange": [
+        26,
+        27
+      ],
+      "summary": "patchDelegationState 是 delegationStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/delegationStore.ts:resetDelegationState",
+      "type": "function",
+      "name": "resetDelegationState",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "lineRange": [
+        29,
+        29
+      ],
+      "summary": "resetDelegationState 是 delegationStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/delegationStore.ts:toggleOverlaySection",
+      "type": "function",
+      "name": "toggleOverlaySection",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "lineRange": [
+        43,
+        48
+      ],
+      "summary": "toggleOverlaySection 是 delegationStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/delegationStore.ts:getOverlaySectionOpen",
+      "type": "function",
+      "name": "getOverlaySectionOpen",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "lineRange": [
+        50,
+        54
+      ],
+      "summary": "getOverlaySectionOpen 是 delegationStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/delegationStore.ts:applyDelegationStatus",
+      "type": "function",
+      "name": "applyDelegationStatus",
+      "filePath": "ui-tui/src/app/delegationStore.ts",
+      "lineRange": [
+        57,
+        77
+      ],
+      "summary": "applyDelegationStatus 是 delegationStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/gatewayContext.tsx",
+      "type": "file",
+      "name": "gatewayContext.tsx",
+      "filePath": "ui-tui/src/app/gatewayContext.tsx",
+      "summary": "gatewayContext.tsx 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/gatewayContext.tsx:GatewayProvider",
+      "type": "function",
+      "name": "GatewayProvider",
+      "filePath": "ui-tui/src/app/gatewayContext.tsx",
+      "lineRange": [
+        7,
+        9
+      ],
+      "summary": "GatewayProvider 是 gatewayContext.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/gatewayContext.tsx:useGateway",
+      "type": "function",
+      "name": "useGateway",
+      "filePath": "ui-tui/src/app/gatewayContext.tsx",
+      "lineRange": [
+        11,
+        19
+      ],
+      "summary": "useGateway 是 gatewayContext.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/gatewayRecovery.ts",
+      "type": "file",
+      "name": "gatewayRecovery.ts",
+      "filePath": "ui-tui/src/app/gatewayRecovery.ts",
+      "summary": "gatewayRecovery.ts 是 typescript 源文件，包含 1 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/gatewayRecovery.ts:planGatewayRecovery",
+      "type": "function",
+      "name": "planGatewayRecovery",
+      "filePath": "ui-tui/src/app/gatewayRecovery.ts",
+      "lineRange": [
+        24,
+        35
+      ],
+      "summary": "planGatewayRecovery 是 gatewayRecovery.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/inputSelectionStore.ts",
+      "type": "file",
+      "name": "inputSelectionStore.ts",
+      "filePath": "ui-tui/src/app/inputSelectionStore.ts",
+      "summary": "inputSelectionStore.ts 是 typescript 源文件，包含 2 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/inputSelectionStore.ts:setInputSelection",
+      "type": "function",
+      "name": "setInputSelection",
+      "filePath": "ui-tui/src/app/inputSelectionStore.ts",
+      "lineRange": [
+        13,
+        13
+      ],
+      "summary": "setInputSelection 是 inputSelectionStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/inputSelectionStore.ts:getInputSelection",
+      "type": "function",
+      "name": "getInputSelection",
+      "filePath": "ui-tui/src/app/inputSelectionStore.ts",
+      "lineRange": [
+        15,
+        15
+      ],
+      "summary": "getInputSelection 是 inputSelectionStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/interfaces.ts",
+      "type": "file",
+      "name": "interfaces.ts",
+      "filePath": "ui-tui/src/app/interfaces.ts",
+      "summary": "interfaces.ts 是 typescript 源文件，包含 2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/app/overlayStore.ts",
+      "type": "file",
+      "name": "overlayStore.ts",
+      "filePath": "ui-tui/src/app/overlayStore.ts",
+      "summary": "overlayStore.ts 是 typescript 源文件，包含 5 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/overlayStore.ts:buildOverlayState",
+      "type": "function",
+      "name": "buildOverlayState",
+      "filePath": "ui-tui/src/app/overlayStore.ts",
+      "lineRange": [
+        5,
+        17
+      ],
+      "summary": "buildOverlayState 是 overlayStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/overlayStore.ts:getOverlayState",
+      "type": "function",
+      "name": "getOverlayState",
+      "filePath": "ui-tui/src/app/overlayStore.ts",
+      "lineRange": [
+        27,
+        27
+      ],
+      "summary": "getOverlayState 是 overlayStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/overlayStore.ts:patchOverlayState",
+      "type": "function",
+      "name": "patchOverlayState",
+      "filePath": "ui-tui/src/app/overlayStore.ts",
+      "lineRange": [
+        29,
+        30
+      ],
+      "summary": "patchOverlayState 是 overlayStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/overlayStore.ts:resetOverlayState",
+      "type": "function",
+      "name": "resetOverlayState",
+      "filePath": "ui-tui/src/app/overlayStore.ts",
+      "lineRange": [
+        33,
+        33
+      ],
+      "summary": "resetOverlayState 是 overlayStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/overlayStore.ts:resetFlowOverlays",
+      "type": "function",
+      "name": "resetFlowOverlays",
+      "filePath": "ui-tui/src/app/overlayStore.ts",
+      "lineRange": [
+        43,
+        51
+      ],
+      "summary": "resetFlowOverlays 是 overlayStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/scroll.ts",
+      "type": "file",
+      "name": "scroll.ts",
+      "filePath": "ui-tui/src/app/scroll.ts",
+      "summary": "scroll.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/scroll.ts:scrollBoundsForDelta",
+      "type": "function",
+      "name": "scrollBoundsForDelta",
+      "filePath": "ui-tui/src/app/scroll.ts",
+      "lineRange": [
+        16,
+        31
+      ],
+      "summary": "scrollBoundsForDelta 是 scroll.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/scroll.ts:scrollWithSelectionBy",
+      "type": "function",
+      "name": "scrollWithSelectionBy",
+      "filePath": "ui-tui/src/app/scroll.ts",
+      "lineRange": [
+        33,
+        71
+      ],
+      "summary": "scrollWithSelectionBy 是 scroll.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/setupHandoff.ts",
+      "type": "file",
+      "name": "setupHandoff.ts",
+      "filePath": "ui-tui/src/app/setupHandoff.ts",
+      "summary": "setupHandoff.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/setupHandoff.ts:runExternalSetup",
+      "type": "function",
+      "name": "runExternalSetup",
+      "filePath": "ui-tui/src/app/setupHandoff.ts",
+      "lineRange": [
+        17,
+        54
+      ],
+      "summary": "runExternalSetup 是 setupHandoff.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/commands/core.ts",
+      "type": "file",
+      "name": "core.ts",
+      "filePath": "ui-tui/src/app/slash/commands/core.ts",
+      "summary": "core.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/slash/commands/core.ts:flagFromArg",
+      "type": "function",
+      "name": "flagFromArg",
+      "filePath": "ui-tui/src/app/slash/commands/core.ts",
+      "lineRange": [
+        25,
+        45
+      ],
+      "summary": "flagFromArg 是 core.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/commands/debug.ts",
+      "type": "file",
+      "name": "debug.ts",
+      "filePath": "ui-tui/src/app/slash/commands/debug.ts",
+      "summary": "debug.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/commands/ops.ts",
+      "type": "file",
+      "name": "ops.ts",
+      "filePath": "ui-tui/src/app/slash/commands/ops.ts",
+      "summary": "ops.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/commands/session.ts",
+      "type": "file",
+      "name": "session.ts",
+      "filePath": "ui-tui/src/app/slash/commands/session.ts",
+      "summary": "session.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/slash/commands/session.ts:modelValueForConfigSet",
+      "type": "function",
+      "name": "modelValueForConfigSet",
+      "filePath": "ui-tui/src/app/slash/commands/session.ts",
+      "lineRange": [
+        26,
+        38
+      ],
+      "summary": "modelValueForConfigSet 是 session.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/commands/setup.ts",
+      "type": "file",
+      "name": "setup.ts",
+      "filePath": "ui-tui/src/app/slash/commands/setup.ts",
+      "summary": "setup.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/registry.ts",
+      "type": "file",
+      "name": "registry.ts",
+      "filePath": "ui-tui/src/app/slash/registry.ts",
+      "summary": "registry.ts 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/slash/registry.ts:findSlashCommand",
+      "type": "function",
+      "name": "findSlashCommand",
+      "filePath": "ui-tui/src/app/slash/registry.ts",
+      "lineRange": [
+        20,
+        20
+      ],
+      "summary": "findSlashCommand 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/slash/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "ui-tui/src/app/slash/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "type": "file",
+      "name": "spawnHistoryStore.ts",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "summary": "spawnHistoryStore.ts 是 typescript 源文件，包含 10 个函数、9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:getSpawnHistory",
+      "type": "function",
+      "name": "getSpawnHistory",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        47,
+        47
+      ],
+      "summary": "getSpawnHistory 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:getSpawnDiff",
+      "type": "function",
+      "name": "getSpawnDiff",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        48,
+        48
+      ],
+      "summary": "getSpawnDiff 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:clearSpawnHistory",
+      "type": "function",
+      "name": "clearSpawnHistory",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        50,
+        50
+      ],
+      "summary": "clearSpawnHistory 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:clearDiffPair",
+      "type": "function",
+      "name": "clearDiffPair",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        51,
+        51
+      ],
+      "summary": "clearDiffPair 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:setDiffPair",
+      "type": "function",
+      "name": "setDiffPair",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        52,
+        52
+      ],
+      "summary": "setDiffPair 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:pushSnapshot",
+      "type": "function",
+      "name": "pushSnapshot",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        63,
+        85
+      ],
+      "summary": "pushSnapshot 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:pushDiskSnapshot",
+      "type": "function",
+      "name": "pushDiskSnapshot",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        103,
+        124
+      ],
+      "summary": "pushDiskSnapshot 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/spawnHistoryStore.ts:normaliseSubagent",
+      "type": "function",
+      "name": "normaliseSubagent",
+      "filePath": "ui-tui/src/app/spawnHistoryStore.ts",
+      "lineRange": [
+        126,
+        159
+      ],
+      "summary": "normaliseSubagent 是 spawnHistoryStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/turnController.ts",
+      "type": "file",
+      "name": "turnController.ts",
+      "filePath": "ui-tui/src/app/turnController.ts",
+      "summary": "turnController.ts 是 typescript 源文件，包含 7 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnController.ts:parseTodos",
+      "type": "function",
+      "name": "parseTodos",
+      "filePath": "ui-tui/src/app/turnController.ts",
+      "lineRange": [
+        51,
+        76
+      ],
+      "summary": "parseTodos 是 turnController.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnController.ts:finalTail",
+      "type": "function",
+      "name": "finalTail",
+      "filePath": "ui-tui/src/app/turnController.ts",
+      "lineRange": [
+        81,
+        93
+      ],
+      "summary": "finalTail 是 turnController.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:ui-tui/src/app/turnController.ts:TurnController",
+      "type": "class",
+      "name": "TurnController",
+      "filePath": "ui-tui/src/app/turnController.ts",
+      "lineRange": [
+        112,
+        1005
+      ],
+      "summary": "TurnController 是 turnController.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:ui-tui/src/app/turnStore.ts",
+      "type": "file",
+      "name": "turnStore.ts",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "summary": "turnStore.ts 是 typescript 源文件，包含 9 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:buildTurnState",
+      "type": "function",
+      "name": "buildTurnState",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        7,
+        23
+      ],
+      "summary": "buildTurnState 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:getTurnState",
+      "type": "function",
+      "name": "getTurnState",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        27,
+        27
+      ],
+      "summary": "getTurnState 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:useTurnSelector",
+      "type": "function",
+      "name": "useTurnSelector",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        31,
+        36
+      ],
+      "summary": "useTurnSelector 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:patchTurnState",
+      "type": "function",
+      "name": "patchTurnState",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        38,
+        39
+      ],
+      "summary": "patchTurnState 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:toggleTodoCollapsed",
+      "type": "function",
+      "name": "toggleTodoCollapsed",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        41,
+        41
+      ],
+      "summary": "toggleTodoCollapsed 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:archiveDoneTodos",
+      "type": "function",
+      "name": "archiveDoneTodos",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        43,
+        43
+      ],
+      "summary": "archiveDoneTodos 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:archiveTodosAtTurnEnd",
+      "type": "function",
+      "name": "archiveTodosAtTurnEnd",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        45,
+        65
+      ],
+      "summary": "archiveTodosAtTurnEnd 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/turnStore.ts:resetTurnState",
+      "type": "function",
+      "name": "resetTurnState",
+      "filePath": "ui-tui/src/app/turnStore.ts",
+      "lineRange": [
+        67,
+        67
+      ],
+      "summary": "resetTurnState 是 turnStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/app/uiStore.ts",
+      "type": "file",
+      "name": "uiStore.ts",
+      "filePath": "ui-tui/src/app/uiStore.ts",
+      "summary": "uiStore.ts 是 typescript 源文件，包含 4 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/app/uiStore.ts:buildUiState",
+      "type": "function",
+      "name": "buildUiState",
+      "filePath": "ui-tui/src/app/uiStore.ts",
+      "lineRange": [
+        9,
+        33
+      ],
+      "summary": "buildUiState 是 uiStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/uiStore.ts:getUiState",
+      "type": "function",
+      "name": "getUiState",
+      "filePath": "ui-tui/src/app/uiStore.ts",
+      "lineRange": [
+        40,
+        40
+      ],
+      "summary": "getUiState 是 uiStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/uiStore.ts:patchUiState",
+      "type": "function",
+      "name": "patchUiState",
+      "filePath": "ui-tui/src/app/uiStore.ts",
+      "lineRange": [
+        42,
+        43
+      ],
+      "summary": "patchUiState 是 uiStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/app/uiStore.ts:resetUiState",
+      "type": "function",
+      "name": "resetUiState",
+      "filePath": "ui-tui/src/app/uiStore.ts",
+      "lineRange": [
+        45,
+        45
+      ],
+      "summary": "resetUiState 是 uiStore.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts",
+      "target": "function:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts:makeStreams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts",
+      "target": "function:ui-tui/src/__tests__/virtualHistoryOffsetCache.test.ts:Harness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app.tsx",
+      "target": "function:ui-tui/src/app.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app.tsx",
+      "target": "function:ui-tui/src/app.tsx:App",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/createGatewayEventHandler.ts",
+      "target": "function:ui-tui/src/app/createGatewayEventHandler.ts:applySkin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/createGatewayEventHandler.ts",
+      "target": "function:ui-tui/src/app/createGatewayEventHandler.ts:createGatewayEventHandler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/createGatewayEventHandler.ts",
+      "target": "function:ui-tui/src/app/createGatewayEventHandler.ts:createGatewayEventHandler",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/createSlashHandler.ts",
+      "target": "function:ui-tui/src/app/createSlashHandler.ts:createSlashHandler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/createSlashHandler.ts",
+      "target": "function:ui-tui/src/app/createSlashHandler.ts:createSlashHandler",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:getDelegationState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:getDelegationState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:patchDelegationState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:patchDelegationState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:resetDelegationState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:resetDelegationState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:toggleOverlaySection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:toggleOverlaySection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:getOverlaySectionOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:getOverlaySectionOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:applyDelegationStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/delegationStore.ts",
+      "target": "function:ui-tui/src/app/delegationStore.ts:applyDelegationStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/gatewayContext.tsx",
+      "target": "function:ui-tui/src/app/gatewayContext.tsx:GatewayProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/gatewayContext.tsx",
+      "target": "function:ui-tui/src/app/gatewayContext.tsx:GatewayProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/gatewayContext.tsx",
+      "target": "function:ui-tui/src/app/gatewayContext.tsx:useGateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/gatewayContext.tsx",
+      "target": "function:ui-tui/src/app/gatewayContext.tsx:useGateway",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/gatewayRecovery.ts",
+      "target": "function:ui-tui/src/app/gatewayRecovery.ts:planGatewayRecovery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/gatewayRecovery.ts",
+      "target": "function:ui-tui/src/app/gatewayRecovery.ts:planGatewayRecovery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/inputSelectionStore.ts",
+      "target": "function:ui-tui/src/app/inputSelectionStore.ts:setInputSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/inputSelectionStore.ts",
+      "target": "function:ui-tui/src/app/inputSelectionStore.ts:setInputSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/inputSelectionStore.ts",
+      "target": "function:ui-tui/src/app/inputSelectionStore.ts:getInputSelection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/inputSelectionStore.ts",
+      "target": "function:ui-tui/src/app/inputSelectionStore.ts:getInputSelection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:buildOverlayState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:getOverlayState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:getOverlayState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:patchOverlayState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:patchOverlayState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:resetOverlayState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:resetOverlayState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:resetFlowOverlays",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/overlayStore.ts",
+      "target": "function:ui-tui/src/app/overlayStore.ts:resetFlowOverlays",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/scroll.ts",
+      "target": "function:ui-tui/src/app/scroll.ts:scrollBoundsForDelta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/scroll.ts",
+      "target": "function:ui-tui/src/app/scroll.ts:scrollWithSelectionBy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/scroll.ts",
+      "target": "function:ui-tui/src/app/scroll.ts:scrollWithSelectionBy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/setupHandoff.ts",
+      "target": "function:ui-tui/src/app/setupHandoff.ts:runExternalSetup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/setupHandoff.ts",
+      "target": "function:ui-tui/src/app/setupHandoff.ts:runExternalSetup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/slash/commands/core.ts",
+      "target": "function:ui-tui/src/app/slash/commands/core.ts:flagFromArg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/slash/commands/session.ts",
+      "target": "function:ui-tui/src/app/slash/commands/session.ts:modelValueForConfigSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/slash/registry.ts",
+      "target": "function:ui-tui/src/app/slash/registry.ts:findSlashCommand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/slash/registry.ts",
+      "target": "function:ui-tui/src/app/slash/registry.ts:findSlashCommand",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:getSpawnHistory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:getSpawnHistory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:getSpawnDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:getSpawnDiff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:clearSpawnHistory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:clearSpawnHistory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:clearDiffPair",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:clearDiffPair",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:setDiffPair",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:setDiffPair",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:pushSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:pushSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:pushDiskSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:pushDiskSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/spawnHistoryStore.ts",
+      "target": "function:ui-tui/src/app/spawnHistoryStore.ts:normaliseSubagent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnController.ts",
+      "target": "function:ui-tui/src/app/turnController.ts:parseTodos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnController.ts",
+      "target": "function:ui-tui/src/app/turnController.ts:finalTail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnController.ts",
+      "target": "class:ui-tui/src/app/turnController.ts:TurnController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnController.ts",
+      "target": "class:ui-tui/src/app/turnController.ts:TurnController",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:buildTurnState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:getTurnState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:getTurnState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:useTurnSelector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:useTurnSelector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:patchTurnState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:patchTurnState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:toggleTodoCollapsed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:toggleTodoCollapsed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:archiveDoneTodos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:archiveDoneTodos",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:archiveTodosAtTurnEnd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:archiveTodosAtTurnEnd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:resetTurnState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/turnStore.ts",
+      "target": "function:ui-tui/src/app/turnStore.ts:resetTurnState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:buildUiState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:getUiState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:getUiState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:patchUiState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:patchUiState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:resetUiState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/app/uiStore.ts",
+      "target": "function:ui-tui/src/app/uiStore.ts:resetUiState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

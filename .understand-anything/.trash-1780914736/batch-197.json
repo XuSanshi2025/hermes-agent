@@ -1,0 +1,497 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/creative/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/creative/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/design-md/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/design-md/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/design-md/templates/starter.md",
+      "type": "document",
+      "name": "starter.md",
+      "filePath": "skills/creative/design-md/templates/starter.md",
+      "summary": "starter.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/excalidraw/scripts/upload.py",
+      "type": "file",
+      "name": "upload.py",
+      "filePath": "skills/creative/excalidraw/scripts/upload.py",
+      "summary": "upload.py 是 python 源文件，包含 3 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:skills/creative/excalidraw/scripts/upload.py:concat_buffers",
+      "type": "function",
+      "name": "concat_buffers",
+      "filePath": "skills/creative/excalidraw/scripts/upload.py",
+      "lineRange": [
+        39,
+        50
+      ],
+      "summary": "concat_buffers 是 upload.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/excalidraw/scripts/upload.py:upload",
+      "type": "function",
+      "name": "upload",
+      "filePath": "skills/creative/excalidraw/scripts/upload.py",
+      "lineRange": [
+        53,
+        101
+      ],
+      "summary": "upload 是 upload.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/excalidraw/scripts/upload.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/excalidraw/scripts/upload.py",
+      "lineRange": [
+        104,
+        129
+      ],
+      "summary": "main 是 upload.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:skills/creative/excalidraw/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/excalidraw/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/humanizer/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/humanizer/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/creative/manim-video/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/manim-video/scripts/setup.sh",
+      "type": "file",
+      "name": "setup.sh",
+      "filePath": "skills/creative/manim-video/scripts/setup.sh",
+      "summary": "setup.sh 是 shell 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "document:skills/creative/manim-video/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/manim-video/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/p5js/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/creative/p5js/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/p5js/scripts/export-frames.js",
+      "type": "file",
+      "name": "export-frames.js",
+      "filePath": "skills/creative/p5js/scripts/export-frames.js",
+      "summary": "export-frames.js 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:skills/creative/p5js/scripts/export-frames.js:parseArgs",
+      "type": "function",
+      "name": "parseArgs",
+      "filePath": "skills/creative/p5js/scripts/export-frames.js",
+      "lineRange": [
+        48,
+        80
+      ],
+      "summary": "parseArgs 是 export-frames.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:skills/creative/p5js/scripts/export-frames.js:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "skills/creative/p5js/scripts/export-frames.js",
+      "lineRange": [
+        82,
+        174
+      ],
+      "summary": "main 是 export-frames.js 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:skills/creative/p5js/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/p5js/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/p5js/templates/viewer.html",
+      "type": "file",
+      "name": "viewer.html",
+      "filePath": "skills/creative/p5js/templates/viewer.html",
+      "summary": "viewer.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "document:skills/creative/popular-web-designs/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/popular-web-designs/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/pretext/references/patterns.md",
+      "type": "document",
+      "name": "patterns.md",
+      "filePath": "skills/creative/pretext/references/patterns.md",
+      "summary": "patterns.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/pretext/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/pretext/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/pretext/templates/donut-orbit.html",
+      "type": "file",
+      "name": "donut-orbit.html",
+      "filePath": "skills/creative/pretext/templates/donut-orbit.html",
+      "summary": "donut-orbit.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "file:skills/creative/pretext/templates/hello-orb-flow.html",
+      "type": "file",
+      "name": "hello-orb-flow.html",
+      "filePath": "skills/creative/pretext/templates/hello-orb-flow.html",
+      "summary": "hello-orb-flow.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "document:skills/creative/sketch/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/sketch/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/songwriting-and-ai-music/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/songwriting-and-ai-music/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/troubleshooting.md",
+      "type": "document",
+      "name": "troubleshooting.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/troubleshooting.md",
+      "summary": "troubleshooting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/creative/touchdesigner-mcp/scripts/setup.sh",
+      "type": "file",
+      "name": "setup.sh",
+      "filePath": "skills/creative/touchdesigner-mcp/scripts/setup.sh",
+      "summary": "setup.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/creative/touchdesigner-mcp/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/data-science/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/data-science/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/data-science/jupyter-live-kernel/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/data-science/jupyter-live-kernel/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:skills/creative/excalidraw/scripts/upload.py",
+      "target": "function:skills/creative/excalidraw/scripts/upload.py:concat_buffers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/excalidraw/scripts/upload.py",
+      "target": "function:skills/creative/excalidraw/scripts/upload.py:concat_buffers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/excalidraw/scripts/upload.py",
+      "target": "function:skills/creative/excalidraw/scripts/upload.py:upload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/excalidraw/scripts/upload.py",
+      "target": "function:skills/creative/excalidraw/scripts/upload.py:upload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/excalidraw/scripts/upload.py",
+      "target": "function:skills/creative/excalidraw/scripts/upload.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/excalidraw/scripts/upload.py",
+      "target": "function:skills/creative/excalidraw/scripts/upload.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:skills/creative/p5js/scripts/export-frames.js",
+      "target": "function:skills/creative/p5js/scripts/export-frames.js:parseArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:skills/creative/p5js/scripts/export-frames.js",
+      "target": "function:skills/creative/p5js/scripts/export-frames.js:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

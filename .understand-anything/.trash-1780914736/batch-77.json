@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "document:web/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "web/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:web/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "web/index.html",
+      "summary": "index.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "config:web/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "web/package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:web/tsconfig.app.json",
+      "type": "config",
+      "name": "tsconfig.app.json",
+      "filePath": "web/tsconfig.app.json",
+      "summary": "tsconfig.app.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:web/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "web/tsconfig.json",
+      "summary": "tsconfig.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:web/tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "web/tsconfig.node.json",
+      "summary": "tsconfig.node.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": []
+}

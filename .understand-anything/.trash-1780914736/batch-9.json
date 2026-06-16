@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "config:locales/af.yaml",
+      "type": "config",
+      "name": "af.yaml",
+      "filePath": "locales/af.yaml",
+      "summary": "af.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/de.yaml",
+      "type": "config",
+      "name": "de.yaml",
+      "filePath": "locales/de.yaml",
+      "summary": "de.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/en.yaml",
+      "type": "config",
+      "name": "en.yaml",
+      "filePath": "locales/en.yaml",
+      "summary": "en.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/es.yaml",
+      "type": "config",
+      "name": "es.yaml",
+      "filePath": "locales/es.yaml",
+      "summary": "es.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/fr.yaml",
+      "type": "config",
+      "name": "fr.yaml",
+      "filePath": "locales/fr.yaml",
+      "summary": "fr.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/ga.yaml",
+      "type": "config",
+      "name": "ga.yaml",
+      "filePath": "locales/ga.yaml",
+      "summary": "ga.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/hu.yaml",
+      "type": "config",
+      "name": "hu.yaml",
+      "filePath": "locales/hu.yaml",
+      "summary": "hu.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/it.yaml",
+      "type": "config",
+      "name": "it.yaml",
+      "filePath": "locales/it.yaml",
+      "summary": "it.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/ja.yaml",
+      "type": "config",
+      "name": "ja.yaml",
+      "filePath": "locales/ja.yaml",
+      "summary": "ja.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/ko.yaml",
+      "type": "config",
+      "name": "ko.yaml",
+      "filePath": "locales/ko.yaml",
+      "summary": "ko.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/pt.yaml",
+      "type": "config",
+      "name": "pt.yaml",
+      "filePath": "locales/pt.yaml",
+      "summary": "pt.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/ru.yaml",
+      "type": "config",
+      "name": "ru.yaml",
+      "filePath": "locales/ru.yaml",
+      "summary": "ru.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/tr.yaml",
+      "type": "config",
+      "name": "tr.yaml",
+      "filePath": "locales/tr.yaml",
+      "summary": "tr.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/uk.yaml",
+      "type": "config",
+      "name": "uk.yaml",
+      "filePath": "locales/uk.yaml",
+      "summary": "uk.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/zh-hant.yaml",
+      "type": "config",
+      "name": "zh-hant.yaml",
+      "filePath": "locales/zh-hant.yaml",
+      "summary": "zh-hant.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "config:locales/zh.yaml",
+      "type": "config",
+      "name": "zh.yaml",
+      "filePath": "locales/zh.yaml",
+      "summary": "zh.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 yaml。"
+    }
+  ],
+  "edges": []
+}

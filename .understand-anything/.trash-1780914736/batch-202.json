@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": "file:skills/research/research-paper-writing/templates/aaai2026/aaai2026.sty",
+      "type": "file",
+      "name": "aaai2026.sty",
+      "filePath": "skills/research/research-paper-writing/templates/aaai2026/aaai2026.sty",
+      "summary": "aaai2026.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "document:skills/research/research-paper-writing/templates/aaai2026/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/research/research-paper-writing/templates/aaai2026/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/acl/acl_latex.tex",
+      "type": "file",
+      "name": "acl_latex.tex",
+      "filePath": "skills/research/research-paper-writing/templates/acl/acl_latex.tex",
+      "summary": "acl_latex.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/acl/acl_lualatex.tex",
+      "type": "file",
+      "name": "acl_lualatex.tex",
+      "filePath": "skills/research/research-paper-writing/templates/acl/acl_lualatex.tex",
+      "summary": "acl_lualatex.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/acl/acl_natbib.bst",
+      "type": "file",
+      "name": "acl_natbib.bst",
+      "filePath": "skills/research/research-paper-writing/templates/acl/acl_natbib.bst",
+      "summary": "acl_natbib.bst 是 bst 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bst",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 bst。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/acl/acl.sty",
+      "type": "file",
+      "name": "acl.sty",
+      "filePath": "skills/research/research-paper-writing/templates/acl/acl.sty",
+      "summary": "acl.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/acl/custom.bib",
+      "type": "file",
+      "name": "custom.bib",
+      "filePath": "skills/research/research-paper-writing/templates/acl/custom.bib",
+      "summary": "custom.bib 是 bib 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bib",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 bib。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bib",
+      "type": "file",
+      "name": "colm2025_conference.bib",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bib",
+      "summary": "colm2025_conference.bib 是 bib 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bib",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 bib。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bst",
+      "type": "file",
+      "name": "colm2025_conference.bst",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/colm2025_conference.bst",
+      "summary": "colm2025_conference.bst 是 bst 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bst",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 bst。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/colm2025_conference.sty",
+      "type": "file",
+      "name": "colm2025_conference.sty",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/colm2025_conference.sty",
+      "summary": "colm2025_conference.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/colm2025_conference.tex",
+      "type": "file",
+      "name": "colm2025_conference.tex",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/colm2025_conference.tex",
+      "summary": "colm2025_conference.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/fancyhdr.sty",
+      "type": "file",
+      "name": "fancyhdr.sty",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/fancyhdr.sty",
+      "summary": "fancyhdr.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/math_commands.tex",
+      "type": "file",
+      "name": "math_commands.tex",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/math_commands.tex",
+      "summary": "math_commands.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/colm2025/natbib.sty",
+      "type": "file",
+      "name": "natbib.sty",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/natbib.sty",
+      "summary": "natbib.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "document:skills/research/research-paper-writing/templates/colm2025/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/research/research-paper-writing/templates/colm2025/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/fancyhdr.sty",
+      "type": "file",
+      "name": "fancyhdr.sty",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/fancyhdr.sty",
+      "summary": "fancyhdr.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bib",
+      "type": "file",
+      "name": "iclr2026_conference.bib",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bib",
+      "summary": "iclr2026_conference.bib 是 bib 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bib",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 bib。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bst",
+      "type": "file",
+      "name": "iclr2026_conference.bst",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.bst",
+      "summary": "iclr2026_conference.bst 是 bst 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bst",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 bst。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.sty",
+      "type": "file",
+      "name": "iclr2026_conference.sty",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.sty",
+      "summary": "iclr2026_conference.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.tex",
+      "type": "file",
+      "name": "iclr2026_conference.tex",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.tex",
+      "summary": "iclr2026_conference.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/math_commands.tex",
+      "type": "file",
+      "name": "math_commands.tex",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/math_commands.tex",
+      "summary": "math_commands.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/iclr2026/natbib.sty",
+      "type": "file",
+      "name": "natbib.sty",
+      "filePath": "skills/research/research-paper-writing/templates/iclr2026/natbib.sty",
+      "summary": "natbib.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/algorithm.sty",
+      "type": "file",
+      "name": "algorithm.sty",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/algorithm.sty",
+      "summary": "algorithm.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/algorithmic.sty",
+      "type": "file",
+      "name": "algorithmic.sty",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/algorithmic.sty",
+      "summary": "algorithmic.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/example_paper.bib",
+      "type": "file",
+      "name": "example_paper.bib",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/example_paper.bib",
+      "summary": "example_paper.bib 是 bib 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bib",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 bib。"
+    }
+  ],
+  "edges": []
+}

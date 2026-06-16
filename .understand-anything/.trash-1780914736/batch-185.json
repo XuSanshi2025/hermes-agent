@@ -1,0 +1,819 @@
+{
+  "nodes": [
+    {
+      "id": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "type": "file",
+      "name": "evidence-store.py",
+      "filePath": "optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "summary": "evidence-store.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:_now_iso",
+      "type": "function",
+      "name": "_now_iso",
+      "filePath": "optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "lineRange": [
+        51,
+        52
+      ],
+      "summary": "_now_iso 是 evidence-store.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:_sha256",
+      "type": "function",
+      "name": "_sha256",
+      "filePath": "optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "lineRange": [
+        55,
+        56
+      ],
+      "summary": "_sha256 是 evidence-store.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "lineRange": [
+        210,
+        309
+      ],
+      "summary": "main 是 evidence-store.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:optional-skills/security/oss-forensics/scripts/evidence-store.py:EvidenceStore",
+      "type": "class",
+      "name": "EvidenceStore",
+      "filePath": "optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "lineRange": [
+        59,
+        207
+      ],
+      "summary": "EvidenceStore 是 evidence-store.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:optional-skills/security/oss-forensics/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/security/oss-forensics/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/oss-forensics/templates/forensic-report.md",
+      "type": "document",
+      "name": "forensic-report.md",
+      "filePath": "optional-skills/security/oss-forensics/templates/forensic-report.md",
+      "summary": "forensic-report.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/oss-forensics/templates/malicious-package-report.md",
+      "type": "document",
+      "name": "malicious-package-report.md",
+      "filePath": "optional-skills/security/oss-forensics/templates/malicious-package-report.md",
+      "summary": "malicious-package-report.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/security/sherlock/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/security/sherlock/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:optional-skills/security/web-pentest/scripts/recon-scan.sh",
+      "type": "file",
+      "name": "recon-scan.sh",
+      "filePath": "optional-skills/security/web-pentest/scripts/recon-scan.sh",
+      "summary": "recon-scan.sh 是 shell 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "function:optional-skills/security/web-pentest/scripts/recon-scan.sh:in_scope",
+      "type": "function",
+      "name": "in_scope",
+      "filePath": "optional-skills/security/web-pentest/scripts/recon-scan.sh",
+      "lineRange": [
+        52,
+        78
+      ],
+      "summary": "in_scope 是 recon-scan.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:optional-skills/security/web-pentest/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/security/web-pentest/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/software-development/code-wiki/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/software-development/code-wiki/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/software-development/rest-graphql-debug/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/software-development/rest-graphql-debug/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/software-development/subagent-driven-development/references/context-budget-discipline.md",
+      "type": "document",
+      "name": "context-budget-discipline.md",
+      "filePath": "optional-skills/software-development/subagent-driven-development/references/context-budget-discipline.md",
+      "summary": "context-budget-discipline.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/software-development/subagent-driven-development/references/gates-taxonomy.md",
+      "type": "document",
+      "name": "gates-taxonomy.md",
+      "filePath": "optional-skills/software-development/subagent-driven-development/references/gates-taxonomy.md",
+      "summary": "gates-taxonomy.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/software-development/subagent-driven-development/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/software-development/subagent-driven-development/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/web-development/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "optional-skills/web-development/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/web-development/page-agent/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "optional-skills/web-development/page-agent/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:packaging/homebrew/hermes-agent.rb",
+      "type": "file",
+      "name": "hermes-agent.rb",
+      "filePath": "packaging/homebrew/hermes-agent.rb",
+      "summary": "hermes-agent.rb 是 ruby 源文件，包含 1 个函数、1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "ruby",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 ruby。"
+    },
+    {
+      "id": "function:packaging/homebrew/hermes-agent.rb:install",
+      "type": "function",
+      "name": "install",
+      "filePath": "packaging/homebrew/hermes-agent.rb",
+      "lineRange": [
+        22,
+        39
+      ],
+      "summary": "install 是 hermes-agent.rb 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "ruby",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:packaging/homebrew/hermes-agent.rb:HermesAgent",
+      "type": "class",
+      "name": "HermesAgent",
+      "filePath": "packaging/homebrew/hermes-agent.rb",
+      "lineRange": [
+        1,
+        48
+      ],
+      "summary": "HermesAgent 是 hermes-agent.rb 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "ruby",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:packaging/homebrew/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "packaging/homebrew/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:plans/gemini-oauth-provider.md",
+      "type": "document",
+      "name": "gemini-oauth-provider.md",
+      "filePath": "plans/gemini-oauth-provider.md",
+      "summary": "gemini-oauth-provider.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:plugins/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/__init__.py",
+      "summary": "__init__.py 是 python 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "file:plugins/browser/browser_use/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/browser/browser_use/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/browser/browser_use/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/browser/browser_use/__init__.py",
+      "lineRange": [
+        12,
+        14
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/browser/browser_use/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/browser/browser_use/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/browser/browser_use/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/browser/browser_use/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 3 个函数、1 个类、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/browser/browser_use/provider.py:_get_or_create_pending_create_key",
+      "type": "function",
+      "name": "_get_or_create_pending_create_key",
+      "filePath": "plugins/browser/browser_use/provider.py",
+      "lineRange": [
+        55,
+        63
+      ],
+      "summary": "_get_or_create_pending_create_key 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/browser/browser_use/provider.py:_clear_pending_create_key",
+      "type": "function",
+      "name": "_clear_pending_create_key",
+      "filePath": "plugins/browser/browser_use/provider.py",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "_clear_pending_create_key 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:plugins/browser/browser_use/provider.py:_should_preserve_pending_create_key",
+      "type": "function",
+      "name": "_should_preserve_pending_create_key",
+      "filePath": "plugins/browser/browser_use/provider.py",
+      "lineRange": [
+        71,
+        101
+      ],
+      "summary": "_should_preserve_pending_create_key 是 provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:plugins/browser/browser_use/provider.py:BrowserUseBrowserProvider",
+      "type": "class",
+      "name": "BrowserUseBrowserProvider",
+      "filePath": "plugins/browser/browser_use/provider.py",
+      "lineRange": [
+        104,
+        317
+      ],
+      "summary": "BrowserUseBrowserProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/browser/browserbase/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/browser/browserbase/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/browser/browserbase/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/browser/browserbase/__init__.py",
+      "lineRange": [
+        13,
+        15
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:plugins/browser/browserbase/plugin.yaml",
+      "type": "config",
+      "name": "plugin.yaml",
+      "filePath": "plugins/browser/browserbase/plugin.yaml",
+      "summary": "plugin.yaml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "yaml",
+        "configuration",
+        "plugin"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 yaml。"
+    },
+    {
+      "id": "file:plugins/browser/browserbase/provider.py",
+      "type": "file",
+      "name": "provider.py",
+      "filePath": "plugins/browser/browserbase/provider.py",
+      "summary": "provider.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:plugins/browser/browserbase/provider.py:BrowserbaseBrowserProvider",
+      "type": "class",
+      "name": "BrowserbaseBrowserProvider",
+      "filePath": "plugins/browser/browserbase/provider.py",
+      "lineRange": [
+        46,
+        297
+      ],
+      "summary": "BrowserbaseBrowserProvider 是 provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:plugins/browser/firecrawl/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "plugins/browser/firecrawl/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "plugin",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:plugins/browser/firecrawl/__init__.py:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "plugins/browser/firecrawl/__init__.py",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "register 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:_now_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:_now_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:_sha256",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:_sha256",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "function:optional-skills/security/oss-forensics/scripts/evidence-store.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "class:optional-skills/security/oss-forensics/scripts/evidence-store.py:EvidenceStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:optional-skills/security/oss-forensics/scripts/evidence-store.py",
+      "target": "class:optional-skills/security/oss-forensics/scripts/evidence-store.py:EvidenceStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:optional-skills/security/web-pentest/scripts/recon-scan.sh",
+      "target": "function:optional-skills/security/web-pentest/scripts/recon-scan.sh:in_scope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:packaging/homebrew/hermes-agent.rb",
+      "target": "function:packaging/homebrew/hermes-agent.rb:install",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:packaging/homebrew/hermes-agent.rb",
+      "target": "class:packaging/homebrew/hermes-agent.rb:HermesAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:packaging/homebrew/hermes-agent.rb",
+      "target": "class:packaging/homebrew/hermes-agent.rb:HermesAgent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browser_use/__init__.py",
+      "target": "function:plugins/browser/browser_use/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browser_use/__init__.py",
+      "target": "function:plugins/browser/browser_use/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "function:plugins/browser/browser_use/provider.py:_get_or_create_pending_create_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "function:plugins/browser/browser_use/provider.py:_get_or_create_pending_create_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "function:plugins/browser/browser_use/provider.py:_clear_pending_create_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "function:plugins/browser/browser_use/provider.py:_clear_pending_create_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "function:plugins/browser/browser_use/provider.py:_should_preserve_pending_create_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "function:plugins/browser/browser_use/provider.py:_should_preserve_pending_create_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "class:plugins/browser/browser_use/provider.py:BrowserUseBrowserProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browser_use/provider.py",
+      "target": "class:plugins/browser/browser_use/provider.py:BrowserUseBrowserProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browserbase/__init__.py",
+      "target": "function:plugins/browser/browserbase/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browserbase/__init__.py",
+      "target": "function:plugins/browser/browserbase/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/browserbase/provider.py",
+      "target": "class:plugins/browser/browserbase/provider.py:BrowserbaseBrowserProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/browserbase/provider.py",
+      "target": "class:plugins/browser/browserbase/provider.py:BrowserbaseBrowserProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:plugins/browser/firecrawl/__init__.py",
+      "target": "function:plugins/browser/firecrawl/__init__.py:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:plugins/browser/firecrawl/__init__.py",
+      "target": "function:plugins/browser/firecrawl/__init__.py:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

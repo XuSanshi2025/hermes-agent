@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+      "type": "config",
+      "name": "opc-contentTypes.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+      "summary": "opc-contentTypes.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+      "type": "config",
+      "name": "opc-coreProperties.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+      "summary": "opc-coreProperties.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+      "type": "config",
+      "name": "opc-digSig.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+      "summary": "opc-digSig.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+      "type": "config",
+      "name": "opc-relationships.xsd",
+      "filePath": "skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+      "summary": "opc-relationships.xsd 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,1184 @@
+{
+  "nodes": [
+    {
+      "id": "document:scripts/LIVETEST_README.md",
+      "type": "document",
+      "name": "LIVETEST_README.md",
+      "filePath": "scripts/LIVETEST_README.md",
+      "summary": "LIVETEST_README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:scripts/install.cmd",
+      "type": "file",
+      "name": "install.cmd",
+      "filePath": "scripts/install.cmd",
+      "summary": "install.cmd 是 batch 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "batch",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 batch。"
+    },
+    {
+      "id": "file:scripts/install.ps1",
+      "type": "file",
+      "name": "install.ps1",
+      "filePath": "scripts/install.ps1",
+      "summary": "install.ps1 是 powershell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "powershell",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 powershell。"
+    },
+    {
+      "id": "file:scripts/install.sh",
+      "type": "file",
+      "name": "install.sh",
+      "filePath": "scripts/install.sh",
+      "summary": "install.sh 是 shell 源文件，包含 47 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "function:scripts/install.sh:print_banner",
+      "type": "function",
+      "name": "print_banner",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        209,
+        218
+      ],
+      "summary": "print_banner 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:restore_dirty_lockfiles",
+      "type": "function",
+      "name": "restore_dirty_lockfiles",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        249,
+        259
+      ],
+      "summary": "restore_dirty_lockfiles 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:emit_manifest",
+      "type": "function",
+      "name": "emit_manifest",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        261,
+        273
+      ],
+      "summary": "emit_manifest 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:emit_stage_json",
+      "type": "function",
+      "name": "emit_stage_json",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        282,
+        294
+      ],
+      "summary": "emit_stage_json 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:prompt_yes_no",
+      "type": "function",
+      "name": "prompt_yes_no",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        296,
+        333
+      ],
+      "summary": "prompt_yes_no 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:resolve_install_layout",
+      "type": "function",
+      "name": "resolve_install_layout",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        353,
+        394
+      ],
+      "summary": "resolve_install_layout 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:detect_os",
+      "type": "function",
+      "name": "detect_os",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        430,
+        465
+      ],
+      "summary": "detect_os 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:install_uv",
+      "type": "function",
+      "name": "install_uv",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        471,
+        532
+      ],
+      "summary": "install_uv 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:check_python",
+      "type": "function",
+      "name": "check_python",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        534,
+        575
+      ],
+      "summary": "check_python 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:attempt_install_git",
+      "type": "function",
+      "name": "attempt_install_git",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        582,
+        642
+      ],
+      "summary": "attempt_install_git 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:check_git",
+      "type": "function",
+      "name": "check_git",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        644,
+        703
+      ],
+      "summary": "check_git 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:node_satisfies_build",
+      "type": "function",
+      "name": "node_satisfies_build",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        711,
+        720
+      ],
+      "summary": "node_satisfies_build 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:check_node",
+      "type": "function",
+      "name": "check_node",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        722,
+        747
+      ],
+      "summary": "check_node 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:install_node",
+      "type": "function",
+      "name": "install_node",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        749,
+        860
+      ],
+      "summary": "install_node 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:check_network_prerequisites",
+      "type": "function",
+      "name": "check_network_prerequisites",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        862,
+        895
+      ],
+      "summary": "check_network_prerequisites 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:install_system_packages",
+      "type": "function",
+      "name": "install_system_packages",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        897,
+        1067
+      ],
+      "summary": "install_system_packages 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:show_manual_install_hint",
+      "type": "function",
+      "name": "show_manual_install_hint",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1069,
+        1086
+      ],
+      "summary": "show_manual_install_hint 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:clone_repo",
+      "type": "function",
+      "name": "clone_repo",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1092,
+        1180
+      ],
+      "summary": "clone_repo 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:setup_venv",
+      "type": "function",
+      "name": "setup_venv",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1182,
+        1223
+      ],
+      "summary": "setup_venv 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:install_deps",
+      "type": "function",
+      "name": "install_deps",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1225,
+        1477
+      ],
+      "summary": "install_deps 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:scripts/install.sh:setup_path",
+      "type": "function",
+      "name": "setup_path",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1479,
+        1638
+      ],
+      "summary": "setup_path 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:copy_config_templates",
+      "type": "function",
+      "name": "copy_config_templates",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1640,
+        1721
+      ],
+      "summary": "copy_config_templates 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:find_system_browser",
+      "type": "function",
+      "name": "find_system_browser",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1723,
+        1758
+      ],
+      "summary": "find_system_browser 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:run_browser_install_with_timeout",
+      "type": "function",
+      "name": "run_browser_install_with_timeout",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1760,
+        1769
+      ],
+      "summary": "run_browser_install_with_timeout 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:configure_browser_env_from_system_browser",
+      "type": "function",
+      "name": "configure_browser_env_from_system_browser",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1771,
+        1799
+      ],
+      "summary": "configure_browser_env_from_system_browser 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:install_node_deps",
+      "type": "function",
+      "name": "install_node_deps",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1801,
+        1925
+      ],
+      "summary": "install_node_deps 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:run_setup_wizard",
+      "type": "function",
+      "name": "run_setup_wizard",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1927,
+        1959
+      ],
+      "summary": "run_setup_wizard 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:maybe_start_gateway",
+      "type": "function",
+      "name": "maybe_start_gateway",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        1961,
+        2056
+      ],
+      "summary": "maybe_start_gateway 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:print_success",
+      "type": "function",
+      "name": "print_success",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2058,
+        2137
+      ],
+      "summary": "print_success 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:ensure_browser",
+      "type": "function",
+      "name": "ensure_browser",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2139,
+        2204
+      ],
+      "summary": "ensure_browser 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:ensure_mode",
+      "type": "function",
+      "name": "ensure_mode",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2206,
+        2241
+      ],
+      "summary": "ensure_mode 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:postinstall_mode",
+      "type": "function",
+      "name": "postinstall_mode",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2243,
+        2265
+      ],
+      "summary": "postinstall_mode 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:install_desktop",
+      "type": "function",
+      "name": "install_desktop",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2273,
+        2400
+      ],
+      "summary": "install_desktop 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:run_stage_body",
+      "type": "function",
+      "name": "run_stage_body",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2417,
+        2507
+      ],
+      "summary": "run_stage_body 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/install.sh:run_stage_protocol",
+      "type": "function",
+      "name": "run_stage_protocol",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2509,
+        2546
+      ],
+      "summary": "run_stage_protocol 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/install.sh:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/install.sh",
+      "lineRange": [
+        2552,
+        2580
+      ],
+      "summary": "main 是 install.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/kill_modal.sh",
+      "type": "file",
+      "name": "kill_modal.sh",
+      "filePath": "scripts/kill_modal.sh",
+      "summary": "kill_modal.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:scripts/run_tests.sh",
+      "type": "file",
+      "name": "run_tests.sh",
+      "filePath": "scripts/run_tests.sh",
+      "summary": "run_tests.sh 是 shell 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "file:scripts/setup_open_webui.sh",
+      "type": "file",
+      "name": "setup_open_webui.sh",
+      "filePath": "scripts/setup_open_webui.sh",
+      "summary": "setup_open_webui.sh 是 shell 源文件，包含 16 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "shell",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 shell。"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:choose_python",
+      "type": "function",
+      "name": "choose_python",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        54,
+        63
+      ],
+      "summary": "choose_python 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:upsert_env",
+      "type": "function",
+      "name": "upsert_env",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        65,
+        96
+      ],
+      "summary": "upsert_env 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:get_env_value",
+      "type": "function",
+      "name": "get_env_value",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        98,
+        114
+      ],
+      "summary": "get_env_value 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:can_use_systemd_user",
+      "type": "function",
+      "name": "can_use_systemd_user",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        131,
+        148
+      ],
+      "summary": "can_use_systemd_user 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:install_open_webui",
+      "type": "function",
+      "name": "install_open_webui",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        159,
+        168
+      ],
+      "summary": "install_open_webui 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:write_launcher",
+      "type": "function",
+      "name": "write_launcher",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        170,
+        218
+      ],
+      "summary": "write_launcher 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:install_launchd_service",
+      "type": "function",
+      "name": "install_launchd_service",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        224,
+        256
+      ],
+      "summary": "install_launchd_service 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:install_systemd_user_service",
+      "type": "function",
+      "name": "install_systemd_user_service",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        258,
+        282
+      ],
+      "summary": "install_systemd_user_service 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/setup_open_webui.sh:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/setup_open_webui.sh",
+      "lineRange": [
+        289,
+        347
+      ],
+      "summary": "main 是 setup_open_webui.sh 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "shell",
+        "internal"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:print_banner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:restore_dirty_lockfiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:emit_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:emit_stage_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:prompt_yes_no",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:resolve_install_layout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:detect_os",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:install_uv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:check_python",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:attempt_install_git",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:check_git",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:node_satisfies_build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:check_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:install_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:check_network_prerequisites",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:install_system_packages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:show_manual_install_hint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:clone_repo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:setup_venv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:install_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:setup_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:copy_config_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:find_system_browser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:run_browser_install_with_timeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:configure_browser_env_from_system_browser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:install_node_deps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:run_setup_wizard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:maybe_start_gateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:print_success",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:ensure_browser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:ensure_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:postinstall_mode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:install_desktop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:run_stage_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:run_stage_protocol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install.sh",
+      "target": "function:scripts/install.sh:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:choose_python",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:upsert_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:get_env_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:can_use_systemd_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:install_open_webui",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:write_launcher",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:install_launchd_service",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:install_systemd_user_service",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/setup_open_webui.sh",
+      "target": "function:scripts/setup_open_webui.sh:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

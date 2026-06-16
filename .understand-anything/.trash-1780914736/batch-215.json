@@ -1,0 +1,500 @@
+{
+  "nodes": [
+    {
+      "id": "file:ui-tui/src/__tests__/markdown.test.ts",
+      "type": "file",
+      "name": "markdown.test.ts",
+      "filePath": "ui-tui/src/__tests__/markdown.test.ts",
+      "summary": "markdown.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/markdown.test.ts:renderPlain",
+      "type": "function",
+      "name": "renderPlain",
+      "filePath": "ui-tui/src/__tests__/markdown.test.ts",
+      "lineRange": [
+        17,
+        44
+      ],
+      "summary": "renderPlain 是 markdown.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/mathUnicode.test.ts",
+      "type": "file",
+      "name": "mathUnicode.test.ts",
+      "filePath": "ui-tui/src/__tests__/mathUnicode.test.ts",
+      "summary": "mathUnicode.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/memoryMonitor.test.ts",
+      "type": "file",
+      "name": "memoryMonitor.test.ts",
+      "filePath": "ui-tui/src/__tests__/memoryMonitor.test.ts",
+      "summary": "memoryMonitor.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/messageLine.test.ts",
+      "type": "file",
+      "name": "messageLine.test.ts",
+      "filePath": "ui-tui/src/__tests__/messageLine.test.ts",
+      "summary": "messageLine.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/messages.test.ts",
+      "type": "file",
+      "name": "messages.test.ts",
+      "filePath": "ui-tui/src/__tests__/messages.test.ts",
+      "summary": "messages.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/orchestratorPromptSession.test.ts",
+      "type": "file",
+      "name": "orchestratorPromptSession.test.ts",
+      "filePath": "ui-tui/src/__tests__/orchestratorPromptSession.test.ts",
+      "summary": "orchestratorPromptSession.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/osc52.test.ts",
+      "type": "file",
+      "name": "osc52.test.ts",
+      "filePath": "ui-tui/src/__tests__/osc52.test.ts",
+      "summary": "osc52.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/parentLog.test.ts",
+      "type": "file",
+      "name": "parentLog.test.ts",
+      "filePath": "ui-tui/src/__tests__/parentLog.test.ts",
+      "summary": "parentLog.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/paths.test.ts",
+      "type": "file",
+      "name": "paths.test.ts",
+      "filePath": "ui-tui/src/__tests__/paths.test.ts",
+      "summary": "paths.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/platform.test.ts",
+      "type": "file",
+      "name": "platform.test.ts",
+      "filePath": "ui-tui/src/__tests__/platform.test.ts",
+      "summary": "platform.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/precisionWheel.test.ts",
+      "type": "file",
+      "name": "precisionWheel.test.ts",
+      "filePath": "ui-tui/src/__tests__/precisionWheel.test.ts",
+      "summary": "precisionWheel.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/prompt.test.ts",
+      "type": "file",
+      "name": "prompt.test.ts",
+      "filePath": "ui-tui/src/__tests__/prompt.test.ts",
+      "summary": "prompt.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/providers.test.ts",
+      "type": "file",
+      "name": "providers.test.ts",
+      "filePath": "ui-tui/src/__tests__/providers.test.ts",
+      "summary": "providers.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/reasoning.test.ts",
+      "type": "file",
+      "name": "reasoning.test.ts",
+      "filePath": "ui-tui/src/__tests__/reasoning.test.ts",
+      "summary": "reasoning.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/rpc.test.ts",
+      "type": "file",
+      "name": "rpc.test.ts",
+      "filePath": "ui-tui/src/__tests__/rpc.test.ts",
+      "summary": "rpc.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/scroll.test.ts",
+      "type": "file",
+      "name": "scroll.test.ts",
+      "filePath": "ui-tui/src/__tests__/scroll.test.ts",
+      "summary": "scroll.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/scroll.test.ts:makeScroll",
+      "type": "function",
+      "name": "makeScroll",
+      "filePath": "ui-tui/src/__tests__/scroll.test.ts",
+      "lineRange": [
+        5,
+        18
+      ],
+      "summary": "makeScroll 是 scroll.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/slashParity.test.ts",
+      "type": "file",
+      "name": "slashParity.test.ts",
+      "filePath": "ui-tui/src/__tests__/slashParity.test.ts",
+      "summary": "slashParity.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/slashParity.test.ts:loadCommandRegistryNames",
+      "type": "function",
+      "name": "loadCommandRegistryNames",
+      "filePath": "ui-tui/src/__tests__/slashParity.test.ts",
+      "lineRange": [
+        44,
+        66
+      ],
+      "summary": "loadCommandRegistryNames 是 slashParity.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/slashParity.test.ts:classifyRoute",
+      "type": "function",
+      "name": "classifyRoute",
+      "filePath": "ui-tui/src/__tests__/slashParity.test.ts",
+      "lineRange": [
+        76,
+        88
+      ],
+      "summary": "classifyRoute 是 slashParity.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/spawnHistoryStore.test.ts",
+      "type": "file",
+      "name": "spawnHistoryStore.test.ts",
+      "filePath": "ui-tui/src/__tests__/spawnHistoryStore.test.ts",
+      "summary": "spawnHistoryStore.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/stateIsolation.test.ts",
+      "type": "file",
+      "name": "stateIsolation.test.ts",
+      "filePath": "ui-tui/src/__tests__/stateIsolation.test.ts",
+      "summary": "stateIsolation.test.ts 是 typescript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/stateIsolation.test.ts:subscribeSelected",
+      "type": "function",
+      "name": "subscribeSelected",
+      "filePath": "ui-tui/src/__tests__/stateIsolation.test.ts",
+      "lineRange": [
+        9,
+        25
+      ],
+      "summary": "subscribeSelected 是 stateIsolation.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/statusBarTicker.test.ts",
+      "type": "file",
+      "name": "statusBarTicker.test.ts",
+      "filePath": "ui-tui/src/__tests__/statusBarTicker.test.ts",
+      "summary": "statusBarTicker.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/statusRule.test.ts",
+      "type": "file",
+      "name": "statusRule.test.ts",
+      "filePath": "ui-tui/src/__tests__/statusRule.test.ts",
+      "summary": "statusRule.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/streamingMarkdown.test.ts",
+      "type": "file",
+      "name": "streamingMarkdown.test.ts",
+      "filePath": "ui-tui/src/__tests__/streamingMarkdown.test.ts",
+      "summary": "streamingMarkdown.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/subagentTree.test.ts",
+      "type": "file",
+      "name": "subagentTree.test.ts",
+      "filePath": "ui-tui/src/__tests__/subagentTree.test.ts",
+      "summary": "subagentTree.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "agent",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:ui-tui/src/__tests__/subagentTree.test.ts:makeItem",
+      "type": "function",
+      "name": "makeItem",
+      "filePath": "ui-tui/src/__tests__/subagentTree.test.ts",
+      "lineRange": [
+        20,
+        31
+      ],
+      "summary": "makeItem 是 subagentTree.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/syntax.test.ts",
+      "type": "file",
+      "name": "syntax.test.ts",
+      "filePath": "ui-tui/src/__tests__/syntax.test.ts",
+      "summary": "syntax.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:ui-tui/src/__tests__/terminalModes.test.ts",
+      "type": "file",
+      "name": "terminalModes.test.ts",
+      "filePath": "ui-tui/src/__tests__/terminalModes.test.ts",
+      "summary": "terminalModes.test.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:ui-tui/src/__tests__/markdown.test.ts",
+      "target": "function:ui-tui/src/__tests__/markdown.test.ts:renderPlain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/scroll.test.ts",
+      "target": "function:ui-tui/src/__tests__/scroll.test.ts:makeScroll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/slashParity.test.ts",
+      "target": "function:ui-tui/src/__tests__/slashParity.test.ts:loadCommandRegistryNames",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/slashParity.test.ts",
+      "target": "function:ui-tui/src/__tests__/slashParity.test.ts:classifyRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/stateIsolation.test.ts",
+      "target": "function:ui-tui/src/__tests__/stateIsolation.test.ts:subscribeSelected",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:ui-tui/src/__tests__/subagentTree.test.ts",
+      "target": "function:ui-tui/src/__tests__/subagentTree.test.ts:makeItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-antigravity-cli.md",
+      "type": "document",
+      "name": "autonomous-ai-agents-antigravity-cli.md",
+      "filePath": "website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-antigravity-cli.md",
+      "summary": "autonomous-ai-agents-antigravity-cli.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-blackbox.md",
+      "type": "document",
+      "name": "autonomous-ai-agents-blackbox.md",
+      "filePath": "website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-blackbox.md",
+      "summary": "autonomous-ai-agents-blackbox.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-grok.md",
+      "type": "document",
+      "name": "autonomous-ai-agents-grok.md",
+      "filePath": "website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-grok.md",
+      "summary": "autonomous-ai-agents-grok.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-honcho.md",
+      "type": "document",
+      "name": "autonomous-ai-agents-honcho.md",
+      "filePath": "website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-honcho.md",
+      "summary": "autonomous-ai-agents-honcho.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-openhands.md",
+      "type": "document",
+      "name": "autonomous-ai-agents-openhands.md",
+      "filePath": "website/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-openhands.md",
+      "summary": "autonomous-ai-agents-openhands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/bootstrap-installer/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "apps/bootstrap-installer/index.html",
+      "summary": "index.html 是 html 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "html",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 html。"
+    },
+    {
+      "id": "config:apps/bootstrap-installer/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "apps/bootstrap-installer/package.json",
+      "summary": "package.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:apps/bootstrap-installer/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "apps/bootstrap-installer/tsconfig.json",
+      "summary": "tsconfig.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:apps/bootstrap-installer/tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "apps/bootstrap-installer/tsconfig.node.json",
+      "summary": "tsconfig.node.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,1761 @@
+{
+  "nodes": [
+    {
+      "id": "file:web/src/i18n/ru.ts",
+      "type": "file",
+      "name": "ru.ts",
+      "filePath": "web/src/i18n/ru.ts",
+      "summary": "ru.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/tr.ts",
+      "type": "file",
+      "name": "tr.ts",
+      "filePath": "web/src/i18n/tr.ts",
+      "summary": "tr.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "web/src/i18n/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/uk.ts",
+      "type": "file",
+      "name": "uk.ts",
+      "filePath": "web/src/i18n/uk.ts",
+      "summary": "uk.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/zh-hant.ts",
+      "type": "file",
+      "name": "zh-hant.ts",
+      "filePath": "web/src/i18n/zh-hant.ts",
+      "summary": "zh-hant.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/i18n/zh.ts",
+      "type": "file",
+      "name": "zh.ts",
+      "filePath": "web/src/i18n/zh.ts",
+      "summary": "zh.ts 是 typescript 源文件，包含 1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "web/src/index.css",
+      "summary": "index.css 是 css 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "css",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 css。"
+    },
+    {
+      "id": "file:web/src/lib/api.ts",
+      "type": "file",
+      "name": "api.ts",
+      "filePath": "web/src/lib/api.ts",
+      "summary": "api.ts 是 typescript 源文件，包含 9 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/api.ts:fetchJSON",
+      "type": "function",
+      "name": "fetchJSON",
+      "filePath": "web/src/lib/api.ts",
+      "lineRange": [
+        44,
+        141
+      ],
+      "summary": "fetchJSON 是 api.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/lib/api.ts:getWsTicket",
+      "type": "function",
+      "name": "getWsTicket",
+      "filePath": "web/src/lib/api.ts",
+      "lineRange": [
+        170,
+        179
+      ],
+      "summary": "getWsTicket 是 api.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/api.ts:buildWsAuthParam",
+      "type": "function",
+      "name": "buildWsAuthParam",
+      "filePath": "web/src/lib/api.ts",
+      "lineRange": [
+        186,
+        193
+      ],
+      "summary": "buildWsAuthParam 是 api.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/api.ts:authedFetch",
+      "type": "function",
+      "name": "authedFetch",
+      "filePath": "web/src/lib/api.ts",
+      "lineRange": [
+        212,
+        226
+      ],
+      "summary": "authedFetch 是 api.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/api.ts:buildWsUrl",
+      "type": "function",
+      "name": "buildWsUrl",
+      "filePath": "web/src/lib/api.ts",
+      "lineRange": [
+        241,
+        250
+      ],
+      "summary": "buildWsUrl 是 api.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/dashboard-flags.ts",
+      "type": "file",
+      "name": "dashboard-flags.ts",
+      "filePath": "web/src/lib/dashboard-flags.ts",
+      "summary": "dashboard-flags.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/dashboard-flags.ts:isDashboardEmbeddedChatEnabled",
+      "type": "function",
+      "name": "isDashboardEmbeddedChatEnabled",
+      "filePath": "web/src/lib/dashboard-flags.ts",
+      "lineRange": [
+        22,
+        24
+      ],
+      "summary": "isDashboardEmbeddedChatEnabled 是 dashboard-flags.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/format.ts",
+      "type": "file",
+      "name": "format.ts",
+      "filePath": "web/src/lib/format.ts",
+      "summary": "format.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/format.ts:formatTokenCount",
+      "type": "function",
+      "name": "formatTokenCount",
+      "filePath": "web/src/lib/format.ts",
+      "lineRange": [
+        5,
+        9
+      ],
+      "summary": "formatTokenCount 是 format.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/fuzzy.ts",
+      "type": "file",
+      "name": "fuzzy.ts",
+      "filePath": "web/src/lib/fuzzy.ts",
+      "summary": "fuzzy.ts 是 typescript 源文件，包含 4 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/fuzzy.ts:isBoundary",
+      "type": "function",
+      "name": "isBoundary",
+      "filePath": "web/src/lib/fuzzy.ts",
+      "lineRange": [
+        28,
+        47
+      ],
+      "summary": "isBoundary 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/fuzzy.ts:fuzzyScore",
+      "type": "function",
+      "name": "fuzzyScore",
+      "filePath": "web/src/lib/fuzzy.ts",
+      "lineRange": [
+        53,
+        119
+      ],
+      "summary": "fuzzyScore 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/lib/fuzzy.ts:fuzzyScoreMulti",
+      "type": "function",
+      "name": "fuzzyScoreMulti",
+      "filePath": "web/src/lib/fuzzy.ts",
+      "lineRange": [
+        126,
+        154
+      ],
+      "summary": "fuzzyScoreMulti 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/fuzzy.ts:fuzzyRank",
+      "type": "function",
+      "name": "fuzzyRank",
+      "filePath": "web/src/lib/fuzzy.ts",
+      "lineRange": [
+        168,
+        192
+      ],
+      "summary": "fuzzyRank 是 fuzzy.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/gatewayClient.ts",
+      "type": "file",
+      "name": "gatewayClient.ts",
+      "filePath": "web/src/lib/gatewayClient.ts",
+      "summary": "gatewayClient.ts 是 typescript 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "cli",
+        "exports",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "class:web/src/lib/gatewayClient.ts:GatewayClient",
+      "type": "class",
+      "name": "GatewayClient",
+      "filePath": "web/src/lib/gatewayClient.ts",
+      "lineRange": [
+        65,
+        246
+      ],
+      "summary": "GatewayClient 是 gatewayClient.ts 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/lib/nested.ts",
+      "type": "file",
+      "name": "nested.ts",
+      "filePath": "web/src/lib/nested.ts",
+      "summary": "nested.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/nested.ts:getNestedValue",
+      "type": "function",
+      "name": "getNestedValue",
+      "filePath": "web/src/lib/nested.ts",
+      "lineRange": [
+        1,
+        9
+      ],
+      "summary": "getNestedValue 是 nested.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/nested.ts:setNestedValue",
+      "type": "function",
+      "name": "setNestedValue",
+      "filePath": "web/src/lib/nested.ts",
+      "lineRange": [
+        11,
+        23
+      ],
+      "summary": "setNestedValue 是 nested.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/resolve-page-title.ts",
+      "type": "file",
+      "name": "resolve-page-title.ts",
+      "filePath": "web/src/lib/resolve-page-title.ts",
+      "summary": "resolve-page-title.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/resolve-page-title.ts:resolvePageTitle",
+      "type": "function",
+      "name": "resolvePageTitle",
+      "filePath": "web/src/lib/resolve-page-title.ts",
+      "lineRange": [
+        18,
+        41
+      ],
+      "summary": "resolvePageTitle 是 resolve-page-title.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/schedule.ts",
+      "type": "file",
+      "name": "schedule.ts",
+      "filePath": "web/src/lib/schedule.ts",
+      "summary": "schedule.ts 是 typescript 源文件，包含 8 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:buildScheduleString",
+      "type": "function",
+      "name": "buildScheduleString",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        104,
+        148
+      ],
+      "summary": "buildScheduleString 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:parseTimeOfDay",
+      "type": "function",
+      "name": "parseTimeOfDay",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        150,
+        166
+      ],
+      "summary": "parseTimeOfDay 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:describeSchedule",
+      "type": "function",
+      "name": "describeSchedule",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        210,
+        244
+      ],
+      "summary": "describeSchedule 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:describeInterval",
+      "type": "function",
+      "name": "describeInterval",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        246,
+        258
+      ],
+      "summary": "describeInterval 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:describeCronExpression",
+      "type": "function",
+      "name": "describeCronExpression",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        272,
+        341
+      ],
+      "summary": "describeCronExpression 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:formatIsoLocal",
+      "type": "function",
+      "name": "formatIsoLocal",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        350,
+        362
+      ],
+      "summary": "formatIsoLocal 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/schedule.ts:englishOrdinal",
+      "type": "function",
+      "name": "englishOrdinal",
+      "filePath": "web/src/lib/schedule.ts",
+      "lineRange": [
+        367,
+        382
+      ],
+      "summary": "englishOrdinal 是 schedule.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/slashExec.ts",
+      "type": "file",
+      "name": "slashExec.ts",
+      "filePath": "web/src/lib/slashExec.ts",
+      "summary": "slashExec.ts 是 typescript 源文件，包含 3 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/slashExec.ts:executeSlash",
+      "type": "function",
+      "name": "executeSlash",
+      "filePath": "web/src/lib/slashExec.ts",
+      "lineRange": [
+        55,
+        127
+      ],
+      "summary": "executeSlash 是 slashExec.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/lib/slashExec.ts:parseSlash",
+      "type": "function",
+      "name": "parseSlash",
+      "filePath": "web/src/lib/slashExec.ts",
+      "lineRange": [
+        129,
+        132
+      ],
+      "summary": "parseSlash 是 slashExec.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/slashExec.ts:parseCommandDispatch",
+      "type": "function",
+      "name": "parseCommandDispatch",
+      "filePath": "web/src/lib/slashExec.ts",
+      "lineRange": [
+        134,
+        163
+      ],
+      "summary": "parseCommandDispatch 是 slashExec.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/lib/utils.ts",
+      "type": "file",
+      "name": "utils.ts",
+      "filePath": "web/src/lib/utils.ts",
+      "summary": "utils.ts 是 typescript 源文件，包含 3 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/lib/utils.ts:cn",
+      "type": "function",
+      "name": "cn",
+      "filePath": "web/src/lib/utils.ts",
+      "lineRange": [
+        4,
+        6
+      ],
+      "summary": "cn 是 utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/utils.ts:timeAgo",
+      "type": "function",
+      "name": "timeAgo",
+      "filePath": "web/src/lib/utils.ts",
+      "lineRange": [
+        18,
+        25
+      ],
+      "summary": "timeAgo 是 utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/lib/utils.ts:isoTimeAgo",
+      "type": "function",
+      "name": "isoTimeAgo",
+      "filePath": "web/src/lib/utils.ts",
+      "lineRange": [
+        28,
+        35
+      ],
+      "summary": "isoTimeAgo 是 utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "web/src/main.tsx",
+      "summary": "main.tsx 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/pages/AnalyticsPage.tsx",
+      "type": "file",
+      "name": "AnalyticsPage.tsx",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "summary": "AnalyticsPage.tsx 是 typescript 源文件，包含 9 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:useTableSort",
+      "type": "function",
+      "name": "useTableSort",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        55,
+        89
+      ],
+      "summary": "useTableSort 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:SortHeader",
+      "type": "function",
+      "name": "SortHeader",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        91,
+        126
+      ],
+      "summary": "SortHeader 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:TokenBarChart",
+      "type": "function",
+      "name": "TokenBarChart",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        130,
+        233
+      ],
+      "summary": "TokenBarChart 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:DailyTable",
+      "type": "function",
+      "name": "DailyTable",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        235,
+        292
+      ],
+      "summary": "DailyTable 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:ModelTable",
+      "type": "function",
+      "name": "ModelTable",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        294,
+        349
+      ],
+      "summary": "ModelTable 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:SkillTable",
+      "type": "function",
+      "name": "SkillTable",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        351,
+        404
+      ],
+      "summary": "SkillTable 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/AnalyticsPage.tsx:AnalyticsPage",
+      "type": "function",
+      "name": "AnalyticsPage",
+      "filePath": "web/src/pages/AnalyticsPage.tsx",
+      "lineRange": [
+        406,
+        604
+      ],
+      "summary": "AnalyticsPage 是 AnalyticsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/pages/ChannelsPage.tsx",
+      "type": "file",
+      "name": "ChannelsPage.tsx",
+      "filePath": "web/src/pages/ChannelsPage.tsx",
+      "summary": "ChannelsPage.tsx 是 typescript 源文件，包含 5 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/ChannelsPage.tsx:ChannelsPage",
+      "type": "function",
+      "name": "ChannelsPage",
+      "filePath": "web/src/pages/ChannelsPage.tsx",
+      "lineRange": [
+        72,
+        461
+      ],
+      "summary": "ChannelsPage 是 ChannelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/ChannelsPage.tsx:TelegramOnboardingPanel",
+      "type": "function",
+      "name": "TelegramOnboardingPanel",
+      "filePath": "web/src/pages/ChannelsPage.tsx",
+      "lineRange": [
+        463,
+        772
+      ],
+      "summary": "TelegramOnboardingPanel 是 ChannelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/ChatPage.tsx",
+      "type": "file",
+      "name": "ChatPage.tsx",
+      "filePath": "web/src/pages/ChatPage.tsx",
+      "summary": "ChatPage.tsx 是 typescript 源文件，包含 6 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/ChatPage.tsx:buildWsUrl",
+      "type": "function",
+      "name": "buildWsUrl",
+      "filePath": "web/src/pages/ChatPage.tsx",
+      "lineRange": [
+        41,
+        53
+      ],
+      "summary": "buildWsUrl 是 ChatPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/ChatPage.tsx:terminalTierWidthPx",
+      "type": "function",
+      "name": "terminalTierWidthPx",
+      "filePath": "web/src/pages/ChatPage.tsx",
+      "lineRange": [
+        86,
+        96
+      ],
+      "summary": "terminalTierWidthPx 是 ChatPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/ChatPage.tsx:ChatPage",
+      "type": "function",
+      "name": "ChatPage",
+      "filePath": "web/src/pages/ChatPage.tsx",
+      "lineRange": [
+        112,
+        930
+      ],
+      "summary": "ChatPage 是 ChatPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/ConfigPage.tsx",
+      "type": "file",
+      "name": "ConfigPage.tsx",
+      "filePath": "web/src/pages/ConfigPage.tsx",
+      "summary": "ConfigPage.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/ConfigPage.tsx:CategoryIcon",
+      "type": "function",
+      "name": "CategoryIcon",
+      "filePath": "web/src/pages/ConfigPage.tsx",
+      "lineRange": [
+        89,
+        98
+      ],
+      "summary": "CategoryIcon 是 ConfigPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/ConfigPage.tsx:ConfigPage",
+      "type": "function",
+      "name": "ConfigPage",
+      "filePath": "web/src/pages/ConfigPage.tsx",
+      "lineRange": [
+        104,
+        660
+      ],
+      "summary": "ConfigPage 是 ConfigPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/CronPage.tsx",
+      "type": "file",
+      "name": "CronPage.tsx",
+      "filePath": "web/src/pages/CronPage.tsx",
+      "summary": "CronPage.tsx 是 typescript 源文件，包含 13 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/CronPage.tsx:getJobTitle",
+      "type": "function",
+      "name": "getJobTitle",
+      "filePath": "web/src/pages/CronPage.tsx",
+      "lineRange": [
+        58,
+        69
+      ],
+      "summary": "getJobTitle 是 CronPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/CronPage.tsx:getJobScheduleDisplay",
+      "type": "function",
+      "name": "getJobScheduleDisplay",
+      "filePath": "web/src/pages/CronPage.tsx",
+      "lineRange": [
+        71,
+        86
+      ],
+      "summary": "getJobScheduleDisplay 是 CronPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/CronPage.tsx:CronPage",
+      "type": "function",
+      "name": "CronPage",
+      "filePath": "web/src/pages/CronPage.tsx",
+      "lineRange": [
+        118,
+        774
+      ],
+      "summary": "CronPage 是 CronPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/DocsPage.tsx",
+      "type": "file",
+      "name": "DocsPage.tsx",
+      "filePath": "web/src/pages/DocsPage.tsx",
+      "summary": "DocsPage.tsx 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/DocsPage.tsx:DocsPage",
+      "type": "function",
+      "name": "DocsPage",
+      "filePath": "web/src/pages/DocsPage.tsx",
+      "lineRange": [
+        18,
+        69
+      ],
+      "summary": "DocsPage 是 DocsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/pages/EnvPage.tsx",
+      "type": "file",
+      "name": "EnvPage.tsx",
+      "filePath": "web/src/pages/EnvPage.tsx",
+      "summary": "EnvPage.tsx 是 typescript 源文件，包含 6 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/EnvPage.tsx:EnvVarRow",
+      "type": "function",
+      "name": "EnvVarRow",
+      "filePath": "web/src/pages/EnvPage.tsx",
+      "lineRange": [
+        99,
+        330
+      ],
+      "summary": "EnvVarRow 是 EnvPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/EnvPage.tsx:ProviderGroupCard",
+      "type": "function",
+      "name": "ProviderGroupCard",
+      "filePath": "web/src/pages/EnvPage.tsx",
+      "lineRange": [
+        336,
+        483
+      ],
+      "summary": "ProviderGroupCard 是 EnvPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/EnvPage.tsx:EnvPage",
+      "type": "function",
+      "name": "EnvPage",
+      "filePath": "web/src/pages/EnvPage.tsx",
+      "lineRange": [
+        489,
+        834
+      ],
+      "summary": "EnvPage 是 EnvPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/EnvPage.tsx:EnvCategoryCard",
+      "type": "function",
+      "name": "EnvCategoryCard",
+      "filePath": "web/src/pages/EnvPage.tsx",
+      "lineRange": [
+        840,
+        937
+      ],
+      "summary": "EnvCategoryCard 是 EnvPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:fetchJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:fetchJSON",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:getWsTicket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:getWsTicket",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:buildWsAuthParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:buildWsAuthParam",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:authedFetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:authedFetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:buildWsUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/api.ts",
+      "target": "function:web/src/lib/api.ts:buildWsUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/dashboard-flags.ts",
+      "target": "function:web/src/lib/dashboard-flags.ts:isDashboardEmbeddedChatEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/dashboard-flags.ts",
+      "target": "function:web/src/lib/dashboard-flags.ts:isDashboardEmbeddedChatEnabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/format.ts",
+      "target": "function:web/src/lib/format.ts:formatTokenCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/format.ts",
+      "target": "function:web/src/lib/format.ts:formatTokenCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:isBoundary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:fuzzyScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:fuzzyScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:fuzzyScoreMulti",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:fuzzyScoreMulti",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:fuzzyRank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/fuzzy.ts",
+      "target": "function:web/src/lib/fuzzy.ts:fuzzyRank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/gatewayClient.ts",
+      "target": "class:web/src/lib/gatewayClient.ts:GatewayClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/gatewayClient.ts",
+      "target": "class:web/src/lib/gatewayClient.ts:GatewayClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/nested.ts",
+      "target": "function:web/src/lib/nested.ts:getNestedValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/nested.ts",
+      "target": "function:web/src/lib/nested.ts:getNestedValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/nested.ts",
+      "target": "function:web/src/lib/nested.ts:setNestedValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/nested.ts",
+      "target": "function:web/src/lib/nested.ts:setNestedValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/resolve-page-title.ts",
+      "target": "function:web/src/lib/resolve-page-title.ts:resolvePageTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/resolve-page-title.ts",
+      "target": "function:web/src/lib/resolve-page-title.ts:resolvePageTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:buildScheduleString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:buildScheduleString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:parseTimeOfDay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:describeSchedule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:describeSchedule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:describeInterval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:describeCronExpression",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:formatIsoLocal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:englishOrdinal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/schedule.ts",
+      "target": "function:web/src/lib/schedule.ts:englishOrdinal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/slashExec.ts",
+      "target": "function:web/src/lib/slashExec.ts:executeSlash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/slashExec.ts",
+      "target": "function:web/src/lib/slashExec.ts:executeSlash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/slashExec.ts",
+      "target": "function:web/src/lib/slashExec.ts:parseSlash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/slashExec.ts",
+      "target": "function:web/src/lib/slashExec.ts:parseSlash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/slashExec.ts",
+      "target": "function:web/src/lib/slashExec.ts:parseCommandDispatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/utils.ts",
+      "target": "function:web/src/lib/utils.ts:cn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/utils.ts",
+      "target": "function:web/src/lib/utils.ts:cn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/utils.ts",
+      "target": "function:web/src/lib/utils.ts:timeAgo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/utils.ts",
+      "target": "function:web/src/lib/utils.ts:timeAgo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/lib/utils.ts",
+      "target": "function:web/src/lib/utils.ts:isoTimeAgo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/lib/utils.ts",
+      "target": "function:web/src/lib/utils.ts:isoTimeAgo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:useTableSort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:SortHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:TokenBarChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:DailyTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:ModelTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:SkillTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:AnalyticsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/AnalyticsPage.tsx",
+      "target": "function:web/src/pages/AnalyticsPage.tsx:AnalyticsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/ChannelsPage.tsx",
+      "target": "function:web/src/pages/ChannelsPage.tsx:ChannelsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ChannelsPage.tsx",
+      "target": "function:web/src/pages/ChannelsPage.tsx:ChannelsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/ChannelsPage.tsx",
+      "target": "function:web/src/pages/ChannelsPage.tsx:TelegramOnboardingPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ChatPage.tsx",
+      "target": "function:web/src/pages/ChatPage.tsx:buildWsUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ChatPage.tsx",
+      "target": "function:web/src/pages/ChatPage.tsx:terminalTierWidthPx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ChatPage.tsx",
+      "target": "function:web/src/pages/ChatPage.tsx:ChatPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ChatPage.tsx",
+      "target": "function:web/src/pages/ChatPage.tsx:ChatPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/ConfigPage.tsx",
+      "target": "function:web/src/pages/ConfigPage.tsx:CategoryIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ConfigPage.tsx",
+      "target": "function:web/src/pages/ConfigPage.tsx:ConfigPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ConfigPage.tsx",
+      "target": "function:web/src/pages/ConfigPage.tsx:ConfigPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/CronPage.tsx",
+      "target": "function:web/src/pages/CronPage.tsx:getJobTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/CronPage.tsx",
+      "target": "function:web/src/pages/CronPage.tsx:getJobScheduleDisplay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/CronPage.tsx",
+      "target": "function:web/src/pages/CronPage.tsx:CronPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/CronPage.tsx",
+      "target": "function:web/src/pages/CronPage.tsx:CronPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/DocsPage.tsx",
+      "target": "function:web/src/pages/DocsPage.tsx:DocsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/DocsPage.tsx",
+      "target": "function:web/src/pages/DocsPage.tsx:DocsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/EnvPage.tsx",
+      "target": "function:web/src/pages/EnvPage.tsx:EnvVarRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/EnvPage.tsx",
+      "target": "function:web/src/pages/EnvPage.tsx:ProviderGroupCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/EnvPage.tsx",
+      "target": "function:web/src/pages/EnvPage.tsx:EnvPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/EnvPage.tsx",
+      "target": "function:web/src/pages/EnvPage.tsx:EnvPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/EnvPage.tsx",
+      "target": "function:web/src/pages/EnvPage.tsx:EnvCategoryCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/run-hermes-with-nous-portal.md",
+      "type": "document",
+      "name": "run-hermes-with-nous-portal.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/run-hermes-with-nous-portal.md",
+      "summary": "run-hermes-with-nous-portal.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/team-telegram-assistant.md",
+      "type": "document",
+      "name": "team-telegram-assistant.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/team-telegram-assistant.md",
+      "summary": "team-telegram-assistant.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/tips.md",
+      "type": "document",
+      "name": "tips.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/tips.md",
+      "summary": "tips.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-mcp-with-hermes.md",
+      "type": "document",
+      "name": "use-mcp-with-hermes.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-mcp-with-hermes.md",
+      "summary": "use-mcp-with-hermes.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-soul-with-hermes.md",
+      "type": "document",
+      "name": "use-soul-with-hermes.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-soul-with-hermes.md",
+      "summary": "use-soul-with-hermes.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-voice-mode-with-hermes.md",
+      "type": "document",
+      "name": "use-voice-mode-with-hermes.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/use-voice-mode-with-hermes.md",
+      "summary": "use-voice-mode-with-hermes.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/webhook-github-pr-review.md",
+      "type": "document",
+      "name": "webhook-github-pr-review.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/webhook-github-pr-review.md",
+      "summary": "webhook-github-pr-review.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/work-with-skills.md",
+      "type": "document",
+      "name": "work-with-skills.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/work-with-skills.md",
+      "summary": "work-with-skills.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/xai-grok-oauth.md",
+      "type": "document",
+      "name": "xai-grok-oauth.md",
+      "filePath": "website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/xai-grok-oauth.md",
+      "summary": "xai-grok-oauth.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "plugin"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/3d-scene.md",
+      "type": "document",
+      "name": "3d-scene.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/3d-scene.md",
+      "summary": "3d-scene.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/animation.md",
+      "type": "document",
+      "name": "animation.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/animation.md",
+      "summary": "animation.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/audio-reactive.md",
+      "type": "document",
+      "name": "audio-reactive.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/audio-reactive.md",
+      "summary": "audio-reactive.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/dat-scripting.md",
+      "type": "document",
+      "name": "dat-scripting.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/dat-scripting.md",
+      "summary": "dat-scripting.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/external-data.md",
+      "type": "document",
+      "name": "external-data.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/external-data.md",
+      "summary": "external-data.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/geometry-comp.md",
+      "type": "document",
+      "name": "geometry-comp.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/geometry-comp.md",
+      "summary": "geometry-comp.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/glsl.md",
+      "type": "document",
+      "name": "glsl.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/glsl.md",
+      "summary": "glsl.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/layout-compositor.md",
+      "type": "document",
+      "name": "layout-compositor.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/layout-compositor.md",
+      "summary": "layout-compositor.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/mcp-tools.md",
+      "type": "document",
+      "name": "mcp-tools.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/mcp-tools.md",
+      "summary": "mcp-tools.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "tooling"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/midi-osc.md",
+      "type": "document",
+      "name": "midi-osc.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/midi-osc.md",
+      "summary": "midi-osc.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/network-patterns.md",
+      "type": "document",
+      "name": "network-patterns.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/network-patterns.md",
+      "summary": "network-patterns.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/operator-tips.md",
+      "type": "document",
+      "name": "operator-tips.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/operator-tips.md",
+      "summary": "operator-tips.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/operators.md",
+      "type": "document",
+      "name": "operators.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/operators.md",
+      "summary": "operators.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/panel-ui.md",
+      "type": "document",
+      "name": "panel-ui.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/panel-ui.md",
+      "summary": "panel-ui.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/particles.md",
+      "type": "document",
+      "name": "particles.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/particles.md",
+      "summary": "particles.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/pitfalls.md",
+      "type": "document",
+      "name": "pitfalls.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/pitfalls.md",
+      "summary": "pitfalls.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/postfx.md",
+      "type": "document",
+      "name": "postfx.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/postfx.md",
+      "summary": "postfx.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/projection-mapping.md",
+      "type": "document",
+      "name": "projection-mapping.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/projection-mapping.md",
+      "summary": "projection-mapping.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/python-api.md",
+      "type": "document",
+      "name": "python-api.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/python-api.md",
+      "summary": "python-api.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/creative/touchdesigner-mcp/references/replicator.md",
+      "type": "document",
+      "name": "replicator.md",
+      "filePath": "skills/creative/touchdesigner-mcp/references/replicator.md",
+      "summary": "replicator.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

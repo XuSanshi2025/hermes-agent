@@ -1,0 +1,3886 @@
+{
+  "nodes": [
+    {
+      "id": "file:agent/tts_registry.py",
+      "type": "file",
+      "name": "tts_registry.py",
+      "filePath": "agent/tts_registry.py",
+      "summary": "tts_registry.py 是 python 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/tts_registry.py:register_provider",
+      "type": "function",
+      "name": "register_provider",
+      "filePath": "agent/tts_registry.py",
+      "lineRange": [
+        66,
+        108
+      ],
+      "summary": "register_provider 是 tts_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tts_registry.py:list_providers",
+      "type": "function",
+      "name": "list_providers",
+      "filePath": "agent/tts_registry.py",
+      "lineRange": [
+        111,
+        115
+      ],
+      "summary": "list_providers 是 tts_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tts_registry.py:get_provider",
+      "type": "function",
+      "name": "get_provider",
+      "filePath": "agent/tts_registry.py",
+      "lineRange": [
+        118,
+        127
+      ],
+      "summary": "get_provider 是 tts_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/tts_registry.py:_reset_for_tests",
+      "type": "function",
+      "name": "_reset_for_tests",
+      "filePath": "agent/tts_registry.py",
+      "lineRange": [
+        130,
+        133
+      ],
+      "summary": "_reset_for_tests 是 tts_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/turn_context.py",
+      "type": "file",
+      "name": "turn_context.py",
+      "filePath": "agent/turn_context.py",
+      "summary": "turn_context.py 是 python 源文件，包含 1 个函数、1 个类、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/turn_context.py:build_turn_context",
+      "type": "function",
+      "name": "build_turn_context",
+      "filePath": "agent/turn_context.py",
+      "lineRange": [
+        64,
+        388
+      ],
+      "summary": "build_turn_context 是 turn_context.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:agent/turn_context.py:TurnContext",
+      "type": "class",
+      "name": "TurnContext",
+      "filePath": "agent/turn_context.py",
+      "lineRange": [
+        38,
+        61
+      ],
+      "summary": "TurnContext 是 turn_context.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/turn_retry_state.py",
+      "type": "file",
+      "name": "turn_retry_state.py",
+      "filePath": "agent/turn_retry_state.py",
+      "summary": "turn_retry_state.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/turn_retry_state.py:TurnRetryState",
+      "type": "class",
+      "name": "TurnRetryState",
+      "filePath": "agent/turn_retry_state.py",
+      "lineRange": [
+        33,
+        68
+      ],
+      "summary": "TurnRetryState 是 turn_retry_state.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/usage_pricing.py",
+      "type": "file",
+      "name": "usage_pricing.py",
+      "filePath": "agent/usage_pricing.py",
+      "summary": "usage_pricing.py 是 python 源文件，包含 13 个函数、4 个类、17 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:_to_decimal",
+      "type": "function",
+      "name": "_to_decimal",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        539,
+        545
+      ],
+      "summary": "_to_decimal 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:_to_int",
+      "type": "function",
+      "name": "_to_int",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        548,
+        552
+      ],
+      "summary": "_to_int 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:resolve_billing_route",
+      "type": "function",
+      "name": "resolve_billing_route",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        555,
+        581
+      ],
+      "summary": "resolve_billing_route 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:_normalize_anthropic_model_name",
+      "type": "function",
+      "name": "_normalize_anthropic_model_name",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        584,
+        598
+      ],
+      "summary": "_normalize_anthropic_model_name 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:_lookup_official_docs_pricing",
+      "type": "function",
+      "name": "_lookup_official_docs_pricing",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        601,
+        614
+      ],
+      "summary": "_lookup_official_docs_pricing 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:_openrouter_pricing_entry",
+      "type": "function",
+      "name": "_openrouter_pricing_entry",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        617,
+        623
+      ],
+      "summary": "_openrouter_pricing_entry 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:_pricing_entry_from_metadata",
+      "type": "function",
+      "name": "_pricing_entry_from_metadata",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        626,
+        667
+      ],
+      "summary": "_pricing_entry_from_metadata 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:get_pricing_entry",
+      "type": "function",
+      "name": "get_pricing_entry",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        670,
+        697
+      ],
+      "summary": "get_pricing_entry 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:normalize_usage",
+      "type": "function",
+      "name": "normalize_usage",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        700,
+        770
+      ],
+      "summary": "normalize_usage 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:estimate_usage_cost",
+      "type": "function",
+      "name": "estimate_usage_cost",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        773,
+        849
+      ],
+      "summary": "estimate_usage_cost 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:has_known_pricing",
+      "type": "function",
+      "name": "has_known_pricing",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        852,
+        867
+      ],
+      "summary": "has_known_pricing 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:format_duration_compact",
+      "type": "function",
+      "name": "format_duration_compact",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        871,
+        882
+      ],
+      "summary": "format_duration_compact 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/usage_pricing.py:format_token_count_compact",
+      "type": "function",
+      "name": "format_token_count_compact",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        885,
+        905
+      ],
+      "summary": "format_token_count_compact 是 usage_pricing.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/usage_pricing.py:CanonicalUsage",
+      "type": "class",
+      "name": "CanonicalUsage",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        30,
+        45
+      ],
+      "summary": "CanonicalUsage 是 usage_pricing.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/usage_pricing.py:BillingRoute",
+      "type": "class",
+      "name": "BillingRoute",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        49,
+        53
+      ],
+      "summary": "BillingRoute 是 usage_pricing.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/usage_pricing.py:PricingEntry",
+      "type": "class",
+      "name": "PricingEntry",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        57,
+        66
+      ],
+      "summary": "PricingEntry 是 usage_pricing.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/usage_pricing.py:CostResult",
+      "type": "class",
+      "name": "CostResult",
+      "filePath": "agent/usage_pricing.py",
+      "lineRange": [
+        70,
+        77
+      ],
+      "summary": "CostResult 是 usage_pricing.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/video_gen_provider.py",
+      "type": "file",
+      "name": "video_gen_provider.py",
+      "filePath": "agent/video_gen_provider.py",
+      "summary": "video_gen_provider.py 是 python 源文件，包含 5 个函数、1 个类、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/video_gen_provider.py:_videos_cache_dir",
+      "type": "function",
+      "name": "_videos_cache_dir",
+      "filePath": "agent/video_gen_provider.py",
+      "lineRange": [
+        204,
+        210
+      ],
+      "summary": "_videos_cache_dir 是 video_gen_provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_provider.py:save_b64_video",
+      "type": "function",
+      "name": "save_b64_video",
+      "filePath": "agent/video_gen_provider.py",
+      "lineRange": [
+        213,
+        230
+      ],
+      "summary": "save_b64_video 是 video_gen_provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_provider.py:save_bytes_video",
+      "type": "function",
+      "name": "save_bytes_video",
+      "filePath": "agent/video_gen_provider.py",
+      "lineRange": [
+        233,
+        244
+      ],
+      "summary": "save_bytes_video 是 video_gen_provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_provider.py:success_response",
+      "type": "function",
+      "name": "success_response",
+      "filePath": "agent/video_gen_provider.py",
+      "lineRange": [
+        247,
+        277
+      ],
+      "summary": "success_response 是 video_gen_provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_provider.py:error_response",
+      "type": "function",
+      "name": "error_response",
+      "filePath": "agent/video_gen_provider.py",
+      "lineRange": [
+        280,
+        299
+      ],
+      "summary": "error_response 是 video_gen_provider.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:agent/video_gen_provider.py:VideoGenProvider",
+      "type": "class",
+      "name": "VideoGenProvider",
+      "filePath": "agent/video_gen_provider.py",
+      "lineRange": [
+        75,
+        196
+      ],
+      "summary": "VideoGenProvider 是 video_gen_provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/video_gen_registry.py",
+      "type": "file",
+      "name": "video_gen_registry.py",
+      "filePath": "agent/video_gen_registry.py",
+      "summary": "video_gen_registry.py 是 python 源文件，包含 5 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/video_gen_registry.py:register_provider",
+      "type": "function",
+      "name": "register_provider",
+      "filePath": "agent/video_gen_registry.py",
+      "lineRange": [
+        37,
+        58
+      ],
+      "summary": "register_provider 是 video_gen_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_registry.py:list_providers",
+      "type": "function",
+      "name": "list_providers",
+      "filePath": "agent/video_gen_registry.py",
+      "lineRange": [
+        61,
+        65
+      ],
+      "summary": "list_providers 是 video_gen_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_registry.py:get_provider",
+      "type": "function",
+      "name": "get_provider",
+      "filePath": "agent/video_gen_registry.py",
+      "lineRange": [
+        68,
+        73
+      ],
+      "summary": "get_provider 是 video_gen_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_registry.py:get_active_provider",
+      "type": "function",
+      "name": "get_active_provider",
+      "filePath": "agent/video_gen_registry.py",
+      "lineRange": [
+        76,
+        111
+      ],
+      "summary": "get_active_provider 是 video_gen_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/video_gen_registry.py:_reset_for_tests",
+      "type": "function",
+      "name": "_reset_for_tests",
+      "filePath": "agent/video_gen_registry.py",
+      "lineRange": [
+        114,
+        117
+      ],
+      "summary": "_reset_for_tests 是 video_gen_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:agent/web_search_provider.py",
+      "type": "file",
+      "name": "web_search_provider.py",
+      "filePath": "agent/web_search_provider.py",
+      "summary": "web_search_provider.py 是 python 源文件，包含 1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "class:agent/web_search_provider.py:WebSearchProvider",
+      "type": "class",
+      "name": "WebSearchProvider",
+      "filePath": "agent/web_search_provider.py",
+      "lineRange": [
+        63,
+        185
+      ],
+      "summary": "WebSearchProvider 是 web_search_provider.py 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:agent/web_search_registry.py",
+      "type": "file",
+      "name": "web_search_registry.py",
+      "filePath": "agent/web_search_registry.py",
+      "summary": "web_search_registry.py 是 python 源文件，包含 8 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "agent",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:register_provider",
+      "type": "function",
+      "name": "register_provider",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        48,
+        75
+      ],
+      "summary": "register_provider 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:list_providers",
+      "type": "function",
+      "name": "list_providers",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        78,
+        82
+      ],
+      "summary": "list_providers 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:get_provider",
+      "type": "function",
+      "name": "get_provider",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        85,
+        90
+      ],
+      "summary": "get_provider 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:_read_config_key",
+      "type": "function",
+      "name": "_read_config_key",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        98,
+        113
+      ],
+      "summary": "_read_config_key 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:_resolve",
+      "type": "function",
+      "name": "_resolve",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        133,
+        219
+      ],
+      "summary": "_resolve 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:get_active_search_provider",
+      "type": "function",
+      "name": "get_active_search_provider",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        222,
+        229
+      ],
+      "summary": "get_active_search_provider 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:get_active_extract_provider",
+      "type": "function",
+      "name": "get_active_extract_provider",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        232,
+        239
+      ],
+      "summary": "get_active_extract_provider 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:agent/web_search_registry.py:_reset_for_tests",
+      "type": "function",
+      "name": "_reset_for_tests",
+      "filePath": "agent/web_search_registry.py",
+      "lineRange": [
+        242,
+        245
+      ],
+      "summary": "_reset_for_tests 是 web_search_registry.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/build.rs",
+      "type": "file",
+      "name": "build.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/build.rs",
+      "summary": "build.rs 是 rust 源文件，包含 6 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/build.rs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/bootstrap-installer/src-tauri/build.rs",
+      "lineRange": [
+        3,
+        101
+      ],
+      "summary": "main 是 build.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/build.rs:resolve_commit_pin",
+      "type": "function",
+      "name": "resolve_commit_pin",
+      "filePath": "apps/bootstrap-installer/src-tauri/build.rs",
+      "lineRange": [
+        103,
+        138
+      ],
+      "summary": "resolve_commit_pin 是 build.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/build.rs:resolve_branch_pin",
+      "type": "function",
+      "name": "resolve_branch_pin",
+      "filePath": "apps/bootstrap-installer/src-tauri/build.rs",
+      "lineRange": [
+        146,
+        167
+      ],
+      "summary": "resolve_branch_pin 是 build.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/build.rs:locate_git_dir",
+      "type": "function",
+      "name": "locate_git_dir",
+      "filePath": "apps/bootstrap-installer/src-tauri/build.rs",
+      "lineRange": [
+        169,
+        182
+      ],
+      "summary": "locate_git_dir 是 build.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:apps/bootstrap-installer/src-tauri/capabilities/default.json",
+      "type": "config",
+      "name": "default.json",
+      "filePath": "apps/bootstrap-installer/src-tauri/capabilities/default.json",
+      "summary": "default.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "config:apps/bootstrap-installer/src-tauri/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "apps/bootstrap-installer/src-tauri/Cargo.toml",
+      "summary": "Cargo.toml 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "toml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 toml。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/hermes-setup.manifest",
+      "type": "file",
+      "name": "hermes-setup.manifest",
+      "filePath": "apps/bootstrap-installer/src-tauri/hermes-setup.manifest",
+      "summary": "hermes-setup.manifest 是 manifest 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "manifest",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 manifest。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/icons/icon.icns",
+      "type": "file",
+      "name": "icon.icns",
+      "filePath": "apps/bootstrap-installer/src-tauri/icons/icon.icns",
+      "summary": "icon.icns 是 icns 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "icns",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 icns。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "type": "file",
+      "name": "bootstrap.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "summary": "bootstrap.rs 是 rust 源文件，包含 20 个函数、3 个类、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:start_bootstrap",
+      "type": "function",
+      "name": "start_bootstrap",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        73,
+        127
+      ],
+      "summary": "start_bootstrap 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:cancel_bootstrap",
+      "type": "function",
+      "name": "cancel_bootstrap",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        130,
+        136
+      ],
+      "summary": "cancel_bootstrap 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:get_bootstrap_status",
+      "type": "function",
+      "name": "get_bootstrap_status",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        139,
+        157
+      ],
+      "summary": "get_bootstrap_status 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:launch_hermes_desktop",
+      "type": "function",
+      "name": "launch_hermes_desktop",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        166,
+        208
+      ],
+      "summary": "launch_hermes_desktop 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:resolve_hermes_desktop_exe",
+      "type": "function",
+      "name": "resolve_hermes_desktop_exe",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        213,
+        235
+      ],
+      "summary": "resolve_hermes_desktop_exe 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:resolve_hermes_desktop_app",
+      "type": "function",
+      "name": "resolve_hermes_desktop_app",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        237,
+        253
+      ],
+      "summary": "resolve_hermes_desktop_app 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:hermes_is_installed",
+      "type": "function",
+      "name": "hermes_is_installed",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        258,
+        261
+      ],
+      "summary": "hermes_is_installed 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:spawn_installed_desktop",
+      "type": "function",
+      "name": "spawn_installed_desktop",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        266,
+        281
+      ],
+      "summary": "spawn_installed_desktop 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:open_macos_app_detached",
+      "type": "function",
+      "name": "open_macos_app_detached",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        284,
+        289
+      ],
+      "summary": "open_macos_app_detached 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:desktop_launch_command",
+      "type": "function",
+      "name": "desktop_launch_command",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        301,
+        318
+      ],
+      "summary": "desktop_launch_command 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:desktop_launch_command_std",
+      "type": "function",
+      "name": "desktop_launch_command_std",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        320,
+        337
+      ],
+      "summary": "desktop_launch_command_std 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:run_bootstrap",
+      "type": "function",
+      "name": "run_bootstrap",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        343,
+        671
+      ],
+      "summary": "run_bootstrap 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:run_install_script",
+      "type": "function",
+      "name": "run_install_script",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        682,
+        744
+      ],
+      "summary": "run_install_script 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:build_pin_args",
+      "type": "function",
+      "name": "build_pin_args",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        746,
+        757
+      ],
+      "summary": "build_pin_args 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:emit_event",
+      "type": "function",
+      "name": "emit_event",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        759,
+        801
+      ],
+      "summary": "emit_event 是 bootstrap.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:StartBootstrapArgs",
+      "type": "class",
+      "name": "StartBootstrapArgs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        35,
+        49
+      ],
+      "summary": "StartBootstrapArgs 是 bootstrap.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:BootstrapStatus",
+      "type": "class",
+      "name": "BootstrapStatus",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        56,
+        61
+      ],
+      "summary": "BootstrapStatus 是 bootstrap.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:BootstrapHandle",
+      "type": "class",
+      "name": "BootstrapHandle",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "lineRange": [
+        66,
+        70
+      ],
+      "summary": "BootstrapHandle 是 bootstrap.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "type": "file",
+      "name": "events.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "summary": "events.rs 是 rust 源文件，包含 6 个类、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageInfo",
+      "type": "class",
+      "name": "StageInfo",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "lineRange": [
+        14,
+        22
+      ],
+      "summary": "StageInfo 是 events.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/events.rs:Manifest",
+      "type": "class",
+      "name": "Manifest",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "lineRange": [
+        25,
+        29
+      ],
+      "summary": "Manifest 是 events.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageResultPayload",
+      "type": "class",
+      "name": "StageResultPayload",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "lineRange": [
+        32,
+        42
+      ],
+      "summary": "StageResultPayload 是 events.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageState",
+      "type": "class",
+      "name": "StageState",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "lineRange": [
+        47,
+        52
+      ],
+      "summary": "StageState 是 events.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/events.rs:LogStream",
+      "type": "class",
+      "name": "LogStream",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "lineRange": [
+        59,
+        62
+      ],
+      "summary": "LogStream 是 events.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/events.rs:BootstrapEvent",
+      "type": "class",
+      "name": "BootstrapEvent",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/events.rs",
+      "lineRange": [
+        67,
+        106
+      ],
+      "summary": "BootstrapEvent 是 events.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "type": "file",
+      "name": "install_script.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "summary": "install_script.rs 是 rust 源文件，包含 8 个函数、4 个类、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:for_current_os",
+      "type": "function",
+      "name": "for_current_os",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        50,
+        56
+      ],
+      "summary": "for_current_os 是 install_script.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:resolve",
+      "type": "function",
+      "name": "resolve",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        77,
+        149
+      ],
+      "summary": "resolve 是 install_script.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:sanitize_ref",
+      "type": "function",
+      "name": "sanitize_ref",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        168,
+        178
+      ],
+      "summary": "sanitize_ref 是 install_script.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:download",
+      "type": "function",
+      "name": "download",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        190,
+        252
+      ],
+      "summary": "download 是 install_script.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ResolvedScript",
+      "type": "class",
+      "name": "ResolvedScript",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        25,
+        32
+      ],
+      "summary": "ResolvedScript 是 install_script.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ScriptSource",
+      "type": "class",
+      "name": "ScriptSource",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        35,
+        40
+      ],
+      "summary": "ScriptSource 是 install_script.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ScriptKind",
+      "type": "class",
+      "name": "ScriptKind",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        44,
+        47
+      ],
+      "summary": "ScriptKind 是 install_script.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:Pin",
+      "type": "class",
+      "name": "Pin",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "lineRange": [
+        152,
+        155
+      ],
+      "summary": "Pin 是 install_script.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "summary": "lib.rs 是 rust 源文件，包含 5 个函数、2 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:from_args",
+      "type": "function",
+      "name": "from_args",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "lineRange": [
+        39,
+        50
+      ],
+      "summary": "from_args 是 lib.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:force_setup_from_args",
+      "type": "function",
+      "name": "force_setup_from_args",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "lineRange": [
+        58,
+        65
+      ],
+      "summary": "force_setup_from_args 是 lib.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "lineRange": [
+        95,
+        186
+      ],
+      "summary": "run 是 lib.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/lib.rs:AppMode",
+      "type": "class",
+      "name": "AppMode",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "lineRange": [
+        30,
+        33
+      ],
+      "summary": "AppMode 是 lib.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/lib.rs:AppState",
+      "type": "class",
+      "name": "AppState",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "lineRange": [
+        72,
+        77
+      ],
+      "summary": "AppState 是 lib.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/main.rs",
+      "summary": "main.rs 是 rust 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "type": "file",
+      "name": "paths.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "summary": "paths.rs 是 rust 源文件，包含 13 个函数、11 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:hermes_home",
+      "type": "function",
+      "name": "hermes_home",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        25,
+        49
+      ],
+      "summary": "hermes_home 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:log_dir",
+      "type": "function",
+      "name": "log_dir",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        51,
+        53
+      ],
+      "summary": "log_dir 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:log_path",
+      "type": "function",
+      "name": "log_path",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        55,
+        57
+      ],
+      "summary": "log_path 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:bootstrap_cache_dir",
+      "type": "function",
+      "name": "bootstrap_cache_dir",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        59,
+        61
+      ],
+      "summary": "bootstrap_cache_dir 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:installer_dest",
+      "type": "function",
+      "name": "installer_dest",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        71,
+        78
+      ],
+      "summary": "installer_dest 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:copy_self_to_hermes_home",
+      "type": "function",
+      "name": "copy_self_to_hermes_home",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        88,
+        111
+      ],
+      "summary": "copy_self_to_hermes_home 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:repair_macos_installer_helper",
+      "type": "function",
+      "name": "repair_macos_installer_helper",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        114,
+        134
+      ],
+      "summary": "repair_macos_installer_helper 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:likely_bootstrap_marker",
+      "type": "function",
+      "name": "likely_bootstrap_marker",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        144,
+        146
+      ],
+      "summary": "likely_bootstrap_marker 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:init_logging",
+      "type": "function",
+      "name": "init_logging",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        151,
+        174
+      ],
+      "summary": "init_logging 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:get_log_path",
+      "type": "function",
+      "name": "get_log_path",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        181,
+        183
+      ],
+      "summary": "get_log_path 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:get_hermes_home",
+      "type": "function",
+      "name": "get_hermes_home",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        186,
+        188
+      ],
+      "summary": "get_hermes_home 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:open_log_dir",
+      "type": "function",
+      "name": "open_log_dir",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "lineRange": [
+        191,
+        197
+      ],
+      "summary": "open_log_dir 是 paths.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "type": "file",
+      "name": "powershell.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "summary": "powershell.rs 是 rust 源文件，包含 11 个函数、2 个类、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:run_script",
+      "type": "function",
+      "name": "run_script",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        39,
+        155
+      ],
+      "summary": "run_script 是 powershell.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:build_command",
+      "type": "function",
+      "name": "build_command",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        177,
+        190
+      ],
+      "summary": "build_command 是 powershell.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:windows_powershell_exe",
+      "type": "function",
+      "name": "windows_powershell_exe",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        225,
+        242
+      ],
+      "summary": "windows_powershell_exe 是 powershell.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:parse_stage_result",
+      "type": "function",
+      "name": "parse_stage_result",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        263,
+        282
+      ],
+      "summary": "parse_stage_result 是 powershell.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:parse_manifest",
+      "type": "function",
+      "name": "parse_manifest",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        286,
+        301
+      ],
+      "summary": "parse_manifest 是 powershell.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/powershell.rs:StreamSink",
+      "type": "class",
+      "name": "StreamSink",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        17,
+        20
+      ],
+      "summary": "StreamSink 是 powershell.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/bootstrap-installer/src-tauri/src/powershell.rs:ScriptResult",
+      "type": "class",
+      "name": "ScriptResult",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "lineRange": [
+        25,
+        30
+      ],
+      "summary": "ScriptResult 是 powershell.rs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "type": "file",
+      "name": "update.rs",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "summary": "update.rs 是 rust 源文件，包含 25 个函数、1 个类、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "rust",
+        "exports",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 rust。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:start_update",
+      "type": "function",
+      "name": "start_update",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        57,
+        103
+      ],
+      "summary": "start_update 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:run_update",
+      "type": "function",
+      "name": "run_update",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        105,
+        392
+      ],
+      "summary": "run_update 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:wait_for_venv_free",
+      "type": "function",
+      "name": "wait_for_venv_free",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        397,
+        442
+      ],
+      "summary": "wait_for_venv_free 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:force_kill_other_hermes",
+      "type": "function",
+      "name": "force_kill_other_hermes",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        456,
+        477
+      ],
+      "summary": "force_kill_other_hermes 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:run_streamed",
+      "type": "function",
+      "name": "run_streamed",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        496,
+        556
+      ],
+      "summary": "run_streamed 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:resolve_hermes",
+      "type": "function",
+      "name": "resolve_hermes",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        573,
+        590
+      ],
+      "summary": "resolve_hermes 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:update_child_env",
+      "type": "function",
+      "name": "update_child_env",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        592,
+        605
+      ],
+      "summary": "update_child_env 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:arg_value_from_args",
+      "type": "function",
+      "name": "arg_value_from_args",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        643,
+        658
+      ],
+      "summary": "arg_value_from_args 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:install_macos_app_update",
+      "type": "function",
+      "name": "install_macos_app_update",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        661,
+        744
+      ],
+      "summary": "install_macos_app_update 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:swap_in_new_bundle",
+      "type": "function",
+      "name": "swap_in_new_bundle",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        754,
+        780
+      ],
+      "summary": "swap_in_new_bundle 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:emit_stage",
+      "type": "function",
+      "name": "emit_stage",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        842,
+        860
+      ],
+      "summary": "emit_stage 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src-tauri/src/update.rs:emit_log",
+      "type": "function",
+      "name": "emit_log",
+      "filePath": "apps/bootstrap-installer/src-tauri/src/update.rs",
+      "lineRange": [
+        862,
+        875
+      ],
+      "summary": "emit_log 是 update.rs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "rust",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:apps/bootstrap-installer/src-tauri/tauri.conf.json",
+      "type": "config",
+      "name": "tauri.conf.json",
+      "filePath": "apps/bootstrap-installer/src-tauri/tauri.conf.json",
+      "summary": "tauri.conf.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/app.tsx",
+      "type": "file",
+      "name": "app.tsx",
+      "filePath": "apps/bootstrap-installer/src/app.tsx",
+      "summary": "app.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/app.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "apps/bootstrap-installer/src/app.tsx",
+      "lineRange": [
+        17,
+        35
+      ],
+      "summary": "App 是 app.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/components/button.tsx",
+      "type": "file",
+      "name": "button.tsx",
+      "filePath": "apps/bootstrap-installer/src/components/button.tsx",
+      "summary": "button.tsx 是 typescript 源文件，包含 1 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/components/button.tsx:Button",
+      "type": "function",
+      "name": "Button",
+      "filePath": "apps/bootstrap-installer/src/components/button.tsx",
+      "lineRange": [
+        60,
+        78
+      ],
+      "summary": "Button 是 button.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/lib/utils.ts",
+      "type": "file",
+      "name": "utils.ts",
+      "filePath": "apps/bootstrap-installer/src/lib/utils.ts",
+      "summary": "utils.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/lib/utils.ts:cn",
+      "type": "function",
+      "name": "cn",
+      "filePath": "apps/bootstrap-installer/src/lib/utils.ts",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "cn 是 utils.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:register_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:register_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:list_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:list_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:get_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:get_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:_reset_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/tts_registry.py",
+      "target": "function:agent/tts_registry.py:_reset_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/turn_context.py",
+      "target": "function:agent/turn_context.py:build_turn_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/turn_context.py",
+      "target": "function:agent/turn_context.py:build_turn_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/turn_context.py",
+      "target": "class:agent/turn_context.py:TurnContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/turn_context.py",
+      "target": "class:agent/turn_context.py:TurnContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/turn_retry_state.py",
+      "target": "class:agent/turn_retry_state.py:TurnRetryState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/turn_retry_state.py",
+      "target": "class:agent/turn_retry_state.py:TurnRetryState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_to_decimal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_to_decimal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_to_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_to_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:resolve_billing_route",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:resolve_billing_route",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_normalize_anthropic_model_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_normalize_anthropic_model_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_lookup_official_docs_pricing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_lookup_official_docs_pricing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_openrouter_pricing_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_openrouter_pricing_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_pricing_entry_from_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:_pricing_entry_from_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:get_pricing_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:get_pricing_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:normalize_usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:normalize_usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:estimate_usage_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:estimate_usage_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:has_known_pricing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:has_known_pricing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:format_duration_compact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:format_duration_compact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:format_token_count_compact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "function:agent/usage_pricing.py:format_token_count_compact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:CanonicalUsage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:CanonicalUsage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:BillingRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:BillingRoute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:PricingEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:PricingEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:CostResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/usage_pricing.py",
+      "target": "class:agent/usage_pricing.py:CostResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:_videos_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:_videos_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:save_b64_video",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:save_b64_video",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:save_bytes_video",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:save_bytes_video",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:success_response",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:success_response",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:error_response",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "function:agent/video_gen_provider.py:error_response",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "class:agent/video_gen_provider.py:VideoGenProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_provider.py",
+      "target": "class:agent/video_gen_provider.py:VideoGenProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:register_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:register_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:list_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:list_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:get_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:get_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:get_active_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:get_active_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:_reset_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/video_gen_registry.py",
+      "target": "function:agent/video_gen_registry.py:_reset_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_provider.py",
+      "target": "class:agent/web_search_provider.py:WebSearchProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_provider.py",
+      "target": "class:agent/web_search_provider.py:WebSearchProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:register_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:register_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:list_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:list_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:get_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:get_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:_read_config_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:_read_config_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:get_active_search_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:get_active_search_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:get_active_extract_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:get_active_extract_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:_reset_for_tests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:agent/web_search_registry.py",
+      "target": "function:agent/web_search_registry.py:_reset_for_tests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/build.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/build.rs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/build.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/build.rs:resolve_commit_pin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/build.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/build.rs:resolve_branch_pin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/build.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/build.rs:locate_git_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:start_bootstrap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:start_bootstrap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:cancel_bootstrap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:cancel_bootstrap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:get_bootstrap_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:get_bootstrap_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:launch_hermes_desktop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:launch_hermes_desktop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:resolve_hermes_desktop_exe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:resolve_hermes_desktop_exe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:resolve_hermes_desktop_app",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:resolve_hermes_desktop_app",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:hermes_is_installed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:hermes_is_installed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:spawn_installed_desktop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:spawn_installed_desktop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:open_macos_app_detached",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:open_macos_app_detached",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:desktop_launch_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:desktop_launch_command_std",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:run_bootstrap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:run_install_script",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:build_pin_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:emit_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:StartBootstrapArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:StartBootstrapArgs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:BootstrapStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:BootstrapStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:BootstrapHandle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/bootstrap.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/bootstrap.rs:BootstrapHandle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:Manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:Manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageResultPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageResultPayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:StageState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:LogStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:LogStream",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:BootstrapEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/events.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/events.rs:BootstrapEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:for_current_os",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:for_current_os",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:sanitize_ref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/install_script.rs:download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ResolvedScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ResolvedScript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ScriptSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ScriptSource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ScriptKind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:ScriptKind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:Pin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/install_script.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/install_script.rs:Pin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:from_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:from_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:force_setup_from_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:force_setup_from_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/lib.rs:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/lib.rs:AppMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/lib.rs:AppMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/lib.rs:AppState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/lib.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/lib.rs:AppState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:hermes_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:hermes_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:log_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:log_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:log_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:log_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:bootstrap_cache_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:bootstrap_cache_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:installer_dest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:installer_dest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:copy_self_to_hermes_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:copy_self_to_hermes_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:repair_macos_installer_helper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:likely_bootstrap_marker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:likely_bootstrap_marker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:init_logging",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:init_logging",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:get_log_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:get_log_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:get_hermes_home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:get_hermes_home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:open_log_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/paths.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/paths.rs:open_log_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:run_script",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:run_script",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:build_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:build_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:windows_powershell_exe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:parse_stage_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:parse_stage_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:parse_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/powershell.rs:parse_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/powershell.rs:StreamSink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/powershell.rs:StreamSink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/powershell.rs:ScriptResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/powershell.rs",
+      "target": "class:apps/bootstrap-installer/src-tauri/src/powershell.rs:ScriptResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:start_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:start_update",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:run_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:wait_for_venv_free",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:force_kill_other_hermes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:run_streamed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:resolve_hermes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:update_child_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:arg_value_from_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:install_macos_app_update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:swap_in_new_bundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:emit_stage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src-tauri/src/update.rs",
+      "target": "function:apps/bootstrap-installer/src-tauri/src/update.rs:emit_log",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/app.tsx",
+      "target": "function:apps/bootstrap-installer/src/app.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/app.tsx",
+      "target": "function:apps/bootstrap-installer/src/app.tsx:App",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/components/button.tsx",
+      "target": "function:apps/bootstrap-installer/src/components/button.tsx:Button",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/components/button.tsx",
+      "target": "function:apps/bootstrap-installer/src/components/button.tsx:Button",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/lib/utils.ts",
+      "target": "function:apps/bootstrap-installer/src/lib/utils.ts:cn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/lib/utils.ts",
+      "target": "function:apps/bootstrap-installer/src/lib/utils.ts:cn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

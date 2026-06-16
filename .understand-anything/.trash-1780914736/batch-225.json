@@ -1,0 +1,2214 @@
+{
+  "nodes": [
+    {
+      "id": "file:web/src/pages/LogsPage.tsx",
+      "type": "file",
+      "name": "LogsPage.tsx",
+      "filePath": "web/src/pages/LogsPage.tsx",
+      "summary": "LogsPage.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/LogsPage.tsx:classifyLine",
+      "type": "function",
+      "name": "classifyLine",
+      "filePath": "web/src/pages/LogsPage.tsx",
+      "lineRange": [
+        26,
+        37
+      ],
+      "summary": "classifyLine 是 LogsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/LogsPage.tsx:LogsPage",
+      "type": "function",
+      "name": "LogsPage",
+      "filePath": "web/src/pages/LogsPage.tsx",
+      "lineRange": [
+        57,
+        246
+      ],
+      "summary": "LogsPage 是 LogsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/pages/McpPage.tsx",
+      "type": "file",
+      "name": "McpPage.tsx",
+      "filePath": "web/src/pages/McpPage.tsx",
+      "summary": "McpPage.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/McpPage.tsx:parseEnv",
+      "type": "function",
+      "name": "parseEnv",
+      "filePath": "web/src/pages/McpPage.tsx",
+      "lineRange": [
+        40,
+        54
+      ],
+      "summary": "parseEnv 是 McpPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/McpPage.tsx:McpPage",
+      "type": "function",
+      "name": "McpPage",
+      "filePath": "web/src/pages/McpPage.tsx",
+      "lineRange": [
+        62,
+        757
+      ],
+      "summary": "McpPage 是 McpPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/ModelsPage.tsx",
+      "type": "file",
+      "name": "ModelsPage.tsx",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "summary": "ModelsPage.tsx 是 typescript 源文件，包含 11 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:TokenBar",
+      "type": "function",
+      "name": "TokenBar",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        84,
+        150
+      ],
+      "summary": "TokenBar 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:CapabilityBadges",
+      "type": "function",
+      "name": "CapabilityBadges",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        152,
+        188
+      ],
+      "summary": "CapabilityBadges 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:UseAsMenu",
+      "type": "function",
+      "name": "UseAsMenu",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        194,
+        315
+      ],
+      "summary": "UseAsMenu 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:ModelCard",
+      "type": "function",
+      "name": "ModelCard",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        321,
+        488
+      ],
+      "summary": "ModelCard 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:AuxiliaryTasksModal",
+      "type": "function",
+      "name": "AuxiliaryTasksModal",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        498,
+        647
+      ],
+      "summary": "AuxiliaryTasksModal 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:ModelSettingsPanel",
+      "type": "function",
+      "name": "ModelSettingsPanel",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        649,
+        775
+      ],
+      "summary": "ModelSettingsPanel 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/ModelsPage.tsx:ModelsPage",
+      "type": "function",
+      "name": "ModelsPage",
+      "filePath": "web/src/pages/ModelsPage.tsx",
+      "lineRange": [
+        781,
+        1000
+      ],
+      "summary": "ModelsPage 是 ModelsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/PairingPage.tsx",
+      "type": "file",
+      "name": "PairingPage.tsx",
+      "filePath": "web/src/pages/PairingPage.tsx",
+      "summary": "PairingPage.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/PairingPage.tsx:PairingPage",
+      "type": "function",
+      "name": "PairingPage",
+      "filePath": "web/src/pages/PairingPage.tsx",
+      "lineRange": [
+        30,
+        276
+      ],
+      "summary": "PairingPage 是 PairingPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/PluginsPage.tsx",
+      "type": "file",
+      "name": "PluginsPage.tsx",
+      "filePath": "web/src/pages/PluginsPage.tsx",
+      "summary": "PluginsPage.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/PluginsPage.tsx:PluginsPage",
+      "type": "function",
+      "name": "PluginsPage",
+      "filePath": "web/src/pages/PluginsPage.tsx",
+      "lineRange": [
+        27,
+        368
+      ],
+      "summary": "PluginsPage 是 PluginsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/PluginsPage.tsx:PluginRowCard",
+      "type": "function",
+      "name": "PluginRowCard",
+      "filePath": "web/src/pages/PluginsPage.tsx",
+      "lineRange": [
+        383,
+        580
+      ],
+      "summary": "PluginRowCard 是 PluginsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/pages/ProfilesPage.tsx",
+      "type": "file",
+      "name": "ProfilesPage.tsx",
+      "filePath": "web/src/pages/ProfilesPage.tsx",
+      "summary": "ProfilesPage.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/ProfilesPage.tsx:ProfilesLoadingSpinner",
+      "type": "function",
+      "name": "ProfilesLoadingSpinner",
+      "filePath": "web/src/pages/ProfilesPage.tsx",
+      "lineRange": [
+        51,
+        77
+      ],
+      "summary": "ProfilesLoadingSpinner 是 ProfilesPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/ProfilesPage.tsx:ProfileActionsMenu",
+      "type": "function",
+      "name": "ProfileActionsMenu",
+      "filePath": "web/src/pages/ProfilesPage.tsx",
+      "lineRange": [
+        85,
+        240
+      ],
+      "summary": "ProfileActionsMenu 是 ProfilesPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/ProfilesPage.tsx:ProfilesPage",
+      "type": "function",
+      "name": "ProfilesPage",
+      "filePath": "web/src/pages/ProfilesPage.tsx",
+      "lineRange": [
+        242,
+        1347
+      ],
+      "summary": "ProfilesPage 是 ProfilesPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/SessionsPage.tsx",
+      "type": "file",
+      "name": "SessionsPage.tsx",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "summary": "SessionsPage.tsx 是 typescript 源文件，包含 7 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:SnippetHighlight",
+      "type": "function",
+      "name": "SnippetHighlight",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        81,
+        106
+      ],
+      "summary": "SnippetHighlight 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:ToolCallBlock",
+      "type": "function",
+      "name": "ToolCallBlock",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        108,
+        148
+      ],
+      "summary": "ToolCallBlock 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:MessageBubble",
+      "type": "function",
+      "name": "MessageBubble",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        150,
+        237
+      ],
+      "summary": "MessageBubble 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:MessageList",
+      "type": "function",
+      "name": "MessageList",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        240,
+        271
+      ],
+      "summary": "MessageList 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:SessionRow",
+      "type": "function",
+      "name": "SessionRow",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        273,
+        559
+      ],
+      "summary": "SessionRow 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:SessionsPagination",
+      "type": "function",
+      "name": "SessionsPagination",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        565,
+        611
+      ],
+      "summary": "SessionsPagination 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SessionsPage.tsx:SessionsPage",
+      "type": "function",
+      "name": "SessionsPage",
+      "filePath": "web/src/pages/SessionsPage.tsx",
+      "lineRange": [
+        613,
+        1586
+      ],
+      "summary": "SessionsPage 是 SessionsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/SkillsPage.tsx",
+      "type": "file",
+      "name": "SkillsPage.tsx",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "summary": "SkillsPage.tsx 是 typescript 源文件，包含 13 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:prettyCategory",
+      "type": "function",
+      "name": "prettyCategory",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        82,
+        92
+      ],
+      "summary": "prettyCategory 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:SkillsPage",
+      "type": "function",
+      "name": "SkillsPage",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        123,
+        557
+      ],
+      "summary": "SkillsPage 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:SkillRow",
+      "type": "function",
+      "name": "SkillRow",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        559,
+        590
+      ],
+      "summary": "SkillRow 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:PanelItem",
+      "type": "function",
+      "name": "PanelItem",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        592,
+        607
+      ],
+      "summary": "PanelItem 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:trustVisual",
+      "type": "function",
+      "name": "trustVisual",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        628,
+        642
+      ],
+      "summary": "trustVisual 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:verdictVisual",
+      "type": "function",
+      "name": "verdictVisual",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        645,
+        660
+      ],
+      "summary": "verdictVisual 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:HubBrowser",
+      "type": "function",
+      "name": "HubBrowser",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        669,
+        969
+      ],
+      "summary": "HubBrowser 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:ConnectedHubs",
+      "type": "function",
+      "name": "ConnectedHubs",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        972,
+        1022
+      ],
+      "summary": "ConnectedHubs 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:SearchMeta",
+      "type": "function",
+      "name": "SearchMeta",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        1025,
+        1060
+      ],
+      "summary": "SearchMeta 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:HubResultCard",
+      "type": "function",
+      "name": "HubResultCard",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        1063,
+        1143
+      ],
+      "summary": "HubResultCard 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:SkillDetailDialog",
+      "type": "function",
+      "name": "SkillDetailDialog",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        1146,
+        1324
+      ],
+      "summary": "SkillDetailDialog 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/SkillsPage.tsx:ScanPanel",
+      "type": "function",
+      "name": "ScanPanel",
+      "filePath": "web/src/pages/SkillsPage.tsx",
+      "lineRange": [
+        1327,
+        1442
+      ],
+      "summary": "ScanPanel 是 SkillsPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/pages/SystemPage.tsx",
+      "type": "file",
+      "name": "SystemPage.tsx",
+      "filePath": "web/src/pages/SystemPage.tsx",
+      "summary": "SystemPage.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/SystemPage.tsx:ActionLogViewer",
+      "type": "function",
+      "name": "ActionLogViewer",
+      "filePath": "web/src/pages/SystemPage.tsx",
+      "lineRange": [
+        80,
+        138
+      ],
+      "summary": "ActionLogViewer 是 SystemPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/pages/SystemPage.tsx:SystemPage",
+      "type": "function",
+      "name": "SystemPage",
+      "filePath": "web/src/pages/SystemPage.tsx",
+      "lineRange": [
+        149,
+        1259
+      ],
+      "summary": "SystemPage 是 SystemPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/pages/WebhooksPage.tsx",
+      "type": "file",
+      "name": "WebhooksPage.tsx",
+      "filePath": "web/src/pages/WebhooksPage.tsx",
+      "summary": "WebhooksPage.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/pages/WebhooksPage.tsx:CopyButton",
+      "type": "function",
+      "name": "CopyButton",
+      "filePath": "web/src/pages/WebhooksPage.tsx",
+      "lineRange": [
+        26,
+        49
+      ],
+      "summary": "CopyButton 是 WebhooksPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/pages/WebhooksPage.tsx:WebhooksPage",
+      "type": "function",
+      "name": "WebhooksPage",
+      "filePath": "web/src/pages/WebhooksPage.tsx",
+      "lineRange": [
+        51,
+        483
+      ],
+      "summary": "WebhooksPage 是 WebhooksPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:web/src/plugins/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "web/src/plugins/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/plugins/PluginPage.tsx",
+      "type": "file",
+      "name": "PluginPage.tsx",
+      "filePath": "web/src/plugins/PluginPage.tsx",
+      "summary": "PluginPage.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/plugins/PluginPage.tsx:PluginPage",
+      "type": "function",
+      "name": "PluginPage",
+      "filePath": "web/src/plugins/PluginPage.tsx",
+      "lineRange": [
+        13,
+        58
+      ],
+      "summary": "PluginPage 是 PluginPage.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/plugins/registry.ts",
+      "type": "file",
+      "name": "registry.ts",
+      "filePath": "web/src/plugins/registry.ts",
+      "summary": "registry.ts 是 typescript 源文件，包含 9 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:notifyPluginRegistry",
+      "type": "function",
+      "name": "notifyPluginRegistry",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        51,
+        53
+      ],
+      "summary": "notifyPluginRegistry 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:getPluginComponent",
+      "type": "function",
+      "name": "getPluginComponent",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        63,
+        65
+      ],
+      "summary": "getPluginComponent 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:getPluginLoadError",
+      "type": "function",
+      "name": "getPluginLoadError",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        67,
+        69
+      ],
+      "summary": "getPluginLoadError 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:setPluginLoadError",
+      "type": "function",
+      "name": "setPluginLoadError",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        71,
+        74
+      ],
+      "summary": "setPluginLoadError 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:onPluginRegistered",
+      "type": "function",
+      "name": "onPluginRegistered",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        77,
+        80
+      ],
+      "summary": "onPluginRegistered 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:getRegisteredCount",
+      "type": "function",
+      "name": "getRegisteredCount",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        83,
+        85
+      ],
+      "summary": "getRegisteredCount 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/registry.ts:exposePluginSDK",
+      "type": "function",
+      "name": "exposePluginSDK",
+      "filePath": "web/src/plugins/registry.ts",
+      "lineRange": [
+        104,
+        168
+      ],
+      "summary": "exposePluginSDK 是 registry.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/plugins/sdk.d.ts",
+      "type": "file",
+      "name": "sdk.d.ts",
+      "filePath": "web/src/plugins/sdk.d.ts",
+      "summary": "sdk.d.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/plugins/slots.ts",
+      "type": "file",
+      "name": "slots.ts",
+      "filePath": "web/src/plugins/slots.ts",
+      "summary": "slots.ts 是 typescript 源文件，包含 6 个函数、6 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/plugins/slots.ts:registerSlot",
+      "type": "function",
+      "name": "registerSlot",
+      "filePath": "web/src/plugins/slots.ts",
+      "lineRange": [
+        124,
+        134
+      ],
+      "summary": "registerSlot 是 slots.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/slots.ts:getSlotEntries",
+      "type": "function",
+      "name": "getSlotEntries",
+      "filePath": "web/src/plugins/slots.ts",
+      "lineRange": [
+        138,
+        140
+      ],
+      "summary": "getSlotEntries 是 slots.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/slots.ts:onSlotRegistered",
+      "type": "function",
+      "name": "onSlotRegistered",
+      "filePath": "web/src/plugins/slots.ts",
+      "lineRange": [
+        143,
+        148
+      ],
+      "summary": "onSlotRegistered 是 slots.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/slots.ts:unregisterPluginSlots",
+      "type": "function",
+      "name": "unregisterPluginSlots",
+      "filePath": "web/src/plugins/slots.ts",
+      "lineRange": [
+        152,
+        163
+      ],
+      "summary": "unregisterPluginSlots 是 slots.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/plugins/slots.ts:PluginSlot",
+      "type": "function",
+      "name": "PluginSlot",
+      "filePath": "web/src/plugins/slots.ts",
+      "lineRange": [
+        177,
+        199
+      ],
+      "summary": "PluginSlot 是 slots.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/plugins/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "web/src/plugins/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/plugins/usePlugins.ts",
+      "type": "file",
+      "name": "usePlugins.ts",
+      "filePath": "web/src/plugins/usePlugins.ts",
+      "summary": "usePlugins.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "plugin",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/plugins/usePlugins.ts:usePlugins",
+      "type": "function",
+      "name": "usePlugins",
+      "filePath": "web/src/plugins/usePlugins.ts",
+      "lineRange": [
+        20,
+        133
+      ],
+      "summary": "usePlugins 是 usePlugins.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:web/src/themes/context.tsx",
+      "type": "file",
+      "name": "context.tsx",
+      "filePath": "web/src/themes/context.tsx",
+      "summary": "context.tsx 是 typescript 源文件，包含 17 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:layerVars",
+      "type": "function",
+      "name": "layerVars",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        68,
+        78
+      ],
+      "summary": "layerVars 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:typographyVars",
+      "type": "function",
+      "name": "typographyVars",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        96,
+        105
+      ],
+      "summary": "typographyVars 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:overrideVars",
+      "type": "function",
+      "name": "overrideVars",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        144,
+        155
+      ],
+      "summary": "overrideVars 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:seriesColorVars",
+      "type": "function",
+      "name": "seriesColorVars",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        168,
+        179
+      ],
+      "summary": "seriesColorVars 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:assetVars",
+      "type": "function",
+      "name": "assetVars",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        204,
+        233
+      ],
+      "summary": "assetVars 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:componentStyleVars",
+      "type": "function",
+      "name": "componentStyleVars",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        237,
+        253
+      ],
+      "summary": "componentStyleVars 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:applyCustomCSS",
+      "type": "function",
+      "name": "applyCustomCSS",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        264,
+        278
+      ],
+      "summary": "applyCustomCSS 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:injectFontStylesheet",
+      "type": "function",
+      "name": "injectFontStylesheet",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        292,
+        309
+      ],
+      "summary": "injectFontStylesheet 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:applyFontOverride",
+      "type": "function",
+      "name": "applyFontOverride",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        326,
+        343
+      ],
+      "summary": "applyFontOverride 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:applyTheme",
+      "type": "function",
+      "name": "applyTheme",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        349,
+        403
+      ],
+      "summary": "applyTheme 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:ThemeProvider",
+      "type": "function",
+      "name": "ThemeProvider",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        409,
+        582
+      ],
+      "summary": "ThemeProvider 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:web/src/themes/context.tsx:useTheme",
+      "type": "function",
+      "name": "useTheme",
+      "filePath": "web/src/themes/context.tsx",
+      "lineRange": [
+        584,
+        586
+      ],
+      "summary": "useTheme 是 context.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/themes/fonts.ts",
+      "type": "file",
+      "name": "fonts.ts",
+      "filePath": "web/src/themes/fonts.ts",
+      "summary": "fonts.ts 是 typescript 源文件，包含 3 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/src/themes/fonts.ts:getFontChoice",
+      "type": "function",
+      "name": "getFontChoice",
+      "filePath": "web/src/themes/fonts.ts",
+      "lineRange": [
+        152,
+        155
+      ],
+      "summary": "getFontChoice 是 fonts.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:web/src/themes/fonts.ts:isOverrideFont",
+      "type": "function",
+      "name": "isOverrideFont",
+      "filePath": "web/src/themes/fonts.ts",
+      "lineRange": [
+        158,
+        160
+      ],
+      "summary": "isOverrideFont 是 fonts.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:web/src/themes/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "web/src/themes/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 15 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/themes/presets.ts",
+      "type": "file",
+      "name": "presets.ts",
+      "filePath": "web/src/themes/presets.ts",
+      "summary": "presets.ts 是 typescript 源文件，包含 9 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/src/themes/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "web/src/themes/types.ts",
+      "summary": "types.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:web/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "web/vite.config.ts",
+      "summary": "vite.config.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:web/vite.config.ts:hermesDevToken",
+      "type": "function",
+      "name": "hermesDevToken",
+      "filePath": "web/vite.config.ts",
+      "lineRange": [
+        18,
+        58
+      ],
+      "summary": "hermesDevToken 是 vite.config.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:website/docs/index.mdx",
+      "type": "document",
+      "name": "index.mdx",
+      "filePath": "website/docs/index.mdx",
+      "summary": "index.mdx 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/user-guide/secrets/bitwarden.md",
+      "type": "document",
+      "name": "bitwarden.md",
+      "filePath": "website/docs/user-guide/secrets/bitwarden.md",
+      "summary": "bitwarden.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:web/src/pages/LogsPage.tsx",
+      "target": "function:web/src/pages/LogsPage.tsx:classifyLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/LogsPage.tsx",
+      "target": "function:web/src/pages/LogsPage.tsx:LogsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/LogsPage.tsx",
+      "target": "function:web/src/pages/LogsPage.tsx:LogsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/McpPage.tsx",
+      "target": "function:web/src/pages/McpPage.tsx:parseEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/McpPage.tsx",
+      "target": "function:web/src/pages/McpPage.tsx:McpPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/McpPage.tsx",
+      "target": "function:web/src/pages/McpPage.tsx:McpPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:TokenBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:CapabilityBadges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:UseAsMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:ModelCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:AuxiliaryTasksModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:ModelSettingsPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:ModelsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ModelsPage.tsx",
+      "target": "function:web/src/pages/ModelsPage.tsx:ModelsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/PairingPage.tsx",
+      "target": "function:web/src/pages/PairingPage.tsx:PairingPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/PairingPage.tsx",
+      "target": "function:web/src/pages/PairingPage.tsx:PairingPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/PluginsPage.tsx",
+      "target": "function:web/src/pages/PluginsPage.tsx:PluginsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/PluginsPage.tsx",
+      "target": "function:web/src/pages/PluginsPage.tsx:PluginsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/PluginsPage.tsx",
+      "target": "function:web/src/pages/PluginsPage.tsx:PluginRowCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ProfilesPage.tsx",
+      "target": "function:web/src/pages/ProfilesPage.tsx:ProfilesLoadingSpinner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ProfilesPage.tsx",
+      "target": "function:web/src/pages/ProfilesPage.tsx:ProfileActionsMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ProfilesPage.tsx",
+      "target": "function:web/src/pages/ProfilesPage.tsx:ProfilesPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/ProfilesPage.tsx",
+      "target": "function:web/src/pages/ProfilesPage.tsx:ProfilesPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:SnippetHighlight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:ToolCallBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:MessageBubble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:MessageList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:SessionRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:SessionsPagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:SessionsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SessionsPage.tsx",
+      "target": "function:web/src/pages/SessionsPage.tsx:SessionsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:prettyCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:SkillsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:SkillsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:SkillRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:PanelItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:trustVisual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:verdictVisual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:HubBrowser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:ConnectedHubs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:SearchMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:HubResultCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:SkillDetailDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SkillsPage.tsx",
+      "target": "function:web/src/pages/SkillsPage.tsx:ScanPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SystemPage.tsx",
+      "target": "function:web/src/pages/SystemPage.tsx:ActionLogViewer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SystemPage.tsx",
+      "target": "function:web/src/pages/SystemPage.tsx:SystemPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/SystemPage.tsx",
+      "target": "function:web/src/pages/SystemPage.tsx:SystemPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/pages/WebhooksPage.tsx",
+      "target": "function:web/src/pages/WebhooksPage.tsx:CopyButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/WebhooksPage.tsx",
+      "target": "function:web/src/pages/WebhooksPage.tsx:WebhooksPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/pages/WebhooksPage.tsx",
+      "target": "function:web/src/pages/WebhooksPage.tsx:WebhooksPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/PluginPage.tsx",
+      "target": "function:web/src/plugins/PluginPage.tsx:PluginPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/PluginPage.tsx",
+      "target": "function:web/src/plugins/PluginPage.tsx:PluginPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:notifyPluginRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:notifyPluginRegistry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:getPluginComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:getPluginComponent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:getPluginLoadError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:getPluginLoadError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:setPluginLoadError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:setPluginLoadError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:onPluginRegistered",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:onPluginRegistered",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:getRegisteredCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:getRegisteredCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:exposePluginSDK",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/registry.ts",
+      "target": "function:web/src/plugins/registry.ts:exposePluginSDK",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:registerSlot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:registerSlot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:getSlotEntries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:getSlotEntries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:onSlotRegistered",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:onSlotRegistered",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:unregisterPluginSlots",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:unregisterPluginSlots",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:PluginSlot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/slots.ts",
+      "target": "function:web/src/plugins/slots.ts:PluginSlot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/plugins/usePlugins.ts",
+      "target": "function:web/src/plugins/usePlugins.ts:usePlugins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/plugins/usePlugins.ts",
+      "target": "function:web/src/plugins/usePlugins.ts:usePlugins",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:layerVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:typographyVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:overrideVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:seriesColorVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:assetVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:componentStyleVars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:applyCustomCSS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:injectFontStylesheet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:applyFontOverride",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:applyTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:ThemeProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:ThemeProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:useTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/context.tsx",
+      "target": "function:web/src/themes/context.tsx:useTheme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/themes/fonts.ts",
+      "target": "function:web/src/themes/fonts.ts:getFontChoice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/fonts.ts",
+      "target": "function:web/src/themes/fonts.ts:getFontChoice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/src/themes/fonts.ts",
+      "target": "function:web/src/themes/fonts.ts:isOverrideFont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:web/src/themes/fonts.ts",
+      "target": "function:web/src/themes/fonts.ts:isOverrideFont",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:web/vite.config.ts",
+      "target": "function:web/vite.config.ts:hermesDevToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

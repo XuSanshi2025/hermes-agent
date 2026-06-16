@@ -1,0 +1,2716 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/src/app/chat/perf-probe.tsx",
+      "type": "file",
+      "name": "perf-probe.tsx",
+      "filePath": "apps/desktop/src/app/chat/perf-probe.tsx",
+      "summary": "perf-probe.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/perf-probe.tsx:onRender",
+      "type": "function",
+      "name": "onRender",
+      "filePath": "apps/desktop/src/app/chat/perf-probe.tsx",
+      "lineRange": [
+        70,
+        82
+      ],
+      "summary": "onRender 是 perf-probe.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/perf-probe.tsx:PerfProbe",
+      "type": "function",
+      "name": "PerfProbe",
+      "filePath": "apps/desktop/src/app/chat/perf-probe.tsx",
+      "lineRange": [
+        263,
+        269
+      ],
+      "summary": "PerfProbe 是 perf-probe.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "apps/desktop/src/app/chat/right-rail/index.ts",
+      "summary": "index.ts 是 typescript 源文件，包含 4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/preview-console-state.ts",
+      "type": "file",
+      "name": "preview-console-state.ts",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console-state.ts",
+      "summary": "preview-console-state.ts 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console-state.ts:createPreviewConsoleState",
+      "type": "function",
+      "name": "createPreviewConsoleState",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console-state.ts",
+      "lineRange": [
+        31,
+        80
+      ],
+      "summary": "createPreviewConsoleState 是 preview-console-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "type": "file",
+      "name": "preview-console.tsx",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "summary": "preview-console.tsx 是 typescript 源文件，包含 8 个函数、7 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:compactUrl",
+      "type": "function",
+      "name": "compactUrl",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        32,
+        44
+      ],
+      "summary": "compactUrl 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:formatLogLine",
+      "type": "function",
+      "name": "formatLogLine",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        46,
+        51
+      ],
+      "summary": "formatLogLine 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:formatConsoleEntries",
+      "type": "function",
+      "name": "formatConsoleEntries",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "formatConsoleEntries 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:isNearConsoleBottom",
+      "type": "function",
+      "name": "isNearConsoleBottom",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        57,
+        63
+      ],
+      "summary": "isNearConsoleBottom 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:clampConsoleHeight",
+      "type": "function",
+      "name": "clampConsoleHeight",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        65,
+        67
+      ],
+      "summary": "clampConsoleHeight 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:ConsoleRow",
+      "type": "function",
+      "name": "ConsoleRow",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        77,
+        133
+      ],
+      "summary": "ConsoleRow 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:PreviewConsoleTitlebarIcon",
+      "type": "function",
+      "name": "PreviewConsoleTitlebarIcon",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        135,
+        145
+      ],
+      "summary": "PreviewConsoleTitlebarIcon 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:PreviewConsolePanel",
+      "type": "function",
+      "name": "PreviewConsolePanel",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "lineRange": [
+        154,
+        290
+      ],
+      "summary": "PreviewConsolePanel 是 preview-console.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "type": "file",
+      "name": "preview-file.tsx",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "summary": "preview-file.tsx 是 typescript 源文件，包含 13 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewCubeIcon",
+      "type": "function",
+      "name": "PreviewCubeIcon",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        36,
+        56
+      ],
+      "summary": "PreviewCubeIcon 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewEmptyState",
+      "type": "function",
+      "name": "PreviewEmptyState",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        67,
+        118
+      ],
+      "summary": "PreviewEmptyState 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:filePathForTarget",
+      "type": "function",
+      "name": "filePathForTarget",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        131,
+        143
+      ],
+      "summary": "filePathForTarget 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:formatBytes",
+      "type": "function",
+      "name": "formatBytes",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        145,
+        160
+      ],
+      "summary": "formatBytes 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:looksBinaryBytes",
+      "type": "function",
+      "name": "looksBinaryBytes",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        162,
+        180
+      ],
+      "summary": "looksBinaryBytes 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:readTextPreview",
+      "type": "function",
+      "name": "readTextPreview",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        182,
+        211
+      ],
+      "summary": "readTextPreview 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:tagged",
+      "type": "function",
+      "name": "tagged",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        229,
+        241
+      ],
+      "summary": "tagged 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:MarkdownCode",
+      "type": "function",
+      "name": "MarkdownCode",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        243,
+        273
+      ],
+      "summary": "MarkdownCode 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewToggle",
+      "type": "function",
+      "name": "PreviewToggle",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        299,
+        313
+      ],
+      "summary": "PreviewToggle 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:SourceView",
+      "type": "function",
+      "name": "SourceView",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        335,
+        412
+      ],
+      "summary": "SourceView 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:LocalFilePreview",
+      "type": "function",
+      "name": "LocalFilePreview",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "lineRange": [
+        414,
+        559
+      ],
+      "summary": "LocalFilePreview 是 preview-file.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/preview-pane.test.tsx",
+      "type": "file",
+      "name": "preview-pane.test.tsx",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-pane.test.tsx",
+      "summary": "preview-pane.test.tsx 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "type": "file",
+      "name": "preview-pane.tsx",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "summary": "preview-pane.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:loadErrorTitle",
+      "type": "function",
+      "name": "loadErrorTitle",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "lineRange": [
+        50,
+        62
+      ],
+      "summary": "loadErrorTitle 是 preview-pane.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:PreviewLoadError",
+      "type": "function",
+      "name": "PreviewLoadError",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "lineRange": [
+        70,
+        118
+      ],
+      "summary": "PreviewLoadError 是 preview-pane.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:PreviewPane",
+      "type": "function",
+      "name": "PreviewPane",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "lineRange": [
+        122,
+        657
+      ],
+      "summary": "PreviewPane 是 preview-pane.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/right-rail/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview.tsx",
+      "summary": "preview.tsx 是 typescript 源文件，包含 2 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/right-rail/preview.tsx:ChatPreviewRail",
+      "type": "function",
+      "name": "ChatPreviewRail",
+      "filePath": "apps/desktop/src/app/chat/right-rail/preview.tsx",
+      "lineRange": [
+        55,
+        171
+      ],
+      "summary": "ChatPreviewRail 是 preview.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "type": "file",
+      "name": "cron-jobs-section.tsx",
+      "filePath": "apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "summary": "cron-jobs-section.tsx 是 typescript 源文件，包含 6 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:relativeTime",
+      "type": "function",
+      "name": "relativeTime",
+      "filePath": "apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "lineRange": [
+        31,
+        43
+      ],
+      "summary": "relativeTime 是 cron-jobs-section.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:SidebarCronJobsSection",
+      "type": "function",
+      "name": "SidebarCronJobsSection",
+      "filePath": "apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "lineRange": [
+        80,
+        159
+      ],
+      "summary": "SidebarCronJobsSection 是 cron-jobs-section.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:CronJobSidebarRow",
+      "type": "function",
+      "name": "CronJobSidebarRow",
+      "filePath": "apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "lineRange": [
+        161,
+        258
+      ],
+      "summary": "CronJobSidebarRow 是 cron-jobs-section.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:CronJobSidebarRuns",
+      "type": "function",
+      "name": "CronJobSidebarRuns",
+      "filePath": "apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "lineRange": [
+        260,
+        325
+      ],
+      "summary": "CronJobSidebarRuns 是 cron-jobs-section.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 23 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:orderByIds",
+      "type": "function",
+      "name": "orderByIds",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        137,
+        162
+      ],
+      "summary": "orderByIds 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:reconcileOrderIds",
+      "type": "function",
+      "name": "reconcileOrderIds",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        164,
+        185
+      ],
+      "summary": "reconcileOrderIds 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:searchResultToSession",
+      "type": "function",
+      "name": "searchResultToSession",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        201,
+        222
+      ],
+      "summary": "searchResultToSession 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:workspaceGroupsFor",
+      "type": "function",
+      "name": "workspaceGroupsFor",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        224,
+        252
+      ],
+      "summary": "workspaceGroupsFor 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:sourceSessionGroupsFor",
+      "type": "function",
+      "name": "sourceSessionGroupsFor",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        254,
+        289
+      ],
+      "summary": "sourceSessionGroupsFor 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:useSortableBindings",
+      "type": "function",
+      "name": "useSortableBindings",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        291,
+        305
+      ],
+      "summary": "useSortableBindings 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:ChatSidebar",
+      "type": "function",
+      "name": "ChatSidebar",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        320,
+        967
+      ],
+      "summary": "ChatSidebar 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarSectionHeader",
+      "type": "function",
+      "name": "SidebarSectionHeader",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        977,
+        995
+      ],
+      "summary": "SidebarSectionHeader 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarSessionSkeletons",
+      "type": "function",
+      "name": "SidebarSessionSkeletons",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        997,
+        1008
+      ],
+      "summary": "SidebarSessionSkeletons 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarPinnedEmptyState",
+      "type": "function",
+      "name": "SidebarPinnedEmptyState",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        1020,
+        1031
+      ],
+      "summary": "SidebarPinnedEmptyState 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarSessionsSection",
+      "type": "function",
+      "name": "SidebarSessionsSection",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        1073,
+        1221
+      ],
+      "summary": "SidebarSessionsSection 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarWorkspaceGroup",
+      "type": "function",
+      "name": "SidebarWorkspaceGroup",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        1232,
+        1371
+      ],
+      "summary": "SidebarWorkspaceGroup 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarLoadMoreRow",
+      "type": "function",
+      "name": "SidebarLoadMoreRow",
+      "filePath": "apps/desktop/src/app/chat/sidebar/index.tsx",
+      "lineRange": [
+        1408,
+        1427
+      ],
+      "summary": "SidebarLoadMoreRow 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "type": "file",
+      "name": "profile-switcher.tsx",
+      "filePath": "apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "summary": "profile-switcher.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:stepThroughCells",
+      "type": "function",
+      "name": "stepThroughCells",
+      "filePath": "apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "lineRange": [
+        70,
+        81
+      ],
+      "summary": "stepThroughCells 是 profile-switcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfileRail",
+      "type": "function",
+      "name": "ProfileRail",
+      "filePath": "apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "lineRange": [
+        88,
+        301
+      ],
+      "summary": "ProfileRail 是 profile-switcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfilePill",
+      "type": "function",
+      "name": "ProfilePill",
+      "filePath": "apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "lineRange": [
+        311,
+        330
+      ],
+      "summary": "ProfilePill 是 profile-switcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfileSquare",
+      "type": "function",
+      "name": "ProfileSquare",
+      "filePath": "apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "lineRange": [
+        353,
+        516
+      ],
+      "summary": "ProfileSquare 是 profile-switcher.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "type": "file",
+      "name": "session-actions-menu.tsx",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "summary": "session-actions-menu.tsx 是 typescript 源文件，包含 4 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:useSessionActions",
+      "type": "function",
+      "name": "useSessionActions",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "lineRange": [
+        46,
+        130
+      ],
+      "summary": "useSessionActions 是 session-actions-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:SessionActionsMenu",
+      "type": "function",
+      "name": "SessionActionsMenu",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "lineRange": [
+        137,
+        157
+      ],
+      "summary": "SessionActionsMenu 是 session-actions-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:SessionContextMenu",
+      "type": "function",
+      "name": "SessionContextMenu",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "lineRange": [
+        163,
+        178
+      ],
+      "summary": "SessionContextMenu 是 session-actions-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:RenameSessionDialog",
+      "type": "function",
+      "name": "RenameSessionDialog",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "lineRange": [
+        188,
+        264
+      ],
+      "summary": "RenameSessionDialog 是 session-actions-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "type": "file",
+      "name": "session-row.tsx",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "summary": "session-row.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:formatAge",
+      "type": "function",
+      "name": "formatAge",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "lineRange": [
+        36,
+        46
+      ],
+      "summary": "formatAge 是 session-row.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:SidebarSessionRow",
+      "type": "function",
+      "name": "SidebarSessionRow",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "lineRange": [
+        48,
+        215
+      ],
+      "summary": "SidebarSessionRow 是 session-row.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:SidebarRowDot",
+      "type": "function",
+      "name": "SidebarRowDot",
+      "filePath": "apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "lineRange": [
+        217,
+        257
+      ],
+      "summary": "SidebarRowDot 是 session-row.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "type": "file",
+      "name": "virtual-session-list.tsx",
+      "filePath": "apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "summary": "virtual-session-list.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx:VirtualSessionList",
+      "type": "function",
+      "name": "VirtualSessionList",
+      "filePath": "apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "lineRange": [
+        38,
+        119
+      ],
+      "summary": "VirtualSessionList 是 virtual-session-list.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx:VirtualSortableRow",
+      "type": "function",
+      "name": "VirtualSortableRow",
+      "filePath": "apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "lineRange": [
+        128,
+        154
+      ],
+      "summary": "VirtualSortableRow 是 virtual-session-list.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/thread-loading.test.ts",
+      "type": "file",
+      "name": "thread-loading.test.ts",
+      "filePath": "apps/desktop/src/app/chat/thread-loading.test.ts",
+      "summary": "thread-loading.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/thread-loading.ts",
+      "type": "file",
+      "name": "thread-loading.ts",
+      "filePath": "apps/desktop/src/app/chat/thread-loading.ts",
+      "summary": "thread-loading.ts 是 typescript 源文件，包含 2 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/thread-loading.ts:lastVisibleMessageIsUser",
+      "type": "function",
+      "name": "lastVisibleMessageIsUser",
+      "filePath": "apps/desktop/src/app/chat/thread-loading.ts",
+      "lineRange": [
+        5,
+        9
+      ],
+      "summary": "lastVisibleMessageIsUser 是 thread-loading.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/thread-loading.ts:threadLoadingState",
+      "type": "function",
+      "name": "threadLoadingState",
+      "filePath": "apps/desktop/src/app/chat/thread-loading.ts",
+      "lineRange": [
+        11,
+        26
+      ],
+      "summary": "threadLoadingState 是 thread-loading.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/command-center/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 11 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:formatTimestamp",
+      "type": "function",
+      "name": "formatTimestamp",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        48,
+        60
+      ],
+      "summary": "formatTimestamp 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:useDebouncedValue",
+      "type": "function",
+      "name": "useDebouncedValue",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        62,
+        72
+      ],
+      "summary": "useDebouncedValue 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:RowIconButton",
+      "type": "function",
+      "name": "RowIconButton",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        74,
+        98
+      ],
+      "summary": "RowIconButton 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:EmptyPanel",
+      "type": "function",
+      "name": "EmptyPanel",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        100,
+        114
+      ],
+      "summary": "EmptyPanel 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:CommandCenterView",
+      "type": "function",
+      "name": "CommandCenterView",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        116,
+        439
+      ],
+      "summary": "CommandCenterView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:formatTokens",
+      "type": "function",
+      "name": "formatTokens",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        441,
+        453
+      ],
+      "summary": "formatTokens 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:formatCost",
+      "type": "function",
+      "name": "formatCost",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        455,
+        467
+      ],
+      "summary": "formatCost 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:UsagePanel",
+      "type": "function",
+      "name": "UsagePanel",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        481,
+        612
+      ],
+      "summary": "UsagePanel 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-center/index.tsx:UsageList",
+      "type": "function",
+      "name": "UsageList",
+      "filePath": "apps/desktop/src/app/command-center/index.tsx",
+      "lineRange": [
+        614,
+        644
+      ],
+      "summary": "UsageList 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/command-palette/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/command-palette/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/command-palette/index.tsx:CommandPalette",
+      "type": "function",
+      "name": "CommandPalette",
+      "filePath": "apps/desktop/src/app/command-palette/index.tsx",
+      "lineRange": [
+        149,
+        513
+      ],
+      "summary": "CommandPalette 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/cron/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 24 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:formatCronTime",
+      "type": "function",
+      "name": "formatCronTime",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        110,
+        122
+      ],
+      "summary": "formatCronTime 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:scheduleOptionForExpr",
+      "type": "function",
+      "name": "scheduleOptionForExpr",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        128,
+        181
+      ],
+      "summary": "scheduleOptionForExpr 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:scheduleSummary",
+      "type": "function",
+      "name": "scheduleSummary",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        183,
+        213
+      ],
+      "summary": "scheduleSummary 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:formatTime",
+      "type": "function",
+      "name": "formatTime",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        215,
+        227
+      ],
+      "summary": "formatTime 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:matchesQuery",
+      "type": "function",
+      "name": "matchesQuery",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        229,
+        239
+      ],
+      "summary": "matchesQuery 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:CronView",
+      "type": "function",
+      "name": "CronView",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        247,
+        489
+      ],
+      "summary": "CronView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:CronJobListRow",
+      "type": "function",
+      "name": "CronJobListRow",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        491,
+        524
+      ],
+      "summary": "CronJobListRow 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:CronJobDetail",
+      "type": "function",
+      "name": "CronJobDetail",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        526,
+        615
+      ],
+      "summary": "CronJobDetail 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:CronJobRuns",
+      "type": "function",
+      "name": "CronJobRuns",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        632,
+        705
+      ],
+      "summary": "CronJobRuns 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:CronEditorDialog",
+      "type": "function",
+      "name": "CronEditorDialog",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        717,
+        900
+      ],
+      "summary": "CronEditorDialog 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/index.tsx:Field",
+      "type": "function",
+      "name": "Field",
+      "filePath": "apps/desktop/src/app/cron/index.tsx",
+      "lineRange": [
+        902,
+        924
+      ],
+      "summary": "Field 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/cron/job-state.ts",
+      "type": "file",
+      "name": "job-state.ts",
+      "filePath": "apps/desktop/src/app/cron/job-state.ts",
+      "summary": "job-state.ts 是 typescript 源文件，包含 2 个函数、3 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/job-state.ts:jobState",
+      "type": "function",
+      "name": "jobState",
+      "filePath": "apps/desktop/src/app/cron/job-state.ts",
+      "lineRange": [
+        16,
+        20
+      ],
+      "summary": "jobState 是 job-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/cron/job-state.ts:jobTitle",
+      "type": "function",
+      "name": "jobTitle",
+      "filePath": "apps/desktop/src/app/cron/job-state.ts",
+      "lineRange": [
+        24,
+        29
+      ],
+      "summary": "jobTitle 是 job-state.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/desktop-controller.tsx",
+      "type": "file",
+      "name": "desktop-controller.tsx",
+      "filePath": "apps/desktop/src/app/desktop-controller.tsx",
+      "summary": "desktop-controller.tsx 是 typescript 源文件，包含 4 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/desktop-controller.tsx:sessionsToKeep",
+      "type": "function",
+      "name": "sessionsToKeep",
+      "filePath": "apps/desktop/src/app/desktop-controller.tsx",
+      "lineRange": [
+        137,
+        150
+      ],
+      "summary": "sessionsToKeep 是 desktop-controller.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/desktop-controller.tsx:DesktopController",
+      "type": "function",
+      "name": "DesktopController",
+      "filePath": "apps/desktop/src/app/desktop-controller.tsx",
+      "lineRange": [
+        152,
+        945
+      ],
+      "summary": "DesktopController 是 desktop-controller.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "type": "file",
+      "name": "use-gateway-boot.test.tsx",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "summary": "use-gateway-boot.test.tsx 是 typescript 源文件，包含 4 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "functions",
+        "classes"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx:fakeDesktop",
+      "type": "function",
+      "name": "fakeDesktop",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "lineRange": [
+        75,
+        103
+      ],
+      "summary": "fakeDesktop 是 use-gateway-boot.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx:Harness",
+      "type": "function",
+      "name": "Harness",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "lineRange": [
+        105,
+        115
+      ],
+      "summary": "Harness 是 use-gateway-boot.test.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx:FakeWebSocket",
+      "type": "class",
+      "name": "FakeWebSocket",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "lineRange": [
+        24,
+        73
+      ],
+      "summary": "FakeWebSocket 是 use-gateway-boot.test.tsx 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts",
+      "type": "file",
+      "name": "use-gateway-boot.ts",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts",
+      "summary": "use-gateway-boot.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts:useGatewayBoot",
+      "type": "function",
+      "name": "useGatewayBoot",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts",
+      "lineRange": [
+        47,
+        403
+      ],
+      "summary": "useGatewayBoot 是 use-gateway-boot.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:apps/desktop/src/app/gateway/hooks/use-gateway-request.ts",
+      "type": "file",
+      "name": "use-gateway-request.ts",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-request.ts",
+      "summary": "use-gateway-request.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "gateway",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/gateway/hooks/use-gateway-request.ts:useGatewayRequest",
+      "type": "function",
+      "name": "useGatewayRequest",
+      "filePath": "apps/desktop/src/app/gateway/hooks/use-gateway-request.ts",
+      "lineRange": [
+        10,
+        138
+      ],
+      "summary": "useGatewayRequest 是 use-gateway-request.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/hooks/use-keybinds.ts",
+      "type": "file",
+      "name": "use-keybinds.ts",
+      "filePath": "apps/desktop/src/app/hooks/use-keybinds.ts",
+      "summary": "use-keybinds.ts 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/hooks/use-keybinds.ts:useKeybinds",
+      "type": "function",
+      "name": "useKeybinds",
+      "filePath": "apps/desktop/src/app/hooks/use-keybinds.ts",
+      "lineRange": [
+        57,
+        203
+      ],
+      "summary": "useKeybinds 是 use-keybinds.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/src/app/chat/perf-probe.tsx",
+      "target": "function:apps/desktop/src/app/chat/perf-probe.tsx:onRender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/perf-probe.tsx",
+      "target": "function:apps/desktop/src/app/chat/perf-probe.tsx:PerfProbe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/perf-probe.tsx",
+      "target": "function:apps/desktop/src/app/chat/perf-probe.tsx:PerfProbe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console-state.ts",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console-state.ts:createPreviewConsoleState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console-state.ts",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console-state.ts:createPreviewConsoleState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:compactUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:compactUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:formatLogLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:formatLogLine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:formatConsoleEntries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:formatConsoleEntries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:isNearConsoleBottom",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:isNearConsoleBottom",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:clampConsoleHeight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:clampConsoleHeight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:ConsoleRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:PreviewConsoleTitlebarIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:PreviewConsoleTitlebarIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:PreviewConsolePanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-console.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-console.tsx:PreviewConsolePanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewCubeIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewEmptyState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewEmptyState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:filePathForTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:formatBytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:looksBinaryBytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:readTextPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:tagged",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:MarkdownCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:PreviewToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:SourceView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:LocalFilePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-file.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-file.tsx:LocalFilePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:loadErrorTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:PreviewLoadError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:PreviewPane",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview-pane.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview-pane.tsx:PreviewPane",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview.tsx:ChatPreviewRail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/right-rail/preview.tsx",
+      "target": "function:apps/desktop/src/app/chat/right-rail/preview.tsx:ChatPreviewRail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:relativeTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:SidebarCronJobsSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:SidebarCronJobsSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:CronJobSidebarRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/cron-jobs-section.tsx:CronJobSidebarRuns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:orderByIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:reconcileOrderIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:searchResultToSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:workspaceGroupsFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:sourceSessionGroupsFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:useSortableBindings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:ChatSidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:ChatSidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarSectionHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarSessionSkeletons",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarPinnedEmptyState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarSessionsSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarWorkspaceGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/index.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/index.tsx:SidebarLoadMoreRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:stepThroughCells",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfileRail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfileRail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfilePill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/profile-switcher.tsx:ProfileSquare",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:useSessionActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:SessionActionsMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:SessionActionsMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:SessionContextMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:SessionContextMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-actions-menu.tsx:RenameSessionDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:formatAge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:SidebarSessionRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:SidebarSessionRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/session-row.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/session-row.tsx:SidebarRowDot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx:VirtualSessionList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx:VirtualSessionList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx",
+      "target": "function:apps/desktop/src/app/chat/sidebar/virtual-session-list.tsx:VirtualSortableRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/thread-loading.ts",
+      "target": "function:apps/desktop/src/app/chat/thread-loading.ts:lastVisibleMessageIsUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/thread-loading.ts",
+      "target": "function:apps/desktop/src/app/chat/thread-loading.ts:lastVisibleMessageIsUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/thread-loading.ts",
+      "target": "function:apps/desktop/src/app/chat/thread-loading.ts:threadLoadingState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/thread-loading.ts",
+      "target": "function:apps/desktop/src/app/chat/thread-loading.ts:threadLoadingState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:formatTimestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:useDebouncedValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:RowIconButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:EmptyPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:CommandCenterView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:CommandCenterView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:formatTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:formatCost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:UsagePanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-center/index.tsx",
+      "target": "function:apps/desktop/src/app/command-center/index.tsx:UsageList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-palette/index.tsx",
+      "target": "function:apps/desktop/src/app/command-palette/index.tsx:CommandPalette",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/command-palette/index.tsx",
+      "target": "function:apps/desktop/src/app/command-palette/index.tsx:CommandPalette",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:formatCronTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:scheduleOptionForExpr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:scheduleSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:formatTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:matchesQuery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:CronView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:CronView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:CronJobListRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:CronJobDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:CronJobRuns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:CronEditorDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/index.tsx",
+      "target": "function:apps/desktop/src/app/cron/index.tsx:Field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/job-state.ts",
+      "target": "function:apps/desktop/src/app/cron/job-state.ts:jobState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/job-state.ts",
+      "target": "function:apps/desktop/src/app/cron/job-state.ts:jobState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/job-state.ts",
+      "target": "function:apps/desktop/src/app/cron/job-state.ts:jobTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/cron/job-state.ts",
+      "target": "function:apps/desktop/src/app/cron/job-state.ts:jobTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/desktop-controller.tsx",
+      "target": "function:apps/desktop/src/app/desktop-controller.tsx:sessionsToKeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/desktop-controller.tsx",
+      "target": "function:apps/desktop/src/app/desktop-controller.tsx:DesktopController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/desktop-controller.tsx",
+      "target": "function:apps/desktop/src/app/desktop-controller.tsx:DesktopController",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "target": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx:fakeDesktop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "target": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx:Harness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx",
+      "target": "class:apps/desktop/src/app/gateway/hooks/use-gateway-boot.test.tsx:FakeWebSocket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts",
+      "target": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts:useGatewayBoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts",
+      "target": "function:apps/desktop/src/app/gateway/hooks/use-gateway-boot.ts:useGatewayBoot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-request.ts",
+      "target": "function:apps/desktop/src/app/gateway/hooks/use-gateway-request.ts:useGatewayRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/gateway/hooks/use-gateway-request.ts",
+      "target": "function:apps/desktop/src/app/gateway/hooks/use-gateway-request.ts:useGatewayRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/hooks/use-keybinds.ts",
+      "target": "function:apps/desktop/src/app/hooks/use-keybinds.ts:useKeybinds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/hooks/use-keybinds.ts",
+      "target": "function:apps/desktop/src/app/hooks/use-keybinds.ts:useKeybinds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

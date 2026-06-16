@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/analysis-framework.md",
+      "type": "document",
+      "name": "analysis-framework.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/analysis-framework.md",
+      "summary": "analysis-framework.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/auto-selection.md",
+      "type": "document",
+      "name": "auto-selection.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/auto-selection.md",
+      "summary": "auto-selection.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/base-prompt.md",
+      "type": "document",
+      "name": "base-prompt.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/base-prompt.md",
+      "summary": "base-prompt.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/character-template.md",
+      "type": "document",
+      "name": "character-template.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/character-template.md",
+      "summary": "character-template.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/ohmsha-guide.md",
+      "type": "document",
+      "name": "ohmsha-guide.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/ohmsha-guide.md",
+      "summary": "ohmsha-guide.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/partial-workflows.md",
+      "type": "document",
+      "name": "partial-workflows.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/partial-workflows.md",
+      "summary": "partial-workflows.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/storyboard-template.md",
+      "type": "document",
+      "name": "storyboard-template.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/storyboard-template.md",
+      "summary": "storyboard-template.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:optional-skills/creative/baoyu-comic/references/workflow.md",
+      "type": "document",
+      "name": "workflow.md",
+      "filePath": "optional-skills/creative/baoyu-comic/references/workflow.md",
+      "summary": "workflow.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "config:website/docs/reference/_category_.json",
+      "type": "config",
+      "name": "_category_.json",
+      "filePath": "website/docs/reference/_category_.json",
+      "summary": "_category_.json 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "json",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 json。"
+    },
+    {
+      "id": "document:website/docs/reference/cli-commands.md",
+      "type": "document",
+      "name": "cli-commands.md",
+      "filePath": "website/docs/reference/cli-commands.md",
+      "summary": "cli-commands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "cli"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/environment-variables.md",
+      "type": "document",
+      "name": "environment-variables.md",
+      "filePath": "website/docs/reference/environment-variables.md",
+      "summary": "environment-variables.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/faq.md",
+      "type": "document",
+      "name": "faq.md",
+      "filePath": "website/docs/reference/faq.md",
+      "summary": "faq.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/mcp-config-reference.md",
+      "type": "document",
+      "name": "mcp-config-reference.md",
+      "filePath": "website/docs/reference/mcp-config-reference.md",
+      "summary": "mcp-config-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/model-catalog.md",
+      "type": "document",
+      "name": "model-catalog.md",
+      "filePath": "website/docs/reference/model-catalog.md",
+      "summary": "model-catalog.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/optional-skills-catalog.md",
+      "type": "document",
+      "name": "optional-skills-catalog.md",
+      "filePath": "website/docs/reference/optional-skills-catalog.md",
+      "summary": "optional-skills-catalog.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/profile-commands.md",
+      "type": "document",
+      "name": "profile-commands.md",
+      "filePath": "website/docs/reference/profile-commands.md",
+      "summary": "profile-commands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/skills-catalog.md",
+      "type": "document",
+      "name": "skills-catalog.md",
+      "filePath": "website/docs/reference/skills-catalog.md",
+      "summary": "skills-catalog.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/slash-commands.md",
+      "type": "document",
+      "name": "slash-commands.md",
+      "filePath": "website/docs/reference/slash-commands.md",
+      "summary": "slash-commands.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/tools-reference.md",
+      "type": "document",
+      "name": "tools-reference.md",
+      "filePath": "website/docs/reference/tools-reference.md",
+      "summary": "tools-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "tooling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:website/docs/reference/toolsets-reference.md",
+      "type": "document",
+      "name": "toolsets-reference.md",
+      "filePath": "website/docs/reference/toolsets-reference.md",
+      "summary": "toolsets-reference.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "tooling"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    }
+  ],
+  "edges": []
+}

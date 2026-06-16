@@ -1,0 +1,421 @@
+{
+  "nodes": [
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/example_paper.tex",
+      "type": "file",
+      "name": "example_paper.tex",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/example_paper.tex",
+      "summary": "example_paper.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/fancyhdr.sty",
+      "type": "file",
+      "name": "fancyhdr.sty",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/fancyhdr.sty",
+      "summary": "fancyhdr.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/icml2026.bst",
+      "type": "file",
+      "name": "icml2026.bst",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/icml2026.bst",
+      "summary": "icml2026.bst 是 bst 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "bst",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 bst。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/icml2026/icml2026.sty",
+      "type": "file",
+      "name": "icml2026.sty",
+      "filePath": "skills/research/research-paper-writing/templates/icml2026/icml2026.sty",
+      "summary": "icml2026.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/neurips2025/extra_pkgs.tex",
+      "type": "file",
+      "name": "extra_pkgs.tex",
+      "filePath": "skills/research/research-paper-writing/templates/neurips2025/extra_pkgs.tex",
+      "summary": "extra_pkgs.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/neurips2025/main.tex",
+      "type": "file",
+      "name": "main.tex",
+      "filePath": "skills/research/research-paper-writing/templates/neurips2025/main.tex",
+      "summary": "main.tex 是 tex 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "tex",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 tex。"
+    },
+    {
+      "id": "service:skills/research/research-paper-writing/templates/neurips2025/Makefile",
+      "type": "service",
+      "name": "Makefile",
+      "filePath": "skills/research/research-paper-writing/templates/neurips2025/Makefile",
+      "summary": "Makefile 描述服务、容器或部署环境，是运行时基础设施的一部分。",
+      "tags": [
+        "makefile",
+        "infrastructure",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 makefile。"
+    },
+    {
+      "id": "file:skills/research/research-paper-writing/templates/neurips2025/neurips.sty",
+      "type": "file",
+      "name": "neurips.sty",
+      "filePath": "skills/research/research-paper-writing/templates/neurips2025/neurips.sty",
+      "summary": "neurips.sty 是 sty 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "sty",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 sty。"
+    },
+    {
+      "id": "document:skills/research/research-paper-writing/templates/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "skills/research/research-paper-writing/templates/README.md",
+      "summary": "README.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/smart-home/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/smart-home/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/smart-home/openhue/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/smart-home/openhue/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/social-media/DESCRIPTION.md",
+      "type": "document",
+      "name": "DESCRIPTION.md",
+      "filePath": "skills/social-media/DESCRIPTION.md",
+      "summary": "DESCRIPTION.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/social-media/xurl/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/social-media/xurl/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "agent"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/node-inspect-debugger/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/node-inspect-debugger/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/plan/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/plan/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/python-debugpy/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/python-debugpy/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/requesting-code-review/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/requesting-code-review/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/simplify-code/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/simplify-code/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/spike/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/spike/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/systematic-debugging/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/systematic-debugging/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/software-development/test-driven-development/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/software-development/test-driven-development/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "document:skills/yuanbao/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "skills/yuanbao/SKILL.md",
+      "summary": "SKILL.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:tools/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "tools/__init__.py",
+      "summary": "__init__.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:tools/__init__.py:check_file_requirements",
+      "type": "function",
+      "name": "check_file_requirements",
+      "filePath": "tools/__init__.py",
+      "lineRange": [
+        18,
+        22
+      ],
+      "summary": "check_file_requirements 是 __init__.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/ansi_strip.py",
+      "type": "file",
+      "name": "ansi_strip.py",
+      "filePath": "tools/ansi_strip.py",
+      "summary": "ansi_strip.py 是 python 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "python",
+        "tooling",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 python。"
+    },
+    {
+      "id": "function:tools/ansi_strip.py:strip_ansi",
+      "type": "function",
+      "name": "strip_ansi",
+      "filePath": "tools/ansi_strip.py",
+      "lineRange": [
+        35,
+        44
+      ],
+      "summary": "strip_ansi 是 ansi_strip.py 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "python",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tools/__init__.py",
+      "target": "function:tools/__init__.py:check_file_requirements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tools/__init__.py",
+      "target": "function:tools/__init__.py:check_file_requirements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tools/ansi_strip.py",
+      "target": "function:tools/ansi_strip.py:strip_ansi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tools/ansi_strip.py",
+      "target": "function:tools/ansi_strip.py:strip_ansi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

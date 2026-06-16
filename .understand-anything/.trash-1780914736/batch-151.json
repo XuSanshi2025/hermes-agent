@@ -1,0 +1,2532 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/desktop/scripts/notarize.cjs",
+      "type": "file",
+      "name": "notarize.cjs",
+      "filePath": "apps/desktop/scripts/notarize.cjs",
+      "summary": "notarize.cjs 是 javascript 源文件，包含 3 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/notarize.cjs:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "apps/desktop/scripts/notarize.cjs",
+      "lineRange": [
+        6,
+        20
+      ],
+      "summary": "run 是 notarize.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/notarize.cjs:resolveApiKeyPath",
+      "type": "function",
+      "name": "resolveApiKeyPath",
+      "filePath": "apps/desktop/scripts/notarize.cjs",
+      "lineRange": [
+        26,
+        50
+      ],
+      "summary": "resolveApiKeyPath 是 notarize.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/probe-renderer.mjs",
+      "type": "file",
+      "name": "probe-renderer.mjs",
+      "filePath": "apps/desktop/scripts/probe-renderer.mjs",
+      "summary": "probe-renderer.mjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/probe-thread.mjs",
+      "type": "file",
+      "name": "probe-thread.mjs",
+      "filePath": "apps/desktop/scripts/probe-thread.mjs",
+      "summary": "probe-thread.mjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/profile-long-stream.mjs",
+      "type": "file",
+      "name": "profile-long-stream.mjs",
+      "filePath": "apps/desktop/scripts/profile-long-stream.mjs",
+      "summary": "profile-long-stream.mjs 是 javascript 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-long-stream.mjs:connect",
+      "type": "function",
+      "name": "connect",
+      "filePath": "apps/desktop/scripts/profile-long-stream.mjs",
+      "lineRange": [
+        23,
+        49
+      ],
+      "summary": "connect 是 profile-long-stream.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-long-stream.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/profile-long-stream.mjs",
+      "lineRange": [
+        57,
+        186
+      ],
+      "summary": "main 是 profile-long-stream.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/scripts/profile-real-stream.mjs",
+      "type": "file",
+      "name": "profile-real-stream.mjs",
+      "filePath": "apps/desktop/scripts/profile-real-stream.mjs",
+      "summary": "profile-real-stream.mjs 是 javascript 源文件，包含 1 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-real-stream.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/profile-real-stream.mjs",
+      "lineRange": [
+        48,
+        135
+      ],
+      "summary": "main 是 profile-real-stream.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:apps/desktop/scripts/profile-real-stream.mjs:CDP",
+      "type": "class",
+      "name": "CDP",
+      "filePath": "apps/desktop/scripts/profile-real-stream.mjs",
+      "lineRange": [
+        16,
+        46
+      ],
+      "summary": "CDP 是 profile-real-stream.mjs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/profile-synth-stream.mjs",
+      "type": "file",
+      "name": "profile-synth-stream.mjs",
+      "filePath": "apps/desktop/scripts/profile-synth-stream.mjs",
+      "summary": "profile-synth-stream.mjs 是 javascript 源文件，包含 1 个函数、1 个类，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "classes"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-synth-stream.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/profile-synth-stream.mjs",
+      "lineRange": [
+        45,
+        101
+      ],
+      "summary": "main 是 profile-synth-stream.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:apps/desktop/scripts/profile-synth-stream.mjs:CDP",
+      "type": "class",
+      "name": "CDP",
+      "filePath": "apps/desktop/scripts/profile-synth-stream.mjs",
+      "lineRange": [
+        13,
+        43
+      ],
+      "summary": "CDP 是 profile-synth-stream.mjs 中的类，组织相关状态与方法。",
+      "tags": [
+        "class",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:apps/desktop/scripts/profile-typing-lag.md",
+      "type": "document",
+      "name": "profile-typing-lag.md",
+      "filePath": "apps/desktop/scripts/profile-typing-lag.md",
+      "summary": "profile-typing-lag.md 是项目文档，说明该部分的使用方式、设计背景或维护流程。",
+      "tags": [
+        "markdown",
+        "documentation",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 markdown。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/profile-typing.mjs",
+      "type": "file",
+      "name": "profile-typing.mjs",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "summary": "profile-typing.mjs 是 javascript 源文件，包含 11 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:pickRenderer",
+      "type": "function",
+      "name": "pickRenderer",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        42,
+        51
+      ],
+      "summary": "pickRenderer 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:connect",
+      "type": "function",
+      "name": "connect",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        53,
+        87
+      ],
+      "summary": "connect 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:focusComposer",
+      "type": "function",
+      "name": "focusComposer",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        99,
+        128
+      ],
+      "summary": "focusComposer 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:dispatchChar",
+      "type": "function",
+      "name": "dispatchChar",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        138,
+        147
+      ],
+      "summary": "dispatchChar 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:typeText",
+      "type": "function",
+      "name": "typeText",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        149,
+        159
+      ],
+      "summary": "typeText 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        161,
+        232
+      ],
+      "summary": "main 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/scripts/profile-typing.mjs:summarizeProfile",
+      "type": "function",
+      "name": "summarizeProfile",
+      "filePath": "apps/desktop/scripts/profile-typing.mjs",
+      "lineRange": [
+        234,
+        255
+      ],
+      "summary": "summarizeProfile 是 profile-typing.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/reload-renderer.mjs",
+      "type": "file",
+      "name": "reload-renderer.mjs",
+      "filePath": "apps/desktop/scripts/reload-renderer.mjs",
+      "summary": "reload-renderer.mjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/reload.mjs",
+      "type": "file",
+      "name": "reload.mjs",
+      "filePath": "apps/desktop/scripts/reload.mjs",
+      "summary": "reload.mjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/scripts/set-exe-identity.cjs",
+      "type": "file",
+      "name": "set-exe-identity.cjs",
+      "filePath": "apps/desktop/scripts/set-exe-identity.cjs",
+      "summary": "set-exe-identity.cjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/set-exe-identity.cjs:stampExeIdentity",
+      "type": "function",
+      "name": "stampExeIdentity",
+      "filePath": "apps/desktop/scripts/set-exe-identity.cjs",
+      "lineRange": [
+        44,
+        79
+      ],
+      "summary": "stampExeIdentity 是 set-exe-identity.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/stage-native-deps.cjs",
+      "type": "file",
+      "name": "stage-native-deps.cjs",
+      "filePath": "apps/desktop/scripts/stage-native-deps.cjs",
+      "summary": "stage-native-deps.cjs 是 javascript 源文件，包含 6 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/stage-native-deps.cjs:walk",
+      "type": "function",
+      "name": "walk",
+      "filePath": "apps/desktop/scripts/stage-native-deps.cjs",
+      "lineRange": [
+        77,
+        98
+      ],
+      "summary": "walk 是 stage-native-deps.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/stage-native-deps.cjs:matchGlob",
+      "type": "function",
+      "name": "matchGlob",
+      "filePath": "apps/desktop/scripts/stage-native-deps.cjs",
+      "lineRange": [
+        103,
+        116
+      ],
+      "summary": "matchGlob 是 stage-native-deps.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/stage-native-deps.cjs:stageOne",
+      "type": "function",
+      "name": "stageOne",
+      "filePath": "apps/desktop/scripts/stage-native-deps.cjs",
+      "lineRange": [
+        118,
+        149
+      ],
+      "summary": "stageOne 是 stage-native-deps.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/test-desktop.mjs",
+      "type": "file",
+      "name": "test-desktop.mjs",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "summary": "test-desktop.mjs 是 javascript 源文件，包含 17 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        69,
+        80
+      ],
+      "summary": "run 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:resolveDmgPath",
+      "type": "function",
+      "name": "resolveDmgPath",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        119,
+        139
+      ],
+      "summary": "resolveDmgPath 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:resolveNsisPath",
+      "type": "function",
+      "name": "resolveNsisPath",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        141,
+        153
+      ],
+      "summary": "resolveNsisPath 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:openApp",
+      "type": "function",
+      "name": "openApp",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        175,
+        188
+      ],
+      "summary": "openApp 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:openDmg",
+      "type": "function",
+      "name": "openDmg",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        190,
+        199
+      ],
+      "summary": "openDmg 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:launchFresh",
+      "type": "function",
+      "name": "launchFresh",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        232,
+        276
+      ],
+      "summary": "launchFresh 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:validateBundle",
+      "type": "function",
+      "name": "validateBundle",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        287,
+        360
+      ],
+      "summary": "validateBundle 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:printArtifacts",
+      "type": "function",
+      "name": "printArtifacts",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        362,
+        381
+      ],
+      "summary": "printArtifacts 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/test-desktop.mjs:help",
+      "type": "function",
+      "name": "help",
+      "filePath": "apps/desktop/scripts/test-desktop.mjs",
+      "lineRange": [
+        383,
+        394
+      ],
+      "summary": "help 是 test-desktop.mjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/scripts/write-build-stamp.cjs",
+      "type": "file",
+      "name": "write-build-stamp.cjs",
+      "filePath": "apps/desktop/scripts/write-build-stamp.cjs",
+      "summary": "write-build-stamp.cjs 是 javascript 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/scripts/write-build-stamp.cjs:fromCI",
+      "type": "function",
+      "name": "fromCI",
+      "filePath": "apps/desktop/scripts/write-build-stamp.cjs",
+      "lineRange": [
+        48,
+        58
+      ],
+      "summary": "fromCI 是 write-build-stamp.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/write-build-stamp.cjs:fromLocalGit",
+      "type": "function",
+      "name": "fromLocalGit",
+      "filePath": "apps/desktop/scripts/write-build-stamp.cjs",
+      "lineRange": [
+        60,
+        78
+      ],
+      "summary": "fromLocalGit 是 write-build-stamp.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/scripts/write-build-stamp.cjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "apps/desktop/scripts/write-build-stamp.cjs",
+      "lineRange": [
+        80,
+        124
+      ],
+      "summary": "main 是 write-build-stamp.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/agents/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 12 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "agent",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:statusGlyph",
+      "type": "function",
+      "name": "statusGlyph",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        25,
+        41
+      ],
+      "summary": "statusGlyph 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:streamGlyph",
+      "type": "function",
+      "name": "streamGlyph",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        50,
+        72
+      ],
+      "summary": "streamGlyph 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:AgentsView",
+      "type": "function",
+      "name": "AgentsView",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        78,
+        104
+      ],
+      "summary": "AgentsView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:fmtDuration",
+      "type": "function",
+      "name": "fmtDuration",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        106,
+        119
+      ],
+      "summary": "fmtDuration 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:fmtAge",
+      "type": "function",
+      "name": "fmtAge",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        129,
+        147
+      ],
+      "summary": "fmtAge 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:groupDelegations",
+      "type": "function",
+      "name": "groupDelegations",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        159,
+        187
+      ],
+      "summary": "groupDelegations 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:SubagentTree",
+      "type": "function",
+      "name": "SubagentTree",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        189,
+        244
+      ],
+      "summary": "SubagentTree 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:DelegationGroup",
+      "type": "function",
+      "name": "DelegationGroup",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        246,
+        269
+      ],
+      "summary": "DelegationGroup 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:StreamLine",
+      "type": "function",
+      "name": "StreamLine",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        271,
+        302
+      ],
+      "summary": "StreamLine 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/agents/index.tsx:SubagentRow",
+      "type": "function",
+      "name": "SubagentRow",
+      "filePath": "apps/desktop/src/app/agents/index.tsx",
+      "lineRange": [
+        304,
+        398
+      ],
+      "summary": "SubagentRow 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/artifacts/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "apps/desktop/src/app/artifacts/index.test.ts",
+      "summary": "index.test.ts 是 typescript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.test.ts:makeSession",
+      "type": "function",
+      "name": "makeSession",
+      "filePath": "apps/desktop/src/app/artifacts/index.test.ts",
+      "lineRange": [
+        7,
+        24
+      ],
+      "summary": "makeSession 是 index.test.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "summary": "index.tsx 是 typescript 源文件，包含 24 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "entry-point",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:parseMaybeJson",
+      "type": "function",
+      "name": "parseMaybeJson",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        71,
+        81
+      ],
+      "summary": "parseMaybeJson 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:looksLikePathOrUrl",
+      "type": "function",
+      "name": "looksLikePathOrUrl",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        83,
+        94
+      ],
+      "summary": "looksLikePathOrUrl 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:looksLikeArtifact",
+      "type": "function",
+      "name": "looksLikeArtifact",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        96,
+        106
+      ],
+      "summary": "looksLikeArtifact 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:artifactKind",
+      "type": "function",
+      "name": "artifactKind",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        108,
+        124
+      ],
+      "summary": "artifactKind 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:artifactHref",
+      "type": "function",
+      "name": "artifactHref",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        126,
+        141
+      ],
+      "summary": "artifactHref 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:artifactLabel",
+      "type": "function",
+      "name": "artifactLabel",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        143,
+        154
+      ],
+      "summary": "artifactLabel 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:messageText",
+      "type": "function",
+      "name": "messageText",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        156,
+        170
+      ],
+      "summary": "messageText 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:collectStringValues",
+      "type": "function",
+      "name": "collectStringValues",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        172,
+        196
+      ],
+      "summary": "collectStringValues 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsFromText",
+      "type": "function",
+      "name": "collectArtifactsFromText",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        198,
+        228
+      ],
+      "summary": "collectArtifactsFromText 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsFromMessage",
+      "type": "function",
+      "name": "collectArtifactsFromMessage",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        230,
+        272
+      ],
+      "summary": "collectArtifactsFromMessage 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsForSession",
+      "type": "function",
+      "name": "collectArtifactsForSession",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        274,
+        310
+      ],
+      "summary": "collectArtifactsForSession 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:pageRangeLabel",
+      "type": "function",
+      "name": "pageRangeLabel",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        316,
+        325
+      ],
+      "summary": "pageRangeLabel 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:paginationItems",
+      "type": "function",
+      "name": "paginationItems",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        327,
+        351
+      ],
+      "summary": "paginationItems 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactsView",
+      "type": "function",
+      "name": "ArtifactsView",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        373,
+        621
+      ],
+      "summary": "ArtifactsView 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactsPagination",
+      "type": "function",
+      "name": "ArtifactsPagination",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        632,
+        674
+      ],
+      "summary": "ArtifactsPagination 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactImageCard",
+      "type": "function",
+      "name": "ArtifactImageCard",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        683,
+        735
+      ],
+      "summary": "ArtifactImageCard 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactCellAction",
+      "type": "function",
+      "name": "ArtifactCellAction",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        740,
+        773
+      ],
+      "summary": "ArtifactCellAction 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:PrimaryCell",
+      "type": "function",
+      "name": "PrimaryCell",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        775,
+        796
+      ],
+      "summary": "PrimaryCell 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:LocationCell",
+      "type": "function",
+      "name": "LocationCell",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        798,
+        827
+      ],
+      "summary": "LocationCell 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:SessionCell",
+      "type": "function",
+      "name": "SessionCell",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        829,
+        840
+      ],
+      "summary": "SessionCell 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactTable",
+      "type": "function",
+      "name": "ArtifactTable",
+      "filePath": "apps/desktop/src/app/artifacts/index.tsx",
+      "lineRange": [
+        867,
+        906
+      ],
+      "summary": "ArtifactTable 是 index.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/chat-drop-overlay.tsx",
+      "type": "file",
+      "name": "chat-drop-overlay.tsx",
+      "filePath": "apps/desktop/src/app/chat/chat-drop-overlay.tsx",
+      "summary": "chat-drop-overlay.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/chat-drop-overlay.tsx:ChatDropOverlay",
+      "type": "function",
+      "name": "ChatDropOverlay",
+      "filePath": "apps/desktop/src/app/chat/chat-drop-overlay.tsx",
+      "lineRange": [
+        20,
+        48
+      ],
+      "summary": "ChatDropOverlay 是 chat-drop-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/chat-swap-overlay.tsx",
+      "type": "file",
+      "name": "chat-swap-overlay.tsx",
+      "filePath": "apps/desktop/src/app/chat/chat-swap-overlay.tsx",
+      "summary": "chat-swap-overlay.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/chat-swap-overlay.tsx:ChatSwapOverlay",
+      "type": "function",
+      "name": "ChatSwapOverlay",
+      "filePath": "apps/desktop/src/app/chat/chat-swap-overlay.tsx",
+      "lineRange": [
+        12,
+        47
+      ],
+      "summary": "ChatSwapOverlay 是 chat-swap-overlay.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/attachments.tsx",
+      "type": "file",
+      "name": "attachments.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/attachments.tsx",
+      "summary": "attachments.tsx 是 typescript 源文件，包含 2 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/attachments.tsx:AttachmentList",
+      "type": "function",
+      "name": "AttachmentList",
+      "filePath": "apps/desktop/src/app/chat/composer/attachments.tsx",
+      "lineRange": [
+        13,
+        27
+      ],
+      "summary": "AttachmentList 是 attachments.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/attachments.tsx:AttachmentPill",
+      "type": "function",
+      "name": "AttachmentPill",
+      "filePath": "apps/desktop/src/app/chat/composer/attachments.tsx",
+      "lineRange": [
+        29,
+        114
+      ],
+      "summary": "AttachmentPill 是 attachments.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "type": "file",
+      "name": "completion-drawer.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "summary": "completion-drawer.tsx 是 typescript 源文件，包含 2 个函数、5 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/completion-drawer.tsx:ComposerCompletionDrawer",
+      "type": "function",
+      "name": "ComposerCompletionDrawer",
+      "filePath": "apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "lineRange": [
+        32,
+        54
+      ],
+      "summary": "ComposerCompletionDrawer 是 completion-drawer.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/completion-drawer.tsx:CompletionDrawerEmpty",
+      "type": "function",
+      "name": "CompletionDrawerEmpty",
+      "filePath": "apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "lineRange": [
+        56,
+        63
+      ],
+      "summary": "CompletionDrawerEmpty 是 completion-drawer.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "type": "file",
+      "name": "context-menu.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "summary": "context-menu.tsx 是 typescript 源文件，包含 3 个函数、2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:ContextMenu",
+      "type": "function",
+      "name": "ContextMenu",
+      "filePath": "apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "lineRange": [
+        23,
+        98
+      ],
+      "summary": "ContextMenu 是 context-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:PromptSnippetsDialog",
+      "type": "function",
+      "name": "PromptSnippetsDialog",
+      "filePath": "apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "lineRange": [
+        100,
+        140
+      ],
+      "summary": "PromptSnippetsDialog 是 context-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:ContextMenuItem",
+      "type": "function",
+      "name": "ContextMenuItem",
+      "filePath": "apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "lineRange": [
+        142,
+        149
+      ],
+      "summary": "ContextMenuItem 是 context-menu.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/controls.tsx",
+      "type": "file",
+      "name": "controls.tsx",
+      "filePath": "apps/desktop/src/app/chat/composer/controls.tsx",
+      "summary": "controls.tsx 是 typescript 源文件，包含 4 个函数、4 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/controls.tsx:ComposerControls",
+      "type": "function",
+      "name": "ComposerControls",
+      "filePath": "apps/desktop/src/app/chat/composer/controls.tsx",
+      "lineRange": [
+        38,
+        128
+      ],
+      "summary": "ComposerControls 是 controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/controls.tsx:ConversationPill",
+      "type": "function",
+      "name": "ConversationPill",
+      "filePath": "apps/desktop/src/app/chat/composer/controls.tsx",
+      "lineRange": [
+        130,
+        210
+      ],
+      "summary": "ConversationPill 是 controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/controls.tsx:ConversationIndicator",
+      "type": "function",
+      "name": "ConversationIndicator",
+      "filePath": "apps/desktop/src/app/chat/composer/controls.tsx",
+      "lineRange": [
+        212,
+        237
+      ],
+      "summary": "ConversationIndicator 是 controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/controls.tsx:DictationButton",
+      "type": "function",
+      "name": "DictationButton",
+      "filePath": "apps/desktop/src/app/chat/composer/controls.tsx",
+      "lineRange": [
+        239,
+        289
+      ],
+      "summary": "DictationButton 是 controls.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/drop-affordance.ts",
+      "type": "file",
+      "name": "drop-affordance.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/drop-affordance.ts",
+      "summary": "drop-affordance.ts 是 typescript 源文件，包含 2 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "type": "file",
+      "name": "focus.ts",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "summary": "focus.ts 是 typescript 源文件，包含 11 个函数、8 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:subscribe",
+      "type": "function",
+      "name": "subscribe",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        49,
+        65
+      ],
+      "summary": "subscribe 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:markActiveComposer",
+      "type": "function",
+      "name": "markActiveComposer",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        67,
+        69
+      ],
+      "summary": "markActiveComposer 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerFocus",
+      "type": "function",
+      "name": "requestComposerFocus",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        71,
+        72
+      ],
+      "summary": "requestComposerFocus 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerInsert",
+      "type": "function",
+      "name": "requestComposerInsert",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        74,
+        85
+      ],
+      "summary": "requestComposerInsert 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerFocusRequest",
+      "type": "function",
+      "name": "onComposerFocusRequest",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        87,
+        88
+      ],
+      "summary": "onComposerFocusRequest 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerInsertRequest",
+      "type": "function",
+      "name": "onComposerInsertRequest",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        90,
+        91
+      ],
+      "summary": "onComposerInsertRequest 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerInsertRefs",
+      "type": "function",
+      "name": "requestComposerInsertRefs",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        95,
+        102
+      ],
+      "summary": "requestComposerInsertRefs 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerInsertRefsRequest",
+      "type": "function",
+      "name": "onComposerInsertRefsRequest",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        104,
+        105
+      ],
+      "summary": "onComposerInsertRefsRequest 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/src/app/chat/composer/focus.ts:focusComposerInput",
+      "type": "function",
+      "name": "focusComposerInput",
+      "filePath": "apps/desktop/src/app/chat/composer/focus.ts",
+      "lineRange": [
+        115,
+        125
+      ],
+      "summary": "focusComposerInput 是 focus.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/desktop/scripts/notarize.cjs",
+      "target": "function:apps/desktop/scripts/notarize.cjs:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/notarize.cjs",
+      "target": "function:apps/desktop/scripts/notarize.cjs:resolveApiKeyPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-long-stream.mjs",
+      "target": "function:apps/desktop/scripts/profile-long-stream.mjs:connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-long-stream.mjs",
+      "target": "function:apps/desktop/scripts/profile-long-stream.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-real-stream.mjs",
+      "target": "function:apps/desktop/scripts/profile-real-stream.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-real-stream.mjs",
+      "target": "class:apps/desktop/scripts/profile-real-stream.mjs:CDP",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-synth-stream.mjs",
+      "target": "function:apps/desktop/scripts/profile-synth-stream.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-synth-stream.mjs",
+      "target": "class:apps/desktop/scripts/profile-synth-stream.mjs:CDP",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:pickRenderer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:focusComposer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:dispatchChar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:typeText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/profile-typing.mjs",
+      "target": "function:apps/desktop/scripts/profile-typing.mjs:summarizeProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/set-exe-identity.cjs",
+      "target": "function:apps/desktop/scripts/set-exe-identity.cjs:stampExeIdentity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/stage-native-deps.cjs",
+      "target": "function:apps/desktop/scripts/stage-native-deps.cjs:walk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/stage-native-deps.cjs",
+      "target": "function:apps/desktop/scripts/stage-native-deps.cjs:matchGlob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/stage-native-deps.cjs",
+      "target": "function:apps/desktop/scripts/stage-native-deps.cjs:stageOne",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:resolveDmgPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:resolveNsisPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:openApp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:openDmg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:launchFresh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:validateBundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:printArtifacts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/test-desktop.mjs",
+      "target": "function:apps/desktop/scripts/test-desktop.mjs:help",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/write-build-stamp.cjs",
+      "target": "function:apps/desktop/scripts/write-build-stamp.cjs:fromCI",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/write-build-stamp.cjs",
+      "target": "function:apps/desktop/scripts/write-build-stamp.cjs:fromLocalGit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/scripts/write-build-stamp.cjs",
+      "target": "function:apps/desktop/scripts/write-build-stamp.cjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:statusGlyph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:streamGlyph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:AgentsView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:AgentsView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:fmtDuration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:fmtAge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:groupDelegations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:SubagentTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:DelegationGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:StreamLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/agents/index.tsx",
+      "target": "function:apps/desktop/src/app/agents/index.tsx:SubagentRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.test.ts",
+      "target": "function:apps/desktop/src/app/artifacts/index.test.ts:makeSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:parseMaybeJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:looksLikePathOrUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:looksLikeArtifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:artifactKind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:artifactHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:artifactLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:messageText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:collectStringValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsFromText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsFromMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsForSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:collectArtifactsForSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:pageRangeLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:paginationItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactsView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactsView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactsPagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactImageCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactCellAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:PrimaryCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:LocationCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:SessionCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/artifacts/index.tsx",
+      "target": "function:apps/desktop/src/app/artifacts/index.tsx:ArtifactTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/chat-drop-overlay.tsx",
+      "target": "function:apps/desktop/src/app/chat/chat-drop-overlay.tsx:ChatDropOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/chat-drop-overlay.tsx",
+      "target": "function:apps/desktop/src/app/chat/chat-drop-overlay.tsx:ChatDropOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/chat-swap-overlay.tsx",
+      "target": "function:apps/desktop/src/app/chat/chat-swap-overlay.tsx:ChatSwapOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/chat-swap-overlay.tsx",
+      "target": "function:apps/desktop/src/app/chat/chat-swap-overlay.tsx:ChatSwapOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/attachments.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/attachments.tsx:AttachmentList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/attachments.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/attachments.tsx:AttachmentList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/attachments.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/attachments.tsx:AttachmentPill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/completion-drawer.tsx:ComposerCompletionDrawer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/completion-drawer.tsx:ComposerCompletionDrawer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/completion-drawer.tsx:CompletionDrawerEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/completion-drawer.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/completion-drawer.tsx:CompletionDrawerEmpty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:ContextMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:ContextMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:PromptSnippetsDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:ContextMenuItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/context-menu.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/context-menu.tsx:ContextMenuItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/controls.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/controls.tsx:ComposerControls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/controls.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/controls.tsx:ComposerControls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/controls.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/controls.tsx:ConversationPill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/controls.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/controls.tsx:ConversationIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/controls.tsx",
+      "target": "function:apps/desktop/src/app/chat/composer/controls.tsx:DictationButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:subscribe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:markActiveComposer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:markActiveComposer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerFocus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerFocus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerInsert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerInsert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerFocusRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerFocusRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerInsertRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerInsertRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerInsertRefs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:requestComposerInsertRefs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerInsertRefsRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:onComposerInsertRefsRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:focusComposerInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/src/app/chat/composer/focus.ts",
+      "target": "function:apps/desktop/src/app/chat/composer/focus.ts:focusComposerInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

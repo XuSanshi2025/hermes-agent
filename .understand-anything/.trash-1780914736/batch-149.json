@@ -1,0 +1,1458 @@
+{
+  "nodes": [
+    {
+      "id": "file:apps/bootstrap-installer/src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "apps/bootstrap-installer/src/main.tsx",
+      "summary": "main.tsx 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/routes/failure.tsx",
+      "type": "file",
+      "name": "failure.tsx",
+      "filePath": "apps/bootstrap-installer/src/routes/failure.tsx",
+      "summary": "failure.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/routes/failure.tsx:Failure",
+      "type": "function",
+      "name": "Failure",
+      "filePath": "apps/bootstrap-installer/src/routes/failure.tsx",
+      "lineRange": [
+        25,
+        84
+      ],
+      "summary": "Failure 是 failure.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/routes/progress.tsx",
+      "type": "file",
+      "name": "progress.tsx",
+      "filePath": "apps/bootstrap-installer/src/routes/progress.tsx",
+      "summary": "progress.tsx 是 typescript 源文件，包含 3 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/routes/progress.tsx:ProgressScreen",
+      "type": "function",
+      "name": "ProgressScreen",
+      "filePath": "apps/bootstrap-installer/src/routes/progress.tsx",
+      "lineRange": [
+        22,
+        159
+      ],
+      "summary": "ProgressScreen 是 progress.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/routes/progress.tsx:StateIcon",
+      "type": "function",
+      "name": "StateIcon",
+      "filePath": "apps/bootstrap-installer/src/routes/progress.tsx",
+      "lineRange": [
+        161,
+        180
+      ],
+      "summary": "StateIcon 是 progress.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/routes/success.tsx",
+      "type": "file",
+      "name": "success.tsx",
+      "filePath": "apps/bootstrap-installer/src/routes/success.tsx",
+      "summary": "success.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/routes/success.tsx:Success",
+      "type": "function",
+      "name": "Success",
+      "filePath": "apps/bootstrap-installer/src/routes/success.tsx",
+      "lineRange": [
+        18,
+        87
+      ],
+      "summary": "Success 是 success.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/routes/welcome.tsx",
+      "type": "file",
+      "name": "welcome.tsx",
+      "filePath": "apps/bootstrap-installer/src/routes/welcome.tsx",
+      "summary": "welcome.tsx 是 typescript 源文件，包含 1 个函数、1 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/routes/welcome.tsx:Welcome",
+      "type": "function",
+      "name": "Welcome",
+      "filePath": "apps/bootstrap-installer/src/routes/welcome.tsx",
+      "lineRange": [
+        18,
+        58
+      ],
+      "summary": "Welcome 是 welcome.tsx 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/store.ts",
+      "type": "file",
+      "name": "store.ts",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "summary": "store.ts 是 typescript 源文件，包含 6 个函数、12 个导出符号，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "exports",
+        "functions"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/store.ts:initialize",
+      "type": "function",
+      "name": "initialize",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "lineRange": [
+        133,
+        236
+      ],
+      "summary": "initialize 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/store.ts:startInstall",
+      "type": "function",
+      "name": "startInstall",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "lineRange": [
+        242,
+        255
+      ],
+      "summary": "startInstall 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/store.ts:startUpdate",
+      "type": "function",
+      "name": "startUpdate",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "lineRange": [
+        257,
+        264
+      ],
+      "summary": "startUpdate 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/store.ts:cancelInstall",
+      "type": "function",
+      "name": "cancelInstall",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "lineRange": [
+        266,
+        268
+      ],
+      "summary": "cancelInstall 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/store.ts:launchHermesDesktop",
+      "type": "function",
+      "name": "launchHermesDesktop",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "lineRange": [
+        270,
+        274
+      ],
+      "summary": "launchHermesDesktop 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/bootstrap-installer/src/store.ts:openLogDir",
+      "type": "function",
+      "name": "openLogDir",
+      "filePath": "apps/bootstrap-installer/src/store.ts",
+      "lineRange": [
+        276,
+        278
+      ],
+      "summary": "openLogDir 是 store.ts 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "typescript",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/styles.css",
+      "type": "file",
+      "name": "styles.css",
+      "filePath": "apps/bootstrap-installer/src/styles.css",
+      "summary": "styles.css 是 css 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "css",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 css。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "apps/bootstrap-installer/src/vite-env.d.ts",
+      "summary": "vite-env.d.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/bootstrap-installer/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "apps/bootstrap-installer/vite.config.ts",
+      "summary": "vite.config.ts 是 typescript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "typescript",
+        "project",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 typescript。"
+    },
+    {
+      "id": "file:apps/desktop/assets/icon.icns",
+      "type": "file",
+      "name": "icon.icns",
+      "filePath": "apps/desktop/assets/icon.icns",
+      "summary": "icon.icns 是 icns 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "icns",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 icns。"
+    },
+    {
+      "id": "file:apps/desktop/electron/backend-probes.cjs",
+      "type": "file",
+      "name": "backend-probes.cjs",
+      "filePath": "apps/desktop/electron/backend-probes.cjs",
+      "summary": "backend-probes.cjs 是 javascript 源文件，包含 2 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/backend-probes.cjs:canImportHermesCli",
+      "type": "function",
+      "name": "canImportHermesCli",
+      "filePath": "apps/desktop/electron/backend-probes.cjs",
+      "lineRange": [
+        52,
+        64
+      ],
+      "summary": "canImportHermesCli 是 backend-probes.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/backend-probes.cjs:verifyHermesCli",
+      "type": "function",
+      "name": "verifyHermesCli",
+      "filePath": "apps/desktop/electron/backend-probes.cjs",
+      "lineRange": [
+        87,
+        100
+      ],
+      "summary": "verifyHermesCli 是 backend-probes.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/electron/backend-probes.test.cjs",
+      "type": "file",
+      "name": "backend-probes.test.cjs",
+      "filePath": "apps/desktop/electron/backend-probes.test.cjs",
+      "summary": "backend-probes.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/bootstrap-platform.cjs",
+      "type": "file",
+      "name": "bootstrap-platform.cjs",
+      "filePath": "apps/desktop/electron/bootstrap-platform.cjs",
+      "summary": "bootstrap-platform.cjs 是 javascript 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-platform.cjs:isWslEnvironment",
+      "type": "function",
+      "name": "isWslEnvironment",
+      "filePath": "apps/desktop/electron/bootstrap-platform.cjs",
+      "lineRange": [
+        3,
+        13
+      ],
+      "summary": "isWslEnvironment 是 bootstrap-platform.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-platform.cjs:isWindowsBinaryPathInWsl",
+      "type": "function",
+      "name": "isWindowsBinaryPathInWsl",
+      "filePath": "apps/desktop/electron/bootstrap-platform.cjs",
+      "lineRange": [
+        15,
+        29
+      ],
+      "summary": "isWindowsBinaryPathInWsl 是 bootstrap-platform.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-platform.cjs:detectRemoteDisplay",
+      "type": "function",
+      "name": "detectRemoteDisplay",
+      "filePath": "apps/desktop/electron/bootstrap-platform.cjs",
+      "lineRange": [
+        51,
+        84
+      ],
+      "summary": "detectRemoteDisplay 是 bootstrap-platform.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/electron/bootstrap-platform.test.cjs",
+      "type": "file",
+      "name": "bootstrap-platform.test.cjs",
+      "filePath": "apps/desktop/electron/bootstrap-platform.test.cjs",
+      "summary": "bootstrap-platform.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "type": "file",
+      "name": "bootstrap-runner.cjs",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "summary": "bootstrap-runner.cjs 是 javascript 源文件，包含 19 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:resolveLocalInstallScript",
+      "type": "function",
+      "name": "resolveLocalInstallScript",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        64,
+        73
+      ],
+      "summary": "resolveLocalInstallScript 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:installedAgentInstallScript",
+      "type": "function",
+      "name": "installedAgentInstallScript",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        83,
+        92
+      ],
+      "summary": "installedAgentInstallScript 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:downloadInstallScript",
+      "type": "function",
+      "name": "downloadInstallScript",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        98,
+        171
+      ],
+      "summary": "downloadInstallScript 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:resolveInstallScript",
+      "type": "function",
+      "name": "resolveInstallScript",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        173,
+        236
+      ],
+      "summary": "resolveInstallScript 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:resolveWindowsPowerShell",
+      "type": "function",
+      "name": "resolveWindowsPowerShell",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        256,
+        280
+      ],
+      "summary": "resolveWindowsPowerShell 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:spawnPowerShell",
+      "type": "function",
+      "name": "spawnPowerShell",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        282,
+        358
+      ],
+      "summary": "spawnPowerShell 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:spawnBash",
+      "type": "function",
+      "name": "spawnBash",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        360,
+        429
+      ],
+      "summary": "spawnBash 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:buildPinArgs",
+      "type": "function",
+      "name": "buildPinArgs",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        438,
+        447
+      ],
+      "summary": "buildPinArgs 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:buildPosixPinArgs",
+      "type": "function",
+      "name": "buildPosixPinArgs",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        449,
+        458
+      ],
+      "summary": "buildPosixPinArgs 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:fetchManifest",
+      "type": "function",
+      "name": "fetchManifest",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        460,
+        492
+      ],
+      "summary": "fetchManifest 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:parseStageResult",
+      "type": "function",
+      "name": "parseStageResult",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        497,
+        510
+      ],
+      "summary": "parseStageResult 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:runStage",
+      "type": "function",
+      "name": "runStage",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        512,
+        576
+      ],
+      "summary": "runStage 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/bootstrap-runner.cjs:runBootstrap",
+      "type": "function",
+      "name": "runBootstrap",
+      "filePath": "apps/desktop/electron/bootstrap-runner.cjs",
+      "lineRange": [
+        594,
+        710
+      ],
+      "summary": "runBootstrap 是 bootstrap-runner.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/electron/bootstrap-runner.test.cjs",
+      "type": "file",
+      "name": "bootstrap-runner.test.cjs",
+      "filePath": "apps/desktop/electron/bootstrap-runner.test.cjs",
+      "summary": "bootstrap-runner.test.cjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/connection-config.cjs",
+      "type": "file",
+      "name": "connection-config.cjs",
+      "filePath": "apps/desktop/electron/connection-config.cjs",
+      "summary": "connection-config.cjs 是 javascript 源文件，包含 12 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/connection-config.cjs:normalizeRemoteBaseUrl",
+      "type": "function",
+      "name": "normalizeRemoteBaseUrl",
+      "filePath": "apps/desktop/electron/connection-config.cjs",
+      "lineRange": [
+        40,
+        63
+      ],
+      "summary": "normalizeRemoteBaseUrl 是 connection-config.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/connection-config.cjs:resolveTestWsUrl",
+      "type": "function",
+      "name": "resolveTestWsUrl",
+      "filePath": "apps/desktop/electron/connection-config.cjs",
+      "lineRange": [
+        108,
+        132
+      ],
+      "summary": "resolveTestWsUrl 是 connection-config.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/connection-config.cjs:profileRemoteOverride",
+      "type": "function",
+      "name": "profileRemoteOverride",
+      "filePath": "apps/desktop/electron/connection-config.cjs",
+      "lineRange": [
+        154,
+        167
+      ],
+      "summary": "profileRemoteOverride 是 connection-config.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/electron/connection-config.test.cjs",
+      "type": "file",
+      "name": "connection-config.test.cjs",
+      "filePath": "apps/desktop/electron/connection-config.test.cjs",
+      "summary": "connection-config.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "file:apps/desktop/electron/desktop-uninstall.cjs",
+      "type": "file",
+      "name": "desktop-uninstall.cjs",
+      "filePath": "apps/desktop/electron/desktop-uninstall.cjs",
+      "summary": "desktop-uninstall.cjs 是 javascript 源文件，包含 7 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/desktop-uninstall.cjs:resolveRemovableAppPath",
+      "type": "function",
+      "name": "resolveRemovableAppPath",
+      "filePath": "apps/desktop/electron/desktop-uninstall.cjs",
+      "lineRange": [
+        68,
+        99
+      ],
+      "summary": "resolveRemovableAppPath 是 desktop-uninstall.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/desktop-uninstall.cjs:buildPosixCleanupScript",
+      "type": "function",
+      "name": "buildPosixCleanupScript",
+      "filePath": "apps/desktop/electron/desktop-uninstall.cjs",
+      "lineRange": [
+        122,
+        152
+      ],
+      "summary": "buildPosixCleanupScript 是 desktop-uninstall.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/desktop-uninstall.cjs:buildWindowsCleanupScript",
+      "type": "function",
+      "name": "buildWindowsCleanupScript",
+      "filePath": "apps/desktop/electron/desktop-uninstall.cjs",
+      "lineRange": [
+        172,
+        221
+      ],
+      "summary": "buildWindowsCleanupScript 是 desktop-uninstall.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:apps/desktop/electron/desktop-uninstall.test.cjs",
+      "type": "file",
+      "name": "desktop-uninstall.test.cjs",
+      "filePath": "apps/desktop/electron/desktop-uninstall.test.cjs",
+      "summary": "desktop-uninstall.test.cjs 是 javascript 源文件，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "project",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "config:apps/desktop/electron/entitlements.mac.inherit.plist",
+      "type": "config",
+      "name": "entitlements.mac.inherit.plist",
+      "filePath": "apps/desktop/electron/entitlements.mac.inherit.plist",
+      "summary": "entitlements.mac.inherit.plist 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "config:apps/desktop/electron/entitlements.mac.plist",
+      "type": "config",
+      "name": "entitlements.mac.plist",
+      "filePath": "apps/desktop/electron/entitlements.mac.plist",
+      "summary": "entitlements.mac.plist 是项目配置文件，控制相关工具、运行参数或构建行为。",
+      "tags": [
+        "xml",
+        "configuration",
+        "component"
+      ],
+      "complexity": "simple",
+      "languageNotes": "该文件主要使用 xml。"
+    },
+    {
+      "id": "file:apps/desktop/electron/gateway-ws-probe.cjs",
+      "type": "file",
+      "name": "gateway-ws-probe.cjs",
+      "filePath": "apps/desktop/electron/gateway-ws-probe.cjs",
+      "summary": "gateway-ws-probe.cjs 是 javascript 源文件，包含 4 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "gateway",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/gateway-ws-probe.cjs:probeGatewayWebSocket",
+      "type": "function",
+      "name": "probeGatewayWebSocket",
+      "filePath": "apps/desktop/electron/gateway-ws-probe.cjs",
+      "lineRange": [
+        45,
+        152
+      ],
+      "summary": "probeGatewayWebSocket 是 gateway-ws-probe.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:apps/desktop/electron/gateway-ws-probe.cjs:addListener",
+      "type": "function",
+      "name": "addListener",
+      "filePath": "apps/desktop/electron/gateway-ws-probe.cjs",
+      "lineRange": [
+        154,
+        164
+      ],
+      "summary": "addListener 是 gateway-ws-probe.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/electron/gateway-ws-probe.test.cjs",
+      "type": "file",
+      "name": "gateway-ws-probe.test.cjs",
+      "filePath": "apps/desktop/electron/gateway-ws-probe.test.cjs",
+      "summary": "gateway-ws-probe.test.cjs 是 javascript 源文件，包含 1 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "gateway",
+        "functions"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/gateway-ws-probe.test.cjs:makeFakeWs",
+      "type": "function",
+      "name": "makeFakeWs",
+      "filePath": "apps/desktop/electron/gateway-ws-probe.test.cjs",
+      "lineRange": [
+        19,
+        39
+      ],
+      "summary": "makeFakeWs 是 gateway-ws-probe.test.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:apps/desktop/electron/hardening.cjs",
+      "type": "file",
+      "name": "hardening.cjs",
+      "filePath": "apps/desktop/electron/hardening.cjs",
+      "summary": "hardening.cjs 是 javascript 源文件，包含 5 个函数，承担该目录下的功能实现或集成职责。",
+      "tags": [
+        "javascript",
+        "functions",
+        "component"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该文件主要使用 javascript。"
+    },
+    {
+      "id": "function:apps/desktop/electron/hardening.cjs:resolveTimeoutMs",
+      "type": "function",
+      "name": "resolveTimeoutMs",
+      "filePath": "apps/desktop/electron/hardening.cjs",
+      "lineRange": [
+        12,
+        22
+      ],
+      "summary": "resolveTimeoutMs 是 hardening.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/hardening.cjs:encryptDesktopSecret",
+      "type": "function",
+      "name": "encryptDesktopSecret",
+      "filePath": "apps/desktop/electron/hardening.cjs",
+      "lineRange": [
+        24,
+        58
+      ],
+      "summary": "encryptDesktopSecret 是 hardening.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/hardening.cjs:sensitiveFileBlockReason",
+      "type": "function",
+      "name": "sensitiveFileBlockReason",
+      "filePath": "apps/desktop/electron/hardening.cjs",
+      "lineRange": [
+        60,
+        107
+      ],
+      "summary": "sensitiveFileBlockReason 是 hardening.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/hardening.cjs:resolveRequestedFilePath",
+      "type": "function",
+      "name": "resolveRequestedFilePath",
+      "filePath": "apps/desktop/electron/hardening.cjs",
+      "lineRange": [
+        109,
+        130
+      ],
+      "summary": "resolveRequestedFilePath 是 hardening.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:apps/desktop/electron/hardening.cjs:resolveReadableFileForIpc",
+      "type": "function",
+      "name": "resolveReadableFileForIpc",
+      "filePath": "apps/desktop/electron/hardening.cjs",
+      "lineRange": [
+        132,
+        174
+      ],
+      "summary": "resolveReadableFileForIpc 是 hardening.cjs 中的函数，封装该文件的一段核心逻辑。",
+      "tags": [
+        "function",
+        "javascript",
+        "internal"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/failure.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/failure.tsx:Failure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/failure.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/failure.tsx:Failure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/progress.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/progress.tsx:ProgressScreen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/progress.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/progress.tsx:ProgressScreen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/progress.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/progress.tsx:StateIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/success.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/success.tsx:Success",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/success.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/success.tsx:Success",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/welcome.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/welcome.tsx:Welcome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/routes/welcome.tsx",
+      "target": "function:apps/bootstrap-installer/src/routes/welcome.tsx:Welcome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:initialize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:initialize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:startInstall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:startInstall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:startUpdate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:startUpdate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:cancelInstall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:cancelInstall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:launchHermesDesktop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:launchHermesDesktop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:openLogDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/bootstrap-installer/src/store.ts",
+      "target": "function:apps/bootstrap-installer/src/store.ts:openLogDir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:apps/desktop/electron/backend-probes.cjs",
+      "target": "function:apps/desktop/electron/backend-probes.cjs:canImportHermesCli",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/backend-probes.cjs",
+      "target": "function:apps/desktop/electron/backend-probes.cjs:verifyHermesCli",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-platform.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-platform.cjs:isWslEnvironment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-platform.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-platform.cjs:isWindowsBinaryPathInWsl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-platform.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-platform.cjs:detectRemoteDisplay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:resolveLocalInstallScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:installedAgentInstallScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:downloadInstallScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:resolveInstallScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:resolveWindowsPowerShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:spawnPowerShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:spawnBash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:buildPinArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:buildPosixPinArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:fetchManifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:parseStageResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:runStage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/bootstrap-runner.cjs",
+      "target": "function:apps/desktop/electron/bootstrap-runner.cjs:runBootstrap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/connection-config.cjs",
+      "target": "function:apps/desktop/electron/connection-config.cjs:normalizeRemoteBaseUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/connection-config.cjs",
+      "target": "function:apps/desktop/electron/connection-config.cjs:resolveTestWsUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/connection-config.cjs",
+      "target": "function:apps/desktop/electron/connection-config.cjs:profileRemoteOverride",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/desktop-uninstall.cjs",
+      "target": "function:apps/desktop/electron/desktop-uninstall.cjs:resolveRemovableAppPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/desktop-uninstall.cjs",
+      "target": "function:apps/desktop/electron/desktop-uninstall.cjs:buildPosixCleanupScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/desktop-uninstall.cjs",
+      "target": "function:apps/desktop/electron/desktop-uninstall.cjs:buildWindowsCleanupScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/gateway-ws-probe.cjs",
+      "target": "function:apps/desktop/electron/gateway-ws-probe.cjs:probeGatewayWebSocket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/gateway-ws-probe.cjs",
+      "target": "function:apps/desktop/electron/gateway-ws-probe.cjs:addListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/gateway-ws-probe.test.cjs",
+      "target": "function:apps/desktop/electron/gateway-ws-probe.test.cjs:makeFakeWs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/hardening.cjs",
+      "target": "function:apps/desktop/electron/hardening.cjs:resolveTimeoutMs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/hardening.cjs",
+      "target": "function:apps/desktop/electron/hardening.cjs:encryptDesktopSecret",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/hardening.cjs",
+      "target": "function:apps/desktop/electron/hardening.cjs:sensitiveFileBlockReason",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/hardening.cjs",
+      "target": "function:apps/desktop/electron/hardening.cjs:resolveRequestedFilePath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:apps/desktop/electron/hardening.cjs",
+      "target": "function:apps/desktop/electron/hardening.cjs:resolveReadableFileForIpc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}
